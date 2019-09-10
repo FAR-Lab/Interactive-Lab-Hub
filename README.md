@@ -3,9 +3,13 @@
 **A lab report by Eduardo Castillo**
 ## Part A. Set Up a Breadboard
 ![](http://nurburgcosmetics.com/WhatsApp%20Image%202019-09-09%20at%2011.06.48%20PM.jpeg)
+\n
 ## Part B. Manually Blink a LED
+\n
 **a. What color stripes are on a 100 Ohm resistor?**
+\n
  The stripes are brown, black, brown and gold.
+ 
 **b. What do you have to do to light your LED?**
 To light the LED, the push button has to be pushed.
 ## Part C. Blink a LED using Arduino
