@@ -49,8 +49,9 @@ https://www.youtube.com/watch?v=FFjn94S0WWs
 The output pin for PWM needs to be changed  to Pin 11 in the Arduino IDE. 
 https://www.youtube.com/watch?v=vzFAC1Ba35M
 
-**b. What is analogWrite()? How is that different than digitalWrite()?**
+**b. What is analogWrite()?**
 analogWrite uses Pulse Width Modulation to regulate perceived intensity of LED light using a 0-255 (8 bit) resolution between zero and full pulse width.
+**How is that different than digitalWrite()?**
 digitalWrite just takes two values: 0(Digital Low) or 5 volts(Digital High).
 
 ## Part F. FRANKENLIGHT!!!
