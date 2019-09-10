@@ -2,7 +2,7 @@
 
 **A lab report by Eduardo Castillo**
 ## Part A. Set Up a Breadboard
-![](http://nurburgcosmetics.com/WhatsApp Image 2019-09-09 at 11.06.48 PM.jpeg)
+![](http://nurburgcosmetics.com/WhatsApp%20Image%202019-09-09%20at%2011.06.48%20PM.jpeg)
 ## Part B. Manually Blink a LED
 **a. What color stripes are on a 100 Ohm resistor?**
  The stripes are brown, black, brown and gold.
