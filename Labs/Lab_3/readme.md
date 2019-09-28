@@ -1,6 +1,6 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Eduardo Joaquin Castillo*
 
 ## In The Report
 
