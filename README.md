@@ -2,5 +2,9 @@
 
 Completed Labs for Wen-Ying Lee
 
-1. [Lab 1](//github.com/johnqstudent/idd-fa18-lab1)
-2. [John Q's Lab 2](//github.com/johnqstudent/idd-fa18-lab2)
+1. [Lab 1](//github.com/wendy039474/idd-fa19-lab1)
+2. [Lab 2](//github.com/wendy039474/idd-fa19-lab2)
+3. [Lab 3](//github.com/wendy039474/idd-fa19-lab3)
+3. [Lab 4](//github.com/wendy039474/idd-fa19-lab4)
+3. [Lab 5](//github.com/wendy039474/idd-fa19-lab5)
+3. [Lab 6](//github.com/wendy039474/idd-fa19-lab6)
