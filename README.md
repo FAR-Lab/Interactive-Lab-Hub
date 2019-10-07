@@ -2,7 +2,7 @@
 
 Completed Prelabs for Wen-Ying Lee
 
-1. [Prelab 1](completed)
+1. Prelab 1 (completed)
 2. [Prelab 2](//github.com/wendy039474/idd-fa19-lab2)
 3. [Prelab 3](//github.com/wendy039474/idd-fa19-lab3)
 3. [Prelab 4](//github.com/wendy039474/idd-fa19-lab4)
