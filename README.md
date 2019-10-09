@@ -3,7 +3,7 @@
 Completed Prelabs for Wen-Ying Lee
 
 1. Prelab 1 (completed)
-2. [Prelab 2]
+2. Prelab 2 (completed)
 3. [Prelab 3]
 3. [Prelab 4]
 3. [Prelab 5]
