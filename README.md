@@ -8,7 +8,7 @@ Completed Prelabs for Wen-Ying Lee
 4. Prelab 4 (completed)
 5. Prelab 5 (completed)
 6. Prelab 6 (completed)
-7. [Prelab 7]
+7. Prelab 7 (completed)
 
 Completed Labs for Wen-Ying Lee
 
@@ -18,4 +18,4 @@ Completed Labs for Wen-Ying Lee
 4. [Lab 4](//github.com/wendy039474/IDD-Fa19-Lab4)
 5. [Lab 5](//github.com/wendy039474/IDD-Fa19-Lab5)
 6. [Lab 6](//github.com/wendy039474/IDD-Fa19-Lab6)
-7. [Lab 7]
+7. [Lab 7](//github.com/wendy039474/IDD-Fa19-Lab7)
