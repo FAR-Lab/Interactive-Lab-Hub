@@ -8,6 +8,7 @@ For next week's lab, we'll be making useless boxes. For the lab, we'll have read
 [[images/paper-prototype.JPG]]
 
 
+# Lab5
 
 #  Data logging with Rpi and Arduino
 
