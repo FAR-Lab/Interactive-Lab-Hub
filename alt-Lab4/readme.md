@@ -1,3 +1,6 @@
+This lab is a merge of what is originally Lab 4 and Lab 5 of the curriculum. This is meant for students who have had this curriculum before. If you have little experience with electronics, breadboarding, Arduino programming or the Arduino hardware, please work on Lab 4 and Lab 5 separately!
+
+The alt-pre-Lab helps you to get set up in advance of in-class lab.
 
 # Pre Lab 4
 For the upcoming labs, we will be building paper displays inspired by [Isaac Blankensmith](http://www.isaacblankensmith.com/) and [Smooth Technology's](https://smooth.technology) [Paper Signals](https://experiments.withgoogle.com/paper-signals) project (Lab 4) or building a paper jack in a box (Lab 5). W
