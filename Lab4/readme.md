@@ -50,6 +50,8 @@ Microcontrollers Ch 13
 
 3. BRING CARDBOARD FOR LAB 5
 
+# Lab 4
+
 # Make a Digital Timer!
  
 ## Overview
