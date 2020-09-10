@@ -1,1 +1,0 @@
-yet another test page.
