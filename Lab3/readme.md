@@ -8,19 +8,19 @@
 
 2. DESIGN READING: 
 
-[Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
+* [Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
 
-[Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
+* [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
 
-[Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard. The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
+* [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard. The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
 
 <img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > Dyson Vacuum cardboard prototypes
 
-2. ELECTRONICS READING
+2. ELECTRONICS READING:
 
-Scherz, Ch 15.1-15.4 Motors
+* Scherz, Ch 15.1-15.4 Motors
 
-[How to pick the right battery for your project](https://learn.adafruit.com/all-about-batteries/how-to-pick-the-right-battery-for-your-project) from Adafruit
+* [How to pick the right battery for your project](https://learn.adafruit.com/all-about-batteries/how-to-pick-the-right-battery-for-your-project) from Adafruit
 
 
 4. Find cardboard for lab. You will need an Olfa knife, cardboard, ruler, cutting mat. Also you will need a 9v battery and the battery connector.
