@@ -1,3 +1,7 @@
+
+
+# Light It Up
+
 # Prelab
 
 1. Set up your Github class "Hub" repository by [following these instructions](https://github.com/jdz32/github-guide/blob/master/README.md).
@@ -17,8 +21,6 @@ For class, remember to bring:
 2. Your device-to-be-hacked
 3. Whatever dongle you need to hook up a USB device to your laptop
 
-# Part I
-# Light It Up
  
 ## Overview
 For this assignment, you are going to 
