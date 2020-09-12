@@ -28,7 +28,7 @@ D) [make your very own timer](#part-d-timer)
 BONUS) [make your timer sing!](#part-e-tone).
  
 ## In The Report
-Include your responses to the bold questions. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as 'wiki' pages on your GitHub, and post a link to that wiki on Slack under your channel and #Lab4.
+Include your responses to the bold questions. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports in this repository, and link the lab to your repository directory when it is finished.
 
 ## Part A. Revisiting Blink
 
