@@ -53,8 +53,7 @@ The best way to generate the BOM is probably to make an excel file or CSV, and t
 
 **Bill of Materials**
 Use the table below, or just include a link to a spreadsheet or pdf.
-Put tabs between columnsCompact modeLine breaks as <br>
-Result (click "Generate" to refresh) Copy to clipboard   Preview
+
 | Part   | Value                 | Device                    |   | Package                | Description                      | Notes                                                                          | Example part                                                                                                                                                                                                                                                                                                                                |
 |--------|-----------------------|---------------------------|---|------------------------|----------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | U2     | ATMEGA328P            | ATMEGA328P                | * | MLF32-TH               | ATMEGA 328P                      | BRAINZ                                                                         | https://www.digikey.com/product-detail/en/ATMEGA328P-MU/ATMEGA328P-MU-ND/1914588/?itemSeq=338642865                                                                                                                                                                                                                                         |
