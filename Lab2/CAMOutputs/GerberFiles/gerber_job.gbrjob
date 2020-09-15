@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-09-15T18:24:52Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "watch rev 3 board"
+        },
+        "Owner": "Eddie Rodriguez <eddie.albert.rodriguez@gmail.com>",
+        "Size": {
+            "X": 41.788178,
+            "Y": 37.576356
+        }
+    }
+}
