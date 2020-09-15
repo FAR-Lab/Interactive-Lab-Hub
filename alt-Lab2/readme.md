@@ -52,7 +52,7 @@ This is a spreadsheet/table to help you keep tabs on what parts you need to orde
 The best way to generate the BOM is probably to make an excel file or CSV, and then [use this tables generator website](https://www.tablesgenerator.com/markdown_tables) to convert the input to markdown:
 
 **Bill of Materials**
-Use the table below, or just include a link to a spreadsheet or pdf.
+Use the table below (pre-populated with parts from the Adafruit Metro Mini), or just include a link to a spreadsheet or pdf.
 
 | Part   | Value                 | Device                    |   | Package                | Description                      | Notes                                                                          | Example part                                                                                                                                                                                                                                                                                                                                |
 |--------|-----------------------|---------------------------|---|------------------------|----------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -90,9 +90,6 @@ Use the table below, or just include a link to a spreadsheet or pdf.
 | @      | Inputs and connectors |                           |   |                        |                                  |                                                                                |                                                                                                                                                                                                                                                                                                                                             |
 | !      | Indicators            |                           |   |                        |                                  |                                                                                |                                                                                                                                                                                                                                                                                                                                             |
 | =      | Capacitors            |                           |   |                        |                                  |                                                                                |                                                                                                                                                                                                                                                                                                                                             |
-
-
-
 
 
 ## Part C. Prototype your Arduino+
