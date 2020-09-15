@@ -49,6 +49,8 @@ Develop a bill of materials for your Arduino +.
 
 This is a spreadsheet/table to help you keep tabs on what parts you need to order to populate your board. [Here is an example of a BOM](http://solderpad.com/solderpad/arduino-uno/) for an Arduino Uno, from Solderpad.com. 
 
+The best way to generate the BOM is probably to make an excel file or CSV, and then [use this tables generator website](https://www.tablesgenerator.com/markdown_tables) to convert the input to markdown:
+
 **Bill of Materials**
 Use the table below, or just include a link to a spreadsheet or pdf.
 | Part name | Part ID | Part description | # of units | link to data sheet | link to source | Notes |
@@ -56,6 +58,8 @@ Use the table below, or just include a link to a spreadsheet or pdf.
 | Atmega 328P    |   U1 |   Microcontroller  |  1   |  [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)   |   [Amazon](https://www.amazon.com/dp/B004G51AMW)  |  Bootloader   |
 |     |    |     |     |     |     |     |
 |     |    |     |     |     |     |     |
+
+
 
 
 ## Part C. Prototype your Arduino+
