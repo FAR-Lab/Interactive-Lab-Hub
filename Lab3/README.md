@@ -1,45 +1,3 @@
-
-# Motors, Power, Paper Prototyping
-
-## Pre-Lab
-
-1. Read through the lab below
-
-
-2. DESIGN READING: 
-
-* [Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
-
-* [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
-
-* [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard. The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
-
-<img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > Dyson Vacuum cardboard prototypes
-
-2. ELECTRONICS READING:
-
-* Scherz, Ch 15.1-15.4 Motors
-
-* [How to pick the right battery for your project](https://learn.adafruit.com/all-about-batteries/how-to-pick-the-right-battery-for-your-project) from Adafruit
-
-4. Assemble and check out some of the things in your kit that we'll be using this week:
-
-| Part                          | What it's for                            | How to use it                                                                                                                                                                                     |
-|-------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 9V battery                    | Power the Arduino without USB            | Attach it to the 9V battery connector                                                                                                                                                             |
-| 9v battery connector          | " "                                      | Put the red wire in Vin, and the black line in GND                                                                                                                                                |
-| IDC connectors & ribbon cable | Breaking components off the circuitboard | insert ribbon cable into the maw of the IDC connector, and then use heavy weight or vise to clamp IDC, taking care not to bend pins.                                                              |
-| Vibration motor               | Erratic motion                           | red wire to PWM pin of Arduino, black/blue wire to GND                                                                                                                                            |
-| Microservo                    | fixed rotation                           | Good for sweeping arms for displays, actuating parts                                                                                                                                              |
-| Olfa knife                    | cut cardboard                        | The Olfa blade can be unlocked, extended, and relocked firmly. It can be sharpened by breaking off the dull knife segment.  To cut corrugated cardboard, you need 3 cuts--one for the top surface, one for the corrugated layer, and one for the bottom surface. ALWAYS USE A CUTTING MAT WITH THE KNIFE. ALWAYS TAKE CARE NOT TO CUT YOURSELF.                                                                                                                                          |
-| Cutting Mats                   | cutting surface/straightedge                      | The cutting surface protects the surface under the knife. It looks like kitchen equipment because it is kitchen equipment, and the kitchen is a great place to do the cutting.                                                                                                     |
-| Gaffer's tape                 | Adhesion                                 | Gaffer's tape has adhesive that is designed to hold cables to walls or floors, and to be removed afterwards. It is expensive, but it is strong and removable, a killer combination.               |
-| Hot glue                      | Adhesion                                 | Hot glue makes a solid bond, solidifies quickly, and is removable from porous surfaces.                                                                                                           |
-| Heatshrink                    | Electrical insulation                    | Heatshrink covers bare wires to prevent accidental conduction to reduce the risk of short circuits.  Shrink the heat shrink with a hair dryer, lighter, match or proximity to the soldering iron. |
-
-5. Find cardboard for lab. 
-
-
 ## Overview
 For this assignment, you are going to 
 
@@ -54,17 +12,6 @@ D) [Autonomy!](#part-d-autonomy)
 E) [Paper Display](#part-e-paper-display) 
 
 F) [Make it your own](#part-f-make-it-your-own)
-
-
-
-The physical housing and mechanisms of interactive devices are as important as the electronic components or the microcontroller code! They are the interface for the raw parts to users and the rest of the world. In this lab, we will learn to use some actuators, and then design Arduino-controlled paper displays.
-
-
-## In the Report
-
-For the report, use a copy of this page of the README.md in the directory for this lab in your own repository. You can delete everything but the headers and the sections between the stars. Write the answers to the questions under the starred sentences. Include code that you wrote.
-
-Deliverables are due next Tuesday. Post a link to the wiki page on your main class hub page.
 
 
 ## Part A. Actuating DC motors
@@ -104,7 +51,14 @@ Upload the sketch to the Arduino. Your servo should start sweeping back and fort
 
 Change some parameters in the sketch to make the servo sweep slower, or over a smaller angle.
 
+Brown - GND
+Red - +5V
+Orange - Pin 9
+
 **b. What aspects of the Servo code control angle or speed?**
+"pos +- & -=" for speed
+"pos" in the for loops for setting angles
+
 
 ## Part C. Integrating input and output
 
