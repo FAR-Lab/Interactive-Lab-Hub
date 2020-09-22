@@ -3,9 +3,9 @@ For next week's lab, we'll be making useless boxes. For the lab, we'll have read
 1. Take a look at this [useless box example](https://makezine.com/projects/the-most-useless-machine/) and try to create one out of paper in less than 30 minutes. 
 1. Where will the switch, Arduino, and servo go? 
 1. Submit a picture of your paper prototype! Bonus points if you submit a timelapse of the process. 
-
-
 [[Lab5/paper-prototype.JPG]]
+
+
 
 
 
