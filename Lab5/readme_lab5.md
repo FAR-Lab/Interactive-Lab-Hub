@@ -5,7 +5,7 @@ For next week's lab, we'll be making useless boxes. For the lab, we'll have read
 1. Submit a picture of your paper prototype! Bonus points if you submit a timelapse of the process. 
 
 
-[[Lab5/paper-prototype.jpg|image]]
+  [[Lab5/paper-prototype.jpg]]
 
 
 
