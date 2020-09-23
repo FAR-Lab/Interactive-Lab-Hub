@@ -102,6 +102,7 @@ Now experiment with the [flex sensor (Optional)](https://www.adafruit.com/produc
 
 **b. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
+Control the colors of the LED using the above sensors ( including FSR )
 
 ## Part D. I2C Sensors 
 
