@@ -64,7 +64,7 @@ In your kit, you have a "common anode RGB LED." This means that the three LEDs i
 
 **You should add the LEDs in the schematic below.**
 
-![RGB LED schematic](images/rgbled.png)
+![RGB LED schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-04/images/rgbled.png)
 
 <!--Modify the Fade code from Lab 1 so that you have the R, G and B leads of the LED on pins 9, 10 and 11, respectively. You will want to change the code so that you can fade each of the colors separately.-->
 [Here is sample code](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) that controls the color of an RGB LED using the Arduino.  
@@ -81,7 +81,7 @@ Now that you have a set up that lets you look at changes in the analog voltage f
 
 The FSR (force sensitive resistor) changes resistance — in this case when pressure is applied to the FSR. [Here's the datasheet](https://cdn-shop.adafruit.com/datasheets/FSR400Series_PD.pdf). We'll use a voltage divider with a 27kOhm resistor, using the analog input with the previous potentiometer code. (Feel free to use a 10kOhm resistor instead, or anything in this range.)
 
-[[images/fsr_voltage_divider.png]]
+[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-04/images/fsr_voltage_divider.png]]
 
 We need a voltage divider because the Arduino can't measure resistance directly, which is the thing that changes when you physically interact with the sensor. A voltage divider circuit converts a change in resistance to a change in voltage.
 
