@@ -81,7 +81,7 @@ Now that you have a set up that lets you look at changes in the analog voltage f
 
 The FSR (force sensitive resistor) changes resistance — in this case when pressure is applied to the FSR. [Here's the datasheet](https://cdn-shop.adafruit.com/datasheets/FSR400Series_PD.pdf). We'll use a voltage divider with a 27kOhm resistor, using the analog input with the previous potentiometer code. (Feel free to use a 10kOhm resistor instead, or anything in this range.)
 
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/fsr_voltage_divider.png]]
+![Voltage Divider](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/fsr_voltage_divider.png)
 
 We need a voltage divider because the Arduino can't measure resistance directly, which is the thing that changes when you physically interact with the sensor. A voltage divider circuit converts a change in resistance to a change in voltage.
 
