@@ -64,7 +64,7 @@ To compile and upload your code, take the following steps (note that 1, 2 should
  
 Now modify the circuit and program so that you can blink an external LED on pin 9. Don't forget about question (c) above! (Also, don't forget to connect power and ground the power and ground rails of your breadboard, respectively!)
  
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/LED_schem.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/LED_schem.png)
 
 *Some tips and reminders:*
  
@@ -82,7 +82,7 @@ With your LED still connected on digital pin 9, hook up a button circuit on digi
  
 Use either the same circuit you used for the previous step or use the alternative design below. The alternate circuit causes the "on" state of the LED to occur when Arduino pin = LOW, not HIGH, as before.
 
- [[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/LEDandButton_schem.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/LEDandButton_schem.png)
 
 The Arduino pin configured as an input has a 'high input impedance.' This means that it can sense the voltage without affecting the circuit, like a probe.
  
@@ -107,21 +107,21 @@ Use the Fading program `[File->Examples->Analog->Fading](https://www.arduino.cc/
 
 First, it's important for you to understand that **_analog_** input ("analog pin 0") on your Arduino board shares pins with _**digital**_ input. Below is pinout for the Metro Mini. The pins with name A0-A12 are analog pins. 
  
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/MetroMini_pinout.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/MetroMini_pinout.png)
  
 So while a [digitalRead](http://www.arduino.cc/en/Reference/DigitalRead) or [digitalWrite](http://www.arduino.cc/en/Reference/DigitalWrite) command reads or sends only a logic-level high or low, an [analogRead](http://www.arduino.cc/en/Reference/AnalogRead) or [analogWrite](http://www.arduino.cc/en/Reference/AnalogWrite) command reads or sends a range of values.[Example: if you want to read analog pin 0—which corresponds to pin A0 on the right side of Arduino, you would call `analogRead(A0)`]. Note that the analogWrite function has nothing to do with analog pins; it uses the PWM pins.
  
 ### 1. Potentiometer
 Set up the LED output and potentiometer input circuits from the following schematic on your breadboard. This setup is much like the LED fade, except now we're using analogRead to control the fade. Have a look at [File->Examples->Analog->AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) for the code.
  
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/LEDandPot_schem.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/LEDandPot_schem.png)
 
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/PotPicture.JPG]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/PotPicture.JPG)
 
 The potentiometer is an instance of a voltage divider circuit, which we discussed in class. As you might recall:
 
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/potPicture.png]]
- 
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/potPicture.png)
+
 Change the code so that the LED fades and brightens with the analog value of the potentiometer, like a dimmer. (Save this code! We'll be using it again soon...)
  
 **a. Post a copy of your new code in your lab write-up.**
@@ -130,7 +130,7 @@ Change the code so that the LED fades and brightens with the analog value of the
 
 The [FSR](http://en.wikipedia.org/wiki/Force-Sensing_Resistor) changes resistance — in this case when pressure is applied to the FSR. Here's the [datasheet](http://www.sparkfun.com/datasheets/Sensors/Pressure/fsrguide.pdf). We'll use a voltage divider with a 22kOhm(originally 27kOhm but they are not avalible right now) resistor, using the analog input with the previous potentiometer code.
 
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/forceResistor_schem.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/forceResistor_schem.png)
   
 **a. What resistance values do you see from your force sensor?**
 
@@ -155,7 +155,7 @@ Solder a 16 pin breakaway header to the LCD so you can connect it to your breadb
 
 Wire up your LCD according to the schematic below. If you didn't have our diagram, you would use the data sheets for the LCD and follow the comments in the "Display" code to figure out how to wire it up. 
 
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/lcd_arduino_schematic.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/lcd_arduino_schematic.png)
  
 **Be very careful not to connect Pin 1 and Pin 2 on the LCD**, as this can **destroy** your Arduino. Check the connections for a short between power and ground before you plug in power or the USB cable.
  
@@ -256,8 +256,8 @@ For this lab, we will be experimenting with a variety of sensors, play it back o
 ## Part A.  Writing to the Serial Monitor
 Hook up the simple potentiometer voltage divider circuit from lab 4.
  
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/Pot_schem.png]]
- 
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/Pot_schem.png)
+
 The LCD display from the last lab is a great and helpful tool for debug purposes; the serial monitor is another. Use the code from `File->Examples->Communication->Graph` as a template to print data from your potentiometer to the serial monitor. Don't disconnect the USB cable after uploading the code; instead, use the serial monitor button on the Arduino IDE (in the upper right corner, magnifying glass icon) to see the data coming from the Arduino. If the Arduino is connected to the RaspberryPi you can either use [xWindows](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Uploading-code-to-the-Arduino-via-Raspberry-Pi-XWindows) to open the serial monitor or use [ArduinoMake](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Uploading-code-to-the-Arduino-via-Raspberry-Pi-SSH) to Upload and monitor your Arduino.
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
@@ -273,7 +273,7 @@ Some more sophisticated sensors have ICs that measure physical phenomena and the
  
 ### 1. IR Distance Sensor
 
-[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/IR_Sensor.png]]
+![](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/IR_Sensor.png)
 
  
 Get an IR distance sensor and an IR distance sensor jumper cable. The circuit for the distance sensor is simple: just connect red to +5V, black to ground, and white to analog input 0.
