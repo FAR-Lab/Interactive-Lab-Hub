@@ -117,8 +117,10 @@ Unlike the other parts we've used to date, this is a "smart sensor" which can co
  
 [This example code](https://learn.adafruit.com/adafruit-lis3dh-triple-axis-accelerometer-breakout/arduino) is meant to read values from a 3-axis accelerometer out to a computer over the serial monitor. Test it out! Hint: make sure to read the I2C Wiring section carefully, because the picture uses a different kind of Arduino. Here's a Fritzing diagram of the correct wiring:
 
-[[Lab4/LIS3DH_breadboard.png]]
- 
+ <img src="Lab4/LIS3DH_breadboard.JPG"  width="200" >
+
+[[https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/master/Lab4/LIS3DH_breadboard.JPG"]]
+
 Adapt the code to indicate what your readings are on the X, Y and Z axes of the accelerometer on your 16x2 LCD panel.
 
 Now set up the RGB LED so that each color is mapped to the X, Y and Z axes accelerations.
