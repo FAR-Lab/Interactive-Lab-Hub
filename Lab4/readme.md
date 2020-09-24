@@ -44,7 +44,7 @@ Deliverables are due next Tuesday. Post a link to the wiki page on your main cla
 
 ## Part A.  Writing to the Serial Monitor
  
-![pot schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-03/images/Pot_schem.png)
+![pot schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/Pot_schem.png)
  
 The OLED display from the Lab 02 is a great and helpful tool for debug purposes; the serial monitor is another. Use the code from `File->Examples->Communication->Graph` as a template to print data from your potentiometer to the serial monitor. Don't disconnect the USB cable after uploading the code; instead, use the serial monitor button on the Arduino IDE (in the upper right corner, magnifying glass icon) to see the data coming from the Arduino. 
  
