@@ -111,7 +111,7 @@ Some more sophisticated sensors have ICs that measure physical phenomena and the
  
 The accelerometer is a 3-axis, accelerometer based on the LIS3DH. The LIS3DH is a 3.3V part, but the Adafruit board has an onboard voltage regulator so that the part can be powered on 5V power on the Vin pin.
  
-Here's the [Datasheet](https://cdn-shop.adafruit.com/datasheets/LIS3DH.pdf) [
+Here's the [Datasheet](https://cdn-shop.adafruit.com/datasheets/LIS3DH.pdf)
  
 Unlike the other parts we've used to date, this is a "smart sensor" which can communicate the sensor readings digitally (rather than through an analog voltage) using communication protocols I2C and SPI. 
  
