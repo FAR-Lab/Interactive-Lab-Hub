@@ -44,7 +44,7 @@ Deliverables are due next Tuesday. Post a link to the wiki page on your main cla
 
 ## Part A.  Writing to the Serial Monitor
  
-[[images/Pot_schem.png]]
+[[https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-03/images/Pot_schem.png]]
  
 The OLED display from the Lab 02 is a great and helpful tool for debug purposes; the serial monitor is another. Use the code from `File->Examples->Communication->Graph` as a template to print data from your potentiometer to the serial monitor. Don't disconnect the USB cable after uploading the code; instead, use the serial monitor button on the Arduino IDE (in the upper right corner, magnifying glass icon) to see the data coming from the Arduino. 
  
@@ -64,7 +64,7 @@ In your kit, you have a "common anode RGB LED." This means that the three LEDs i
 
 **You should add the LEDs in the schematic below.**
 
-![RGB LED schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-04/images/rgbled.png)
+![RGB LED schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-03/images/rgbled.png)
 
 <!--Modify the Fade code from Lab 1 so that you have the R, G and B leads of the LED on pins 9, 10 and 11, respectively. You will want to change the code so that you can fade each of the colors separately.-->
 [Here is sample code](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) that controls the color of an RGB LED using the Arduino.  
