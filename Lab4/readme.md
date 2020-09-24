@@ -119,7 +119,7 @@ Unlike the other parts we've used to date, this is a "smart sensor" which can co
 
  <img src="Lab4/LIS3DH_breadboard.JPG"  width="200" >
 
-[[https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/master/Lab4/LIS3DH_breadboard.JPG"]]
+[[https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/master/Lab4/LIS3DH_breadboard.JPG]]
 
 Adapt the code to indicate what your readings are on the X, Y and Z axes of the accelerometer on your 16x2 LCD panel.
 
