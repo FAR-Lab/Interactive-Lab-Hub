@@ -64,7 +64,7 @@ You can also read inputs from the serial monitor, or wait for the serial monitor
 
 NEW!!! Also you can plot the data with the Arduino Serial Plotter! This can be found under `Tools->Serial Plotter`. Try it out.
  
-For this lab, you can use the serial monitor, plotter and/or the LCD whenever you are told to display something, depending on what you think is easier/prettier.
+For this lab, you can use the serial monitor, plotter and/or the OLED whenever you are told to display something, depending on what you think is easier/prettier.
 
 ## Part B. RGB LED
 
@@ -127,7 +127,7 @@ Unlike the other parts we've used to date, this is a "smart sensor" which can co
 
 https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/master/Lab4/LIS3DH_breadboard.JPG
 
-Adapt the code to indicate what your readings are on the X, Y and Z axes of the accelerometer on your 16x2 LCD panel.
+Adapt the code to indicate what your readings are on the X, Y and Z axes of the accelerometer on your OLED panel.
 
 Now set up the RGB LED so that each color is mapped to the X, Y and Z axes accelerations.
  
