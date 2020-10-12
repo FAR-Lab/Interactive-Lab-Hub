@@ -1,0 +1,42 @@
+int redPin = 11;
+int greenPin = 10;
+int bluePin = 9;
+
+int brightness = 0;    // how bright the LED is
+int fadeAmount = 5;    // how many points to fade the LED by
+int fsr_value = 255;   // Initializing the FSR pressure sensor value holder
+
+// the setup routine runs once when you press reset:
+void setup() {
+  Serial.begin(9600);
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);  
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  fsr_value = analogRead(A0);
+
+
+  if(fsr_value <= 255){
+        setColor(0, fsr_value%256, 255-fsr_value%256);
+    }
+    else if(fsr_value < 511){
+        setColor(fsr_value%256, 255-fsr_value%256, 0);
+    }
+    else if(fsr_value < 767){
+        setColor(255-fsr_value%256, 0, fsr_value%256);
+    }
+  delay(30);
+}
+
+void setColor(int red, int green, int blue) 
+{
+    red = 255 - red;
+    green = 255 - green;
+    blue = 255 - blue;
+  analogWrite(redPin, red);
+  analogWrite(greenPin, green);
+  analogWrite(bluePin, blue);  
+}
