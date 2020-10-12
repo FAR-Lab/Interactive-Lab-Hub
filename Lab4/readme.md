@@ -53,9 +53,14 @@ We need a voltage divider because the Arduino can't measure resistance directly,
 
 a. What voltage values do you see from your force sensor?
 
+0 to 1000 
+
 b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)
+The plots look exponential since there is a ramp up period up pressure is applied. 
 
 c. In Examples->Basic->Fading the RGB LED values range from 0-255. What do you have to do so that you get the full range of output voltages from the RGB LED when using your FSR to change the LED color?
+
+Analog Read from FSR to Analog Write the RGB Values.
 
 Flex Sensor, Photo cell, Softpot
 Now experiment with the flex sensor (Optional), photo cell and softpot.
