@@ -73,6 +73,8 @@ softpot
 
 a. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?
 
+I used a 10kOhm resistor to setup a voltage divider to get consistent readings from the flex sensors. Photocell and softpot were not in my kit.
+
 b. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)
 
 Control the colors of the LED using the above sensors ( including FSR )
