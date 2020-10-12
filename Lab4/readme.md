@@ -100,6 +100,42 @@ Now set up the RGB LED so that each color is mapped to the X, Y and Z axes accel
 Get a feel for the data the accelerometer provides. Pick up the Arduino+accelerometer board and tilt it in various directions. Start by holding it so that the accelerometer board is parallel to the ground. Find in which direction the X reading increases and decreases; do the same for the Y reading.
 
 a. Include your accelerometer read-out code in your write-up.
+X:  304  	Y:  64  	Z:  15920		X: 0.16 	Y: 0.00 	Z: 9.56 m/s^2 
+
+X:  240  	Y:  160  	Z:  16032		X: 0.34 	Y: 0.17 	Z: 9.45 m/s^2 
+
+X:  1072  	Y:  -144  	Z:  16000		X: 0.56 	Y: -0.10 	Z: 9.59 m/s^2 
+
+X:  1200  	Y:  1280  	Z:  16224		X: 0.80 	Y: 0.57 	Z: 9.51 m/s^2 
+
+X:  -1040  	Y:  96  	Z:  15856		X: -0.35 	Y: 0.35 	Z: 9.51 m/s^2 
+
+X:  1024  	Y:  -1872  	Z:  16032		X: 1.01 	Y: -0.64 	Z: 9.37 m/s^2 
+
+X:  1360  	Y:  496  	Z:  17296		X: 0.81 	Y: 0.48 	Z: 10.54 m/s^2 
+
+X:  1648  	Y:  3088  	Z:  16032		X: 1.02 	Y: 1.85 	Z: 9.67 m/s^2 
+
+X:  1808  	Y:  1088  	Z:  17216		X: 0.95 	Y: 0.95 	Z: 9.55 m/s^2 
+
+X:  2352  	Y:  -816  	Z:  16208		X: 1.54 	Y: -0.52 	Z: 9.80 m/s^2 
+
+X:  3616  	Y:  -4288  	Z:  13728		X: 2.20 	Y: -2.57 	Z: 8.22 m/s^2 
+
+X:  3904  	Y:  -3840  	Z:  14288		X: 3.91 	Y: -1.92 	Z: 8.68 m/s^2 
+
+X:  4576  	Y:  1584  	Z:  15904		X: 2.74 	Y: 0.96 	Z: 9.38 m/s^2 
+
+X:  6672  	Y:  -1536  	Z:  11968		X: 4.03 	Y: -0.98 	Z: 7.13 m/s^2 
+
+X:  3168  	Y:  464  	Z:  16336		X: 1.64 	Y: 0.27 	Z: 9.78 m/s^2 
+
+X:  -224  	Y:  -832  	Z:  16320		X: 0.16 	Y: -0.34 	Z: 9.82 m/s^2 
+
+X:  176  	Y:  -80  	Z:  15968		X: 0.11 	Y: -0.09 	Z: 9.41 m/s^2 
+
+X:  1376  	Y:  -1040  	Z:  15968		X: 0.75 	Y: -0.41 	Z: 9.57 m/s^2 
+
 
 Part E. Logging values to the EEPROM and reading them back
 1. Reading and writing values to the Arduino EEPROM
