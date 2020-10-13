@@ -1,0 +1,23 @@
+int endAddr;
+
+void saveData(int data) {
+  Serial.println("Writing to EEPROM");
+
+//  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+
+
+  endAddr = min(sizeof(data), EEPROMSIZE);
+  for (int i = 0; i < endAddr; i++) {
+    EEPROM.write(i, data);
+  }  
+//  EEPROM.write(data, 0);
+  Serial.println("String committed to EEPROM!");
+}
+
+void doState2(int sensorReading) {
+  digitalWrite(LED_BUILTIN, LOW);
+  if (lastState != 2) {
+    saveData(sensorReading);
+  }
+  digitalWrite(LED_BUILTIN, HIGH);
+}
