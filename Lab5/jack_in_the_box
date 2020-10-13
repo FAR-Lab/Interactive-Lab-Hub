@@ -1,0 +1,43 @@
+#include <Servo.h>
+
+Servo myservo;
+int fsr_value;
+int currState;
+int prevState;
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  myservo.attach(8);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  fsr_value = analogRead(A0);
+  Serial.println(analogRead(A0));
+  currState = map(fsr_value, 200, 500, 0, 2);
+  
+  if (currState != prevState)
+    boxAction(currState);
+  delay(20);
+  }
+
+
+void boxAction(int state){
+  
+  switch(state){
+    case 0:
+      myservo.write(0);
+      Serial.println("switch state is LOW. Close useless box");
+
+      break;
+    case 1:
+      myservo.write(110);
+      Serial.println("switch state is HIGH. Open useless box");
+      break;
+
+    prevState == state;
+  }
+}
