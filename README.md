@@ -2,5 +2,8 @@
 
 Completed Labs for John Q. Student
 
-1. [John Q's Lab 1](//github.com/johnqstudent/idd-fa18-lab1)
-2. [John Q's Lab 2](//github.com/johnqstudent/idd-fa18-lab2)
+1. [Eddie's Lab 1](//github.com/ThisGuyEddie/Interactive-Lab-Hub/tree/master/Lab1)
+2. [Eddie's Lab 1](//github.com/ThisGuyEddie/Interactive-Lab-Hub/tree/master/Lab2)
+3. [Eddie's Lab 1](//github.com/ThisGuyEddie/Interactive-Lab-Hub/tree/master/Lab3)
+4. [Eddie's Lab 1](//github.com/ThisGuyEddie/Interactive-Lab-Hub/tree/master/Lab4)
+
