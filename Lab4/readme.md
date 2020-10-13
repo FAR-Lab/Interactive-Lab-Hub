@@ -142,16 +142,20 @@ Part E. Logging values to the EEPROM and reading them back
 The sample code in File->Examples->EEPROM shows functions from the Arduino EEPROM Library to write and read values to Arduino's EEPROM. This modified version of the SwitchState code employs these functions in three different states. Try it out.
 
 a. Does it matter what actions are assigned to which state? Why?
+No, so long as we maintain our naming convention. The names of each state is arbitrary until it is built out.
 
 b. Why is the code here all in the setup() functions and not in the loop() functions?
 
 Each character in the string is a byte. That is, it takes 8-bits to encode a character, so the number of characters in the string we are writing is the number of bytes we are occupying in EEPROM. The Atmega 328P at the heart of the Arduino has 1024 bytes of internal EEPROM Memory (which is separate from the 32KB of Program memory it has for the code it is running.)
 
 c. How many byte-sized data samples can you store on the Atmega328?
+1024 bytes of EEPROM + 32kB of program memory = 33024 bytes
 
 d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?
+Split up the stream into High and Low bytes that can be viewed together later. 
 
 e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the EEPROMPut example)
+Store values in data types larger than a byte (float, word, long, etc)
 
 Modify the code to take in analog values from your sensors and print them back out to the Arduino Serial Monitor.
 
