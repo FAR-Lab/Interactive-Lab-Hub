@@ -1,6 +1,6 @@
 # Interactive-Lab-Hub
 
-Completed Labs for John Q. Student
+Completed Labs for Eddie Rodriguez
 
 1. [Eddie's Lab 1](//github.com/ThisGuyEddie/Interactive-Lab-Hub/tree/master/Lab1)
 2. [Eddie's Lab 2](//github.com/ThisGuyEddie/Interactive-Lab-Hub/tree/master/Lab2)
