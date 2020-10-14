@@ -1,9 +1,14 @@
-
 # Pre-Lab6
+
+0) Review the lab to come.
 
 1) Review Basic Unix commands. You can use this to review, [Basic Linux Commands](https://www.hostinger.com/tutorials/linux-commands) 
 
-2) Download and burn the IxE disk image to your microSD card. ( The instructions are mentioned below under "Preparing your Raspberry pi" )
+2) Download and burn the IxE disk image to your microSD card. ( The instructions are mentioned below under "[Preparing your Raspberry Pi](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-06#preparing-your-raspberry-pi)" )
+
+3) [Verify that you can have the Pi online](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Lab-06#1-verify-the-pi-is-online) for lab 
+
+4) Download the [VNC](https://www.realvnc.com/en/connect/download/viewer/) and XWindows ([Xquartz](https://www.xquartz.org) or [Xming](https://sourceforge.net/projects/xming/)) software for your laptop platform 
 
 
 # GreetingBot
@@ -32,8 +37,9 @@ network={
  psk="<Password for your wireless LAN>"
 }
 ```
+Note that you need to update this with your wireless router information!
 
-This information gets copied over to your Raspberry Pi when it boots up, so that it shows up on your network
+This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network
 
 * Eject or unmount the microSD card drive, and then remove it and reinsert it into the RPi.
 
@@ -132,9 +138,9 @@ Write it down somewhere, because we don't know how to recover lost passwords on 
 ### Enable X Windows
 We will want to enable X windows usage on the Raspberry Pi. (Should this not work see below for instructions on how to use VNC)
 
-On the Mac, please install XQuartz.
+On the Mac, please install [XQuartz](https://www.xquartz.org).
 
-On the PC, please install XMing.
+On the PC, please install [XMing](https://sourceforge.net/projects/xming/).
 
 To enable XWindows to open with the Pi, we need to log into the Pi with the -X flag to enable xwindows forwarding:
 ```shell
