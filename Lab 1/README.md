@@ -15,7 +15,7 @@ For lab this week, we draw on this and other inspirations from theatre to stage 
 ## Prep
 
 1. Set up your Github "Lab Hub" repository by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Spring/readings/Submitting%20Labs.md).
-2. Set up the README.md for your Hub repository and [learn how](https://guides.github.com/features/mastering-markdown/) to post links to your submissions on your readme.md so we can find them easily.
+2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how](https://guides.github.com/features/mastering-markdown/) to post links to your submissions on your readme.md so we can find them easily.
 
 ### For lab, you will need:
 
