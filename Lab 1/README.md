@@ -37,17 +37,17 @@ For lab this week, we draw on this and other inspirations from theatre to stage 
 ## Overview
 For this assignment, you are going to 
 
-A) [Plan](#part-a-set-up-a-breadboard) 
+A) [Plan](#part-a-plan) 
 
-B) [Act out the interaction](#part-b-manually-blink-a-led) 
+B) [Act out the interaction](#part-b-act-out-the-interaction) 
 
-C) [Prototype the device](#part-c-blink-a-led-using-arduino)
+C) [Prototype the device](#part-c-prototype-the-device)
 
-D) [Wizard the device](#part-d-manually-fade-a-led) 
+D) [Wizard the device](#part-d-wizard-the-device) 
 
-E) [Costume the device](#part-e-fade-a-led-using-arduino)
+E) [Costume the device](#part-e-costume-the-device)
 
-F) [Record the interaction](#part-f-frankenlight)
+F) [Record the interaction](#part-f-record)
 
 ## The Report
 This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
@@ -85,7 +85,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
 
-## Part C. Prototyping the device
+## Part C. Prototype the device
 
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
