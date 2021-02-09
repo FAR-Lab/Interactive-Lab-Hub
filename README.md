@@ -1,6 +1,5 @@
-# Interactive-Lab-Hub
+# [Your name here]'s-Lab-Hub
 
-Completed Labs for John Q. Student
+Please place links here to the README.md's for each lab as they are finished:
 
-1. [John Q's Lab 1](//github.com/johnqstudent/idd-fa18-lab1)
-2. [John Q's Lab 2](//github.com/johnqstudent/idd-fa18-lab2)
+Lab 1. Staging Interaction (Lab-1/README.md)
