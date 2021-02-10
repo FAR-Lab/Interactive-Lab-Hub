@@ -56,21 +56,24 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
 **Describe your setting, players, activity and goals here.**
+
+_Setting:_ The interaction is taking place in the kitchen. The light will shine on various objects to tell you what to use, and when to use it. When it shines on an object you'll know that it is time to use that object. It will flash multiple times to indicated measurements and sizes, and use color to indicate tool, vs food, vs spice.
+
+_Players:_ The light will be specifically for the person doing the cooking. Whether that is the chef, sous chef, or helper. Since there is just one light, if there are multiple people, this will be indicated by the size of the light beam.
+
+_Activity:_ The actors will be cooking. The light will instruct them on how to best follow the recipe and guide them through the process.
+
+_Goals:_  The goal for the cooks is to create a delicious dish according to the recipe.
+
+_Device:_ The light will originate from the stove, since this is where the majority of the cooking will take place. Therefore most of the tools needed to cook will be set away from the stove so the light can shine on them.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
