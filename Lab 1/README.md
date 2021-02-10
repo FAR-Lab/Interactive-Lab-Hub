@@ -91,8 +91,8 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
-This is the first time we've used this new code! 
-**Give us feedback on the server/smartphone setup.**
+We invented this tool for this lab! 
+**Give us feedback on Tinkerbelle.**
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
