@@ -68,12 +68,17 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
+The light device I'm creating is a mood ring that changes colors depending on your stress levels, heart rates, and activity. It collects this information through its connection to a heart rate monitor like a smartwatch. The ring serves the purpose of alerting someone if they begin to feel stressed (through a red color), and offers them the chance to soothe it and return to a normal heart rate (a green light). The setting for this device is a bedroom where a student performs many activities like studying, exercising, socializing, and sleeping. This setting makes sense because the person goes through many moods here. There is only 1 player and that is the person wearing the smart watch and mood ring. Once they see their ring changing color to red, they can perform activities to bring it to yellow, and eventually green. At the end of the day, the ring is linked to a app which gives the person a summary of their mood swings that day. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+The feedback I recevied:
+1. Keep the light on the ring subtle so that it's not distracting to you - Ritika
+2. For the scope of this project, you should pick restrict the location to just your bedroom so maybe its better to have it be a table lamp
+
 
 
 ## Part B. Act out the Interaction
