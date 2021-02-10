@@ -97,11 +97,11 @@ This is the first time we've used this new code!
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-**Include your first attempts at recording the set-up video here**
+**Include your first attempts at recording the set-up video here.**
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-**Show the follow-up work here**
+**Show the follow-up work here.**
 
 ## Part E. Costume the device
 
@@ -109,33 +109,34 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-**include sketches of what that might look like here**
+**Include sketches of what your device might look like here.**
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
 
 ## Part F. Record
 
-**Take a video of your prototyped interaction**
+**Take a video of your prototyped interaction.**
 
 **Please indicate anyone you collaborated with on this Lab.**
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
 
 
-## Prep
+## Prep (to be done before Lab on Wednesday)
 
-You will be assigned a partner from another group. Go to their github page, view their video, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-**Summarize feedback from your partners here**
+**Summarize feedback from your partners here.**
 
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
-1) it doesn’t have to use light, 
-2) you can use any modality (e.g., vibration, sound) to prototype the behaviors, 
-3) we will be grading with an emphasis on creativity. 
+1) It doesn’t have to (just) use light, 
+2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
+3) We will be grading with an emphasis on creativity. 
 
-**Document everything here**
+**Document everything here.**
