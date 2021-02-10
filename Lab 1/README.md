@@ -89,7 +89,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
-Instructions for setting up the server and your phone are [here].
+Instructions for setting up the server and your phone are [here](https://github.com/wendyju/tinkerbelle/blob/main/README.md).
 
 This is the first time we've used this new code! 
 **Give us feedback on the server/smartphone setup.**
