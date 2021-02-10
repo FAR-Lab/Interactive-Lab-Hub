@@ -1,182 +1,142 @@
 
 
-# Light It Up
+# Staging Interaction
 
-## Prelab
+In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
-1. Set up your Github class "Hub" repository by [following these instructions](https://github.com/jdz32/github-guide/blob/master/README.md).
-2. Set up the README.md for your Hub repository and [learn how](https://guides.github.com/features/mastering-markdown/) to post links to your submissions on your readme.md so we can find them easily.
-3. Locate electronics which you can hack for the Light It Up lab on Thursday. 
-4. Install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) on your laptop. 
-5. Read through Lab 1.
-7. Solder header pins onto Adafruit Metro Mini (See PartA of lab1, tutorial for soldering : https://www.youtube.com/watch?v=3230nCz3XQA)
+There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
 
 
-### Reading
-* Circuits & Basic Electronics Review: Scherz, Ch 2.1-2.17, Ch. 3.1-3.5
-* Arduino basics: https://www.arduino.cc/en/Tutorial/Foundations
 
-### For class, remember to bring:
-1. Your laptop
-2. Your device-to-be-hacked
-3. Whatever dongle you need to hook up a USB device to your laptop
+For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
- 
+
+
+## Prep
+
+1. Set up [your Github "Lab Hub" repository](../../../) by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Spring/readings/Submitting%20Labs.md).
+2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how](https://guides.github.com/features/mastering-markdown/) to post links to your submissions on your readme.md so we can find them easily.
+
+### For lab, you will need:
+
+1. Paper
+1. Markers/ Pen
+1. Smart Phone--Main required feature is that the phone needs to have a browser and display a webpage.
+1. Computer--we will use your computer to host a webpage which also features controls
+1. Found objects and materials--you’ll have to costume your phone so that it looks like some other device. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case. Be creative!
+1. Scissors
+
+### Deliverables for this lab are: 
+1. Storyboard
+1. Sketches/photos of costumed device
+1. Any reflections you have on the process.
+1. Video sketch of the prototyped interaction.
+1. Submit these in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+
 ## Overview
 For this assignment, you are going to 
 
-A) [Set up a breadboard](#part-a-set-up-a-breadboard) 
+A) [Plan](#part-a-plan) 
 
-B) [Manually blink a LED](#part-b-manually-blink-a-led) 
+B) [Act out the interaction](#part-b-act-out-the-interaction) 
 
-C) [Blink a LED using the Arduino](#part-c-blink-a-led-using-arduino)
+C) [Prototype the device](#part-c-prototype-the-device)
 
-D) [Manually fade a LED](#part-d-manually-fade-a-led) 
+D) [Wizard the device](#part-d-wizard-the-device) 
 
-E) [Fade a LED using Arduino](#part-e-fade-a-led-using-arduino)
+E) [Costume the device](#part-e-costume-the-device)
 
-F) [Frankenlight](#part-f-frankenlight)
+F) [Record the interaction](#part-f-record)
 
-## In The Report
-For the report, make a copy of this wiki page for your own repository, and then delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include snippets of code that explain what you did.
+## The Report
+This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
-Deliverables are due next Tuesday. Post a link to the wiki page on your main class hub page.
+Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
-## Part A. Set Up a Breadboard
+## Part A. Plan 
 
-For this lab, we'll be using the [Adafruit Metro Mini](https://www.adafruit.com/product/2590) development board as our hardware platform. This board is a derivative of the [Arduino UNO R3](https://store.arduino.cc/usa/arduino-uno-rev3). 
+To stage the interaction with your interactive device, think about:
 
-You should have already have installed the [Arduino software](http://arduino.cc/en/Main/Software) on your laptop.
+_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-Wire the power rails of your breadboard so that the red rails are connected to the +5V pin of the Metro Mini, and the blue or black rails are connected to the GND pin.  
+_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/breadboard_setup.png" width=400>
+_Activity:_ What is happening between the actors?
 
-**Include a picture of your own breadboard in the report. (We trust you to plug the Metro Mini and wires in properly. This is really practice for including images in your reports.)**
+_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
-## Part B. Manually Blink a LED
+The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+**Describe your setting, players, activity and goals here.**
 
-**a. What color stripes are on a 220 Ohm resistor?**
-With the Arduino unplugged, build the circuit below. You can use any color LED. 
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+**Include a picture of your storyboard here**
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor.png" width=300>
+Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+**Summarize feedback you got here.**
 
-If you need a diagram of what this looks like on your board, [here's a hint](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor_diagram.png)
 
-If your button doesn’t work, check that it’s oriented as shown below. You might need to rotate it by 90 degrees. 
+## Part B. Act out the Interaction
 
-![Button image](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_image.png)
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-A typical pushbutton, when pressed, connects the 2 pins on one side to the 2 pins on the other side.
-**a. What color stripes are on a 220 Ohm resistor?**
+**Are there things that seemed better on paper than acted out?**
 
-Connect the Metro Mini to your computer using the USB cable. The green LED on top of the Arduino should light.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
-Does your LED light? Why not? What do you have to do to light the LED?
- 
-**b. What do you have to do to light your LED?**
 
-## Part C. Blink a LED using Arduino
+## Part C. Prototype the device
 
-(Do not deconstruct what you have set up on your breadboard until you find it necessary! For instance, don't undo the LED and button setup that you did in Part B when you start doing Part C.)
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
-### 1. Blink the on-board LED
-Arduino boards typically come preloaded with a version of the Blink program on it. This code lets its L LED (connected on pin 13) blink as soon as the USB cable starts powering the board. Let us modify that program.
+Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
-Launch the Arduino application on your computer. It will open to the template of a new empty sketch. Here is what it looks like:
+We invented this tool for this lab! 
+**Give us feedback on Tinkerbelle.**
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_window.png" width=300>
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-Check out the Blink example code: [File->Examples->Basics->Blink](https://www.arduino.cc/en/Tutorial/Blink). 
+**Include your first attempts at recording the set-up video here.**
 
-**a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-**b. What line(s) of code do you need to change to change the rate of blinking?**
+**Show the follow-up work here.**
 
-**c. What circuit element would you want to add to protect the board and external LED?**
+## Part E. Costume the device
 
-To compile and upload your code, take the following steps (note that 1, 2 should only have to be done once):
-1) In the Arduino IDE, select the board we are using: Tools -> Board -> Arduino/Genuino UNO 
-2) You may also have to select a communications (or COM) port (Tools -> Port ->  Serial Port). The port should be something like `/dev/cu.SLCA_USBtoUART` (on MAC) `/dev/ttyUSB0` (on Linux), or `COM3` (on Windows, could be another number). If they are not showing up, make sure you've installed the [SiLabs CP210x drivers](http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx).
-3) To compile your code, click on the "checkmark" on the upper far left of the Arduino development window.
-4) To upload compiled code to the Arduino, click on "right arrow" besides the "checkmark."
-5) When the code is uploaded, the Arduino should automatically start running your new code.
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
 
-Change the `delay` parameter to modify blink rate of your LED to make it blink faster.
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-**d.  At what delay can you no longer *perceive* the LED blinking? (And how can you prove to yourself that it is, in fact, still blinking?**
+**Include sketches of what your device might look like here.**
 
-Modify the code to make your LED blink *your way*. 
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
 
-**e. Save your new blink code to your lab 1 repository, with a link on the Lab report wiki page.**
 
-### 2. Blink your LED
+## Part F. Record
 
-Now modify the circuit and program so that you can blink an external LED on pin 9.
+**Take a video of your prototyped interaction.**
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_resistor_schematic.png" width=300>
+**Please indicate anyone you collaborated with on this Lab.**
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-![Arduino LED resistor schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_resistor_schematic.png)
+# Staging Interaction, Part 2 
 
-**Make a video of your LED blinking, and add it to your lab submission.**
+This describes the second week's work for this lab activity.
 
-## Part D. Manually fade a LED
 
-Set up the following circuit, and try making the LED glow brighter and dimmer.
+## Prep (to be done before Lab on Wednesday)
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/led_pot_schematic.png" width=300>
+You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+**Summarize feedback from your partners here.**
 
-## Part E. Fade a LED using Arduino
+## Make it your own
 
-The Arduino cannot output an analog voltage, only 0 or 5Vs. So how can we fade an LED using the Arduino?
+Do last week’s assignment again, but this time: 
+1) It doesn’t have to (just) use light, 
+2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
+3) We will be grading with an emphasis on creativity. 
 
-The fading light is done using pulse width modulation, or PWM. The LED is toggled on and off very quickly: say, 1,000 times per second. Much faster than your eye can follow.
-
-The percentage of time that the LED is on (called the duty cycle) controls its apparent brightness.
-
-Update your circuit so the jumper wire connects to pin 11. (To control an LED using PWM, you have to connect it to one of the pins that supports PWM (not all do!).
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_fade_schematic.png" width=300>
-
-Here's a [hint diagram](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_fade.png) if you need it.
-
-On your computer, in the Arduino IDE, open the Fade sketch (File > Examples > 01.Basics > Fade ).
-
-Look at the code.
-
-**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
-
-**b. What is analogWrite()? How is that different than digitalWrite()?**
-
-Now upload your sketch and check that the LED fades on and off. Try changing a few parameters to make your own funky lighting pattern.
-
-## Part F. FRANKENLIGHT!!!
-
-For this part of lab, you get to hack apart an existing electronic device.
-
-### 1. Take apart your electronic device, and, as well as you can, draw a system diagram of what is inside. 
-
-**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
-
-**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
-
-**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
-
-**d. Is information stored in your device? Where? How?**
-
-### 2. Using your diagram, figure out where a good point would be to hijack your device and implant an LED.
-(Alternately, you can hijack a light or other display on the device using an extra button.)
-
-### 3. Build your light!
-
-We have perfboards in the lab, which provide a handy way to connect your parts. You may want to make your light using passive components (such as switches, resistors or potentiometers) rather than your microcontroller (also known as a μC), unless you think of a nice way to incorporate the μC into your design without soldering it inside of a light. (You'll need it back for future labs and projects!) If your design does require a μC, perhaps you can run a lead from your breadboard to the main light, although you'll lose portability that way. Clever use of components is encouraged!
-
-**Make a video showing off your Frankenlight.**
-
-**Include any diagrams or photos in your lab write-up.**
-
-The best Frankenlight will win course-wide fame and glory.
-
-_Super awesome circuit schematics by [David Sirkin](https://me.stanford.edu/people/david-sirkin). Thanks David!_
+**Document everything here.**

@@ -1,6 +1,6 @@
-# Interactive-Lab-Hub
+# [Your name here]'s-Lab-Hub
+for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
-Completed Labs for John Q. Student
+Please place links here to the README.md's for each of your labs here:
 
-1. [John Q's Lab 1](//github.com/johnqstudent/idd-fa18-lab1)
-2. [John Q's Lab 2](//github.com/johnqstudent/idd-fa18-lab2)
+[Lab 1. Staging Interaction](Lab%201/)
