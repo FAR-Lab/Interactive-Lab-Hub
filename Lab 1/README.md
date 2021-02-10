@@ -76,7 +76,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 [alt text](Isolated.png "IMG_3668.HEIC")
 
-https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3668.HEIC
+!(https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3668.HEIC)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
