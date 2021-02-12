@@ -76,6 +76,14 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+Setting: The interaction can take place anywhere. 
+
+Players: The interaciton involves a primary user and at least 1 or more other people. 
+
+Activity: At least 1 or more people are in a fixed radius around the primary user. 
+
+Goals: The goal of the primary user is too ensure he is never in too close proximity to a certain number of people. 
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
