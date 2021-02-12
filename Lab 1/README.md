@@ -86,9 +86,10 @@ The feedback I recevied:
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+You don't always have the time to take a meditation or relaxing break when your stress levels are high. So it's easier done on paper than in real life.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+Yes, I need to figure out if its a gradual transition to the red color, or if it just flashes red once it hits a certain heart rate. And the same question for when it comes back down to yellow and green. I think it's optimal for it to gradually increase, but only 3-4 shades per color, so that it doesn't overwhelm the device. 
 
 ## Part C. Prototype the device
 
@@ -117,6 +118,7 @@ Think about the setting of the device: is the environment a place where the devi
 **Include sketches of what your device might look like here.**
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+The device needs to fit on your finger like a ring. It should be a simple and comfortable band, with a little light on the top. The main concern is that it should not be distracting or a nuisance. People's heart rates fluctuate a lot during the day due to digestion, exercise, anger, etc and sometimes its important to manage it, and sometimes its not. So there should be a small on/pause button, perhaps by pressing the light down, so that it doesn't take up extra room on the band. It should also look somewhat stylish bc its important that wearables blend in well to your body and are not protruding.
 
 
 ## Part F. Record
@@ -125,6 +127,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+My friend Addie (MBA) is creating something similar for her studio project, but it is not light based, it simply records your heartrate and sends you push notifications to your phone.
 
 # Staging Interaction, Part 2 
 
