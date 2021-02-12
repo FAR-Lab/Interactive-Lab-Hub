@@ -67,7 +67,7 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
+**This is set in a hot springs at night.  There are no large-scale lights at the hot springs such that the patrons can enjoy a relaxing dip while looking at the stars.  Too much light and the light pollution blocks mutes the ability of the people to enjoy the night sky.  Not all the hot springs are the same temperature as they are different distnaces from the main underground spring and as a result patrons who want cooler or warmer experiences must figure out a way to find the one within their preferred temperature range.  Also given that it is dark they need a way to navigate the hot springs without falling into any of the springs.  As there are many patrons to prevent anyone from having issues and following the wrong device and getting lost, the device tracks within three feet of the individual and only one patron can navigate at a time.  The goal is for a patron to navigate through the hot springs without getting injured and be able to find one that suits their preferred temperature preferences to be able to enjoy the activity of star gazing and soaking in the springs.**
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
