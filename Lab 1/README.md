@@ -81,7 +81,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 **Summarize feedback you got here.**
 
 "I like the use of color in the storyboard"
- "I really like the idea because I sometimes cook and when i'm looking at the receipes and cooking it's really hard. IF it was to remind what I was supposed to do next it would be really convenient"
+ "I really like the idea because I sometimes cook and when i'm looking at the recipes and cooking it's really hard. If it was to remind what I was supposed to do next it would be really convenient"
 
 ## Part B. Act out the Interaction
 
@@ -152,6 +152,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+I collaborated with my team on this lab: Min Tae Lee, William Zhang, and Rob Gentul. Rob was instrumental in helping me record the videos and test the prototype, he manned the computer while I interacted with the device!
 
 # Staging Interaction, Part 2 
 
