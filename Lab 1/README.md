@@ -137,10 +137,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3679.jpg)
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3680%202.jpg)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
-
+ - I think the device is going to need to be adaptable to many different kitchens, therefore:
+   - I included hooks on top so that it can easily be mounted under typically kitchen objects (e.g., microwaves, cabinets)
+   - I made it box shaped to match most kitchen objects (e.g., microwaves, cabinets)
+   - I encased the phone in plastic to withstand high temperatures, steam, and splashes
+   - I included a fan on the bottom of the appliance to keep it cool in hot kitchens or if places above a stove.
 
 ## Part F. Record
 
