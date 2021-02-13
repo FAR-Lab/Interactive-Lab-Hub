@@ -80,8 +80,8 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
-"I like the use of color in the storyboard"
- "I really like the idea because I sometimes cook and when i'm looking at the recipes and cooking it's really hard. If it was to remind what I was supposed to do next it would be really convenient"
+- "I like the use of color in the storyboard"
+- "I really like the idea because I sometimes cook and when i'm looking at the recipes and cooking it's really hard. If it was to remind what I was supposed to do next it would be really convenient"
 
 ## Part B. Act out the Interaction
 
