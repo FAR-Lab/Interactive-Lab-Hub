@@ -1,5 +1,3 @@
-
-
 # Staging Interaction
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -58,21 +56,34 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?<br>
+**My interactive device will be interacted with in a student's dorm, late at night.**
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.<br>
+**There will be two students in this interaction: Shivani and Snigdha. My interactive device is meant to be a device that only interacts with one person but which is non-intrusive and so does not bother others who may be in the vicinity. Relying only on light, it is meant to get the attention of Shivani, who is the main person interacting with it, while intruding on Snigdha's study time as little as possible.**
 
-_Activity:_ What is happening between the actors?
+_Activity:_ What is happening between the actors?<br>
+**Shivani and Snigdha are studying together. Neither likes to talk while studying and so they've made a pact to make as little noise as possible while co-working but to still work together to stay motivated to get more done.**
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). <br>
+**Shivani and Snigdha both want to be good students, study hard, and get good grades. They want to work together but focus better in a quiet environment. Shivani likes to practice timeboxing with her work and so, to minimize her noise, rather than setting a traditional alarm for timeboxing, she wants to set a silent alarm to let her know she should be moving on from working on her IDD lab to her Deep Learning assignment.**
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
+The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.<br>
+**Shivani and Snigdha are studying together in The River Room late one night. They are both hard-working students who want to get good grades and so they are working together for motivation to work harder. However, both like a quiet environment when they study and have made a pact to study in as much silence as possible. Shivani, though, likes to timebox her work to keep herself from going down rabbit holes. She usually sets an alarm to help her keep on track but, with the Pact of Silence, she needs a new way to alert her to move on from working on her IDD lab to her Deep Learning assignment.**
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-**Include a picture of your storyboard here**
+**This is where The Silent Study Buddy comes in. The Silent Study Buddy is an un-obtrusive alarm which gently flashes yellow light to let the user know it is time to move on to their next task. If they do not see the light and stop the alarm, The Silent Study Buddy begins to get a little peeved that it is being ignored and begins to flash orange. If the student STILL doesn't notice, The Silent Study Buddy gets angry and begins to flash red.**
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+**The student is able to turn off the alarm by pressing the "STOP" button on the top of the alarm. (The alarm is set via an app on their phone and so will not be depicted in this scenario.) If they want to repeat the alarm, they can do so easily with the "REPEAT" button on the top of the alarm.**
+
+**When the alarm is stopped, The Silent Study Buddy briefly flashes green to tell Shivani thank you for listening to it and to encourage her good study habits.**
+
+**When the alarm is repeated, The Silent Study Buddy also briefly flashes green to let Shivani know it got the message and to help encourage her to keep up the good work.**
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. <br>
+**I made my storyboard on my iPad because I find that easier to draw on and don't have markers.**
+![image](storyboard.jpg)
+
+Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.<br>
 **Summarize feedback you got here.**
 
 
