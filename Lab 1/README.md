@@ -123,6 +123,8 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **Include your first attempts at recording the set-up video here.**
 
+https://cornell.zoom.us/rec/share/tYGNEcyiWUvulkv2k9dxB5rdER293ue8vLndsPhepPHnXYHzT9-4lAdnpDdb-uY.DU23eulz5DQg6SQt?startTime=1613253242000
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
