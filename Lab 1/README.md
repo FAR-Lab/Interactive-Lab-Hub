@@ -72,6 +72,7 @@ _Goals:_  The goal for the cooks is to create a delicious dish according to the 
 _Device:_ The light will originate from the stove, since this is where the majority of the cooking will take place. Therefore most of the tools needed to cook will be set away from the stove so the light can shine on them.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
 **Include a picture of your storyboard here**
 
 ![storyboard](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3668.jpg)
@@ -87,9 +88,23 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+I held my phone light under my microwave and create a tube with my hands to sharpen the beam. Here is what I discovered:
+
+- Each kitchen is different
+- Depending on the kitchen, the light can only access certain things, otherwise it gets blocked out
+- It cannot reach things that are further way, or things that are below or inside something else
+- If an item is inside something, it can tell you to open the drawer/cabinet, but may not be able to tell you what’s in there
+- Beam of light needs to be very sharp and pointed for the user to know exactly what it's shining on
+- Light needs to be strong or you can’t really see it with the lights on
+- If there’s ingredients you need to first know what they are and take them out of the fride, spice cabinet, etc.
+- Let’s say you need a knife, there may be multiple that fit the bill (or only one), the light will need to know which to point at
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+Yes
+
+- The light will need 360 degree pivot capabilities and it would be better if it had an arm to extend
+- The light will need a new indicator to tell someone to open something and get an item from inside, for example flashing (a different number of times from when it indicates measurements) or circling over the object
 
 ## Part C. Prototype the device
 
@@ -99,6 +114,9 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+
+- The tool is really cool
+- it's a bit tricky to figure out how to setup if you don't have an engineering backgrond
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
