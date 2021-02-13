@@ -141,6 +141,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 ![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3680%202.jpg)
 
+![Costume](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Screen%20Shot%202021-02-13%20at%205.57.45%20PM.png)
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
  - I think the device is going to need to be adaptable to many different kitchens, therefore:
    - I included hooks on top so that it can easily be mounted under typically kitchen objects (e.g., microwaves, cabinets)
