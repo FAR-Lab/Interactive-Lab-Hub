@@ -67,20 +67,30 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
+
+**Setting:** The interaction is happening outside at a grocery store on saturday noon, which is basically the peak time for the store. During teh current pandemic.
+
+**Players:** Everyone who is entering or exiting the store at that time is part of the interaction. 
+
+**Activity:** During the current pandemic social distancing is the most esstial norm that is enforced everywhere for the safety of oneself and everyone around them. In order t ensure social distancing every place/store has limited the number of people who can be present at any given time. Shops especially grocery stores faced a major challange enforcing this. They have one representative stand outside the store who ensure people queue up and allows a new customer to enter one someone exists. 
+
+This particular grocery store has a long queue and everyone from the queue keeps coming up to the store representative to ask estimated wait time etc. Plus people have to stand in line throughout and wait for their turn. They are calculating the odds of going to another nearby grocery store and again eending up in a waiting line. 
+
+**Goals:** The goal of the device HeadCount is to serve as an indicator of current occupancy of the store. HeadCount can be programmed to set the store cpacity. It detects the number of people entring and exsiting the store and changes color based on the current occupancy. It lights up green if 0-40% of occupancy limit is achived, yellow if the occupany is between 40-70%, orange if it's more than 70% but less than 100% and red if it's fully occupied. This would serve as an indicator for people driving by to stop at a store that is less occupied and secondly will eliminate the need for the store representative to stand outside the whole time. People standing in line can self monitor the HeadCount and walk to the gate only when the light is not red. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Summarize feedback you got here.**
+**The major feedback was that it is very useful  for current situation but that is only one usecase, need to think for future aswell. What can be some other use cases of HeadCount when things get back to normal and occupancy contraints are lifted. **
 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-**Are there things that seemed better on paper than acted out?**
+**Are there things that seemed better on paper than acted out?
+**
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
