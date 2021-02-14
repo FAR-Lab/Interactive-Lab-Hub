@@ -81,7 +81,7 @@ The goal of the pedestrain is to alert that the user's mask is too wet and has t
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
-(IDD_storyboard.jpg)
+![Interactive Mask Storyboard](IDD_storyboard.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
@@ -106,6 +106,7 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+
 Tinkerbelle ran into some minor problems, took me a while to figure out how to use the code and make it work.
 
 ## Part D. Wizard the device
@@ -126,7 +127,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
-(IDD_sketch.jpg)
+![Interactive Mask Sketch](IDD_sketch.jpg)
 
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
