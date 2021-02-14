@@ -69,7 +69,7 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
-_Setting:_ On the subwau of New Yorl City
+_Setting:_ On the subway of New York City
 
 _Players:_ The mask wearer him/herself, and the other pedestrian right beside the user. 
 
@@ -81,7 +81,7 @@ The goal of the pedestrain is to alert that the user's mask is too wet and has t
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
-[Storyboard](IDD_sketch.jpg)
+(IDD_storyboard.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
@@ -126,6 +126,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
+(IDD_sketch.jpg)
 
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
