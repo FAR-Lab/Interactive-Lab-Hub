@@ -126,7 +126,7 @@ Think about the setting of the device: is the environment a place where the devi
 **Include sketches of what your device might look like here.**
 
 
-![initial designs](initial designs.png)
+![initial designs](initialdesigns.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 **The major concern is that since the device would be installed outdoors, the light should be visible in broad daylight and at night both. Thus need a shade that can enable so. Got inspiration from the design of traffic lights as they are desgined such that it's visible from a distance as well as prominent thpugh out the day. Secondly the shape of the device is also important, since the device will be sensing the number of people entering or exiting the door the device needs to be placed above the door. Circular light would be more prominent as compared to horizontal.**
