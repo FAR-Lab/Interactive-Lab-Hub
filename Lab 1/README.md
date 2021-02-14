@@ -115,11 +115,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 
 ## Part F. Record
-
-**Take a video of your prototyped interaction.**
+[Interaction with the device]https://www.youtube.com/watch?v=aVSLj_NrQeM&feature=youtu.be
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+1. Ting-Yu Lin
+2. Jui-An Wang
+3. Ming-Chun Lu
 
 # Staging Interaction, Part 2 
 
