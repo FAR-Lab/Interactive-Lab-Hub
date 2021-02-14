@@ -60,7 +60,7 @@ To stage the interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t 
 
 _Activity:_ What is happening between the actors?
 
@@ -69,20 +69,33 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+_Setting:_ On the subwau of New Yorl City
+
+_Players:_ The mask wearer him/herself, and the other pedestrian right beside the user. 
+
+_Activity:_ The mask wearer breathes normally and notices that his mask is getting moist. As it gets too moist, it will indicate a light that’s yellow which suggests the user to change the mask. As the mask gets more and more wet, the light would turn red which indicates that the mask is no longer safe. The pedestrain around the mask wearer sees the mask turn red would go up to the user and provide him a mask so he can change the mask. 
+
+_Goals:_ Face masks can become less effective when worn in the rain, the World Health Organisation (WHO) and scientists have warned. The device would be an Interactive mask that detects the humidity of the mask that tells mask wearers to change a mask when it’s too wet. 
+The goal for the user is to allow people around him to notice his mask is wet. As the user's mask turns red, the pedestrain around him would provide him another mask, and he can put the new mask on and breath safely. 
+The goal of the pedestrain is to alert that the user's mask is too wet and has turned red and provide him an extra mask. 
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-
+Feedback from group members: Very good. It’s an interesting and Coivid-related idea. Very interested on the implementation of the device.
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+Yes, the colors weren't as noticiable with a dark mask. So a lighter color mask was used.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
+Yes, maybe we can implement music into the interactive mask, and the interactive light will light up according to the beat of each song. So it will give user more of a personal modern device feel. 
 
 
 ## Part C. Prototype the device
@@ -93,15 +106,18 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+Tinkerbelle ran into some minor problems, took me a while to figure out how to use the code and make it work.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+Initial Design https://www.youtube.com/watch?v=eY1yoCenV0A
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+Follow up https://www.youtube.com/watch?v=-m1g66HW7ug
 
 ## Part E. Costume the device
 
@@ -111,11 +127,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+We have to take into consideration the weight, the usability, the moisture and the heat from breathing and how it would affect the device.
+The device would not overhat since it’s simply an LED light up device. In terms of water, we have to take into consideration the moist where the user breathes out. It is possible that the moisture from breathing would defect the lighting feature. Our key feature is to make the interactive mask noticible to other users, therefore I decided to make the entire area of the mask to change colors. 
 
 
 ## Part F. Record
-[Interaction with the device]https://www.youtube.com/watch?v=aVSLj_NrQeM&feature=youtu.be
+Interaction with the device https://www.youtube.com/watch?v=aVSLj_NrQeM&feature=youtu.be
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
