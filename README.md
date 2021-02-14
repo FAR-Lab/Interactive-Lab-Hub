@@ -76,13 +76,13 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
-Setting: The interaction can take place anywhere. 
+Setting: The device is stationary and can be put in any place/room the user visits. 
 
-Players: The interaciton involves a primary user and at least 1 or more other people. 
+Players: The interaciton involves 2 people or more. 
 
-Activity: At least 1 or more people are in a fixed radius around the primary user. 
+Activity: The decive passivley connects people through light. When 2 people are near their device, both will light up letting each person know the other is also next to it. This can be extended to multiple people where a user can choose a specifc colour for a specific person. 
 
-Goals: The goal of the primary user is too ensure he is never in too close proximity to a certain number of people. 
+Goals: The goal of a player is passive. It is to feel connected to family/friends/colleagues. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
@@ -97,8 +97,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+I think my expectations for how it would work were matched when I acted it out because the device itself is stationary. Thus, acting out the interaction does not seem to give much information on its use.m 
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+While acting it out I did realise that the device cannot tell who specifically is next to it. So it could, for example, be your roommate that's next to the device, which would might still result in the device of your family/friend lighting up. 
 
 ## Part C. Prototype the device
 
@@ -111,6 +114,8 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**
+
+I was very impressed by tinkerbelle's audio feature and its ability to search for noises associated with a wide range of words. The existence of a shared screen between two devices allowing 1 to control the output of both is very helpful in mimicking an input without the use of actual specifc sensors.  
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
