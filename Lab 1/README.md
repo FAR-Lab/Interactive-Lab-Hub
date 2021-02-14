@@ -83,8 +83,10 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 ![Storyboard](storyboard.png)
 
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**The major feedback was that it is very useful  for current situation but that is only one usecase, need to think for future aswell. What can be some other use cases of HeadCount when things get back to normal and occupancy contraints are lifted. **
+
+**The major feedback was that it is very useful  for current situation but that is only one usecase, need to think for future aswell. What can be some other use cases of HeadCount when things get back to normal and occupancy contraints are lifted.**
 
 
 ## Part B. Act out the Interaction
