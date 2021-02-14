@@ -86,18 +86,18 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
-**The major feedback was that it is very useful  for current situation but that is only one usecase, need to think for future aswell. What can be some other use cases of HeadCount when things get back to normal and occupancy contraints are lifted.**
+**The major feedback was that it is very useful  for current situation but that is only one usecase, need to think for future aswell. What can be some other use cases of HeadCount when things get back to normal and occupancy constraints are lifted. Another thing that was highlighted was how would I ensure someone who is  seeing the device change colors for the first time know what it interprets to. Maybe have a small screen by a side that is showing the live counter or anything.**
 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-**Are there things that seemed better on paper than acted out?
-**
+**Are there things that seemed better on paper than acted out?**
+**I am quarantined in my apartment so it was hard to mimic a setting of a grocery store. It was easy to brainstorm the setting and use cases on paper as compared to acting out**
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+**While acting out the situation by hanging a prototype at the top of the door I realised the charecteristics that need to be focused on while designing the device, such as the shape and size should be such that it's visible from a distance and is noticeable, there should be a shade around so that light color is prominent in sun's brightness, light shold be flashing instead of static so that it's easier to notice, might need a small screen aswell to show the current headcout in numbers in order to make it easier for people to interpret the meaning of differnt colors.
 
 ## Part C. Prototype the device
 
