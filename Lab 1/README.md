@@ -67,8 +67,7 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
-
+**Describe your setting, players, activity and goals here.**  
 _Setting:_ On the subway of New York City
 
 _Players:_ The mask wearer him/herself, and the other pedestrian right beside the user. 
@@ -80,21 +79,21 @@ The goal for the user is to allow people around him to notice his mask is wet. A
 The goal of the pedestrain is to alert that the user's mask is too wet and has turned red and provide him an extra mask. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-**Include a picture of your storyboard here**
+**Include a picture of your storyboard here**  
 ![Interactive Mask Storyboard](IDD_storyboard.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Summarize feedback you got here.**
+**Summarize feedback you got here.**  
 Feedback from group members: Very good. It’s an interesting and Coivid-related idea. Very interested on the implementation of the device.
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-**Are there things that seemed better on paper than acted out?**
+**Are there things that seemed better on paper than acted out?**  
 Yes, the colors weren't as noticiable with a dark mask. So a lighter color mask was used.
 
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**  
 Yes, maybe we can implement music into the interactive mask, and the interactive light will light up according to the beat of each song. So it will give user more of a personal modern device feel. 
 
 
@@ -105,19 +104,18 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
-**Give us feedback on Tinkerbelle.**
-
+**Give us feedback on Tinkerbelle.**  
 Tinkerbelle ran into some minor problems, took me a while to figure out how to use the code and make it work.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-**Include your first attempts at recording the set-up video here.**
+**Include your first attempts at recording the set-up video here.**  
 Initial Design https://www.youtube.com/watch?v=eY1yoCenV0A
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-**Show the follow-up work here.**
+**Show the follow-up work here.**  
 Follow up https://www.youtube.com/watch?v=-m1g66HW7ug
 
 ## Part E. Costume the device
@@ -126,19 +124,19 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-**Include sketches of what your device might look like here.**
+**Include sketches of what your device might look like here.**  
 ![Interactive Mask Sketch](IDD_sketch.jpg)
 
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
+**What concerns or opportunitities are influencing the way you've designed the device to look?**  
 We have to take into consideration the weight, the usability, the moisture and the heat from breathing and how it would affect the device.
 The device would not overhat since it’s simply an LED light up device. In terms of water, we have to take into consideration the moist where the user breathes out. It is possible that the moisture from breathing would defect the lighting feature. Our key feature is to make the interactive mask noticible to other users, therefore I decided to make the entire area of the mask to change colors. 
 
 
-## Part F. Record
+## Part F. Record  
 Interaction with the device https://www.youtube.com/watch?v=aVSLj_NrQeM&feature=youtu.be
 
-**Please indicate anyone you collaborated with on this Lab.**
+**Please indicate anyone you collaborated with on this Lab.**  
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 1. Ting-Yu Lin
 2. Jui-An Wang
