@@ -72,6 +72,9 @@ The interactive device can be anything *except* a computer, a tablet computer or
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
+![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard_lab1.png
+ "Storyboard")
+ 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
