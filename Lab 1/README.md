@@ -93,8 +93,6 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **I found myself looking at my phone a lot. This may have been because it still looked like my phone and I'm used to looking at my phone to see if I have notifications. This is good to know though, because I'll want to design The Silent Study Buddy to not resemble a phone as much as possible. It should not reward constant checking behavior because that would be just as disruptive, if not more so, as an actual timer alarm going off.**
 
-**After acting it out with a friend, it seems like it would be better for the Silent Study Buddy to start by flashing red, then get progressively lighter since the brighter colors will actually be more noticeable.**
-
 ## Part C. Prototype the device
 
 ### Prompt
@@ -121,8 +119,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 ### Setup Video Showing Using Tinkerbelle
 
-![Watch the video](https://drive.google.com/file/d/1LCEHFCxbQVZjnDqnddyOjnTcjMUeSFBD/view?usp=sharing) <br>
-**Link in case the video doesn't render above: https://drive.google.com/file/d/1LCEHFCxbQVZjnDqnddyOjnTcjMUeSFBD/view?usp=sharing**
+**The setup video can be found here: https://drive.google.com/file/d/1LCEHFCxbQVZjnDqnddyOjnTcjMUeSFBD/view?usp=sharing**
 
 <hr> 
 
@@ -136,15 +133,11 @@ Now, change the goal within the same setting, and update the interaction with th
 
 **First, I show an actress using the paper prototype with the goal of studying for a specified time and then stopping the timer when it goes off so that she can take a break from studying after it goes off:**
 
-![Watch the video](https://drive.google.com/file/d/1mWCRBtBNoYpJ-U0cgC91wQHfbZ2rPSTc/view?usp=sharing) <br>
-
-**Link in case the render doesn't work: https://drive.google.com/file/d/1mWCRBtBNoYpJ-U0cgC91wQHfbZ2rPSTc/view?usp=sharing**
+**This interaction can be seen here: https://drive.google.com/file/d/1mWCRBtBNoYpJ-U0cgC91wQHfbZ2rPSTc/view?usp=sharing**
 
 **Then, I changed the goal so that the actress is studying for a long period of time and wants to switch from one subject to another after a specified time. Rather than stopping the timer, she restarts it for the same time as the last one and switches to her new subject.**
 
-![Watch the video](https://drive.google.com/file/d/1d1eYBRDmpCmJ4629NWPAE7aCIBkX9rwm/view?usp=sharing) <br>
-
-**Link in case the render doesn't work: https://drive.google.com/file/d/1d1eYBRDmpCmJ4629NWPAE7aCIBkX9rwm/view?usp=sharing**
+**This interaction can be seen here: https://drive.google.com/file/d/1d1eYBRDmpCmJ4629NWPAE7aCIBkX9rwm/view?usp=sharing**
 
 ## Part E. Costume the device
 
