@@ -69,14 +69,23 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
-**Goals:** 
+**Setting:** The interaction is most likely happening in the kitchen or on a desk when an object is placed on the device. For example, when a coffee mug is placed on the device in the morning.
 
+**Players:** Players will include all the people in the vicinity of the object placed on the interactive device. This includes everyone that has the potential of making physical contact with the object.
+
+**Activity:** Sometimes a cup of hot coffee is left on a counter and roommates might accidentally get burned due to them not being aware of the temperature of the cup. With the interactive device, the roommates will now know whether the cups or objects are too hot to touch or not based on the color that the device displays.
+
+**Goals:** The person who placed the cup of hot coffee on the table doesn’t want his/her roommates to get burned. The roommates don’t want to accidentally touch something that is very hot and get burned.
+
+**Summary:** The interactive device will be used for preventing people from getting burned from hot objects such as a cup of hot coffee. The interactive device will be in a shape of a pad and changes color based on the temperature of the object placed on it with red being the hottest (>100 degrees Celsius) and blue being coldest (<0 degrees Celsius). When the object is over 100 degrees Celsius, the red light will also be blinking.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
+**Feedback:** People thought that it was a useful device in a situation where many people would be in the vicinity of hot objects. Some said that the area of the device can be enlarged to encompass a whole kitchen counter or table.
 
 
 ## Part B. Act out the Interaction
