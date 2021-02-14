@@ -79,6 +79,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 **Goals: The goal of the device HeadCount is to serve as an indicator of current occupancy of the store. HeadCount can be programmed to set the store cpacity. It detects the number of people entring and exsiting the store and changes color based on the current occupancy. It lights up green if 0-40% of occupancy limit is achived, yellow if the occupany is between 40-70%, orange if it's more than 70% but less than 100% and red if it's fully occupied. This would serve as an indicator for people driving by to stop at a store that is less occupied and secondly will eliminate the need for the store representative to stand outside the whole time. People standing in line can self monitor the HeadCount and walk to the gate only when the light is not red. **
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+![Storyboard][storyboard.png]
 **Include a picture of your storyboard here**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
