@@ -71,7 +71,7 @@ Goals: Open a carbonated beverage without worrying if it will explode or not.  A
 
 **Include a picture of your storyboard here**  
 
-An individual is eating dinner goes to get a drink from the fridge and knocks it on the ground.  After this the individual uses the device to see if the pressure is to high and then waits until it lowers to drink the beverage.  
+An individual is eating dinner goes to get a drink from the fridge and knocks it on the ground.  After this the individual uses the device to see if the pressure is too high and then waits until it lowers to drink the beverage.  
 
 ![StoryBoard](/Lab%201/StoryBoard2.jpeg)
 
