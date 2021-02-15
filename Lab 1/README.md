@@ -72,9 +72,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 ![StoryBoard](/Lab%201/StoryBoard2.jpeg)
 
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**How will the user indicate that they want to move on to another pool or if they want to stay.
-The entire process seems unnecessarily complicated. **
+The group was mainly concered about how practical and necessary the device is.  There are already so many hyper-specific niche kitchen gadgets that exist is this one really all the necessary.  Furthermore is it not possible just to feel the beverage yourself and slowly open the beverage to let the gas escape.  How often is does this issue really arise that a device is needed for it.
 
 ## Part B. Act out the Interaction
 
