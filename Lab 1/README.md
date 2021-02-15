@@ -92,6 +92,7 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+Didn't have many issues setting it up. The main issue I had was a large delay between the gong being played on the computer and the phone.  I also had a weird issue that when I opened my laptop later it played the gong again randomly.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
