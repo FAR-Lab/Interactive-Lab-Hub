@@ -56,20 +56,15 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+Setting: Any location that a carbonated beverage could be agitated.  This specific example will be in an apartment in the evening around dinner time. 
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+Players: An individual looking to consume a carbonated beverage and the carbonated beverage itself.  Can be anyone of any immutable or mutable characteristic and any beverage as long as it is in a sealed container and carbonated. This specific example will be the resident of the apartment with a can of soda.
 
-_Activity:_ What is happening between the actors?
+Activity: Measuring the the interal pressure of the container to determine if there is risk of spraying the contents on the drinker if opened.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+Goals: Open a carbonated beverage without worrying if it will explode or not.  Attempt to limit spillage thereby reducing ruined clothing and messy floors among many other annoyances.
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**This is set in a hot springs at night. There are no large-scale lights at the hot springs such that the patrons can enjoy a relaxing dip while looking at the stars.  Too much light and the light pollution blocks mutes the ability of the people to enjoy the night sky.  Not all the hot springs are the same temperature as they are different distances from the main underground spring and as a result patrons who want cooler or warmer experiences must figure out a way to find the spring within their preferred temperature range.  The device is drone like and has a sensor that monitors humidity to locate where the hot springs are as when the device gets close to a hot spring humidity increases and when it reaches a threshold the color will change to indicate it has reached the springs.  It has a constant red light to preserve night vision that the patron can follow.  A temperature sensor will take into account the acceptable range for the patron and will display a green color to indicate if the temperature is within the desired range when it is over a hot spring.  If the temperature of the hot spring is not within the desired range it will change to either blue to indicate below the temperature or yellow if above.  The patron can then decide if they want to get in if they are tired of walking around or if they have changed their mind on their temperature range.  Also given that it is dark they need a way to navigate the hot springs without falling into any of the springs.  As there are many patrons, to prevent anyone from having issues and following the wrong device and getting lost, the device tracks within three feet of the individual and only one patron can navigate at a time.  The goal is for a patron to navigate through the hot springs without getting injured and be able to find a spring that suits their preferred temperature preferences to be able to enjoy the activity of star gazing and soaking in the springs.
-
-A coaster t **
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
