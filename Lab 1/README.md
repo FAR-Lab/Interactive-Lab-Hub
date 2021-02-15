@@ -56,6 +56,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
+**Describe your setting, players, activity and goals here.**
 
 Setting: Any location that a carbonated beverage could be agitated.  This specific example will be in an apartment in the evening around dinner time. 
 
@@ -71,12 +72,11 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 ![StoryBoard](/Lab%201/StoryBoard2.jpeg)
 
+**Summarize feedback you got here.**
 
 The group was mainly concered about how practical and necessary the device is.  There are already so many hyper-specific niche kitchen gadgets that exist is this one really all the necessary.  Furthermore is it not possible just to feel the beverage yourself and slowly open the beverage to let the gas escape.  How often is does this issue really arise that a device is needed for it.
 
 ## Part B. Act out the Interaction
-
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
 The inital concept was to a ziptie like apparatus with a ratchet to loosen and tighten it.  When physcially trying two issues arose, first being that unless it was really tightened the device would slide down the beverage and could reach a taper and therefore provide inaccuracte readings.  Secondly the weight of the device could tip the drink over compounding the issues as there is no more pressure due to the agitation.
@@ -86,29 +86,23 @@ Instead of being a ziptie the device could be more along the lines of a sleeve t
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
 Didn't have many issues setting it up. The main issue I had was a large delay between the gong being played on the computer and the phone.  I also had a weird issue that when I opened my laptop later it played the gong again randomly.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
-Link to attempt to the set up could 
+Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
 
 [![First Attempt](/Lab%201/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
-<!---https://gifs.com/gif/3Q4jRO --->
-[![Paper Attempt](/Lab%201/Paper_PType_image_A1.png)](https://imgur.com/a/dNeaDnB)
 
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
+
+<!---https://gifs.com/gif/3Q4jRO --->
+[![Paper Attempt](/Lab%201/Paper_PType_image_A1.png)](https://imgur.com/a/dNeaDnB)
 
 ## Part E. Costume the device
 
@@ -125,10 +119,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Take a video of your prototyped interaction.**
 
+Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
+
 [![Final Attempt](/Lab%201/Final_image_A1.png)](https://imgur.com/a/X99yohm)
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Salmaan Qadir helped with feedback and recording
+Lars Kouwenhoven helped with feedback
 
 # Staging Interaction, Part 2 
 
