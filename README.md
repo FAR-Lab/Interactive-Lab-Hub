@@ -92,6 +92,8 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
+The feedback I got was that the device looked too large and that it was too big for someone to place in their room. Additionally that it was unclear how the device would interact with multiple people involved. 
+
 
 ## Part B. Act out the Interaction
 
