@@ -111,6 +111,10 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
+A ziptie like device that uses a ratchet to secure itself to the beverage to measure pressure.
+![Zip](/Lab%201/Zip_Proto_A1.png)
+An airbag like device that uses a that inflates a bladder with air or liquid to measure pressure.
+![Bag](/Lab%201/AirBag_Proto_A1.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
