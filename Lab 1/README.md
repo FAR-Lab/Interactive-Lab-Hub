@@ -67,9 +67,11 @@ Activity: Measuring the the interal pressure of the container to determine if th
 Goals: Open a carbonated beverage without worrying if it will explode or not.  Attempt to limit spillage thereby reducing ruined clothing and messy floors among many other annoyances.
 
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
 
 **Include a picture of your storyboard here**  
+
+Person is eating dinner goes to get a drink from the fridge and knocks it on the ground.  After this the individual uses the device to see if the pressure is to high and then waits until it lowers to drink the beverage.  
 
 ![StoryBoard](/Lab%201/StoryBoard2.jpeg)
 
