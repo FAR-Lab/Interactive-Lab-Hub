@@ -155,8 +155,11 @@ This is the final look of my device. Since I cannot put nails on the apartment w
 
 **Take a video of your prototyped interaction.**
 
+* [My final video](https://youtu.be/h-lSWV1q1yg "My final video").
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Thanks to Chang Han, who is the actor in the final video.
 
 # Staging Interaction, Part 2 
 
