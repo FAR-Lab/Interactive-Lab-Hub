@@ -69,8 +69,19 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+Setting: This interaction take place inside a car.
+
+Players: This device is designed for drivers, especially for new drivers who have trouble reading excessive text notifications while driving. 
+
+Activity: This device will interact with drivers by changing its color and by making sound. 'The traffic cube' will notify drivers the traffic status ahead of the road. It will turn red if traffic is heavy ahead, turn green if traffic is light ahead and flash between red and green if police is ahead. It can also make 'Beep' sound and flash blud/red if the car is involved in an accident.
+
+Goal: The goal of the player is to safely drive the car to the destination with the support of the 'traffic cube'. 
+
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+
+<img src="https://github.com/JamesW121/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0159.PNG">
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
@@ -81,6 +92,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+It is a considerably dangerous act to test out this prototype in a real driving situation, so that I decided to situmulate this prototype on a online driving simulator.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
