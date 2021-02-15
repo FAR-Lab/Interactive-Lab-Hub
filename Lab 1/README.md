@@ -101,8 +101,9 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 Link to attempt to the set up could 
 
-[![StoryBoard](/Lab%201/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
-
+[![First Attempt](/Lab%201/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
+<!---https://gifs.com/gif/3Q4jRO --->
+[![Paper Attempt](/Lab%201/Paper_PType_image_A1.png)](https://j.gifs.com/3Q4jRO.gif)
 
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
