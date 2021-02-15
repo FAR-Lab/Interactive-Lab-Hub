@@ -144,6 +144,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 The device should be able to be mounted on the wall or hung up so that the light can catch users attention. The prop and the device should not be too heavy, otherwise they might fall off. The device should be place in the area that users spend their most time on. Also the prop should not cover up the light of the device to make the light as bright as possible. 
 
+
+This is the final look of my device. Since I cannot put nails on the apartment wall (because the landlord does not allow), I put the device on the windowsill. The position of the device is good because it can be easily detected during daily activities in the apartment. I finally choose this candle lantern to mount my phone because it does not cover up the screen and can keep my phone steady on the windowsill.
+
+![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/final_look_lab1.png
+ "finallook")
+
+
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
