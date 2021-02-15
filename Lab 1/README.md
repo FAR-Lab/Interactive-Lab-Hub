@@ -86,6 +86,10 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
+We can make it not only display color, but also utilize the function of playing sound under different situations.
+
+The design of the device needs to be simple and make sure it is not distracting driver's attention.
+
 
 ## Part B. Act out the Interaction
 
