@@ -72,6 +72,7 @@ The light device I'm creating is an electric ring that changes colors depending 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.JPG)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
@@ -110,7 +111,7 @@ I asked my brother to record me from his phone and use my laptop to change the c
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
-https://drive.google.com/file/d/1AeXcIDJ2__5KmuhUrMoAQotrraMAqqiU/view?usp=sharing
+![video recording](https://drive.google.com/file/d/1AeXcIDJ2__5KmuhUrMoAQotrraMAqqiU/view?usp=sharing)
 
 ## Part E. Costume the device
 
@@ -120,7 +121,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 Device design here
-https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design%20of%20the%20ring.JPG
+![device sketches](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design%20of%20the%20ring.JPG)
 
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
@@ -130,7 +131,7 @@ The device needs to fit on your finger like a ring. It should be a simple and co
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
-https://drive.google.com/file/d/1awEilNF-UNPxafEt1HOytm2CNoyYq3OU/view?usp=sharing
+![video of prototyped interaction](https://drive.google.com/file/d/1awEilNF-UNPxafEt1HOytm2CNoyYq3OU/view?usp=sharing)
 
 **Please indicate anyone you collaborated with on this Lab.**
 This idea was inspired by my friend Addie (MBA), who is creating something similar for her studio project. Her project is not light based, it simply records your heartrate and sends meaningful push notifications to your phone.
