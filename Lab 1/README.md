@@ -79,9 +79,10 @@ The group was mainly concered about how practical and necessary the device is.  
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+The inital concept was to a ziptie like apparatus with a ratchet to loosen and tighten it.  When physcially trying two issues arose, first being that unless it was really tightened the device would slide down the beverage and could reach a taper and therefore provide inaccuracte readings.  Secondly the weight of the device could tip the drink over compounding the issues as there is no more pressure due to the agitation.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+Instead of being a ziptie the device could be more along the lines of a sleeve that has some form of expanding interior (air or liquid bladder).
 
 ## Part C. Prototype the device
 
