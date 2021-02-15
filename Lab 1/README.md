@@ -68,7 +68,7 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
-The light device I'm creating is a mood ring that changes colors depending on your stress levels, heart rates, and activity. It collects this information through its connection to a heart rate monitor like a smartwatch. The ring serves the purpose of alerting someone if they begin to feel stressed (through a red color), and offers them the chance to soothe it and return to a normal heart rate (a green light). The setting for this device is a bedroom where a student performs many activities like studying, exercising, socializing, and sleeping. This setting makes sense because the person goes through many moods here. There is only 1 player and that is the person wearing the smart watch and mood ring. Once they see their ring changing color to red, they can perform activities to bring it to yellow, and eventually green. At the end of the day, the ring is linked to a app which gives the person a summary of their mood swings that day. 
+The light device I'm creating is an electric ring that changes colors depending on your stress levels, heart rates, and activity. It collects this information through its connection to a heart rate monitor like a smartwatch. The ring serves the purpose of alerting someone when they begin to feel stressed by changing its color to red, and offers them the awareness to alleviate their high stress levels. A person can take some deep breaths, maybe go for a walk, or understand their rationale better and then return to a normal heart rate which is indicated by a green light. The setting for this device is a bedroom where a student performs many activities like studying, exercising, socializing, and sleeping. There is only 1 player and that is the person wearing the electic ring. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
@@ -77,7 +77,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 **Summarize feedback you got here.**
 The feedback I recevied:
 1. Keep the light on the ring subtle so that it's not distracting to you - Ritika
-2. For the scope of this project, you should pick restrict the location to just your bedroom so maybe its better to have it be a table lamp
+2. The electic ring seems like you can wear it anywhere and not just your bedroom. So for the scope of this project, maybe you should call it a table lamp instead because that is stationary and allows you to keep the setting as one spot. - Jeremy
 
 
 
@@ -86,7 +86,7 @@ The feedback I recevied:
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
-You don't always have the time to take a meditation or relaxing break when your stress levels are high. So it's easier done on paper than in real life.
+It felt very awkward to look at the ring and then come to the realization that you are experiencing high stress levels. Are you constantly looking at the ring? Does it buzz to alert you that the color has changed? Do you say "Oh the color is now red" outloud? Do you just think it? 
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 Yes, I need to figure out if its a gradual transition to the red color, or if it just flashes red once it hits a certain heart rate. And the same question for when it comes back down to yellow and green. I think it's optimal for it to gradually increase, but only 3-4 shades per color, so that it doesn't overwhelm the device. 
@@ -99,11 +99,13 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+The tinkerbelle app worked pretty well for the purposes of this assignment, although I didn't understand the purpose of the two buttons. I just used the first one.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+I asked my brother to record me from his phone and use my laptop to change the color of the light device. For the light device, I used my phone.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -126,8 +128,7 @@ The device needs to fit on your finger like a ring. It should be a simple and co
 **Take a video of your prototyped interaction.**
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-My friend Addie (MBA) is creating something similar for her studio project, but it is not light based, it simply records your heartrate and sends you push notifications to your phone.
+This idea was inspired by my friend Addie (MBA), who is creating something similar for her studio project. Her project is not light based, it simply records your heartrate and sends meaningful push notifications to your phone.
 
 # Staging Interaction, Part 2 
 
