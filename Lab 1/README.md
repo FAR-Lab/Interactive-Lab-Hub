@@ -73,7 +73,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 An individual is eating dinner goes to get a drink from the fridge and knocks it on the ground.  After this the individual uses the device to see if the pressure is too high and then waits until it lowers to drink the beverage.  
 
-![StoryBoard](/Lab%201/StoryBoard2.jpeg)
+![StoryBoard](/Lab%201/Images/StoryBoard2.jpeg)
 
 **Summarize feedback you got here.**  
 
@@ -102,7 +102,7 @@ Didn't have many issues setting it up. The main issue I had was a large delay be
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
 
 **CLICK ON IMAGE TO PLAY**  
-[![First Attempt](/Lab%201/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
+[![First Attempt](/Lab%201/Images/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
 
 
 **Show the follow-up work here.**   
@@ -111,7 +111,7 @@ Could not embed the video directly as the files are too big so click on the imag
 
 <!---https://gifs.com/gif/3Q4jRO --->
 **CLICK ON IMAGE TO PLAY**  
-[![Paper Attempt](/Lab%201/Paper_PType_image_A1.png)](https://imgur.com/a/dNeaDnB)
+[![Paper Attempt](/Lab%201/Images/Paper_PType_image_A1.png)](https://imgur.com/a/dNeaDnB)
 
 ## Part E. Costume the device
 
@@ -122,9 +122,9 @@ Think about the setting of the device: is the environment a place where the devi
 **Include sketches of what your device might look like here.**     
 
 A ziptie like device that uses a ratchet to secure itself to the beverage to measure pressure.
-![Zip](/Lab%201/Zip_Proto_A1.jpeg)
+![Zip](/Lab%201/Images/Zip_Proto_A1.jpeg)
 An airbag like device that inflates a bladder with air or liquid to measure pressure.
-![Bag](/Lab%201/AirBag_Proto_A1.jpeg)
+![Bag](/Lab%201/Images/AirBag_Proto_A1.jpeg)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
@@ -137,7 +137,7 @@ A simple ziptie while effective can easily break and therefore I have included a
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.  
 
 **CLICK ON IMAGE TO PLAY**  
-[![Final Attempt](/Lab%201/Final_image_A1.png)](https://imgur.com/a/X99yohm)
+[![Final Attempt](/Lab%201/Images/Final_image_A1.png)](https://imgur.com/a/X99yohm)
 
 **Please indicate anyone you collaborated with on this Lab.**   
 
