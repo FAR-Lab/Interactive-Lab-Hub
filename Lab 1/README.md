@@ -92,9 +92,12 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+
 It is a considerably dangerous act to test out this prototype in a real driving situation, so that I decided to situmulate this prototype on a online driving simulator.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
+
+While acting, I had a new idea to make this cude double-sided. For the driver's side, it will show the drive about information about the traffic, and for the other side, it can show others the current status of the driver - is the driver speeding? or is the driver tired, etc.
 
 
 ## Part C. Prototype the device
@@ -110,11 +113,13 @@ We invented this tool for this lab!
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+
 https://youtu.be/1uMcNdBjxHA
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
 https://youtu.be/bV8x5VQXUC0
 
 ## Part E. Costume the device
@@ -125,12 +130,18 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+<img src="https://github.com/JamesW121/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Screen%20Shot%202021-02-15%20at%2012.41.59%20PM.png">
+
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+
+Because this device is designed to be used in a car, it need to be small in order not to interfere the driver's view. Also, it needs to be simple and give as direct information as possible.
 
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+
 https://youtu.be/bV8x5VQXUC0
 
 **Please indicate anyone you collaborated with on this Lab.**
