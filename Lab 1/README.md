@@ -114,6 +114,8 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
 
+My python version is 3.8 and the Tinkerbelle does not work for me. I was unable to try out Tinkerbelle but I can talk about it from the UI aspect. You can choose from a color palette and also choose from the color wheel, it’s nice because people have a good set of choice but also great flexibility. I think it will be better to incorporate any blicking or flashing feature to the Tinkerbelle so it can express more information. Also it will be more intuitive to have a slide bar to control the brightness. 
+
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
