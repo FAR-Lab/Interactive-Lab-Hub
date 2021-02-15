@@ -56,7 +56,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-**Describe your setting, players, activity and goals here.**
+**Describe your setting, players, activity and goals here.**     
 
 Setting: Any location that a carbonated beverage could be agitated.  This specific example will be in an apartment in the evening around dinner time. 
 
@@ -68,7 +68,7 @@ Goals: Open a carbonated beverage without worrying if it will explode or not.  A
 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-**Include a picture of your storyboard here**
+**Include a picture of your storyboard here**  
 
 ![StoryBoard](/Lab%201/StoryBoard2.jpeg)
 
@@ -81,24 +81,24 @@ The group was mainly concered about how practical and necessary the device is.  
 **Are there things that seemed better on paper than acted out?**  
 The inital concept was to a ziptie like apparatus with a ratchet to loosen and tighten it.  When physcially trying two issues arose, first being that unless it was really tightened the device would slide down the beverage and could reach a taper and therefore provide inaccuracte readings.  Secondly the weight of the device could tip the drink over compounding the issues as there is no more pressure due to the agitation.
 
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**      
 Instead of being a ziptie the device could be more along the lines of a sleeve that has some form of expanding interior (air or liquid bladder).
 
 ## Part C. Prototype the device
 
-**Give us feedback on Tinkerbelle.**
+**Give us feedback on Tinkerbelle.**      
 Didn't have many issues setting it up. The main issue I had was a large delay between the gong being played on the computer and the phone.  I also had a weird issue that when I opened my laptop later it played the gong again randomly.
 
 ## Part D. Wizard the device
 
-**Include your first attempts at recording the set-up video here.**
+**Include your first attempts at recording the set-up video here.**     
 
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
 
 [![First Attempt](/Lab%201/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
 
 
-**Show the follow-up work here.**
+**Show the follow-up work here.**   
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
 
 <!---https://gifs.com/gif/3Q4jRO --->
@@ -110,26 +110,26 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-**Include sketches of what your device might look like here.**
+**Include sketches of what your device might look like here.**     
 A ziptie like device that uses a ratchet to secure itself to the beverage to measure pressure.
 ![Zip](/Lab%201/Zip_Proto_A1.jpeg)
 An airbag like device that uses a that inflates a bladder with air or liquid to measure pressure.
 ![Bag](/Lab%201/AirBag_Proto_A1.jpeg)
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
-
+**What concerns or opportunitities are influencing the way you've designed the device to look?**     
+A simple ziptie while effective can easily break and therefore I have included a second design, which is a bit more robust while at the same time having drawbacks including not being one size fits all.
 
 ## Part F. Record
 
-**Take a video of your prototyped interaction.**
+**Take a video of your prototyped interaction.**   
 
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
 
 [![Final Attempt](/Lab%201/Final_image_A1.png)](https://imgur.com/a/X99yohm)
 
-**Please indicate anyone you collaborated with on this Lab.**
-Salmaan Qadir helped with feedback and recording
-Lars Kouwenhoven helped with feedback
+**Please indicate anyone you collaborated with on this Lab.**   
+Salmaan Qadir helped with feedback and recording.   
+Lars Kouwenhoven helped with feedback.   
 
 # Staging Interaction, Part 2 
 
