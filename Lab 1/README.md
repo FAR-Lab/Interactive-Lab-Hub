@@ -104,6 +104,8 @@ Link to attempt to the set up could
 ![StoryBoard](https://gifs.com/embed/test-a1-3Q49oR)
 ![StoryBoard](www.gifs.com/gif/3Q49oR)
 
+![StoryBoard](/Lab%201/Cut_video_A1_1.mp4)
+
 
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
