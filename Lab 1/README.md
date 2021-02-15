@@ -99,7 +99,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **Include your first attempts at recording the set-up video here.**
 
-![Trial Video](/Lab%201/Test_A1.mp4)
+![Trial Video](https://gifs.com/gif/test-a1-3Q49oR)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
