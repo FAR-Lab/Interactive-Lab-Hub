@@ -66,7 +66,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 **Goals:** Open a carbonated beverage without worrying if it will explode or not.  Attempt to limit spillage thereby reducing ruined clothing and messy floors among many other annoyances.
 
-
+Overall this device, in whatever form it may take (ratchet ziptie, air bladder, or other), will meassure internal pressure of a carbonated beverage to determine if it is 'safe' to open.
 
 
 **Include a picture of your storyboard here**  
