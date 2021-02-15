@@ -69,6 +69,14 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+* **Setting:** In the bedroom of an apartment, during the COVID time. 
+* **Players:** David is a graduate student who is a TA for 2 different classes. He is alone in this bedroom with his interactive calendar. 
+* **Activity:** David does not check his schedule very often, and when he is concetarted on something, he will forget some important events, such as holding his office hour or being late to the class he teaches. The interactive calender using lights to tell David if there is any events coming up, and different color of lights can signal different kind of events. 
+One day afternoon when David finished his assignment, he starts watching his faviorite TV series. The interactive calender starts flashing red light when David is concentrated on the TV series. David notices the red light and he knows he has office hour in 15 mins. He turns off the TV and prepares his office hour. 
+* **Goals:** The goal for David is to keep up with his schedule and not miss any impotant event. 
+
+
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
