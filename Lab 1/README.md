@@ -58,13 +58,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 **Describe your setting, players, activity and goals here.**     
 
-Setting: Any location that a carbonated beverage could be agitated.  This specific example will be in an apartment in the evening around dinner time. 
+**Setting:** Any location that a carbonated beverage could be agitated.  This specific example will be in an apartment in the evening around dinner time. 
 
-Players: An individual looking to consume a carbonated beverage and the carbonated beverage itself.  Can be anyone of any immutable or mutable characteristic and any beverage as long as it is in a sealed container and carbonated. This specific example will be the resident of the apartment with a can of soda.
+**Players:** An individual looking to consume a carbonated beverage and the carbonated beverage itself.  Can be anyone of any immutable or mutable characteristic and any beverage as long as it is in a sealed container and carbonated. This specific example will be the resident of the apartment with a can of soda.
 
-Activity: Measuring the the interal pressure of the container to determine if there is risk of spraying the contents on the drinker if opened.
+**Activity:** Measuring the internal pressure of the container to determine if there is risk of spraying the contents on the drinker if opened.  Once the pressure has dropped below a predetermined threshold the device will signal that the beverage is safe to open and drink.
 
-Goals: Open a carbonated beverage without worrying if it will explode or not.  Attempt to limit spillage thereby reducing ruined clothing and messy floors among many other annoyances.
+**Goals:** Open a carbonated beverage without worrying if it will explode or not.  Attempt to limit spillage thereby reducing ruined clothing and messy floors among many other annoyances.
 
 
 
