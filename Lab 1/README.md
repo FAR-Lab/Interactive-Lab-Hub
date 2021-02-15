@@ -56,24 +56,21 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
 The interaction will happen in an kitchen. There will be one user who is trying to cook. They will be using a smartpan with the indicator lights and their goal will be trying to cook a perfect medium rare steak.
-
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+ 
 **Include a picture of your storyboard here**
+
 
 ![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.jpg)
   
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
 **Summarize feedback you got here.**
 
 They found this idea interesting. Meanwhile, one classmate asked how will the user find specific recipes and interact with the smart pan. Maybe for this interaction, we also need to implement a touchscreen based panel on the pan, as well as an accompanied mobile app.
 
 ## Part B. Act out the Interaction
-
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
 
@@ -85,43 +82,38 @@ One collaborator suggested that maybe instead of a indicator light on the handle
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
-We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
 
 In general it is a very intuitive and helpful implementation. However, for me it is more light a color panel displayer instead of a light. It might be useful if there exists a slide bar to control the brightness of the color/light.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
 
 **Show the follow-up work here.**
 
+Instead of putting the phone directly onto the pan handle, I used adhesive tacky putty to savely attach it.
+
 ## Part E. Costume the device
-
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
 
-
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/smartpan.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
+The device could definitely overheat, so I was putting the light on the handle on the prototye. Meanwhile, if the food is overheating, there will be a flashing red light in such emergency setting.
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
+
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 I am being working with Sachi Angle, Antonio Mojena and Sanika Bapat for this lab.
 
