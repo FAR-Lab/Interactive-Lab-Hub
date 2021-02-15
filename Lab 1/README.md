@@ -111,7 +111,7 @@ I asked my brother to record me from his phone and use my laptop to change the c
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
-![video recording](https://drive.google.com/file/d/1AeXcIDJ2__5KmuhUrMoAQotrraMAqqiU/view?usp=sharing)
+https://drive.google.com/file/d/1AeXcIDJ2__5KmuhUrMoAQotrraMAqqiU/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -131,7 +131,7 @@ The device needs to fit on your finger like a ring. It should be a simple and co
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
-![video of prototyped interaction](https://drive.google.com/file/d/1awEilNF-UNPxafEt1HOytm2CNoyYq3OU/view?usp=sharing)
+https://drive.google.com/file/d/1awEilNF-UNPxafEt1HOytm2CNoyYq3OU/view?usp=sharing
 
 **Please indicate anyone you collaborated with on this Lab.**
 This idea was inspired by my friend Addie (MBA), who is creating something similar for her studio project. Her project is not light based, it simply records your heartrate and sends meaningful push notifications to your phone.
