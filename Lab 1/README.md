@@ -72,13 +72,13 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 ![StoryBoard](/Lab%201/StoryBoard2.jpeg)
 
-**Summarize feedback you got here.**
+**Summarize feedback you got here.**  
 
 The group was mainly concered about how practical and necessary the device is.  There are already so many hyper-specific niche kitchen gadgets that exist is this one really all the necessary.  Furthermore is it not possible just to feel the beverage yourself and slowly open the beverage to let the gas escape.  How often is does this issue really arise that a device is needed for it.
 
 ## Part B. Act out the Interaction
 
-**Are there things that seemed better on paper than acted out?**
+**Are there things that seemed better on paper than acted out?**  
 The inital concept was to a ziptie like apparatus with a ratchet to loosen and tighten it.  When physcially trying two issues arose, first being that unless it was really tightened the device would slide down the beverage and could reach a taper and therefore provide inaccuracte readings.  Secondly the weight of the device could tip the drink over compounding the issues as there is no more pressure due to the agitation.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
