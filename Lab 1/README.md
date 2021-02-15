@@ -99,7 +99,12 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **Include your first attempts at recording the set-up video here.**
 
-![Trial Video](https://gifs.com/gif/test-a1-3Q49oR)
+Link to attempt to the set up could 
+
+![StoryBoard](https://gifs.com/embed/test-a1-3Q49oR)
+![StoryBoard](https://www.youtube.com/watch?v=De4jPjoHatA)
+
+
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
