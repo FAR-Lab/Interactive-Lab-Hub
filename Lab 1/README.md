@@ -101,10 +101,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 Link to attempt to the set up could 
 
-![StoryBoard](https://gifs.com/embed/test-a1-3Q49oR)
-![StoryBoard](www.gifs.com/gif/3Q49oR)
-
-![StoryBoard](/Lab%201/Cut_video_A1_1.mp4)
+[![StoryBoard](/Lab%201/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
 
 
 
