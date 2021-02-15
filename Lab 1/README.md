@@ -86,6 +86,12 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
+**Feedback:**
+* This idea sounds like the google calender, while google calendar notify people with sounds, this interactive calender notify people with colored light. One advantage of this interactive calendar is that you will know the type of event by different color while google calender only have the same notificiation sound. 
+
+* The colored light might cause some trouble with color blind people. While the most color blind type are red-green color blind, twitch the color palette a little bit can still adapt their needs. For full colorblind people, you might need to adjust the color option to blickiing light, breathing light, etc. 
+
+
 
 ## Part B. Act out the Interaction
 
