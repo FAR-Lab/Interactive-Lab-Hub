@@ -87,10 +87,12 @@ Goals: The goal of a player is passive. It is to feel connected to family/friend
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
-![](idd_hw1_storyboard.jpeg)
+![](idd_hw1_storyboard1.jpeg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
+The feedback I got was that the device looked too large and that it was too big for someone to place in their room. Additionally that it was unclear how the device would interact with multiple people involved. 
 
 
 ## Part B. Act out the Interaction
