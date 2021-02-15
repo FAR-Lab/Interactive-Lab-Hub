@@ -137,9 +137,13 @@ Think about the setting of the device: is the environment a place where the devi
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
-
-**Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+
+[Prototyped Interaction](https://drive.google.com/file/d/1O6vTY38pDJ6mKbe_dZ-VJl-uIvgOqsxT/view?usp=sharing)
+
+**The setting/context of the product was hard to mimic while being alone and in quarantine so I used a [video](https://www.youtube.com/watch?v=tPLIbTgi3a4) from youtube as the backgroud and overlayed it with the product demo to show the use of product in context.**  
+
 
 # Staging Interaction, Part 2 
 
