@@ -99,8 +99,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+What player is thinking, what he wants to do after see the device light up etc. is easy to see when I script it out on paper. While the player is acting it, he needs to exaggerate his gesture, facial expression to let audience know his emotion and thoughts. 
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+I think instead of this one-direction signal: you see the light and execute your task, it would be better that we can have some feedback on this device. Maybe I want to turn off the lights because I’m already on this task and don’t want to see this light blicking. In another scenario, I may want to cancel or postpone this event. If the device can take input like voice, hand clapping, or button press, we can make calendar even more interactive.
 
 ## Part C. Prototype the device
 
