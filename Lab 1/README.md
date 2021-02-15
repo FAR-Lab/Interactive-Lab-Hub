@@ -133,8 +133,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume_the_device_sketch_lab1.png
+ "Storyboard")
+ 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
+The device should be able to be mounted on the wall or hung up so that the light can catch users attention. The prop and the device should not be too heavy, otherwise they might fall off. The device should be place in the area that users spend their most time on. Also the prop should not cover up the light of the device to make the light as bright as possible. 
 
 ## Part F. Record
 
