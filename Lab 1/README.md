@@ -135,8 +135,8 @@ A simple ziptie while effective can easily break and therefore I have included a
 **Take a video of your prototyped interaction.**   
 
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.  
-**CLICK ON IMAGE TO PLAY**  
 
+**CLICK ON IMAGE TO PLAY**  
 [![Final Attempt](/Lab%201/Final_image_A1.png)](https://imgur.com/a/X99yohm)
 
 **Please indicate anyone you collaborated with on this Lab.**   
