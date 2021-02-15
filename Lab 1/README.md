@@ -125,6 +125,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Take a video of your prototyped interaction.**
 
+[![Final Attempt](/Lab%201/Final_image_A1.png)](https://imgur.com/a/X99yohm)
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
