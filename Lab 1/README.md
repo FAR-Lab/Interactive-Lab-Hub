@@ -119,7 +119,9 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
-Lab 1/design of the ring.JPG
+Device design here
+https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design%20of%20the%20ring.JPG
+
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 The device needs to fit on your finger like a ring. It should be a simple and comfortable band, with a little light on the top. The main concern is that it should not be distracting or a nuisance. People's heart rates fluctuate a lot during the day due to digestion, exercise, anger, etc and sometimes its important to manage it, and sometimes its not. So there should be a small on/pause button, perhaps by pressing the light down, so that it doesn't take up extra room on the band. It should also look somewhat stylish bc its important that wearables blend in well to your body and are not protruding.
