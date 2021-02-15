@@ -92,7 +92,9 @@ In general it is a very intuitive and helpful implementation. However, for me it
 
 **Include your first attempts at recording the set-up video here.**
 
+https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/setup.mov
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/setup.gif)
 
 **Show the follow-up work here.**
 
@@ -112,6 +114,9 @@ The device could definitely overheat, so I was putting the light on the handle o
 
 **Take a video of your prototyped interaction.**
 
+https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/interaction.MOV
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/interaction.gif)
 
 **Please indicate anyone you collaborated with on this Lab.**
 
