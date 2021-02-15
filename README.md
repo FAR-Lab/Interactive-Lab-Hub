@@ -75,13 +75,17 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
-
+The setting of the scene is a hip club in NYC. There is a long line to get into the club but since it is a club in the States, the legal age to be able to get into the club is 21 years old and above. There are three players in this scene: one bouncer, one adult who is 24 years old, and one high school student who is 17 years old. The bouncer is scanning each person’s ID card who is waiting in line to see if they are 21 years old or above. If the ID card is fake or has a birth year that is less than 21 years old, the scanner will shine red and the bouncer will deny the person of entry. If the ID card is real and has a birth year that is greater than 21 years old, the scanner will shine green and will let the person into the club. The bouncer’s main goal is to make sure that they let people who are 21 years old and above into the club and do not allow people in who are less than 21 years old. Ahaan’s goal is to get into the club even though he has a fake ID. Nicole has the same goal of getting into the club and has a real ID that is greater than 21 years old. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
+![](Storyboard.png)
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
+I asked three other students what they thought about my story board and since both students were able to understand the progression of the story clearly and understand the situation, I thought that it was a fairly successful display of the scene. I received feedback that in scene three, the ID card should be labeled as “21+” rather than “+21” to avoid confusion that the person who is entering into the club is above 21 years old since the “+” looks too much like a “t”. I also received feedback that my ID scanner looked like a ruler and not necessarily a device that was supposed to scant the ID card.  
 
 
 ## Part B. Act out the Interaction
@@ -89,6 +93,8 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+
+
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
@@ -121,6 +127,8 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
+
+![](Shapes.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
