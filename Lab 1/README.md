@@ -95,9 +95,10 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+The blinking of the red light could be annoying to some people. Overall things seemed to be the same on paper as acted out.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+Just like the feedback that was given, to make this device more effective, it could span the whole table or counter. Additionally, if the device were to span the whole table, the color should only change around the object that is placed and not for the whole device.
 
 ## Part C. Prototype the device
 
@@ -107,15 +108,19 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+I thought that the interface was quite nice. As an added functionality maybe there could be buttons that allow the lights to pulsate at different frequencies.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+First, I had a cup of cold water, then I drank it. The color of the paper prototype changed from blue (cold) to green (room temperature).
+https://drive.google.com/file/d/1_jZ5Xgt-6P_BdDAcgzjYNrJp4KMoc-7c/view?usp=sharing
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
 **Show the follow-up work here.**
+Next I changed the goal. Instead drinking the water, I added ice to an initially hot cup. The hot cup went from red (hot) to green (room temperature), then to blue (cold).
+https://drive.google.com/file/d/19oE36tkXcpdhHUxka7QKTdkEh3SgKhBq/view?usp=sharing
 
 ## Part E. Costume the device
 
