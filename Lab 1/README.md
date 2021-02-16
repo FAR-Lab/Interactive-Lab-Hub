@@ -68,6 +68,7 @@ Storyboard 1st Version
 Feedback:
         The person’s face and neck look separate from the hand, so it’s hard to tell if it’s the same person.
          Hard to tell that the person is doing an assignment from the second picture and the laptop looks like an alarm.
+
 Storyboard Final Version
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0639.jpg)
 
