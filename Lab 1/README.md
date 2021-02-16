@@ -74,30 +74,17 @@ Storyboard Final Version
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-**Are there things that seemed better on paper than acted out?**
-
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+By acting out, the process doesn’t look that ideal as what I pictured in the storyboard.
+There is no new idea coming up.
 
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-**Give us feedback on Tinkerbelle.**
+It’s really cool to play around with Tinkerbelle. In the first try, I ran into error opening http://localhost:5000 using my apartment wifi. In the second try, I wasn’t able to open the browser on my phone. Later on, the issue got resolved when I switched to the campus wifi.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-**Include your first attempts at recording the set-up video here.**
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-**Show the follow-up work here.**
+Video link: https://kapwi.ng/c/OQHQq8Vo
+In the first attempt, the player just acted out without saying anything, so it was kind of confusing. Also, the “Beep Beep” alarm sound didn’t work when I clicked it along with the red light. Therefore, in the following attempts, the player speaks out a little bit more about what she is doing and added more emotional expression to the action, which makes the quality of the video becomes better.
 
 ## Part E. Costume the device
 
