@@ -132,7 +132,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume_sketch.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/final_costume.png)
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+The device should be made in a way that make it highly heat resistant as there could be a lot of hot objects placed on it frequently. On top of that, it will also have to be waterproof. This will ensure that when liquids are accidentally poured on the device, the device won’t break and cause a hazard to the user. 
+The device is designed to be very thin, almost like a mouse pad. This way, it could easily be put on any flat surface. If this device were to be actually created, it would come in different sizes. This will allow the device to be suitable for use on the many different types of surfaces. On the other hand, the device will not be able to be extremely thin as the device will need to have both light emitting electric components and a thermal sensor embedded into it.
+
 
 
 ## Part F. Record
