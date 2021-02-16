@@ -87,22 +87,13 @@ Video link: https://kapwi.ng/c/OQHQq8Vo
 In the first attempt, the player just acted out without saying anything, so it was kind of confusing. Also, the “Beep Beep” alarm sound didn’t work when I clicked it along with the red light. Therefore, in the following attempts, the player speaks out a little bit more about what she is doing and added more emotional expression to the action, which makes the quality of the video becomes better.
 
 ## Part E. Costume the device
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Screen Shot 2021-02-15 at 10.12.21 PM.png)
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-**Include sketches of what your device might look like here.**
-
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
-
+The potential designs are listed above. They are all wearable sensors similar to jewelry that are easy to put on and detach. Wristband and ring are the better options I think because the rest of the other options are harder to detect the lights and less subtle to the users. The pulse detection is more accurate on the wrist and the earloop so wristband and earring are more accurate at capturing and signaling the stress level.
 
 ## Part F. Record
-
-**Take a video of your prototyped interaction.**
-
-**Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+The final version. Video link: https://kapwi.ng/c/2Tmxcopb 
+Rui Maki helped me with the video.
 
 # Staging Interaction, Part 2 
 
