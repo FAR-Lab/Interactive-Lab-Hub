@@ -114,11 +114,13 @@ I thought that the interface was quite nice. As an added functionality maybe the
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+
 First, I had a cup of cold water, then I drank it. The color of the paper prototype changed from blue (cold) to green (room temperature).
 https://drive.google.com/file/d/1_jZ5Xgt-6P_BdDAcgzjYNrJp4KMoc-7c/view?usp=sharing
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 **Show the follow-up work here.**
+
 Next I changed the goal. Instead drinking the water, I added ice to an initially hot cup. The hot cup went from red (hot) to green (room temperature), then to blue (cold).
 https://drive.google.com/file/d/19oE36tkXcpdhHUxka7QKTdkEh3SgKhBq/view?usp=sharing
 
