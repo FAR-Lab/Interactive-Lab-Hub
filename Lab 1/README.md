@@ -145,8 +145,12 @@ The device is designed to be very thin, almost like a mouse pad. This way, it co
 
 **Take a video of your prototyped interaction.**
 
+https://drive.google.com/file/d/1-rrRbAQD9IUbrsOsJ9SiVxsV9210SCDs/view?usp=sharing
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+I talked to Jeanne Li about my lab and she gave me constructive feedback on my design.
 
 # Staging Interaction, Part 2 
 
