@@ -55,7 +55,7 @@ This readme.md page in your own repository should be edited to include the work 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
 ## Part A. Plan 
-https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0643.jpg
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0643.jpg)
 
 
 
