@@ -164,7 +164,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 --
 
-I think the current designs and sketches of the device look a little basic. I realized that the most practical shape of the device would actually be a handheld phone-like shape and that any other shape may make the device unnecessarily too complicated. As it stands the current shape of the device is just a brief rectangular structure that the bouncer can hold to scan the ID cards. 
+I think the current designs and sketches of the device look a little basic. I realized that the most practical shape of the device would actually be a handheld phone-like shape and that any other shape may make the device unnecessarily too complicated. As it stands, the current shape of the device is just a brief rectangular structure that the bouncer can hold to scan the ID cards. 
 
 --
 
