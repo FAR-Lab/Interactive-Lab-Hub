@@ -73,14 +73,14 @@ The setting is in a study room with only 1 player. During the work from home exp
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
-![Alt text](https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg)
+![Storyboard](https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg | width=100)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
-1, It main problem of not drinking water is that the water source is not around.
-2, it can be annoying, especially when one is not thirsty. A user may not be gladly accept this constant reminder.
-3, Everyone has a different health status. The reminder system may not suit everyone.
+1. It main problem of not drinking water is that the water source is not around.
+2. it can be annoying, especially when one is not thirsty. A user may not be gladly accept this constant reminder.
+3. Everyone has a different health status. The reminder system may not suit everyone.
 
 ## Part B. Act out the Interaction
 
@@ -112,6 +112,7 @@ The line 40 doesn't work on my portal. Printing out: nodename nor servname provi
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+
 https://youtu.be/vo85uq4_N0U
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
@@ -144,6 +145,7 @@ https://youtu.be/UTyIYwL13CE
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
 I talked with Zhonghao, Eric, Ahaan during class time in lab1. My friend Yitong helped me with the video and gave me some feedback for the interaction.
 
 # Staging Interaction, Part 2 
