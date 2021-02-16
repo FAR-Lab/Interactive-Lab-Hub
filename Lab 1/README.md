@@ -67,15 +67,19 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
 **Describe your setting, players, activity and goals here.**
 
 The setting is in a study room with only 1 player. During the work from home experience in the pandemic, we spent most of our day in our own room, busy with screens. Not drinking enough water is one of the problem that can lead to potential health issue. The main activity is to remind the user to drink water in order to live a healthier life style during work from home.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
 **Include a picture of your storyboard here**
-![Storyboard](https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg | width=100)
+
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg" width="600">
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
 **Summarize feedback you got here.**
 
 1. It main problem of not drinking water is that the water source is not around.
