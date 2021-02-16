@@ -68,13 +68,16 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
+
 The setting is in a study room with only 1 player. During the work from home experience in the pandemic, we spent most of our day in our own room, busy with screens. Not drinking enough water is one of the problem that can lead to potential health issue. The main activity is to remind the user to drink water in order to live a healthier life style during work from home.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+![Alt text](https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
 1, It main problem of not drinking water is that the water source is not around.
 2, it can be annoying, especially when one is not thirsty. A user may not be gladly accept this constant reminder.
 3, Everyone has a different health status. The reminder system may not suit everyone.
@@ -84,9 +87,11 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+
 Sometimes when we do not want water but it is still shining, the paper solution only executes stopping it by drinking water. We need a stop button to stop the reminder.   
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
+
 Maybe there can also be a reminder pop up on the screen of the laptop that I am working on.
 
 ## Part C. Prototype the device
@@ -100,6 +105,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**
+
 The line 40 doesn't work on my portal. Printing out: nodename nor servname provided, or not known. I changed the line into "print(f"access at http://{socket.gethostbyname('localhost')}:{port}")", which prints out 127.0.0.1 that doesn't work on my phone. Eventually I went to network in system preference to find the IP address.
 
 ## Part D. Wizard the device
