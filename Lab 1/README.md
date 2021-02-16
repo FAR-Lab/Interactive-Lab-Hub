@@ -128,13 +128,19 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+I added a water proof bag to the phone as well as a stop button to stop the reminder:
+
+
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
-Fisrt of all the device need to be water-proofed. It should also be light-weighted because we need to hold the cup every time we drink water. 
+Fisrt of all the device need to be water-proofed. It should also be light-weighted because we need to hold the cup every time we drink water. Moreover, the phone should not ostable the mouth when drinking water.
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+
+https://youtu.be/UTyIYwL13CE
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
