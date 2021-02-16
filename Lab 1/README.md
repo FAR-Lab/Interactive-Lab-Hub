@@ -135,7 +135,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 I added a water proof bag to the phone as well as a stop button to stop the reminder:
 
-
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/set%20up%20update.jpg" width="600">
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
