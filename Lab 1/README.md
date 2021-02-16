@@ -93,8 +93,9 @@ The potential designs are listed above. They are all wearable sensors similar to
 
 ## Part F. Record
 The final version. Video link: https://kapwi.ng/c/2Tmxcopb 
-Rui Maki helped me with the video.
 
+Rui, Irene, Hortense and Brandt helped me set up my github and gave me feedback in the lab.
+Rui helped me with the video.
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
