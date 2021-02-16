@@ -148,7 +148,7 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 **Show the follow-up work here.**
 
-[Follow-up work[(https://drive.google.com/file/d/1atqP2Bj4FcE_OhYijmsJe6Ru7wwDR-jX/view?usp=sharing)
+[Follow-up work](https://drive.google.com/file/d/1atqP2Bj4FcE_OhYijmsJe6Ru7wwDR-jX/view?usp=sharing)
 
 ## Part E. Costume the device
 
