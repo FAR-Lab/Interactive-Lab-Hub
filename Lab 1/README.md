@@ -103,8 +103,6 @@ This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 I received good feedback from my group in general. Hortense and Irene mentioned the privacy issue of the device that the device can be more informative and private. Therefore, ring can be a potentially better option. I was mainly targeting on the adult group when I first designed it. Hortense suggested that there is a potential use for infants or non-verbal children, which can help their parents know how to take care of them. Brandt also pointed out that the baseline should be modifiable and adjustable to a personal level and I totally agree.
 ## Make it your own
 
