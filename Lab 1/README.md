@@ -150,7 +150,7 @@ https://drive.google.com/file/d/1-rrRbAQD9IUbrsOsJ9SiVxsV9210SCDs/view?usp=shari
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-I talked to Jeanne Li about my lab and she gave me constructive feedback on my design. Also I got feedback from my group memebers: Ross Kleinrock, Min Tae Lee ,and Rob Gentul.
+I talked to Jeanne Li about my lab and she gave me constructive feedback on my design. Also I got feedback from my group memebers: Ross Kleinrock, Min Tae Lee, and Rob Gentul.
 
 # Staging Interaction, Part 2 
 
@@ -162,8 +162,10 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
-Ross Kleinrock, Min Tae Lee ,and Rob Gentul.
+Feedback recieved from Ross Kleinrock, Min Tae Lee, and Rob Gentul.
+
 **Feedback Summary:** 
+
 Great application of the device with the paper prototype. People liked the costuming piece, and the potential applications of something like this like stove burners to alert when they’re still hot. Suggestions said that I could maybe an alert noise when the user is about to touch something hot, in case they don’t notice or can’t see the red light. 
 
 Some questions that were raised include: is necessary to have indicators for objects that are colder? Would the device work for all kinds of materials? For instance, would it work for pots or plates also?
