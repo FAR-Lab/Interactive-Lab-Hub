@@ -155,3 +155,17 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+I made a few major updates to the prototype in Part B.
+1. The device is a bracelet instead of a ring. Based on the feedback I got, it seemed like a ring would be too "in your face" and distracting to a person if it was always lighting up and vibrating. Its also hard to fit as many lights and buttons on a ring. So a bracelet is a more realistic device.
+2. I added vibrations to the device such that when you reach above a certain heartrate, not only is the color Red, but there is a 2 second vibration to alert you of this. If you do not make efforts to alleviate it, then it vibrates again in 15 minutes. You can change the interval from the settings app of the device. The deivce only vibrates once for the green color to indicate you are back to resting heart rate.
+3. There are only 3 colors - green, yellow, and red. This is because the blue color of neutral phase was confusing with the green color. 
+4. There is a button to snooze the bracelet for 1 hour, so that if you don't want to be alerted of changes in heart rate (like if working out) then you have that option.
+5. Lastly, there is a settings app so that you can change some of the features of the bracelet.
+
+Storyboard below:
+
+New Prototype below:
+
+New video below:
+
+
