@@ -181,12 +181,20 @@ I co-worked with Snigdha Singhania (ss4224) and Shivani Doshi (sgd73) for this p
 
 This describes the second week's work for this lab activity.
 
-
 ## Prep (to be done before Lab on Wednesday)
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-**Summarize feedback from your partners here.**
+**I received feedback from my breakout room group: Snigdha Singhania, Shivani Doshi, and Anam Tahir. Their feedback included:**
+* It wasn't clear how the timer could be set. While I specified that this was done via a phone app, this feedback makes it clear that there should be a method for setting the timer in the device interface, as well.
+* The reset button implies the timer only sets for a single, defined time. Having a series of buttons with specific, common times might be a friendlier interface.
+* I should consider how this interface could be used outdoors. Would the light still be noticeable in bright light?
+* The device could incorporate vibration to make it more noticeable, as well. This might help if the light isn't as obvious in outdoor, bright settings.
+* The button placement isn't super obvious. They expected the buttons to be on the screen itself rather than on the easel legs.
+* Maybe consider making the device a wearable so it can vibrate and still be unobtrusive for fellow studiers.
+* This would be really useful in a library setting or for people with hearing disabilities.
+* LOVE the thumbs up at the end.
+* Yellow is a brighter color and so may be more noticeable than red. It could be worth exploring having the colors reversed in order. I decided in the previous version to ignore this because I based the order on contrast and decided to make the device yellow. This would mean that red would contrast more and likely be more noticeable.
 
 ## Make it your own
 
@@ -195,4 +203,41 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here.**
+## Part 2 Response
+
+### Brainstorming
+
+For Part 2, based on the feedback I received and my experiences in Part 1, I'd like to test the following features for The Silent Study Buddy:
+* Switching the color order and testing noticeability
+* Adding vibration when the Silent Study Buddy reaches "angry" level
+* Beeping when it is especially angry to bother others and shame the student into moving on
+* Make it wearable in order to make the vibrations less obtrusive
+* Explore options that will make the lights more noticeable in bright, outdoor settings
+* Explore how to make the silent study buddy blend in/provide a better study space with study-centric music
+* Adjust the interface to be more user friendly with a custom timer option, preset options, and buttons on the screen itself
+
+### Plan
+
+#### Vibration
+
+I will build the vibration module using a servo motor and a raspberry pi. Tinkerbelle will be hosted on the pi, as well, so that everything can be run at once.
+
+#### Automation
+
+I'd like to build out a full timer and UI so that these features can be automated and more easily used by the student.
+
+#### Costume
+
+The costume should be adjusted to ensure visibility and unobtrusiveness. This means making it a wearable so vibration will not bother other students. In addition, it will need to be adjusted to ensure visibility and/or alternative alert methods for bright environments.
+
+#### Beeping
+
+I have a Lilypad Buzzer that I'd like to incorporate for this portion. I need to do some user testing to actually get feedback on whether users would find this helps them to stay accountable to using the device or if it would hinder adoption.
+
+### Process
+
+TBD - this section will show incremental changes to the system and it's in-progress development
+
+### Final Result
+
+TBD - this section will show the final interaction and product
