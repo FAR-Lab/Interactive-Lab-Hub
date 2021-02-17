@@ -150,12 +150,11 @@ https://drive.google.com/file/d/1-rrRbAQD9IUbrsOsJ9SiVxsV9210SCDs/view?usp=shari
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-I talked to Jeanne Li about my lab and she gave me constructive feedback on my design.
+I talked to Jeanne Li about my lab and she gave me constructive feedback on my design. Also I got feedback from my group memebers: Ross Kleinrock, Min Tae Lee ,and Rob Gentul.
 
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
-
 
 ## Prep (to be done before Lab on Wednesday)
 
