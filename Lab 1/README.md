@@ -187,6 +187,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+I received feedback from Irene, Hortense, Nicole and Brandt. The feedback I received was that the device could be hands free and rather than a rectangular device, it could be stuck onto the frame of the door entrance so that it would light up when someone under the age of 21 entered into it. I also received feedback that this is a very relevant idea and could be used in many different places to prevent underage people from entering and that perhaps the data collected could then be stored to keep a list of existing underage people who have tried to enter into the club before. 
+
 
 ## Make it your own
 
