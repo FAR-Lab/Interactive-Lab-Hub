@@ -172,6 +172,13 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+* Feedback from Chelsea Luo: I like the idea of using light as a visual indicator for immediate information feedback. It might be good to include audio as part of the alert, since it might be easy to miss the visual signal while working on something else.
+* Feedback from Jiayun Liu: The video is very clear and the interaction design is quite intuitive. The lantern fits well for the purpose. However, I wonder how the user could remember which color represents which events, if there is no cheat sheet provided. Also what if the user is not in the same room with the device when an event alarm is on?
+* Feedback from Ruijun Li: The idea is very smart and practical, especially as is described in the "Plan" part, the device could be deployed under the circumstances of the Covid when people are in social distancing, indulging in tittytainment or any other activities. I super love how you draw the storyboard and make the film -- They are so creative and attractive! And they present comparative scenarios to highlight the functionality of the device. Also, how you costume the device enable it to be a cute portable household device, like a small furniture. The only suggestion I have would be, maybe you could make the alarm sound more diverse and adaptive for different scenarios, e.g. the Valentine alarm could be different from the office hour alarm, with different volumes.
+
+
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
