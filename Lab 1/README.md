@@ -162,6 +162,13 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Just by looking at the video, it's a little bit hard to tell how the device works and what those different colors mean because I don't know where this device is located on the vehicle, and the light changes pretty frequently. In most cases, I noticed that the light was green when the street was empty or no vehicles were nearby. It turned red when the car was making turns and close to some objects. After the car hits the pole, it started to flash in red and blue, and it flashed in pink and green when an ambulance truck passed by. I guess this device reflects the different situations in the surroundings of the vehicle. It's a good idea to use different colors instead of texts to represent the traffic conditions, but avoid changing light rapidly because it might distract the driver. - by Quinn
+
+First of all, using a driving simulator/game is attractive and conveys ideas precisely. In the video, it shows that when there is a wall or a car ahead, the light will change to red. And when the accident occurs, the light will change colors and flash. The goal of this device might be to prompt the driver about the traffic status. However, using a flashing light as a crash indicator usually happens in the game and is useless in practice, because it won't help anything indeed. It's a really good idea to eliminate the complicated text messages, but using light in the car might cause dazzling and distraction problem especially at night. In this case, using voice might be a better choice. - By Andrew
+ 
+The device is changing color as the car moves, green when its clear to drive, red when getting close to crashing, and flashing when emergency vehicles are nearby. It was clear what the device is doing, it is giving the driver warnings according to the current situation. I was not happy with the end where it crashes and light was flashing like crazy, I think I would know I crashed, this should only serve as a warning device. - By John
+ 
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
