@@ -136,11 +136,20 @@ Many relate the color with the temperature so it is unintuitive for them to see 
 
 "From the video I saw the light on the smart pan will change color based on the temperature of the pan. The color-changing from yellow to red is very intuitive and well-adapted by people since red always represent higher temperature. However, the green light is confusing for me. What does green means? Also, I would suggest light can start from blue as the pan is cold, and then gradually transitioning to red and flashing red. Overall the idea is cool, if combine with sound, it can guide people to cook."
 
-## Make it your own
-
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
-3) We will be grading with an emphasis on creativity. 
+## Make it your own 
 
 **Document everything here.**
+
+## Part A. Plan 
+
+**Describe your setting, players, activity and goals here.**
+
+The interaction will happen in a self-teaching piano class. There will be one user who is taking the class. They will wear t-ring with the haptic feedback and their goal will be trying to learn piano with a better hand posture.
+ 
+**Include a picture of your storyboard here**
+
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/tring.jpg)
+  
+
+**Summarize feedback you got here.**
