@@ -172,6 +172,16 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Rob:
+Very clear and useful concept! I liked how the demo went through the paces of the ingredients and tools you could use in the kitchen. I’d try incorporating sound to better suggest which items the device wants you to use,
+
+Min Tae:
+Interesting idea - I think you could expand the idea in part 2 with features like voice control (so that you can control the device with voices when your hands are full while cooking) and instructions via words (different color lights might actually be confusing when you are not used to which color means what).
+
+William:
+I really enjoyed your prototype video as it really showcases all the functionalities of your device. I like how the colors were chosen to represent different actions and ingredients. I thought the use of white as salt and black as pepper was quite shrewd.
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
