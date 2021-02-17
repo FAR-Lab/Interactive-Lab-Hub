@@ -103,7 +103,7 @@ This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 
-I received good feedback from my group in general. Hortense and Irene mentioned the privacy issue of the device that the device can be more informative and private. Therefore, ring can be a potentially better option. I was mainly targeting on the adult group when I first designed it. Hortense suggested that there is a potential use for infants or non-verbal children, which can help their parents know how to take care of them. Brandt also pointed out that the baseline should be modifiable and adjustable to a personal level and I totally agree.
+I received good feedback from my group in general. Hortense and Irene mentioned the privacy issue of the device that the device can be more informative and private. Therefore, ring can be a potentially better option. I was mainly targeting on the adult group when I first designed it. Hortense suggested that there is a potential use for infants or non-verbal children, which can help their parents know how to take care of them. Brandt also pointed out that the baseline should be modifiable and adjustable to a personal level. Rui mentioned that the device can play a blue color and soothing music when the person is stressed.
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
