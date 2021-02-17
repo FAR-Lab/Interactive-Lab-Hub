@@ -190,3 +190,28 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+
+_Setting:_ The interaction is taking place in the kitchen. In the new version, you will push a button in your kitchen to start cooking the recipe. The device will have a recipe pre installed, and will communicate with you via speech. When you push the button, the recipe will start, and the device will speak to you to tell you what to do. Once you complete a step, you will let the device know by pushing the button again. If it is a timed excercise, the device will time it automatically and use sound effects to tell you when the time is up.
+
+_Players:_ At the beginning of the recipe, the device will ask how many chefs there are, and will indicate who it is speaking to before it gives commands.
+
+_Activity:_ The actors will be cooking. The device will instruct them on how to best follow the recipe and guide them through the process.
+
+_Goals:_  The goal for the cooks is to create a delicious dish according to the recipe.
+
+_Device:_ The button will be near the counter, stove, and fridge so as to be as close to the cooking action is possible. It can be placed in a different area depending on the kitchen.
+
+
+Team feedback
+
+"Amazeballs"
+"it looks good"
+"Lots of laughter"
+
+Storyboard:
+
+![New Storyboard] (https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3689.jpg)
+
+Video:
+https://cornell.zoom.us/rec/share/P23mPpq9w-MZebxXJu2so8wRDOQc6N5HONf0fQmrM4PFx52WwtY7GH8-R2MxEIGl.36QZYloHg8OiPDi4?startTime=1613580489000
+
