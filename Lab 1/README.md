@@ -92,7 +92,9 @@ In general it is a very intuitive and helpful implementation. However, for me it
 
 **Include your first attempts at recording the set-up video here.**
 
+https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/setup.mov
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/setup.gif)
 
 **Show the follow-up work here.**
 
@@ -112,6 +114,9 @@ The device could definitely overheat, so I was putting the light on the handle o
 
 **Take a video of your prototyped interaction.**
 
+https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/interaction.MOV
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/interaction.gif)
 
 **Please indicate anyone you collaborated with on this Lab.**
 
@@ -123,10 +128,13 @@ This describes the second week's work for this lab activity.
 
 
 ## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 **Summarize feedback from your partners here.**
+
+Many relate the color with the temperature so it is unintuitive for them to see what does the color mean when cooking for, say, a steak.
+
+" I think your idea might be better if it represented the temperature of the pan via a color spectrum. That way it doesn't have to be steak specific. Other than that I think everything is clear (and a really cool idea to explore)"
+
+"From the video I saw the light on the smart pan will change color based on the temperature of the pan. The color-changing from yellow to red is very intuitive and well-adapted by people since red always represent higher temperature. However, the green light is confusing for me. What does green means? Also, I would suggest light can start from blue as the pan is cold, and then gradually transitioning to red and flashing red. Overall the idea is cool, if combine with sound, it can guide people to cook."
 
 ## Make it your own
 
