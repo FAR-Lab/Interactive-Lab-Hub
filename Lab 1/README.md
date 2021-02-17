@@ -150,7 +150,7 @@ https://youtu.be/UTyIYwL13CE
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-I talked with Zhonghao, Eric, Ahaan during class time in lab1. My friend Yitong helped me with the video and gave me some feedback for the interaction.
+I worked with Zhonghao, Eric, Ahaan during class time in lab1. My friend Yitong helped me with the video and gave me some feedback for the interaction.
 
 # Staging Interaction, Part 2 
 
@@ -162,6 +162,12 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 **Summarize feedback from your partners here.**
+
+Feedbacks from Eric:
+Overall I like the concept of reminder to drink water since it's crucial to stay healthy and keep hydrated keep taking in water. Personally I carry a bottle around everywhere I go to remind myself to drink water, but my water bottle doesn't light up. My suggestion would be maybe utilize more on the color of the light and make it more interactive. For example, it can be user has to respond to the light every time it lights up and if the user doesn't respond to the light, it can go from yellow to red. Besides, maybe you can do something with the frequency of the lighting. For example, by making the light flash in a certain way with music will make it a more entertaining device.
+
+Feedbacks from James:
+I really like your design because it truly cares about people’s wellness and promote the healthier life style. It is also very intuitive to interact and get information from the device with little needs to learn extra contents. It also requires minimal operation from the user. They can just simply install and setup the device and it takes care of the rest. Moving forward, it might be helpful to also incorporate the sound to deliver more information to enhance the performance of the device.
 
 ## Make it your own
 
