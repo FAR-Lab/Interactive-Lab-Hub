@@ -1,4 +1,6 @@
 # Tinkerbelle
+MODIFIED FROM HERE: https://github.com/FAR-Lab/tinkerbelle
+
 
 Tinkerbelle is a simple tool for prototyping interaction, using a phone as a web-controlled smart light. 
 
