@@ -36,7 +36,7 @@ def handle_pause(val):
 # Couldn't seem to get this working
 @socketio.on('clock')
 def handle_clock():
-	emit('clockTime', {'description': '2h 0m'})
+	broadcast('clockTime', {'description': '2h 0m'})
 
 @socketio.on('shake')
 def handle_servo():
