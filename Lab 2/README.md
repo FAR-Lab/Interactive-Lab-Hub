@@ -1,8 +1,9 @@
-# My Clock is a Pi
+# The Clock of Pi
 
 Does it feel like time is moving strangely during the pandemic?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
+
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 ## Prep
