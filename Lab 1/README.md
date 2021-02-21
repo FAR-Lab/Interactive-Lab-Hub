@@ -153,3 +153,19 @@ The interaction will happen in a self-teaching piano class. There will be one us
   
 
 **Summarize feedback you got here.**
+
+My Partner thought this is an interesting idea that needs more exploration. One classmate with previous piano experience stated that when playing piano, the position of the fingers may change depends on different people. Also it may eccounter problem when we try to decode the piano piece into haptic feedback for each individual fingers. 
+
+Another suggested that these rings may solve accessibility problems for blind people.
+
+## Part F. Record
+
+**Take a video of your prototyped interaction.**
+
+https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/tring.MOV
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/tring.gif)
+
+**Please indicate anyone you collaborated with on this Lab.**
+
+I am being working with Heidi He, Weiqing Tang and John Lin for this lab.
