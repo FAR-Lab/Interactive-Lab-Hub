@@ -120,12 +120,28 @@ light.onclick = () => {
 
 for(var i = 0; i < timers.length; i++) {
   var timer = timers[i];
-  timer.onclick = () => {
+  timer.addEventListener("click", function() {
     dynamicColorChange(75, 175, 80, 30, 45, 55, 50);
-    document.getElementById('clockTime').innerHTML = "2h 0m";
-    socket.emit('clock');
+    var time = "0h 0m";
+    if (this.id == 'timer1') {
+        time = "0h 30m";
+        document.getElementById('clockTime').innerHTML = "0h 30m";
+    }
+    if (this.id == 'timer2') {
+        time = "1h 0m";
+        document.getElementById('clockTime').innerHTML = "1h 0m";
+    }
+    if (this.id == 'timer3') {
+        time = "2h 0m";
+        document.getElementById('clockTime').innerHTML = "2h 0m";
+    }
+    if (this.id == 'timer4') {
+        time = "3h 0m";
+        document.getElementById('clockTime').innerHTML = "3h 0m";
+    }
+    socket.emit('clock', time);
   }
-}
+)};
 
 alarm1.onclick = () => {
   var waitTime = 50;
