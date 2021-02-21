@@ -236,8 +236,46 @@ I have a Lilypad Buzzer that I'd like to incorporate for this portion. I need to
 
 ### Process
 
-TBD - this section will show incremental changes to the system and it's in-progress development
+#### Storyboard
+
+As with part 1, I began the iteration on this device's design with a storyboard as seen below:
+![image](storyboard2.png)
+![image](storyboard3.png)
+
+#### Feature Addition
+I began first by enabling the vibration feature and did so by putting a servo motor on the costume and enabling the servo to shake when a button was pressed on the WoZ UI. This meant transitioning the code over to my Raspberry Pi, hooking up the servo to the Pi and the costume, doing some front end work on the UI, and coding up the servo action with RPi.GPIO. I first attached the servo motor to one of the easel legs on The Silent Study Buddy as seen below.
+Here you can also clearly see the easel leg setup and how yarn was used to support the legs.
+![Image](back_view.jpeg)
+
+I ended up deciding against adding beeping or changing the color order after drawing my second story board. The beeping felt detrimental to the purpose of the device's function and in an outdoor setting, yellow light would likely be less obvious than red light. Thus, red light, besides the urgency the color generally communicates, would be more noticeable and thus should be considered more "severe" than yellow light. 
+
+In addition to the addition vibration feature, the Silent Study Buddy was given a UI replacement to make usage more intuitive. Given the actress in Part 1's final video even tried to stop the alarm by touching the screen rather than the button on the easel leg, the stop button and other interactive features were simply added to the UI itself on the screen. This required some adjustment to the tinkerbelle HTML, main tinker.py file, and JS. To show these improvements, the tinkerbelle library was cloned into this Lab code base and the git connections removed so that the code could be included here. These UI changes are seen below:
+![Image](front_view.jpeg)
+
+Not only was the "Stop Timer" button added to the UI, but a way for the user to actually set the time length of their timer was added, as well. Finally, a "count down" clock was added for more visual feedback to the user. 
+
+Finally, I made the WoZ setup a little easier to control by removing the color picker and setting up three buttons that automatically controlled the color variation for the three stages of alerts. Each state was triggered by a separate button (hidden above the buttons shown in the displayed UI) but after the button was pressed, all interactions were automated. You can see the full UI as viewed on my laptop's browser below:
+![image](full_ui.png)
+
+#### Initial Acting it Out
+
+Before altering the costume, I performed an initial acting out attempt to try to highlight any design challenges I may have missed with the new features. This interaction is shown at the link below. It is worth noting that I actually added the aforementioned "count down" clock after this interaction because of the challenge of lack of feedback from the device when I started a new timer: https://drive.google.com/file/d/1IRikKkOQ8g_JIW05ZVr6IMnaT_lw9p3h/view?usp=sharing
+
+#### Costume Iteration
+
+To make The Silent Study Buddy more convenient for usage away from locations with ample desk space, a strap was crocheted so that the device could be worn on the wrist like a watch. The crocheting process is shown below:
+![image](crocheting.jpeg)
+
+Once attached to the rest of the costume, the device could be worn like this:
+![image](on_wrist.jpeg)
 
 ### Final Result
 
-TBD - this section will show the final interaction and product
+The final product can be seen in these final three videos. First, a close up demo of the screen shows the interaction with a focus on the device itself:
+https://drive.google.com/file/d/1TIB0JOTIo0KnSF9dEGCZocSYiBfRski8/view?usp=sharing
+
+Second, I act out the usage for this device with its table-top easel legs setup:
+https://drive.google.com/file/d/1wrqh9DvtJ-AzwabyOBkTSvExXRzaLRb7/view?usp=sharing
+
+And finally, the usage is demo'd once again in its wearable form:
+https://drive.google.com/file/d/1hb9ZLQn7XwFG6csMmQxlGBWaQMr7NKq2/view?usp=sharing

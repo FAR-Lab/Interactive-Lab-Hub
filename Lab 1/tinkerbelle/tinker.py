@@ -4,7 +4,7 @@ import socket
 import RPi.GPIO as GPIO
 import time
 
-port=5000
+port=8080
 
 app = Flask(__name__)
 socketio = SocketIO(app)
@@ -35,8 +35,8 @@ def handle_pause(val):
 
 # Couldn't seem to get this working
 @socketio.on('clock')
-def handle_clock():
-	broadcast('clockTime', {'description': '2h 0m'})
+def handle_clock(val):
+	broadcast('clockTime', {'description': val})
 
 @socketio.on('shake')
 def handle_servo():
@@ -70,5 +70,5 @@ def index():
 
 if __name__ == '__main__':
 # 	The way of getting the ip address is dumb but works https://stackoverflow.com/questions/166506/finding-local-ip-addresses-using-pythons-stdlib
-	print(f"access at http://100.64.6.64:{port}")
+	print(f"access at http://100.64.7.125:{port}")
 	socketio.run(app, host='0.0.0.0', debug=True, port=port)
