@@ -200,4 +200,4 @@ There has been some modification to the device, not in terms of hardware, but in
 <img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="250"/>
 </div>
 
-[![Final Attempt](/Lab%201/Images/Final_image_A1.png)] https://imgur.com/a/gYjKXYx
+<img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="250"/>(https://imgur.com/a/gYjKXYx)
