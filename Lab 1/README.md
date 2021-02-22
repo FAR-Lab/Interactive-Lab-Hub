@@ -176,16 +176,15 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+**Document everything here.**
+
 Storyboard...
 
 This is a smart tablecloth that you can put on every hard surface in your home. It connects to each other and detect your daily activity to help you live a healthy lifestyle. Since everyone spends too much time at home since the pandemic, its kind of hard to monitor our activities and the smart tablecloth will help you! 
 The setting of the interaction take place at home - tables at home to be specific. The smart tablecloth start with green, which means you can spend some time on the activities that related to that table - get some food on dinning table, drink some coffee at the coffee table, read a book at the study desk, etc. It will change color gradually to red, which means you spend too much time here and will have voice navigations for your next activity.
 
-https://github.com/JamesW121/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0164.jpg
-
+<img src="https://github.com/JamesW121/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0164.jpg">
 
 Link to the video...
 
 https://youtu.be/sqGIY5hnRVY
-
-**Document everything here.**
