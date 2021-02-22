@@ -194,7 +194,7 @@ The storyboard follows two people at home on the weekend bored.  They decide to 
 
 There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.  The device now also vibrates to indicate when safe to drink in normal mode or when someone got unlucky in game mode.  
 
-Play with sound on (both on computer and on imgur) to hear vibrations
+Play with sound on (both on computer and on imgur) to hear vibrations.
 
 **CLICK ON ANY OF TOP 3 TO PLAY "NORMAL MODE"**    
 <div>
