@@ -194,6 +194,6 @@ Do last week’s assignment again, but this time:
 
 **Document everything here.**
 
-![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Screen%20Shot%202021-02-22%20at%202.30.01%20AM.png
+![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%202.jpg
  "storyboard v2")
 * [My final video v2](https://youtu.be/gYh6wp_twFI "My final video v2").
