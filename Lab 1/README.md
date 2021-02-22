@@ -74,8 +74,7 @@ Storyboard Final Version
 
 ## Part B. Act out the Interaction
 
-By acting out, the process doesn’t look that ideal as what I pictured in the storyboard.
-There is no new idea coming up.
+By acting out, the process doesn’t look that ideal as what I pictured in the storyboard. There were multiple times of sound effectt delay. Therefore, I did more tries to test out the order of the light change and the sound change that which one should go first.
 
 
 ## Part C. Prototype the device
