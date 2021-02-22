@@ -71,9 +71,9 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 * **Setting:** In the bedroom of an apartment, during the COVID time. 
 * **Players:** David is a graduate student who is a TA for 2 different classes. He is alone in this bedroom with his interactive calendar. 
-* **Activity:** David does not check his schedule very often, and when he is concetarted on something, he will forget some important events, such as holding his office hour or being late to the class he teaches. The interactive calender using lights to tell David if there is any events coming up, and different color of lights can signal different kind of events. 
-One day afternoon when David finished his assignment, he starts watching his faviorite TV series. The interactive calender starts flashing red light when David is concentrated on the TV series. David notices the red light and he knows he has office hour in 15 mins. He turns off the TV and prepares his office hour. 
-* **Goals:** The goal for David is to keep up with his schedule and not miss any impotant event. 
+* **Activity:** David does not check his schedule very often, and when he is concentrated on something, he will forget some important events, such as holding his office hour or being late to the class he teaches. The interactive calendar using lights to tell David if any events are coming up, and different colors of lights can signal a different kind of events. 
+One day afternoon when David finished his assignment, he starts watching his favorite TV series. The interactive calendar starts flashing red light when David is concentrated on the TV series. David notices the red light and he knows he has office hours in 15 mins. He turns off the TV and prepares his office hour. 
+* **Goals:** The goal for David is to keep up with his schedule and not miss any important event. 
 
 
 
@@ -193,6 +193,11 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+* **Setting:** In the bedroom of an apartment during the COVID period.
+* **Players:** David is a graduate student. David is a very concentrated person. When he is studying, cooking, etc. he doesn't check his phone.
+* **Activity:** The wearable calendar using light to give David visual stimulus, using vibration to catch his attention, and uses voice notification to tell David what events will happen. When David is cooking, studying, and sleeping, the calendar can keep David on track of the schedule by giving him this combination of alerts.
+* **Goals:** The goal for David is to keep up with his schedule and not miss any important events.
+
 # Storyboard
 ![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%202.jpg
  "storyboard v2")
