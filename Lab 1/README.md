@@ -132,6 +132,6 @@ For the accompanying app, I draw two versions to display the stress level (Green
 The video I created is here https://kapwi.ng/c/lelSOODK.
 
 Rui, Brandt, Hortense, Irene and Brian gave me very useful feedback and helped me to improve my design.
-An especial thank to Mehma Bhasin for helping me record the video. 
+An especial thank to Mehma for helping me record the video. 
 
 **Document everything here.**
