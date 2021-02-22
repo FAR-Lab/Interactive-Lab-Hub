@@ -164,3 +164,24 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+## Part 2 is in addition to the above
+## Part A. Plan 
+
+**Describe your setting, players, activity and goals here.**     
+
+**Setting:** Any location that a carbonated beverage could be agitated and an individual who is bored.. 
+
+**Players:** An individual looking to consume a carbonated beverage and the carbonated beverage itself.  Can be anyone of any immutable or mutable characteristic and any beverage as long as it is in a sealed container and carbonated. This specific example will be the resident of the apartment with a can of soda.
+
+**Activity:** Measuring the internal pressure of the container to determine if there is risk of spraying the contents on the drinker if opened.  Once the pressure has dropped below a predetermined threshold the device will signal that the beverage is safe to open and drink.  Also provides the ability to have the individual play a game of chance by opening the can early through an indication that came too early if so desired (or not explode as it waited the requisite amount of time).
+
+**Goals:** Open a carbonated beverage without worrying if it will explode or not.  Attempt to limit spillage thereby reducing ruined clothing and messy floors among many other annoyances.  Or play a party game with opening the can too early/fool your friends.
+
+Overall this device, in whatever form it may take (ratchet ziptie, air bladder, or other), will meassure internal pressure of a carbonated beverage to determine if it is 'safe' to open.
+
+The addition of a game of chance is to combat the fact that the need to detect beverage can pressure is rather few and far between such that there needs to be alternative uses for the device.  This is where the party game of is the can going to explode comes in.  While one could simply shake the can and open it, they do so knowing it will most likely explode.  By adding the device giving an indication of a go ahead after a random amount of time, this adds an extra layer of chance and fun as well.
+
+## Part B. Act out the Interaction
+
+There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.
+     
