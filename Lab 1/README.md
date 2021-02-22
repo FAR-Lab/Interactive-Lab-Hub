@@ -1,182 +1,198 @@
+# Staging Interaction
 
+In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
-# Light It Up
+There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
 
-## Prelab
+This project aims to create a device which communicates primarily via light. In this way, our "Tinker Bell" should be able to clearly convey meaning and purpose.
 
-1. Set up your Github class "Hub" repository by [following these instructions](https://github.com/jdz32/github-guide/blob/master/README.md).
-2. Set up the README.md for your Hub repository and [learn how](https://guides.github.com/features/mastering-markdown/) to post links to your submissions on your readme.md so we can find them easily.
-3. Locate electronics which you can hack for the Light It Up lab on Thursday. 
-4. Install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) on your laptop. 
-5. Read through Lab 1.
-7. Solder header pins onto Adafruit Metro Mini (See PartA of lab1, tutorial for soldering : https://www.youtube.com/watch?v=3230nCz3XQA)
+## Table of Contents
+This project includes the following sections:
 
+A) [Initial Prototype](#a.-staging-interaction,-part-1) <br>
+1) [Plan](#1.-plan) <br>
+2) [Act out the interaction](#2.-act-out-the-interaction) <br>
+3) [Prototype the device](#3.-prototype-the-device) <br>
+4) [Wizard the device](#4.-wizard-the-device) <br>
+5) [Costume the device](#5.-costume-the-device) <br>
+6) [Record the interaction](#6.-record) <br>
 
-### Reading
-* Circuits & Basic Electronics Review: Scherz, Ch 2.1-2.17, Ch. 3.1-3.5
-* Arduino basics: https://www.arduino.cc/en/Tutorial/Foundations
+B) [Improved Prototype](#b.-staging-interaction,-part-2) <br>
+1) [Prep](#1.-prep) <br>
+2) [Brainstorming](#2.-brainstorming) <br>
+3) [Plan](#3.-plan) <br>
+4) [Process](#4.-process) <br>
+5) [Final Result](#5.-final-result)
 
-### For class, remember to bring:
-1. Your laptop
-2. Your device-to-be-hacked
-3. Whatever dongle you need to hook up a USB device to your laptop
+## A. Staging Interaction, Part 1
 
- 
-## Overview
-For this assignment, you are going to 
+### 1. Plan
 
-A) [Set up a breadboard](#part-a-set-up-a-breadboard) 
+#### Scenario
 
-B) [Manually blink a LED](#part-b-manually-blink-a-led) 
+Shivani and Snigdha are studying together in The River Room late one night. They are both hard-working students who want to get good grades and so they are working together for motivation to work harder. However, both like a quiet environment when they study and have made a pact to study in as much silence as possible. Shivani, though, likes to timebox her work to keep herself from going down rabbit holes. She usually sets an alarm to help her keep on track but, with the Pact of Silence, she needs a new way to alert her to move on from working on her IDD lab to her Deep Learning assignment.
 
-C) [Blink a LED using the Arduino](#part-c-blink-a-led-using-arduino)
+This is where The Silent Study Buddy comes in. The Silent Study Buddy is an un-obtrusive alarm which gently flashes yellow light to let the user know it is time to move on to their next task. If they do not see the light and stop the alarm, The Silent Study Buddy begins to get a little peeved that it is being ignored and begins to flash orange. If the student STILL doesn't notice, The Silent Study Buddy gets angry and begins to flash red.
 
-D) [Manually fade a LED](#part-d-manually-fade-a-led) 
+The student is able to turn off the alarm by pressing the "STOP" button on the top of the alarm. (The alarm is set via an app on their phone and so will not be depicted in this scenario.) If they want to repeat the alarm, they can do so easily with the "REPEAT" button on the top of the alarm.
 
-E) [Fade a LED using Arduino](#part-e-fade-a-led-using-arduino)
+When the alarm is stopped, The Silent Study Buddy briefly flashes green to tell Shivani thank you for listening to it and to encourage her good study habits.
 
-F) [Frankenlight](#part-f-frankenlight)
+When the alarm is repeated, The Silent Study Buddy also briefly flashes green to let Shivani know it got the message and to help encourage her to keep up the good work.
 
-## In The Report
-For the report, make a copy of this wiki page for your own repository, and then delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include snippets of code that explain what you did.
+#### Storyboard
 
-Deliverables are due next Tuesday. Post a link to the wiki page on your main class hub page.
+I made my storyboard on my iPad because I find that easier to draw on and don't have markers.
+![image](storyboard.jpg)
 
-## Part A. Set Up a Breadboard
+#### Feedback from Idea Presentation
+Snigdha and Shivani both said they liked the idea and thought is was "so cute". Snigdha asked "is REPEAT when you put a timer for the same duration as before? If so, maybe you could use 'timer' rather than an 'alarm'." 
 
-For this lab, we'll be using the [Adafruit Metro Mini](https://www.adafruit.com/product/2590) development board as our hardware platform. This board is a derivative of the [Arduino UNO R3](https://store.arduino.cc/usa/arduino-uno-rev3). 
+This is a really good point on appropriate wording for the Silent Study Buddy and I'm going to try to call it a timer rather than an alarm from now on. 
 
-You should have already have installed the [Arduino software](http://arduino.cc/en/Main/Software) on your laptop.
+### 2. Act out the Interaction
 
-Wire the power rails of your breadboard so that the red rails are connected to the +5V pin of the Metro Mini, and the blue or black rails are connected to the GND pin.  
+I acted out the interaction while typing this actually. I set my phone up so I could see it and imagined it flashing different colors to let me know it was time to work on something else.
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/breadboard_setup.png" width=400>
+While acting this out with a friend, too, she said she'd probably notice bright colors more easily than dark colors so thought the Silent Study Buddy's color ordering should be switched.
 
-**Include a picture of your own breadboard in the report. (We trust you to plug the Metro Mini and wires in properly. This is really practice for including images in your reports.)**
+#### Reflection on Acting it Out
 
-## Part B. Manually Blink a LED
+I found myself looking at my phone a lot. This may have been because it still looked like my phone and I'm used to looking at my phone to see if I have notifications. This is good to know though, because I'll want to design The Silent Study Buddy to not resemble a phone as much as possible. It should not reward constant checking behavior because that would be just as disruptive, if not more so, as an actual timer alarm going off.
 
-**a. What color stripes are on a 220 Ohm resistor?**
-With the Arduino unplugged, build the circuit below. You can use any color LED. 
+### 3. Prototype the device
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor.png" width=300>
+#### Feedback on Tinkerbelle
 
-If you need a diagram of what this looks like on your board, [here's a hint](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor_diagram.png)
+I like how easy it is to use Tinkerbelle for changing colors on my phone. However, when I jump from one color to another, it is very jarring and I have little control over the starting point within that color (lighter shades vs darker shades). I would have appreciated more choice in say what shade of yellow it shows first when I jump to yellow. In addition, it's hard to know what sounds Tinkerbelle can make. You have to know what words to type for what sounds to make without a list of options. If there was a list, it would be easier to use the sounds features on the tool.
 
-If your button doesn’t work, check that it’s oriented as shown below. You might need to rotate it by 90 degrees. 
+### 4. Wizard the device
 
-![Button image](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_image.png)
+The setup video can be found here: https://drive.google.com/file/d/1LCEHFCxbQVZjnDqnddyOjnTcjMUeSFBD/view?usp=sharing 
 
-A typical pushbutton, when pressed, connects the 2 pins on one side to the 2 pins on the other side.
-**a. What color stripes are on a 220 Ohm resistor?**
+First, I show an actress using the paper prototype with the goal of studying for a specified time and then stopping the timer when it goes off so that she can take a break from studying after it goes off:
 
-Connect the Metro Mini to your computer using the USB cable. The green LED on top of the Arduino should light.
+This interaction can be seen here: https://drive.google.com/file/d/1mWCRBtBNoYpJ-U0cgC91wQHfbZ2rPSTc/view?usp=sharing
 
-Does your LED light? Why not? What do you have to do to light the LED?
- 
-**b. What do you have to do to light your LED?**
+Then, I changed the goal so that the actress is studying for a long period of time and wants to switch from one subject to another after a specified time. Rather than stopping the timer, she restarts it for the same time as the last one and switches to her new subject.
 
-## Part C. Blink a LED using Arduino
+This interaction can be seen here: https://drive.google.com/file/d/1d1eYBRDmpCmJ4629NWPAE7aCIBkX9rwm/view?usp=sharing
 
-(Do not deconstruct what you have set up on your breadboard until you find it necessary! For instance, don't undo the LED and button setup that you did in Part B when you start doing Part C.)
+### 5. Costume the device
 
-### 1. Blink the on-board LED
-Arduino boards typically come preloaded with a version of the Blink program on it. This code lets its L LED (connected on pin 13) blink as soon as the USB cable starts powering the board. Let us modify that program.
+I imagine that the device will resemble the following:
 
-Launch the Arduino application on your computer. It will open to the template of a new empty sketch. Here is what it looks like:
+![image](costume_sketch.png)
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_window.png" width=300>
+#### Design Considerations
 
-Check out the Blink example code: [File->Examples->Basics->Blink](https://www.arduino.cc/en/Tutorial/Blink). 
+The Silent Study Buddy will need to be designed in a way which is quiet, as non-bothersome to non-users as possible, and also be clearly visible for the user. In order to achieve the quiet design, The Silent Study Buddy will not have any motorized parts. It will be stationary and solid. In order to be non-bothersome to non-users, The Silent Study Buddy will actually be a brighter color so that any bright colors it is emitting is less obvious for non-users while still viewable for the primary user. If it is a bright color, the bright screen color will have less contrast and the hope is that others will be less likely to see the light flashing out of the corner of their eyes. However, as the device will be pointed at the user, they will still be able to see the colors as a large screen is unidirectional pointed towards them.
 
-**a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+In addition, the Silent Study Buddy will need to flash lights in a way which is not triggering for those with epilepsy. Thus, it will be designed to have a gradual increase and decrease in lights rather than rapid bursts.
 
-**b. What line(s) of code do you need to change to change the rate of blinking?**
+#### Final Costume Design
 
-**c. What circuit element would you want to add to protect the board and external LED?**
+I ended up crocheting the outer shell for The Silent Study Buddy. I had some marshmallow skewers for camping and s'mores that I was able to use as the legs in the square easel leg design. My buttons were circles of paper with the stop and repeat logos drawn on them. However, these buttons could not easily be taped to the shell itself and so were taped to the top of the easel legs.
 
-To compile and upload your code, take the following steps (note that 1, 2 should only have to be done once):
-1) In the Arduino IDE, select the board we are using: Tools -> Board -> Arduino/Genuino UNO 
-2) You may also have to select a communications (or COM) port (Tools -> Port ->  Serial Port). The port should be something like `/dev/cu.SLCA_USBtoUART` (on MAC) `/dev/ttyUSB0` (on Linux), or `COM3` (on Windows, could be another number). If they are not showing up, make sure you've installed the [SiLabs CP210x drivers](http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx).
-3) To compile your code, click on the "checkmark" on the upper far left of the Arduino development window.
-4) To upload compiled code to the Arduino, click on "right arrow" besides the "checkmark."
-5) When the code is uploaded, the Arduino should automatically start running your new code.
+![image](costume.png)
 
-Change the `delay` parameter to modify blink rate of your LED to make it blink faster.
+### 6. Record
 
-**d.  At what delay can you no longer *perceive* the LED blinking? (And how can you prove to yourself that it is, in fact, still blinking?**
+#### Video of Prototype
 
-Modify the code to make your LED blink *your way*. 
+My prototype can be seen fully costumed and in action here: https://drive.google.com/file/d/1J_7SJKMBSACLZPYl8Jkx1uOoK8oXduqK/view?usp=sharing
 
-**e. Save your new blink code to your lab 1 repository, with a link on the Lab report wiki page.**
+#### Acknowledgements
 
-### 2. Blink your LED
+I co-worked with Snigdha Singhania (ss4224) and Shivani Doshi (sgd73) for this project while building my prototypes and costume. We also received feedback from each other during the planning phase and acting phases. We also feature in each others' devices and prototype videos.
 
-Now modify the circuit and program so that you can blink an external LED on pin 9.
+## B. Staging Interaction, Part 2 
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_resistor_schematic.png" width=300>
+### 1. Prep 
 
-![Arduino LED resistor schematic](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_resistor_schematic.png)
+I received feedback from my breakout room group: Snigdha Singhania, Shivani Doshi, and Anam Tahir. Their feedback included:
+* It wasn't clear how the timer could be set. While I specified that this was done via a phone app, this feedback makes it clear that there should be a method for setting the timer in the device interface, as well.
+* The reset button implies the timer only sets for a single, defined time. Having a series of buttons with specific, common times might be a friendlier interface.
+* I should consider how this interface could be used outdoors. Would the light still be noticeable in bright light?
+* The device could incorporate vibration to make it more noticeable, as well. This might help if the light isn't as obvious in outdoor, bright settings.
+* The button placement isn't super obvious. They expected the buttons to be on the screen itself rather than on the easel legs.
+* Maybe consider making the device a wearable so it can vibrate and still be unobtrusive for fellow studiers.
+* This would be really useful in a library setting or for people with hearing disabilities.
+* LOVE the thumbs up at the end.
+* Yellow is a brighter color and so may be more noticeable than red. It could be worth exploring having the colors reversed in order. I decided in the previous version to ignore this because I based the order on contrast and decided to make the device yellow. This would mean that red would contrast more and likely be more noticeable.
 
-**Make a video of your LED blinking, and add it to your lab submission.**
+### 2. Brainstorming
 
-## Part D. Manually fade a LED
+For Part 2, based on the feedback I received and my experiences in Part 1, I'd like to test the following features for The Silent Study Buddy:
+* Switching the color order and testing noticeability
+* Adding vibration when the Silent Study Buddy reaches "angry" level
+* Beeping when it is especially angry to bother others and shame the student into moving on
+* Make it wearable in order to make the vibrations less obtrusive
+* Explore options that will make the lights more noticeable in bright, outdoor settings
+* Explore how to make the silent study buddy blend in/provide a better study space with study-centric music
+* Adjust the interface to be more user friendly with a custom timer option, preset options, and buttons on the screen itself
 
-Set up the following circuit, and try making the LED glow brighter and dimmer.
+### 3. Plan
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/led_pot_schematic.png" width=300>
+#### Vibration
 
-**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+I will build the vibration module using a servo motor and a raspberry pi. Tinkerbelle will be hosted on the pi, as well, so that everything can be run at once.
 
-## Part E. Fade a LED using Arduino
+#### Automation
 
-The Arduino cannot output an analog voltage, only 0 or 5Vs. So how can we fade an LED using the Arduino?
+I'd like to build out a full timer and UI so that these features can be automated and more easily used by the student.
 
-The fading light is done using pulse width modulation, or PWM. The LED is toggled on and off very quickly: say, 1,000 times per second. Much faster than your eye can follow.
+#### Costume
 
-The percentage of time that the LED is on (called the duty cycle) controls its apparent brightness.
+The costume should be adjusted to ensure visibility and unobtrusiveness. This means making it a wearable so vibration will not bother other students. In addition, it will need to be adjusted to ensure visibility and/or alternative alert methods for bright environments.
 
-Update your circuit so the jumper wire connects to pin 11. (To control an LED using PWM, you have to connect it to one of the pins that supports PWM (not all do!).
+#### Beeping
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_fade_schematic.png" width=300>
+I have a Lilypad Buzzer that I'd like to incorporate for this portion. I need to do some user testing to actually get feedback on whether users would find this helps them to stay accountable to using the device or if it would hinder adoption.
 
-Here's a [hint diagram](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/arduino_led_fade.png) if you need it.
+### 4. Process
 
-On your computer, in the Arduino IDE, open the Fade sketch (File > Examples > 01.Basics > Fade ).
+#### Storyboard
 
-Look at the code.
+As with part 1, I began the iteration on this device's design with a storyboard as seen below:
+![image](storyboard2.png)
+![image](storyboard3.png)
 
-**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+#### Feature Addition
+I began first by enabling the vibration feature and did so by putting a servo motor on the costume and enabling the servo to shake when a button was pressed on the WoZ UI. This meant transitioning the code over to my Raspberry Pi, hooking up the servo to the Pi and the costume, doing some front end work on the UI, and coding up the servo action with RPi.GPIO. I first attached the servo motor to one of the easel legs on The Silent Study Buddy as seen below.
+Here you can also clearly see the easel leg setup and how yarn was used to support the legs.
+![Image](back_view.jpeg)
 
-**b. What is analogWrite()? How is that different than digitalWrite()?**
+I ended up deciding against adding beeping or changing the color order after drawing my second story board. The beeping felt detrimental to the purpose of the device's function and in an outdoor setting, yellow light would likely be less obvious than red light. Thus, red light, besides the urgency the color generally communicates, would be more noticeable and thus should be considered more "severe" than yellow light. 
 
-Now upload your sketch and check that the LED fades on and off. Try changing a few parameters to make your own funky lighting pattern.
+In addition to the new vibration feature, the Silent Study Buddy was given a UI replacement to make usage more intuitive. Given the actress in Part 1's final video even tried to stop the alarm by touching the screen rather than the button on the easel leg, the stop button and other interactive features were simply added to the UI itself on the screen. This required some adjustment to the tinkerbelle HTML, main tinker.py file, and JS. To show these improvements, the tinkerbelle library was cloned into this Lab code base and the git connections removed so that the code could be included here. These UI changes are seen below:
 
-## Part F. FRANKENLIGHT!!!
+![Image](front_view.jpeg)
 
-For this part of lab, you get to hack apart an existing electronic device.
+Not only was the "Stop Timer" button added to the UI, but a way for the user to actually set the time length of their timer was added, as well. Finally, a "count down" clock was added for more visual feedback to the user. 
 
-### 1. Take apart your electronic device, and, as well as you can, draw a system diagram of what is inside. 
+Finally, I made the WoZ setup a little easier to control by removing the color picker and setting up three buttons that automatically controlled the color variation for the three stages of alerts. Each state was triggered by a separate button (hidden above the buttons shown in the displayed UI) but after the button was pressed, all interactions were automated. You can see the full UI as viewed on my laptop's browser below:
+![image](full_ui.png)
 
-**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+#### Initial Acting it Out
 
-**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+Before altering the costume, I performed an initial acting out attempt to try to highlight any design challenges I may have missed with the new features. This interaction is shown at the link below. It is worth noting that I actually added the aforementioned "count down" clock after this interaction because of the challenge of lack of feedback from the device when I started a new timer: https://drive.google.com/file/d/1IRikKkOQ8g_JIW05ZVr6IMnaT_lw9p3h/view?usp=sharing
 
-**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+#### Costume Iteration
 
-**d. Is information stored in your device? Where? How?**
+To make The Silent Study Buddy more convenient for usage away from locations with ample desk space, a strap was crocheted so that the device could be worn on the wrist like a watch. The crocheting process is shown below:
+![image](crocheting.jpeg)
 
-### 2. Using your diagram, figure out where a good point would be to hijack your device and implant an LED.
-(Alternately, you can hijack a light or other display on the device using an extra button.)
+Once attached to the rest of the costume, the device could be worn like this:
+![image](on_wrist.jpeg)
 
-### 3. Build your light!
+### 5. Final Result
 
-We have perfboards in the lab, which provide a handy way to connect your parts. You may want to make your light using passive components (such as switches, resistors or potentiometers) rather than your microcontroller (also known as a μC), unless you think of a nice way to incorporate the μC into your design without soldering it inside of a light. (You'll need it back for future labs and projects!) If your design does require a μC, perhaps you can run a lead from your breadboard to the main light, although you'll lose portability that way. Clever use of components is encouraged!
+The final product can be seen in these final three videos. First, a close up demo of the screen shows the interaction with a focus on the device itself:
+https://drive.google.com/file/d/1TIB0JOTIo0KnSF9dEGCZocSYiBfRski8/view?usp=sharing
 
-**Make a video showing off your Frankenlight.**
+Second, I act out the usage for this device with its table-top easel legs setup:
+https://drive.google.com/file/d/1wrqh9DvtJ-AzwabyOBkTSvExXRzaLRb7/view?usp=sharing
 
-**Include any diagrams or photos in your lab write-up.**
-
-The best Frankenlight will win course-wide fame and glory.
-
-_Super awesome circuit schematics by [David Sirkin](https://me.stanford.edu/people/david-sirkin). Thanks David!_
+And finally, the usage is demo'd once again in its wearable form:
+https://drive.google.com/file/d/1hb9ZLQn7XwFG6csMmQxlGBWaQMr7NKq2/view?usp=sharing

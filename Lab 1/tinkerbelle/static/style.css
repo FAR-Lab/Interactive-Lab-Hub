@@ -1,0 +1,27 @@
+body{
+	/*background-color: white;*/
+}
+
+#user {
+	opacity: 0.6;
+	transition: opacity 1s;
+}
+
+#user.fadeOut{
+	opacity:0.1;
+}
+#user.fadeIn{
+	opacity: 0.6;
+}
+button.pcr-button {
+	display: none;
+}
+
+#controlPanel {
+	opacity: 0.0;
+	transition: opacity 1s;
+}
+
+#controlPanel.fadeIn{
+	opacity: 0.6;
+}

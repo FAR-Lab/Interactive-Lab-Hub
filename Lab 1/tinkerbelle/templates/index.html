@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="#">
+    <meta charset='utf-8' />
+    <title>Tinkerbelle</title>
+    
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<!--     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+
+    </head>
+<body>
+<div id='user'>
+	<div id='settings'>
+		<h1>State Buttons (DO NOT PRESS)</h1>
+	<!-- <button  id='control'>Jane Wren</button> -->
+	<button id='light'>Tinkerbelle</button>
+	<button id="alarm1">Yellow</button>
+	<button id="alarm2">Orange</button>
+	<button id="alarm3">Red</button>
+	
+</div>
+<div>
+	<script>
+		socket.on('clockTime', function(data) { 
+  document.getElementById('clockTime').innerHTML = data.description;
+});
+		</script>
+
+<div id='Interactive Buttons'>
+	<div>
+		<div  style="display: inline-block; width: 49%;">
+	<h1>The Silent Study Buddy</h1>
+<button id='stop' class='timer'>Stop Timer</button>
+</div>
+<div id='countdown' style="display: inline-block; border-width:2px; border-style: solid; width: 30%; height: 150px; vertical-align: top; border-color:white; margin-top:50px;">
+	<div style="width: 100%; padding-left: 80px; padding-top: 10%;">
+		Time Left
+	</div>
+	<div id='clockTime' style="font-size: 50pt; font-family:digital-clock-font; vertical-align: center; padding-left: 15%;">
+0h 0m
+	</div>
+	</div>
+</div>
+<div>
+<h2>Choose a time below to set a timer of that length:</h2>
+	<button class='timer' id='timer1'>30 min</button>
+	<button class='timer' id='timer2'>1 hr</button>
+	<button class='timer' id='timer3'>2 hr</button>
+	<button class='timer' id='timer4'>3 hr</button>
+	</div>
+</div>	
+
+</div>
+</div>
+<div id='controlPanel'>
+	<div class="pickr"></div>
+	<br>
+	<label> Audio
+		<input type="text" id='audioIn'>
+		<button id='play'>▶️</button>
+		<button id = 'pause'>■</button>
+
+	</label>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/> <!-- 'monolith' theme -->
+<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+<script src="static/index.js"></script>
+</body>
+</html>
