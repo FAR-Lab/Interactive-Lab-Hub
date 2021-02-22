@@ -181,6 +181,10 @@ Overall this device, in whatever form it may take (ratchet ziptie, air bladder, 
 
 The addition of a game of chance is to combat the fact that the need to detect beverage can pressure is rather few and far between such that there needs to be alternative uses for the device.  This is where the party game of is the can going to explode comes in.  While one could simply shake the can and open it, they do so knowing it will most likely explode.  By adding the device giving an indication of a go ahead after a random amount of time, this adds an extra layer of chance and fun as well.
 
+The storyboard follows two people at home on the weekend bored.  They decide to play will the beverage explode.  They shake a can of soda, the light goes green, and the can is opened.  It explodes on one of them and they go again.
+
+![StoryBoard](/Lab%201/Images/StoryBoard_week_2.jpeg)
+
 ## Part B. Act out the Interaction
 
 There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.
