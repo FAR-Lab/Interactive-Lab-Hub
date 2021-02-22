@@ -164,11 +164,12 @@ I made a few major updates to the prototype in Part B.
 5. Lastly, there is a settings app so that you can change some of the features of the bracelet.
 
 Storyboard below:
-![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%20part2.JPG)
+![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%20v2.JPG)
 
 New Prototype below:
-![Prototype](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/prototype%20part2.JPG)
+![Prototype](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/prototype%20v2.JPG)
 
 New video below:
+https://drive.google.com/file/d/1maAmIa4SRmbVQ9N1CDbMqmd04WQOUByy/view?usp=sharing
 
 
