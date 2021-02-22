@@ -120,9 +120,9 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**     
 
-A ziptie like device that uses a ratchet to secure itself to the beverage to measure pressure.
+A ziptie like device that uses a ratchet to secure itself to the beverage to measure pressure.  
 <img src="/Lab%201/Images/Zip_Proto_A1.jpeg" width="700"/>
-An airbag like device that inflates a bladder with air or liquid to measure pressure.
+An airbag like device that inflates a bladder with air or liquid to measure pressure.  
 <img src="/Lab%201/Images/AirBag_Proto_A1.jpeg" width="700"/>
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
