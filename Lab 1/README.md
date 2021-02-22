@@ -56,7 +56,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-The device I am thinking of is a wearable sensor that detects the stress level and gives out warning when the stress level goes above a certain threshold. It’s mainly for people who work under stressful circumstance a lot or for people who are trying to better understand and manage their emotions. For instance, students and professionals. This is also an easy version of my product/startup studio idea.
+The device I am thinking of is a wearable sensor that detects the stress level and gives out warning when the stress level goes above a certain threshold. It’s mainly for people who work under stressful circumstance a lot or for people who are trying to better understand and manage their emotions. For instance, students and professionals. It usually happens in a studying/working setting. For instance, in a classroom or in a office. This is also an easy version of my product/startup studio idea.
 
 When the player is relaxed, the stress level is low and the wristband would show the green light. Then that person starts performing a stressful task like finishing an assignment close to the deadline, the wristband can senor the increase in the pulse as the indicator of the increase in stress level. The wristband then changes the color to yellow and vibrates slightly. Right before the deadline, the player gets really stressed out. The wristband turns to red, vibrates intensively and gives out “BEEP BEEP” alert sound as a serious warning.
 
