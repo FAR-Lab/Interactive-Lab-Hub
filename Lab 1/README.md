@@ -201,14 +201,32 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Story Board**
+**Staging Interaction Version 2**
+
+After feedback from my peers about the previous version of my interactive device, I decided to make the device more 'fun' and 'exciting' to match the context of a hip club scene better. Below, you can find my process of how I came to the second iteration of the device. The setting of the interaction is still at a hip club in NYC. The players are a person who is less than 21 years old, a person who is greater than 21 years old and a bouncer. While the club go-ers main goal is to get into the club, the bouncer's main goal is to prevent people who are less than 21 years old from getting into the club. The scene shows the bouncer using the interactive device to scan the club-goer's IDs to determine whether or not they should be let into the club or not. 
 
 ![](Storyboard2.1.png)
+
+In the first storyboard iteration above, rather than having a physical device the bouncer holds, the scanning system is hands free and the interactive device is a string of lights attached to the entrance of the club. If the lights light up to green, the device has detected that the club-goer is 21+ years old and the club-goer may enter into the club. If the lights light up to red, the club-goer is detected to be less than 21 years old and is denied from entering into the club from the bouncer. In this first iteration, I noticed that it may not make sense for people to enter into the club before they are detected to be less or greater than 21 years old. It makes more sense for the club-goer to be scanned before they enter into the club. 
+
 ![](Storyboard2.2.png)
+
+In the second iteration of the storyboard above, the clubgoers must first enter into an arch that detects and emits light to show whether or not the club-goer is less or greater than 21 years old. The arch still creates a hands-free approach to determining the person's age and is a fun experience for the club goer to be excited before they enter into the club. After creating this second take to the storyboard, I was thinking of ways to eliminate the bouncer all together. I was also thinking of ways for everyone to enter into the club so that everyone is happy. So I thought of the concept of having two different rooms/clubs for people greater than 21 years old and a club for people who are less than 21 years old where non-alcoholic drinks like juice are served. 
+
 ![](Storyboard2.3.png)
+
+This third iteration of the storyboard above highlights the concept of having two separate rooms for people who are greater than 21 years old and people who are less than 21 years old. The club-goer first enters into an arch detection system that detects whether or not they are greater or less than 21 years old. There is then a block/shifter that creates a path for the clubgoer that either leads them to the 21+ year old room or the 21-year old depending on what was detected at the archway. For example, if there is someone who is detected to be less than 21 years old, the block/shifter will block the person from entering into the 21+ room while creating a path/walkway for them to enter into the 21- room. The color of the arch also changes depending on age and music also changes. 
+
 ![](Shapes2.png)
 
+Above are the various different shapes of the interactive device. The first is a lit up arch, the second is a an arch with string lights that the club-goer and can walk through. The last is like a mechanism used at the subway where the flaps will only open when the club-goer is greater than 21 years old and stay closed when they are less than 21 years old. 
+
+
+
 [Take 1 Interaction Video](https://drive.google.com/file/d/1jrOmSwnOrEAX2EXm9Vgl3NUUmsDaLXzy/view?usp=sharing)
+
+Above is the first take of the interaction video detecting the age of the club-goer. It shows the overall walk through of the aparatus/club setup. 
+
 [Take 2 Interaction Video](https://drive.google.com/file/d/1fFFmRvRud4lG_ZL8p6Xoo67zxA70x7oE/view?usp=sharing)
 [Final Prototyped Interaction Video](https://drive.google.com/file/d/1mQWxGFlSH172EcP10d53EqoLrfCSfQg0/view?usp=sharing)
 
