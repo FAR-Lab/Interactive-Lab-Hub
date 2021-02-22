@@ -173,6 +173,7 @@ Goals: The goal of a player is passive. It is to feel connected to family/friend
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
+![](IDD_HW1_P2/IDD_HW1_P2_storyboard.jpeg)
 
 ## Part B. Act out the Interaction
 
