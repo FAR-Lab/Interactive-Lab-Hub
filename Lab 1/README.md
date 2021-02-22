@@ -101,7 +101,9 @@ Didn't have many issues setting it up. The main issue I had was a large delay be
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.
 
 **CLICK ON IMAGE TO PLAY**  
-[![First Attempt](/Lab%201/Images/Paper_PH_image_A1.png)](https://j.gifs.com/XL1Mm5.gif)
+ <a href="https://j.gifs.com/XL1Mm5.gif">
+<img src="/Lab%201/Images/Paper_PH_image_A1.png" width="700"/>
+ </a>
 
 
 **Show the follow-up work here.**   
@@ -110,8 +112,10 @@ Could not embed the video directly as the files are too big so click on the imag
 
 <!---https://gifs.com/gif/3Q4jRO --->
 **CLICK ON IMAGE TO PLAY**  
-[![Paper Attempt](/Lab%201/Images/Paper_PType_image_A1.png)](https://imgur.com/a/dNeaDnB)
-
+ <a href="https://imgur.com/a/dNeaDnB">
+<img src="/Lab%201/Images/Paper_PType_image_A1.png" width="700"/>
+ </a>
+ 
 ## Part E. Costume the device
 
 Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
@@ -136,8 +140,9 @@ A simple ziptie while effective can easily break and therefore I have included a
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.  
 
 **CLICK ON IMAGE TO PLAY**  
-[![Final Attempt](/Lab%201/Images/Final_image_A1.png)](https://imgur.com/a/X99yohm)
-
+ <a href="https://imgur.com/a/X99yohm">
+<img src="/Lab%201/Images/Final_image_A1.png" width="700"/>
+ </a>
 **Please indicate anyone you collaborated with on this Lab.**   
 
 Salmaan Qadir helped with feedback and recording.   
