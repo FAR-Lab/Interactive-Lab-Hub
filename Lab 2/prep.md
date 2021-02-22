@@ -10,7 +10,7 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 - [Power Supply](https://www.adafruit.com/product/4298)
 - [SD card](https://www.bhphotovideo.com/c/product/1536561-REG/silicon_power_sp032gbsthbv1v20sp_32gb_elite_a1_uhs_1.html/reviews)
 - [SD card reader](https://www.bhphotovideo.com/c/product/751120-REG/Iogear_GFR204SD_10_in_1_USB_2_0_SD_MicroSD_MMC.html)
-- Screen
+- [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393)
 
 ### Burn your Pi image to your SD card
 
