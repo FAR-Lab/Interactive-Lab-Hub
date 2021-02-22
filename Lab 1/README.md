@@ -199,5 +199,5 @@ There has been some modification to the device, not in terms of hardware, but in
 <img src="/Lab%201/Images/IDD_week_2_p5.jpeg" width="250"/>
 <img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="250"/>
 </div>
-
-<img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="250"/>(https://imgur.com/a/gYjKXYx)
+<a href="url">link text</a>
+<img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="250"href="https://imgur.com/a/gYjKXYx"/>
