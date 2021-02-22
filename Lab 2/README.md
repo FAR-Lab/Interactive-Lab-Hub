@@ -133,6 +133,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 Ilan, can you call out places in the code where people might be changing things? Ideally code is also commented thus.
 
+**A copy of your code should be in your Lab 2 Github repo.**
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
