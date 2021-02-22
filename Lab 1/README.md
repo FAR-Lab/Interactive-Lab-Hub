@@ -192,7 +192,7 @@ There has been some modification to the device, not in terms of hardware, but in
 
 
      
-![Device Photos](/Lab%201/Images/IDD_week_2_p1.jpeg)
+![Device Photos](/Lab%201/Images/IDD_week_2_p1.jpeg |width=100)
 ![Device Photos](/Lab%201/Images/IDD_week_2_p2.jpeg)
 ![Device Photos](/Lab%201/Images/IDD_week_2_p3.jpeg)
 ![Device Photos](/Lab%201/Images/IDD_week_2_p4.jpeg)
