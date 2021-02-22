@@ -5,7 +5,6 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 1. Staging Interaction](Lab%201/)
 
-<iframe src="https://player.vimeo.com/video/515091958?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="848" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IDD_HW1_P2_video1.mp4"></iframe>
 
 # Staging Interaction
 
@@ -228,6 +227,8 @@ The feedback I got was that the device looked too large and that it was too big 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+
+"https://player.vimeo.com/video/515092252?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IDD_HW1_P2_video3.mp4"></iframe>
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
