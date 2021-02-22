@@ -102,8 +102,14 @@ This describes the second week's work for this lab activity.
 
 
 ## Prep (to be done before Lab on Wednesday)
+Irene: “I need this! How about a ring? On one hand is cool that you can see that you are stressed and able to control this feeling (maybe with some meditation?) but on the other side, I would not like people next to me to see that I am stressed. How can we make this device informative but a bit more private?”
 
-I received good feedback from my group in general. Hortense and Irene mentioned the privacy issue of the device that the device can be more informative and private. Therefore, ring can be a potentially better option. I was mainly targeting on the adult group when I first designed it. Hortense suggested that there is a potential use for infants or non-verbal children, which can help their parents know how to take care of them. Brandt also pointed out that the baseline should be modifiable and adjustable to a personal level. Rui mentioned that the device can play a blue color and soothing music when the person is stressed.
+Hortense: “This kind of feels like an electronic mood ring! I think the best format for it would be a wearable that can be easily hidden (for privacy purposes) and is easy to check, like a watch. Earings and anklets are harder for you to check, so it might not be as practical. Another thing to think about is wether this could be used for children as well -- maybe it could be used to detect distress in infants or non-verbal children, so their caretaker can help them before they start crying or having a fit.”
+
+Brandt: “This is definitely something I would use although I’m not sure how much heed I would pay it considering the fact I feel like it would be a constant shade of red for me.  On that point is there any way to allow the user to modify the granularity of the device and to change the baseline?  I feel that would be helpful for those who are looking for relative changes on a finer level rather than just absolute metrics based off some predetermined global baseline.”
+
+Rui: “Your story board is really good! I also like your video haha. I think the idea is good but am worried that if the user is alerted that they are experiencing a stress response that it would make them even more stressed. What if instead of playing a blaring alarm with a red color to notify the user that they are stressed you instead have a blue color and soothing music to make the user less stressed when they see it.”
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
