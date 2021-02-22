@@ -223,7 +223,7 @@ Above are the various different shapes of the interactive device. The first is a
 
 Below is the aparatus of the club scene used for the video:
 
-![](Club Setup.png)
+![](clubsetup.png)
 
 [Take 1 Interaction Video](https://drive.google.com/file/d/1jrOmSwnOrEAX2EXm9Vgl3NUUmsDaLXzy/view?usp=sharing)
 
