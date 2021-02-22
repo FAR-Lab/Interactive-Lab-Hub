@@ -111,10 +111,25 @@ Brandt: “This is definitely something I would use although I’m not sure how 
 Rui: “Your story board is really good! I also like your video haha. I think the idea is good but am worried that if the user is alerted that they are experiencing a stress response that it would make them even more stressed. What if instead of playing a blaring alarm with a red color to notify the user that they are stressed you instead have a blue color and soothing music to make the user less stressed when they see it.”
 
 ## Make it your own
+After receiving the feedback from my group, many mentioned the privacy issue of the device that the users don’t want other people besides themselves to know how stressed they are. The device can be made more private and more informative. Therefore, I changed the device to be wearable on the fingers similar to the ring and I got rid of the sound and light functionality on the device and made it be vibration only. 
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0644.jpg)
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
-3) We will be grading with an emphasis on creativity. 
+I drew a new storyboard. The ring is remotely connected to an accompanying app on the user’s phone that allowing the user to set the threshold of different stress level himself. At 9 pm, the user feels relaxed, the ring detects the heart pulse of the user to be stable and the ring sends feedback to the app. The app shows the green light. At 11:58 pm, the user is working on an assignment close to the deadline and he is working under a lot of pressure. The ring starts to vibrate slightly as an early warning and the app changes to the yellow light. At 11:59 pm when the assignment is due, the user is really stressed out, the ring vibrates vigorously for about 10 seconds, and the apps changes to a red light and gives a short “BEEP BEEP” sound. After knowing the user is stressed, the app plays soft music to comfort the user. Then, the user starts to calm down, the light on the app changes from red to yellow and to green when the user’s stressed level gets very low again.
+
+Feeedback:
+The app can do more than just informing the user. For example, giving suggestions and feedback to help the user better manage his emotions.
+
+
+Prototype (Device):
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0646.jpg)
+I come up with 2 designs of the prototype. The first one is a wristband and the second one is a ring. Moreover, the design can be as comfortable as a piece of Jewelry, so I added a more elaborated designer brand version.
+
+Prototype (App):
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0647.jpg)
+For the accompanying app, I draw two versions to display the stress level (Green- low stress level, yellow - medium stress level, red – high stress level). Version 1 uses the face to indicate how user feels, which I think is more user friendly. Version 2 is more informative, showing the score of how well the user feels.
+
+The video I create is here https://kapwi.ng/c/lelSOODK
+Rui, Brandt, Hortense, Irene and Brian gave me very useful feedback and helped me to improve my design.
+An especial thank to Mehma Bhasin for helping me record the video. 
 
 **Document everything here.**
