@@ -158,6 +158,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+**Everyone was able to understand the concept and contxt of the product. The main feedback I got was how the device can be connected to the door and the entrance door can auto open or close based on the space availability in the shop, secondly, reviewers suggested that the size should be big enough to be visible even at the back of the queue if it's long. Lastly, I received a couple on suggestions on how this device can be used in other contexts like keeping a headcount of the people entering in a bar or conference for example.**
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -165,4 +167,30 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here.**
+## Part A. Plan 
+
+To stage the interaction with your interactive device, think about:
+
+_Setting:_ This interaction is taking place in user’s apartment. 
+
+_Players:_ Ana is interacting with the device. She lives alone in her apartment and is a Youtube blogger.
+
+_Activity:_ Being a blogger Ana often needs to record videos and take pictures. As she lives alone, she relies on tripod stand and self timer to shoot her videos. Recording videos like this takes up so much of her time because she has to do a lot of retakes if the phone moves in between or the auto focus chnages or lighting is not right etc. and then she spends an equal amount of time editing them too in order to adjust the frames, lightings and all. 
+
+_Goals:_ Snappy is a smart, interactive photography assistant. It is a ring light with sensors to detect subjects and surrounding lights. With Snappy Ana can avoid retakes as snappy can guide her when she is moving out of the frame or if the lighting is inappropriate. Snappy will respond with changes in color; red, yellow, green if something goes wrong between the video and only respond with voice when it is called out as "hey snappy" this is to ensure snappy doesn't ruin a video recording in process.  
+
+## Part B. Storyboard
+
+![Storyboard](storyboard2.png)
+
+## Part C. Prototype the device
+
+[Paper Prototype](https://drive.google.com/file/d/1AKMvN3HqlRCrzPvuV1V4fruWvHsL2F2A/view?usp=sharing)
+
+## Part D. Costume the device
+
+![Initial Designs](sketch2.png)
+
+## Part E. Demo 
+
+[Final Demo](https://drive.google.com/file/d/1iRzJWbGqfex3OsPcskV9InqHpW0BHEVe/view?usp=sharing)
