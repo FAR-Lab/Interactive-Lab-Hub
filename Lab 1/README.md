@@ -200,10 +200,10 @@ There has been some modification to the device, not in terms of hardware, but in
 <img src="/Lab%201/Images/IDD_week_2_p2.jpeg" width="250"/>
 <img src="/Lab%201/Images/IDD_week_2_p3.jpeg" width="250"/>
 </div>
-  </a>
-   <a href="https://imgur.com/a/bE2h47d">  
-
-**CLICK ON ANY OF BOTTOM 3 TO PLAY "LUCKY MODE"** 
+  </a>   
+  
+**CLICK ON ANY OF BOTTOM 3 TO PLAY "LUCKY MODE"**   
+   <a href="https://imgur.com/a/bE2h47d"> 
 <div>
 <img src="/Lab%201/Images/IDD_week_2_p4.jpeg" width="250"/>
 <img src="/Lab%201/Images/IDD_week_2_p5.jpeg" width="250"/>
