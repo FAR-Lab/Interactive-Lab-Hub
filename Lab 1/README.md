@@ -73,8 +73,7 @@ Overall this device, in whatever form it may take (ratchet ziptie, air bladder, 
 
 An individual is eating dinner goes to get a drink from the fridge and knocks it on the ground.  After this the individual uses the device to see if the pressure is too high and then waits until it lowers to drink the beverage.  
 
-![StoryBoard](/Lab%201/Images/StoryBoard2.jpeg)
-
+<img src="/Lab%201/Images/StoryBoard2.jpeg" width="700"/>
 **Summarize feedback you got here.**  
 
 The group was mainly concered about how practical and necessary the device is.  There are already so many hyper-specific niche kitchen gadgets that exist is this one really all the necessary.  Furthermore is it not possible just to feel the beverage yourself and slowly open the beverage to let the gas escape.  How often is does this issue really arise that a device is needed for it.
@@ -122,9 +121,9 @@ Think about the setting of the device: is the environment a place where the devi
 **Include sketches of what your device might look like here.**     
 
 A ziptie like device that uses a ratchet to secure itself to the beverage to measure pressure.
-![Zip](/Lab%201/Images/Zip_Proto_A1.jpeg)
+<img src="/Lab%201/Images/Zip_Proto_A1.jpeg" width="700"/>
 An airbag like device that inflates a bladder with air or liquid to measure pressure.
-![Bag](/Lab%201/Images/AirBag_Proto_A1.jpeg)
+<img src="/Lab%201/Images/AirBag_Proto_A1.jpeg" width="700"/>
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
@@ -183,7 +182,7 @@ The addition of a game of chance is to combat the fact that the need to detect b
 
 The storyboard follows two people at home on the weekend bored.  They decide to play will the beverage explode.  They shake a can of soda, the light goes green, and the can is opened.  It explodes on one of them and they go again.
 
-<img src="/Lab%201/Images/StoryBoard_week_2.jpeg" width="500"/>
+<img src="/Lab%201/Images/StoryBoard_week_2.jpeg" width="700"/>
 ## Part B. Act out the Interaction
 
 There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.  The device no also vibrates to indicate when safe to drink in normal mode or when some got unlucky in game mode.
