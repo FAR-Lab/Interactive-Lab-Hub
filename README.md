@@ -187,8 +187,31 @@ I think my expectations for how it would work were mostly matched when I acted i
 
 While acting it out I did realise that the device cannot tell who specifically is next to it. So it could, for example, be your roommate that's next to the device, which would might still result in the device of your family/friend lighting up. That led to the idea of having seprate parts (rods) of the device be assigned to different people - which coudl extended to different colours and sounds. 
 
-**Include a picture of your storyboard here**
 
+
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+**Include your first attempts at recording the set-up video here.**
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+**Show the follow-up work here.**
+
+## Part E. Costume the device
+
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+**Include sketches of what your device might look like here.**
+
+![](idd_hw_sketch.jpeg)
+
+
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
+
+The device needs to be placed in a room somwhere, so I think its necessarry that ot not too big. However, at the same it also needs to be big enough that it is easily noticable to the user. I also want the device to have a visually appealing design; at the same time it needs to be sturdy and balanced enough to be placed in a different locations. 
 
 
 **Summarize feedback from your partners here.**
