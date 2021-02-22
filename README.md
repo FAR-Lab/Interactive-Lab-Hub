@@ -173,6 +173,20 @@ Activity: The decive passivley connects people through light and sound. When 2 p
 Goals: The goal of a player is passive. It is to feel connected to family/friends/colleagues. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+**Are there things that seemed better on paper than acted out?**
+
+I think my expectations for how it would work were mostly matched when I acted it out because the device itself is stationary. Thus, acting out the interaction does not seem to give much information on its use. One thing that I did realise was that the sound alert could be annoying/ distracting if the user was busy with some work
+
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+
+While acting it out I did realise that the device cannot tell who specifically is next to it. So it could, for example, be your roommate that's next to the device, which would might still result in the device of your family/friend lighting up. That led to the idea of having seprate parts (rods) of the device be assigned to different people - which coudl extended to different colours and sounds. 
+
 **Include a picture of your storyboard here**
 
 
