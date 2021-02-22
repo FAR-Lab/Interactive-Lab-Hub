@@ -198,9 +198,9 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 **Show the follow-up work here.**
 
-<iframe src="https://player.vimeo.com/video/515091958?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="848" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IDD_HW1_P2_video1.mp4"></iframe>
+"https://player.vimeo.com/video/515091958?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
 
-<iframe src="https://player.vimeo.com/video/515092117?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IDD_HW1_P2_video2.mp4"></iframe>
+"https://player.vimeo.com/video/515092117?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
 
 ## Part E. Costume the device
 
@@ -223,6 +223,15 @@ An additonal concern now was that the device neader a speaker to play music and 
 **Summarize feedback from your partners here.**
 
 The feedback I got was that the device looked too large and that it was too big for someone to place in their room. Additionally that it was unclear how the device would interact with multiple people involved. 
+
+
+## Part F. Record
+
+**Take a video of your prototyped interaction.**
+
+**Please indicate anyone you collaborated with on this Lab.**
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
 
 ## Make it your own
 
