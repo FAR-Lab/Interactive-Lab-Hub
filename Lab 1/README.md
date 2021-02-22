@@ -240,8 +240,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**  
-We have to take into consideration the weight, the usability, the moisture and the heat from breathing and how it would affect the device.
-The device would not overhat since it’s simply an LED light up device. In terms of water, we have to take into consideration the moist where the user breathes out. It is possible that the moisture from breathing would defect the lighting feature. Our key feature is to make the interactive mask noticible to other users, therefore I decided to make the entire area of the mask to change colors. 
+We have to take into consideration the weight, the usability, the mobility of the device. We have to find a balance between how noticible it is vs. how easy and comfortable is it to carry. I don't see problems regarding the device overheating or waterdamage. If possible, it would be gerat to implement the waterproof system within the device so it doesn't get damaged during the party. 
 
 
 ## Part F. Record  
@@ -250,5 +249,4 @@ Interaction with the device https://youtu.be/M9_I944wLf0
 **Please indicate anyone you collaborated with on this Lab.**  
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 1. Justin Liu
-2. Jui-An Wang
-3. Ming-Chun Lu
+2. Ming-Chun Lu
