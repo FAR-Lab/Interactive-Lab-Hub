@@ -187,5 +187,14 @@ The storyboard follows two people at home on the weekend bored.  They decide to 
 
 ## Part B. Act out the Interaction
 
-There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.
+There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.  The device no also vibrates to indicate when safe to drink in normal mode or when some got unlucky in game mode.
+
+
+
      
+![Device Photos](/Lab%201/Images/IDD_week_2_p1.jpeg)
+![Device Photos](/Lab%201/Images/IDD_week_2_p2.jpeg)
+![Device Photos](/Lab%201/Images/IDD_week_2_p3.jpeg)
+![Device Photos](/Lab%201/Images/IDD_week_2_p4.jpeg)
+![Device Photos](/Lab%201/Images/IDD_week_2_p5.jpeg)
+![Device Photos](/Lab%201/Images/IDD_week_2_p6.jpeg)
