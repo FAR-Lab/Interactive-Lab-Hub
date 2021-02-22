@@ -128,7 +128,8 @@ Prototype (App):
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_0647.jpg)
 For the accompanying app, I draw two versions to display the stress level (Green- low stress level, yellow - medium stress level, red – high stress level). Version 1 uses the face to indicate how user feels, which I think is more user friendly. Version 2 is more informative, showing the score of how well the user feels.
 
-The video I create is here https://kapwi.ng/c/lelSOODK
+The video I created is here https://kapwi.ng/c/lelSOODK.
+
 Rui, Brandt, Hortense, Irene and Brian gave me very useful feedback and helped me to improve my design.
 An especial thank to Mehma Bhasin for helping me record the video. 
 
