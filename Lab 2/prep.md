@@ -3,7 +3,9 @@
 ### Get Kit and Inventory Parts
 Prior to lab Wednesday, taken inventory of the kit parts that you have, and note anything that is missing:
 --Ilan can you add link to this folder to list of parts ^^^? Ideally with images of parts so people can figure out what is what.
+
 ***Update your [parts list inventory](partslist.md)***
+
 ### For Lab 2, part 1, you will need:
 
 - [Raspberry Pi 4](https://www.adafruit.com/product/4296)
