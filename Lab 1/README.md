@@ -221,15 +221,21 @@ This third iteration of the storyboard above highlights the concept of having tw
 
 Above are the various different shapes of the interactive device. The first is a lit up arch, the second is a an arch with string lights that the club-goer and can walk through. The last is like a mechanism used at the subway where the flaps will only open when the club-goer is greater than 21 years old and stay closed when they are less than 21 years old. 
 
+Below is the aparatus of the club scene used for the video:
 
+![](Club Setup.png)
 
 [Take 1 Interaction Video](https://drive.google.com/file/d/1jrOmSwnOrEAX2EXm9Vgl3NUUmsDaLXzy/view?usp=sharing)
 
 Above is the first take of the interaction video detecting the age of the club-goer. It shows the overall walk through of the aparatus/club setup. 
 
 [Take 2 Interaction Video](https://drive.google.com/file/d/1fFFmRvRud4lG_ZL8p6Xoo67zxA70x7oE/view?usp=sharing)
+
+Above is the second take of the interaction video without music. 
+
 [Final Prototyped Interaction Video](https://drive.google.com/file/d/1mQWxGFlSH172EcP10d53EqoLrfCSfQg0/view?usp=sharing)
 
+Above is the final take of the interaction video with the sliding blockers and changing music. 
 
 
 
