@@ -191,11 +191,13 @@ There has been some modification to the device, not in terms of hardware, but in
 
 
 
-<div class="column">
-<img src="/Lab%201/Images/IDD_week_2_p1.jpeg" width="200"/>
-<img src="/Lab%201/Images/IDD_week_2_p2.jpeg" width="200"/>
-<img src="/Lab%201/Images/IDD_week_2_p3.jpeg" width="200"/>
+<div>
+<img src="/Lab%201/Images/IDD_week_2_p1.jpeg" width="250"/>
+<img src="/Lab%201/Images/IDD_week_2_p2.jpeg" width="250"/>
+<img src="/Lab%201/Images/IDD_week_2_p3.jpeg" width="250"/>
 </div>
-<img src="/Lab%201/Images/IDD_week_2_p4.jpeg" width="200"/>
-<img src="/Lab%201/Images/IDD_week_2_p5.jpeg" width="200"/>
-<img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="200"/>
+<div>
+<img src="/Lab%201/Images/IDD_week_2_p4.jpeg" width="250"/>
+<img src="/Lab%201/Images/IDD_week_2_p5.jpeg" width="250"/>
+<img src="/Lab%201/Images/IDD_week_2_p6.jpeg" width="250"/>
+</div>
