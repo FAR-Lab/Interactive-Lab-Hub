@@ -63,7 +63,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ## Set up your RGB Display
 we will introduce you to the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) and Python on the Pi.
 
-![Pi TFT](https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg =250x)
+![Pi TFT](https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg | width=200)
 
 The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 ![pi gpio diagram](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
@@ -71,7 +71,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 ### Hardware
 
-From your kit take out the  v and the [Raspberry Pi 4](https://www.adafruit.com/product/4296 =250x)
+From your kit take out the  v and the [Raspberry Pi 4](https://www.adafruit.com/product/4296 | width=200)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
