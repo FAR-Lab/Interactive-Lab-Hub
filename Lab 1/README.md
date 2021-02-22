@@ -201,4 +201,18 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+**Story Board**
+
+![](Storyboard2.1.png)
+![](Storyboard2.2.png)
+![](Storyboard2.3.png)
+![](Shapes2.png)
+
+[Take 1 Interaction Video](https://drive.google.com/file/d/1jrOmSwnOrEAX2EXm9Vgl3NUUmsDaLXzy/view?usp=sharing)
+[Take 2 Interaction Video](https://drive.google.com/file/d/1fFFmRvRud4lG_ZL8p6Xoo67zxA70x7oE/view?usp=sharing)
+[Final Prototyped Interaction Video](https://drive.google.com/file/d/1mQWxGFlSH172EcP10d53EqoLrfCSfQg0/view?usp=sharing)
+
+
+
+
 **Document everything here.**
