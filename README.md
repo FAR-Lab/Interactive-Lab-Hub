@@ -6,7 +6,6 @@ Please place links here to the README.md's for each of your labs here:
 [Lab 1. Staging Interaction](Lab%201/)
 
 
-
 # Staging Interaction
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -138,6 +137,9 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+![](idd_hw_sketch.jpeg)
+
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
 The device needs to be placed in a room somwhere, so I think its necessarry that ot not too big. However, at the same it also needs to be big enough that it is easily noticable to the user. I also want the device to have a visually appealing design; at the same time it needs to be sturdy and balanced enough to be placed in a different locations. 
@@ -159,7 +161,78 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
+**Describe your setting, players, activity and goals here.**
+
+Setting: The device is stationary and can be put in any place/room the user visits. 
+
+Players: The interaciton involves 2 people or more. 
+
+Activity: The decive passivley connects people through light and sound. When 2 people are near their device, both will light up letting each person know the other is also next to it. This can be extended to multiple people where a user can choose a specifc colour for a specific person. The device is also composed of several rods so that each one is assigned to a different person for a user. Additionally the device plays a specific sound chosen by the user when another person is also close to the device alerting them of the proximity. The device can also play/sync music between the user and one specific friend.  
+
+Goals: The goal of a player is passive. It is to feel connected to family/friends/colleagues. 
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+**Are there things that seemed better on paper than acted out?**
+
+I think my expectations for how it would work were mostly matched when I acted it out because the device itself is stationary. Thus, acting out the interaction does not seem to give much information on its use. One thing that I did realise was that the sound alert could be annoying/ distracting if the user was busy with some work
+
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+
+While acting it out I did realise that the device cannot tell who specifically is next to it. So it could, for example, be your roommate that's next to the device, which would might still result in the device of your family/friend lighting up. That led to the idea of having seprate parts (rods) of the device be assigned to different people - which coudl extended to different colours and sounds. 
+
+
+
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+**Include your first attempts at recording the set-up video here.**
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+**Show the follow-up work here.**
+
+"https://player.vimeo.com/video/515091958?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+
+"https://player.vimeo.com/video/515092117?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+
+## Part E. Costume the device
+
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+**Include sketches of what your device might look like here.**
+
+![](.jpeg)
+
+
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
+
+The device needs to be placed in a room somwhere, so I think its necessarry that ot not too big. However, at the same it also needs to be big enough that it is easily noticable to the user. I also want the device to have a visually appealing design; at the same time it needs to be sturdy and balanced enough to be placed in a different locations. 
+
+An additonal concern now was that the device neader a speaker to play music and give alerts. So the sound sytem has to be integreated in a way as to not make the device appear to bulky and retain a sleek appearance. 
+
+
 **Summarize feedback from your partners here.**
+
+The feedback I got was that the device looked too large and that it was too big for someone to place in their room. Additionally that it was unclear how the device would interact with multiple people involved. 
+
+
+## Part F. Record
+
+**Take a video of your prototyped interaction.**
+
+"https://player.vimeo.com/video/515092252?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IDD_HW1_P2_video3.mp4"></iframe>
+
+**Please indicate anyone you collaborated with on this Lab.**
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
 
 ## Make it your own
 
