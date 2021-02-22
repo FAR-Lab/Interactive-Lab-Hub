@@ -174,6 +174,8 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
+
 **Describe your setting, players, activity and goals here.**  
 
 _Setting:_ In a party setting 
@@ -186,22 +188,24 @@ _Goals:_
 The goal for the user is to control the amount of alchohol that he or she consumes. The device would analyze the alchohol percentage through the flow of blood and warn the user when he or she has taken in too much. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+
 **Include a picture of your storyboard here**  
-![Interactive Mask Storyboard](IDD_storyboard.jpg)
+![Alchohol Level Indicator Wristband Storyboard](IDD_storyboard_Lab2.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**  
-Feedback from group members: Very good. It’s an interesting and Coivid-related idea. Very interested on the implementation of the device.
+Feedback from group members: I can be a very useful device, but how feasible is this product? It it possible to detect alchohol level through the flow of blood?
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**  
-Yes, the colors weren't as noticiable with a dark mask. So a lighter color mask was used.
+Yes, so the sound of the warning, make it very noticible. This way it urges the user to stop drinking immediately. 
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**  
-Yes, maybe we can implement music into the interactive mask, and the interactive light will light up according to the beat of each song. So it will give user more of a personal modern device feel. 
+Yes, instead of a wristband maybe we can implement this system onto a ring and it would be less noticible and more subtle. 
 
 
 ## Part C. Prototype the device
@@ -212,18 +216,18 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**  
-Tinkerbelle ran into some minor problems, took me a while to figure out how to use the code and make it work.
+Tinkerbelle ran into some minor problems, took me a while to figure out how to use the code and make it work. Having experience from last time made it a lot smoother to use Tinkerbelle. 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**  
-Initial Design https://www.youtube.com/watch?v=eY1yoCenV0A
+Initial Design https://youtu.be/XLqlhPNHptA
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**  
-Follow up https://www.youtube.com/watch?v=-m1g66HW7ug
+Follow up https://youtu.be/Wc7u9dzjSkw
 
 ## Part E. Costume the device
 
@@ -241,10 +245,10 @@ The device would not overhat since it’s simply an LED light up device. In term
 
 
 ## Part F. Record  
-Interaction with the device https://www.youtube.com/watch?v=aVSLj_NrQeM&feature=youtu.be
+Interaction with the device https://youtu.be/M9_I944wLf0
 
 **Please indicate anyone you collaborated with on this Lab.**  
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-1. Ting-Yu Lin
+1. Justin Liu
 2. Jui-An Wang
 3. Ming-Chun Lu
