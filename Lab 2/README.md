@@ -131,6 +131,8 @@ You can look in `image.py` for an example of how to display an image on the scre
 ## Part E.
 ## Modify the barebones clock to make it your own
 
+Ilan, can you call out places in the code where people might be changing things? Ideally code is also commented thus.
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
