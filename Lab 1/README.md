@@ -193,8 +193,8 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
-#Storyboard
+# Storyboard
 ![alt text](https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%202.jpg
  "storyboard v2")
-#Final Video
+# Final Video
 * [My final video v2](https://youtu.be/gYh6wp_twFI "My final video v2").
