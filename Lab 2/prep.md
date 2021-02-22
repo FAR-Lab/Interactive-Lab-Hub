@@ -25,7 +25,7 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 #### Setting up your OS
 1. Plug the SD card into your computer using the card reader
 2. Choose the downloaded file for "Choose OS" and the SD card for "Choose SD card" then hit write.
-![Imager GUI](https://www.raspberrypi.org/homepage-9df4b/static/md-67e1bf35c20ad5893450da28a449efc4.png)
+<img src="https://www.raspberrypi.org/homepage-9df4b/static/md-67e1bf35c20ad5893450da28a449efc4.png" alt="pi imager" height="200" />
 
 3. Create a file called [wpa_supplicant.conf](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) in the Boot image of the new disk. the file contents should have the following:
 
@@ -44,7 +44,9 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 	This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network
 
 4. Eject or unmount the microSD card drive, and then remove it and reinsert it into the RPi in the slot on the bottom (silver rectangle on the right)
-![Pi bottom side](https://cdn-shop.adafruit.com/1200x900/4296-12.jpg)
+
+<img src="https://cdn-shop.adafruit.com/1200x900/4296-12.jpg" alt="Pi bottom side" height="200" />
+
 
 5. Boot the RPi by connecting it to a power source
 
