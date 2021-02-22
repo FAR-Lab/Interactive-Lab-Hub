@@ -162,6 +162,21 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
+**Describe your setting, players, activity and goals here.**
+
+Setting: The device is stationary and can be put in any place/room the user visits. 
+
+Players: The interaciton involves 2 people or more. 
+
+Activity: The decive passivley connects people through light and sound. When 2 people are near their device, both will light up letting each person know the other is also next to it. This can be extended to multiple people where a user can choose a specifc colour for a specific person. The device is also composed of several rods so that each one is assigned to a different person for a user. Additionally the device plays a specific sound chosen by the user when another person is also close to the device alerting them of the proximity. The device can also play/sync music between the user and one specific friend.  
+
+Goals: The goal of a player is passive. It is to feel connected to family/friends/colleagues. 
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+**Include a picture of your storyboard here**
+
+
+
 **Summarize feedback from your partners here.**
 
 ## Make it your own
