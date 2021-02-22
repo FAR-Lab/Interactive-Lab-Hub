@@ -183,8 +183,7 @@ The addition of a game of chance is to combat the fact that the need to detect b
 
 The storyboard follows two people at home on the weekend bored.  They decide to play will the beverage explode.  They shake a can of soda, the light goes green, and the can is opened.  It explodes on one of them and they go again.
 
-![StoryBoard](/Lab%201/Images/StoryBoard_week_2.jpeg)
-
+<img src="/Lab%201/Images/StoryBoard_week_2.jpeg" width="500"/>
 ## Part B. Act out the Interaction
 
 There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.  The device no also vibrates to indicate when safe to drink in normal mode or when some got unlucky in game mode.
