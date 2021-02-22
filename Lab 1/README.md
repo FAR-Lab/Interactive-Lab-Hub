@@ -74,6 +74,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 **Include a picture of your storyboard here**
 ![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.JPG)
 
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 The feedback I recevied:
@@ -163,8 +164,10 @@ I made a few major updates to the prototype in Part B.
 5. Lastly, there is a settings app so that you can change some of the features of the bracelet.
 
 Storyboard below:
+![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%20part2.JPG)
 
 New Prototype below:
+![Prototype](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/prototype%20part2.JPG)
 
 New video below:
 
