@@ -206,12 +206,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-![](idd_hw_sketch.jpeg)
+![](.jpeg)
 
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
 The device needs to be placed in a room somwhere, so I think its necessarry that ot not too big. However, at the same it also needs to be big enough that it is easily noticable to the user. I also want the device to have a visually appealing design; at the same time it needs to be sturdy and balanced enough to be placed in a different locations. 
+
+An additonal concern now was that the device neader a speaker to play music and give alerts. So the sound sytem has to be integreated in a way as to not make the device appear to bulky and retain a sleek appearance. 
 
 
 **Summarize feedback from your partners here.**
