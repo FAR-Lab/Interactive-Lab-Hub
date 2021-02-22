@@ -84,7 +84,7 @@ It’s really cool to play around with Tinkerbelle. In the first try, I ran into
 ## Part D. Wizard the device
 Video link: https://kapwi.ng/c/OQHQq8Vo
 
-In the first attempt, the player just acted out without saying anything, so it was kind of confusing. Also, the “Beep Beep” alarm sound didn’t work when I clicked it along with the red light. Therefore, in the following attempts, the player speaks out a little bit more about what she is doing and added more emotional expression to the action, which makes the quality of the video becomes better.
+In the first attempt, the player just acted out without saying anything, so it was kind of confusing. Also, the “Beep Beep” alarm sound didn’t work when I clicked it along with the red light. Therefore, in the following attempts, the player speaks out a little bit more about what she is doing and added more emotional expression to the action, which makes the quality of the video better.
 
 ## Part E. Costume the device
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%201/image.png)
