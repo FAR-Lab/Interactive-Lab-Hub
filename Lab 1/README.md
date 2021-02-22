@@ -139,10 +139,10 @@ A simple ziptie while effective can easily break and therefore I have included a
 
 Could not embed the video directly as the files are too big so click on the image and an imgur video will play.  
 
-**CLICK ON IMAGE TO PLAY**  
+**CLICK ON IMAGE TO PLAY**      
  <a href="https://imgur.com/a/X99yohm">
 <img src="/Lab%201/Images/Final_image_A1.png" width="700"/>
- </a>
+ </a>    
 **Please indicate anyone you collaborated with on this Lab.**   
 
 Salmaan Qadir helped with feedback and recording.   
@@ -193,7 +193,7 @@ The storyboard follows two people at home on the weekend bored.  They decide to 
 There has been some modification to the device, not in terms of hardware, but in terms of software and functionality.  The device now has buttons to actuate the modes of "Start" which is the normal functions and "Lucky" which is the aforementioned game mode.  The device no also vibrates to indicate when safe to drink in normal mode or when some got unlucky in game mode.
 
 
-
+**CLICK ON ANY OF TOP 3 TO PLAY "NORMAL MODE"**    
 <div>
  <a href="https://imgur.com/a/gYjKXYx">
 <img src="/Lab%201/Images/IDD_week_2_p1.jpeg" width="250"/>
@@ -201,7 +201,9 @@ There has been some modification to the device, not in terms of hardware, but in
 <img src="/Lab%201/Images/IDD_week_2_p3.jpeg" width="250"/>
 </div>
   </a>
-   <a href="https://imgur.com/a/bE2h47d">
+   <a href="https://imgur.com/a/bE2h47d">  
+
+**CLICK ON ANY OF BOTTOM 3 TO PLAY "LUCKY MODE"** 
 <div>
 <img src="/Lab%201/Images/IDD_week_2_p4.jpeg" width="250"/>
 <img src="/Lab%201/Images/IDD_week_2_p5.jpeg" width="250"/>
