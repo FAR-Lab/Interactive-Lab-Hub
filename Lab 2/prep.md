@@ -17,7 +17,7 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 
 #### On your computer download
 - [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
-- Our Copy of Raspbian at[ftp://farlab.infosci.cornell.edu/Ixe_20201014.img.xz](ftp://farlab.infosci.cornell.edu/Ixe_20201014.img.xz)
+- Our Copy of Raspbian at [ftp://farlab.infosci.cornell.edu/Ixe_20201014.img.xz](ftp://farlab.infosci.cornell.edu/Ixe_20201014.img.xz)
 (this is a large file and may take a few minutes to download) (Alternative link:[This dropbox link](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0).) You do not need to unpack the ``.xz`` file. It can be used directly with the RaspberryPi Imager.
 - If using windows: [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh) or [PuTTY](https://www.putty.org/)
 
