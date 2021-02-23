@@ -79,7 +79,19 @@ By acting out, the process doesn’t look that ideal as what I pictured in the s
 
 ## Part C. Prototype the device
 
+<<<<<<< HEAD
 It’s really cool to play around with Tinkerbelle. In the first try, I ran into error opening http://localhost:5000 using my apartment wifi. In the second try, I wasn’t able to open the browser on my phone. Later on, the issue got resolved when I switched to the campus wifi.
+=======
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+
+Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+
+We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
+**Give us feedback on Tinkerbelle.**
+>>>>>>> upstream/Spring2021
 
 ## Part D. Wizard the device
 Video link: https://kapwi.ng/c/OQHQq8Vo
@@ -133,4 +145,4 @@ The video I created is here https://kapwi.ng/c/lelSOODK.
 Rui, Brandt, Hortense, Irene and Brian gave me very useful feedback and helped me to improve my design.
 An especial thank to Mehma for helping me record the video. 
 
-**Document everything here.**
+**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
