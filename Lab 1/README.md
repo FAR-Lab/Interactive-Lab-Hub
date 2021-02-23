@@ -202,6 +202,7 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+Spring2021
 
 Staging Interaction Version 2
 
@@ -242,3 +243,5 @@ Above is the final take of the interaction video with the sliding blockers and c
 --
 
 For creating the second version of the interactive device stage, I would like to acknowledge Nicole Zhang, Mehma Bhasin, and Anton Abilov for helping me film the interaction. I would also like to acknowledge Brandt Beckerman, Ahaan Parekh, Irene Font-Peradejordi, Hortense Gimonet, and Nicole Zhang for their feedback for my first iteration. 
+
+Spring2021
