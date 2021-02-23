@@ -112,6 +112,9 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
 **Give us feedback on Tinkerbelle.**
 
 My python version is 3.8 and the Tinkerbelle does not work for me. I was unable to try out Tinkerbelle but I can talk about it from the UI aspect. You can choose from a color palette and also choose from the color wheel, it’s nice because people have a good set of choice but also great flexibility. I think it will be better to incorporate any blicking or flashing feature to the Tinkerbelle so it can express more information. Also it will be more intuitive to have a slide bar to control the brightness. 
@@ -192,6 +195,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+
 **Document everything here.**
 * **Setting:** In the bedroom of an apartment during the COVID period.
 * **Players:** David is a graduate student. David is a very concentrated person. When he is studying, cooking, etc. he doesn't check his phone.
@@ -207,3 +211,4 @@ For the paper prototype, I used paper to fold a case for my phone, used Figma to
  "storyboard v2")
 # Final Video
 * [My final video v2](https://youtu.be/gYh6wp_twFI "My final video v2").
+
