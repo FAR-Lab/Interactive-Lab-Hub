@@ -201,8 +201,9 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here.**
-**Staging Interaction Version 2**
+**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+
+Staging Interaction Version 2
 
 After feedback from my peers about the previous version of my interactive device, I decided to make the device more 'fun' and 'exciting' to match the context of a hip club scene better. Below, you can find my process of how I came to the second iteration of the device. The setting of the interaction is still at a hip club in NYC. The players are a person who is less than 21 years old, a person who is greater than 21 years old and a bouncer. While the club go-ers main goal is to get into the club, the bouncer's main goal is to prevent people who are less than 21 years old from getting into the club. The scene shows the bouncer using the interactive device to scan the club-goer's IDs to determine whether or not they should be let into the club or not. 
 
