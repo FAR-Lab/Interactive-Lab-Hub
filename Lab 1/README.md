@@ -92,7 +92,15 @@ Instead of being a ziptie the device could be more along the lines of a sleeve t
 
 **Give us feedback on Tinkerbelle.**      
 
+<<<<<<< HEAD
 Didn't have many issues setting it up. The main issue I had was a large delay between the gong being played on the computer and the phone.  I also had a weird issue that when I opened my laptop later it played the gong again randomly.
+=======
+We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
+**Give us feedback on Tinkerbelle.**
+>>>>>>> d808d4bfeec1d9de7073753401c09470cef43c45
 
 ## Part D. Wizard the device
 
@@ -167,6 +175,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+<<<<<<< HEAD
 **Document everything here.**
 ## Part 2 is in addition to the above
 ## Part A. Plan 
@@ -215,3 +224,6 @@ Play with sound on (both on computer and on imgur) to hear vibrations.
 </div>
    </a>
 
+=======
+**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+>>>>>>> d808d4bfeec1d9de7073753401c09470cef43c45
