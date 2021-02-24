@@ -72,9 +72,7 @@ while True:
     IP = "IP: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
     cmd = "curl -s wttr.in/?format=2"
     WTTR = subprocess.check_output(cmd, shell=True).decode("utf-8")
-    cmd = "curl -s ipinfo.io | grep city"
-    LOC = subprocess.check_output(cmd, shell=True).decode("utf-8")
-    cmd = 'curl -s ils.rate.sx/1USD'
+    cmd = 'curl -s ils.rate.sx/1USD | cut -c1-6'
     USD = "$1USD = ₪" + subprocess.check_output(cmd, shell=True).decode("utf-8") + "ILS"
     cmd = "cat /sys/class/thermal/thermal_zone0/temp |  awk '{printf \"CPU Temp: %.1f C\", $(NF-0) / 1000}'" 
     Temp = subprocess.check_output(cmd, shell=True).decode("utf-8")
@@ -85,8 +83,6 @@ while True:
     y += font.getsize(IP)[1]
     draw.text((x, y), WTTR, font=font, fill="#FFFF00")
     y += font.getsize(WTTR)[1]
-    draw.text((x, y), LOC, font=font, fill="#00FF00")
-    y += font.getsize(LOC)[1]
     draw.text((x, y), USD, font=font, fill="#0000FF")
     y += font.getsize(USD)[1]
     draw.text((x, y), Temp, font=font, fill="#FF00FF")
