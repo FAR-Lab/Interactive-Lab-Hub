@@ -54,7 +54,7 @@ E) [Modify the code to make the display your own](#part-e)
 
 F) [Make a short video of your modified barebones PiClock](#part-f)
 
-G) [Sketch and brainstorm further interactions and features you would like for your clock for Part 2.](#part-g)
+G) [Sketch and brainstorm further interactions and features you would like for your "clock" for Part 2.](#part-g)
 
 ## The Report
 This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
@@ -160,7 +160,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 **Take a video of your PiClock.**
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+## Sketch and brainstorm further interactions and features you would like for your "clock" for Part 2.
 
-
+Hint: It does not literally need to be a clock.
 
