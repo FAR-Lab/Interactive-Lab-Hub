@@ -176,6 +176,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+<<<<<<< HEAD
 ## Part A. Plan
 This is an update of the plan in part 1. 
 The setting is the same as the one in part 1. Most of the update parts are in the forms of reminder and the interaction feedback:
@@ -204,3 +205,6 @@ the device need to be water-proofed. So I uses cling warp to make the phone wate
 Final video:
 https://youtu.be/UIQpLIKIGOc 
 (The lower right corner prototypes the reminder that appears on a screen)
+=======
+**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+>>>>>>> 2226ae6286232393c4220ed9e64800cb41deedc8
