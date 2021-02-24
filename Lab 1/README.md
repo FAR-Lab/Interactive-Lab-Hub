@@ -182,17 +182,24 @@ The setting is the same as the one in part 1. Most of the update parts are in th
 The setting is in a study room with only 1 player. During the work from home experience in the pandemic, we spent most of our day in our own room, busy with screens. Not drinking enough water is one of the problem that can lead to potential health issue. The main activity is to remind the user to drink water in order to live a healthier life style during work from home.
 This piece of interactive device uses light, color, pop-up window, and sound effect to remind a user drinking water. It also analyze and summarize their drinking habit.
 
-Version 1:
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg" width="600">
-I recieved some feedbacks from peers that this is not stable and not convinient. It can also difficult to recognize the desk and to carry around. There is also the potential danger in spilling water on electronic devices. So the idea of attaching the device one the cup is better.
+**Version 1:**
 
-Version 2:
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg" width="600">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/idea1.jpg" width="600">
 
-the device need to be water-proofed. So I uses cling warp to make the phone water-proof while clickable. It should also be light-weighted because we need to hold the cup every time we drink water. Moreover, the phone should not ostable the mouth when drinking water. Last but not least, I added a reminder on the laptop that the user is working on. So the reminder is more apparent. Meanwhile, there will be a summary window that reports their drinking habit today. This window can reward them of their healthy behavior.
+The first idea is a small car that carries the cup to the user when they need to drink water. I recieved some feedbacks from peers that this is not stable and not convinient. It can also difficult to recognize the desk and to carry around. There is also the potential danger in spilling water on electronic devices. So the idea of attaching the device one the cup is better.
+
+**Version 2:**
+
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/final_idea.jpg" width="600">
+
+**Set Up**
 
 Setup video:
 https://youtu.be/urRvXOnEJrc
+
+the device need to be water-proofed. So I uses cling warp to make the phone water-proof while clickable. It should also be light-weighted because we need to hold the cup every time we drink water. Moreover, the phone should not ostable the mouth when drinking water. Last but not least, I added a reminder on the laptop that the user is working on. So the reminder is more apparent. Meanwhile, there will be a summary window that reports their drinking habit today. This window can reward them of their healthy behavior.
+
+**Final Result**
 
 Final video:
 https://youtu.be/UIQpLIKIGOc 
