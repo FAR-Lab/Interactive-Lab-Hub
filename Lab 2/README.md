@@ -62,7 +62,7 @@ This readme.md page in your own repository should be edited to include the work 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
 ## Part A. 
-## Connect to your Pi
+### Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once there create a python environment.
 
 ```
@@ -94,7 +94,7 @@ you can press `ctrl-c` to exit.
 
 
 ## Part C. 
-## Set up your RGB Display
+### Set up your RGB Display
 We will introduce you to the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) and Python on the Pi.
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
@@ -140,13 +140,13 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 
 ## Part D. 
-## Set up the Display Clock Demo
+### Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
 
 ## Part E.
-## Modify the barebones clock to make it your own
+### Modify the barebones clock to make it your own
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
@@ -155,12 +155,12 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 **A copy of your code should be in your Lab 2 Github repo.**
 
 ## Part F. 
-## Make a short video of your modified barebones PiClock
+### Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your "clock" for Part 2.
+### Sketch and brainstorm further interactions and features you would like for your "clock" for Part 2.
 
 Hint: It does not literally need to be a clock.
 
