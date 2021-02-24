@@ -5,7 +5,7 @@
 
 ## Connecting to The HOUSE Wifi
 
-1. Register the MAC address of your Raspberry Pi on The House network at https://myelauwit.com/ [This is outdated but should redirect you to the right page.] using Add a Device.
+1. Register the MAC address of your Raspberry Pi on The House network at https://selfcare.boingohotspot.net/login using Add a Device.
 1. Edit the `/etc/wpa_supplicant/wpa_supplicant.conf` file with `nano` OR on the `\boot` volume that you see when the SD card is plugged into your computer, is a file called:  `wpa_supplicant.conf.bak`. Duplicate the file and rename the duplicate to `wpa_supplicant.conf`. Now edit the duplicated file (`wpa_supplicant.conf`) and add the house wifi to the list of networks to connect to as shown below. Then safely eject the sd card, plug it back into the Pi and power it back up.
 1. The section you need to add is
 ```shell
