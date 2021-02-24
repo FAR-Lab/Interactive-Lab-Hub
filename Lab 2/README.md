@@ -79,7 +79,7 @@ Clone the repo for this assignment
 
 ```
 (circuitpython) pi@ixe00:~$ git clone https://github.com/YOURGITID/Interactive-Lab-Hub.git
-(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub
+(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ 
 ```
 
