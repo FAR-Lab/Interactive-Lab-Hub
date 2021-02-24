@@ -107,6 +107,9 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
 **Give us feedback on Tinkerbelle.**
 I thought that the interface was quite nice. As an added functionality maybe there could be buttons that allow the lights to pulsate at different frequencies.
 
@@ -178,82 +181,5 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here.**
-
-## Part A2. Plan 
-
-**Describe your setting, players, activity and goals here.**
-
-**Setting:** The interaction is most likely happening on a counter or on the wall in a room. For example, next to the thermostat.
-
-**Players:** Players will include all the people in the vicinity of the device. This includes anyone that wants to control the lights in the room or people in the room that will be affected by the changing lights.
-
-**Activity:** There will be one person operating the device through hand motions. If there are others in the scene, they will simply be observing the changes in the lighting.
-
-**Goals:** The goal of this device is to control the lights in the room more efficiently and ergonomically. The device allows the user to turn on all the lights to full brightness or change the color of the lights in a quick and touchless manner.
-
-**Summary:** This device will allow the user to determine the brightness of the lights in the room and the color of the lights in the room with hand gestures. When the hovering hand moves from the off side to the on side, the brightness changes from low to high. When the hand moves laterally in relation to the device, the color of the lights change, with high frequency colors on one side and low frequency colors on the other.
-
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-**Include a picture of your storyboard here**
-
-![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard2.png)
-
-**Summarize feedback you got here.**
-
-**Feedback:** People thought that this device can be very useful and seemed very high tech. They thought because of COVID, hovering instead of touching was a good idea.
 
 
-## Part B2. Act out the Interaction
-
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-**Are there things that seemed better on paper than acted out?**
-Since I started designing the device with somethings already acted out, there wasn’t anything that deviated from the design on paper.
-
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
-At the start, I just wanted my device to be a nightlight. However, after feedback and thought, this device can be extended to controlling more lights and lighting up the whole room. It was also suggested that the functionality of this device can also be used for controlling the temperature.
-
-## Part C2. Prototype the device
-
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-**Give us feedback on Tinkerbelle.**
-I thought that the interface was quite nice. As an added functionality maybe there could be buttons that allow the lights to pulsate at different frequencies.
-
-## Part D2. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-**Include your first attempts at recording the set-up video here.**
-Wizarding the device without using tinkerbell.
-
-https://drive.google.com/file/d/1xhEqYxO6CkIpIDAPgfd40uE_mVPkY-Me/view?usp=sharing
-
-## Part E2. Costume the device
-
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-**Include sketches of what your device might look like here.**
-
-![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/prototype2.png)
-![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume2.png)
-
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
-Since the device will most likely be placed next to a thermostat, the device should have properties to that of a thermostat. This includes a rugged exterior to prevent breakage when the device is accidentally bumped on, connectivity to the electrical system of the room, water resistant capabilities, sleek and agile exterior to ensure that the device does not take up too much space and seem heavy handed. 
-
-
-## Part F2. Record
-
-**Take a video of your prototyped interaction.**
-
-https://drive.google.com/file/d/1yZdQtWws8l0BU50WhJakV61DTuUEtHfV/view?usp=sharing
-
-**Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
-I talked to Jeanne Li about my lab and she gave me constructive feedback on my design. Also I got feedback from my group memebers: Ross Kleinrock, Min Tae Lee, and Rob Gentul.
