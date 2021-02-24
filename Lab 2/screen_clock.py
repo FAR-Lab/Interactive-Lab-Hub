@@ -4,6 +4,7 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+import RPi.GPIO as GPIO
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -61,12 +62,19 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# Set up the rotary pin
+GPIO.setup(6, GPIO.IN)
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
+    # Write the time
     y = top
     draw.text((x, y), time.strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#FFFFFF")
+
+    if GPIO.input(6):
+        print('Pin 11 is HIGH')
 
     # Display image.
     disp.image(image, rotation)
