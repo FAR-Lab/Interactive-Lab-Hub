@@ -179,7 +179,6 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-<<<<<<< HEAD
 **Document everything here.**
 
 Storyboard...
@@ -192,6 +191,4 @@ The setting of the interaction take place at home - tables at home to be specifi
 Link to the video...
 
 https://youtu.be/sqGIY5hnRVY
-=======
-**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
->>>>>>> c9e5873d4ddadce4a144cebc475feb3b8a6448b1
+
