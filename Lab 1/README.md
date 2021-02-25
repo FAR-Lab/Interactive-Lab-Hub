@@ -205,6 +205,7 @@ the device need to be water-proofed. So I uses cling warp to make the phone wate
 Final video:
 https://youtu.be/UIQpLIKIGOc 
 (The lower right corner prototypes the reminder that appears on a screen)
+
 =======
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
 >>>>>>> 2226ae6286232393c4220ed9e64800cb41deedc8
