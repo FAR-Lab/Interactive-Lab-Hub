@@ -168,7 +168,7 @@ After that git will ask you to login to your github account to upload.
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-**Take a video of your PiClock.**
+Initial Demo (not completed): https://drive.google.com/file/d/1Wuj0UpV53kowGBfO9HtKEnyqDiX15kOf/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
