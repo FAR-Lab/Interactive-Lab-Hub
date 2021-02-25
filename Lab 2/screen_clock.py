@@ -4,8 +4,10 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
-import RPi.GPIO as GPIO
-
+import busio
+import qwiic_twist
+import qwiic_joystick
+import qwiic_button
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -63,7 +65,23 @@ backlight.switch_to_output()
 backlight.value = True
 
 # Set up the rotary pin
-GPIO.setup(6, GPIO.IN)
+twist = qwiic_twist.QwiicTwist()
+twist.begin()
+twist_count = 0
+twist.set_blue(150)
+twist.set_red(0)
+twist.set_green(0)
+
+# Set up the joystick
+joystick = qwiic_joystick.QwiicJoystick()
+joystick.begin()
+
+# Set up first button
+redButton = qwiic_button.QwiicButton()
+redButton.begin()
+
+greenButton = qwiic_button.QwiicButton(0x63)
+greenButton.begin()
 
 while True:
     # Draw a black filled box to clear the image.
@@ -73,8 +91,10 @@ while True:
     y = top
     draw.text((x, y), time.strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#FFFFFF")
 
-    if GPIO.input(6):
-        print('Pin 11 is HIGH')
+    print(f"Rotary Count: {twist.count}")
+    print(f"Joystick Position: X: {joystick.get_horizontal()}, Y: {joystick.get_vertical()}, Button: {joystick.check_button()}")
+    print(f"Red Button: {redButton.is_button_pressed()}")
+    print(f"Green Button: {greenButton.is_button_pressed()}")
 
     # Display image.
     disp.image(image, rotation)
