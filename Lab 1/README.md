@@ -67,14 +67,24 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
 **Describe your setting, players, activity and goals here.**
 
+The setting is in a study room with only 1 player. During the work from home experience in the pandemic, we spent most of our day in our own room, busy with screens. Not drinking enough water is one of the problem that can lead to potential health issue. The main activity is to remind the user to drink water in order to live a healthier life style during work from home.
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
 **Include a picture of your storyboard here**
 
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch.jpg" width="600">
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
 **Summarize feedback you got here.**
 
+1. It main problem of not drinking water is that the water source is not around.
+2. it can be annoying, especially when one is not thirsty. A user may not be gladly accept this constant reminder.
+3. Everyone has a different health status. The reminder system may not suit everyone.
 
 ## Part B. Act out the Interaction
 
@@ -82,8 +92,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+Sometimes when we do not want water but it is still shining, the paper solution only executes stopping it by drinking water. We need a stop button to stop the reminder.   
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+Maybe there can also be a reminder pop up on the screen of the laptop that I am working on.
 
 ## Part C. Prototype the device
 
@@ -97,14 +110,20 @@ If you run into technical issues with this tool, you can also use a light switch
 
 **Give us feedback on Tinkerbelle.**
 
+The line 40 doesn't work on my portal. Printing out: nodename nor servname provided, or not known. I changed the line into "print(f"access at http://{socket.gethostbyname('localhost')}:{port}")", which prints out 127.0.0.1 that doesn't work on my phone. Eventually I went to network in system preference to find the IP address.
+
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
+https://youtu.be/vo85uq4_N0U
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
+https://youtu.be/Y3Lqj3dxOiA
 
 ## Part E. Costume the device
 
@@ -114,15 +133,24 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+I added a water proof bag to the phone as well as a stop button to stop the reminder:
+
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/set%20up%20update.jpg" width="600">
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
+Fisrt of all the device need to be water-proofed. It should also be light-weighted because we need to hold the cup every time we drink water. Moreover, the phone should not ostable the mouth when drinking water.
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
+https://youtu.be/UTyIYwL13CE
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+I worked with Zhonghao, Eric, Ahaan during class time in lab1. My friend Yitong helped me with the video and gave me some feedback for the interaction.
 
 # Staging Interaction, Part 2 
 
@@ -135,6 +163,12 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Feedbacks from Eric:
+Overall I like the concept of reminder to drink water since it's crucial to stay healthy and keep hydrated keep taking in water. Personally I carry a bottle around everywhere I go to remind myself to drink water, but my water bottle doesn't light up. My suggestion would be maybe utilize more on the color of the light and make it more interactive. For example, it can be user has to respond to the light every time it lights up and if the user doesn't respond to the light, it can go from yellow to red. Besides, maybe you can do something with the frequency of the lighting. For example, by making the light flash in a certain way with music will make it a more entertaining device.
+
+Feedbacks from James:
+I really like your design because it truly cares about people’s wellness and promote the healthier life style. It is also very intuitive to interact and get information from the device with little needs to learn extra contents. It also requires minimal operation from the user. They can just simply install and setup the device and it takes care of the rest. Moving forward, it might be helpful to also incorporate the sound to deliver more information to enhance the performance of the device.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -142,4 +176,36 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+<<<<<<< HEAD
+## Part A. Plan
+This is an update of the plan in part 1. 
+The setting is the same as the one in part 1. Most of the update parts are in the forms of reminder and the interaction feedback:
+The setting is in a study room with only 1 player. During the work from home experience in the pandemic, we spent most of our day in our own room, busy with screens. Not drinking enough water is one of the problem that can lead to potential health issue. The main activity is to remind the user to drink water in order to live a healthier life style during work from home.
+This piece of interactive device uses light, color, pop-up window, and sound effect to remind a user drinking water. It also analyze and summarize their drinking habit.
+
+**Version 1:**
+
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/idea1.jpg" width="600">
+
+The first idea is a small car that carries the cup to the user when they need to drink water. I recieved some feedbacks from peers that this is not stable and not convinient. It can also difficult to recognize the desk and to carry around. There is also the potential danger in spilling water on electronic devices. So the idea of attaching the device one the cup is better.
+
+**Version 2:**
+
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%201/final_idea.jpg" width="600">
+
+**Set Up**
+
+Setup video:
+https://youtu.be/urRvXOnEJrc
+
+the device need to be water-proofed. So I uses cling warp to make the phone water-proof while clickable. It should also be light-weighted because we need to hold the cup every time we drink water. Moreover, the phone should not ostable the mouth when drinking water. Last but not least, I added a reminder on the laptop that the user is working on. So the reminder is more apparent. Meanwhile, there will be a summary window that reports their drinking habit today. This window can reward them of their healthy behavior.
+
+**Final Result**
+
+Final video:
+https://youtu.be/UIQpLIKIGOc 
+(The lower right corner prototypes the reminder that appears on a screen)
+
+=======
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+>>>>>>> 2226ae6286232393c4220ed9e64800cb41deedc8
