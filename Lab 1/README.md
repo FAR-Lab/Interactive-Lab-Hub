@@ -69,11 +69,25 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+**Setting:** The interaction is most likely happening in the kitchen or on a desk when an object is placed on the device. For example, when a coffee mug is placed on the device in the morning.
+
+**Players:** Players will include all the people in the vicinity of the object placed on the interactive device. This includes everyone that has the potential of making physical contact with the object.
+
+**Activity:** Sometimes a cup of hot coffee is left on a counter and roommates might accidentally get burned due to them not being aware of the temperature of the cup. With the interactive device, the roommates will now know whether the cups or objects are too hot to touch or not based on the color that the device displays.
+
+**Goals:** The person who placed the cup of hot coffee on the table doesn’t want his/her roommates to get burned. The roommates don’t want to accidentally touch something that is very hot and get burned.
+
+**Summary:** The interactive device will be used for preventing people from getting burned from hot objects such as a cup of hot coffee. The interactive device will be in a shape of a pad and changes color based on the temperature of the object placed on it with red being the hottest (>100 degrees Celsius) and blue being coldest (<0 degrees Celsius). When the object is over 100 degrees Celsius, the red light will also be blinking.
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.png)
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
+**Feedback:** People thought that it was a useful device in a situation where many people would be in the vicinity of hot objects. Some said that the area of the device can be enlarged to encompass a whole kitchen counter or table.
 
 
 ## Part B. Act out the Interaction
@@ -81,9 +95,10 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+The blinking of the red light could be annoying to some people. Overall things seemed to be the same on paper as acted out.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+Just like the feedback that was given, to make this device more effective, it could span the whole table or counter. Additionally, if the device were to span the whole table, the color should only change around the object that is placed and not for the whole device.
 
 ## Part C. Prototype the device
 
@@ -96,15 +111,21 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**
+I thought that the interface was quite nice. As an added functionality maybe there could be buttons that allow the lights to pulsate at different frequencies.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+First, I had a cup of cold water, then I drank it. The color of the paper prototype changed from blue (cold) to green (room temperature).
+https://drive.google.com/file/d/1_jZ5Xgt-6P_BdDAcgzjYNrJp4KMoc-7c/view?usp=sharing
 
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 **Show the follow-up work here.**
+
+Next I changed the goal. Instead drinking the water, I added ice to an initially hot cup. The hot cup went from red (hot) to green (room temperature), then to blue (cold).
+https://drive.google.com/file/d/19oE36tkXcpdhHUxka7QKTdkEh3SgKhBq/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -114,26 +135,44 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume_sketch.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/final_costume.png)
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+The device should be made in a way that make it highly heat resistant as there could be a lot of hot objects placed on it frequently. On top of that, it will also have to be waterproof. This will ensure that when liquids are accidentally poured on the device, the device won’t break and cause a hazard to the user. 
+The device is designed to be very thin, almost like a mouse pad. This way, it could easily be put on any flat surface. If this device were to be actually created, it would come in different sizes. This will allow the device to be suitable for use on the many different types of surfaces. On the other hand, the device will not be able to be extremely thin as the device will need to have both light emitting electric components and a thermal sensor embedded into it.
+
 
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
+https://drive.google.com/file/d/1-rrRbAQD9IUbrsOsJ9SiVxsV9210SCDs/view?usp=sharing
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+I talked to Jeanne Li about my lab and she gave me constructive feedback on my design. Also I got feedback from my group memebers: Ross Kleinrock, Min Tae Lee, and Rob Gentul.
 
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
-
 
 ## Prep (to be done before Lab on Wednesday)
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 **Summarize feedback from your partners here.**
+
+Feedback recieved from Ross Kleinrock, Min Tae Lee, and Rob Gentul.
+
+**Feedback Summary:** 
+
+Great application of the device with the paper prototype. People liked the costuming piece, and the potential applications of something like this like stove burners to alert when they’re still hot. Suggestions said that I could maybe an alert noise when the user is about to touch something hot, in case they don’t notice or can’t see the red light. 
+
+Some questions that were raised include: is necessary to have indicators for objects that are colder? Would the device work for all kinds of materials? For instance, would it work for pots or plates also?
+
 
 ## Make it your own
 
@@ -142,4 +181,81 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+## Part A2. Plan 
+
+ **Describe your setting, players, activity and goals here.**
+
+ **Setting:** The interaction is most likely happening on a counter or on the wall in a room. For example, next to the thermostat.
+
+ **Players:** Players will include all the people in the vicinity of the device. This includes anyone that wants to control the lights in the room or people in the room that will be affected by the changing lights.
+
+ **Activity:** There will be one person operating the device through hand motions. If there are others in the scene, they will simply be observing the changes in the lighting.
+
+ **Goals:** The goal of this device is to control the lights in the room more efficiently and ergonomically. The device allows the user to turn on all the lights to full brightness or change the color of the lights in a quick and touchless manner.
+
+ **Summary:** This device will allow the user to determine the brightness of the lights in the room and the color of the lights in the room with hand gestures. When the hovering hand moves from the off side to the on side, the brightness changes from low to high. When the hand moves laterally in relation to the device, the color of the lights change, with high frequency colors on one side and low frequency colors on the other.
+
+ Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+ **Include a picture of your storyboard here**
+
+ ![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard2.png)
+
+ **Summarize feedback you got here.**
+
+ **Feedback:** People thought that this device can be very useful and seemed very high tech. They thought because of COVID, hovering instead of touching was a good idea.
+
+
+ ## Part B2. Act out the Interaction
+
+ Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+ **Are there things that seemed better on paper than acted out?**
+ Since I started designing the device with somethings already acted out, there wasn’t anything that deviated from the design on paper.
+
+ **Are there new ideas that occur to you or your collaborators that come up from the acting?**
+ At the start, I just wanted my device to be a nightlight. However, after feedback and thought, this device can be extended to controlling more lights and lighting up the whole room. It was also suggested that the functionality of this device can also be used for controlling the temperature.
+
+ ## Part C2. Prototype the device
+
+ You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+
+ Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+
+ We invented this tool for this lab! 
+ **Give us feedback on Tinkerbelle.**
+ I thought that the interface was quite nice. As an added functionality maybe there could be buttons that allow the lights to pulsate at different frequencies.
+
+ ## Part D2. Wizard the device
+ Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+ **Include your first attempts at recording the set-up video here.**
+ Wizarding the device without using tinkerbell.
+
+ https://drive.google.com/file/d/1xhEqYxO6CkIpIDAPgfd40uE_mVPkY-Me/view?usp=sharing
+
+ ## Part E2. Costume the device
+
+ Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+
+ Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+ **Include sketches of what your device might look like here.**
+
+ ![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/prototype2.png)
+ ![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume2.png)
+
+ **What concerns or opportunitities are influencing the way you've designed the device to look?**
+ Since the device will most likely be placed next to a thermostat, the device should have properties to that of a thermostat. This includes a rugged exterior to prevent breakage when the device is accidentally bumped on, connectivity to the electrical system of the room, water resistant capabilities, sleek and agile exterior to ensure that the device does not take up too much space and seem heavy handed. 
+
+
+ ## Part F2. Record
+
+ **Take a video of your prototyped interaction.**
+
+ https://drive.google.com/file/d/1yZdQtWws8l0BU50WhJakV61DTuUEtHfV/view?usp=sharing
+
+ **Please indicate anyone you collaborated with on this Lab.**
+ Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+ I talked to Jeanne Li about my lab and she gave me constructive feedback on my design. Also I got feedback from my group memebers: Ross Kleinrock, Min Tae Lee, and Rob Gentul.
+
