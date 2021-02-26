@@ -8,6 +8,7 @@ import busio
 import qwiic_twist
 import qwiic_joystick
 import qwiic_button
+import adafruit_mpu6050
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -65,9 +66,9 @@ backlight.value = True
 twist = qwiic_twist.QwiicTwist()
 twist.begin()
 twist_count = 0
-twist.set_blue(150)
-twist.set_red(0)
-twist.set_green(0)
+twist.set_blue(255)
+twist.set_red(100)
+twist.set_green(255)
 
 # Set up the joystick
 joystick = qwiic_joystick.QwiicJoystick()
@@ -77,8 +78,12 @@ joystick.begin()
 redButton = qwiic_button.QwiicButton()
 redButton.begin()
 
-greenButton = qwiic_button.QwiicButton(0x63)
+greenButton = qwiic_button.QwiicButton(0x62)
 greenButton.begin()
+
+# Configure the accelerometer
+i2c = busio.I2C(board.SCL, board.SDA)
+mpu = adafruit_mpu6050.MPU6050(i2c)
 
 dates = ['Sunday\nFebruary 28, 2021',
          'Monday\nMarch 1, 2021',
@@ -130,6 +135,32 @@ while True:
     image2 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/" + times[clock_time].replace(':','').replace(' ','').replace('AM','am').replace('PM','pm') + '.png')
     image2 = image_formatting(image2, width, height)
 
+    if greenButton.is_button_pressed():
+        accel_move = False
+        accel_quota = 0
+        image4 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/dinnertime.png")
+        image4 = image_formatting(image4, width, height)
+        disp.image(image4, rotation)
+
+        while not accel_move:
+            greenButton.LED_on(255)
+            time.sleep(1)
+            greenButton.LED_off()
+            time.sleep(1)
+
+            accel_value = (mpu.acceleration[0]**2 + mpu.acceleration[1]**2 + mpu.acceleration[2]**2)**0.5
+            print(accel_value)
+            if accel_value > 14:
+                accel_quota += 1
+
+            if accel_quota > 2:
+                accel_move = True
+
+        image5 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/yum.png")
+        image5 = image_formatting(image5, width, height)
+        disp.image(image5, rotation)
+        time.sleep(1)
+
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image2)
 
@@ -143,9 +174,11 @@ while True:
 
     #print(f"Rotary Count: {twist.count}")
     #print(f"Joystick Position: X: {joystick.get_horizontal()}, Y: {joystick.get_vertical()}, Button: {joystick.check_button()}")
-    #print(f"Red Button: {redButton.is_button_pressed()}")
-    #print(f"Green Button: {greenButton.is_button_pressed()}")
+    #if redButton.is_button_pressed():
+    #    print('Red Button Pressed')
+    #if greenButton.is_button_pressed():
+    #    print('Green Button Pressed')
 
     # Display image.
     disp.image(image2, rotation)
-    time.sleep(0.1)
+    time.sleep(0.01)
