@@ -83,20 +83,20 @@ draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
 #new code
-#while True:
-    #if buttonA.value and buttonB.value:
-    #    backlight.value = False  # turn off backlight
-    #else:
-    #    backlight.value = True  # turn on backlight
-    #if buttonB.value and not buttonA.value:  # just button A pressed
-    #    image = Image.open("red.jpg") # set the screen to image
-    #if buttonA.value and not buttonB.value:  # just button B pressed
-    #    image = Image.open("smile.jpg")  # set the screen to white
-    #if not buttonA.value and not buttonB.value:  # none pressed
-    #    image = Image.open("red.jpg")  # green
+while True:
+    if buttonA.value and buttonB.value:
+        image = Image.open("red.jpg")  # turn off backlight
+    else:
+        image = Image.open("red.jpg")  # turn on backlight
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        image = Image.open("red.jpg") # set the screen to image
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        image = Image.open("smile.jpg")  # set the screen to white
+    if not buttonA.value and not buttonB.value:  # none pressed
+        image = Image.open("red.jpg")  # green
 
 
-image = Image.open("smile.jpg")
+#image = Image.open("smile.jpg")
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
