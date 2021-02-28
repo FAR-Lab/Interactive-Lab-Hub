@@ -71,7 +71,7 @@ while True:
     #coffee_count = ""
     #if time 
     draw.text((x, y), time, font=font, fill="#FFFFFF")
-    coffe_count
+    #coffe_count
     
     # Display image.
     disp.image(image, rotation)
