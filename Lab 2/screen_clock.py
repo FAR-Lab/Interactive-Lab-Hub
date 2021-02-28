@@ -84,7 +84,7 @@ while True:
     # Create datetime objects for each time (a and b)
     
     diff = (datetime.datetime.now() - datetime.timedelta(hours=8))
-    print("diff is"+diff)
+    print("diff is"+strftime(diff))
     counter = step_count*diff/12.0
     step_count_text = "walk "+ counter
     if time > "12:00:00":
