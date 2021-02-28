@@ -67,11 +67,12 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     y = top
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    print(strftime("%m/%d/%Y %H:%M:%S"))
-    time = (strftime("%m/%d/%Y %H:%M:%S"))
-    #print("\r", end="", flush=True)
+    time = "Date is" + (strftime("%m/%d/%Y %H:%M:%S"))
+    #coffee_count = ""
+    #if time 
     draw.text((x, y), time, font=font, fill="#FFFFFF")
+    coffe_count
+    
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
