@@ -95,8 +95,8 @@ while True:
     y += font.getsize(date)[1]
     draw.text((x, y), time, font=font, fill="#FFFF00")
     y += font.getsize(time)[1]
-    draw.text((x, y), coffee_count, font=font, fill="#0000FF")
-    y += font.getsize(coffee_count)[2]
+    #draw.text((x, y), coffee_count, font=font, fill="#0000FF")
+    #y += font.getsize(coffee_count)[2]
     draw.text((x, y), step_count_text, font=font, fill="#0000FF")
    
     # Display image.
