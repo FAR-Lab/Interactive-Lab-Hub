@@ -85,12 +85,12 @@ while True:
     
     diff = (datetime.datetime.now().hour) - 8
     print("diff is"+str(diff))
-    counter = step_count*diff/12
-    step_count_text = "walk "+ str(counter)
+    counter = round(step_count*diff/12)
+    step_count_text = "You should have walked\n "+ str(counter) + " steps by now"
     if time > "12:00:00":
-        coffee_count = "Time for the second/n cup of coffee!"
+        coffee_count = "Time for the second\n cup of coffee!"
     else:
-        coffee_count = "Time for the first /n cup of coffee!"
+        coffee_count = "Time for the first \n cup of coffee!"
     draw.text((x, y), date, font=font, fill="#FFFFFF")
     y += font.getsize(date)[1]
     draw.text((x, y), time, font=font, fill="#FFFF00")
