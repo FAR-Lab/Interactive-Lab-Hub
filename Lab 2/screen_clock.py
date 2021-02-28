@@ -69,7 +69,7 @@ step_count = 0
 while step_count == 0:
     try:
         # get a color from the user and convert it to RGB
-        step_count = (input('Type the number of steps you want to hit today, without any commas:'))
+        step_count = int(input('Type the number of steps you want to hit today, without any commas:'))
     except ValueError:
         # catch colors we don't recognize and go again
         print("whoops I don't know that one")
@@ -85,7 +85,7 @@ while True:
     
     diff = (datetime.datetime.now().hour) - 8
     print("diff is"+str(diff))
-    counter = step_count*diff/12.0
+    counter = step_count*diff/12
     step_count_text = "walk "+ counter
     if time > "12:00:00":
         coffee_count = "Time for the second/n cup of coffee!"
