@@ -26,9 +26,9 @@ cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = digitalio.DigitalInOut(board.D24)
 
-backlight = digitalio.DigitalInOut(board.D22)
-backlight.switch_to_output()
-backlight.value = True
+#backlight = digitalio.DigitalInOut(board.D22)
+#backlight.switch_to_output()
+#backlight.value = True
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
@@ -84,10 +84,10 @@ disp.image(image)
 
 #new code
 while True:
-    if buttonA.value and buttonB.value:
-        backlight.value = False  # turn off backlight
-    else:
-        backlight.value = True  # turn on backlight
+    #if buttonA.value and buttonB.value:
+    #    backlight.value = False  # turn off backlight
+    #else:
+    #    backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
         image = Image.open("red.jpg") # set the screen to image
     if buttonA.value and not buttonB.value:  # just button B pressed
