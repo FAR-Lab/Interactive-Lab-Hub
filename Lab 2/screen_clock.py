@@ -69,9 +69,7 @@ while True:
     print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
     print("\r", end="", flush=True)
     sleep(1)
-    
-    y = top
-    draw.text((x, y), IP, font=font, fill="#FFFFFF")
+
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
