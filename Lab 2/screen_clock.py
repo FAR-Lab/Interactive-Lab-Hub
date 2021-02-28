@@ -68,8 +68,8 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     y = top
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    print(strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
-    time = (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    print(strftime("%m/%d/%Y %H:%M:%S"))
+    time = (strftime("%m/%d/%Y %H:%M:%S"))
     #print("\r", end="", flush=True)
     draw.text((x, y), time, font=font, fill="#FFFFFF")
     # Display image.
