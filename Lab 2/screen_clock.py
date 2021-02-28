@@ -67,12 +67,19 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     y = top
-    time = "Date is" + (strftime("%m/%d/%Y %H:%M:%S"))
-    #coffee_count = ""
-    #if time 
-    draw.text((x, y), time, font=font, fill="#FFFFFF")
-    #coffe_count
-    
+    date = "Date is: " + (strftime("%m/%d/%Y"))
+    time = "Time is: " + (strftime("%H:%M:%S"))
+    coffee_count = ""
+    if time > "12:00:00":
+        coffee_count = "You should have had 2 cups of coffee by now"
+    else:
+        coffee_count = "You should have had 1 cup of coffee by now"
+    draw.text((x, y), date, font=font, fill="#FFFFFF")
+    y += font.getsize(date)[1]
+    draw.text((x, y), time, font=font, fill="#FFFF00")
+    y += font.getsize(time)[1]
+    draw.text((x, y), coffee_count, font=font, fill="#FFFF00")
+   
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
