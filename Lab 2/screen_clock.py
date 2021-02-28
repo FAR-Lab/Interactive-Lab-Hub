@@ -1,4 +1,4 @@
-import time 
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
@@ -66,10 +66,8 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    print (time.strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
-    print("\r", end="", flush=True)
-    time.sleep(1)
+    print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    sleep(1)
