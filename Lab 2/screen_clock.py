@@ -64,7 +64,7 @@ backlight.switch_to_output()
 backlight.value = True
 
 step_count = 0
-while step_count = 0:
+while step_count == 0:
     try:
         # get a color from the user and convert it to RGB
         step_count = (input('Type the number of steps you want to hit today, without any commas:'))
