@@ -8,6 +8,7 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+I ued the help of my roommate Leah to come up with the # of steps idea, and Ilan helped me set up my Raspberry Pi to the server! He was very patient with me.
 
 ## Prep
 
@@ -144,7 +145,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 ## Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
-
+done
 
 ## Part E.
 ## Modify the barebones clock to make it your own
@@ -152,6 +153,7 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+I made this interactive by asking for user input on their step goal for the day. Then I used that number to display the # of steps a person should have walked by now, assuming they are awake from 8am - 8pm (12 hours) and walk a uniform amount each hour.
 
 **A copy of your code should be in your Lab 2 Github repo.**
 
@@ -169,9 +171,11 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+https://drive.google.com/file/d/18d_b8jA5vmIfuqg8U7D6GSaaF6N41wiS/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+I would love to find more ways to make this interactive, such as entering the hours you are awake (not everyone is awake 8am to 8pm) and adjusting the # of steps to match that. I could also have various countdowns such as # of hours until this assingment is due, or until Sunset for that day.
 
 
 
