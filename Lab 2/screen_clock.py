@@ -78,25 +78,19 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     y = top
-    date = "Date is: " + (strftime("%m/%d/%Y"))
-    time = "Time is: " + (strftime("%H:%M:%S"))
-    coffee_count = ""
-    # Create datetime objects for each time (a and b)
-    
-    diff = (datetime.datetime.now().hour) - 8
-    print("diff is"+str(diff))
-    counter = round(step_count*diff/12)
-    step_count_text = "You should have walked\n "+ str(counter) + " steps by now"
-    if time > "12:00:00":
-        coffee_count = "Time for the second\n cup of coffee!"
+    date = "Date is: " + (strftime("%m/%d/%Y")) #displaying the date in an easy to read fashion
+    time = "Time is: " + (strftime("%H:%M:%S"))    #displaying the time in an easy to read fashion
+    if time > "08:00:00":
+        diff = (datetime.datetime.now().hour) - 8 #assuming that a person wakes up at 8am, this is the number of hours they've been awake
     else:
-        coffee_count = "Time for the first \n cup of coffee!"
+        diff = 0 #person is still sleeping, doesn't need to walk
+    print("diff is"+str(diff)) 
+    counter = round(step_count*diff/12) #taking the ratio of (#hours awake / 12 hours) * (#steps should have taken/step goal)
+    step_count_text = "You should have walked\n "+ str(counter) + " steps by now" #displaying how many steps they should have walked by now
     draw.text((x, y), date, font=font, fill="#FFFFFF")
     y += font.getsize(date)[1]
     draw.text((x, y), time, font=font, fill="#FFFF00")
     y += font.getsize(time)[1]
-    #draw.text((x, y), coffee_count, font=font, fill="#0000FF")
-    #y += font.getsize(coffee_count)[2]
     draw.text((x, y), step_count_text, font=font, fill="#0000FF")
    
     # Display image.
