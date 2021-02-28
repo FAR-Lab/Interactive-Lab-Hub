@@ -79,15 +79,22 @@ while True:
     date = "Date is: " + (strftime("%m/%d/%Y"))
     time = "Time is: " + (strftime("%H:%M:%S"))
     coffee_count = ""
+    # Create datetime objects for each time (a and b)
+    
+    diff = (datetime.datetime.now() - datetime.timedelta(hours=8)).total_minutes
+    counter = step_count*diff/12.0
+    step_count_text = "walk "+ counter
     if time > "12:00:00":
-        coffee_count = "You should have walked "+ step_count
+        coffee_count = "Time for the second/n cup of coffee!"
     else:
-        coffee_count = "You should have had 1 cup of coffee by now"
+        coffee_count = "Time for the first /n cup of coffee!"
     draw.text((x, y), date, font=font, fill="#FFFFFF")
     y += font.getsize(date)[1]
     draw.text((x, y), time, font=font, fill="#FFFF00")
     y += font.getsize(time)[1]
     draw.text((x, y), coffee_count, font=font, fill="#0000FF")
+    y += font.getsize(coffee_count)[1]
+    draw.text((x, y), step_count_text, font=font, fill="#0000FF")
    
     # Display image.
     disp.image(image, rotation)
