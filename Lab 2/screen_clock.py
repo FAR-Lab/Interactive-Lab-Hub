@@ -2,8 +2,10 @@ import time
 import subprocess
 import digitalio
 import board
+import datetime
 from PIL import Image, ImageDraw, ImageFont
 from time import strftime, sleep
+from datetime import timedelta
 import adafruit_rgb_display.st7789 as st7789
 
 
