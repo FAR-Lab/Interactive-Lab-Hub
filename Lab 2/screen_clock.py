@@ -86,7 +86,7 @@ while True:
     diff = (datetime.datetime.now().hour) - 8
     print("diff is"+str(diff))
     counter = step_count*diff/12
-    step_count_text = "walk "+ counter
+    step_count_text = "walk "+ str(counter)
     if time > "12:00:00":
         coffee_count = "Time for the second/n cup of coffee!"
     else:
