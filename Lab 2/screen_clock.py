@@ -1,9 +1,11 @@
-import time
+import time 
 import subprocess
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
+from time import strftime, sleep
 import adafruit_rgb_display.st7789 as st7789
+
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -64,9 +66,12 @@ backlight.value = True
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-
+    y = top
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-
+    print(strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    time = (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    #print("\r", end="", flush=True)
+    draw.text((x, y), time, font=font, fill="#FFFFFF")
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
