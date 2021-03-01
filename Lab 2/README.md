@@ -173,5 +173,7 @@ After that git will ask you to login to your github account to upload.
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+I would also want the clock to reflect some statistics - perhaps the temperature outside or weather by the use of different coloured backgrounds. 
+
 
 
