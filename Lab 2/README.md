@@ -151,12 +151,12 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 **A copy of your code should be in your Lab 2 Github repo.** 
 
-
-
+  
+  
 <a href = "https://github.com/bnbeck/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_clock.py">
 **Code for screen_clock.py**
 </a>         
-
+  
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
