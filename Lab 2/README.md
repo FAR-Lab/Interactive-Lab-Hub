@@ -150,17 +150,9 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Modify the barebones clock to make it your own
 I have added two features:
 
-1. A night&late night indicator. 
+1. A night&late night indicator. If it's after 9PM, the display will show "It's night time!". If it's after 11PM, the display will show "It's late night!!!".
 
-If it's after 9PM, the display will show "It's night time!".
-
-If it's after 11PM, the display will show "It's late night!!!".
-
-2. A diet time counter.
-
-I am currently on a diet that allows me to eat during an 8-hour period, so I designed this counter for me to calculate the daily end time of the diet.
-
-When press button A and button B together, it will record the time that is 8 hours from now. If only press button A, it will show the diet ending time.
+2. A diet time counter. I am currently on a diet that allows me to eat during an 8-hour period, so I designed this counter for me to calculate the daily end time of the diet. When press button A and button B together, it will record the time that is 8 hours from now. If only press button A, it will show the diet ending time.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
