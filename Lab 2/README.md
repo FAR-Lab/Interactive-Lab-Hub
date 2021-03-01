@@ -170,8 +170,15 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+![](Clock_Before.png)
+![](Clock_After.png)
+
+[PiClock Hour Change](https://drive.google.com/file/d/16ZjIccIDwNxH9YNUiB88iLe62stGVDK-/view?usp=sharing)
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+
 
 
 
