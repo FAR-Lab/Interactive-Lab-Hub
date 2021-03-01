@@ -68,5 +68,188 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
 
     # Display image.
+    ahaantime = strftime("%m/%d/%Y %H:%M:%S")
+    y = top
+    # print("\r", end="", flush=True)
+    if int(strftime("%H")) == 0:
+        text  = "The sun is at an angle"
+        var = int(strftime("%H")) * 15 + 270
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y+20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y+40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 1:
+        text  = "The sun is at an angle"
+        var = int(strftime("%H")) * 15 + 270
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y+20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y+40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 2:
+        text  = "The sun is at an angle"
+        var = int(strftime("%H")) * 15 + 270
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y+20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y+40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 3:
+        text  = "The sun is at an angle"
+        var = int(strftime("%H")) * 15 + 270
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y+20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y+40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 4:
+        text  = "The sun is at an angle"
+        var = int(strftime("%H")) * 15 + 270
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y+20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y+40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 5:
+        text  = "The sun is at an angle"
+        var = int(strftime("%H")) * 15 + 270
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y+20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y+40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 6:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 7:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 8:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 9:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 10:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 11:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 12:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 13:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 14:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+
+    elif int(strftime("%H")) == 15:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 16:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 17:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 18:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 19:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 20:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 21:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 22:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+    elif int(strftime("%H")) == 23:
+        text = "The sun is at an angle"
+        var = 15 * int(strftime("%H")) - 90
+        text2 = "of " + str(var) + " degrees"
+        draw.text((x, y), ahaantime, font=font, fill="#FFFFFF")
+        draw.text((x, y + 20), text, font=font, fill="#FFFFFF")
+        draw.text((x, y + 40), text2, font=font, fill="#FFFFFF")
+
+    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 12)
+    y = top
+    text = "This clock measures time based"
+    text2 = "on the angle of the sun"
+    text3 = "relative to the sunrise (6am) being 0"
+    draw.text((x, y+60), text, font=font, fill="#FFFFFF")
+    draw.text((x, y+80), text2, font=font, fill="#FFFFFF")
+    draw.text((x, y+100), text3, font=font, fill="#FFFFFF")
+    # Display image.
     disp.image(image, rotation)
     time.sleep(1)
+
