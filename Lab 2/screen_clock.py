@@ -62,6 +62,9 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# Clock related
+LINE = "===================="
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -70,6 +73,18 @@ while True:
     TIME = "TIME: "+ strftime("%m/%d/%Y %H:%M:%S")
     y = top
     draw.text((x, y), TIME, font=font, fill="#FFFFFF")
+    
+    # Add Night & Late Night Notifier
+    hour = int(time.strftime("%H"))
+    if(hour >= 21):
+        NIGHT="It's night time! Prepare to sleep."
+    else:
+        NIGHT="Not night time."
+        
+    y += font.getsize(TIME)[1]
+    draw.text((x, y), LINE, font=font, fill="#FFFFFF")    
+    y += font.getsize(LINE)[1]
+    draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
     
     # Display image.
     disp.image(image, rotation)
