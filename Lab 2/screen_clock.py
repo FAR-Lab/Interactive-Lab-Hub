@@ -67,9 +67,7 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
-    curTime = strftime("%m/%d/%Y %H:%M:%S")
 
-    draw.text((0, 0), curTime, font=font, fill="#FFFFFF")
 
     image = Image.open("time.jpg")
     backlight = digitalio.DigitalInOut(board.D22)
@@ -95,4 +93,8 @@ while True:
 
     # Display image.
     disp.image(image, rotation)
+
+    curTime = strftime("%m/%d/%Y %H:%M:%S")
+
+    draw.text((0, top), curTime, font=font, fill="#FFFFFF")
     time.sleep(1)
