@@ -170,7 +170,7 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**    
 The clock measures time normally in red.  
-In orange there are explanations of the modified time keeping.   
+In orange there are explanations of the modified time keeping (Eiffel Tower for days and months Feb 12 = 1.05 cycles, Flatiron for hours 8am = 8th floor).   
 In green the modified way of keeping time is displayed.  
 On the second screen after clicking the "A" button, a timer is displayed that counts up until the button is released.  If the button is clicked again the timer is reset to 0.  
 **Click on either of the images below to be taken to a video of the clock in action**     
