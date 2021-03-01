@@ -72,6 +72,7 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
 ```
+<img src="https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%202/lab2partA.png" />
 
 ## Part B. 
 ### Try out the Command Line Clock
