@@ -168,14 +168,18 @@ After that git will ask you to login to your github account to upload.
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-**Take a video of your PiClock.**  
+**Take a video of your PiClock.**    
+The clock measures time normally in red.  
+In orange there are explanations of the modified time keeping.   
+In green the modified way of keeping time is displayed.  
+On the second screen after clicking the "A" button, a timer is displayed that counts up until the button is released.  If the button is clicked again the timer is reset to 0.  
 **Click on the image below to be taken to a video of the clock in action**     
 <a href = "https://imgur.com/a/Nf1nll8">
 <img src="/Lab%202/Images/image_of_clock.jpg" width="700"/> 
 </a>
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.   
+<img src="/Lab%202/Images/sketch_week2.jpg" width="700"/> 
 
 
