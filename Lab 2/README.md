@@ -175,5 +175,5 @@ https://drive.google.com/file/d/1an6V4N-OMX7e27VHpuU-lP6BVQ3KpxSO/view?usp=shari
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%202/further_interactions.png)
 
