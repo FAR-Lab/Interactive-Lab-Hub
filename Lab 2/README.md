@@ -153,14 +153,15 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
   
   
-<a href = "https://github.com/bnbeck/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_clock.py">
-**Code for screen_clock.py**
+<a href = "https://github.com/bnbeck/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_clock.py">    
+**Code for screen_clock.py** 
 </a>         
   
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**    
+  
 The clock measures time normally in red.  
 In orange there are explanations of the modified time keeping (Eiffel Tower for days and months Feb 12 = 1.05 cycles, Flatiron for hours 8am = 8th floor). As the building only has 22 floors, 0:00 is displayed with a message that states the user is entering the building and 11:00 is displayed with a message that states the user is entering jetpacking down the building.
 
