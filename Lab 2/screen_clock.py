@@ -55,7 +55,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 28)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -95,8 +95,12 @@ while True:
 
     curTime = strftime("%m/%d/%Y %H:%M:%S")
     draw = ImageDraw.Draw(image)
-    draw.text((0, top), curTime, font=font, fill="#FFFFFF")
+    draw.text((0, top), curTime, font=font, fill="#0000FF")
+    if buttonA.value:  # just button A pressed
+        # display.fill(screenColor) # set the screen to the users color
+        disp.image(image, rotation)
+    else:
+        backlight.value = False  # turn off backlight
 
-    disp.image(image, rotation)
 
     time.sleep(1)
