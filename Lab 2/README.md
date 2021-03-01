@@ -72,8 +72,6 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
 ```
-<img src="https://github.com/YuanhaoZhu/Interactive-Lab-Hub/blob/Spring2021/Lab%202/lab2partA.png" />
-
 ## Part B. 
 ### Try out the Command Line Clock
 Clone the repo for this assignment
@@ -81,13 +79,13 @@ Clone the repo for this assignment
 ```
 (circuitpython) pi@ixe00:~$ git clone https://github.com/YOURGITID/Interactive-Lab-Hub.git
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ 
 ```
 
 Install the packages from the requirements.txt and run the example
 
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ pip install -r requirements.txt
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
 02/24/2021 11:20:49
 ```
