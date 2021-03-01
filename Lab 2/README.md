@@ -11,10 +11,10 @@ It is worth spending a little time thinking about how you mark time, and what wo
 For this lab, I worked with Snigdha Singhania (ss4224). We worked in tandem on this project with group brainstorming as well as the actual building. 
 
 A good deal of the images for our project were taken from external sources. These are credited below:
+* Adafruit and Sparkfun API References were incredibly helpful for this lab
 * [Sunrise Graphics](https://www.youtube.com/watch?v=JEEbmkDEQek)
 * [Cheers Animation](https://www.youtube.com/watch?v=Gkb6bFdgSvM)
 * [Soccer Animation](https://www.youtube.com/watch?v=TagGzVe1Xw0)
-* Adafruit and Sparkfun API References were incredibly helpful for this lab
 * [Goodnight Image](https://www.google.com/search?q=goodnight+cartoon&sxsrf=ALeKk00TRoLfzl6wrEQYCmJiSuwhtad6rA:1614306188304&tbm=isch&source=iu&ictx=1&fir=xyADWpXBPSBtmM%252CuYH3SdyNITyyeM%252C_&vet=1&usg=AI4_-kTyeizyNUFpTTtxMwJAu9keo2MQ6Q&sa=X&ved=2ahUKEwiKjKaXv4bvAhVJmuAKHclaDgUQ9QF6BAgTEAE&biw=1066&bih=1593#imgrc=xyADWpXBPSBtmM)
 * [Go to Work Arrow](https://www.google.com/search?q=arrow+cartoon&sxsrf=ALeKk02MVPbAEMSeTQAq3d-l9WY6AJrikg:1614308797507&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAlLvzyIbvAhXiUd8KHeLfBzoQ_AUoAXoECCgQAw&biw=1066&bih=1593#imgrc=ksTzXuZQQdDHGM)
 * [Wine Time Image](https://www.google.com/search?q=wine+time&tbm=isch&ved=2ahUKEwjtl-LNlY7vAhWcC98KHasIB7kQ2-cCegQIABAA&oq=wine+time&gs_lcp=CgNpbWcQAzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgjECc6CggAELEDEIMBEEM6BwgAELEDEEM6CAgAELEDEIMBUJqMAViPmAFgtZkBaABwAHgAgAFRiAHzBJIBATmYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=smE8YO32CJyX_AarkZzICw&bih=1593&biw=1600#imgrc=hLPWJJV5Y7elWM)
@@ -67,15 +67,17 @@ This functionality is shown below:
 ## Part C. 
 ## Set up the RGB Display
 The [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) is connected to the Raspberry Pi via the GPIO pins. <br>
-<p float="center">
+<p align="center">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
-</b>
+</p>
 
 ### IO Options on the Raspberry Pi
 
 The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
+<p align="center">
 <img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
+</p>
 
 To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. 
 
@@ -83,7 +85,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
-<p float="center">
+<p align="center">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/087/539/medium640/adafruit_products_4393_quarter_ORIG_2019_10.jpg?1579991932" height="200" />
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/861/original/adafruit_products_image.png" height="200">
 </p>
@@ -99,51 +101,103 @@ We can test it with the following command:
 
 You can type the name of a color then press the top button to see the color you typed or the bottom button to see the color white. This functionality is shown below:
 
+<p align="center">
 ![The screen lights up the color that you typed](screen_test.gif)
+</p>
 
 ### Displaying Info
 By running the following command:
 ```
 (circuitpython) pi@raspberrypi:~/Documents/Interactive-Lab-Hub/Lab 2$ python stats.py
 ```
-we can see a list of the Raspberry Pi's statistics such as the hardware's temperature.
+we can see a list of the Raspberry Pi's statistics such as the CPU's temperature and the Pi's IP address:
+
+<p align="center">
+![Image](imgs/stats.png)  
+</p>
 
 ### Displaying an image
 
-You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
+Running `image.py` with the following command:
+```
+(circuitpython) pi@raspberrypi:~/Documents/Interactive-Lab-Hub/Lab 2$ python image.py
+```
+displays an image of the Cornell Tech logo:
+
+![Image](imgs/cornell_tech_image.png)
+
+Similarly, `image_change.py` shows how we adjusted this code to switch between the Cornell Tech logo and one of the photos we intend to use for our clock's final functionality. Pressing button A shows the former while pressing button B shows the latter. 
+
+(<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/image_change.gif" height="360" /></p>
 
 ## Part D. 
 ## Set up the Display Clock Demo
 
-In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
+`screen_clock.py` was copied into `display_clock.py` to show the basic clock functionality on the MiniPiTF. When run using the following command:
+```
+(circuitpython) pi@raspberrypi:~/Documents/Interactive-Lab-Hub/Lab 2$ python display_clock.py
+```
+we see the following output:
 
+<p align="center">
+  ![Image](imgs/display_clock.png)
+</p>
 
 ## Part E.
 ## Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+We decided to control time via the rotary encoder with the code found in `barebones_clock.py`. Every time the rotary encoder is turned clockwise one notch, the time on the clock moves forward 30 minutes. Similarly, when the rotary encoder is turned counter clockwise, the time displayed on the screen moves backwards 30 minutes. Time changing is shown not just with the printed time values but also with a series of images showing a cartoon sunrising and setting along with the appropriate times. 
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+Since we do not currently have Quiic cables, Snigdha and I improvised the necessary I2C connections by raising the MiniPiTFT screen off the GPIO pins slightly so we could shove some leads into the holes at the top and access the SDA/SCL I2C pins as well as the 3.3V power supply.
 
-**A copy of your code should be in your Lab 2 Github repo.**
-
-you can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-git add .
-git commit -m'your message here'
-git push
-```
-
-After that git will ask you to login to your github account to upload.
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/pi_rotary_encoder.png" height="360" /></p>
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-Initial Demo (not completed): https://drive.google.com/file/d/1Wuj0UpV53kowGBfO9HtKEnyqDiX15kOf/view?usp=sharing
+You can see the modified barebones clock with the time changing according to the rotary encoder's position and the accompanying animations below:
+
+<p align="center"><img src="https://drive.google.com/file/d/1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T/edit" height="360" /></p>
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+## Planning further interactions/features for the PiClock
+We decided to model our final clock representation after life and the various activities that people perform on a day-to-day basis. While the user controls time with the rotary encoder, they have various activities that they are required to do at certain times. We decided to have our clock perform the following functions:
 
+* **Control Time**
+  * Interactive Tools: Rotary Encoder, MiniPiTFT
+  * Costume: The sun is shown "rising" and "setting" on the screen to make a more explicit representation of time.
+  * Activation Criteria: User acts on the rotary encoder
+  * Description: As in the barebones clock, the user will be able to move time in 30 minute increments via the rotary encoder. A clockwise turn moves time forward. A counter-clockwise turn moves time backwards.
+* **Playing Soccer**
+  * Interactive Tools: Joystick, MiniPiTFT
+  * Costume: A soccer ball cover for the joystick made out of paper.
+  * Activation Criteria: User passes 10am on Sunday
+  * Description: On Sundays at 10am, our user will play soccer. When this time is passed, the screen will alert the user it is time to play soccer and display a stick figure standing by ready to kick the ball. The joystick will be costumed to look like a soccer ball to make it clear to the user that they should use the joystick to perform the relevant action. Once the joystick is moved, the stick figure will kick the ball and the soccer activity will conclude.
+* **Cooking**
+  * Interactive Tools: Accelerometer and cardboard frying pan, green Quiic button, MiniPiTFT
+  * Costume: The green button is meant to signify food. This is likely the least clear interactive portion of our design. A cardboard frying pan costume for the accelerometer.
+  * Activation Criteria: User presses the green button
+  * Description: If the user "gets hungry," they can press the green button to begin dinner time. Once in this mode, the user is required to "cook" using the cardboard frying pan (with the attached accelerometer) to move on.
+* **Sleeping**
+  * Interactive Tools: Proximity Sensor, MiniPiTFT
+  * Costume: A cardboard "bed" costume is used here.
+  * Activation Criteria: When the user pushes the cardboard "sheets" on to the bed.
+  * Description: When the user wishes to sleep, they can push the cardboard "sheets" over the proximity sensor. This will trigger a "good night" message. When the sheets are lifted off the proximity sensor again, 7 hours have passed and the user can continue on with their day.
+* **Drinking Wine**
+  * Interactive Tools: Red Quiic button, MiniPiTFT
+  * Costume: The red button flashes to tell the user that they should interact with it.
+  * Activation Criteria: At 5pm on Friday, "Wine Time" triggers
+  * Description: It's 5 o'clock somewhere! And in the world of our interactive device, the user can enjoy 5 o'clock on Friday and "Wine Time" whenever they choose to pass that time! When this event is triggered, the screen tells the user it is wine time and the red button begins flashing to tell the user to interact with it. Once pressed, an animation of two champagne flutes is shown on the MiniPiTFT to indicate that the user has "enjoyed" wine time.
 
+This is outlined in the following sketch:
 
+<p align="center">
+  ![Image](imgs/image.png)
+</p>
+
+## Part 2
+## Video of the final interactions
+
+The final product for our interactive device is shown in the demo below:
+
+<p align="center"><img src="https://drive.google.com/file/d/1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS/edit" height="360" /></p>
