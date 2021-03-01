@@ -62,7 +62,7 @@ and simply writes the current time on the command line (exited via CTRL+C) with 
 
 This functionality is shown below:
 
-<p align="center">![cli_clock.py functionality shows the current time in command line](cli_clock.gif)</p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/edit/Spring2021/Lab%202/cli_clock.gif" width="360"></p>
 
 ## Part C. 
 ## Set up the RGB Display
@@ -101,9 +101,7 @@ We can test it with the following command:
 
 You can type the name of a color then press the top button to see the color you typed or the bottom button to see the color white. This functionality is shown below:
 
-<p align="center">
-![The screen lights up the color that you typed](screen_test.gif)
-</p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/edit/Spring2021/Lab%202/screen_test.gif" width="360"></p>
 
 ### Displaying Info
 By running the following command:
@@ -112,9 +110,7 @@ By running the following command:
 ```
 we can see a list of the Raspberry Pi's statistics such as the CPU's temperature and the Pi's IP address:
 
-<p align="center">
 <p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/edit/Spring2021/Lab%202/imgs/stats.png" width="360"></p>
-</p>
 
 ### Displaying an image
 
