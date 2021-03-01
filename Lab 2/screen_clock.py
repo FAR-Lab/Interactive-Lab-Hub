@@ -98,6 +98,7 @@ while True:
     draw.text((0, top), curTime, font=font, fill="#0000FF")
     if buttonA.value:  # just button A pressed
         # display.fill(screenColor) # set the screen to the users color
+        backlight.value = True  # turn off backlight
         disp.image(image, rotation)
     else:
         backlight.value = False  # turn off backlight
