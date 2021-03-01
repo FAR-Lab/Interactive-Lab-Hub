@@ -124,7 +124,7 @@ We can test it by typing
 python screen_test.py
 ```
 
-<img src="/Lab%2/Images/screen_test.jpg" width="700"/>     
+<img src="/Lab%202/Images/screen_test.jpg" width="700"/>     
 
 You can type the name of a color then press either of the buttons to see what happens on the display. take a look at the code with
 ```
@@ -138,7 +138,7 @@ You can look in `stats.py` for how to display text on the screen
 
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
-<img src="/Lab%2/Images/image_test.jpg" width="700"/> 
+<img src="/Lab%202/Images/image_test.jpg" width="700"/> 
 
 ## Part D. 
 ## Set up the Display Clock Demo
@@ -171,7 +171,7 @@ After that git will ask you to login to your github account to upload.
 **Take a video of your PiClock.**  
 **Click on the image below to be taken to a video of the clock in action**     
 <a href = "https://imgur.com/a/Nf1nll8">
-<img src="/Lab%2/Images/image_of_clock.jpg" width="700"/> 
+<img src="/Lab%202/Images/image_of_clock.jpg" width="700"/> 
 </a>
 
 ## Part G. 
