@@ -154,16 +154,8 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 **A copy of your code should be in your Lab 2 Github repo.**
-
-you can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-git add .
-git commit -m'your message here'
-git push
-```
-
-After that git will ask you to login to your github account to upload.
+Lab 2/Code/BNB_clock_code
+[Code for screen_clock.py](Lab%202/Code/BNB_clock_code)
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
