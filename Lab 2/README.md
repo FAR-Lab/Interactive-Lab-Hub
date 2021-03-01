@@ -173,13 +173,16 @@ The clock measures time normally in red.
 In orange there are explanations of the modified time keeping.   
 In green the modified way of keeping time is displayed.  
 On the second screen after clicking the "A" button, a timer is displayed that counts up until the button is released.  If the button is clicked again the timer is reset to 0.  
-**Click on the image below to be taken to a video of the clock in action**     
+**Click on either of the images below to be taken to a video of the clock in action**     
 <a href = "https://imgur.com/a/Nf1nll8">
-<img src="/Lab%202/Images/image_of_clock.jpg" width="700"/> 
+<img src="/Lab%202/Images/image_of_clock.jpg" width="500"/> 
+<img src="/Lab%202/Images/timer_image_clock.jpg" width="500"/> 
 </a>
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.   
-<img src="/Lab%202/Images/sketch_week2.jpg" width="700"/> 
+With the modified way of displaying time (cycles of the Eiffel Tower for days and months with Flatiron Buidling cycles for hours) it would be interesting to visually display this passage of time by having a small sprite climb the tower.  With relative height determining time.  
+Another feature could be added instead or in addition that acts a reminder for an upcoming task and checks if it is time for it yet.  Eg. If time == x flash screen a certain color or a certain message to remind the user to complete the action.
+<img src="/Lab%202/Images/sketch_week2.jpg" width="700"/>   
 
 
