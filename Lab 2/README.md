@@ -173,5 +173,11 @@ After that git will ask you to login to your github account to upload.
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+## Prep for Part 2
+
+Pick up remaining parts for kit.
+
+Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
 
 
