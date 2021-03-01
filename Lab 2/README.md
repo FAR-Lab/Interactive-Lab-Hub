@@ -117,6 +117,8 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/861/original/adafruit_products_image.png" height="200">
 </p>
 
+
+
 #### Testing your Screen
 
 The display uses a communication protocol called [SPI](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/) to speak with the raspberry pi. We won't go in depth in this course over how SPI works. The port on the bottom of the display connects to the SDA and SCL pins used for the I2C communication protocol which we will cover later. GPIO (General Purpose Input/Output) pins 23 and 24 are connected to the two buttons on the left. GPIO 22 controls the display backlight.
@@ -176,6 +178,8 @@ https://youtu.be/U6ORbIaXaaM
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+<p float="left">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Lab2part1_sketch.jpg" height="200">
+</p>
 
 
