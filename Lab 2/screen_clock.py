@@ -1,5 +1,6 @@
 import time
 from time import strftime, sleep
+from datetime import datetime, timedelta
 import subprocess
 import digitalio
 import board
@@ -64,6 +65,15 @@ backlight.value = True
 
 # Clock related
 LINE = "================"
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+# DIET is used to record the time of my daily 8-hour dieting period ending time
+# buttonA is used to display the ending time
+# buttonB (pressed together with buttonA) is used to save the ending time
+DIET=None
 
 while True:
     # Draw a black filled box to clear the image.
@@ -83,11 +93,22 @@ while True:
     else:
         NIGHT="Not night time."
         
-    y += (font.getsize(TIME)[1])*2
+    y += (font.getsize(TIME)[1])*(1.5)
     draw.text((x, y), LINE, font=font, fill="#FFFFFF")    
     y += font.getsize(LINE)[1]
     draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
+    y += font.getsize(NIGHT)[1]
+    draw.text((x, y), LINE, font=font, fill="#FFFFFF")
     
+    # Update DIET
+    if buttonA.value and buttonB.value:
+        eight_hours_from_now = datetime.now() + timedelta(hours=8)
+        DIET="DIET ENDING AT:" + format(eight_hours_from_now, '%H:%M')
+        
+    if (buttonA.value and DIET):
+        y += font.getsize(LINE)[1]
+        draw.text((x, y), DIET, font=font, fill="#FFFFFF")
+        
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
