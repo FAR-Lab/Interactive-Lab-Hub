@@ -101,11 +101,11 @@ while True:
     draw.text((x, y), LINE, font=font, fill="#FFFFFF")
     
     # Update DIET
-    if buttonA.value and buttonB.value:
+    if !buttonA.value and !buttonB.value:
         eight_hours_from_now = datetime.now() + timedelta(hours=8)
-        DIET="DIET ENDING AT:" + format(eight_hours_from_now, '%H:%M')
+        DIET="DIET ENDING AT: " + format(eight_hours_from_now, '%H:%M:%S')
         
-    if (buttonA.value and DIET):
+    if (!buttonA.value and DIET):
         y += font.getsize(LINE)[1]
         draw.text((x, y), DIET, font=font, fill="#FFFFFF")
         
