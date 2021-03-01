@@ -152,30 +152,30 @@ You can see the modified barebones clock with the time changing according to the
 We decided to model our final clock representation after life and the various activities that people perform on a day-to-day basis. While the user controls time with the rotary encoder, they have various activities that they are required to do at certain times. We decided to have our clock perform the following functions:
 
 * **Control Time**
-  * Interactive Tools: Rotary Encoder, MiniPiTFT
-  * Costume: The sun is shown "rising" and "setting" on the screen to make a more explicit representation of time.
-  * Activation Criteria: User acts on the rotary encoder
-  * Description: As in the barebones clock, the user will be able to move time in 30 minute increments via the rotary encoder. A clockwise turn moves time forward. A counter-clockwise turn moves time backwards.
+  * __Interactive Tools__: Rotary Encoder, MiniPiTFT
+  * __Costume__: The sun is shown "rising" and "setting" on the screen to make a more explicit representation of time.
+  * __Activation Criteria__: User acts on the rotary encoder
+  * __Description__: As in the barebones clock, the user will be able to move time in 30 minute increments via the rotary encoder. A clockwise turn moves time forward. A counter-clockwise turn moves time backwards.
 * **Playing Soccer**
-  * Interactive Tools: Joystick, MiniPiTFT
-  * Costume: A soccer ball cover for the joystick made out of paper.
-  * Activation Criteria: User passes 10am on Sunday
-  * Description: On Sundays at 10am, our user will play soccer. When this time is passed, the screen will alert the user it is time to play soccer and display a stick figure standing by ready to kick the ball. The joystick will be costumed to look like a soccer ball to make it clear to the user that they should use the joystick to perform the relevant action. Once the joystick is moved, the stick figure will kick the ball and the soccer activity will conclude.
+  * __Interactive Tools__: Joystick, MiniPiTFT
+  * __Costume__: A soccer ball cover for the joystick made out of paper.
+  * __Activation Criteria__: User passes 10am on Sunday
+  * __Description__: On Sundays at 10am, our user will play soccer. When this time is passed, the screen will alert the user it is time to play soccer and display a stick figure standing by ready to kick the ball. The joystick will be costumed to look like a soccer ball to make it clear to the user that they should use the joystick to perform the relevant action. Once the joystick is moved, the stick figure will kick the ball and the soccer activity will conclude.
 * **Cooking**
-  * Interactive Tools: Accelerometer and cardboard frying pan, green Quiic button, MiniPiTFT
-  * Costume: The green button is meant to signify food. This is likely the least clear interactive portion of our design. A cardboard frying pan costume for the accelerometer.
-  * Activation Criteria: User presses the green button
-  * Description: If the user "gets hungry," they can press the green button to begin dinner time. Once in this mode, the user is required to "cook" using the cardboard frying pan (with the attached accelerometer) to move on.
+  * __Interactive Tools__: Accelerometer and cardboard frying pan, green Quiic button, MiniPiTFT
+  * __Costume__: The green button is meant to signify food. This is likely the least clear interactive portion of our design. A cardboard frying pan costume for the accelerometer.
+  * __Activation Criteria__: User presses the green button
+  * __Description__: If the user "gets hungry," they can press the green button to begin dinner time. Once in this mode, the user is required to "cook" using the cardboard frying pan (with the attached accelerometer) to move on.
 * **Sleeping**
-  * Interactive Tools: Proximity Sensor, MiniPiTFT
-  * Costume: A cardboard "bed" costume is used here.
-  * Activation Criteria: When the user pushes the cardboard "sheets" on to the bed.
-  * Description: When the user wishes to sleep, they can push the cardboard "sheets" over the proximity sensor. This will trigger a "good night" message. When the sheets are lifted off the proximity sensor again, 7 hours have passed and the user can continue on with their day.
+  * __Interactive Tools__: Proximity Sensor, MiniPiTFT
+  * __Costume__: A cardboard "bed" costume is used here.
+  * __Activation Criteria__: When the user pushes the cardboard "sheets" on to the bed.
+  * __Description__: When the user wishes to sleep, they can push the cardboard "sheets" over the proximity sensor. This will trigger a "good night" message. When the sheets are lifted off the proximity sensor again, 7 hours have passed and the user can continue on with their day.
 * **Drinking Wine**
-  * Interactive Tools: Red Quiic button, MiniPiTFT
-  * Costume: The red button flashes to tell the user that they should interact with it.
-  * Activation Criteria: At 5pm on Friday, "Wine Time" triggers
-  * Description: It's 5 o'clock somewhere! And in the world of our interactive device, the user can enjoy 5 o'clock on Friday and "Wine Time" whenever they choose to pass that time! When this event is triggered, the screen tells the user it is wine time and the red button begins flashing to tell the user to interact with it. Once pressed, an animation of two champagne flutes is shown on the MiniPiTFT to indicate that the user has "enjoyed" wine time.
+  * __Interactive Tools__: Red Quiic button, MiniPiTFT
+  * __Costume__: The red button flashes to tell the user that they should interact with it.
+  * __Activation Criteria__: At 5pm on Friday, "Wine Time" triggers
+  * __Description__: It's 5 o'clock somewhere! And in the world of our interactive device, the user can enjoy 5 o'clock on Friday and "Wine Time" whenever they choose to pass that time! When this event is triggered, the screen tells the user it is wine time and the red button begins flashing to tell the user to interact with it. Once pressed, an animation of two champagne flutes is shown on the MiniPiTFT to indicate that the user has "enjoyed" wine time.
 
 This is outlined in the following sketch:
 
