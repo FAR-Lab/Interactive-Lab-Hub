@@ -179,7 +179,7 @@ https://youtu.be/U6ORbIaXaaM
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 <p float="left">
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Lab2part1_sketch.jpg" height="200">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Lab2part1_sketch.jpg" height="600">
 </p>
 
 
