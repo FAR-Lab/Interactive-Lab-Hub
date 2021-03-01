@@ -99,7 +99,7 @@ while True:
         if int(strftime("%m")) ==6:
                 dateint = 151+float(strftime("%d"))
         if int(strftime("%m")) == 7:
-          dateint = 181+float(strftime("%d"))
+                dateint = 181+float(strftime("%d"))
         if int(strftime("%m")) == 8:
                 dateint = 212+float(strftime("%d"))
         if int(strftime("%m")) == 9:
