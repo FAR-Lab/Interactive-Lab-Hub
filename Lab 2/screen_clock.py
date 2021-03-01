@@ -94,8 +94,8 @@ while True:
     # Display image.
 
     curTime = strftime("%m/%d/%Y %H:%M:%S")
-
-    draw.text((0, top), "this is the time", font=font, fill="#FFFFFF")
+    draw = ImageDraw.Draw(image)
+    draw.text((0, top), curTime, font=font, fill="#FFFFFF")
 
     disp.image(image, rotation)
 
