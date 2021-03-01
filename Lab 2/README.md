@@ -167,7 +167,9 @@ In orange there are explanations of the modified time keeping (Eiffel Tower for 
 
 In green the modified way of keeping time is displayed.  
 On the second screen after clicking the "A" button, a timer is displayed that counts up until the button is released.  If the button is clicked again the timer is reset to 0.  
-**Click on either of the images below to be taken to a video of the clock in action**     
+
+**Click on either of the images below to be taken to a video of the clock in action**  
+
 <a href = "https://imgur.com/a/Nf1nll8">
 <img src="/Lab%202/Images/image_of_clock.jpg" width="500"/> 
 <img src="/Lab%202/Images/timer_image_clock.jpg" width="500"/> 
