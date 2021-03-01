@@ -63,7 +63,7 @@ backlight.switch_to_output()
 backlight.value = True
 
 # Clock related
-LINE = "===================="
+LINE = "================"
 
 while True:
     # Draw a black filled box to clear the image.
@@ -76,12 +76,14 @@ while True:
     
     # Add Night & Late Night Notifier
     hour = int(time.strftime("%H"))
-    if(hour >= 21):
-        NIGHT="It's night time!" + "\r" + "Prepare to sleep."
+    if (hour >= 23):
+        NIGHT="It's late night!!!"
+    elif (hour >= 21):
+        NIGHT="It's night time!"
     else:
         NIGHT="Not night time."
         
-    y += font.getsize(TIME)[1]
+    y += (font.getsize(TIME)[1])*2
     draw.text((x, y), LINE, font=font, fill="#FFFFFF")    
     y += font.getsize(LINE)[1]
     draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
