@@ -170,6 +170,8 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+https://youtu.be/o2R7LsIyOAI
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
