@@ -99,7 +99,7 @@ We can test it with the following command:
 
 You can type the name of a color then press the top button to see the color you typed or the bottom button to see the color white. This functionality is shown below:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_test.gif" width="480"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_test.gif" width="600"></p>
 
 ### Displaying Info
 By running the following command:
