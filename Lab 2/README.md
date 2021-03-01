@@ -149,11 +149,10 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Part E.
 ## Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+**A copy of your code should be in your Lab 2 Github repo.** 
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
-**A copy of your code should be in your Lab 2 Github repo.**     
+
 <a href = "https://github.com/bnbeck/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_clock.py">
 **Code for screen_clock.py**
 </a>         
