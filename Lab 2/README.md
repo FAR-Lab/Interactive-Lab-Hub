@@ -62,13 +62,13 @@ and simply writes the current time on the command line (exited via CTRL+C) with 
 
 This functionality is shown below:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.gif" width="360"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.gif" width="360" height="360"></p>
 
 ## Part C. 
 ## Set up the RGB Display
 The [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) is connected to the Raspberry Pi via the GPIO pins. <br>
 <p align="center">
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="360" />
 </p>
 
 ### IO Options on the Raspberry Pi
@@ -76,7 +76,7 @@ The [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) is connected to 
 The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
 <p align="center">
-<img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
+<img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="360" />
 </p>
 
 To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. 
