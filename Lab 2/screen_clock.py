@@ -92,9 +92,11 @@ while True:
     image = image.crop((x, y, x + width, y + height))
 
     # Display image.
-    disp.image(image, rotation)
 
     curTime = strftime("%m/%d/%Y %H:%M:%S")
 
     draw.text((0, top), curTime, font=font, fill="#FFFFFF")
+
+    disp.image(image, rotation)
+    
     time.sleep(1)
