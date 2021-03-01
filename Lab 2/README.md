@@ -62,7 +62,7 @@ and simply writes the current time on the command line (exited via CTRL+C) with 
 
 This functionality is shown below:
 
-![cli_clock.py functionality shows the current time in command line](cli_clock.gif)
+<p align="center">![cli_clock.py functionality shows the current time in command line](cli_clock.gif)</p>
 
 ## Part C. 
 ## Set up the RGB Display
@@ -157,7 +157,7 @@ Since we do not currently have Quiic cables, Snigdha and I improvised the necess
 
 You can see the modified barebones clock with the time changing according to the rotary encoder's position and the accompanying animations below:
 
-<p align="center"><img src="https://drive.google.com/file/d/1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T/edit" height="360" /></p>
+<p align="center"><img src="https://drive.google.com/file/d/1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T" height="360" /></p>
 
 ## Part G. 
 ## Planning further interactions/features for the PiClock
@@ -200,4 +200,4 @@ This is outlined in the following sketch:
 
 The final product for our interactive device is shown in the demo below:
 
-<p align="center"><img src="https://drive.google.com/file/d/1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS/edit" height="360" /></p>
+<p align="center"><img src="https://drive.google.com/file/d/1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS" height="360" /></p>
