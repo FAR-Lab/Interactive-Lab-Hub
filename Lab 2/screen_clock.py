@@ -69,10 +69,9 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
     curTime = strftime("%m/%d/%Y %H:%M:%S")
 
-    y = top
-    draw.text((x, y), curTime, font=font, fill="#FFFFFF")
+    draw.text((0, 0), curTime, font=font, fill="#FFFFFF")
 
-    image = Image.open("time.png")
+    image = Image.open("time.jpg")
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
     backlight.value = True
