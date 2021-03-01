@@ -151,27 +151,27 @@ You can see the modified barebones clock with the time changing according to the
 ## Part G: Planning further interactions/features for the PiClock
 We decided to model our final clock representation after life and the various activities that people perform on a day-to-day basis. While the user controls time with the rotary encoder, they have various activities that they are required to do at certain times. We decided to have our clock perform the following functions:
 
-* **Control Time**
+#### Control Time
   * __Interactive Tools__: Rotary Encoder, MiniPiTFT
   * __Costume__: The sun is shown "rising" and "setting" on the screen to make a more explicit representation of time.
   * __Activation Criteria__: User acts on the rotary encoder
   * __Description__: As in the barebones clock, the user will be able to move time in 30 minute increments via the rotary encoder. A clockwise turn moves time forward. A counter-clockwise turn moves time backwards.
-* **Playing Soccer**
+#### Playing Soccer
   * __Interactive Tools__: Joystick, MiniPiTFT
   * __Costume__: A soccer ball cover for the joystick made out of paper.
   * __Activation Criteria__: User passes 10am on Sunday
   * __Description__: On Sundays at 10am, our user will play soccer. When this time is passed, the screen will alert the user it is time to play soccer and display a stick figure standing by ready to kick the ball. The joystick will be costumed to look like a soccer ball to make it clear to the user that they should use the joystick to perform the relevant action. Once the joystick is moved, the stick figure will kick the ball and the soccer activity will conclude.
-* **Cooking**
+#### Cooking
   * __Interactive Tools__: Accelerometer and cardboard frying pan, green Quiic button, MiniPiTFT
   * __Costume__: The green button is meant to signify food. This is likely the least clear interactive portion of our design. A cardboard frying pan costume for the accelerometer.
   * __Activation Criteria__: User presses the green button
   * __Description__: If the user "gets hungry," they can press the green button to begin dinner time. Once in this mode, the user is required to "cook" using the cardboard frying pan (with the attached accelerometer) to move on.
-* **Sleeping**
+#### Sleeping
   * __Interactive Tools__: Proximity Sensor, MiniPiTFT
   * __Costume__: A cardboard "bed" costume is used here.
   * __Activation Criteria__: When the user pushes the cardboard "sheets" on to the bed.
   * __Description__: When the user wishes to sleep, they can push the cardboard "sheets" over the proximity sensor. This will trigger a "good night" message. When the sheets are lifted off the proximity sensor again, 7 hours have passed and the user can continue on with their day.
-* **Drinking Wine**
+#### Drinking Wine
   * __Interactive Tools__: Red Quiic button, MiniPiTFT
   * __Costume__: The red button flashes to tell the user that they should interact with it.
   * __Activation Criteria__: At 5pm on Friday, "Wine Time" triggers
