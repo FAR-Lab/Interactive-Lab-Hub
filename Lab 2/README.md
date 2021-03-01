@@ -62,7 +62,7 @@ and simply writes the current time on the command line (exited via CTRL+C) with 
 
 This functionality is shown below:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.gif" width="360" height="360"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.gif" height="480"></p>
 
 ## Part C. 
 ## Set up the RGB Display
@@ -101,7 +101,7 @@ We can test it with the following command:
 
 You can type the name of a color then press the top button to see the color you typed or the bottom button to see the color white. This functionality is shown below:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_test.gif" width="360"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_test.gif" width="480"></p>
 
 ### Displaying Info
 By running the following command:
@@ -110,7 +110,7 @@ By running the following command:
 ```
 we can see a list of the Raspberry Pi's statistics such as the CPU's temperature and the Pi's IP address:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/stats.png" width="360"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/stats.png" width="480"></p>
 
 ### Displaying an image
 
@@ -120,11 +120,11 @@ Running `image.py` with the following command:
 ```
 displays an image of the Cornell Tech logo:
 
-<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/cornell_tech_image.png" width="360"></p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/cornell_tech_image.png" width="480"></p>
 
 Similarly, `image_change.py` shows how we adjusted this code to switch between the Cornell Tech logo and one of the photos we intend to use for our clock's final functionality. Pressing button A shows the former while pressing button B shows the latter. 
 
-(<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/image_change.gif" height="360" /></p>
+(<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/image_change.gif" height="480" /></p>
 
 ## Part D. 
 ## Set up the Display Clock Demo
@@ -135,7 +135,7 @@ Similarly, `image_change.py` shows how we adjusted this code to switch between t
 ```
 we see the following output:
 
-<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/display_clock.png" height="360" /></p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/display_clock.png" height="480" /></p>
 
 ## Part E.
 ## Modify the barebones clock to make it your own
@@ -144,7 +144,7 @@ We decided to control time via the rotary encoder with the code found in `barebo
 
 Since we do not currently have Quiic cables, Snigdha and I improvised the necessary I2C connections by raising the MiniPiTFT screen off the GPIO pins slightly so we could shove some leads into the holes at the top and access the SDA/SCL I2C pins as well as the 3.3V power supply.
 
-<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/pi_rotary_encoder.png" height="360" /></p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/pi_rotary_encoder.png" height="480" /></p>
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
@@ -185,7 +185,7 @@ We decided to model our final clock representation after life and the various ac
 
 This is outlined in the following sketch:
 
-<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/future_interactions.png" height="360" /></p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/future_interactions.png" height="480" /></p>
 
 ## Part 2
 ## Video of the final interactions
