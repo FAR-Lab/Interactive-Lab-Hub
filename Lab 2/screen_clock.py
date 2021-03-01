@@ -9,6 +9,10 @@ import qwiic_twist
 import qwiic_joystick
 import qwiic_button
 import adafruit_mpu6050
+from adafruit_apds9960.apds9960 import APDS9960
+import os
+
+cwd = os.getcwd()
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -85,6 +89,19 @@ greenButton.begin()
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
+# Configure the light sensor
+int_pin = digitalio.DigitalInOut(board.D21)
+apds = APDS9960(i2c, interrupt_pin=int_pin)
+apds.enable_proximity = True
+apds.proximity_interrupt_threshold = (0, 175)
+apds.enable_proximity_interrupt = True
+
+# Configure screen buttons
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
 dates = ['Sunday\nFebruary 28, 2021',
          'Monday\nMarch 1, 2021',
          'Tuesday\nMarch 2, 2021',
@@ -112,8 +129,42 @@ while True:
     twist_date = twist_time // 48
     clock_time = twist_time % 48
 
+    # Check into work at 9am on weekdays
+    """    if twist_date in [1,2,3,4,5] and clock_time == 18:
+        while buttonA.value:
+            image8 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/gotowork.png")
+            image8 = image_formatting(image8, width, height)
+
+            # Get drawing object to draw on image.
+            draw = ImageDraw.Draw(image8)
+
+            # Write the time
+            y = 50
+            x = 50
+            draw.text((x, y), "Check in to work", font=font, fill="#000000")
+
+            disp.image(image8, rotation)
+        twist.set_count(twist.count + 1)
+
+    # Check out of work at 5pm on weekdays
+    if twist_date in [1,2,3,4,5] and clock_time == 34:
+        while buttonB.value:
+            image9 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/leavework.png")
+            image9 = image_formatting(image9, width, height)
+
+            # Get drawing object to draw on image.
+            draw = ImageDraw.Draw(image9)
+
+            # Write the time
+            y = 50
+            x = 50
+            draw.text((x, y), "Check out of work", font=font, fill="#000000")
+
+            disp.image(image9, rotation)
+        twist.set_count(twist.count + 1)
+    """
     # Start wine time if it is 5pm on Friday
-    if twist_date == 5 and clock_time == 34:
+    if twist_date == 5 and clock_time == 35:
         while not redButton.is_button_pressed():
             image3 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/winetime.png")
             image3 = image_formatting(image3, width, height)
@@ -131,9 +182,6 @@ while True:
 
             time.sleep(0.5)
         twist.set_count(twist.count + 1)
-
-    image2 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/" + times[clock_time].replace(':','').replace(' ','').replace('AM','am').replace('PM','pm') + '.png')
-    image2 = image_formatting(image2, width, height)
 
     if greenButton.is_button_pressed():
         accel_move = False
@@ -160,6 +208,51 @@ while True:
         image5 = image_formatting(image5, width, height)
         disp.image(image5, rotation)
         time.sleep(1)
+
+    if not int_pin.value:
+        image6 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/bedtime.png")
+        image6 = image_formatting(image6, width, height)
+        disp.image(image6, rotation)
+
+        time.sleep(2)
+        twist.set_count(twist.count + 14)
+        twist_time = twist.count
+        twist_date = twist_time // 48
+        clock_time = twist_time % 48
+
+        while apds.proximity > 100:
+            pass
+
+        apds.clear_interrupt()
+
+    if twist_date == 0 and clock_time == 20:
+        soccer_time_img = Image.open(f"{cwd}/imgs/soccer_time.jpg")
+        soccer_time_img = image_formatting(soccer_time_img, width, height)
+        disp.image(soccer_time_img, rotation)
+        time.sleep(2)
+
+        while joystick.get_horizontal() == 510 and joystick.get_vertical() == 505:
+            soccer_start_img = Image.open(f"{cwd}/imgs/kick0.png")
+            soccer_start_img = image_formatting(soccer_start_img, width, height)
+            disp.image(soccer_start_img, rotation)
+            time.sleep(0.5)
+
+        for i in range(1, 12):
+            kick_img = Image.open(f"{cwd}/imgs/kick{i}.png")
+            kick_img = image_formatting(kick_img, width, height)
+            disp.image(kick_img, rotation)
+            time.sleep(0.05)
+
+        goal_img = Image.open(f"{cwd}/imgs/goooooal.png")
+        goal_img = image_formatting(goal_img, width, height)
+        disp.image(goal_img, rotation)
+        time.sleep(2)
+        while joystick.get_horizontal() != 510 and joystick.get_vertical() != 505:
+            time.sleep(1)
+        twist.set_count(twist.count + 2)
+
+    image2 = Image.open("/home/pi/Documents/Interactive-Lab-Hub/Lab 2/imgs/" + times[clock_time].replace(':','').replace(' ','').replace('AM','am').replace('PM','pm') + '.png')
+    image2 = image_formatting(image2, width, height)
 
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image2)
