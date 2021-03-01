@@ -148,30 +148,32 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 ## Part E.
 ## Modify the barebones clock to make it your own
+I have added two features:
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+1. A night&late night indicator. 
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+If it's after 9PM, the display will show "It's night time!".
 
-**A copy of your code should be in your Lab 2 Github repo.**
+If it's after 11PM, the display will show "It's late night!!!".
 
-you can push to your personal github repo by adding the files here, commiting and pushing.
+2. A diet time counter.
 
-```
-git add .
-git commit -m'your message here'
-git push
-```
+I am currently on a diet that allows me to eat during an 8-hour period, so I designed this counter for me to calculate the daily end time of the diet.
 
-After that git will ask you to login to your github account to upload.
+When press button A and button B together, it will record the time that is 8 hours from now. If only press button A, it will show the diet ending time.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/clock.gif)
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+- Instead of a single line of text, I want to have scrolling text warning to my late night indicator.
+
+- If possible, I want to have some type of alarm system for my diet indicator.
 
 
