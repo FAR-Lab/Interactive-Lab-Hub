@@ -99,7 +99,7 @@ We can test it with the following command:
 
 You can type the name of a color then press the top button to see the color you typed or the bottom button to see the color white. This functionality is shown below:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_test.gif" width="600"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/screen_test.gif" height="480"></p>
 
 ### Displaying Info
 By running the following command:
@@ -108,7 +108,7 @@ By running the following command:
 ```
 we can see a list of the Raspberry Pi's statistics such as the CPU's temperature and the Pi's IP address:
 
-<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/stats.png" width="480"></p>
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/stats.png" height="480"></p>
 
 ### Displaying an image
 
@@ -118,7 +118,7 @@ Running `image.py` with the following command:
 ```
 displays an image of the Cornell Tech logo:
 
-<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/cornell_tech_image.png" width="480"></p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/cornell_tech_image.png" height="480"></p>
 
 Similarly, `image_change.py` shows how we adjusted this code to switch between the Cornell Tech logo and one of the photos we intend to use for our clock's final functionality. Pressing button A shows the former while pressing button B shows the latter. 
 
