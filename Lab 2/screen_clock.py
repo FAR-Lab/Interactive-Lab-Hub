@@ -77,7 +77,7 @@ while True:
     # Add Night & Late Night Notifier
     hour = int(time.strftime("%H"))
     if(hour >= 21):
-        NIGHT="It's night time! Prepare to sleep."
+        NIGHT="It's night time!" + "\r" + "Prepare to sleep."
     else:
         NIGHT="Not night time."
         
