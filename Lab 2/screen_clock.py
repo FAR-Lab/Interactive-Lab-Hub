@@ -31,6 +31,9 @@ disp = st7789.ST7789(
     y_offset=40,
 )
 
+buttonA = digitalio.DigitalInOut(board.D23)
+
+
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
 height = disp.width  # we swap height/width to rotate it to landscape!
