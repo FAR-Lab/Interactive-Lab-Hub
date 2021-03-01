@@ -39,8 +39,8 @@ F) [Make a short video of your modified barebones PiClock](#part-f)
 
 G) [Sketch and brainstorm further interactions and features you would like for your clock for Part 2](#part-g)
 
-## Part A. 
-## Connect to the Raspberry Pi
+# Part 1: Testing and Planning
+## Part A: Connect to the Raspberry Pi
 Connecting to the pi and activating my working environment is achieved via the following commands:
 
 ```
@@ -50,8 +50,7 @@ pi@raspberrypi:~/Documents/Interactive-Lab-Hub$ source circuitpython/bin/activat
 (circuitpython) pi@raspberrypi:~/Documents/Interactive-Lab-Hub$ cd Lab\ 2
 ```
 
-## Part B. 
-## Command Line Clock
+## Part B: Command Line Clock
 The [command line clock](cli_clock.py) is run via the following command: 
 
 ```
@@ -64,8 +63,7 @@ This functionality is shown below:
 
 <p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.gif" height="480"></p>
 
-## Part C. 
-## Set up the RGB Display
+## Part C: Set up the RGB Display
 The [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) is connected to the Raspberry Pi via the GPIO pins. <br>
 <p align="center">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="480" />
@@ -126,8 +124,7 @@ Similarly, `image_change.py` shows how we adjusted this code to switch between t
 
 <p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/image_change.gif" height="480" /></p>
 
-## Part D. 
-## Set up the Display Clock Demo
+## Part D: Set up the Display Clock Demo
 
 `screen_clock.py` was copied into `display_clock.py` to show the basic clock functionality on the MiniPiTF. When run using the following command:
 ```
@@ -137,8 +134,7 @@ we see the following output:
 
 <p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/display_clock.png" height="480" /></p>
 
-## Part E.
-## Modify the barebones clock to make it your own
+## Part E: Modify the barebones clock to make it your own
 
 We decided to control time via the rotary encoder with the code found in `barebones_clock.py`. Every time the rotary encoder is turned clockwise one notch, the time on the clock moves forward 30 minutes. Similarly, when the rotary encoder is turned counter clockwise, the time displayed on the screen moves backwards 30 minutes. Time changing is shown not just with the printed time values but also with a series of images showing a cartoon sunrising and setting along with the appropriate times. 
 
@@ -146,15 +142,13 @@ Since we do not currently have Quiic cables, Snigdha and I improvised the necess
 
 <p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/pi_rotary_encoder.png" height="480" /></p>
 
-## Part F. 
-## Make a short video of your modified barebones PiClock
+## Part F: Make a short video of your modified barebones PiClock
 
 You can see the modified barebones clock with the time changing according to the rotary encoder's position and the accompanying animations below:
 
 [![](https://res.cloudinary.com/marcomontalbano/image/upload/v1614566984/video_to_markdown/images/google-drive--1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T "")
 
-## Part G. 
-## Planning further interactions/features for the PiClock
+## Part G: Planning further interactions/features for the PiClock
 We decided to model our final clock representation after life and the various activities that people perform on a day-to-day basis. While the user controls time with the rotary encoder, they have various activities that they are required to do at certain times. We decided to have our clock perform the following functions:
 
 * **Control Time**
@@ -187,8 +181,7 @@ This is outlined in the following sketch:
 
 <p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/future_interactions.png" height="480" /></p>
 
-## Part 2
-## Video of the final interactions
+# Part 2: Video of the Final Interactions
 
 The final product for our interactive device is shown in the demo below:
 
