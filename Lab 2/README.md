@@ -113,7 +113,7 @@ By running the following command:
 we can see a list of the Raspberry Pi's statistics such as the CPU's temperature and the Pi's IP address:
 
 <p align="center">
-![Image](imgs/stats.png)  
+<p align="center"><img src="https://github.com/snlee159/Interactive-Lab-Hub/edit/Spring2021/Lab%202/imgs/stats.png" width="360"></p>
 </p>
 
 ### Displaying an image
@@ -124,7 +124,7 @@ Running `image.py` with the following command:
 ```
 displays an image of the Cornell Tech logo:
 
-![Image](imgs/cornell_tech_image.png)
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/cornell_tech_image.png" width="360"></p>
 
 Similarly, `image_change.py` shows how we adjusted this code to switch between the Cornell Tech logo and one of the photos we intend to use for our clock's final functionality. Pressing button A shows the former while pressing button B shows the latter. 
 
@@ -139,9 +139,7 @@ Similarly, `image_change.py` shows how we adjusted this code to switch between t
 ```
 we see the following output:
 
-<p align="center">
-  ![Image](imgs/display_clock.png)
-</p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/display_clock.png" height="360" /></p>
 
 ## Part E.
 ## Modify the barebones clock to make it your own
@@ -157,7 +155,7 @@ Since we do not currently have Quiic cables, Snigdha and I improvised the necess
 
 You can see the modified barebones clock with the time changing according to the rotary encoder's position and the accompanying animations below:
 
-<p align="center"><img src="https://drive.google.com/file/d/1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T" height="360" /></p>
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1614566984/video_to_markdown/images/google-drive--1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1GTcadkFiFY9N9W-uxGgojbXpPkQuTO_T "")
 
 ## Part G. 
 ## Planning further interactions/features for the PiClock
@@ -191,13 +189,11 @@ We decided to model our final clock representation after life and the various ac
 
 This is outlined in the following sketch:
 
-<p align="center">
-  ![Image](imgs/image.png)
-</p>
+<p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/future_interactions.png" height="360" /></p>
 
 ## Part 2
 ## Video of the final interactions
 
 The final product for our interactive device is shown in the demo below:
 
-<p align="center"><img src="https://drive.google.com/file/d/1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS" height="360" /></p>
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1614566585/video_to_markdown/images/google-drive--1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS "")
