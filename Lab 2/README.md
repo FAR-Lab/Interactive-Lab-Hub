@@ -8,7 +8,7 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 ## Acknowledgements and References
 
-For this lab, I worked with Snigdha Singhania (ss4224). We worked in tandem on this project with group brainstorming as well as the actual building. 
+For this lab, I worked with Snigdha Singhania (ss4224). We worked in tandem on this project with group brainstorming as well as the actual building. Our writeups cover much of the same material. Hers can be found here: https://github.com/singhaniasnigdha/Interactive-Lab-Hub/tree/Spring2021/Lab%202 
 
 A good deal of the images for our project were taken from external sources. These are credited below:
 * Adafruit and Sparkfun API References were incredibly helpful for this lab
