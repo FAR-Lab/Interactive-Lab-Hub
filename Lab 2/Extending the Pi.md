@@ -78,7 +78,7 @@ Now run `python proximity.py`
 run the file `I2C_scan.py` and the output should look like:
 
 ```
-(circuitpython) pi@ixe00:~/buttonLab $ python I2C_scan.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python I2C_scan.py 
 I2C ok!
 I2C addresses found: []
 
@@ -87,7 +87,7 @@ I2C addresses found: []
 Now plug the other end of the cable into the ports on the right of the button board. The pwr LED should turn on. Run the file again and you should see the device ID. You can also try daisy chaining multiple devices and sensors and running again.
 
 ```
-(circuitpython) pi@ixe00:~/buttonLab $ python I2CTest.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python I2CTest.py 
 I2C ok!
 I2C addresses found: ['0x6f']
 ```
