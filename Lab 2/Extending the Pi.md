@@ -75,10 +75,10 @@ Now run `python proximity.py`
  
 ## Under the I2C curtain (optional: complete only after working on your projects in groups)
 
-run the file `I2CTest.py` and the output should look like:
+run the file `I2C_scan.py` and the output should look like:
 
 ```
-(circuitpython) pi@ixe00:~/buttonLab $ python I2CTest.py 
+(circuitpython) pi@ixe00:~/buttonLab $ python I2C_scan.py 
 I2C ok!
 I2C addresses found: []
 
