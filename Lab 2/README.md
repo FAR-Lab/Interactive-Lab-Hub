@@ -174,6 +174,8 @@ My video: https://kapwi.ng/c/jKgbpEPk
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+The additional feature I am thinking of is that based on the current weather such as temperature and the wind speed, and the current time, the device can make suggestions on whether working out indoor or outdoor and what the best exercise for the individual is.
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/design.jpg)
 
 
