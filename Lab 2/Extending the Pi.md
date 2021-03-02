@@ -30,7 +30,6 @@ As before connect to your pi and activate your virtual environment.
 
 ```
 ssh pi@ixe00
-pi@ixe00:~ $ virtualenv circuitpython
 pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
@@ -55,7 +54,7 @@ To demonstrate the button we are using this [Circuitpython library](https://gith
 
 Try running `python library_example.py`. 
 
-Some important things to note:
+Some important things to note from the code:
 
  * We create an I2C device to handle communication with the pi.
  * We then scan for devices on the bus
