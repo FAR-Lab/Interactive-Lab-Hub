@@ -168,6 +168,7 @@ After that git will ask you to login to your github account to upload.
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 My video: https://kapwi.ng/c/jKgbpEPk
+
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/clock.jpg)
 **Take a video of your PiClock.**
 
