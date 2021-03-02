@@ -35,7 +35,7 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 
 ```
 
-Navigate to your interactive lab hub, pull changes from upstream, and install new packages
+Navigate to your interactive lab hub, pull changes from upstream, and install new packages. If you have [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts) you need to resolve them. If you've never done this before ask people in your group for help. Otherwise ask yout TA!
 
 ```
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub
