@@ -170,7 +170,7 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
-[Friday Clock!](https://youtu.be/BBZQo81qN08)
+[Friday Clock!](https://youtu.be/D8aYtKsx0TQ)
 
 
 ## Part G. 
