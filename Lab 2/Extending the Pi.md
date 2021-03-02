@@ -68,6 +68,9 @@ Your kit is full of sensors! Look up what they can do and feel free to ask your 
 
 We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595). You can leave the button plugged in and daisy-chain the sensor, this is part of the magic of I2C.
 
+<img src="https://cdn-shop.adafruit.com/1200x900/3595-03.jpg" height="200" />
+
+
 Now run `python proximity.py`
 
  
