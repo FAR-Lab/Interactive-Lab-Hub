@@ -167,7 +167,7 @@ After that git will ask you to login to your github account to upload.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
-
+My video: https://kapwi.ng/c/jKgbpEPk
 **Take a video of your PiClock.**
 
 ## Part G. 
