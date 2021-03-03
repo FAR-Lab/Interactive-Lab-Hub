@@ -99,21 +99,26 @@ while True:
     draw.text((x, y), time, font=font, fill="#FFFF00")
     y += font.getsize(time)[1]
     draw.text((x, y), step_count_text, font=font, fill="#0000FF")
-    y += font.getsize(step_count_text)[1]
+    y += font.getsize(step_count_text)[1]*2
     draw.text((x, y), "Press A if you're on track", font=font, fill="#0000FF")
     y += font.getsize(time)[1]
     draw.text((x, y), "Press B if you're falling behind", font=font, fill="#0000FF")
     
     #NEW CODE
-    #if buttonA.value and buttonB.value:
-    #    image = Image.open("red.jpg")  # turn off backlight
-    #else:
-    #    image = Image.open("red.jpg")  # turn on backlight
+    if buttonA.value and buttonB.value:
+        image = Image.open("motivational.jpg")  # turn off backlight
+        print ("in here1")
+    else:
+        image = Image.open("red.jpg")  # turn on backlight
+        print ("in here2")
     if buttonB.value and not buttonA.value:  # just button A pressed
+        print ("in here3")
         image = Image.open("congrats.jpg") # set the screen to image
     if buttonA.value and not buttonB.value:  # just button B pressed
+        print ("in here4")
         image = Image.open("motivational.jpg")  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
+        print ("in here5")
         image = Image.open("red.jpg")  # green
     #image = Image.open("smile.jpg")
     backlight = digitalio.DigitalInOut(board.D22)
