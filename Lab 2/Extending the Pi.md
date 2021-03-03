@@ -1,10 +1,8 @@
 # Extending the Pi
 
-Many of the components we will be using in this class will communicate with the I2C protocol. You can read through [this](https://learn.sparkfun.com/tutorials/i2c/all) tutorial on how it works.
+To extend the Pi, we are using breakout boards that connect to the PI using a standard communication bus (I2C)(https://learn.sparkfun.com/tutorials/i2c/all). [StemmaQT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [Qwiic](https://www.sparkfun.com/qwiic#overview) use a standardized 4-pin connector to connect devices using the I2C protocol. 
 
-In this class, you will see the words Stemma, StemmaQT and Qwiic come up. These are all different kinds of connectors for use with the I2C protocol. We have tried to just use StemmaQT and Qwiic which are interchangeable. Read over [this](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [this](https://www.sparkfun.com/qwiic#overview) to get a better idea of what these terms mean.
-
-In this lab, you will see things like `0x6f`. This is the hexadecimal (or hex) representation for the decimal number `111` which is represented as `1101111` in binary. You are not expected to make any kinds of conversions but should have some conceptual grasp that a hex value is just a number shown another way. Look over [this](https://learn.sparkfun.com/tutorials/hexadecimal/introduction) for an understanding of hexadecimal and [this](https://towardsdatascience.com/binary-hex-and-octal-in-python-20222488cee1) for how to manipulate them in Python.
+The StemmaQT and I2C parts often have a fixed I2C address; to differentiate between similar parts, the devices often have pads that allow additional bits to be pulled high or low. The addresses are in [hexidecimal](https://learn.sparkfun.com/tutorials/hexadecimal/introduction) format, things like `0x6f`. This is the hexadecimal (or hex) representation for the decimal number `111` which is represented as `1101111` in binary. You are not expected to make any kinds of conversions but should have some conceptual grasp that a hex value is just a number shown another way. [This Python library](https://towardsdatascience.com/binary-hex-and-octal-in-python-20222488cee1) will assist you if you need help manipulating hexidecimal numbers.
 
 ## Connecting a Button
 
