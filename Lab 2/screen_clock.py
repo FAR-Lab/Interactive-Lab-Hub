@@ -104,7 +104,44 @@ while True:
     y += font.getsize(time)[1]
     draw.text((x, y), "Press B if you're falling behind", font=font, fill="#0000FF")
     
-   
+    #NEW CODE
+    if buttonA.value and buttonB.value:
+        image = Image.open("red.jpg")  # turn off backlight
+    else:
+        image = Image.open("red.jpg")  # turn on backlight
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        image = Image.open("congrats.jpg") # set the screen to image
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        image = Image.open("motivational.jpg")  # set the screen to white
+    if not buttonA.value and not buttonB.value:  # none pressed
+        image = Image.open("red.jpg")  # green
+    #image = Image.open("smile.jpg")
+    backlight = digitalio.DigitalInOut(board.D22)
+    backlight.switch_to_output()
+    backlight.value = True
+
+
+    # Scale the image to the smaller screen dimension
+    image_ratio = image.width / image.height
+    screen_ratio = width / height
+    if screen_ratio < image_ratio:
+        scaled_width = image.width * height // image.height
+        scaled_height = height
+    else:
+        scaled_width = width
+        scaled_height = image.height * width // image.width
+    image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+
+    # Crop and center the image
+    x = scaled_width // 2 - width // 2
+    y = scaled_height // 2 - height // 2
+    image = image.crop((x, y, x + width, y + height))
+
+    # Display image.
+    #disp.image(image)
+    #NEW CODE
+
+
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
