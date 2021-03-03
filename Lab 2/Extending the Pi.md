@@ -2,7 +2,7 @@
 
 Many of the components we will be using in this class will communicate with the I2C protocol. You can read through [this](https://learn.sparkfun.com/tutorials/i2c/all) tutorial on how it works.
 
-In this class, you will see the words Stemma, StemmaQT and Qwiic come up. These are all different kinds of connectors for use with the I2C protocol. We have tried to keep things consistent to StemmaQT and and Qwiic which are interchangeable. Read over [this](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [this](https://www.sparkfun.com/qwiic#overview) to get a better idea of what these terms mean.
+In this class, you will see the words Stemma, StemmaQT and Qwiic come up. These are all different kinds of connectors for use with the I2C protocol. We have tried to just use StemmaQT and Qwiic which are interchangeable. Read over [this](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [this](https://www.sparkfun.com/qwiic#overview) to get a better idea of what these terms mean.
 
 In this lab, you will see things like `0x6f`. This is the hexadecimal (or hex) representation for the decimal number `111` which is represented as `1101111` in binary. You are not expected to make any kinds of conversions but should have some conceptual grasp that a hex value is just a number shown another way. Look over [this](https://learn.sparkfun.com/tutorials/hexadecimal/introduction) for an understanding of hexadecimal and [this](https://towardsdatascience.com/binary-hex-and-octal-in-python-20222488cee1) for how to manipulate them in Python.
 
@@ -18,7 +18,7 @@ From your kit, take out the [mini-PiTFT](https://learn.adafruit.com/adafruit-min
   <img src="https://cdn.sparkfun.com//assets/parts/1/5/7/6/7/16842-SparkFun_Qwiic_Button_-_Green_LED-01.jpg" height="200">
 </p>
 
-Connect the one side of cable to the StemmaQT port on the underside of the screen. It will only fit in one way, it should not require much force.
+Connect the one side of cable to the StemmaQT port on the underside of the PiTFT screen. It will only fit in one way, it should not require much force.
 
 <p float="left">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/087/539/medium640/adafruit_products_4393_quarter_ORIG_2019_10.jpg?1579991932" height="200" />
@@ -26,7 +26,7 @@ Connect the one side of cable to the StemmaQT port on the underside of the scree
 </p>
 
 #### Setup
-As before connect to your Pi and activate your virtual environment.
+As before, connect to your Pi and activate your virtual environment.
 
 ```
 ssh pi@ixe00
