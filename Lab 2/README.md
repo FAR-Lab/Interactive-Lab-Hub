@@ -181,7 +181,7 @@ https://drive.google.com/file/d/1an6V4N-OMX7e27VHpuU-lP6BVQ3KpxSO/view?usp=shari
 
 **Jeanne Li:** You idea of using the rotary encoder to dial in the time zone is fantastic. Maybe instead of selecting a location with the joystick, you can have the user select a time zone (on a map that is divided into sections). I think this implementation can be much easier and more effective.
 
-**Jayden Lou:** This is quite interesting. I like how you can chose a location and the the time of the closest city will be displayed. This is cool, but I think it could be quite hard to implement.
+**Jiadong Lou:** This is quite interesting. I like how you can chose a location and the the time of the closest city will be displayed. This is cool, but I think it could be quite hard to implement.
 
 
 
