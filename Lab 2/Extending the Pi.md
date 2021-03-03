@@ -4,7 +4,7 @@ Many of the components we will be using in this class will communicate with the 
 
 In this class, you will see the words Stemma, StemmaQT and Qwiic come up. These are all different kinds of connectors for use with the I2C protocol. We have tried to keep things consistent to StemmaQT and and Qwiic which are interchangeable. Read over [this](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [this](https://www.sparkfun.com/qwiic#overview) to get a better idea of what these terms mean.
 
-In this lab you will see things like `0x6f`. This is the hexadecimal (or hex) representation for the decimal number `111` which is represented as `1101111` in binary. You are not expected to make any kinds of conversions but should have some conceptual grasp that a hex value is just a number shown another way. Look over [this](https://learn.sparkfun.com/tutorials/hexadecimal/introduction) for an understanding of hexadecimal and [this](https://towardsdatascience.com/binary-hex-and-octal-in-python-20222488cee1) for how to manipulate them in Python.
+In this lab, you will see things like `0x6f`. This is the hexadecimal (or hex) representation for the decimal number `111` which is represented as `1101111` in binary. You are not expected to make any kinds of conversions but should have some conceptual grasp that a hex value is just a number shown another way. Look over [this](https://learn.sparkfun.com/tutorials/hexadecimal/introduction) for an understanding of hexadecimal and [this](https://towardsdatascience.com/binary-hex-and-octal-in-python-20222488cee1) for how to manipulate them in Python.
 
 ## Connecting a Button
 
