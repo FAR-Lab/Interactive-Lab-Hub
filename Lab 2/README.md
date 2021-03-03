@@ -163,7 +163,7 @@ git commit -m'your message here'
 git push
 ```
 
-After that git will ask you to login to your github account to upload.
+After that, git will ask you to login to your github account to upload.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
@@ -175,9 +175,13 @@ After that git will ask you to login to your github account to upload.
 
 ## Prep for Part 2
 
-Pick up remaining parts for kit.
+1. Pick up remaining parts for kit.
 
-Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+# Lab 2 Part 2
+
+Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
 
 
