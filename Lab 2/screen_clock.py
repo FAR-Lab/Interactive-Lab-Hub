@@ -84,8 +84,8 @@ while step_count == 0:
 while True:
     # Draw a black filled box to clear the image.
     if buttonA.value and buttonB.value:
-        print ("in here1")
-        image = Image.new("RGB", (width, height))
+        #print ("in here1")
+        #image = Image.new("RGB", (width, height))
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         date = "Today is: " + (strftime("%m/%d/%Y")) #displaying the date in an easy to read fashion
@@ -112,36 +112,15 @@ while True:
     #    image = Image.open("motivational.jpg")  # turn off backlight
     #    print ("in here1")
     else:
-        #image = Image.open("red.jpg")  # turn on backlight
-        print ("in here2")
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
-        y = top
-        date = "Today is: " + (strftime("%m/%d/%Y")) #displaying the date in an easy to read fashion
-        time = "The time is: " + (strftime("%H:%M:%S"))    #displaying the time in an easy to read fashion
-        if time > "08:00:00":
-            diff = (datetime.datetime.now().hour) - 8 #assuming that a person wakes up at 8am, this is the number of hours they've been awake
-        else:
-            diff = 0 #person is still sleeping, doesn't need to walk
-        print("diff is"+str(diff)) 
-        counter = round(step_count*diff/12) #taking the ratio of (#hours awake / 12 hours) * (#steps should have taken/step goal)
-        step_count_text = "You should have walked\n "+ str(counter) + " steps by now" #displaying how many steps they should have walked by now
-        draw.text((x, y), date, font=font, fill="#FFFFFF")
-        y += font.getsize(date)[1]
-        draw.text((x, y), time, font=font, fill="#FFFF00")
-        y += font.getsize(time)[1]
-        draw.text((x, y), step_count_text, font=font, fill="#0000FF")
-        y += font.getsize(step_count_text)[1]*2
-        draw.text((x, y), "Press A if you're on track", font=font, fill="#0000FF")
-        y += font.getsize(time)[1]
-        draw.text((x, y), "Press B if you're falling behind", font=font, fill="#0000FF")
+        
     if buttonB.value and not buttonA.value:  # just button A pressed
-        print ("in here3")
+        #print ("in here3")
         image = Image.open("congrats.jpg") # set the screen to image
     if buttonA.value and not buttonB.value:  # just button B pressed
-        print ("in here4")
+        #print ("in here4")
         image = Image.open("motivational.jpg")  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
-        print ("in here5")
+        #print ("in here5")
         #image = Image.open("red.jpg")  # green
     #image = Image.open("smile.jpg")
     backlight = digitalio.DigitalInOut(board.D22)
