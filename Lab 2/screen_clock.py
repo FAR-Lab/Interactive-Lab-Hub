@@ -105,10 +105,10 @@ while True:
     draw.text((x, y), "Press B if you're falling behind", font=font, fill="#0000FF")
     
     #NEW CODE
-    if buttonA.value and buttonB.value:
-        image = Image.open("red.jpg")  # turn off backlight
-    else:
-        image = Image.open("red.jpg")  # turn on backlight
+    #if buttonA.value and buttonB.value:
+    #    image = Image.open("red.jpg")  # turn off backlight
+    #else:
+    #    image = Image.open("red.jpg")  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
         image = Image.open("congrats.jpg") # set the screen to image
     if buttonA.value and not buttonB.value:  # just button B pressed
