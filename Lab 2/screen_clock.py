@@ -111,7 +111,7 @@ while True:
     #    image = Image.open("motivational.jpg")  # turn off backlight
     #    print ("in here1")
     else:
-        image = Image.open("red.jpg")  # turn on backlight
+        #image = Image.open("red.jpg")  # turn on backlight
         print ("in here2")
     if buttonB.value and not buttonA.value:  # just button A pressed
         print ("in here3")
@@ -121,7 +121,7 @@ while True:
         image = Image.open("motivational.jpg")  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
         print ("in here5")
-        image = Image.open("red.jpg")  # green
+        #image = Image.open("red.jpg")  # green
     #image = Image.open("smile.jpg")
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
