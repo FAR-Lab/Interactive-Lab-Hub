@@ -120,7 +120,7 @@ while True:
     if buttonA.value and not buttonB.value:  # just button B pressed
         #print ("in here4")
         image = Image.open("motivational.jpg")  # set the screen to white
-    if not buttonA.value and not buttonB.value:  # none pressed
+    #if not buttonA.value and not buttonB.value:  # none pressed
         #print ("in here5")
         #image = Image.open("red.jpg")  # green
     #image = Image.open("smile.jpg")
