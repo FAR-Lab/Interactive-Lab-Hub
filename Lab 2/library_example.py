@@ -81,7 +81,7 @@ while True:
 		print('last press ms', button.last_press_ms)
 	except KeyboardInterrupt:
 		button.clear()
-		button.led_bright = 0
+		button.led_bright = 100
 		button.led_gran = 1
 		button.led_cycle_ms = 0
 		button.led_off_ms = 100
