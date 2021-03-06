@@ -85,7 +85,7 @@ while True:
     # Draw a black filled box to clear the image.
     #if buttonA.value and buttonB.value:
     #print ("in here1")
-        #image = Image.new("RGB", (width, height))
+    image = Image.new("RGB", (width, height))
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     disp.image(image, rotation)
     y = top
