@@ -121,7 +121,8 @@ while True:
     button.led_cycle_ms = 0
     button.led_off_ms = 0
     if prox >= 200:
-
+        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/christmas.jpg")
+        image3 = image_formatting(image3, width, height)
         try:
             button.led_bright = 100
             button.led_gran = 1
@@ -131,38 +132,39 @@ while True:
             button.clear()
             break
 
-    if buttonB.value and not buttonA.value:  # just button A pressed
-        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/beijing.jpg")
-        image3 = image_formatting(image3, width, height)
-    
-        draw = ImageDraw.Draw(image3)
-
-        tz_NY = pytz.timezone('PRC') 
-        datetime_NY = datetime.now(tz_NY)
-        draw.text((4, 0), "Beijing:", fill="#000000")
-        draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
-
-    elif buttonA.value and not buttonB.value:  # just button B pressed
-        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/telaviv.jpg")
-        image3 = image_formatting(image3, width, height)
-    
-        draw = ImageDraw.Draw(image3)
-
-        tz_NY = pytz.timezone('Asia/Tel_Aviv') 
-        datetime_NY = datetime.now(tz_NY)
-        draw.text((4, 0), "Tel Aviv:", fill="#000000")
-        draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
-
     else:
-        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/nyc.jpg")
-        image3 = image_formatting(image3, width, height)
-    
-        draw = ImageDraw.Draw(image3)
+        if buttonB.value and not buttonA.value:  # just button A pressed
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/beijing.jpg")
+            image3 = image_formatting(image3, width, height)
 
-        tz_NY = pytz.timezone('America/New_York') 
-        datetime_NY = datetime.now(tz_NY)
-        draw.text((4, 0), "New York:", fill="#000000")
-        draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+            draw = ImageDraw.Draw(image3)
+
+            tz_NY = pytz.timezone('PRC')
+            datetime_NY = datetime.now(tz_NY)
+            draw.text((4, 0), "Beijing:", fill="#000000")
+            draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+
+        elif buttonA.value and not buttonB.value:  # just button B pressed
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/telaviv.jpg")
+            image3 = image_formatting(image3, width, height)
+
+            draw = ImageDraw.Draw(image3)
+
+            tz_NY = pytz.timezone('Asia/Tel_Aviv')
+            datetime_NY = datetime.now(tz_NY)
+            draw.text((4, 0), "Tel Aviv:", fill="#000000")
+            draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+
+        else:
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/nyc.jpg")
+            image3 = image_formatting(image3, width, height)
+
+            draw = ImageDraw.Draw(image3)
+
+            tz_NY = pytz.timezone('America/New_York')
+            datetime_NY = datetime.now(tz_NY)
+            draw.text((4, 0), "New York:", fill="#000000")
+            draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
     # Display image.
     disp.image(image3, rotation)
