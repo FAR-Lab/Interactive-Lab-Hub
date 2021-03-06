@@ -193,4 +193,16 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+## Costume
+I like Christmas and snow so I created a wintery constume for my device.
 
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%202/snowman.png)
+
+## Workings
+Cycle through three different time zones (New York, Beijing, Tel Aviv) using buttons attached to screen. If snowman is placed on proximity sensor, red and green LEDs flash and "Merry Christmas" is displayed.
+
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%202/final.png)
+
+**Video of updated PiClock.**
+
+https://drive.google.com/file/d/1z07Dr3DgHkP5WICK9SvOeAcGtRMvjpcv/view?usp=sharing
