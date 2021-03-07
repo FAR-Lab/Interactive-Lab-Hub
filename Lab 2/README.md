@@ -201,12 +201,19 @@ This is outlined in the following sketch:
 ## Feedback from Part 1
 Feedback from Shivani Doshi
 ```
-Wow, you guys were super thorough. It was nice that you showed the proof of having done each section by including a video, well done! You guys definitely got a lot accomplished for this lab, which is awesome to see. I like that you have that rotary encoder to shift the time and change the background accordingly. The further interactions part was also really interesting, where you're playing with different hours having different significances. All in all, really great work!
+Wow, you guys were super thorough. It was nice that you showed the proof of 
+having done each section by including a video, well done! You guys definitely 
+got a lot accomplished for this lab, which is awesome to see. I like that you 
+have that rotary encoder to shift the time and change the background accordingly. 
+The further interactions part was also really interesting, where you're playing 
+with different hours having different significances. All in all, really great work!
 ```
 
 Feedback from Anam Tahir
 ```
-GREAT JOB GUYS, 👌👌👌 I thoroughly ENJOYED going over your lab submission and learned a lot too! As someone who's using the Raspberry Pi for the first time makes me really excited about the cool stuff we can do!
+GREAT JOB GUYS, 👌👌👌 I thoroughly ENJOYED going over your lab submission and 
+learned a lot too! As someone who's using the Raspberry Pi for the first time 
+makes me really excited about the cool stuff we can do!
 ```
 
 Feedback from Bei Bei Lu (in response to Anam)
