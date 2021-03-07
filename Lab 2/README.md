@@ -7,9 +7,25 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 ## Acknowledgements and References
-
+### Collaboration
 For this lab, I worked with Snigdha Singhania (ss4224). We worked in tandem on this project with group brainstorming as well as the actual building. Our writeups cover much of the same material. Hers can be found here: https://github.com/singhaniasnigdha/Interactive-Lab-Hub/tree/Spring2021/Lab%202 
 
+### Distribution of Work
+I've listed the tasks that each of us tackled below. For the initial setup stage of the project, we completed the steps individually.
+* Sam:
+ * Brainstormed w/ Snigdha for approach
+ * Figured out the hardware aspects with connecting the boards to the Pi via I2C
+ * Wrote the code for the "goodnight", "dinner time", and "wine time" events
+ * Figured out how the rotary encoder worked
+* Snigdha:
+ * Brianstormed w/ Sam for approach
+ * Wrote the code for the "soccer" event
+ * Figured out how to use the joystick
+ * Edited and compiled the demo videos
+ * Made gifs of our process
+ * Sketched out our revised concept
+
+### References
 A good deal of the images for our project were taken from external sources. These are credited below:
 * Adafruit and Sparkfun API References were incredibly helpful for this lab
 * [Sunrise Graphics](https://www.youtube.com/watch?v=JEEbmkDEQek)
@@ -182,6 +198,24 @@ This is outlined in the following sketch:
 <p align="center"><img src="https://github.com/singhaniasnigdha/Interactive-Lab-Hub/blob/Spring2021/Lab%202/imgs/future_interactions.png" height="480" /></p>
 
 # Part 2: Video of the Final Interactions
+## Feedback from Part 1
+Feedback from Shivani Doshi
+```
+Wow, you guys were super thorough. It was nice that you showed the proof of having done each section by including a video, well done! You guys definitely got a lot accomplished for this lab, which is awesome to see. I like that you have that rotary encoder to shift the time and change the background accordingly. The further interactions part was also really interesting, where you're playing with different hours having different significances. All in all, really great work!
+```
+
+Feedback from Anam Tahir
+```
+GREAT JOB GUYS, 👌👌👌 I thoroughly ENJOYED going over your lab submission and learned a lot too! As someone who's using the Raspberry Pi for the first time makes me really excited about the cool stuff we can do!
+```
+
+Feedback from Bei Bei Lu (in response to Anam)
+```
+same here
+```
+
+## Demo of Part 2 in Action
+For part 2, we ended up changing the visual display of the clock by incorporating more "events" in the days. When these "events" occur, the screen is updated to show the new tasks that must be performed. 
 
 The final product for our interactive device is shown in the demo below:
 
