@@ -6,7 +6,6 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
-
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -61,20 +60,35 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
-    Clock = datetime.datetime(2021,4,8,hour=1, minute=10, second=0, microsecond=0, tzinfo=None) - da$
-    Clock = str(Clock)
+   # Main loop:
+    while True:
+    if buttonA.value and buttonB.value:
+        backlight.value = False  # turn off backlight
+    else:
+        backlight.value = True  # turn on backlight
+    if buttonB.value and not buttonA.value:  # just button A pressed
+         Clock = datetime.datetime(2021,4,8,hour=1, minute=10, second=0, microsecond$
+         Clock = str(Clock)
 
-    y = top
-    draw.text((x, y), Clock, font=font, fill="#FFFFFF")
-    y += font.getsize(Clock)[1]
-    draw.text((x, y), "Countdown to:", font=font, fill="#0000FF")
-    y += font.getsize(Clock)[1]
-    draw.text((x, y), "The Mets Home Opener!", font=font, fill="#FF6600")
-    disp.image(image, rotation)
-    time.sleep(1)
+         y = top
+         draw.text((x, y), Clock, font=font, fill="#FFFFFF")
+         y += font.getsize(Clock)[1]
+         draw.text((x, y), "Countdown to:", font=font, fill="#0000FF")
+         y += font.getsize(Clock)[1]
+         draw.text((x, y), "The Mets Home Opener!", font=font, fill="#FF6600")
+         disp.image(image, rotation)
+         time.sleep(1)
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        display.fill(color565(255, 255, 255))  # set the screen to white
+    if not buttonA.value and not buttonB.value:  # none pressed
+        display.fill(color565(0, 255, 0))  # green
