@@ -61,15 +61,29 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    a = strftime("%m/%d/%Y %H:%M:%S")
-    y = top
-    draw.text((x, y), a, font=font, fill="#FFFF00")
-    # Display image.
-    disp.image(image, rotation)
-    sleep(1)
+    # Draw a black filled box to clear the image.
+draw.rectangle((0, 0, width, height), outline=0, fill=0) 
+    
+a = strftime("%H:%M")
+b = ""
+c = ""
+if str(700)<= a <= str(800):
+    b="\nMorning exericise:\n burning fat and losing weight\n"
+    c="\nExcercise suggestions:\n walking/running, plank,\n squats, push-ups\n"
+if str(1300)<= a <= str(1600):
+    b="\nAfternoon exercise:\n performance boost\n"
+    c="\nExercise suggestions:\n HIIT, walking/running,\n cycling\n"
+if str(1830)<= a <= str(2200):
+    b="Evening exercise:\n stress relieving\n "
+    c="\nExercise suggestions:\n yoga, stretching,\n meditation\n "
+y = top
+draw.text((x, y), a, font=font, fill="#FFFF00")
+y += font.getsize(a)[1]
+draw.text((x, y), b, font=font, fill="#0000FF") 
+y += font.getsize(b)[1]
+draw.text((x, y), c, font=font, fill="#FF00FF")
+y += font.getsize(c)[1]
+disp.image(image, rotation)
+sleep(1)
 
