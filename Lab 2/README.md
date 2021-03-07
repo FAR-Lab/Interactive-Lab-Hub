@@ -13,17 +13,17 @@ For this lab, I worked with Snigdha Singhania (ss4224). We worked in tandem on t
 ### Distribution of Work
 I've listed the tasks that each of us tackled below. For the initial setup stage of the project, we completed the steps individually.
 * Sam:
- * Brainstormed w/ Snigdha for approach
- * Figured out the hardware aspects with connecting the boards to the Pi via I2C
- * Wrote the code for the "goodnight", "dinner time", and "wine time" events
- * Figured out how the rotary encoder worked
+  * Brainstormed w/ Snigdha for approach
+  * Figured out the hardware aspects with connecting the boards to the Pi via I2C
+  * Wrote the code for the "goodnight", "dinner time", and "wine time" events
+  * Figured out how the rotary encoder worked
 * Snigdha:
- * Brianstormed w/ Sam for approach
- * Wrote the code for the "soccer" event
- * Figured out how to use the joystick
- * Edited and compiled the demo videos
- * Made gifs of our process
- * Sketched out our revised concept
+  * Brianstormed w/ Sam for approach
+  * Wrote the code for the "soccer" event
+  * Figured out how to use the joystick
+  * Edited and compiled the demo videos
+  * Made gifs of our process
+  * Sketched out our revised concept
 
 ### References
 A good deal of the images for our project were taken from external sources. These are credited below:
