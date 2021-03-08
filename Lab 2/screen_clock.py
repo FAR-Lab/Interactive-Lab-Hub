@@ -83,7 +83,8 @@ while step_count == 0:
 
 while True:
     #image = Image.new("RGB", (width, height))
-    draw.rectangle((0, 0, width, height), outline=0, fill=0) #NOT WORKING - need to find a way to clear the image from the screen after button A and B are pressed
+    #draw.rectangle((0, 0, width, height), outline=0, fill=0) #NOT WORKING - need to find a way to clear the image from the screen after button A and B are pressed
+    draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255))
     y = top
     date = "Today is: " + (strftime("%m/%d/%Y")) #displaying the date in an easy to read fashion
     time = "The time is: " + (strftime("%H:%M:%S"))    #displaying the time in an easy to read fashion
@@ -105,9 +106,11 @@ while True:
     if buttonB.value and not buttonA.value:  # just button A pressed
         #print ("in here3")
         image = Image.open("congrats.jpg") # set the screen to a congratulatory image
+        draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
     if buttonA.value and not buttonB.value:  # just button B pressed
         #print ("in here4")
         image = Image.open("motivational.jpg")  # set the screen to a motivational image
+        draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
     backlight.value = True
