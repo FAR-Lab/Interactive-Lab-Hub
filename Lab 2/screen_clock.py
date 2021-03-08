@@ -74,41 +74,50 @@ buttonB.switch_to_input()
 # buttonA is used to display the ending time
 # buttonB (pressed together with buttonA) is used to save the ending time
 DIET=None
+PAGE=0
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    TIME = "TIME: "+ strftime("%m/%d/%Y %H:%M:%S")
-    y = top
-    draw.text((x, y), TIME, font=font, fill="#FFFFFF")
-    
-    # Add Night & Late Night Notifier
-    hour = int(time.strftime("%H"))
-    if (hour >= 23):
-        NIGHT="It's late night!!!"
-    elif (hour >= 21):
-        NIGHT="It's night time!"
+    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
+    if PAGE==0:
+        TIME = "TIME: "+ strftime("%m/%d/%Y %H:%M:%S")
+        y = top
+        draw.text((x, y), TIME, font=font, fill="#FFFFFF")
+    elif PAGE==1:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        # Add Night & Late Night Notifier
+        hour = int(time.strftime("%H"))
+        if (hour >= 23):
+            NIGHT="It's late night!!!"
+        elif (hour >= 21):
+            NIGHT="It's night time!"
+        else:
+            NIGHT="Not night time."
+            y += (font.getsize(TIME)[1])*(1.5)
+            draw.text((x, y), LINE, font=font, fill="#FFFFFF")    
+            y += font.getsize(LINE)[1]
+            draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
+            y += font.getsize(NIGHT)[1]
+            draw.text((x, y), LINE, font=font, fill="#FFFFFF")
     else:
-        NIGHT="Not night time."
-        
-    y += (font.getsize(TIME)[1])*(1.5)
-    draw.text((x, y), LINE, font=font, fill="#FFFFFF")    
-    y += font.getsize(LINE)[1]
-    draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
-    y += font.getsize(NIGHT)[1]
-    draw.text((x, y), LINE, font=font, fill="#FFFFFF")
-    
-    # Update DIET
-    if not buttonA.value and not buttonB.value:
-        eight_hours_from_now = datetime.now() + timedelta(hours=8)
-        DIET="DIET ENDING AT: " + format(eight_hours_from_now, '%H:%M:%S')
-        
-    if (not buttonA.value and DIET):
-        y += font.getsize(LINE)[1]
-        draw.text((x, y), DIET, font=font, fill="#FFFFFF")
-        
+        if DIET:
+            draw.rectangle((0, 0, width, height), outline=0, fill=0)
+            y += font.getsize(LINE)[1]
+            draw.text((x, y), DIET, font=font, fill="#FFFFFF")
+            
+        # Update DIET
+        if not buttonB.value:
+            eight_hours_from_now = datetime.now() + timedelta(hours=8)
+            DIET="DIET ENDING AT: " + format(eight_hours_from_now, '%H:%M:%S')
+
+    if not buttonA.value:
+        if PAGE==2:
+            PAGE=0
+        else:
+            PAGE+=1
+            
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
