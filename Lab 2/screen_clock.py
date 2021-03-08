@@ -77,11 +77,16 @@ while True:
     else:
         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-         Clock = datetime.datetime(2021,4,8,hour=1, minute=10, second=0, microsecond$
+         Clock = datetime.datetime(2021,4,8,hour=1, minute=10, second=0, microsecond=0)
          Clock = str(Clock)
+         Days = Clock.day
+         Hours = Clock.hour
+         Minutes = Clock.minute
+         Seconds = Clock.second
+         
 
          y = top
-         draw.text((x, y), Clock, font=font, fill="#FFFFFF")
+         draw.text((x, y), Clock.day "Days" Clock.hour Clock.minute Clock.sec, font=font, fill="#FFFFFF")
          y += font.getsize(Clock)[1]
          draw.text((x, y), "Countdown to:", font=font, fill="#0000FF")
          y += font.getsize(Clock)[1]
