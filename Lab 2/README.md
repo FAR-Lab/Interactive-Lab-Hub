@@ -170,6 +170,8 @@ After that, git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+https://drive.google.com/file/d/1ayazfyTYDtVSadEN9WwFOkK0Obgh3N7V/view?usp=sharing
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
@@ -178,6 +180,8 @@ After that, git will ask you to login to your github account to upload.
 1. Pick up remaining parts for kit.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+Niki Feedback: Looks really good, I like the use of coloring and spacing, and its very clear to the user what the purpose of the pi is. A nice next step could be formatting the time to say X hours and X minutes. If you wanted to use the buttons, you could also include a few more countdowns like # days until tickets go on sale, or # days until the opener of another team
 
 # Lab 2 Part 2
 
