@@ -197,6 +197,8 @@ As always, make sure you document contributions and ideas from others explicitly
 
 I got a significant amount of help learning how to set up my pi and code in python from Brandt Beckerman, Niki Agrawal, and Ilan Mandel
 
+I'M STILL FINALIZING THIS PART OF THE LAB AS I WAS DELAYED IN GETTING MY GITHUB / TEXT EDITOR PROPERLY SET UP, I'VE BEEN WORKING WITH ILAN ALL WEEK.
+
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 
