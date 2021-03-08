@@ -94,17 +94,11 @@ while True:
         elif (hour >= 21):
             NIGHT="It's night time!"
         else:
-            NIGHT="Not night time."
-            y += (font.getsize(TIME)[1])*(1.5)
-            draw.text((x, y), LINE, font=font, fill="#FFFFFF")    
-            y += font.getsize(LINE)[1]
-            draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
-            y += font.getsize(NIGHT)[1]
-            draw.text((x, y), LINE, font=font, fill="#FFFFFF")
+            NIGHT="Not night time."   
+        draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
     else:
         if DIET:
             draw.rectangle((0, 0, width, height), outline=0, fill=0)
-            y += font.getsize(LINE)[1]
             draw.text((x, y), DIET, font=font, fill="#FFFFFF")
             
         # Update DIET
