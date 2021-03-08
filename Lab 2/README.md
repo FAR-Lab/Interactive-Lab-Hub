@@ -188,6 +188,6 @@ This video is a walkthrough of the updated clock:
 [PiClock Walkthrough](https://drive.google.com/file/d/19zlx-Asdrlh62YsGr2GuOEeZb2X43TL4/view?usp=sharing)
 
 -- </br>
-I worked on this water PiClock with Ahaan Parekh.
+I worked on this water PiClock with Rui Maki.
 
 
