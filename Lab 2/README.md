@@ -63,7 +63,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. 
 ## Connect to your Pi
-Just like you did in the lab prep, ssh on to your pi. Once there create a python environment.
+Just like you did in the lab prep, ssh on to your pi. Once there create a Python environment.
 
 ```
 ssh pi@ixe00
@@ -91,7 +91,7 @@ Install the packages from the requirements.txt and run the example
 02/24/2021 11:20:49
 ```
 you can press `ctrl-c` to exit.
-If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned please reach out to the teaching staff!
+If you're unfamiliar with the Python code in `cli_clock.py` have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned, please reach out to the teaching staff!
 
 
 ## Part C. 
@@ -126,7 +126,7 @@ We can test it by typing
 python screen_test.py
 ```
 
-You can type the name of a color then press either of the buttons to see what happens on the display. take a look at the code with
+You can type the name of a color then press either of the buttons to see what happens on the display. Take a look at the code with
 ```
 cat screen_test.py
 ```
@@ -167,5 +167,38 @@ I have added two features:
 - Instead of a single line of text, I want to have scrolling text warning to my late night indicator.
 
 - If possible, I want to have some type of alarm system for my diet indicator.
+
+## Prep for Part 2
+
+1. Pick up remaining parts for kit.
+
+2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+# Lab 2 Part 2
+
+Pull Interactive Lab Hub updates to your repo.
+
+Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+
+As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+# Part 2 Video
+
+For part 2, I have changed the clock interface into three seperate pages. 
+
+Page 1 will show current time. Page 2 will show my late night indicator. Page 3 will be my diet counter.
+
+Button A now acts as the page turner. Button B will record the 8-hour Diet ending time when pressed.
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/clock2.gif)
+
+
+Full video link:
+
+https://drive.google.com/file/d/1SE1ETttaJaDRAs7LzBmJGKKse9qkzk-3/view?usp=sharing
+
+
 
 
