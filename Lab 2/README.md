@@ -61,7 +61,7 @@ G) [Sketch and brainstorm further interactions and features you would like for y
 
 ## Part A. 
 ## Connect to your Pi
-Just like you did in the lab prep, ssh on to your pi. Once there create a python environment.
+Just like you did in the lab prep, ssh on to your pi. Once there create a Python environment.
 
 ```
 ssh pi@ixe00
@@ -89,7 +89,7 @@ Install the packages from the requirements.txt and run the example
 02/24/2021 11:20:49
 ```
 you can press `ctrl-c` to exit.
-If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned please reach out to the teaching staff!
+If you're unfamiliar with the Python code in `cli_clock.py` have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned, please reach out to the teaching staff!
 
 
 ## Part C. 
@@ -124,10 +124,11 @@ We can test it by typing
 python screen_test.py
 ```
 
+Spring2021
 <img src="/Lab%202/Images/screen_test.jpg" width="700"/>     
 
 You can type the name of a color then press either of the buttons to see what happens on the display. take a look at the code with
-```
+
 cat screen_test.py
 ```
 
@@ -165,8 +166,11 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 The clock measures time normally in red.  
 In orange there are explanations of the modified time keeping (Eiffel Tower for days and months Feb 12 = 1.05 cycles, Flatiron for hours 8am = 8th floor). As the building only has 22 floors, 0:00 is displayed with a message that states the user is entering the building and 11:00 is displayed with a message that states the user is entering jetpacking down the building.
 
+Spring2021
 In green the modified way of keeping time is displayed.  
 On the second screen after clicking the "A" button, a timer is displayed that counts up until the button is released.  If the button is clicked again the timer is reset to 0.  
+
+You can push to your personal github repo by adding the files here, commiting and pushing.
 
 **Click on either of the images below to be taken to a video of the clock in action**  
 
@@ -180,5 +184,32 @@ On the second screen after clicking the "A" button, a timer is displayed that co
 With the modified way of displaying time (cycles of the Eiffel Tower for days and months with Flatiron Buidling cycles for hours) it would be interesting to visually display this passage of time by having a small sprite climb the tower.  With relative height determining time.  
 Another feature could be added instead or in addition that acts a reminder for an upcoming task and checks if it is time for it yet.  Eg. If time == x flash screen a certain color or a certain message to remind the user to complete the action.
 <img src="/Lab%202/Images/sketch_week2.jpg" width="700"/>   
+
+After that, git will ask you to login to your github account to upload.
+
+## Part F. 
+## Make a short video of your modified barebones PiClock
+
+**Take a video of your PiClock.**
+
+## Part G. 
+## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+## Prep for Part 2
+
+1. Pick up remaining parts for kit.
+
+2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+# Lab 2 Part 2
+
+Pull Interactive Lab Hub updates to your repo.
+
+Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+
+As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
 
 
