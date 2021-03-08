@@ -58,153 +58,58 @@ x = 0
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 13)
 
 # Turn on the backlight
+
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+drunk = 0
 
 while True:
-
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    rui_time = strftime("%m/%d/%Y %H:%M:%S")
     y = top
-    draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
+    if buttonA.value and buttonB.value:
+        draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
+        backlight.value = True
+        y = top
+        if strftime("%H:%M") == "00:00":
+            drunk = 0
 
-    if int(strftime("%H")) == 0:
+        tim = int(strftime("%H"))
+        tim2 = int(strftime("%M"))
+        tim3 = ((tim*60)+tim2)/1440
+        ww = width * tim3
+        rui_time = strftime("%m/%d/%Y %H:%M:%S")
+        y = top
+        draw.rectangle((0, 0, ww, height), outline=0, fill="#3944BC")
+        draw.text((x+5, y), rui_time, font=font, fill="#FFFFFF")
+        
         var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 1:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 2:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 3:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 4:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 5:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 6:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 7:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 8:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 9:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 10:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 11:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 12:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 13:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 14:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 15:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 16:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 17:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 18:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 19:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 20:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 21:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 22:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 23:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
-    elif int(strftime("%H")) == 24:
-        var = int(strftime("%H")) *125
-        text = str(var) + " mL / 3L of water consumed."
-        draw.text((x, y), rui_time, font=font, fill="#7AD7F0")
-        draw.text((x, y+20), text, font=font, fill="#7AD7F0")
+        text = str(var) + " mL / 3L of water recommended."
+        draw.text((x+5, y), rui_time, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+20), text, font=font, fill="#FFFFFF")
 
-    y = top
-    text = "This clock measures time based on"
-    text2 = "mL of water consumed. Starting at"
-    text3 = "midnight, 125mL of water is added"
-    text4 = "every hour."
 
-    draw.text((x, y+60), text, font=font, fill="#7AD7F0")
-    draw.text((x, y+80), text2, font=font, fill="#7AD7F0")
-    draw.text((x, y+100), text3, font=font, fill="#7AD7F0")
-    draw.text((x, y+120), text4, font=font, fill="#7AD7F0")
+        y = top
+        text = "This clock measures time based on"
+        text2 = "mL of water consumed. Starting at"
+        text3 = "midnight, 125mL of water is added"
+        text4 = "every hour."
+
+        draw.text((x+5, y+60), text, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+80), text2, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+100), text3, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+120), text4, font=font, fill="#FFFFFF")
+    if buttonA.value and not buttonB.value:
+        drunk += 125
+    if buttonB.value and not buttonA.value:
+        backlight.value = True
+        draw.rectangle((0, 0, width, height), outline=0, fill="#016064")
+        text = str(drunk) + " mL of water consumed"
+        draw.text((x+25, y+55), text, font=font, fill = "#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
