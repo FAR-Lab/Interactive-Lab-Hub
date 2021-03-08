@@ -108,11 +108,11 @@ while True:
             draw.text((x, y), DIET, font=font, fill="#FFFFFF")
             
         # Update DIET
-        if not buttonB.value:
+        if buttonA.value and not buttonB.value:
             eight_hours_from_now = datetime.now() + timedelta(hours=8)
             DIET="DIET ENDING AT: " + format(eight_hours_from_now, '%H:%M:%S')
 
-    if not buttonA.value:
+    if buttonB.value and not buttonA.value:
         if PAGE==2:
             PAGE=0
         else:
