@@ -197,6 +197,23 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+**Updated Clock**
+In our new and revamped clock, with every hour starting from midnight, the recommended amount of water consumed increases by 125 mL (3L of water recommended every day). In our previous version, we displayed the clock by having the mL of water increase by increments of 125mL every hour. In the updated version, the background screen of the clock will fill up with water (blue) from left to right to demonstrate a visual representation of how much water to consume in proportion to the amount of space on the screen. For example, the screen background will be black (no blue water) at midnight but with every minute, the blue background color will slowly spread from left to right so that at the end of the day at 11:59pm, the entire screen will be filled up with a blue/water background. 
+
+The second aspect we updated was that when the lower button is pressed (button A), the user can track how much water they have consumed (ever second the button is held down, an additional 125 mL of water is recorded to the consumed value. Then when the top button is pressed (button B), the total amount of water that has been consumed is displayed on the screen. By adding this additional feature, the user can record and keep track of how much water they have consumed while having the default screen of the clock be the recommended amount of water they should have consumed in a given hour. 
+
+This video showcases the change in the recommended amount of water when the hour changes:
+[PiClock Hour Change Updated](https://drive.google.com/file/d/1ELJWeN-xnVl3q81mlfSxCXZG9Watcf4E/view?usp=sharing)
+
+This video is a walkthrough of the updated clock:
+[PiClock Walkthrough](https://drive.google.com/file/d/19zlx-Asdrlh62YsGr2GuOEeZb2X43TL4/view?usp=sharing)
+
+--
+I worked on this water PiClock with Ahaan Parekh. 
+
+
+
+
 
 
 
