@@ -175,6 +175,8 @@ https://drive.google.com/file/d/1ayazfyTYDtVSadEN9WwFOkK0Obgh3N7V/view?usp=shari
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+I'd like to make the clock interface a bit cleaner and possibly make it so that when you click the buttons it switches to the time for Opening Day (away).
+
 ## Prep for Part 2
 
 1. Pick up remaining parts for kit.
@@ -183,6 +185,8 @@ https://drive.google.com/file/d/1ayazfyTYDtVSadEN9WwFOkK0Obgh3N7V/view?usp=shari
 
 Niki Feedback: Looks really good, I like the use of coloring and spacing, and its very clear to the user what the purpose of the pi is. A nice next step could be formatting the time to say X hours and X minutes. If you wanted to use the buttons, you could also include a few more countdowns like # days until tickets go on sale, or # days until the opener of another team
 
+Rob Feedback: I like how yours is predictably sports-related! Nice use of colors and text on multiple lines, and it's cool how you modified the time function to be a countdown timer. For part two, it would be sweet to see some interactivity with the buttons or via the terminal: maybe they could switch the countdown clock to Opening Day, or count down to the home opener for a team that's actually good.
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
@@ -190,6 +194,8 @@ Pull Interactive Lab Hub updates to your repo.
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+I got a significant amount of help learning how to set up my pi and code in python from Brandt Beckerman, Niki Agrawal, and Ilan Mandel
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
