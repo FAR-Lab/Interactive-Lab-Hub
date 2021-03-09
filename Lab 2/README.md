@@ -186,6 +186,17 @@ The additional feature I am thinking of is that based on the current weather suc
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+The feedback I received:
+
+Irene: Hi Nicole, very nice idea and very useful! I especially like your second iteration in which you update the recommendations not only based on the time but also on weather conditions. How about considering other friends' availability too? So you can all join to perform an action. It could maybe count down until there is a group exercise planed.
+
+Brandt: Buidling on IreneFPs comment perhaps adding a way to remove or skip certain suggestions and tailor preferences and curate a list of desired activities. Say yoga and stretching for inclement weather and running or biking for nice weather.
+
+Hortense: I second both these suggestions! I like that your clock tries to motivate the user - maybe you could alert them with sound or light as well.
+
+Rui: You could also have the evening suggestions in blue, the day suggestions in green/yellow and the morning suggestions in red/orange.
+
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
