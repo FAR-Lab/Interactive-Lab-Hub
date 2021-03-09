@@ -210,7 +210,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
  
  
 I worked with Mehma Bhasin on this hw together.
-The clock we are creating changes color based on the time.(Morning - white, Afternoon - Yellow, Evening - Blue). Considering the current weather conditions including the temperature and the wind speed along with the current time, the clock will motivate users by giving exercise suggestions (Button B) and showing series pictures of different exercises (Button A).
+The clock we are creating changes color based on the time.(Morning - white, Afternoon - Yellow, Evening - Blue). Considering the current weather conditions including the temperature and the wind speed along with the current time, the clock will motivate users by giving exercise suggestions (Button B) and by showing a group of pictures of different exercises (Button A).
 
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/1.png)
 ![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/2.png)
