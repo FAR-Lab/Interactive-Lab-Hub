@@ -79,9 +79,9 @@ By acting out, the process doesn’t look that ideal as what I pictured in the s
 
 ## Part C. Prototype the device
 
-<<<<<<< HEAD
+
 It’s really cool to play around with Tinkerbelle. In the first try, I ran into error opening http://localhost:5000 using my apartment wifi. In the second try, I wasn’t able to open the browser on my phone. Later on, the issue got resolved when I switched to the campus wifi.
-=======
+
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
@@ -104,7 +104,7 @@ In the first attempt, the player just acted out without saying anything, so it w
 The potential designs are listed above. They are all wearable sensors similar to jewelry that are easy to put on and detach. Wristband and ring are the better options I think because the rest of the other options are harder to detect the lights and less subtle to the users. The pulse detection is more accurate on the wrist and the earloop so wristband and earring are more accurate at capturing and signaling the stress level.
 
 ## Part F. Record
-The final version. Video link: https://kapwi.ng/c/2Tmxcopb 
+The final version. Video link:https://drive.google.com/file/d/1NgC5pDnaqrMq_82-QfQVKKMaiyGgAt8H/view?usp=sharing 
 
 Rui, Irene, Hortense and Brandt helped me set up my github and gave me feedback in the lab.
 Rui helped me with the video.
