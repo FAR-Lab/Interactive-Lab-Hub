@@ -196,6 +196,10 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
  Spring2021
+ 
+ 
+I worked with Mehma Bhasin on this hw together.
+The clock we are creating changes color based on the time.(Morning - white, Afternoon - Yellow, Evening - Blue). Considering the current weather conditions including the temperature and the wind speed along with the current time, the clock will motivate users by giving exercise suggestions (Button B) and showing series pictures of different exercises (Button A).
 
-![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/showing.jpg)
-![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/pics.jpg)
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/1.png)
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/2.png)
