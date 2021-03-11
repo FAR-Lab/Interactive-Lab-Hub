@@ -195,9 +195,9 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
-I got a significant amount of help learning how to set up my pi and code in python from Brandt Beckerman, Niki Agrawal, and Ilan Mandel
+https://drive.google.com/file/d/1eYVbMng-lGqh2PVkMS7oZEGhAE5_VED4/view?usp=sharing
 
-I'M STILL FINALIZING THIS PART OF THE LAB AS I WAS DELAYED IN GETTING MY GITHUB / TEXT EDITOR PROPERLY SET UP, I'VE BEEN WORKING WITH ILAN ALL WEEK.
+I got a significant amount of help learning how to set up my pi and code in python from Brandt Beckerman, Niki Agrawal, and Ilan Mandel and even leveraged some of Brandt's code for my loop!
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
