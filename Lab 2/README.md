@@ -170,14 +170,26 @@ After that, git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+<<<<<<< HEAD
 ## Part G.
+=======
+https://drive.google.com/file/d/1ayazfyTYDtVSadEN9WwFOkK0Obgh3N7V/view?usp=sharing
+
+## Part G. 
+>>>>>>> f02a61c60043352f5e4081c5c82957308a55060d
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+I'd like to make the clock interface a bit cleaner and possibly make it so that when you click the buttons it switches to the time for Opening Day (away).
 
 ## Prep for Part 2
 
 1. Pick up remaining parts for kit. - TEST
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+Niki Feedback: Looks really good, I like the use of coloring and spacing, and its very clear to the user what the purpose of the pi is. A nice next step could be formatting the time to say X hours and X minutes. If you wanted to use the buttons, you could also include a few more countdowns like # days until tickets go on sale, or # days until the opener of another team
+
+Rob Feedback: I like how yours is predictably sports-related! Nice use of colors and text on multiple lines, and it's cool how you modified the time function to be a countdown timer. For part two, it would be sweet to see some interactivity with the buttons or via the terminal: maybe they could switch the countdown clock to Opening Day, or count down to the home opener for a team that's actually good.
 
 # Lab 2 Part 2
 
@@ -187,4 +199,14 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
+<<<<<<< HEAD
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
+=======
+I got a significant amount of help learning how to set up my pi and code in python from Brandt Beckerman, Niki Agrawal, and Ilan Mandel
+
+I'M STILL FINALIZING THIS PART OF THE LAB AS I WAS DELAYED IN GETTING MY GITHUB / TEXT EDITOR PROPERLY SET UP, I'VE BEEN WORKING WITH ILAN ALL WEEK.
+
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+
+>>>>>>> f02a61c60043352f5e4081c5c82957308a55060d
