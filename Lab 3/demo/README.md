@@ -6,9 +6,13 @@ This is a Demo App for a Wizard of Oz interactive system where the wizard is pla
 
 ## Hardware Set-Up
 
-For this demo, you will need: Your Raspberry Pi, a Qwiic/Stemma Cable, a speaker/aux cable or wired headphones
-
-The display (we are just using it for the Qwiic/StemmaQT port. Feel free to use the display in your projects), your accelerometer, and your USB microphone
+For this demo, you will need: 
+* your Raspberry Pi, 
+* a Qwiic/Stemma Cable, 
+* a speaker/aux cable or wired headphones, 
+* the display (we are just using it for the Qwiic/StemmaQT port. Feel free to use the display in your projects), 
+* your accelerometer, and 
+* your USB microphone
 
 
 <p float="left"><img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
