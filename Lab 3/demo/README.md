@@ -6,7 +6,7 @@ This is a Demo App for a Wizard of Oz interactive system where the wizard is pla
 
 ## Hardware Set-Up
 
-For this demo you will need: Your Raspberry Pi, a Qwiic/Stemma Cable, a speaker/aux cable or wired headphones
+For this demo, you will need: Your Raspberry Pi, a Qwiic/Stemma Cable, a speaker/aux cable or wired headphones
 
 The display (we are just using it for the Qwiic/StemmaQT port. Feel free to use the display in your projects) 
 
@@ -24,7 +24,7 @@ Plug the display in and connect the accelerometer to the port underneath with yo
 
 ## Software Setup
 
-ssh on to your Raspberry Pi as we've done previously
+Sssh on to your Raspberry Pi as we've done previously
 
 `ssh pi@yourHostname.local`
 
@@ -53,11 +53,11 @@ To run the app
 
 `(woz) pi@yourHostname:~/Interactive-Lab-Hub/Lab 3/demo $ python app.py`
 
-In the browser of a computer on the same network navigate to http://yourHostname.local:5000/ where in my case my hostname is ixe00
+In the browser of a computer on the same network, navigate to http://yourHostname.local:5000/ where in my case my hostname is ixe00
 
 ![](./imgs/page.png)
 
-The interface will immediately begin streaming the accelerometer to let you know if your participant shakes their magic 8 ball. The eavesdrop button will begin streaming audio from the pi to your browser (note their is a noticeable delay it is best to start eavesdropping right at the beginning). To have the pi speak you can write in the text box and hit send or press enter.
+The interface will immediately begin streaming the accelerometer to let you know if your participant shakes their Magic 8 ball. The "eavesdrop" button will begin streaming audio from the Pi to your browser (note their is a noticeable delay it is best to start eavesdropping right at the beginning). To have the Pi speak, you can write in the text box and hit send or press enter.
 
 ## Notes
 
@@ -67,7 +67,7 @@ You may need to change line 23 in `app.py`
 hardware = 'plughw:2,0'
 ```
 
-This is the soundcard and hardware device associated with the USB microphone. To check you can run `python get_device.py` which will output A LOT of nonsense. At the end you will see 
+This is the soundcard and hardware device associated with the USB microphone. To check, you can run `python get_device.py` which will output A LOT of nonsense. At the end, you will see 
 
 ```
 0 bcm2835 HDMI 1: - (plughw:0,0)
@@ -84,5 +84,5 @@ This is the soundcard and hardware device associated with the USB microphone. To
 11 default
 ```
 
-In our case `USB PnP Sound Device: Audio (plughw:2,0)` is the name of our microphone and the index is in parenthesis.
+In our case, `USB PnP Sound Device: Audio (plughw:2,0)` is the name of our microphone and the index is in parenthesis.
 
