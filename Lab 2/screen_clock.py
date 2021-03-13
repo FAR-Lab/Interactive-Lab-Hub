@@ -121,7 +121,7 @@ while True:
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
     backlight.value = True
-    #disp.image(image, rotation)
+    disp.image(image, rotation)
     
 def image_resize(image):
     # Scale the image to the smaller screen dimension
