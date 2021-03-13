@@ -107,17 +107,23 @@ while True:
     if buttonB.value and not buttonA.value:  # just button A pressed
         #print ("in here3")
         image = Image.open("congrats.jpg") # set the screen to a congratulatory image
-        time.sleep(3)
+        disp.image(image, rotation)
+        time.sleep(2)
         os.system('clear')
         #draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
     if buttonA.value and not buttonB.value:  # just button B pressed
         #print ("in here4")
         image = Image.open("motivational.jpg")  # set the screen to a motivational image
+        disp.image(image, rotation)
+        time.sleep(1)
+        os.system('clear')
         #draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
     backlight.value = True
+    #disp.image(image, rotation)
     
+def image_resize(image):
     # Scale the image to the smaller screen dimension
     image_ratio = image.width / image.height
     screen_ratio = width / height
@@ -134,6 +140,4 @@ while True:
     y = scaled_height // 2 - height // 2
     image = image.crop((x, y, x + width, y + height))
     
-    # Display image.
-    disp.image(image, rotation)
-    #
+    
