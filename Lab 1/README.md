@@ -68,12 +68,19 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
+The light device I'm creating is an electric ring that changes colors depending on your stress levels, heart rates, and activity. It collects this information through its connection to a heart rate monitor like a smartwatch. The ring serves the purpose of alerting someone when they begin to feel stressed by changing its color to red, and offers them the awareness to alleviate their high stress levels. A person can take some deep breaths, maybe go for a walk, or understand their rationale better and then return to a normal heart rate which is indicated by a green light. The setting for this device is a bedroom where a student performs many activities like studying, exercising, socializing, and sleeping. There is only 1 player and that is the person wearing the electic ring. 
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.JPG)
+
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+The feedback I recevied:
+1. Keep the light on the ring subtle so that it's not distracting to you - Ritika
+2. The electic ring seems like you can wear it anywhere and not just your bedroom. So for the scope of this project, maybe you should call it a table lamp instead because that is stationary and allows you to keep the setting as one spot. - Jeremy
+
 
 
 ## Part B. Act out the Interaction
@@ -81,9 +88,10 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+It felt very awkward to look at the ring and then come to the realization that you are experiencing high stress levels. Are you constantly looking at the ring? Does it buzz to alert you that the color has changed? Do you say "Oh the color is now red" outloud? Do you just think it? 
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+Yes, I need to figure out if its a gradual transition to the red color, or if it just flashes red once it hits a certain heart rate. And the same question for when it comes back down to yellow and green. I think it's optimal for it to gradually increase, but only 3-4 shades per color, so that it doesn't overwhelm the device. 
 
 ## Part C. Prototype the device
 
@@ -96,15 +104,18 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**
+The tinkerbelle app worked pretty well for the purposes of this assignment, although I didn't understand the purpose of the two buttons. I just used the first one.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+I asked my brother to record me from his phone and use my laptop to change the color of the light device. For the light device, I used my phone.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+https://drive.google.com/file/d/1AeXcIDJ2__5KmuhUrMoAQotrraMAqqiU/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -113,16 +124,21 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
+Device design here
+![device sketches](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design%20of%20the%20ring.JPG)
+
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+The device needs to fit on your finger like a ring. It should be a simple and comfortable band, with a little light on the top. The main concern is that it should not be distracting or a nuisance. People's heart rates fluctuate a lot during the day due to digestion, exercise, anger, etc and sometimes its important to manage it, and sometimes its not. So there should be a small on/pause button, perhaps by pressing the light down, so that it doesn't take up extra room on the band. It should also look somewhat stylish bc its important that wearables blend in well to your body and are not protruding.
 
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+https://drive.google.com/file/d/1awEilNF-UNPxafEt1HOytm2CNoyYq3OU/view?usp=sharing
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+This idea was inspired by my friend Addie (MBA), who is creating something similar for her studio project. Her project is not light based, it simply records your heartrate and sends meaningful push notifications to your phone.
 
 # Staging Interaction, Part 2 
 
@@ -142,4 +158,25 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+<<<<<<< HEAD
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+=======
+**Document everything here.**
+I made a few major updates to the prototype in Part B.
+1. The device is a bracelet instead of a ring. Based on the feedback I got, it seemed like a ring would be too "in your face" and distracting to a person if it was always lighting up and vibrating. Its also hard to fit as many lights and buttons on a ring. So a bracelet is a more realistic device.
+2. I added vibrations to the device such that when you reach above a certain heartrate, not only is the color Red, but there is a 2 second vibration to alert you of this. If you do not make efforts to alleviate it, then it vibrates again in 15 minutes. You can change the interval from the settings app of the device. The deivce only vibrates once for the green color to indicate you are back to resting heart rate.
+3. There are only 3 colors - green, yellow, and red. This is because the blue color of neutral phase was confusing with the green color. 
+4. There is a button to snooze the bracelet for 1 hour, so that if you don't want to be alerted of changes in heart rate (like if working out) then you have that option.
+5. Lastly, there is a settings app so that you can change some of the features of the bracelet.
+
+Storyboard below:
+![Storyboard](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard%20v2.JPG)
+
+New Prototype below:
+![Prototype](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/Spring2021/Lab%201/prototype%20v2.JPG)
+
+New video below:
+https://drive.google.com/file/d/1maAmIa4SRmbVQ9N1CDbMqmd04WQOUByy/view?usp=sharing
+
+
+>>>>>>> Spring2021
