@@ -178,4 +178,6 @@ https://drive.google.com/file/d/18d_b8jA5vmIfuqg8U7D6GSaaF6N41wiS/view?usp=shari
 I would love to find more ways to make this interactive, such as entering the hours you are awake (not everyone is awake 8am to 8pm) and adjusting the # of steps to match that. I could also have various countdowns such as # of hours until this assingment is due, or until Sunset for that day.
 
 
+For expanding this lab to be more interactive, I included the use of the buttons. After the screen initially displays the number of steps you should have walked by now, it asks you to Press A if you are on track or B if you are falling behind. When you press A, there appears a fun, congratulatory image saying "Way to Go!", and if you press B, it says a motivational image like "You can do it!". I really wanted that once you release the button it goes back to the main screen, but I tried everything to erase the image but was unsuccessful. So for now, it just toggles between the images once you press it. 
 
+Video Link: https://drive.google.com/file/d/13TBR8VnlVNdrZW0TmT1iYFeDs51Rd6-L/view?usp=sharing
