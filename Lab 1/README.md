@@ -100,9 +100,6 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 **Give us feedback on Tinkerbelle.**
 The tinkerbelle app worked pretty well for the purposes of this assignment, although I didn't understand the purpose of the two buttons. I just used the first one.
 
@@ -159,8 +156,11 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
 =======
+=======
+>>>>>>> 9cbece104ec4e97ae1b12acbce58968742c68bb9
 **Document everything here.**
 I made a few major updates to the prototype in Part B.
 1. The device is a bracelet instead of a ring. Based on the feedback I got, it seemed like a ring would be too "in your face" and distracting to a person if it was always lighting up and vibrating. Its also hard to fit as many lights and buttons on a ring. So a bracelet is a more realistic device.
@@ -179,4 +179,7 @@ New video below:
 https://drive.google.com/file/d/1maAmIa4SRmbVQ9N1CDbMqmd04WQOUByy/view?usp=sharing
 
 
+<<<<<<< HEAD
 >>>>>>> Spring2021
+=======
+>>>>>>> 9cbece104ec4e97ae1b12acbce58968742c68bb9
