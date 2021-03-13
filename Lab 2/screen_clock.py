@@ -107,7 +107,7 @@ while True:
     if buttonB.value and not buttonA.value:  # just button A pressed
         #print ("in here3")
         image = Image.open("congrats.jpg") # set the screen to a congratulatory image
-        disp.image(image, rotation)
+        disp.image(image_resize(image), rotation)
         time.sleep(2)
         os.system('clear')
         #draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
@@ -139,5 +139,5 @@ def image_resize(image):
     x = scaled_width // 2 - width // 2
     y = scaled_height // 2 - height // 2
     image = image.crop((x, y, x + width, y + height))
-    
+    return image
     
