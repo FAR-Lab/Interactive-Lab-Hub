@@ -82,6 +82,8 @@ while step_count == 0:
         # catch colors we don't recognize and go again
         print("whoops that is not a number")
 
+        
+        
 while True:
     #image = Image.new("RGB", (width, height))
     draw.rectangle((0, 0, width, height), outline=0, fill=0) #NOT WORKING - need to find a way to clear the image from the screen after button A and B are pressed
@@ -107,7 +109,21 @@ while True:
     if buttonB.value and not buttonA.value:  # just button A pressed
         #print ("in here3")
         image = Image.open("congrats.jpg") # set the screen to a congratulatory image
-        disp.image(image_resize(image), rotation)
+        image_ratio = image.width / image.height
+        screen_ratio = width / height
+        if screen_ratio < image_ratio:
+            scaled_width = image.width * height // image.height
+            scaled_height = height
+        else:
+            scaled_width = width
+            scaled_height = image.height * width // image.width
+        image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+
+        # Crop and center the image
+        x = scaled_width // 2 - width // 2
+        y = scaled_height // 2 - height // 2
+        image = image.crop((x, y, x + width, y + height))
+        disp.image(image, rotation)
         time.sleep(2)
         os.system('clear')
         #draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,255)) #clearing the image
@@ -122,6 +138,7 @@ while True:
     backlight.switch_to_output()
     backlight.value = True
     disp.image(image, rotation)
+    
     
 def image_resize(image):
     # Scale the image to the smaller screen dimension
@@ -140,4 +157,3 @@ def image_resize(image):
     y = scaled_height // 2 - height // 2
     image = image.crop((x, y, x + width, y + height))
     return image
-    
