@@ -58,11 +58,33 @@ In the [demo directory](./demo), you will find an example wizard of oz project y
 
 There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out we suggest you create a seperarate virutalenv. 
 
-## Deliverables
 
-Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller
 
-Try to get at least two people to interact with your system. Ideally without them knowing there is a wizard but we recognize that can be hard.
+# Lab 3 Part 2
+
+Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller.
+
+## Prep for Part 2
+
+1. Sketch ideas for what you'll work on in lab on Wednesday.
+
+## Share your idea sketches with Zoom Room mates and get feedback
+
+*what was the feedback? Who did it come from?*
+
+## Prototype your system
+
+The system should:
+* use the Raspberry Pi 
+* use one or more sensors
+* require participants to speak to it. 
+
+*Document how the system works*
+
+*Include videos or screencaptures of both the system and the controller.*
+
+## Test the system
+Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 Answer the following:
 
@@ -81,3 +103,4 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 *your answer here*
+
