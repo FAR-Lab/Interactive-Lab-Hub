@@ -19,6 +19,8 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 - [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 - Our Copy of Raspbian at [this dropbox link](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0), or use our ftp server here: ftp://farlab.infosci.cornell.edu/IXE_20210224.img.xz .
 Download and use the ``.xz`` file in the Raspberry Pi Imager.
+
+![https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png]
 - If using windows: [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh) or [PuTTY](https://www.putty.org/)
 
 #### Setting up your OS
