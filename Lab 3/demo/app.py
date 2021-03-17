@@ -9,7 +9,6 @@ import time
 import board
 import busio
 import adafruit_mpu6050
-import adafruit_apds9960
 import json
 import socket
 
@@ -20,7 +19,6 @@ from queue import Queue
  
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
-mpu2 = adafruit_apds9960.MPU9960(i2c)
 
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
@@ -42,8 +40,6 @@ def test_connect():
 def handle_message(val):
     # print(mpu.acceleration)
     emit('pong-gps', mpu.acceleration) 
-
-
 
 @app.route('/')
 def index():
