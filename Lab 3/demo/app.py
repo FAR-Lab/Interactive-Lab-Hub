@@ -19,6 +19,7 @@ from queue import Queue
  
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
+mpu2 = adafruit_apds9960.MPU9960(i2c)
 
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
