@@ -40,6 +40,7 @@ def test_connect():
 def handle_message(val):
     # print(mpu.acceleration)
     emit('pong-gps', mpu.acceleration) 
+    print (mpu.acceleration)
 
 
 
