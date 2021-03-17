@@ -72,8 +72,6 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
-*what was the feedback? Who did it come from?*
-
 Feedback from Jiadong Lou and Chelsea Luo: 
 
 "Great sketch. You can add extra buttons to start and reset the personality test. The voice input includes not only numbers but also other categories, which is good. "
