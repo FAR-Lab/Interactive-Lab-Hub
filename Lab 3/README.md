@@ -1,4 +1,4 @@
-# You're a wizard, [Student Name Here]
+# You're a wizard, Joy!
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -71,6 +71,8 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/test.jpg)
 
 ## Prototype your system
 
