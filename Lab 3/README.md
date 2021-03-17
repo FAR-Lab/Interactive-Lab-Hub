@@ -68,11 +68,18 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/test.jpg)
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
 
-![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/test.jpg)
+Feedback from Jiadong Lou and Chelsea Luo: 
+
+"Great sketch. You can add extra buttons to start and reset the personality test. The voice input includes not only numbers but also other categories, which is good. "
+
+"Instead of speaking out the questions and the results, the pi can also use text display so it is easier for user to follow. Maybe also using buttons and joysticks to show rolling texts."
+
 
 ## Prototype your system
 
