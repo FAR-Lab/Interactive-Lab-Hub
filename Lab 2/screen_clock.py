@@ -1,4 +1,6 @@
 import time
+from time import strftime, sleep
+from datetime import datetime, timedelta
 import subprocess
 import digitalio
 import board
@@ -61,12 +63,55 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# Clock related
+LINE = "================"
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+# DIET is used to record the time of my daily 8-hour dieting period ending time
+# buttonA is used to display the ending time
+# buttonB (pressed together with buttonA) is used to save the ending time
+DIET=None
+PAGE=0
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
+    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
+    if PAGE==0:
+        TIME = "TIME: "+ strftime("%m/%d/%Y %H:%M:%S")
+        y = top
+        draw.text((x, y), TIME, font=font, fill="#FFFFFF")
+    elif PAGE==1:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        # Add Night & Late Night Notifier
+        hour = int(time.strftime("%H"))
+        if (hour >= 23):
+            NIGHT="It's late night!!!"
+        elif (hour >= 21):
+            NIGHT="It's night time!"
+        else:
+            NIGHT="Not night time."   
+        draw.text((x, y), NIGHT, font=font, fill="#FFFFFF")  
+    else:
+        if DIET:
+            draw.rectangle((0, 0, width, height), outline=0, fill=0)
+            draw.text((x, y), DIET, font=font, fill="#FFFFFF")
+            
+        # Update DIET
+        if buttonA.value and not buttonB.value:
+            eight_hours_from_now = datetime.now() + timedelta(hours=8)
+            DIET="DIET ENDING AT: " + format(eight_hours_from_now, '%H:%M:%S')
 
+    if buttonB.value and not buttonA.value:
+        if PAGE==2:
+            PAGE=0
+        else:
+            PAGE+=1
+            
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)

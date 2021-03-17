@@ -148,30 +148,25 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 ## Part E.
 ## Modify the barebones clock to make it your own
+I have added two features:
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+1. A night&late night indicator. If it's after 9PM, the display will show "It's night time!". If it's after 11PM, the display will show "It's late night!!!".
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
-
-**A copy of your code should be in your Lab 2 Github repo.**
-
-You can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-git add .
-git commit -m'your message here'
-git push
-```
-
-After that, git will ask you to login to your github account to upload.
+2. A diet time counter. I am currently on a diet that allows me to eat during an 8-hour period, so I designed this counter for me to calculate the daily end time of the diet. When press button A and button B together, it will record the time that is 8 hours from now. If only press button A, it will show the diet ending time.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/clock.gif)
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+- Instead of a single line of text, I want to have scrolling text warning to my late night indicator.
+
+- If possible, I want to have some type of alarm system for my diet indicator.
 
 ## Prep for Part 2
 
@@ -188,5 +183,22 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+# Part 2 Video
+
+For part 2, I have changed the clock interface into three seperate pages. 
+
+Page 1 will show current time. Page 2 will show my late night indicator. Page 3 will be my diet counter.
+
+Button A now acts as the page turner. Button B will record the 8-hour Diet ending time when pressed.
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%202/clock2.gif)
+
+
+Full video link:
+
+https://drive.google.com/file/d/1SE1ETttaJaDRAs7LzBmJGKKse9qkzk-3/view?usp=sharing
+
+
 
 
