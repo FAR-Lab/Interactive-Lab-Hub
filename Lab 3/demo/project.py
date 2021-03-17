@@ -38,11 +38,9 @@ def test_connect():
 
 @socketio.on('ping-gps')
 def handle_message(val):
-    # print(mpu.acceleration)
+    print(mpu.acceleration)
     emit('pong-gps', mpu.acceleration) 
-    print (mpu.acceleration)
-
-
+    
 
 @app.route('/')
 def index():
