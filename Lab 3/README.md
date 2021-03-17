@@ -74,9 +74,14 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 Feedback from Jiadong Lou and Chelsea Luo: 
 
+
 "Great sketch. You can add extra buttons to start and reset the personality test. The voice input includes not only numbers but also other categories, which is good. "
 
+
 "Instead of speaking out the questions and the results, the pi can also use text display so it is easier for user to follow. Maybe also using buttons and joysticks to show rolling texts."
+
+
+"I think it is an interesting an idea, and I am thinking that you can use both speaker and text display to clearly convey the message."
 
 
 ## Prototype your system
