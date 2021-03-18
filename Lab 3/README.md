@@ -4,10 +4,12 @@
 
 In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on audio as the main modality for interaction but there is no reason these general techniques can't extend to video, haptics or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design.
 
+## Acknowledgements
+I would like to thank Shivani Doshi, Ritika Poddar, and Ilan Mandel for brainstorming with me and giving feedback on my project idea. The exact feedback is listed in Part 2 below.
 
 ## Text to Speech and Speech to Text
 
-In the home directory of your Pi there is a folder called `text2speech` containing some shell scripts.
+The demo `text2speech` files:
 
 ```
 pi@ixe00:~/text2speech $ ls
@@ -16,20 +18,34 @@ espeak_demo.sh  flite_demo.sh     lookdave.wav
 
 ```
 
-you can run these examples by typing 
-`./espeakdeom.sh`. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`
+were run and resulted in the following:
 
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1614566585/video_to_markdown/images/google-drive--1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1V3xPS5feFjIEdYPoxQkmjCmJgabt5b9p/view?usp=sharing "")
+
+Similarly, running `./vosk_demo_mic.sh` and saying `One Two Three` resulted in the following printout from `speech2text`:
 ```
-pi@ixe00:~/text2speech $ cat festival_demo.sh 
-#from: https://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)#Festival_Text_to_Speech
-
-echo "Just what do you think you're doing, Dave?" | festival --tts
-
+{
+  "result" : [{
+      "conf" : 1.000000,
+      "end" : 2.340000,
+      "start" : 1.980000,
+      "word" : "one"
+    }, {
+      "conf" : 1.000000,
+      "end" : 3.030000,
+      "start" : 2.520000,
+      "word" : "two"
+    }, {
+      "conf" : 1.000000,
+      "end" : 3.600000,
+      "start" : 3.090000,
+      "word" : "three"
+    }],
+  "text" : "one two three"
+}
 ```
 
-You can also play audio files directly with `aplay filename`.
-
-After looking through this folder do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
+Showing that Vosk was accurately hearing my words and interpreting them properly.
 
 ## Serving Pages
 
@@ -58,11 +74,29 @@ In the [demo directory](./demo), you will find an example wizard of oz project y
 
 There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out we suggest you create a seperarate virutalenv. 
 
-## Deliverables
+# Lab 3 Part 2
 
 Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller
 
-Try to get at least two people to interact with your system. Ideally without them knowing there is a wizard but we recognize that can be hard.
+## Prep for Part 2
+1. Sketch ideas for what you'll work on in lab on Wednesday.
+
+## Share your idea sketches with Zoom Room mates and get feedback
+what was the feedback? Who did it come from?
+
+## Prototype your system
+The system should:
+* use the Raspberry Pi
+* use one or more sensors
+* require participants to speak to it
+
+Document how the system works
+
+Include videos or screencaptures of both the system and the controller.
+
+## Test the system
+
+Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard after the interaction, but we recognize that can be hard.)
 
 Answer the following:
 
