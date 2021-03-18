@@ -20,10 +20,7 @@ espeak_demo.sh  flite_demo.sh     lookdave.wav
 
 were run and resulted in the following:
 
-[![](https://drive.google.com/file/d/14OVrNm0P6_sOAsR1AK9-7_0MuuVDuhq2/view?usp=sharing)]
-(https://drive.google.com/file/d/1V3xPS5feFjIEdYPoxQkmjCmJgabt5b9p/view?usp=sharing "")
 
-text2speech_demos
 
 Similarly, running `./vosk_demo_mic.sh` and saying `One Two Three` resulted in the following printout from `speech2text`:
 ```
@@ -52,19 +49,11 @@ Showing that Vosk was accurately hearing my words and interpreting them properly
 
 ## Serving Pages
 
-In Lab 1 we served a webpage with flask. In this lab you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
+The simple webserver was called with the following command:
+
 
 ```
-pi@ixe00:~/$ python server.py
- * Serving Flask app "server" (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: on
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 162-573-883
+(idd_env) pi@ixe00:~/Documents/Interactive-Lab-Hub/Lab 3$ python server.py
 ```
 From a remote browser on the same network, check to make sure your webserver is working by going to [http://ixe00.local:5000]()
 
