@@ -20,7 +20,7 @@ espeak_demo.sh  flite_demo.sh     lookdave.wav
 
 were run and resulted in the following:
 
-[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1614566585/video_to_markdown/images/google-drive--1Zml_PnKv7Po2L-kpPTjNheOi9eHsNsjS-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1V3xPS5feFjIEdYPoxQkmjCmJgabt5b9p/view?usp=sharing "")
+[![](Screen Shot 2021-03-17 at 5.30.21 PM.png)](https://drive.google.com/file/d/1V3xPS5feFjIEdYPoxQkmjCmJgabt5b9p/view?usp=sharing "")
 
 Similarly, running `./vosk_demo_mic.sh` and saying `One Two Three` resulted in the following printout from `speech2text`:
 ```
