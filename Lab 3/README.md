@@ -51,12 +51,13 @@ Showing that Vosk was accurately hearing my words and interpreting them properly
 
 The simple webserver was called with the following command:
 
-
 ```
 (idd_env) pi@ixe00:~/Documents/Interactive-Lab-Hub/Lab 3$ python server.py
 ```
-From a remote browser on the same network, check to make sure your webserver is working by going to [http://ixe00.local:5000]()
 
+Navigating to http://ixe00.local:5000]() resulted in a simple "Hello World" webpage:
+
+[![Screen Shot 2021-03-17 at 6 18 59 PM](https://user-images.githubusercontent.com/33201141/111559156-408ac580-874d-11eb-850c-9bde1a75360e.png)
 
 ## Demo
 
