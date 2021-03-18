@@ -61,50 +61,89 @@ Navigating to http://ixe00.local:5000]() resulted in a simple "Hello World" webp
 
 ## Demo
 
-In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** feel free to get creative. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser. You can control what system says from the controller as well.
+In the [demo directory](./demo), an example wizard of oz project template with the following command:
+
+```
+(idd_env) pi@ixe00:~/Documents/Interactive-Lab-Hub/Lab 3/demo $ python app.py
+```
+
+In that project, audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser. You can control what system says from the controller as well. You can see the demo running below:
+
+![Screen Shot 2021-03-17 at 6 28 36 PM](https://user-images.githubusercontent.com/33201141/111559886-99a72900-874e-11eb-8d6a-1a155abd40f6.png)
+
+Where the top graph is showing an accelerometer's reading, the `Eavesdrop` button allows you to hear what a person is saying via the microphone, and the `Speak` box allows you to type in the box and have the pi say whatever you type.
 
 ## Optional
 
-There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out we suggest you create a seperarate virutalenv. 
+There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. This is run with the following command:
+
+```
+(dspeech_env) pi@ixe00:~/Documents/Interactive-Lab-Hub/Lab 3/dspeech $ python deepspeech_demo.py -m deepspeech-0.9.3-models.tflite -s deepspeech-0.9.3-models.scorer
+```
+
+While the system consistently misses the first word that I say as it is just recognizing that I'm speaking then, it interprets my words fairly well. Here's the output from a test I ran:
+
+```
+Recognized: testing testing testing
+Recognized: hello can you hear me i'm talking to you
+Recognized: i am talking to you right now and you are interpreting everything that i say
+```
 
 # Lab 3 Part 2
 
 Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller
 
 ## Prep for Part 2
-1. Sketch ideas for what you'll work on in lab on Wednesday.
+I've decided to make a "bomb" game. The user has to perform various tasks, including solving riddles, in order to "diffuse" the bomb and win the game. The process I've decided on is sketched below:
+
+![lab_schematic](https://user-images.githubusercontent.com/33201141/111568294-b5fe9200-875d-11eb-9470-a03c4f517822.png)
 
 ## Share your idea sketches with Zoom Room mates and get feedback
-what was the feedback? Who did it come from?
+I pitched this idea to four people: Shivani Doshi, Ritika Poddar, Dhanya Lakshmi, and Ilan Mandel. Their thoughts are mentioned below:
+
+From Shivani:
+```
+Shivani thought it was a cool idea. She suggested some fun questions the bomb could ask the player and how animations could be shown on the miniPiTFT.
+```
+
+From Ritika:
+```
+She liked the idea and we spent some time talking about applications of the proximity sensor in both of our projects.
+```
+
+From Dhanya:
+```
+Lean into the Monty Python theme and have the system say "Ni!" everytime the user gets too close.
+```
+
+From Ilan:
+```
+Ilan thought it was a cool idea. He suggested also using the proximity sensor as a color sensor and sending the player on tasks to bring the bomb things of a specific color. I like this idea a lot and it will be incorporated into the task list.
+```
 
 ## Prototype your system
-The system should:
-* use the Raspberry Pi
-* use one or more sensors
-* require participants to speak to it
+List components, tasks, interaction expectations, what is Wizarded and what isn't, and show my built wizarding portal.
 
-Document how the system works
+[Add images of all of the above]
 
-Include videos or screencaptures of both the system and the controller.
+[Add demo video]
 
 ## Test the system
+I'm currently quarantining in Los Angeles which means I don't have access to many friends to interact with the system. I did however recruit my significant other to interact with it. (Note, I did not explain to him how it works beforehand but he did see me building it so it wasn't a perfectly novel system for him.)
 
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard after the interaction, but we recognize that can be hard.)
+A video of his interaction with the game is shown below:
 
-Answer the following:
+[Add interaction video]
 
+## Reflection
 ### What worked well about the system and what didn't?
 *your answer here*
 
 ### What worked well about the controller and what didn't?
-
 *your answer here*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
 *your answer here*
 
-
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
 *your answer here*
