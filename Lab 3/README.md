@@ -98,7 +98,7 @@ I've decided to make a "bomb" game. The user has to perform various tasks, inclu
 
 ![lab_schematic](https://user-images.githubusercontent.com/33201141/111568294-b5fe9200-875d-11eb-9470-a03c4f517822.png)
 
-## Share your idea sketches with Zoom Room mates and get feedback
+## Get feedback
 I pitched this idea to four people: Shivani Doshi, Ritika Poddar, Dhanya Lakshmi, and Ilan Mandel. Their thoughts are mentioned below:
 
 From Shivani:
