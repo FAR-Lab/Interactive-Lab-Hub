@@ -20,9 +20,7 @@ espeak_demo.sh  flite_demo.sh     lookdave.wav
 
 were run and resulted in the following:
 
-<p align="center">
 [![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%203/text2speechdemosimage.png)](https://drive.google.com/file/d/1V3xPS5feFjIEdYPoxQkmjCmJgabt5b9p/view?usp=sharing)
-  </p>
 
 Similarly, running `./vosk_demo_mic.sh` and saying `One Two Three` resulted in the following printout from `speech2text`:
 ```
