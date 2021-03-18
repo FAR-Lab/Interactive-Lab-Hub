@@ -9,18 +9,20 @@ import time
 import board
 import busio
 import adafruit_mpu6050
-import Arduino_APDS9960
 import json
 import socket
 
 import signal
 import sys
 from queue import Queue
+from adafruit_apds9960.apds9960 import APDS9960
 
  
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 #mpu2 = Arduino_APDS9960
+int_pin = digitalio.DigitalInOut(board.D5)
+apds = APDS9960(i2c, interrupt_pin=int_pin)
 
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
@@ -28,6 +30,14 @@ hardware = 'plughw:2,0'
 app = Flask(__name__)
 socketio = SocketIO(app)
 audio_stream = Popen("/usr/bin/cvlc alsa://"+hardware+" --sout='#transcode{vcodec=none,acodec=mp3,ab=256,channels=2,samplerate=44100,scodec=none}:http{mux=mp3,dst=:8080/}' --no-sout-all --sout-keep", shell=True)
+
+apds.enable_proximity = True
+apds.proximity_interrupt_threshold = (0, 175)
+apds.enable_proximity_interrupt = True
+
+while True:
+        print(apds.proximity)
+        apds.clear_interrupt()
 
 @socketio.on('speak')
 def handel_speak(val):
