@@ -40,7 +40,7 @@ while True:
         apds.clear_interrupt()
 
 if apds.proximity > 150:
-        print ("You are too close!)
+        print ("You are too close!")
         
 @socketio.on('speak')
 def handel_speak(val):
