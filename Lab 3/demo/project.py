@@ -36,11 +36,10 @@ apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
 while True:
-        print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
+        #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         apds.clear_interrupt()
-
-if apds.proximity > 150:
-        print ("You are too close!")
+        if apds.proximity > 150:
+                print ("You are too close!")
         
 @socketio.on('speak')
 def handel_speak(val):
