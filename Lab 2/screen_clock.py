@@ -1,9 +1,16 @@
 import time
+import datetime
 import subprocess
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+from datetime import date
+from adafruit_rgb_display.rgb import color565
+import adafruit_rgb_display.st7789 as st7789
+import webcolors
+import re
+
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -60,13 +67,78 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
+# Draw a black filled box to clear the image.
+draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+#TODO: fill in here. You should be able to look in cli_clock.py and stats.py
+
+"""
+    Days = str(Clock.days)
+    Hours = str(Clock.hours)
+    Minutes = str(Clock.minutes)
+    Seconds = str(Clock.seconds)
+"""
+
+
+
+# Main loop:
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    Clock = datetime.datetime(2021,4,8,hour=13, minute=10, second=0, microsecond=0) - datetime.datetime.now()
+    Days = str(Clock.days)
+    Clock = str(Clock)
+    Hour = Clock [7:10]
+    Min = Clock [11:13]
+    Sec = Clock [14:16]
+    ClockA = datetime.datetime(2021,4,1,hour=19, minute=9, second=0, microsecond=0) - datetime.datetime.now()
+    DaysA = str(ClockA.days)
+    ClockA = str(ClockA)
+    HourA = ClockA [7:10]
+    MinA = ClockA [11:13]
+    SecA = ClockA [14:16]
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
+    if buttonA.value and buttonB.value:
+        backlight.value = True  # turn on backlight
+        draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
+        y = top
+        draw.text((x, y), "Select Mets Countdown", font=font, fill="#FFFFFF")
+        y += font.getsize(Clock)[1]
+        draw.text((x, y), "Top: Home Opener", font=font, fill="#0000FF")
+        y += font.getsize(Clock)[1]
+        draw.text((x, y), "Bottom: Away Opener", font=font, fill="#FF6600")
 
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+        # Display image.
+        disp.image(image, rotation)
+    else:
+        backlight.value = True  # turn on backlight
+
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
+        y = top
+        draw.text((x, y), Days + " Days " + Hour + " Hr " + Min + " M " + Sec + " S ", font=font, fill="#FFFFFF")
+        y += font.getsize(Clock)[1]
+        draw.text((x, y), "Countdown to:", font=font, fill="#0000FF")
+        y += font.getsize(Clock)[1]
+        draw.text((x, y), "The Mets Home Opener!", font=font, fill="#FF6600")
+
+        # Display image.
+        disp.image(image, rotation)
+
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
+        y = top
+        draw.text((x, y), DaysA + " Days " + HourA + " Hr " + MinA + " M " + SecA + " S ", font=font, fill="#FFFFFF")
+        y += font.getsize(ClockA)[1]
+        draw.text((x, y), "Countdown to:", font=font, fill="#0000FF")
+        y += font.getsize(ClockA)[1]
+        draw.text((x, y), "The Mets Away Opener!", font=font, fill="#FF6600")
+
+        # Display image.
+        disp.image(image, rotation)
+
+    if not buttonA.value and not buttonB.value:  # none pressed
+        disp.fill(color565(0, 0, 0))  # black
