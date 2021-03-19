@@ -12,6 +12,7 @@ import adafruit_apds9960.apds9960
 import adafruit_mpu6050
 import json
 import socket
+import digitalio
 
 import signal
 import sys
