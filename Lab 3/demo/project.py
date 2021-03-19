@@ -35,6 +35,10 @@ apds.enable_proximity = True
 apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
+while True:
+        print(apds.proximity)
+        apds.clear_interrupt()
+
 @socketio.on('speak')
 def handel_speak(val):
     call(f"espeak '{val}'", shell=True)
