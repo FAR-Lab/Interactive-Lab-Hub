@@ -72,8 +72,8 @@ I want to control my clock from lab2 with my voice. For example by saying "East"
 
 Additionally, I want to implement the joystick. And since I like sushi, I want the joystick be represent a sushi wheel where four different types of sushi will be displayed according to the current coordinates of the joystick.
 
-![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%303/speech.png)
-![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%303/sushi_wheel.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%203/speech.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%203/sushi_wheel.png)
 
 
 ## Share your idea sketches with Zoom Room mates and get feedback
