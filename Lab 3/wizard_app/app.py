@@ -40,17 +40,6 @@ audio_stream = Popen("/usr/bin/cvlc alsa://"+hardware+" --sout='#transcode{vcode
 def handel_speak(val):
     bg.speak(val)
 
-@socketio.on('connect')
-def test_connect():
-    print('connected')
-    emit('after connect',  {'data':'Lets dance'})
-
-@socketio.on('ping-gps')
-def handle_message(val):
-    # print(mpu.acceleration)
-    emit('pong-gps', mpu.acceleration)
-
-
 @socketio.on('name')
 def respond_to_name(choice):
     if choice == 'accept':
