@@ -10,6 +10,7 @@ from flask_socketio import SocketIO, send, emit
 from subprocess import Popen, call
 import RPi.GPIO as GPIO
 import time
+from threading import Thread
 
 import board
 import busio
@@ -24,10 +25,6 @@ cwd = os.getcwd()
 i2c = busio.I2C(board.SCL, board.SDA)
 Servo, disp, disp_opts = bg.setup()
 
-detonate_flag = False
-continue_flag = False
-
-
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
 
@@ -41,44 +38,31 @@ def handel_speak(val):
     bg.speak(val)
 
 @socketio.on('start')
-def start_game():
+def start_game(continue_flag):
+    continue_flag = False
+
     # bomb Game Introduction
     image = Image.open(bg.IMG_PATH + 'bomb_homescreen.png')
     image = bg.image_formatting(image)
     disp.image(image, disp_opts[0])
 
-    bg.clock_tick(Servo)
+    Thread(target=bg.clock_tick(Servo)).start()
 
     bg.speak("Hello and welcome to the Bomb Game. I am a fake bomb. Diffuse me before the time runs out or die. You "
              "will have 5 minutes. Let's begin.")
     bg.speak("Do not touch me unless directed to. Breaking this rule will lead to detonation.")
 
     # Round 1: Answer some questions
-    bg.speak("What is your name?")
-    while not continue_flag:
-        time.sleep(0.1)
-
-    continue_flag = False
-
-    bg.speak("What is your favorite color?")
-    while not continue_flag:
-        time.sleep(0.1)
-
-    continue_flag = False
-
-    # Round 2
-
-    for i in range(10):
-        bg.led_tick(bg.LED_PIN)
+    bg.speak("Round 1: Answer some initial questions so I know who I am talking to")
+    bg.speak("Question 1: What is your name?")
 
 @socketio.on('name')
 def respond_to_name(choice):
     if choice == 'accept':
         bg.speak('Name Accepted.')
-        continue_flag = True
     else:
         bg.speak('That is not your name. Name Rejected. Detonating now')
-        detonate_flag = True
+        bg.detonate()
 
 @app.route('/')
 def index():
