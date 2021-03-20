@@ -23,7 +23,6 @@ import sys
 cwd = os.getcwd()
 
 i2c = busio.I2C(board.SCL, board.SDA)
-Servo, disp, disp_opts = bg.setup()
 
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
@@ -39,29 +38,144 @@ def handel_speak(val):
 
 @socketio.on('start')
 def start_game():
-    continue_flag = False
-
-    # bomb Game Introduction
-    image = Image.open(bg.IMG_PATH + 'bomb_homescreen.png')
-    image = bg.image_formatting(image)
-    disp.image(image, disp_opts[0])
-
-    Thread(target=bg.clock_tick(Servo)).start()
+    Thread(target=bg.clock_tick).start()
 
     bg.speak("Hello and welcome to the Bomb Game. I am a fake bomb. Diffuse me before the time runs out or die. You "
              "will have 5 minutes. Let's begin.")
-    bg.speak("Do not touch me unless directed to. Breaking this rule will lead to detonation.")
 
     # Round 1: Answer some questions
     bg.speak("Round 1: Answer some initial questions so I know who I am talking to")
     bg.speak("Question 1: What is your name?")
 
+@socketio.on('detonate')
+def detonate():
+    bg.detonate()
+
 @socketio.on('name')
 def respond_to_name(choice):
     if choice == 'accept':
         bg.speak('Name Accepted.')
+
+        # Round 1 continues
+        bg.speak("Question 2: What is your favorite color?")
     else:
-        bg.speak('That is not your name. Name Rejected. Detonating now')
+        bg.speak('That is not your name. Name rejected.')
+        bg.detonate()
+
+@socketio.on('color')
+def respond_to_color(choice):
+    if choice == 'accept':
+        bg.speak('Color Accepted.')
+        bg.speak("You have passed Round 1.")
+        bg.speak("Round 2: Answer the following riddle.")
+        bg.speak("What has to be broken before you can use it?")
+        #egg
+    else:
+        bg.speak("How do you not know your favorite color? Color rejected.")
+        bg.detonate()
+
+@socketio.on('riddle1')
+def riddle1(choice):
+    if choice == 'accept':
+        bg.speak('Answer correct.')
+        bg.speak("You have passed Round 2")
+        bg.speak("Round 3: In order to access my controls, you must first unlock the system. To unlock the system, you will need to solve a series of math questions. Once you know the answer, say the number aloud and turn the turn dial on The Lock that many times.")
+        bg.speak("Question 1: Turn the lock clockwise this many times. 2 times 2 plus 3")
+        bg.show_image('q1.png')
+        is_passed = bg.math_question(1)
+        if is_passed:
+            bg.speak('Correct. Question 2: Turn the lock counter-clockwise this many times. 6 modulus 3 plus 2')
+            bg.show_image('q2.png')
+            is_passed = bg.math_question(2)
+            if is_passed:
+                bg.speak(
+                    'Correct. Question 3: Turn the lock clockwise this many times. 10 times 2 plus 4 all divided by 8')
+                bg.show_image('q3.png')
+                is_passed = bg.math_question(3)
+                if is_passed:
+                    bg.speak(
+                        'Correct. Question 4: Turn the lock counter-clockwise this many times. 6 times 6 divided by 3 minus 7')
+                    bg.show_image('q4.png')
+                    is_passed = bg.math_question(4)
+                    if is_passed:
+                        bg.speak('Answer correct.')
+                        bg.speak("You have passed Round 3")
+                        bg.speak("Round 4: Answer the following riddle")
+                        bg.speak("I’m tall when I’m young, and I’m short when I’m old. What am I?")
+                        # candle
+                    else:
+                        bg.speak('That is incorrect.')
+                        bg.detonate()
+                else:
+                    bg.speak('That is incorrect. This is just algebra, buddy.')
+                    bg.detonate()
+            else:
+                bg.speak('That is incorrect. This is just algebra, buddy.')
+                bg.detonate()
+        else:
+            bg.speak('That is incorrect. This is just algebra, buddy.')
+            bg.detonate()
+    else:
+        bg.speak('That is incorrect. And that was the easy one...awkward')
+        bg.detonate()
+
+@socketio.on('riddle2')
+def riddle2(choice):
+    if choice == 'accept':
+        bg.speak('Correct.')
+        bg.speak('You have passed Round 4')
+        bg.speak('Round 5: Follow the arrows to decode the system. When an arrow appears on the screen, push the joystick in that direction. The joystick direction is alighed with the screen.')
+        is_passed = bg.arrow_question()
+        if is_passed:
+            bg.speak('You have correctly decoded the system and passed Round 5.')
+            bg.speak('Round 6: Answer the following riddle.')
+            bg.speak('What is full of holes but still holds water?')
+            # sponge
+        else:
+            bg.speak('You were unsuccessful at decoding the system.')
+            bg.detonate()
+    else:
+        bg.speak('Incorrect.')
+        bg.detonate()
+
+@socketio.on('riddle3')
+def riddle3(choice):
+    if choice == 'accept':
+        bg.speak("That is correct. You have passed Round 5")
+        bg.speak("Round 6: Bring me objects of a certain color and show them to my eye")
+        bg.speak("Object 1: Show me a red object")
+        is_passed = bg.show_and_tell('red')
+        if is_passed:
+            bg.speak("Well done. Object 2: Show me a blue object")
+            is_passed = bg.show_and_tell('blue')
+            if is_passed:
+                bg.speak("Well done. Object 3: Show me a white object")
+                is_passed = bg.show_and_tell('white')
+                if is_passed:
+                    bg.speak('You have passed round 6')
+                    bg.speak(
+                        "Time is almosst up. Cut the red wire near the blinking red light to diffuse. Detonation will occur in 10 seconds")
+                    is_passed = bg.cut_wire()
+                    if is_passed:
+                        bg.speak('Detonation averted. Thank you for playing.')
+                        print('Closing Gracefully')
+                        audio_stream.terminate()
+                        GPIO.cleanup()
+                        sys.exit(0)
+                    else:
+                        bg.speak('You cut the wrong wire')
+                        bg.detonate()
+                else:
+                    bg.speak('You have failed')
+                    bg.detonate()
+            else:
+                bg.speak('Incorrect')
+                bg.detonate()
+        else:
+            bg.speak('Incorrect')
+            bg.detonate()
+    else:
+        bg.speak('That is incorrect.')
         bg.detonate()
 
 @app.route('/')
