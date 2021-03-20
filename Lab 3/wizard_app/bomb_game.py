@@ -106,6 +106,9 @@ def clock_tick(Servo):
         time.sleep(0.1)
     Servo.stop()
 
+def detonate():
+    speak('You have failed. Detonating in 3...2...1...')
+    GPIO.cleanup()
 
 def speak(m):
     filename = 'tmp.mp3'
