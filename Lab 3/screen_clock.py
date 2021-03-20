@@ -14,6 +14,11 @@ from i2c_button import I2C_Button
 from random import randint
 import qwiic_joystick
 import qwiic_i2c
+from vosk import Model, KaldiRecognizer
+import sys
+import os
+import wave
+import json
 
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
