@@ -6,8 +6,8 @@ const mic = document.getElementById('mic');
 const play = document.getElementById('play');
 const wordsIn = document.getElementById('wordsIn');
 const send = document.getElementById('send');
-const name = document.getElementsByClassName('name');
-const start = document.getElementbyId('start-game');
+const accept_name = document.getElementById('accept-name');
+const start = document.getElementById('start-game');
 
 const src = mic.src
 mic.src = ''
@@ -42,11 +42,12 @@ socket.on('disconnect', () => {
 
   });
 
-name.onclick = () => {
-   if this.id == 'accept-name':
-       socket.emit('name', 'accept')
-   else:
-       socket.emit('accept_name', 'reject')
+accept_name.onclick = () => {
+   socket.emit('name', 'accept')
+}
+
+reject_name.onclick =() => {
+   socket.emit('name', 'reject')
 }
 
 start.onclick = () => {
