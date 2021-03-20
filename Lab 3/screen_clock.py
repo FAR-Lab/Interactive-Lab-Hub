@@ -192,12 +192,12 @@ while True:
             image3 = image_formatting(image3, width, height)
             disp.image(image3, rotation)
 
-    if myJoystick.get_horizontal() <= 100 and myJoystick.get_vertical() <= 600:
+    if myJoystick.get_horizontal() <= 50 and myJoystick.get_vertical() <= 600:
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/seaurchin.png")
             image3 = image_formatting(image3, width, height)
             disp.image(image3, rotation)
 
-    if myJoystick.get_horizontal() <= 100 and myJoystick.get_vertical() <= 100:
+    if myJoystick.get_horizontal() <= 50 and myJoystick.get_vertical() <= 50:
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/fattytuna.png")
             image3 = image_formatting(image3, width, height)
             disp.image(image3, rotation)
