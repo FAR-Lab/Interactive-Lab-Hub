@@ -68,6 +68,14 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+I want to control my clock from lab2 with my voice. For example by saying "East" Beijing time will be displayed, by saying "West" NYC time will be displayed, by saying "Middle" Tel Aviv time will be displayed, by saying "Snow" Merry Christmas will be displayed.
+
+Additionally, I want to implement the joystick. And since I like sushi, I want the joystick be represent a sushi wheel where four different types of sushi will be displayed according to the current coordinates of the joystick.
+
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%303/speech.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%303/sushi_wheel.png)
+
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
