@@ -21,7 +21,6 @@ import wave
 import json
 
 i2c = busio.I2C(board.SCL, board.SDA)
-sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
 button = I2C_Button(i2c)
 
 # scan the I2C bus for devices
