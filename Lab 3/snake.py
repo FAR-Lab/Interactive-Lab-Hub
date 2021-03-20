@@ -37,9 +37,7 @@ def main():
     DISPLAYSURF = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
     BASICFONT = pygame.font.Font('freesansbold.ttf', 18)
     pygame.display.set_caption('Snake- Qwiic Joystick')
-    flamefile = 'Pixel-flame.png'
-    flame = pygame.image.load(flamefile).convert_alpha()
-    flamecell = pygame.transform.scale(flame,(CELLSIZE,CELLSIZE))
+
     
     showStartScreen()
     while True:
@@ -228,12 +226,6 @@ def drawWorm(wormCoords):
         pygame.draw.rect(DISPLAYSURF, DARKRED, wormSegmentRect)
         wormInnerSegmentRect = pygame.Rect(x + 4, y + 4, CELLSIZE - 8, CELLSIZE - 8)
         pygame.draw.rect(DISPLAYSURF, RED, wormInnerSegmentRect)
-
-
-def drawApple(coord):
-    x = coord['x'] * CELLSIZE
-    y = coord['y'] * CELLSIZE
-    DISPLAYSURF.blit(flamecell, (x,y))
 
 
 def drawGrid():
