@@ -174,7 +174,7 @@ while True:
         speechInput = False
         text = Speech2Text()
 
-    if prox >= 200 || text = "christmas":
+    if prox >= 200 or text = "christmas":
         image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/christmas.jpg")
         image3 = image_formatting(image3, width, height)
         try:
@@ -187,7 +187,7 @@ while True:
             break
 
     else:
-        if buttonB.value and not buttonA.value || text = "china":  # just button A pressed
+        if (buttonB.value and not buttonA.value) or text = "china":  # just button A pressed
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
             image3 = image_formatting(image3, width, height)
 
@@ -198,7 +198,7 @@ while True:
             draw.text((4, 0), "Beijing:", fill="#000000")
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-        elif buttonA.value and not buttonB.value || text = "israel":  # just button B pressed
+        elif (buttonA.value and not buttonB.value) or text = "israel":  # just button B pressed
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
             image3 = image_formatting(image3, width, height)
 
