@@ -182,6 +182,8 @@ while True:
             ready = False
             speechInput = True
 
+    runExample()
+    
     if speechInput:
         speechInput = False
         text = Speech2Text()
