@@ -61,7 +61,7 @@ Navigating to http://ixe00.local:5000]() resulted in a simple "Hello World" webp
 
 ## Demo
 
-In the [demo directory](./demo), an example wizard of oz project template with the following command:
+In the [demo directory](wizard_app), an example wizard of oz project template with the following command:
 
 ```
 (idd_env) pi@ixe00:~/Documents/Interactive-Lab-Hub/Lab 3/demo $ python app.py
