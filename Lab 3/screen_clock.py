@@ -119,7 +119,7 @@ def Speech2Text():
 
     model = Model("model")
     # You can also specify the possible word list
-    rec = KaldiRecognizer(model, wf.getframerate(), "china israel newyork")
+    rec = KaldiRecognizer(model, wf.getframerate(), "east west middle snow")
 
     while True:
         data = wf.readframes(4000)
@@ -186,7 +186,7 @@ while True:
         speechInput = False
         text = Speech2Text()
 
-        if text == "beijing":  # just button A pressed
+        if text == "east":  # just button A pressed
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
             image3 = image_formatting(image3, width, height)
 
@@ -197,7 +197,7 @@ while True:
             draw.text((4, 0), "Beijing:", fill="#000000")
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-        elif text == "israel":  # just button B pressed
+        elif text == "middle":  # just button B pressed
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
             image3 = image_formatting(image3, width, height)
 
@@ -208,7 +208,7 @@ while True:
             draw.text((4, 0), "Tel Aviv:", fill="#000000")
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-        elif text == "newyork":
+        elif text == "west":
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/nyc.jpg")
             image3 = image_formatting(image3, width, height)
 
@@ -218,6 +218,10 @@ while True:
             datetime_NY = datetime.now(tz_NY)
             draw.text((4, 0), "New York:", fill="#000000")
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+
+        elif text == "snow":
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/christmas.jpg")
+            image3 = image_formatting(image3, width, height)
 
         # Display image.
         disp.image(image3, rotation)
