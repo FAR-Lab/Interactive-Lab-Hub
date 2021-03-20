@@ -248,6 +248,8 @@ def show_and_tell(color):
             return False
         if apds.color_data_ready:
             r, g, b, c = apds.color_data
+            s_color = 'wrong'
+            print(f'r: {r}, b: {b}: g: {g}')
             if r > 155 and g < 155 and b < 155:
                 s_color = 'red'
             elif r < 155 and g > 155 and b < 155:
