@@ -199,7 +199,7 @@ while True:
                 break
 
         else:
-            if text == "china":  # just button A pressed
+            if text == "east":  # just button A pressed
                 image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
                 image3 = image_formatting(image3, width, height)
 
@@ -210,7 +210,7 @@ while True:
                 draw.text((4, 0), "Beijing:", fill="#000000")
                 draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-            elif text == "israel":  # just button B pressed
+            elif text == "middle":  # just button B pressed
                 image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
                 image3 = image_formatting(image3, width, height)
 
@@ -221,7 +221,7 @@ while True:
                 draw.text((4, 0), "Tel Aviv:", fill="#000000")
                 draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-            elif text == "states":
+            elif text == "west":
                 image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/nyc.jpg")
                 image3 = image_formatting(image3, width, height)
 
