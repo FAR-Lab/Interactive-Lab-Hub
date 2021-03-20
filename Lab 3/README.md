@@ -79,6 +79,7 @@ Additionally, I want to implement the joystick. And since I like sushi, I want t
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+Feedback came from Jeanne Li and Jiadong Liu. They said that I should maybe include a button or some mechanism that indicated the start and the end of a voice recording. They also thought that the sushi wheel idea was very interesting.
 
 ## Prototype your system
 
@@ -89,7 +90,13 @@ The system should:
 
 *Document how the system works*
 
+You can control my lab2 clock with voice. For the system to listen to your voice, the red button must first be pressed down. After you have said your desired phrase, let go of the button. By saying "East" Beijing time will be displayed, by saying "West" NYC time will be displayed, by saying "Middle" Tel Aviv time will be displayed, by saying "Snow" Merry Christmas will be displayed.
+
+Additionally, by moving the joystick in different directions, four different types of sushi will be displayed. The four different types are salmon, tuna, sea urchin and fatty tuna.
+
 *Include videos or screencaptures of both the system and the controller.*
+
+https://drive.google.com/file/d/1qT1YADKvDmYolcBbKoGKtXna_UPi28G5/view?usp=sharing
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -97,18 +104,20 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+Instead of having to press different buttons, now the whole system can be used through the pressing of only one button. This I thought was quite a big plus.
+
+The latency of the whole system causes the system to not work as well as hoped. The user would not be able to speak immediately to the microphone right after the button was pressed. And the recording would not immediately come to a halt when the button was un-pressed. This issue sometimes caused confusion to the users.
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+The button that indicated the start and the end of a voice recording worked very well. I also made sure the button blinked while the voice was being recorded to make the recording experience more intuitive. 
+
+Although the button would blink, it would be hard sometimes to see it blink because the user’s finger would be covering the whole button. As an improvement, maybe sound can also be used to indicate that the user is being recorded.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
-
+A good microphone and a building a good system that can recognize different vocabulary is very important. With either of those missing, a decent voice recognition system will be very hard to produce.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*your answer here*
-
+Other sensing modalities that we can potentially capture includes acceleration and torque. With the addition of these modalities and we can even make this a wearable watch for fall detection. This would be beneficial to the elderly who are living alone.
