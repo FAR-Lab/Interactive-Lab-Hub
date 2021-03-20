@@ -111,6 +111,7 @@ width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 speechInput = False
+ready = False
 
 def Speech2Text():
     wf = wave.open("recording.wav", "rb")
@@ -171,12 +172,15 @@ while True:
     button.led_cycle_ms = 0
     button.led_off_ms = 0
 
-    if myJoystick.get_horizontal() <= 20:
+    if myJoystick.get_horizontal() <= 20 and not ready:
         process = subprocess.Popen(["arecord", "-D", "hw:2,0", "-d", "5", "-f", "cd", "recording.wav", "-c", "1"])
+        ready = True
 
     else:
-        process.kill()
-        speechInput = True
+        if ready:
+            process.kill()
+            ready = False
+            speechInput = True
 
     if speechInput:
         speechInput = False
