@@ -6,7 +6,8 @@ const mic = document.getElementById('mic');
 const play = document.getElementById('play');
 const wordsIn = document.getElementById('wordsIn');
 const send = document.getElementById('send');
-const accept_name = document.getElementsByClassName('name');
+const name = document.getElementsByClassName('name');
+const start = document.getElementbyId('start-game');
 
 const src = mic.src
 mic.src = ''
@@ -46,4 +47,8 @@ name.onclick = () => {
        socket.emit('name', 'accept')
    else:
        socket.emit('accept_name', 'reject')
+}
+
+start.onclick = () => {
+    socket.emit('start')
 }
