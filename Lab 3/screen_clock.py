@@ -145,6 +145,9 @@ def runExample():
 
         time.sleep(.5)
 
+myJoystick = qwiic_joystick.QwiicJoystick()
+myJoystick.begin()
+
 
 while True:
     # Draw a black filled box to clear the image.
