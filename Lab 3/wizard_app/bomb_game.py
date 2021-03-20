@@ -11,6 +11,7 @@ import qwiic_twist
 import qwiic_button
 from adafruit_apds9960.apds9960 import APDS9960
 import adafruit_rgb_display.st7789 as st7789
+from threading import Thread
 
 cwd = os.getcwd()
 
@@ -89,15 +90,30 @@ def setup():
     twist.set_red(100)
     twist.set_green(255)
 
-    return Servo, disp, [rotation, top]
+    # bomb Game Introduction
+    image = Image.open(IMG_PATH + 'bomb_homescreen.png')
+    image = image_formatting(image)
+    disp.image(image, rotation)
 
-def led_tick(LED_PIN):
-    GPIO.output(LED_PIN, GPIO.HIGH)
-    time.sleep(1)
-    GPIO.output(LED_PIN, GPIO.LOW)
-    time.sleep(1)
+    return Servo, disp, [rotation, top], twist
 
-def clock_tick(Servo):
+Servo, disp, disp_opts, twist = setup()
+
+def twist_tick(num_blinks):
+    for i in range(num_blinks):
+        twist.set_red(255)
+        time.sleep(1)
+        twist.set_red(100)
+        time.sleep(1)
+
+def led_tick(num_blinks):
+    for i in range(num_blinks):
+        GPIO.output(LED_PIN, GPIO.HIGH)
+        time.sleep(1)
+        GPIO.output(LED_PIN, GPIO.LOW)
+        time.sleep(1)
+
+def clock_tick():
     Servo.start(2.5)
     while True:
         for i in range(0, 60, 3):
@@ -107,8 +123,25 @@ def clock_tick(Servo):
             time.sleep(0.1)
     Servo.stop()
 
+def show_image(filename):
+    image = Image.open(IMG_PATH + filename)
+    image = image_formatting(image)
+    disp.image(image, disp_opts[0])
+
 def detonate():
-    speak('You have failed. Detonating in 3...2...1...')
+    speak('You have failed. Detonating in 3...2...1...Boom')
+    Thread(target=led_tick, args=(10,)).start()
+    Thread(target=twist_tick, args=(10,)).start()
+    for i in range(0, 37):
+        show_image(f'boom{i}.png')
+        time.sleep(0.5)
+
+    show_image('game_over.png')
+
+    speak('Game Over. Would you like to play again?')
+
+    show_image('bomb_homescreen.png')
+
     GPIO.cleanup()
 
 def speak(m):
@@ -125,3 +158,16 @@ def image_formatting(image2):
     image2 = image2.resize((240, 135), Image.BICUBIC)
 
     return image2
+
+def math_question(q_num):
+    return True
+
+def arrow_question():
+    return True
+
+def show_and_tell(color):
+    return True
+
+
+
+
