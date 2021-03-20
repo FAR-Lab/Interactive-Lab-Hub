@@ -186,51 +186,51 @@ while True:
         speechInput = False
         text = Speech2Text()
 
-    if prox >= 200 or text == "christmas":
-        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/christmas.jpg")
-        image3 = image_formatting(image3, width, height)
-        try:
-            button.led_bright = 100
-            button.led_gran = 1
-            button.led_cycle_ms = 2000
-            button.led_off_ms = 100
-        except KeyboardInterrupt:
-            button.clear()
-            break
-
-    else:
-        if (buttonB.value and not buttonA.value) or text == "china":  # just button A pressed
-            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
+        if prox >= 200 or text == "christmas":
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/christmas.jpg")
             image3 = image_formatting(image3, width, height)
-
-            draw = ImageDraw.Draw(image3)
-
-            tz_NY = pytz.timezone('PRC')
-            datetime_NY = datetime.now(tz_NY)
-            draw.text((4, 0), "Beijing:", fill="#000000")
-            draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
-
-        elif (buttonA.value and not buttonB.value) or text == "israel":  # just button B pressed
-            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
-            image3 = image_formatting(image3, width, height)
-
-            draw = ImageDraw.Draw(image3)
-
-            tz_NY = pytz.timezone('Asia/Tel_Aviv')
-            datetime_NY = datetime.now(tz_NY)
-            draw.text((4, 0), "Tel Aviv:", fill="#000000")
-            draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+            try:
+                button.led_bright = 100
+                button.led_gran = 1
+                button.led_cycle_ms = 2000
+                button.led_off_ms = 100
+            except KeyboardInterrupt:
+                button.clear()
+                break
 
         else:
-            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/nyc.jpg")
-            image3 = image_formatting(image3, width, height)
+            if (buttonB.value and not buttonA.value) or text == "china":  # just button A pressed
+                image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
+                image3 = image_formatting(image3, width, height)
 
-            draw = ImageDraw.Draw(image3)
+                draw = ImageDraw.Draw(image3)
 
-            tz_NY = pytz.timezone('America/New_York')
-            datetime_NY = datetime.now(tz_NY)
-            draw.text((4, 0), "New York:", fill="#000000")
-            draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+                tz_NY = pytz.timezone('PRC')
+                datetime_NY = datetime.now(tz_NY)
+                draw.text((4, 0), "Beijing:", fill="#000000")
+                draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+
+            elif (buttonA.value and not buttonB.value) or text == "israel":  # just button B pressed
+                image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
+                image3 = image_formatting(image3, width, height)
+
+                draw = ImageDraw.Draw(image3)
+
+                tz_NY = pytz.timezone('Asia/Tel_Aviv')
+                datetime_NY = datetime.now(tz_NY)
+                draw.text((4, 0), "Tel Aviv:", fill="#000000")
+                draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
+
+            else:
+                image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/nyc.jpg")
+                image3 = image_formatting(image3, width, height)
+
+                draw = ImageDraw.Draw(image3)
+
+                tz_NY = pytz.timezone('America/New_York')
+                datetime_NY = datetime.now(tz_NY)
+                draw.text((4, 0), "New York:", fill="#000000")
+                draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
     # Display image.
     disp.image(image3, rotation)
