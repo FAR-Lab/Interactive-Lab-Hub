@@ -148,10 +148,16 @@ def detonate():
     Thread(target=led_tick, args=(10,)).start()
     Thread(target=twist_tick, args=(10,)).start()
     time.sleep(0.5)
-    speak('You have failed. Detonating in 3 2 1 Boom')
+    speak('You have failed. Detonating in 3')
+    time.sleep(1)
+    speak('2')
+    time.sleep(1)
+    speak('1')
+    time.sleep(1)
+    speak('Boom')
     for i in range(0, 37):
         show_image(f'boom{i}.png')
-        time.sleep(0.5)
+        time.sleep(0.1)
 
     show_image('game_over.png')
 
@@ -159,8 +165,6 @@ def detonate():
 
     time.sleep(1)
     show_image('bomb_homescreen.png')
-
-    GPIO.cleanup()
 
 def speak(m):
     filename = 'tmp.mp3'
@@ -189,6 +193,7 @@ def math_question(q_num):
                 return False
         elif q_num == 4:
             if twist.count == 23:
+                show_image('bomb_homescreen.png')
                 return True
             elif twist.count < 23 or time_ind > 60:
                 return False
@@ -216,6 +221,7 @@ def arrow_wait(direction):
             return False
         x = joystick.horizontal
         y = joystick.vertical
+        print(f'x: {x}, y: {y}')
         j_direction = 'neutral'
         if x > 575:
             j_direction = "right"
