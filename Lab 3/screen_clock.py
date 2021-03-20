@@ -14,11 +14,6 @@ from i2c_button import I2C_Button
 from random import randint
 import qwiic_joystick
 import qwiic_i2c
-connectedDevices = i2cDriver.scan()
-if myDeviceAddress in connectedDevices:
-    with qwiic_i2c.getI2CDriver() as i2c:
-        i2c.writeByte(myDeviceAddress, register, 0x3F)
-
 
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
