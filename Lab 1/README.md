@@ -56,34 +56,55 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
 **Describe your setting, players, activity and goals here.**
 
+_Setting:_ The interaction is taking place in the kitchen. The light will shine on various objects to tell you what to use, and when to use it. When it shines on an object you'll know that it is time to use that object. It will flash multiple times to indicated measurements and sizes, and use color to indicate tool, vs food, vs spice.
+
+_Players:_ The light will be specifically for the person doing the cooking. Whether that is the chef, sous chef, or helper. Since there is just one light, if there are multiple people, this will be indicated by the size of the light beam.
+
+_Activity:_ The actors will be cooking. The light will instruct them on how to best follow the recipe and guide them through the process.
+
+_Goals:_  The goal for the cooks is to create a delicious dish according to the recipe.
+
+_Device:_ The light will originate from the stove, since this is where the majority of the cooking will take place. Therefore most of the tools needed to cook will be set away from the stove so the light can shine on them.
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
 **Include a picture of your storyboard here**
+
+![storyboard](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3668.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
+- "I like the use of color in the storyboard"
+- "I really like the idea because I sometimes cook and when i'm looking at the recipes and cooking it's really hard. If it was to remind what I was supposed to do next it would be really convenient"
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+I held my phone light under my microwave and create a tube with my hands to sharpen the beam. Here is what I discovered:
+
+- Each kitchen is different
+- Depending on the kitchen, the light can only access certain things, otherwise it gets blocked out
+- It cannot reach things that are further way, or things that are below or inside something else
+- If an item is inside something, it can tell you to open the drawer/cabinet, but may not be able to tell you what’s in there
+- Beam of light needs to be very sharp and pointed for the user to know exactly what it's shining on
+- Light needs to be strong or you can’t really see it with the lights on
+- If there’s ingredients you need to first know what they are and take them out of the fride, spice cabinet, etc.
+- Let’s say you need a knife, there may be multiple that fit the bill (or only one), the light will need to know which to point at
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+Yes
+
+- The light will need 360 degree pivot capabilities and it would be better if it had an arm to extend
+- The light will need a new indicator to tell someone to open something and get an item from inside, for example flashing (a different number of times from when it indicates measurements) or circling over the object
 
 ## Part C. Prototype the device
 
@@ -97,14 +118,21 @@ If you run into technical issues with this tool, you can also use a light switch
 
 **Give us feedback on Tinkerbelle.**
 
+- The tool is really cool
+- it's a bit tricky to figure out how to setup if you don't have an engineering backgrond
+
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
+https://cornell.zoom.us/rec/share/tYGNEcyiWUvulkv2k9dxB5rdER293ue8vLndsPhepPHnXYHzT9-4lAdnpDdb-uY.DU23eulz5DQg6SQt?startTime=1613253242000
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
+![Updated storyboard](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3679.jpg)
 
 ## Part E. Costume the device
 
@@ -114,15 +142,27 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3680%202.jpg)
 
+![Costume](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Screen%20Shot%202021-02-13%20at%205.57.45%20PM.png)
+
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
+ - I think the device is going to need to be adaptable to many different kitchens, therefore:
+   - I included hooks on top so that it can easily be mounted under typically kitchen objects (e.g., microwaves, cabinets)
+   - I made it box shaped to match most kitchen objects (e.g., microwaves, cabinets)
+   - I encased the phone in plastic to withstand high temperatures, steam, and splashes
+   - I included a fan on the bottom of the appliance to keep it cool in hot kitchens or if places above a stove.
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
+https://cornell.zoom.us/rec/share/ntCnZeRBa3hMjWkniVkdBi8hsU6G6sJ-5oQqVxvhBlASPU2KdTcewqkkDTesWuK4.11e9zF-4fBSRwhIz?startTime=1613256276000
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+I collaborated with my team on this lab: Min Tae Lee, William Zhang, and Rob Gentul. Rob was instrumental in helping me record the videos and test the prototype, he manned the computer while I interacted with the device!
 
 # Staging Interaction, Part 2 
 
@@ -135,6 +175,16 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Rob:
+Very clear and useful concept! I liked how the demo went through the paces of the ingredients and tools you could use in the kitchen. I’d try incorporating sound to better suggest which items the device wants you to use,
+
+Min Tae:
+Interesting idea - I think you could expand the idea in part 2 with features like voice control (so that you can control the device with voices when your hands are full while cooking) and instructions via words (different color lights might actually be confusing when you are not used to which color means what).
+
+William:
+I really enjoyed your prototype video as it really showcases all the functionalities of your device. I like how the colors were chosen to represent different actions and ingredients. I thought the use of white as salt and black as pepper was quite shrewd.
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -142,4 +192,34 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+<<<<<<< HEAD
+**Document everything here.**
+
+_Setting:_ The interaction is taking place in the kitchen. In the new version, you will push a button in your kitchen to start cooking the recipe. The device will have a recipe pre installed, and will communicate with you via speech. When you push the button, the recipe will start, and the device will speak to you to tell you what to do. Once you complete a step, you will let the device know by pushing the button again. If it is a timed excercise, the device will time it automatically and use sound effects to tell you when the time is up.
+
+_Players:_ At the beginning of the recipe, the device can ask how many chefs there are, and can indicate who it is speaking to before it gives commands (this part is not demonstrated in the video)
+
+_Activity:_ The actors will be cooking. The device will instruct them on how to best follow the recipe and guide them through the process. With the new design you do not need to stop cooking to look at the light,l because you can hear it. We will offer the old visual method as well for those who are hearing impaired or prefer that option. Both can work in tandem.
+
+_Goals:_  The goal for the cooks is to create a delicious dish according to the recipe.
+
+_Device:_ The button will be near the counter, stove, and fridge so as to be as close to the cooking action is possible. It can be placed in a different area depending on the kitchen.
+
+
+Team feedback:
+
+"Amazeballs"
+"it looks good"
+*Lots of laughter*
+
+Storyboard:
+
+![New Storyboard](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IMG_3689.jpg)
+
+Video:
+
+https://cornell.zoom.us/rec/share/P23mPpq9w-MZebxXJu2so8wRDOQc6N5HONf0fQmrM4PFx52WwtY7GH8-R2MxEIGl.36QZYloHg8OiPDi4?startTime=1613580489000
+
+=======
 **Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+>>>>>>> 729b871ce45bdb72ca969bfb2f26a8e3ac5a4f8e
