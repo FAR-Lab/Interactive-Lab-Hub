@@ -192,7 +192,7 @@ while True:
             image3 = image_formatting(image3, width, height)
             disp.image(image3, rotation)
 
-    if myJoystick.get_horizontal() <= 600 and myJoystick.get_vertical() <= 600:
+    if myJoystick.get_horizontal() <= 600 and myJoystick.get_vertical() <= 600 and myJoystick.get_vertical() >=500:
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/seaurchin.png")
             image3 = image_formatting(image3, width, height)
             disp.image(image3, rotation)
