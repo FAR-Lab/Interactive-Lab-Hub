@@ -232,9 +232,9 @@ while True:
                 draw.text((4, 0), "New York:", fill="#000000")
                 draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-    # Display image.
-    disp.image(image3, rotation)
-    time.sleep(1)
+        # Display image.
+        disp.image(image3, rotation)
+        time.sleep(1)
 
 
 
