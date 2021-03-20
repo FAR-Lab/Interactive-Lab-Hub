@@ -12,6 +12,8 @@ import adafruit_apds9960.apds9960
 import time
 from i2c_button import I2C_Button
 from random import randint
+import qwiic_joystick
+
 
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
@@ -104,6 +106,30 @@ width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 
+def runExample():
+
+    print("\nSparkFun qwiic Joystick   Example 1\n")
+    myJoystick = qwiic_joystick.QwiicJoystick()
+
+    if myJoystick.isConnected() == False:
+        print("The Qwiic Joystick device isn't connected to the system. Please check your connection", \
+            file=sys.stderr)
+        return
+
+    myJoystick.begin()
+
+    print("Initialized. Firmware Version: %s" % myJoystick.getVersion())
+
+    while True:
+
+        print("X: %d, Y: %d, Button: %d" % ( \
+                    myJoystick.getHorizontal(), \
+                    myJoystick.getVertical(), \
+                    myJoystick.getButton()))
+
+        time.sleep(.5)
+
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -120,8 +146,11 @@ while True:
     button.led_gran = 0
     button.led_cycle_ms = 0
     button.led_off_ms = 0
+
+    runExample()
+
     if prox >= 200:
-        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/christmas.jpg")
+        image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/christmas.jpg")
         image3 = image_formatting(image3, width, height)
         try:
             button.led_bright = 100
@@ -134,7 +163,7 @@ while True:
 
     else:
         if buttonB.value and not buttonA.value:  # just button A pressed
-            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/beijing.jpg")
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
             image3 = image_formatting(image3, width, height)
 
             draw = ImageDraw.Draw(image3)
@@ -145,7 +174,7 @@ while True:
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
         elif buttonA.value and not buttonB.value:  # just button B pressed
-            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/telaviv.jpg")
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
             image3 = image_formatting(image3, width, height)
 
             draw = ImageDraw.Draw(image3)
@@ -156,7 +185,7 @@ while True:
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
         else:
-            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 2/nyc.jpg")
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/nyc.jpg")
             image3 = image_formatting(image3, width, height)
 
             draw = ImageDraw.Draw(image3)
@@ -169,6 +198,7 @@ while True:
     # Display image.
     disp.image(image3, rotation)
     time.sleep(1)
+
 
 
 ###################################################################################
