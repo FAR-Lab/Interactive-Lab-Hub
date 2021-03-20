@@ -182,8 +182,26 @@ while True:
             ready = False
             speechInput = True
 
-    runExample()
-    
+    if myJoystick.get_horizontal() >= 1000 and myJoystick.get_vertical() <= 600:
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/salmon.png")
+            image3 = image_formatting(image3, width, height)
+            disp.image(image3, rotation)
+
+    if myJoystick.get_horizontal() >= 1000 and myJoystick.get_vertical() >= 1000:
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/tuna.png")
+            image3 = image_formatting(image3, width, height)
+            disp.image(image3, rotation)
+
+    if myJoystick.get_horizontal() <= 600 and myJoystick.get_vertical() >= 1000:
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/seaurchin.png")
+            image3 = image_formatting(image3, width, height)
+            disp.image(image3, rotation)
+
+    if myJoystick.get_horizontal() <= 400 and myJoystick.get_vertical() <= 400:
+            image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/fattytuna.png")
+            image3 = image_formatting(image3, width, height)
+            disp.image(image3, rotation)
+
     if speechInput:
         speechInput = False
         text = Speech2Text()
