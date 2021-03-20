@@ -36,7 +36,6 @@ if default_addr not in devices:
 
 # initialize the button
 button = I2C_Button(i2c)
-sensor.enable_proximity = True
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -162,10 +161,6 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
     x = 4
     y = 10
-
-    prox = sensor.proximity
-    print(prox)
-    time.sleep(0.2)
 
     button.led_bright = 0
     button.led_gran = 0
