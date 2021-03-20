@@ -105,6 +105,29 @@ height = disp.width
 width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
+speechInput = False
+
+def Speech2Text():
+    wf = wave.open("recording.wav", "rb")
+    if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getcomptype() != "NONE":
+        print ("Audio file must be WAV format mono PCM.")
+        exit (1)
+
+    model = Model("model")
+    # You can also specify the possible word list
+    rec = KaldiRecognizer(model, wf.getframerate(), "states china israel christmas")
+
+    while True:
+        data = wf.readframes(4000)
+        if len(data) == 0:
+            break
+        if rec.AcceptWaveform(data):
+            print(rec.Result())
+        else:
+            print(rec.PartialResult())
+    res = json.loads(rec.FinalResult())
+    print ("Speech2Text: "+ res['text'])
+    return res['text']
 
 def runExample():
 
@@ -112,7 +135,6 @@ def runExample():
     myJoystick = qwiic_joystick.QwiicJoystick()
 
     myJoystick.begin()
-
 
     while True:
 
@@ -141,9 +163,18 @@ while True:
     button.led_cycle_ms = 0
     button.led_off_ms = 0
 
-    runExample()
+    if myJoystick.get_horizontal() <= 20:
+        process = subprocess.Popen(["arecord", "-D", "hw:2,0", "-d", "5", "-f", "cd", "recording.wav", "-c", "1"])
 
-    if prox >= 200:
+    else:
+        process.kill()
+        speechInput = True
+
+    if speechInput:
+        speechInput = False
+        text = Speech2Text()
+
+    if prox >= 200 || text = "christmas":
         image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/christmas.jpg")
         image3 = image_formatting(image3, width, height)
         try:
@@ -156,7 +187,7 @@ while True:
             break
 
     else:
-        if buttonB.value and not buttonA.value:  # just button A pressed
+        if buttonB.value and not buttonA.value || text = "china":  # just button A pressed
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/beijing.jpg")
             image3 = image_formatting(image3, width, height)
 
@@ -167,7 +198,7 @@ while True:
             draw.text((4, 0), "Beijing:", fill="#000000")
             draw.text((x, y), datetime_NY.strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
-        elif buttonA.value and not buttonB.value:  # just button B pressed
+        elif buttonA.value and not buttonB.value || text = "israel":  # just button B pressed
             image3 = Image.open("/home/pi/Interactive-Lab-Hub/Lab 3/telaviv.jpg")
             image3 = image_formatting(image3, width, height)
 
