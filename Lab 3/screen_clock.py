@@ -113,14 +113,13 @@ def runExample():
 
     myJoystick.begin()
 
-    print("Initialized. Firmware Version: %s" % myJoystick.getVersion())
 
     while True:
 
         print("X: %d, Y: %d, Button: %d" % ( \
-                    myJoystick.getHorizontal(), \
-                    myJoystick.getVertical(), \
-                    myJoystick.getButton()))
+                    myJoystick.get_horizontal(), \
+                    myJoystick.get_vertical(), \
+                    myJoystick.get_button()))
 
         time.sleep(.5)
 
