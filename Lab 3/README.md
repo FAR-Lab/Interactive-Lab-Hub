@@ -7,6 +7,10 @@ In this lab, we want you to practice wizarding an interactive device as discusse
 ## Acknowledgements
 I would like to thank Shivani Doshi, Ritika Poddar, and Ilan Mandel for brainstorming with me and giving feedback on my project idea. The exact feedback is listed in Part 2 below.
 
+Animations and images were taken from the following sources:
+* Explosion video: https://www.youtube.com/watch?v=bhZs3ALdL7Y
+* Game over image: https://www.jing.fm/iclipt/hoJxTT/
+
 ## Text to Speech and Speech to Text
 
 The demo `text2speech` files:
