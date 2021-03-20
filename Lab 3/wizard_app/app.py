@@ -38,7 +38,7 @@ def handel_speak(val):
     bg.speak(val)
 
 @socketio.on('start')
-def start_game(continue_flag):
+def start_game():
     continue_flag = False
 
     # bomb Game Introduction

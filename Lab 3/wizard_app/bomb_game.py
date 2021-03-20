@@ -99,11 +99,12 @@ def led_tick(LED_PIN):
 
 def clock_tick(Servo):
     Servo.start(2.5)
-    for i in range(0, 60, 3):
-        Servo.ChangeDutyCycle(i / 18 + 2)
-        time.sleep(0.5)
-        Servo.ChangeDutyCycle(0)
-        time.sleep(0.1)
+    while True:
+        for i in range(0, 60, 3):
+            Servo.ChangeDutyCycle(i / 18 + 2)
+            time.sleep(0.5)
+            Servo.ChangeDutyCycle(0)
+            time.sleep(0.1)
     Servo.stop()
 
 def detonate():
