@@ -10,12 +10,13 @@ import busio
 import qwiic_twist
 import qwiic_button
 from adafruit_apds9960.apds9960 import APDS9960
+import adafruit_rgb_display.st7789 as st7789
 
 cwd = os.getcwd()
 
 LED_PIN = 26
 MOTOR_PIN = 12
-IMG_PATH = "/home/pi/Documents/Interactive-Lab-Hub/Lab 3/imgs/"
+IMG_PATH = "/home/pi/Documents/Interactive-Lab-Hub/Lab 3/wizard_app/imgs/"
 live_flag = True
 
 def setup():
@@ -98,12 +99,11 @@ def led_tick(LED_PIN):
 
 def clock_tick(Servo):
     Servo.start(2.5)
-    while live_flag:
-        for i in range(0, 60, 3):
-            Servo.ChangeDutyCycle(i / 18 + 2)
-            time.sleep(0.5)
-            Servo.ChangeDutyCycle(0)
-            time.sleep(0.1)
+    for i in range(0, 60, 3):
+        Servo.ChangeDutyCycle(i / 18 + 2)
+        time.sleep(0.5)
+        Servo.ChangeDutyCycle(0)
+        time.sleep(0.1)
     Servo.stop()
 
 
@@ -121,32 +121,3 @@ def image_formatting(image2):
     image2 = image2.resize((240, 135), Image.BICUBIC)
 
     return image2
-
-
-if __name__ == '__main__':
-    Servo, disp, disp_opts = setup()
-
-    # bomb Game Introduction
-    image = Image.open(IMG_PATH + 'bomb_homescreen.png')
-    image = image_formatting(image)
-    disp.image(image, disp_opts[0])
-
-    # Start the ticking of the "bomb"
-    pool = Pool(processes=1)
-    pool.apply_async(clock_tick, [Servo])
-
-    speak("Hello and welcome to the Bomb Game. I am a fake bomb. Diffuse me before the time runs out or die. You "
-          "will have 5 minutes. Let's begin.")
-    speak("Do not touch me unless directed to. Breaking this rule will lead to detonation.")
-
-    # Round 1: Answer some questions
-    speak("What is your name?")
-    continue_flag = False
-
-
-    # Round 2:
-
-    for i in range(10):
-        led_tick(LED_PIN)
-
-    GPIO.cleanup()

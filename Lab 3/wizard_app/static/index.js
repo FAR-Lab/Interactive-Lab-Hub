@@ -124,6 +124,7 @@ const mic = document.getElementById('mic');
 const play = document.getElementById('play');
 const wordsIn = document.getElementById('wordsIn');
 const send = document.getElementById('send');
+const accept_name = document.getElementsByClassName('name');
 
 const src = mic.src
 mic.src = ''
@@ -157,6 +158,13 @@ socket.on('disconnect', () => {
   mic.src = ''
 
   });
+
+name.onclick = () => {
+   if this.id == 'accept-name':
+       socket.emit('name', 'accept')
+   else:
+       socket.emit('accept_name', 'reject')
+}
 
 var vlSpec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v5.json',

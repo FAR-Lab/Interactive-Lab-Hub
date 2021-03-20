@@ -13,18 +13,31 @@
     <title>Document</title>
 </head>
 <body>
-	<div id='chart'></div>
+    <title>The "Bomb" Game - Wizard of Oz Controls</title>
     <br>
+    To listen in, click the button below:
 	<button id = 'play'>Eavesdrop</button>
     <audio id='mic' src="http://{{ hostname }}.local:8080" >
     </audio>
         <br>
             <br>
-    <label> Speak
+    <label> Speak by typing in the box below and then clicking "send"
         <input type="text" id='wordsIn'>
         <button id='send'>send</button>
 
     </label>
+    <hr>
+    Round #1 Questions: <br>
+    &nbsp;"What is your name?"
+    <div>
+        Choose an action based on the player's response.
+        <div style="inline-block">
+            <button id="accept-name" class="name">Accept</button>
+        </div>
+        <div style="inline-block">
+            <button id="reject-name" class="name">Reject</button>
+        </div>
+    </div>
 <script src="static/index.js"></script>
 </body>
 </html>
