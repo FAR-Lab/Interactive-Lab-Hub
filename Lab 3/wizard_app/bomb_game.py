@@ -1,24 +1,31 @@
 from gtts import gTTS
 import time
 import RPi.GPIO as GPIO
-from multiprocessing import Pool
 import os
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import busio
 import qwiic_twist
-import qwiic_button
+import qwiic_joystick
 from adafruit_apds9960.apds9960 import APDS9960
 import adafruit_rgb_display.st7789 as st7789
 from threading import Thread
 
 cwd = os.getcwd()
+i2c = busio.I2C(board.SCL, board.SDA)
 
 LED_PIN = 26
 MOTOR_PIN = 12
 IMG_PATH = "/home/pi/Documents/Interactive-Lab-Hub/Lab 3/wizard_app/imgs/"
 live_flag = True
+
+def image_formatting(image2):
+    image2 = image2.convert('RGB')
+    # Scale the image to the smaller screen dimension
+    image2 = image2.resize((240, 135), Image.BICUBIC)
+
+    return image2
 
 def setup():
     # Setup the LED
@@ -85,7 +92,7 @@ def setup():
     # Set up the rotary pin
     twist = qwiic_twist.QwiicTwist()
     twist.begin()
-    twist_count = 0
+    twist.set_count(20)
     twist.set_blue(255)
     twist.set_red(100)
     twist.set_green(255)
@@ -95,9 +102,18 @@ def setup():
     image = image_formatting(image)
     disp.image(image, rotation)
 
-    return Servo, disp, [rotation, top], twist
+    # Set up the joystick
+    joystick = qwiic_joystick.QwiicJoystick()
+    joystick.begin()
 
-Servo, disp, disp_opts, twist = setup()
+    # Configure the light sensor
+    apds = APDS9960(i2c)
+    apds.enable_proximity = True
+    apds.enable_color = True
+
+    return Servo, disp, [rotation, top], twist, joystick, apds
+
+Servo, disp, disp_opts, twist, joystick, apds = setup()
 
 def twist_tick(num_blinks):
     for i in range(num_blinks):
@@ -129,9 +145,10 @@ def show_image(filename):
     disp.image(image, disp_opts[0])
 
 def detonate():
-    speak('You have failed. Detonating in 3...2...1...Boom')
     Thread(target=led_tick, args=(10,)).start()
     Thread(target=twist_tick, args=(10,)).start()
+    time.sleep(0.5)
+    speak('You have failed. Detonating in 3 2 1 Boom')
     for i in range(0, 37):
         show_image(f'boom{i}.png')
         time.sleep(0.5)
@@ -140,6 +157,7 @@ def detonate():
 
     speak('Game Over. Would you like to play again?')
 
+    time.sleep(1)
     show_image('bomb_homescreen.png')
 
     GPIO.cleanup()
@@ -151,23 +169,104 @@ def speak(m):
     tts.save(filename)
     os.system("/usr/bin/mplayer " + filename)
 
-
-def image_formatting(image2):
-    image2 = image2.convert('RGB')
-    # Scale the image to the smaller screen dimension
-    image2 = image2.resize((240, 135), Image.BICUBIC)
-
-    return image2
-
 def math_question(q_num):
-    return True
+    time_ind = 0
+    while True:
+        if q_num == 1:
+            if twist.count == 27:
+                return True
+            elif twist.count > 27 or time_ind > 60:
+                return False
+        elif q_num == 2:
+            if twist.count == 25:
+                return True
+            elif twist.count < 25 or time_ind > 60:
+                return False
+        elif q_num == 3:
+            if twist.count == 28:
+                return True
+            elif twist.count > 28 or time_ind > 60:
+                return False
+        elif q_num == 4:
+            if twist.count == 23:
+                return True
+            elif twist.count < 23 or time_ind > 60:
+                return False
+
+        time.sleep(0.5)
+        time_ind += 1
 
 def arrow_question():
-    return True
+    directions = ['up','down','left','up','down','right','up']
+    for i, direction in enumerate(directions):
+        speak(direction)
+        show_image(f'{direction}_arrow.png')
+        passed = arrow_wait(direction)
+        if passed:
+            if i == 6:
+                show_image('bomb_homescreen.png')
+                return True
+        else:
+            return False
+
+def arrow_wait(direction):
+    time_ind = 0
+    while True:
+        if time_ind > 10:
+            return False
+        x = joystick.horizontal
+        y = joystick.vertical
+        j_direction = 'neutral'
+        if x > 575:
+            j_direction = "right"
+        elif x < 450:
+            j_direction = 'left'
+
+        if y > 575:
+            j_direction = 'up'
+        elif y < 450:
+            j_direction = 'down'
+
+        if j_direction not in (['neutral', direction]):
+            return False
+        elif j_direction == direction:
+            return True
+
+        time.sleep(0.5)
+        time_ind += 1
 
 def show_and_tell(color):
-    return True
+    time_ind = 0
+    while True:
+        if time_ind > 60:
+            return False
+        if apds.color_data_ready:
+            r, g, b, c = apds.color_data
+            if r > 155 and g < 155 and b < 155:
+                s_color = 'red'
+            elif r < 155 and g > 155 and b < 155:
+                s_color = 'green'
+            elif r < 155 and g < 155 and b > 155:
+                s_color = 'blue'
 
+            if s_color == color:
+                return True
+            else:
+                return False
 
+        time.sleep(0.5)
+        time_ind += 1
+
+def cut_wire():
+    time_ind = 0
+    while True:
+        try:
+            if time_ind > 20:
+                return False
+            _ = apds.proximity
+            time.sleep(0.5)
+            time_ind += 1
+        except:
+            return True
 
 

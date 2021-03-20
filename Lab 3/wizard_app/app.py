@@ -2,27 +2,18 @@ import eventlet
 eventlet.monkey_patch()
 
 import bomb_game as bg
-from PIL import Image
 
 import os
 from flask import Flask,render_template
-from flask_socketio import SocketIO, send, emit
-from subprocess import Popen, call
+from flask_socketio import SocketIO
+from subprocess import Popen
 import RPi.GPIO as GPIO
-import time
 from threading import Thread
-
-import board
-import busio
-import adafruit_mpu6050
 import socket
-
 import signal
 import sys
 
 cwd = os.getcwd()
-
-i2c = busio.I2C(board.SCL, board.SDA)
 
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
@@ -141,8 +132,8 @@ def riddle2(choice):
 @socketio.on('riddle3')
 def riddle3(choice):
     if choice == 'accept':
-        bg.speak("That is correct. You have passed Round 5")
-        bg.speak("Round 6: Bring me objects of a certain color and show them to my eye")
+        bg.speak("That is correct. You have passed Round 6")
+        bg.speak("Round 7: Bring me objects of a certain color and show them to my eye")
         bg.speak("Object 1: Show me a red object")
         is_passed = bg.show_and_tell('red')
         if is_passed:
