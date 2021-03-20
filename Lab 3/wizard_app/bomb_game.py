@@ -145,8 +145,8 @@ def show_image(filename):
     disp.image(image, disp_opts[0])
 
 def detonate():
-    Thread(target=led_tick, args=(10,)).start()
-    Thread(target=twist_tick, args=(10,)).start()
+    Thread(target=led_tick, args=(7,)).start()
+    Thread(target=twist_tick, args=(7,)).start()
     time.sleep(0.5)
     speak('You have failed. Detonating in 3')
     time.sleep(1)
@@ -224,14 +224,14 @@ def arrow_wait(direction):
         print(f'x: {x}, y: {y}')
         j_direction = 'neutral'
         if x > 575:
-            j_direction = "right"
+            j_direction = "down"
         elif x < 450:
-            j_direction = 'left'
+            j_direction = 'up'
 
         if y > 575:
-            j_direction = 'up'
+            j_direction = 'left'
         elif y < 450:
-            j_direction = 'down'
+            j_direction = 'right'
 
         if j_direction not in (['neutral', direction]):
             return False
