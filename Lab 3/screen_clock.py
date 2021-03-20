@@ -172,11 +172,14 @@ while True:
     button.led_cycle_ms = 0
     button.led_off_ms = 0
 
-    if myJoystick.get_horizontal() <= 20 and not ready:
-        process = subprocess.Popen(["arecord", "-D", "hw:2,0", "-d", "5", "-f", "cd", "recording.wav", "-c", "1"])
-        ready = True
+    if button.status.is_pressed:
+        button.led_bright = 100
+        if not ready:
+            process = subprocess.Popen(["arecord", "-D", "hw:2,0", "-d", "5", "-f", "cd", "recording.wav", "-c", "1"])
+            ready = True
 
     else:
+        button.led_bright = 0
         if ready:
             process.kill()
             ready = False
