@@ -39,7 +39,11 @@ def speak2me(val):
     call(f"espeak '{val}'", shell=True)
     
 speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
-    
+
+arecord -D hw:2,0 -f cd -c1 -r 48000 -d 10 -t wav recorded_mono.wav
+print("testing2")
+python3 test_words.py recorded_mono.wav
+print("testing3")
 
 @socketio.on('speak')
 def handel_speak(val):
@@ -54,6 +58,13 @@ def test_connect():
 def handle_message(val):
     # print(mpu.acceleration)
     emit('pong-gps', mpu.acceleration) 
+    
+while True:
+    #print(apds.proximity)
+    if apds.proximity > 150:
+    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
+        print ("You are too close!")
+        speak2me("You are too close to an object")
 
 @app.route('/')
 def index():
@@ -70,9 +81,3 @@ signal.signal(signal.SIGINT, signal_handler)
 if __name__ == "__main__":
     socketio.run(app, host='0.0.0.0', port=5000)
     
-while True:
-    #print(apds.proximity)
-    if apds.proximity > 150:
-    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
-        print ("You are too close!")
-        speak2me("You are too close to an object")
