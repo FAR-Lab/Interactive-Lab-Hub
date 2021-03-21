@@ -202,7 +202,7 @@ def math_question(q_num):
         time_ind += 1
 
 def arrow_question():
-    directions = ['up','down','left','up','down','right','up']
+    directions = ['up', 'down', 'left', 'up', 'down', 'right', 'up']
     for i, direction in enumerate(directions):
         speak(direction)
         show_image(f'{direction}_arrow.png')
@@ -248,6 +248,12 @@ def show_and_tell(color):
             return False
         if apds.color_data_ready:
             r, g, b, c = apds.color_data
+            total = r + g + b
+
+            # normalize the colors
+            r = round(r / total, 2)
+            g = round(g / total, 2)
+            b = round(b / total, 2)
             s_color = 'wrong'
             print(f'r: {r}, b: {b}: g: {g}')
             if r > 155 and g < 155 and b < 155:
@@ -259,11 +265,11 @@ def show_and_tell(color):
 
             if s_color == color:
                 return True
-            else:
-                return False
+            #else:
+            #    return False
 
         time.sleep(0.5)
-        time_ind += 1
+        #time_ind += 1
 
 def cut_wire():
     time_ind = 0
