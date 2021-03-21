@@ -146,8 +146,6 @@ When the "Start" button is pressed, the servo motor also begins moving to emulat
 
 ![Image](servo.png)
 
-![Image](screen.png)
-
 The entire view of the game is shown below:
 
 ![Image](full_hardware.png)
