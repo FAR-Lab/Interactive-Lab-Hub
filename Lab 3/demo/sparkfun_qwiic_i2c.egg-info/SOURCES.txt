@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+qwiic_i2c/__init__.py
+qwiic_i2c/circuitpy_i2c.py
+qwiic_i2c/i2c_driver.py
+qwiic_i2c/linux_i2c.py
+sparkfun_qwiic_i2c.egg-info/PKG-INFO
+sparkfun_qwiic_i2c.egg-info/SOURCES.txt
+sparkfun_qwiic_i2c.egg-info/dependency_links.txt
+sparkfun_qwiic_i2c.egg-info/requires.txt
+sparkfun_qwiic_i2c.egg-info/top_level.txt
