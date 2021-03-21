@@ -43,21 +43,10 @@ speak2me("Welcome to your navigation buddy, Please tell me where you would like 
 #while True:
     #print(apds.proximity)
 if apds.proximity > 150:
-        #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
-        #if apds.proximity > 150:
+    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
     print ("You are too close!")
     speak2me("You are too close to an object")
-        
-        #apds.clear_interrupt()
 
-#echo "Just what do you think you're doing Dave?"
-#espeak -ven+f2 -k5 -s10 --stdout "I can make the pi say anything" | aplay
-
-
-
-
-
-        
 @socketio.on('speak')
 def handel_speak(val):
     call(f"espeak '{val}'", shell=True)
@@ -86,5 +75,3 @@ signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
     socketio.run(app, host='0.0.0.0', port=5000)
-
-handel_speak("Testing three")
