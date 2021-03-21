@@ -288,19 +288,45 @@ Finally, after explaining to my friend that some of the game was wizarded, I rec
 * Enjoyed cutting the red wire at the end
 * Enjoyed the (too difficult) riddles
 * Liked the servo, made it feel more realistic and suspenseful. Like an escape room
-* Was surprised it could figure out he was lying about his favorite color
+* Was surprised it could figure out he was lying about his favorite color (lol)
 * Felt very deceived once found out WoZ
 * Wish I had used parentheses for more of the math (even though not necessary with order of operations)
 
 ## Reflection
 ### What worked well about the system and what didn't?
-*your answer here*
+Worked well:
+* The detonation sequence
+* The round involving the rotary encoder
+* All of the wizarded verbal response rounds
+* The custom circuit to cut the red wire for the final diffusing of the bomb (and the multithreading processes)
+* The user liked the suspense the servo motor's movement added even if it wasn't believable.
+
+Didn't work well:
+* The servo motor acting like a clock was not perfect. The motor only had a 90 degree turn radius so couldn't move much and wasn't very "clock" like in its movement.
+* The color sensor was VERY sensitive and often would misclassify everything as green...Should have wizarded this to get around these challenges.
+* The joystick was also somewhat finnicky in that, if it wasn't perfectly aligned at the very beginning, it would fail.
+* The user didn't see the math equations on the screen. The speaker should have told him to look there
+* The user also found the rotary encoder to be confusing. He wasn't sure if a "turn" was a full twist 180 degrees or a single click. This could have been made clearer.
+* If I attempted to interrupt a message while another message was being spoken by clicking another button on the wizarding portal, the messages would just get jumbled.
 
 ### What worked well about the controller and what didn't?
-*your answer here*
+For my response here, I'm assuming "controller" here refers to the wizarding portal. 
+
+Worked well:
+* The user found the wizarding portal-initiated interactions to be very believable. In fact, he was very surprised to later find out I was wizarding quite a lot despite the fact that, if he'd looked over, he'd have seen me clicking on my laptop.
+* The controls for accepting or rejecting a user's response were very helpful in certain circumstances. For example, after first answering the "What is your favorite color?" question with "green", when the user encountered the question again after a game over, they answered "blue" to test the system and I was able to reject their answer. They found this surprisingly intelligent for the game and were delighted by its ability to recognize they were lying.
+
+Didn't work well:
+* Message interruption didn't work super well and led to confusion in instructions. For example, if one message was playing on the speaker and I clicked on a button on the wizarding portal to interrupt it, the messages would get jumbled instead of actually cancelling the first message. I'm sure I could have coded the system differently to account for this.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-*your answer here*
+The riddles enabled the user to answer a single, expected word. This system could have been made more autonomous by using the speech to text solutions to recognize these common words and automate system response based upon whether or not the user's answer was correct or not.
+
+In addition, the user often said "yes" after they received a prompt to play again after a game over. A speech to text solution could also recognize this word and automatically restart the game.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-*your answer here*
+I would record the timings of users' interactions with different components, their verbal responses, and the pass/fail status of the task.
+
+In addition, I would record video footage of their facial expressions and change in body positioning in respones to different tasks in order to better interprest their understanding of the challenge. This would help for further seeing if users face more frustration with certain tasks and exactly when this frustration or confusion occurs.
+
+Finally, I'd record the completion rate of users' interactions with the game. If the game is too difficult or buggy for users, it would be interesting to note how many decide to leave it unfinished and at what point in the game this occurs.
