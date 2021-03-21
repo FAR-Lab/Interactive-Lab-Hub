@@ -36,7 +36,8 @@ apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
 while True:
-        call(f"espeak '{"Testing"}'", shell=True)
+        call(f"espeak '{Testing one two}'", shell=True)
+             
 while apds.proximity > 150:
         #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         #if apds.proximity > 150:
@@ -77,4 +78,4 @@ signal.signal(signal.SIGINT, signal_handler)
 if __name__ == "__main__":
     socketio.run(app, host='0.0.0.0', port=5000)
 
-handel_speak("Testing")
+handel_speak("Testing three")
