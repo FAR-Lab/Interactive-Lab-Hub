@@ -48,9 +48,8 @@ while apds.proximity > 150:
 def speak2me(val):
     call(f"espeak '{val}'", shell=True)
 
-while True:
-        speak2me("testing one two")
-        print ("in here")
+
+speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
         
 @socketio.on('speak')
 def handel_speak(val):
