@@ -40,7 +40,7 @@ def speak2me(val):
     
 speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
 
-arecord -D hw:2,0 -f cd -c1 -r 48000 -d 10 -t wav recorded_mono.wav
+os.system('arecord -D hw:2,0 -f cd -c1 -r 48000 -d 10 -t wav recorded_mono.wav')
 print("testing2")
 python3 test_words.py recorded_mono.wav
 print("testing3")
