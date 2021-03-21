@@ -68,6 +68,10 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+I want to build a device for golfers that tells you where your ball went if you hit it and can't see it. You swing and hit your ball, and then if you're not sure where it went you say "Where did my ball go?". Then, based on tracking your swing, the device tells you where it is, answering something like "your ball went 280 yards to the left".
+
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%203/IMG_3797.jpg)
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
