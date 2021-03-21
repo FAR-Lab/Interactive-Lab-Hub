@@ -43,7 +43,7 @@ while apds.proximity > 150:
 
 #echo "Just what do you think you're doing Dave?"
 #espeak -ven+f2 -k5 -s10 --stdout "I can make the pi say anything" | aplay
-espeak "Hello World" 2>/dev/null
+
 
         
 @socketio.on('speak')
@@ -74,3 +74,5 @@ signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
     socketio.run(app, host='0.0.0.0', port=5000)
+
+espeak "Hello World"
