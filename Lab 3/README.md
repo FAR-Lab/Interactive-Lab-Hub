@@ -126,18 +126,171 @@ Ilan thought it was a cool idea. He suggested also using the proximity sensor as
 ```
 
 ## Prototype your system
-List components, tasks, interaction expectations, what is Wizarded and what isn't, and show my built wizarding portal.
+The Bomb Game was built with the following stages of operation. With each stage listed below, the component(s) used and the wizarding technique applied are stated in detail. 
 
-[Add images of all of the above]
+### Introduction
 
-[Add demo video]
+**Main Component(s):** speaker, servo motor, and pi screen
+**Is Wizarded?:** Yes
+
+To start, I click the "Start" button on the Wizard of Oz page which prompts the Bomb Game to begin its introduction. The wizarding page is shown below:
+
+![Image](woz_controller.png)
+
+You'll notice that this page has a number of other controls above the start button including:
+* "Eavesdrop": which was provided for this lab and allows me to hear what the user is saying via a mini USB microphone plugged into the pi
+* "Speak": which allows me to type out a message and say anything to the user at anytime through the system
+* "Detonate": which allows me to bypass any of the system's actions and initiate a "detonation" whenever I want
+
+When the "Start" button is pressed, the servo motor also begins moving to emulate a count down clock and add suspense and the pi screen shows a logo for the game.
+
+![Image](servo.png)
+
+![Image](screen.png)
+
+The entire view of the game is shown below:
+
+![Image](full_hardware.png)
+
+### Round 1: Answer intro questions
+
+**Main Component(s):** speaker and wizarding portal
+**Is Wizarded?:** Yes
+
+This round asks a couple questions that are referencing the one and only illustrious Monty Python and The Holy Grail. The logic for this round is as follows:
+* Question 1: What is your name?
+    * The user can reply in any way that they want. The system's response here is wizarded as I can choose on the wizarding page to either accept or reject their response.
+    * If I accept their response, the system moves on to the next question.
+    * If i reject their response, the system says "That is not your name. Name rejected." and begins the detonation sequence.
+* Question 2: What is your favorite color?
+    * Again, the system's response here is wizarded as I can choose to either accept or reject their response.
+    * If I accept their response, the system moves on to round 2.
+    * If I reject their response, the system says "How do you not know your favorite color? Color rejected." and begins the detonation sequence. 
+
+### Round 2: Answer a riddle
+
+**Main Component(s):** speaker and wizarding portal
+**Is Wizarded?:** Yes
+
+This round just asks the user to answer a single riddle: "What has to be broken before you can use it?" The answer is "an egg." While the system's response here is also wizarded here where I can accept or reject their answer through the wizarding portal. I only accept the user's answer when they answer correctly. When the answer is accepted, the system moves on to round 3. When the answer is rejected, the system says "That is incorrect. And that was the easy one...awkward" and the detonation sequence begins.
+
+### Round 3: Crack the lock
+
+**Main Component(s):** speaker, rotary encoder, and screen
+**Is Wizarded?:** No
+
+This round challenges the user's skills with basic algebra and asks them to "crack" the lock on the system (similar concept as cracking a safe). When the user is presented a math problem, they are also told which direction to turn the rotary encoder. The user should turn the rotary encoder in that direction as many times as is the answer to the problem presented. the math equations are also shown on the screen to make the task easier for the user. 
+
+![Image](rotary_encoder.png)
+
+The four questions asked for this round are as follows:
+* Question 1: Turn the lock clockwise 2 * 2 + 3 times
+    * If the user turns the rotary encoder clockwise 7 times, the system automatically registers this and proceeds to the next question.
+    * if the user fails to turn the rotary encoder clockwise exactly 7 times, the system alerts them to an incorrect answer and begins the detonation sequence.
+* Question 2: Turn the lock counter-clockwise 6 % 2 + 2 times
+    * If the user turns the rotary encoder counter-clockwise 2 times, the system automatically registers this and proceeds to the next question.
+    * if the user fails to turn the rotary encoder counter-clockwise exactly 2 times, the system alerts them to an incorrect answer and begins the detonation sequence.
+* Question 3: Turn the lock clockwise (10 * 2 + 4) / 8 times
+    * If the user turns the rotary encoder clockwise 3 times, the system automatically registers this and proceeds to the next question.
+    * if the user fails to turn the rotary encoder clockwise exactly 3 times, the system alerts them to an incorrect answer and begins the detonation sequence.
+* Question 4: Turn the lock counter-clockwise 6 * 6 / 3 - 7 times
+    * If the user turns the rotary encoder counter-clockwise 5 times, the system automatically registers this and proceeds to the next round.
+    * if the user fails to turn the rotary encoder counter-clockwise exactly 5 times, the system alerts them to an incorrect answer and begins the detonation sequence.
+
+### Round 4: Answer a riddle
+
+**Main Component(s):** speaker and wizarding portal
+**Is Wizarded?:** Yes
+
+This round just asks the user to answer another riddle: "I’m tall when I’m young, and I’m short when I’m old. What am I?" The answer is "a candle." While the system's response here is again wizarded here where I can accept or reject their answer through the wizarding portal. I only accept the user's answer when they answer correctly. When the answer is accepted, the system moves on to round 5. When the answer is rejected, the system tells the user their response was incorrect and the detonation sequence begins.
+
+### Round 5: Decode the system
+
+**Main Component(s):** speaker, screen, and joystick
+**Is Wizarded?:** No
+
+For this round, the user is asked to mimic the arrows on the screen and the spoken commands with actions with the joystick. 
+
+![Image](joystick.png)
+
+As the system tells the user a direction, an arrow appears on the screen. The joystick is aligned with the screen in order to ensure that the user simply has to move the joystick in the same direction as the arrows in order to proceed. The user is asked to push the joystick in 7 directions in the following order: up, down, left, up, down, right, up. If the user moves the joystick in the wrong direction for any of these movements, the system automatically tells them "You were unsuccessful at decoding the system" and begins the detonation sequence. Otherwise, the user is told they were successful and the system automatically moves on to round 6.
+
+### Round 6: Answer a riddle
+
+**Main Component(s):** speaker and wizarding portal
+**Is Wizarded?:** Yes
+
+This round just asks the user to answer one more riddle: "What is full of holes but still holds water?" The answer is "a sponge." While the system's response here is again wizarded here where I can accept or reject their answer through the wizarding portal. I only accept the user's answer when they answer correctly. When the answer is accepted, the system moves on to round 5. When the answer is rejected, the system tells the user their response was incorrect and the detonation sequence begins.
+
+### Round 7: Show and tell
+
+**Main Component(s):** speaker and color/proximity sensor
+**Is Wizarded?:** No
+
+For this round, the user is asked to "show" the system objects of the color it asks for. The adafruit proximity and color sensor has been given an "eye" costume to "see" with to make it more clear to the user how they should "show" the system an object. 
+
+![Image](color.png)
+
+The system provides the user with the following tasks:
+* Question 1: The system asks the user to show it a red object. If they show the system a red object, it continues on automatically to the next question. If the user shows the system an object that is not red or fails to show it an object before a timer runs out, the system will tell the user they have failed and the detonation sequence will begin.
+* Question 2: The system asks the user to show it a blue object. If they show the system a blue object, it continues on automatically to the next question. If the user shows the system an object that is not blue or fails to show it an object before a timer runs out, the system will tell the user they have failed and the detonation sequence will begin.
+* Question 3: The system asks the user to show it a green object. If they show the system a green object, it continues on automatically to the next round. If the user shows the system an object that is not green or fails to show it an object before a timer runs out, the system will tell the user they have failed and the detonation sequence will begin.
+
+### Round 8: Cut the red wire
+
+**Main Component(s):** LED, speaker, and custom circuitry
+**Is Wizarded?:** No
+
+In the final round of the system, a simple custom circuit with an LED and resistor is controlled with a digital output pin from the Pi's GPIO to make the LED flash to indicate what portion of the board the user should look at.
+
+![Image](led.png)
+
+In this circuit, there are a number of different colored wire loops. The big red wire loop connects the ground pin from the color/proximity sensor (which is fully connected to the pi via Qwiic cables) to the LED circuit and the rotary encoder. The rotary encoder is wired up only via the pins from the color/proximity sensor and not connected via the Qwiic cables. The ground is only connected to the rotary encoder via this red cable between the LED circuit and the color/proximity sensor. 
+
+For this round, the user is prompted to cut the red wire. Once cut, the system attmempts to connect to the rotary encoder. When it can't because the rotary coder no longer has a ground wire connected, a try/except clause catches the fail and alerts the user that they have succeeded in disconnecting the bomb. If the user takes too long to cut the red wire, the user will be told that they failed and the system will automatically begin the detonation sequence.
+
+### Detonation Sequence
+
+**Main Component(s):** LED, rotary encoder, speaker, and screen
+**Is Wizarded?:** Sometimes
+
+The detonation sequence is triggered in each of the above tasks via either an automatic response or a wizarded event. When the system "detonates," a number of actions occur:
+* The system states "You have failed. Detonating in 3...2...1...Boom" over the speaker
+* A thread spins up to simultaneously flash the red LED
+* A thread spins up to simultaneously flash the rotary encoder red, as well
+* An animation of an explosion begins after the message on the speaker ends
+* After the animation, the system shows a "Game Over" image on the screen
+* The system says over the speaker "Game Over. Would you like to play again?"
+* The screen shows the game logo again after a brief pause
+
+## Demo of the system
+I created a demo of the entire game in action, shown below. Please note, there is a break in the middle of the video. I faced technical difficulties at one point and so decided to splice two videos together for ease of demoing. I attempted to make it as seamless with actual execution of the game as possible.
+
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%203/demo_image.png)](https://drive.google.com/file/d/1FSmnnmhw1-rah2tx-8aegU6jymN_i3bw/view?usp=sharing)
 
 ## Test the system
-I'm currently quarantining in Los Angeles which means I don't have access to many friends to interact with the system. I did however recruit my significant other to interact with it. (Note, I did not explain to him how it works beforehand but he did see me building it so it wasn't a perfectly novel system for him.)
+I'm currently quarantining in Los Angeles which means I don't have access to many friends to interact with the system. I did however recruit one friend to interact with it. (Note, I did not explain to him how it works beforehand but he did see me building it so it wasn't a perfectly novel system for him.) Note that I ended up telling him the answers to the riddles since he struggled with them and being able to solve riddles was not the point of this exercise. Thus, I provided the answers so as not to distract from the scope of the project. You will notice I have spliced the videos together a bit. Given he often ran into the "fail" state of the game, I thought it more useful for seeing his interactions with the game if I removed some of those portions (and to make the response video a reasonable length).
 
 A video of his interaction with the game is shown below:
 
-[Add interaction video]
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%203/user_test.png)](https://drive.google.com/file/d/1Xlywoy2NlePuZd2PQ1ODg2TCCBtiAS4R/view?usp=sharing)
+
+My friend faced a few issues with the color sensor. With his permission, I've created a fun blooper video below:
+
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%203/blooper.png)](https://drive.google.com/file/d/10DsB-8a_F33D3MnSrDmRjOZSGzsLULYl/view?usp=sharingg)
+
+Finally, after explaining to my friend that some of the game was wizarded, I received the following feedback:
+* Didn’t see the math problems on the screen
+* Since voice comes out of the speaker, looks there instead of the device
+* Thought the color sensor was too finnicky
+* The rotary encoder was too fine/difficult to use. A push button would have been better
+     - maybe: use the word ‘click’ rather than ‘turn’. Or if previously used the device
+* Enjoyed cutting the red wire at the end
+* Enjoyed the (too difficult) riddles
+* Liked the servo, made it feel more realistic and suspenseful. Like an escape room
+* Was surprised it could figure out he was lying about his favorite color
+* Felt very deceived once found out WoZ
+* Wish I had used parentheses for more of the math (even though not necessary with order of operations)
 
 ## Reflection
 ### What worked well about the system and what didn't?
