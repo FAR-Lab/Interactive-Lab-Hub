@@ -72,7 +72,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 *what was the feedback? Who did it come from?*
 
-![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%302/image 1.jpg)
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/image 1.jpg)
 ## Prototype your system
 
 The system should:
