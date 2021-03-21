@@ -41,8 +41,8 @@ while apds.proximity > 150:
         print ("You are too close!")
         #apds.clear_interrupt()
 
-echo "Just what do you think you're doing Dave" | festival --tts
-#espeak -ven+f2 -k5 -s10 --stdout "I can make the pi say anything" | aplay
+echo "Just what do you think you're doing Dave?" | festival --tts
+espeak -ven+f2 -k5 -s10 --stdout "I can make the pi say anything" | aplay
 
         
 @socketio.on('speak')
