@@ -243,7 +243,9 @@ def arrow_wait(direction):
 
 def show_and_tell(color):
     time_ind = 0
-    r, g, b, c = apds.color_data
+    for i in range(5):
+        r, g, b, c = apds.color_data
+        time.sleep(0.1)
     total = r + g + b
 
     r = float(r) / total
@@ -286,10 +288,11 @@ def show_and_tell(color):
         else:
             return False
 
-    time.sleep(0.5)
-    time_ind += 1
+        time.sleep(0.5)
+        time_ind += 1
 
 def cut_wire():
+    Thread(target=led_tick, args=(30,)).start()
     time_ind = 0
     while True:
         try:
