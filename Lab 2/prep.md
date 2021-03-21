@@ -19,14 +19,15 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 - [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 - Our Copy of Raspbian at [this dropbox link](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0), or use our ftp server here: ftp://farlab.infosci.cornell.edu/IXE_20210224.img.xz .
 Download and use the ``.xz`` file in the Raspberry Pi Imager.
+
 - If using windows: [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh) or [PuTTY](https://www.putty.org/)
 
 #### Setting up your OS
 1. Plug the SD card into your computer using the card reader
 2. Choose the downloaded file for "Choose OS" and the SD card for "Choose SD card" then hit write.
 <img src="https://www.raspberrypi.org/homepage-9df4b/static/md-67e1bf35c20ad5893450da28a449efc4.png" alt="pi imager" height="200" />
-
-3. Create a file called [wpa_supplicant.conf](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) in the Boot image of the new disk. the file contents should have the following:
+<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />
+3. Configure the Pi for [headless mode](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) . Create a file called "wpa_supplicant.conf"in the Boot image of the new disk. The file contents should have the following:
 
 	```
 	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
