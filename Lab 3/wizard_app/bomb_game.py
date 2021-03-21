@@ -243,33 +243,51 @@ def arrow_wait(direction):
 
 def show_and_tell(color):
     time_ind = 0
+    r, g, b, c = apds.color_data
+    total = r + g + b
+
+    r = float(r) / total
+    g = float(g) / total
+    b = float(b) / total
+
     while True:
         if time_ind > 60:
             return False
-        if apds.color_data_ready:
-            r, g, b, c = apds.color_data
-            total = r + g + b
+        if time_ind == 0:
+            r_diff = 0.33 - r
+            g_diff = 0.33 - g
+            b_diff = 0.33 - b
+        r, g, b, c = apds.color_data
+        total = r + g + b
 
-            # normalize the colors
-            r = round(r / total, 2)
-            g = round(g / total, 2)
-            b = round(b / total, 2)
-            s_color = 'wrong'
-            print(f'r: {r}, b: {b}: g: {g}')
-            if r > 155 and g < 155 and b < 155:
-                s_color = 'red'
-            elif r < 155 and g > 155 and b < 155:
-                s_color = 'green'
-            elif r < 155 and g < 155 and b > 155:
-                s_color = 'blue'
+        # normalize the colors
+        r = float(r) / total
+        r = round(r - 0.33 + r_diff, 2)
 
-            if s_color == color:
-                return True
-            #else:
-            #    return False
+        g = float(g) / total
+        g = round(g - 0.33 + g_diff, 2)
 
-        time.sleep(0.5)
-        #time_ind += 1
+        b = float(b) / total
+        b = round(b - 0.33 + b_diff, 2)
+
+        s_color = 'default'
+        print(f'r: {round(r, 2)}, b: {round(b, 2)}: g: {round(g, 2)}')
+        if r > 0 and r > g and r > b:
+            s_color = 'red'
+        elif g > 0 and g > r and g > b:
+            s_color = 'green'
+        elif b > 0 and b > r and b > g:
+            s_color = 'blue'
+
+        if s_color == color:
+            return True
+        elif s_color == 'default':
+            pass
+        else:
+            return False
+
+    time.sleep(0.5)
+    time_ind += 1
 
 def cut_wire():
     time_ind = 0

@@ -140,8 +140,8 @@ def riddle3(choice):
             bg.speak("Well done. Object 2: Show me a blue object")
             is_passed = bg.show_and_tell('blue')
             if is_passed:
-                bg.speak("Well done. Object 3: Show me a white object")
-                is_passed = bg.show_and_tell('white')
+                bg.speak("Well done. Object 3: Show me a green object")
+                is_passed = bg.show_and_tell('green')
                 if is_passed:
                     bg.speak('You have passed round 6')
                     bg.speak(
