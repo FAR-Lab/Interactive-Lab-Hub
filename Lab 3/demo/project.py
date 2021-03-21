@@ -40,13 +40,13 @@ def speak2me(val):
     
 speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
     
-while True:
-    print(apds.proximity)
-    if apds.proximity > 150:
+#while True:
+    #print(apds.proximity)
+if apds.proximity > 150:
         #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         #if apds.proximity > 150:
-        print ("You are too close!")
-        speak2me("You are too close to an object")
+    print ("You are too close!")
+    speak2me("You are too close to an object")
         
         #apds.clear_interrupt()
 
