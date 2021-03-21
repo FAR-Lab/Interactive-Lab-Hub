@@ -115,7 +115,7 @@ def riddle2(choice):
     if choice == 'accept':
         bg.speak('Correct.')
         bg.speak('You have passed Round 4')
-        bg.speak('Round 5: Follow the arrows to decode the system. When an arrow appears on the screen, push the joystick in that direction. The joystick direction is alighed with the screen.')
+        bg.speak('Round 5: Follow the arrows to decode the system. When an arrow appears on the screen, push the joystick in that direction.')
         is_passed = bg.arrow_question()
         if is_passed:
             bg.speak('You have correctly decoded the system and passed Round 5.')
