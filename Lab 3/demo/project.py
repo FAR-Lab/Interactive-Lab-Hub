@@ -37,8 +37,12 @@ apds.enable_proximity_interrupt = True
 
 def speak2me(val):
     call(f"espeak '{val}'", shell=True)
-
-if apds.proximity > 150:
+    
+speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
+    
+while True:
+    print(apds.proximity)
+    if apds.proximity > 150:
         #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         #if apds.proximity > 150:
         print ("You are too close!")
@@ -52,7 +56,7 @@ if apds.proximity > 150:
 
 
 
-speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
+
         
 @socketio.on('speak')
 def handel_speak(val):
