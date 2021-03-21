@@ -1,87 +1,110 @@
-# Magic Ball WoZ
+Qwiic_I2C_Py
+==============
 
-This is a Demo App for a Wizard of Oz interactive system where the wizard is playing a magic 8 ball
+<p align="center">
+   <img src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg"  width=200>  
+   <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"  width=240>   
+</p>
+<p align="center">
+	<a href="https://pypi.org/project/sparkfun-qwiic-i2c/" alt="Package">
+		<img src="https://img.shields.io/pypi/pyversions/sparkfun_qwiic_i2c.svg" /></a>
+	<a href="https://github.com/sparkfun/Qwiic_I2C_Py/issues" alt="Issues">
+		<img src="https://img.shields.io/github/issues/sparkfun/Qwiic_I2C_Py.svg" /></a>
+	<a href="https://qwiic-i2c-py.readthedocs.io/en/latest/index.html" alt="Documentation">
+		<img src="https://readthedocs.org/projects/qwiic-i2c-py/badge/?version=latest&style=flat" /></a>
+	<a href="https://github.com/sparkfun/Qwiic_Proximity_Py/blob/master/LICENSE" alt="License">
+		<img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+	<a href="https://twitter.com/intent/follow?screen_name=sparkfun">
+        	<img src="https://img.shields.io/twitter/follow/sparkfun.svg?style=social&logo=twitter"
+           	 alt="follow on Twitter"></a>
+	
+</p>
 
-<img src='https://images-na.ssl-images-amazon.com/images/I/71729uRDw2L._AC_SY606_.jpg' width=200>
+<img src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-products-hooked-up.jpg"  align="right" width=340>
 
-## Hardware Set-Up
+Python package to support multi platform I2C bus integrations for the SparkFun [qwiic ecosystem](https://www.sparkfun.com/qwiic)
 
-For this demo, you will need: 
-* your Raspberry Pi, 
-* a Qwiic/Stemma Cable, 
-* a speaker/aux cable or wired headphones, 
-* the display (we are just using it for the Qwiic/StemmaQT port. Feel free to use the display in your projects), 
-* your accelerometer, and 
-* your USB microphone
+This package can be used in conjunction with the overall [SparkFun qwiic Python Package](https://github.com/sparkfun/Qwiic_Py)
 
+New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.sparkfun.com/qwiic).
 
-<p float="left"><img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
-<img src="https://github.com/adafruit/Adafruit_MPU6050/raw/master/assets/board.jpg?raw=true" height="200" />
-<img src="https://cdn-shop.adafruit.com/970x728/3367-00.jpg" height="200"></p>
+## Contents
 
-Plug the display in and connect the accelerometer to the port underneath with your Qwiic connector cable. Plug the aux cable into the raspberry pi and your speaker or connect your headphones. Plug the USB microphone into one of the usb ports on the Pi
+* [Supported Platforms](#supported-platforms)
+* [Dependencies](#dependencies)
+* [Documentation](#documentation)
+* [Installation](#installation)
 
-## Software Setup
+Supported Platforms
+--------------------
+The qwiic I2C Python package current supports the following platforms:
+* [Raspberry Pi](https://www.sparkfun.com/search/results?term=raspberry+pi)
+* [NVidia Jetson Nano](https://www.sparkfun.com/products/15297)
+* [Google Coral Development Board](https://www.sparkfun.com/products/15318)
 
-Sssh on to your Raspberry Pi as we've done previously
+Dependencies 
+---------------
+The Raspberry Pi/Single Board Computer Linux driver of this package is dependent on 
+[smbus](https://pypi.org/project/smbus/)
 
-`ssh pi@yourHostname.local`
+Documentation
+-------------
+The SparkFun qwiic I2C module documentation is hosted at [ReadTheDocs](https://qwiic-i2c-py.readthedocs.io/en/latest/index.html)
 
-Ensure audio is playing through the aux connector by typing
+Installation
+---------------
 
-`sudo raspi-config`
+### PyPi Installation
+This repository is hosted on PyPi as the [sparkfun-qwiic-i2c](https://pypi.org/project/sparkfun-qwiic-i2c/) package. On systems that support PyPi installation via pip, this library is installed using the following commands
 
-on `system options` hit enter. Go down to `s2 Audio` and hit enter. Select `1 Headphones` and hit enter. Then navigate to `<Finish>` and exit the config menu.
-
-We will need one additional piece of software called VLC Media player. To install it type `sudo apt-get install vlc` 
-
-
-I would suggest making a new virtual environment for this demo then navigating to this folder and installing the requirements.
-
+For all users (note: the user must have sudo privileges):
+```sh
+sudo pip install sparkfun-qwiic-i2c
 ```
-pi@yourHostname:~ $ virtualenv woz
-pi@yourHostname:~ $ source woz/bin/activate
-(woz) pi@yourHostname:~ $ cd Interactive-Lab-Hub/Lab\ 3/demo
-(woz) pi@yourHostname:~/Interactive-Lab-Hub/Lab 3/demo $ 
-(woz) pi@yourHostname:~/Interactive-Lab-Hub/Lab 3/demo $ pip install -r requirements.txt
+For the current user:
+
+```sh
+pip install sparkfun-qwiic-i2c
 ```
+## Local Installation
+To install, make sure the setuptools package is installed on the system.
 
-## Running
-
-To run the app
-
-`(woz) pi@yourHostname:~/Interactive-Lab-Hub/Lab 3/demo $ python app.py`
-
-In the browser of a computer on the same network, navigate to http://yourHostname.local:5000/ where in my case my hostname is ixe00
-
-![](./imgs/page.png)
-
-The interface will immediately begin streaming the accelerometer to let you know if your participant shakes their Magic 8 ball. The "eavesdrop" button will begin streaming audio from the Pi to your browser (note their is a noticeable delay it is best to start eavesdropping right at the beginning). To have the Pi speak, you can write in the text box and hit send or press enter.
-
-## Notes
-
-You may need to change line 23 in `app.py`
-
-```
-hardware = 'plughw:2,0'
-```
-
-This is the soundcard and hardware device associated with the USB microphone. To check, you can run `python get_device.py` which will output A LOT of nonsense. At the end, you will see 
-
-```
-0 bcm2835 HDMI 1: - (plughw:0,0)
-1 bcm2835 Headphones: - (plughw:1,0)
-2 USB PnP Sound Device: Audio (plughw:2,0)
-3 sysdefault
-4 lavrate
-5 samplerate
-6 speexrate
-7 pulse
-8 upmix
-9 vdownmix
-10 dmix
-11 default
+Direct installation at the command line:
+```sh
+python setup.py install
 ```
 
-In our case, `USB PnP Sound Device: Audio (plughw:2,0)` is the name of our microphone and the index is in parenthesis.
+To build a package for use with pip:
+```sh
+python setup.py sdist
+ ```
+A package file is built and placed in a subdirectory called dist. This package file can be installed using pip.
+```sh
+cd dist
+pip install sparkfun_qwiic_i2c-<version>.tar.gz
+```
 
+Examples
+---------------
+This package is used extensively by the python modules for the SparkFun qwiic ecosystem. References to the modules can be found in the [qwiic python package](https://github.com/sparkfun/Qwiic_Py/tree/master/drivers)
+
+General package use examples:
+
+```python
+import qwiic_i2c
+connectedDevices = i2cDriver.scan()
+if myDeviceAddress in connectedDevices:
+	with qwiic_i2c.getI2CDriver() as i2c:
+		i2c.writeByte(myDeviceAddress, register, 0x3F)
+```
+
+```python
+import qwiic_i2c
+>>> if qwiic_i2c.isDeviceConnected(myDeviceAddress):
+        with qwiic_i2c.getI2CDriver() as i2c:
+                i2c.writeByte(myDeviceAddress, register, 0x3F)
+```
+
+<p align="center">
+<img src="https://cdn.sparkfun.com/assets/custom_pages/3/3/4/dark-logo-red-flame.png" alt="SparkFun - Start Something">
+</p>
