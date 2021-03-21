@@ -316,6 +316,7 @@ Worked well:
 
 Didn't work well:
 * Message interruption didn't work super well and led to confusion in instructions. For example, if one message was playing on the speaker and I clicked on a button on the wizarding portal to interrupt it, the messages would get jumbled instead of actually cancelling the first message. I'm sure I could have coded the system differently to account for this.
+* Occasionally, Google's text to speech would face a delay and I would be tempted to click a button again. Doing so would lead to jumbled messages, however, and so was a challenge in patience.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 The riddles enabled the user to answer a single, expected word. This system could have been made more autonomous by using the speech to text solutions to recognize these common words and automate system response based upon whether or not the user's answer was correct or not.
