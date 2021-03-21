@@ -36,7 +36,8 @@ apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
 while True:
-        call(f"espeak '{Testing one two}'", shell=True)
+        speak2me("testing one two")
+        print ("in here")
              
 while apds.proximity > 150:
         #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
@@ -47,7 +48,8 @@ while apds.proximity > 150:
 #echo "Just what do you think you're doing Dave?"
 #espeak -ven+f2 -k5 -s10 --stdout "I can make the pi say anything" | aplay
 
-
+def speak2me(val):
+    call(f"espeak '{val}'", shell=True)
         
 @socketio.on('speak')
 def handel_speak(val):
