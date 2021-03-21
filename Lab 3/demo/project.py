@@ -35,18 +35,21 @@ apds.enable_proximity = True
 apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
+def speak2me(val):
+    call(f"espeak '{val}'", shell=True)
 
-while apds.proximity > 150:
+if apds.proximity > 150:
         #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         #if apds.proximity > 150:
         print ("You are too close!")
+        speak2me("You are too close to an object")
+        
         #apds.clear_interrupt()
 
 #echo "Just what do you think you're doing Dave?"
 #espeak -ven+f2 -k5 -s10 --stdout "I can make the pi say anything" | aplay
 
-def speak2me(val):
-    call(f"espeak '{val}'", shell=True)
+
 
 
 speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
