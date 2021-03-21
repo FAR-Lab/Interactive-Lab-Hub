@@ -35,6 +35,8 @@ apds.enable_proximity = True
 apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
+while True:
+        call(f"espeak '{"Testing"}'", shell=True)
 while apds.proximity > 150:
         #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         #if apds.proximity > 150:
