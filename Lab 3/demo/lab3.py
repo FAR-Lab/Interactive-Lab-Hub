@@ -12,6 +12,7 @@ import adafruit_mpu6050
 import json
 import socket
 
+
 import signal
 import sys
 from queue import Queue
