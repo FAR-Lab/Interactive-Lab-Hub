@@ -1,4 +1,4 @@
-# You're a wizard, [Nicole & Mehma]
+# You're a wizard, [Nicole]
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
