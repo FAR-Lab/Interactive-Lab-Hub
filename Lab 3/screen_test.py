@@ -56,7 +56,8 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+emoticon_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 28)
+text_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 23)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -67,17 +68,35 @@ backlight.value = True
 sleep_emoticon = "(-_-) zzzZZZ"
 wakeup_emoticon = "╭( ๐ _๐)╮"
 result_emoticon = "٩( ᐛ )و"
+welcome_text = "Welcome to PiTest!"
+result_text = "You are an INFP!"
 
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
-while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    y = top
-    draw.text((x, y), sleep_emoticon, font=font, fill="#FF7D99")
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+def draw_text(mode):
+    if mode==1:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), wakeup_emoticon, font=emoticon_font, fill="#FF7D99")
+        y += (font.getsize(wakeup_emoticon)[1])*2
+        draw.text((x, y), welcome_text, font=text_font, fill="#FFFFFF")
+        disp.image(image, rotation)
+        time.sleep(1)
+    elif mode==2:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), result_emoticon, font=emoticon_font, fill="#FF7D99")
+        y += (font.getsize(result_emoticon)[1])*2
+        draw.text((x, y), result_text, font=text_font, fill="#FFFFFF")
+        disp.image(image, rotation)
+        time.sleep(5)
+        mode = 0
+    else:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), sleep_emoticon, font=emoticon_font, fill="#FF7D99")
+        disp.image(image, rotation)
+        time.sleep(1)
