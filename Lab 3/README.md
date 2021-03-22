@@ -100,18 +100,17 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+This worked well as a navigator for a blind person by giving them voice directions and having a two-sided conversation on whether they have completed the steps or not. But what would be difficult is that if the blind person thinks they have turned correctly, but they actually didn't then it would keep leading them down a stray path. Ideally, if this has some GPS component to tell the blind person where to go by tracking their location. I also liked that I was able to incorporate one of the sensors and have it tell the person if they are about to hit something.
+
 
 ### What worked well about the controller and what didn't?
+From a device prototyping perspective, since the computer had to be connected to the pi as a power source, I had to do the wizarding myself. Ideally another person would type in the commands and wizard it, so that it's a faster and more fluid interaction. Also, this should be used as a wearable device, not something you have to hold in your hands.
 
-*your answer here*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-*your answer here*
+Next time, the person using the system should be hidden so that it feels more authentic that it's giving directions. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-*your answer here*
+We could make a library of different directions that the system can provide. For example, it only has directions to these 10 places in Tata or Bloomberg, and then create if/else statements so that it automatically speaks once you've said where you want to go or once you've said "done"
 
