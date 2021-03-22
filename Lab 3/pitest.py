@@ -35,20 +35,9 @@ def main():
 			print(rec.Result())
 		else:
 			print(rec.PartialResult())
-	print(rec.FinalResult())
-
-# def start_listen():
-# 	print("Start listening...")
-# 	data = wf.readframes(4000)
-# 	while True:
-# 		if len(data) == 0:
-# 			break
-# 		if rec.AcceptWaveform(data):
-# 			print(rec.Result())
-# 		else:
-# 			print(rec.PartialResult())
-# 	print(rec.FinalResult())
-			
+	res = rec.FinalResult()
+	if(res["text"] and mode = 0):
+		mode = 1			
 
 def qwiicjoystick():
 	global bus_data,X,Y,mode
