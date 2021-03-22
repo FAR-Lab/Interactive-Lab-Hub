@@ -86,12 +86,12 @@ def handle_message(val):
 def index():
     return render_template('index.html', hostname=hostname)
 
-#while True:
-#    #print(apds.proximity)
-#    if apds.proximity > 150:
-#    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
-#        print ("You are too close!")
-#        speak2me("You are too close to an object")
+while True:
+    #print(apds.proximity)
+    if apds.proximity > 150:
+    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
+        print ("You are too close!")
+        speak2me("You are too close to an object")
 
 def signal_handler(sig, frame):
     print('Closing Gracefully')
