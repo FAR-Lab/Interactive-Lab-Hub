@@ -92,6 +92,7 @@ while True:
             count = count + 1
         if count == 1:
             speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
+            count = count + 1
         if count == 2:
             speak2me("Ok now, turn left and walk five steps.")
             count = count + 1
@@ -100,6 +101,8 @@ while True:
     if buttonA.value and not buttonB.value:  # just button B pressed
         speak2me("Button B pressed")
         print("in here2")
+    else:
+        pass
     #if not buttonA.value and not buttonB.value:  # none pressed
         #speak2me("Button C pressed")
         
