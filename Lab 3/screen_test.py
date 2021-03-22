@@ -72,9 +72,10 @@ result_emoticon = "٩( ᐛ )و"
 welcome_text = "Welcome to PiTest!"
 welcome_text_2 = "Please answer the questions."
 
-question_text = "Which animals do you think you are?"
-question_text_2 = "If it doesn't exist, which" 
-question_text_3 = "other animal do you think you are?"
+question_text = "Which animals do you think"
+question_text_1 = "you are?"
+question_text_2 = "If it doesn't exist, which other" 
+question_text_3 = "animal do you think you are?"
 
 result_text = "You are an INFP!"
 
@@ -101,6 +102,8 @@ def draw_text(mode):
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), question_text, font=text_font, fill="#FFFFFF")
+        y += (text_font.getsize(question_text)[1])
+        draw.text((x, y), question_text_1, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation) 
             
         time.sleep(6)
