@@ -1,4 +1,4 @@
-# You're a wizard, Joy!
+# You're a wizard, Joy.
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -92,8 +92,23 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+The system will have 3 stages: Idle, Start Test, Present Results.
+
+### Idle
+During the idle stage, the display will show a emoticon like this "(-_-) zzzZZZ"
+
+### Start Test
+When a user says "Start Test" or "Start" or "Test", the system will enter the next stage.
+
+The display will show a wake-up emoticon "╭( ๐ _๐)╮" and start to display questions. The user will enter the result by answering the questions vocally and then pressing the joystick.
+
+### Present Results
+After finishing a series of questions, the system will present the results. The results will accompanied with a random emoticon. The results will stay for 10 seconds and then the system will return back to the Idle stage.
 
 *Include videos or screencaptures of both the system and the controller.*
+
+Full video link:
+https://drive.google.com/file/d/1SE1ETttaJaDRAs7LzBmJGKKse9qkzk-3/view?usp=sharing
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
