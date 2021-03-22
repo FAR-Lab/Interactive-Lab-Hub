@@ -41,29 +41,29 @@ def speak2me(val):
     
 speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
 
-def Speech2Text():
-    wf = wave.open("recording.wav", "rb")
-    if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getcomptype() != "NONE":
-        print ("Audio file must be WAV format mono PCM.")
-        exit (1)
+#def Speech2Text():
+#    wf = wave.open("recording.wav", "rb")
+#    if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getcomptype() != "NONE":
+#        print ("Audio file must be WAV format mono PCM.")
+#        exit (1)#
+#
+#    model = Model("model")
+#    # You can also specify the possible word list
+#    rec = KaldiRecognizer(model, wf.getframerate(), "east west middle snow")
 
-    model = Model("model")
-    # You can also specify the possible word list
-    rec = KaldiRecognizer(model, wf.getframerate(), "east west middle snow")
+#    while True:
+#        data = wf.readframes(4000)
+#        if len(data) == 0:
+#            break
+#        if rec.AcceptWaveform(data):
+#            print(rec.Result())
+#        else:
+#            print(rec.PartialResult())
+#    res = json.loads(rec.FinalResult())
+#    print ("Speech2Text: "+ res['text'])
+#    return res['text']
 
-    while True:
-        data = wf.readframes(4000)
-        if len(data) == 0:
-            break
-        if rec.AcceptWaveform(data):
-            print(rec.Result())
-        else:
-            print(rec.PartialResult())
-    res = json.loads(rec.FinalResult())
-    print ("Speech2Text: "+ res['text'])
-    return res['text']
-
-os.system('arecord -D hw:2,0 -f cd -c1 -r 48000 -d 10 -t wav recorded_mono.wav')
+#os.system('arecord -D hw:2,0 -f cd -c1 -r 48000 -d 10 -t wav recorded_mono.wav')
 print("testing2")
 #python3 test_words.py recorded_mono.wav
 #print("testing3")
@@ -86,12 +86,12 @@ def handle_message(val):
 def index():
     return render_template('index.html', hostname=hostname)
 
-while True:
-    #print(apds.proximity)
-    if apds.proximity > 150:
-    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
-        print ("You are too close!")
-        speak2me("You are too close to an object")
+#while True:
+#    #print(apds.proximity)
+#    if apds.proximity > 150:
+#    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
+#        print ("You are too close!")
+#        speak2me("You are too close to an object")
 
 def signal_handler(sig, frame):
     print('Closing Gracefully')
