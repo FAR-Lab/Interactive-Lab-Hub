@@ -57,7 +57,7 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 emoticon_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 28)
-text_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 13)
+text_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -93,7 +93,7 @@ def draw_text(mode):
         y += (text_font.getsize(welcome_text)[1])
         draw.text((x, y), welcome_text_2, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
-        time.sleep(3)
+        time.sleep(5)
         mode=2
         draw_text(mode)
         
@@ -101,14 +101,14 @@ def draw_text(mode):
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), question_text, font=text_font, fill="#FFFFFF")
-        time.sleep(3)
+        time.sleep(6)
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
         y += (text_font.getsize(question_text_2)[1])
-        draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
+        draw.text((x, y), question_text_3, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
-        time.sleep(3)
+        time.sleep(6)
         mode=3
         draw_text(mode)
         
@@ -119,7 +119,7 @@ def draw_text(mode):
         y += (emoticon_font.getsize(result_emoticon)[1])
         draw.text((x, y), result_text, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
-        time.sleep(5)
+        time.sleep(10)
         mode=0
         draw_text(mode)
     else:
