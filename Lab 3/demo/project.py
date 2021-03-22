@@ -85,48 +85,9 @@ while True:
         speak2me("You are too close to an object")
     if buttonB.value and not buttonA.value:  # just button A pressed
         print(count)
-        #if count == 1:
-        #    speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
-        #    count = count + 1
-        #else:
-        #    pass
         speak2me("Ok now turn left and walk two steps")
-        #if count == 0:
-        #    speak2me("Alright let's go to the fridge. The first step is to turn left and walk three steps.")
-        #    count = count + 1
-        #if count == 1:
-        #    speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
-        #    count = count + 1
-        #if count == 2:
-        #    speak2me("Ok now, turn left and walk five steps.")
-        #    count = count + 1
-        #if count == 3:
-        #    speak2me("Ok now, turn left and walk five steps.")
-        #    count = count + 1
-        #if count == 4:
-        #    speak2me("Ok now, turn left and walk five steps.")
-        #    count = count + 1
-        #else:
-        #    pass
     if buttonA.value and not buttonB.value:  # just button B pressed
-        print(count)
-        speak2me("Ok now turn left and walk left five steps until you reach the fridge on the left")
-        #if count == 0:
-        #    speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
-        #    count = count + 1
-        #if count == 1:
-        #    speak2me("Ok now turn left and walk two steps")
-        #    count = count + 1    
-        #if count == 2:
-        #    speak2me("Ok now turn left and walk left five steps until you reach the fridge on the left")
-        #    #count = count + 1
-        #else:
-        #    pass
-        #count = count + 1
-        #speak2me("Ok now turn left and walk five steps")
-        
-        #speak2me("Button B pressed")
-        print("in here2")
+        speak2me("Ok now turn left and walk five steps, the fridge will be on your left")
     else:
         pass
 
