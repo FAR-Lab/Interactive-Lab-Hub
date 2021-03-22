@@ -115,9 +115,9 @@ while True:
             count = count + 1
         if count == 1:
             speak2me("Ok now turn left and walk two steps")
-            #count = count + 1    
+            count = count + 1    
         if count == 2:
-            speak2me("Ok now turn left and walk five steps")
+            speak2me("Ok now turn left and walk left five steps until you reach the fridge on the left")
             #count = count + 1
         else:
             pass
