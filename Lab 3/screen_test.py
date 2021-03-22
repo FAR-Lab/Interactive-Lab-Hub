@@ -88,9 +88,9 @@ def draw_text(mode):
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), wakeup_emoticon, font=emoticon_font, fill="#FF7D99")
-        y += (font.getsize(wakeup_emoticon)[1])*2
+        y += (emoticon_font.getsize(wakeup_emoticon)[1])*2
         draw.text((x, y), welcome_text, font=text_font, fill="#FFFFFF")
-        y += (font.getsize(welcome_text)[1])
+        y += (text_font.getsize(welcome_text)[1])
         draw.text((x, y), welcome_text_2, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
         time.sleep(3)
@@ -104,7 +104,7 @@ def draw_text(mode):
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
-        y += (font.getsize(question_text_2)[1])
+        y += (text_font.getsize(question_text_2)[1])
         draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
         time.sleep(3)
@@ -114,7 +114,7 @@ def draw_text(mode):
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), result_emoticon, font=emoticon_font, fill="#FF7D99")
-        y += (font.getsize(result_emoticon)[1])*2
+        y += (emoticon_font.getsize(result_emoticon)[1])*2
         draw.text((x, y), result_text, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
         time.sleep(5)
