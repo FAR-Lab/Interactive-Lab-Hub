@@ -36,13 +36,12 @@ def main():
 	global bus_data,X,Y,mode
 	while True:
     	# If joystick got pressed
-		if qwiicjoystick():
+		if not qwiicjoystick():
         		mode = 0
         		draw_text(mode)
 
 
 def qwiicjoystick():
-	global bus_data, X, Y
 	try:
     		bus_data = bus.read_i2c_block_data(addr, 0x03, 5)
 	except Exception as e:
