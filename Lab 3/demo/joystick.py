@@ -28,7 +28,7 @@ def runExample():
 
 if __name__ == '__main__':
 	try:
-		run_example()
+		runExample()
 	except (KeyboardInterrupt, SystemExit) as exErr:
 		print("\nEnding Example 1")
 		sys.exit(0)
