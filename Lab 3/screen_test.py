@@ -118,7 +118,7 @@ def draw_text(mode):
         y += (text_font.getsize(question_text_2)[1])
         draw.text((x, y), question_text_3, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
-        os.system("espeak 'If it doesn't exist, which other animal do you think you are?'")
+        os.system("espeak 'If it does not exist, which other animal do you think you are?'")
         
         time.sleep(6)
         mode=3
