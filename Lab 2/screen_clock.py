@@ -98,7 +98,7 @@ while True:
 
     curTime = strftime("%H:%M:%S")
     draw = ImageDraw.Draw(image)
-    if buttonA.value:  # just button A pressed
+    if buttonA.value and buttonB.value:  # just button A pressed
         # display.fill(screenColor) # set the screen to the users color
         # backlight.value = False  # turn off backlight
         curTime = strftime("%H:%M:%S")
@@ -109,25 +109,25 @@ while True:
         unitWidth = disp.width/4
         unitHeight = disp.height/6
         # print(unitWidth, unitHeight)
-        draw.rectangle( (0,0, width, height), fill =(255,255,255), outline =(0,0,0))
+        draw.rectangle( (0,0, width, height), fill =(0,0,0), outline =(0,0,0))
         for i in range(curHour):
             shape = [(i%6)*unitHeight,(i//6)*unitWidth,(i%6)*unitHeight+unitHeight,(i//6)*unitWidth+unitWidth]
             if i<8 or i>20:
-                draw.rectangle( shape, fill =(255,255,180), outline =(0,0,0))
+                draw.rectangle( shape, fill =(0,120,180), outline =(0,0,0))
             else:
                 draw.rectangle( shape, fill =(i*10,i*10,255), outline =(0,0,0))
         draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#FFFFFF")
-        print("A button")
     elif buttonB.value:
         curDate = strftime("%m/10/%Y")
         draw.text((0, top), curTime, font=font, fill="#0000FF")
         print("B button")
 
-
     else:
         # image = Image.new("RGB", (width, height))
         # backlight.value = True  # turn off backlight
         draw.text((0, top), curTime, font=font, fill="#0000FF")
+        print("A button")
+
 
 
     disp.image(image, rotation)
