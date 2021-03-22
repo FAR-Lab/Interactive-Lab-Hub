@@ -94,6 +94,7 @@ def draw_text(mode):
         y += (text_font.getsize(welcome_text)[1])
         draw.text((x, y), welcome_text_2, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
+        os.system("espeak 'Welcome to Pie test'")
         time.sleep(5)
         mode=2
         draw_text(mode)
