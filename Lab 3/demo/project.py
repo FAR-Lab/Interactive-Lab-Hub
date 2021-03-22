@@ -87,6 +87,7 @@ while True:
         print(count)
         #speak2me("Button A pressed")
         #count = count + 1
+        speak2me("Alright let's go to the fridge The first step is to turn left and walk three steps")
         if count == 0:
             speak2me("Alright let's go to the fridge. The first step is to turn left and walk three steps.")
             count = count + 1
@@ -111,6 +112,7 @@ while True:
             count = count + 1
         else:
             pass
+        speak2me("Ok now turn left and walk five steps")
         speak2me("Button B pressed")
         print("in here2")
     else:
