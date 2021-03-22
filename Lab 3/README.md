@@ -98,7 +98,7 @@ The system will have 3 stages: Idle, Start Test, Present Results.
 During the idle stage, the display will show a emoticon like this "(-_-) zzzZZZ"
 
 ### Start Test
-When a user says "Start Test" or "Start" or "Test", the system will enter the next stage.
+When a user says "Start Test" or "Start" or "Test" or "Hi" or "Hello", the system will enter the next stage.
 
 The display will show a wake-up emoticon "╭( ๐ _๐)╮" and start to display questions. The user will enter the result by answering the questions vocally and then pressing the joystick.
 
@@ -116,18 +116,16 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+The voice command to start the test works well. The text on the display also helps since it gives some visual feedback to the user.
+However, the other voice commands to answer the questions did not work smoothly.
 
 ### What worked well about the controller and what didn't?
-
-*your answer here*
+The button clicking and directional controlling of the JoyStick is very intuitive: no extra explaination needed. However, in this system we don't need many directional data. As a result, the JoyStick hasn't been fully utilized, especially with the voice control.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-*your answer here*
+I learnt that multimodal user interface needs extra consideration about what type of interactions suit which modality. Voice control has its own strength for providing humanized responses, while JoyStick itself is a power input source and controller. For some simple task, like the personality test I designed here, the multimodality may simply increases the complexity without creating additional value.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-*your answer here*
+For the dataset of interaction, I can classfifed them based on what modalities are most suitable for it. The other modality I want to capture is definitely using a camera to do face or object recognization. The other modality could be a motion sensor.
 
