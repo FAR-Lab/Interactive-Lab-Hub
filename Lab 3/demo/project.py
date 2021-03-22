@@ -82,7 +82,7 @@ while True:
     #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         print ("You are too close!")
         speak2me("You are too close to an object")
-   break
+    break
         
 @socketio.on('speak')
 def handel_speak(val):
