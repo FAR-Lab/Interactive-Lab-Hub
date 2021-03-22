@@ -36,8 +36,9 @@ def main():
 		else:
 			print(rec.PartialResult())
 	res = rec.FinalResult()
-	if(res["text"] and mode = 0):
-		mode = 1			
+	if(res and mode == 0):
+		mode = 1
+		draw_text(mode)
 
 def qwiicjoystick():
 	global bus_data,X,Y,mode
