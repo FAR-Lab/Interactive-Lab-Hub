@@ -1,4 +1,4 @@
-# You're a wizard, Rui!!
+# You're a wizard, Rui!! 😱🧙
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
