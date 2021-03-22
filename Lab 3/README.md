@@ -103,7 +103,7 @@ The SimonCowell Lab Apparatus:
 Button to indicate singing: 
 ![](lab3.4.png)
 
-
+[Video Walkthrough](https://drive.google.com/file/d/1iZZjHekJbkAhmFUpk7fn5tYdL2Cp_7j1/view?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
