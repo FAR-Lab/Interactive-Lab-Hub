@@ -78,6 +78,8 @@ I want to build a device for golfers that tells you where your ball went if you 
 
 Rob Gentul: "sweet idea, definitely see a valuable application for it. would be really cool if you could select a club type to start off the program (i imagine that would impact where the ball would go)"
 
+Niki Agrawal: seems like a helpful tool but its not entirely clear what exactly the device is and how it will be measuring where your ball went, are there sensors at the end of the course, or in the tee or in the club?
+
 ## Prototype your system
 
 The system should:
