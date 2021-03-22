@@ -68,6 +68,8 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%203/sketch.JPG
+
 I'm am using my friend's studio project for my prototype for Lab 3. I am creating a wearable device that helps blind people navigate through a mall or school building by giving them voice instructions on how to get somewhere. For example, if they say "Take me to Ilan's lab" then it has information populated by people that do have sight and responds back with "Take the elevator to the third floor, then turn right, and its the second door on the left". So the pi will ask the person where they want to go, and then give them voice instructions. It also has a sensor so that if you are too close to an object, like a wall, it will alert you with audio warning.
 
 
@@ -87,7 +89,7 @@ The system should:
 *Document how the system works*
 1) The system welcomes you and asks you where you want to go. 
 2) You then tell it "I want to go to Ilan's lab". It will look through the database of directions it has to find the one that matches yours
-3) For the purposes of this demo, I will use my fridge and the instructions will come as I type it into the webpage
+3) For the purposes of this demo, I will use my fridge and the instructions will appear once you say "done" and press one of the buttons on the Pi
 4) It first says "Walk straight and turn left". Then the person tells the pi "Done"
 5) Once it hears "done", it gives the next step of "Walk 2 steps forward and then turn left"
 6) If a person is approaching a wall, it will warn them and say "You are too close to an object" 
