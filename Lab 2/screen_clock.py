@@ -117,6 +117,8 @@ while True:
             else:
                 draw.rectangle( shape, fill =(i*10,i*10,255), outline =(0,0,0))
         draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#FFFFFF")
+        draw.text((0, top), "Upper button - Date", font=font, fill="#FFFFFF")
+        draw.text((0, top), "Lower button - Time", font=font, fill="#FFFFFF")
     elif buttonB.value:
         curDate = strftime("%m/10/%Y")
         draw.text((0, top), curDate, font=font, fill="#0000FF")
