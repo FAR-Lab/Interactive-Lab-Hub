@@ -98,7 +98,9 @@ The system will have 3 stages: Idle, Start Test, Present Results.
 During the idle stage, the display will show a emoticon like this "(-_-) zzzZZZ"
 
 ### Start Test
-When a user says "Start Test" or "Start" or "Test", the system will enter the next stage and the display will show a wake-up emoticon "╭( ๐ _๐)╮" and start to display questions. The user will enter the result by answering the questions vocally and then pressing the joystick.
+When a user says "Start Test" or "Start" or "Test", the system will enter the next stage.
+
+The display will show a wake-up emoticon "╭( ๐ _๐)╮" and start to display questions. The user will enter the result by answering the questions vocally and then pressing the joystick.
 
 ### Present Results
 After finishing a series of questions, the system will present the results. The results will accompanied with a random emoticon. The results will stay for 10 seconds and then the system will return back to the Idle stage.
