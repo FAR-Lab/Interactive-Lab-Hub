@@ -75,23 +75,28 @@ print("testing2")
 
 count = 0
 while True:
+    buttonA = digitalio.DigitalInOut(board.D23)
+    buttonB = digitalio.DigitalInOut(board.D24)
+    buttonA.switch_to_input()
+    buttonB.switch_to_input()
     if apds.proximity > 150:
         print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         print ("You are too close!")
         speak2me("You are too close to an object")
     if buttonB.value and not buttonA.value:  # just button A pressed
-        print("in here1")
+        print(count)
         #speak2me("Button A pressed")
         #count = count + 1
         if count == 0:
-            speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
+            speak2me("Alright let's go to the fridge. The first step is to turn left and walk three steps.")
             count = count + 1
         if count == 1:
             speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
         if count == 2:
             speak2me("Ok now, turn left and walk five steps.")
             count = count + 1
-            
+        else:
+            pass
     if buttonA.value and not buttonB.value:  # just button B pressed
         speak2me("Button B pressed")
         print("in here2")
