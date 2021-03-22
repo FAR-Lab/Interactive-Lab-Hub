@@ -27,13 +27,8 @@ def main():
 		if not qwiicjoystick():
 			mode = 0
 			draw_text(mode)
-			start_listen()
-
-
-def start_listen():
-	print("Start listening...")
-	data = wf.readframes(4000)
-	while True:
+		print("Start listening...")
+		data = wf.readframes(4000)
 		if len(data) == 0:
 			break
 		if rec.AcceptWaveform(data):
@@ -41,6 +36,18 @@ def start_listen():
 		else:
 			print(rec.PartialResult())
 	print(rec.FinalResult())
+
+# def start_listen():
+# 	print("Start listening...")
+# 	data = wf.readframes(4000)
+# 	while True:
+# 		if len(data) == 0:
+# 			break
+# 		if rec.AcceptWaveform(data):
+# 			print(rec.Result())
+# 		else:
+# 			print(rec.PartialResult())
+# 	print(rec.FinalResult())
 			
 
 def qwiicjoystick():
