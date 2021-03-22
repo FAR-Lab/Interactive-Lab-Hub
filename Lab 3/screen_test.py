@@ -68,7 +68,14 @@ backlight.value = True
 sleep_emoticon = "(-_-) zzzZZZ"
 wakeup_emoticon = "╭( ๐ _๐)╮"
 result_emoticon = "٩( ᐛ )و"
+
 welcome_text = "Welcome to PiTest!"
+welcome_text_2 = "Please answer the questions."
+
+question_text = "Which animals do you think you are?"
+question_text_2 = "If it doesn't exist, which" 
+question_text_3 = "other animal do you think you are?"
+
 result_text = "You are an INFP!"
 
 buttonA = digitalio.DigitalInOut(board.D23)
@@ -83,9 +90,27 @@ def draw_text(mode):
         draw.text((x, y), wakeup_emoticon, font=emoticon_font, fill="#FF7D99")
         y += (font.getsize(wakeup_emoticon)[1])*2
         draw.text((x, y), welcome_text, font=text_font, fill="#FFFFFF")
+        y += (font.getsize(welcome_text)[1])
+        draw.text((x, y), welcome_text_2, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
-        time.sleep(1)
+        time.sleep(3)
+        mode=2
+        
     elif mode==2:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), question_text, font=text_font, fill="#FFFFFF")
+        time.sleep(3)
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
+        y += (font.getsize(question_text_2)[1])
+        draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
+        disp.image(image, rotation)
+        time.sleep(3)
+        mode=3
+        
+    elif mode==3:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), result_emoticon, font=emoticon_font, fill="#FF7D99")
