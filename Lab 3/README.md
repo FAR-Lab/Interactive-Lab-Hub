@@ -108,21 +108,47 @@ Button to indicate singing:
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+The system was tested out on Shreya Chandrasekar and Brandt Beckerman. The participant sat on a chair and put on headphones to listen to the speech from the wizarding device. 
+
+Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
 *your answer here*
 
+The wizarding system didn't have instructions in the beginning so Shreya wasn't sure what she was supposed to do as she put the headphones on. Although she saw a button connected to the device, she also didn't know whether or not she should push it. She seemed a little confused with what to do and then a few seconds later, the device gave feedback on her performance even though she didn't act. She found the overall system to be pretty amusing and fun to interact with but was just confused with what she should have done. Overall, this means that since there is no human in the front end of the device, it is especially important to make the directions on what to do to be very clear. It was important to set the stage for the participants on the context that they were in and then provide them with directions on what to do at the given time they should do it. 
+
+Script for future reference:
+
+Context: "You believe you have the X Factor and are auditioning for the SimonCowell by singing your favorite song to him. Today is your big day to see if you will advance to the next round of the competition! You will be judged by the SimonCowell after your performance and he will tell you whether or not you advance in the end. Good luck!" 
+
+Directions: "When you are ready, please press the red button if you will be singing and do not press the red button if you will be dancing. Afterwards, start your audition." 
+
+*If red button is pressed*: "Great! Please begin singing."
+*If red button is NOT pressed*: "Since the button was not pressed, please begin dancing." 
+
+After the performance: SimonCowell judgement from the wizarding device. 
+
+
 ### What worked well about the controller and what didn't?
 
 *your answer here*
 
+When Brandt interacted with the device, he briefly clicked on the button for one second to indicate singing but the SimonCowell ended up giving him dancing feedback. This showed that the controller only worked if it was pressed for an extended period of time, which may be confusing to the user if they do not know to do this. Next time, it will be important for the device to give further instructions telling the partcipant to press the button for X seconds. Overall, the button was easy to press and use. It was also good that the button was noticeable so that the participant automatically drew their attention to the button when they begin their audition. When Brandt was prompted to dance, he seemed to be a little confused with what exactly he should do to interact with the device, showing that we may need to include another button or sensor as a physical prompt so that the user knows to start dancing. 
+
+
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 *your answer here*
+
+For a future wizarding device, it will be very important to include very specific instructions on the context of the situation at the beginning so that the user generally understands what they should do. There should also be a direction given to the user before they are prompted to start any activity so that the user knows exactly when they should start and not end up waiting awkwardly around for the device to do something. It will also be important to make the sensor the user should interact with to be extremely noticeable so that the user will automatically draw their attention to this specific feature. A more autonomous version of the system will take in the user's motion and detect whenever the user has started and stopped moving. This way, feedback from the SimonCowell is given directly after the motion rather than after a set period of seconds (what it is currently programmed to do). Similarly, the more autonomous version of the system will take in the user's voice and detect whenever the user has started and stopped singing so that feedback is given at a natural time to the users. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 *your answer here*
 
+After more participants have interacted with the device and a dataset of various interactions is captured, it would be interesting to see the average length of time the user interacts with the device, the average length of time the user performs, the average length of time the user takes before performing any activity as directed by the device and the average length of time it takes for the user to press the button. By understanding the average length of time the user performs, the device would be better at predicting at what point in time the SimonCowell should be prepared to give feedback. By understanding the average length of time the user takes before performing any activity on the device, we can determine the user's general hesitation with the device and find ways to make the interactions more intuitive and clear. Finally, by understanding the average length of time it takes for the user to press the button, we can create a better controller system that actively takes in feedback from the user. 
+
+It would also be interesting to see what types of performances participants usually give so that we can find some common indicators that would indicate whether or not the performance was good or bad so that the device can better determine whether the contestant should advance to the next round. After these indicators are identified from the growing dataset, the motion and voice detection sensor can recognize these patterns so that the SimonCowell can provide more accurate and relevant feedback in future interactions. 
