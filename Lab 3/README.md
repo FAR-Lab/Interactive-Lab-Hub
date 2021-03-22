@@ -89,6 +89,16 @@ The system should:
 https://drive.google.com/file/d/1FpqbzFQT_Ovi9ZoR1nsagoWAlWgEVL0D/view?usp=sharing
 https://drive.google.com/file/d/193YiEM_ZR9YCQ77YxAkxOe7pKyJlmXrI/view?usp=sharing
 
+I got significant help from Ilan, Rob, Niki, and Snigdha in getting set up, and leveraged Willam Zhang’s code for my joystick and Niki's code in my test2speech. I also leverage the website below for info:
+
+https://stackoverflow.com/questions/2485466/pythons-equivalent-of-logical-and-in-an-if-statement
+
+https://github.com/sparkfun/Qwiic_Joystick_Py
+
+https://learn.sparkfun.com/tutorials/qwiic-joystick-hookup-guide/all#python-examples
+
+https://www.geeksforgeeks.org/check-multiple-conditions-in-if-statement-python/
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
