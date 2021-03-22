@@ -68,6 +68,15 @@ print("testing2")
 #python3 test_words.py recorded_mono.wav
 #print("testing3")
 
+def alert():
+    #print(apds.proximity)
+    if apds.proximity > 150:
+    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
+        print ("You are too close!")
+        speak2me("You are too close to an object")
+        
+alert()
+        
 @socketio.on('speak')
 def handel_speak(val):
     call(f"espeak '{val}'", shell=True)
@@ -85,13 +94,6 @@ def handle_message(val):
 @app.route('/')
 def index():
     return render_template('index.html', hostname=hostname)
-
-while True:
-    #print(apds.proximity)
-    if apds.proximity > 150:
-    #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
-        print ("You are too close!")
-        speak2me("You are too close to an object")
 
 def signal_handler(sig, frame):
     print('Closing Gracefully')
