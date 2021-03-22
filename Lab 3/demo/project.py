@@ -96,6 +96,12 @@ while True:
         if count == 2:
             speak2me("Ok now, turn left and walk five steps.")
             count = count + 1
+        if count == 3:
+            speak2me("Ok now, turn left and walk five steps.")
+            count = count + 1
+        if count == 4:
+            speak2me("Ok now, turn left and walk five steps.")
+            count = count + 1
         else:
             pass
     if buttonA.value and not buttonB.value:  # just button B pressed
