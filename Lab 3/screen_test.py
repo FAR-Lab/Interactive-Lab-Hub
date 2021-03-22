@@ -66,6 +66,7 @@ backlight.value = True
 # Test related
 sleep_emoticon = "(-_-) zzzZZZ"
 wakeup_emoticon = "╭( ๐ _๐)╮"
+result_emoticon = "٩( ᐛ )و"
 
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
