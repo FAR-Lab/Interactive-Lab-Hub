@@ -68,9 +68,21 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+![](simoncowell.jpeg)
+
+The wizarding device is called the SimonCowell because it will judge a contestant's singing or dancing performance and provide feedback. If the performer gives a good performance, the SimonCowell will provide them with positive feedback and advance the contestant to the next round. If the performer gives a bad performance, the SimonCowell will provide them with negative feedback and tell them to leave. 
+
+As a default, if the user does not press the button, the motion sensor will detect a dancing performance and the SimonCowell will watch the performance and provide them with feedback depending on whether the performance was good or not. If the user presses the red button, it will signal to the device that they are about to sing. The SimonCowell will then listen to the user sing and judge whether or not it is a good performance by providing feedback. 
+
+In this lab, the accelerometer was used to detect the participant's motion/dancing and the Qwiic button was pressed to detect the participant's singing. 
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+
+Brandt Beckerman: "Good idea! I like how it takes in movement and audio and the device will give a verbal response back." 
+
+Antonio Mojena: "It's sort of like an 8 ball where you just shake it and you get a response. I wonder if you could make the device like a mic so that it senses how much you move while you sing and maybe base a response off of the movement as well."
 
 ## Prototype your system
 
