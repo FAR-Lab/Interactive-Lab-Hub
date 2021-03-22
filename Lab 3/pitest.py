@@ -24,23 +24,24 @@ def main():
 	mode = -1
 	while True:
 		# If joystick got pressed
-        	if not qwiicjoystick():
-                	mode = 0
-                	draw_text(mode)
-                	start_listen()
+		if not qwiicjoystick():
+			mode = 0
+			draw_text(mode)
+			start_listen()
 
 
 def start_listen():
 	print("Start listening...")
 	data = wf.readframes(4000)
-	if rec.AcceptWaveform(data):
-		print(rec.Result())
-		res = rec.Result()
-		if(res):
-			mode = 1
-			draw_text(mode)
-			return
-        	
+	while True:
+		if len(data) == 0:
+			break
+		if rec.AcceptWaveform(data):
+			print(rec.Result())
+		else:
+			print(rec.PartialResult())
+	print(rec.FinalResult())
+			
 
 def qwiicjoystick():
 	global bus_data,X,Y,mode
@@ -54,4 +55,4 @@ def qwiicjoystick():
 	return selected
 
 if __name__ == '__main__':
-    main()
+	main()
