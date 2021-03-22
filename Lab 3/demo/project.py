@@ -115,10 +115,10 @@ while True:
             count = count + 1
         if count == 1:
             speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
-            count = count + 1    
+            #count = count + 1    
         if count == 2:
             speak2me("Ok now turn left and walk five steps")
-            count = count + 1
+            #count = count + 1
         else:
             pass
         #count = count + 1
