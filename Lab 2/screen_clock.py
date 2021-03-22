@@ -119,7 +119,7 @@ while True:
         draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#FFFFFF")
     elif buttonB.value:
         curDate = strftime("%m/10/%Y")
-        draw.text((0, top), curTime, font=font, fill="#0000FF")
+        draw.text((0, top), curDate, font=font, fill="#0000FF")
         print("B button")
 
     else:
