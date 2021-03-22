@@ -27,18 +27,19 @@ def main():
 		if not qwiicjoystick():
 			mode = 0
 			draw_text(mode)
-		print("Start listening...")
-		data = wf.readframes(4000)
-		if len(data) == 0:
-			break
-		if rec.AcceptWaveform(data):
-			print(rec.Result())
-		else:
-			print(rec.PartialResult())
-	res = rec.FinalResult()
-	if(res and mode == 0):
-		mode = 1
-		draw_text(mode)
+		while (mode == 0):
+			print("Start listening...")
+			data = wf.readframes(4000)
+			if len(data) == 0:
+				break
+			if rec.AcceptWaveform(data):
+				print(rec.Result())
+			else:
+				print(rec.PartialResult())
+			res = rec.FinalResult()
+			if(res and mode == 0):
+				mode = 1
+				draw_text(mode)
 
 def qwiicjoystick():
 	global bus_data,X,Y,mode
