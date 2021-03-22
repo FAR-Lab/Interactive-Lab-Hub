@@ -95,6 +95,16 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+The SimonCowell Lab Apparatus:
+![](lab3.1.png)
+![](lab3.2.png)
+![](lab3.3.png)
+
+Button to indicate singing: 
+![](lab3.4.png)
+
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
