@@ -19,8 +19,8 @@ from screen_test import draw_text
 # record_command = "record -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav temp.wav"
 
 # #JoyStick Control
-# bus = smbus.SMBus(1)
-# addr = 0x20
+bus = smbus.SMBus(1)
+addr = 0x20
 
 # while True:
 
