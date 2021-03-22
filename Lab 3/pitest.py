@@ -11,6 +11,13 @@ from screen_test import draw_text
 bus = smbus.SMBus(1)
 addr = 0x20
 
+# record_command = "arecord -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav temp.wav"
+# os.system(record_command)
+# time.sleep(1)
+wf = wave.open("temp.wav", "rb")
+model = Model("model")
+rec = KaldiRecognizer(model, wf.getframerate(), "start test hi hello zero oh one two three four five six seven eight nine [unk]")
+
 
 def main():
 	global bus_data,X,Y,mode
@@ -25,19 +32,15 @@ def main():
 
 def start_listen():
 	print("Start listening...")
-	record_command = "arecord -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav temp.wav"
-	os.system(record_command)
-	time.sleep(1)
-	wf = wave.open("temp.wav", "rb")
-	model = Model("model")
-	rec = KaldiRecognizer(model, wf.getframerate(), "start test hi hello zero oh one two three four five six seven eight nine [unk]")
 	data = wf.readframes(4000)
 	if rec.AcceptWaveform(data):
+		print(rec.Result())
 		res = rec.Result()
 		if(res):
 			mode = 1
 			draw_text(mode)
-        	#print(rec.Result())
+			return
+        	
 
 def qwiicjoystick():
 	global bus_data,X,Y,mode
