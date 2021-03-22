@@ -85,9 +85,12 @@ while True:
         speak2me("You are too close to an object")
     if buttonB.value and not buttonA.value:  # just button A pressed
         print(count)
-        #speak2me("Button A pressed")
-        #count = count + 1
-        speak2me("Alright let's go to the fridge The first step is to turn left and walk three steps")
+        if count == 1:
+            speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
+            count = count + 1
+        else:
+            pass
+        speak2me("Alright, let's go to the fridge. The first step is to turn left and walk three steps.")
         #if count == 0:
         #    speak2me("Alright let's go to the fridge. The first step is to turn left and walk three steps.")
         #    count = count + 1
@@ -117,8 +120,7 @@ while True:
         print("in here2")
     else:
         pass
-    #if not buttonA.value and not buttonB.value:  # none pressed
-        #speak2me("Button C pressed")
+
         
 @socketio.on('speak')
 def handel_speak(val):
