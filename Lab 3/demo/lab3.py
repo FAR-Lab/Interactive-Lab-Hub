@@ -23,9 +23,9 @@ def swing():
             speak2me("Your ball is in the right rough")
         if ((myJoystick.get_vertical() > 205) and (myJoystick.get_vertical() <= 409)):
             speak2me("Your ball is in the right side of the fairway")
-        if ((myJoystick.get_vertical() > 409) and (myJoystick.get_vertical() <= 500)):
+        if ((myJoystick.get_vertical() > 409) and (myJoystick.get_vertical() <= 501)):
             speak2me("Your ball is in the middle of the fairway")
-        if ((myJoystick.get_vertical() > 506) and (myJoystick.get_vertical() <= 614)):
+        if ((myJoystick.get_vertical() > 505) and (myJoystick.get_vertical() <= 614)):
             speak2me("Your ball is in the middle of the fairway")
         if ((myJoystick.get_vertical() > 614) and (myJoystick.get_vertical() <= 818)):
             speak2me("Your Ball is in the left side of the fairway")
