@@ -59,7 +59,6 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 22)
-
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
@@ -101,17 +100,17 @@ while True:
     if buttonA.value:  # just button A pressed
         # display.fill(screenColor) # set the screen to the users color
         # backlight.value = False  # turn off backlight
-        draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#0000FF")
+        draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#FFFF00")
         curTime = strftime("%H:%M:%S")
 
         curHour = int(strftime("%H"))
-        print(type(curHour))
+        # print(type(curHour))
         draw = ImageDraw.Draw(image)
         unitWidth = disp.width/4
         unitHeight = disp.height/6
         # print(unitWidth, unitHeight)
 
-        for i in range(24):
+        for i in range(curHour):
             shape = [(i%6)*unitHeight,(i//6)*unitWidth,(i%6)*unitHeight+unitHeight,(i//6)*unitWidth+unitWidth]
             if i<8 or i>20:
                 draw.rectangle( shape, fill =(0,0,180), outline =(255,255,255))
