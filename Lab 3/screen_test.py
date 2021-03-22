@@ -101,6 +101,8 @@ def draw_text(mode):
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), question_text, font=text_font, fill="#FFFFFF")
+        disp.image(image, rotation) 
+            
         time.sleep(6)
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
