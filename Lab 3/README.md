@@ -92,6 +92,9 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/system.JPG)
+
+
 The system will have 3 stages: Idle, Start Test, Present Results.
 
 ### Idle
