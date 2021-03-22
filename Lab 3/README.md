@@ -76,6 +76,8 @@ I want to build a device for golfers that tells you where your ball went if you 
 
 *what was the feedback? Who did it come from?*
 
+Rob Gentul: "sweet idea, definitely see a valuable application for it. would be really cool if you could select a club type to start off the program (i imagine that would impact where the ball would go)"
+
 ## Prototype your system
 
 The system should:
@@ -104,19 +106,21 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 Answer the following:
 
+One tester: Niki Agrawal
+
 ### What worked well about the system and what didn't?
-*your answer here*
+The simulation of swinging a club and the explanation of where the ball went seemed to be very clear.
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+The sensitivity was a bit off. Sometimes the user swung the club and the device didnt respond because it was too in the middle (I tampered this down so it woulnd't constantly speak if the person wasn't swinging, because of the starting position of the joystick). Additionally the timing was a bit off, sometimes the user would swing and was confused when they weren’t getting immediate feedback - time may be too long. Although, they said the speed of the reponse seemed good.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
+The device will need to respond to the user within an acceptable time window when called upon, so as not to seem to quick to feel "fake" but not take too long to feel like it's not being responsive or working correctly.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*your answer here*
+I'd like to capture how long after a swing the person asks the device where the ball went, how long it takes to respond after asking, and where the ball actually goes. Additionally, i've gotten some feedback regarding wind, course conditions, club type, swing speed, hazards, and different courses. It would be great to capture all this, more specifically tracking the force and angle of the club at impact to help determine how far and where it went, in additional to the direction which ended up being what I tested in this lab.
 
