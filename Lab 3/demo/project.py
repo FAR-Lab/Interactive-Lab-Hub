@@ -77,40 +77,38 @@ def alert():
         
 alert()
 
-while apds.proximity > 150:
-    #if apds.proximity > 150:
+while apds.proximity:
+    if apds.proximity > 150:
     #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
-    print ("You are too close!")
-    speak2me("You are too close to an object")
-    break
-         
+        print ("You are too close!")
+        speak2me("You are too close to an object")
         
-@socketio.on('speak')
-def handel_speak(val):
-    call(f"espeak '{val}'", shell=True)
+    @socketio.on('speak')
+    def handel_speak(val):
+        call(f"espeak '{val}'", shell=True)
 
-@socketio.on('connect')
-def test_connect():
-    print('connected')
-    emit('after connect',  {'data':'Lets dance'})
+    @socketio.on('connect')
+    def test_connect():
+        print('connected')
+        emit('after connect',  {'data':'Lets dance'})
 
-@socketio.on('ping-gps')
-def handle_message(val):
-    # print(mpu.acceleration)
-    emit('pong-gps', mpu.acceleration) 
-    
-@app.route('/')
-def index():
-    return render_template('index.html', hostname=hostname)
+    @socketio.on('ping-gps')
+    def handle_message(val):
+        # print(mpu.acceleration)
+        emit('pong-gps', mpu.acceleration) 
 
-def signal_handler(sig, frame):
-    print('Closing Gracefully')
-    audio_stream.terminate()
-    sys.exit(0)
+    @app.route('/')
+    def index():
+        return render_template('index.html', hostname=hostname)
 
-signal.signal(signal.SIGINT, signal_handler)
+    def signal_handler(sig, frame):
+        print('Closing Gracefully')
+        audio_stream.terminate()
+        sys.exit(0)
+
+    signal.signal(signal.SIGINT, signal_handler)
 
 
-if __name__ == "__main__":
-    socketio.run(app, host='0.0.0.0', port=5000)
+    if __name__ == "__main__":
+        socketio.run(app, host='0.0.0.0', port=5000)
     
