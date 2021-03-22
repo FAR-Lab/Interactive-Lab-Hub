@@ -32,6 +32,7 @@ disp = st7789.ST7789(
 )
 
 buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
 
 
 # Create blank image for drawing.
@@ -108,18 +109,20 @@ while True:
         unitWidth = disp.width/4
         unitHeight = disp.height/6
         # print(unitWidth, unitHeight)
-        draw.rectangle( (0,0, width, height), fill =(255,255,255), outline =(255,255,255))
+        draw.rectangle( (0,0, width, height), fill =(255,255,255), outline =(0,0,0))
         for i in range(curHour):
             shape = [(i%6)*unitHeight,(i//6)*unitWidth,(i%6)*unitHeight+unitHeight,(i//6)*unitWidth+unitWidth]
             if i<8 or i>20:
-                draw.rectangle( shape, fill =(255,255,180), outline =(255,255,255))
+                draw.rectangle( shape, fill =(255,255,180), outline =(0,0,0))
             else:
-                draw.rectangle( shape, fill =(i*10,i*10,255), outline =(255,255,255))
-        draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#FFFF00")
-
+                draw.rectangle( shape, fill =(i*10,i*10,255), outline =(0,0,0))
+        draw.text((0, top), "Press Button\n To See Clock", font=font, fill="#FFFFFF")
+        print("A button")
     elif buttonB.value:
         curDate = strftime("%m/10/%Y")
         draw.text((0, top), curTime, font=font, fill="#0000FF")
+        print("B button")
+
 
     else:
         # image = Image.new("RGB", (width, height))
