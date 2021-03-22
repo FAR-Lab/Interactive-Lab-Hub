@@ -36,6 +36,11 @@ apds.enable_proximity = True
 apds.proximity_interrupt_threshold = (0, 175)
 apds.enable_proximity_interrupt = True
 
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
 def speak2me(val):
     call(f"espeak '{val}'", shell=True)
     
@@ -69,10 +74,22 @@ print("testing2")
 #print("testing3")
 
 while True:
+    buttonA = digitalio.DigitalInOut(board.D23)
+    buttonB = digitalio.DigitalInOut(board.D24)
+    buttonA.switch_to_input()
+    buttonB.switch_to_input()
     if apds.proximity > 150:
         print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         print ("You are too close!")
         speak2me("You are too close to an object")
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        print("in here1")
+        speak2me("Button A pressed")
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        speak2me("Button B pressed")
+        print("in here2")
+    #if not buttonA.value and not buttonB.value:  # none pressed
+        #speak2me("Button C pressed")
         
 @socketio.on('speak')
 def handel_speak(val):
