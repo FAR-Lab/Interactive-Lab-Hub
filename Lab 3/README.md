@@ -111,7 +111,7 @@ After finishing a series of questions, the system will present the results. The 
 *Include videos or screencaptures of both the system and the controller.*
 
 Full video link:
-https://drive.google.com/file/d/1SE1ETttaJaDRAs7LzBmJGKKse9qkzk-3/view?usp=sharing
+https://drive.google.com/file/d/1lBMASgd36y7uIoHvX-FjO6D_Jmi_AIVI/view?usp=sharing
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
