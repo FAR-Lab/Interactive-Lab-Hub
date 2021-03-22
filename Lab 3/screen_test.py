@@ -73,7 +73,7 @@ result_emoticon = "٩( ᐛ )و"
 welcome_text = "Welcome to PiTest!"
 welcome_text_2 = "Please answer the questions."
 
-question_text = "Which animals do you think"
+question_text = "Which animal do you think"
 question_text_1 = "you are?"
 question_text_2 = "If it doesn't exist, which other" 
 question_text_3 = "animal do you think you are?"
@@ -96,6 +96,7 @@ def draw_text(mode):
         draw.text((x, y), welcome_text_2, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
         os.system("espeak 'Welcome to Pie test'")
+        os.system("espeak 'Please answer the questions.'")
         time.sleep(5)
         mode=2
         draw_text(mode)
@@ -107,14 +108,18 @@ def draw_text(mode):
         y += (text_font.getsize(question_text)[1])
         draw.text((x, y), question_text_1, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation) 
-            
+        os.system("espeak 'Which animal do you think you are?'")
+        
         time.sleep(6)
+        
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         y = top
         draw.text((x, y), question_text_2, font=text_font, fill="#FFFFFF")
         y += (text_font.getsize(question_text_2)[1])
         draw.text((x, y), question_text_3, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
+        os.system("espeak 'If it doesn't exist, which other animal do you think you are?'")
+        
         time.sleep(6)
         mode=3
         draw_text(mode)
@@ -126,6 +131,8 @@ def draw_text(mode):
         y += (emoticon_font.getsize(result_emoticon)[1])
         draw.text((x, y), result_text, font=text_font, fill="#FFFFFF")
         disp.image(image, rotation)
+        os.system("espeak 'Thank you for taking the Pie test.'")
+        os.system("espeak 'You are an I N F P'")
         time.sleep(10)
         mode=0
         draw_text(mode)
