@@ -129,4 +129,4 @@ def draw_text(mode):
         y = top
         draw.text((x, y), sleep_emoticon, font=emoticon_font, fill="#FF7D99")
         disp.image(image, rotation)
-        time.sleep(1)
+        time.sleep(5)
