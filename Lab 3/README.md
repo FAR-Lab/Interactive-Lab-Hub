@@ -87,9 +87,9 @@ Antonio Mojena: "It's sort of like an 8 ball where you just shake it and you get
 ## Prototype your system
 
 The system should:
-* use the Raspberry Pi 
-* use one or more sensors
-* require participants to speak to it. 
+* use the Raspberry Pi 👍
+* use one or more sensors 👍 (Qwiic Red Button and Accelerometer)
+* require participants to speak to it. 👍 (Takes in contestant's singing!)
 
 *Document how the system works*
 
