@@ -77,7 +77,7 @@ def alert():
         
 alert()
 
-while apds.proximity:
+while True:
     if apds.proximity > 150:
     #print(apds.proximity) #printing out the proximity of the sensor from 0-255 where 0 is nothing is near and 255 is its touching
         print ("You are too close!")
