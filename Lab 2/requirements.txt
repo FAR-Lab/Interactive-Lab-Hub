@@ -6,7 +6,7 @@ adafruit-circuitpython-rgb-display==3.10.5
 Adafruit-PlatformDetect==3.1.1
 Adafruit-PureIO==1.1.8
 circuitpython-i2c-button==2.2.1
-Pillow==8.1.0
+Pillow==8.1.1
 pyftdi==0.52.9
 pyserial==3.5
 pyusb==1.1.1
