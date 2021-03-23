@@ -1,4 +1,4 @@
-# You're a wizard, [Student Name Here]
+# You're a wizard, Heidi
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -67,6 +67,8 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 ## Prep for Part 2
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
+My idea is a smart recipe in the kitchen. The reason I chose to make a recipe in this interactive speech device task is that it frees one's hands. Cooking in the kitchen often involves oily or messy hands, if we want to refer back to a recipe, we have to clean our hands first. This device can reminds you of the recipe & show current status through voice interface. Moreover, 2 buttons are added for easier navigation.
+https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%203/Lab3-2.jpg
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
