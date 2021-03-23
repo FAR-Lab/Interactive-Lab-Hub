@@ -115,7 +115,7 @@ while True:
             if i<8 or i>20:
                 draw.rectangle( shape, fill =(0,120,180), outline =(0,0,0))
             else:
-                draw.rectangle( shape, fill =(i*10,i*10,255), outline =(0,0,0))
+                draw.rectangle( shape, fill =(i*10,i*10,0), outline =(0,0,0))
         draw.text((0, top), "Press Button\n To See Clock \n Upper button: Date \n Upper button: Time", font=font, fill="#FFFFFF")
     elif buttonB.value:
         curDate = strftime("%m/10/%Y")

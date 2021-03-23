@@ -199,6 +199,8 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
->>>>>>> c96c27d22c7e3d74945cf46c0878d007700e8263
+
+This is the video demo of my project. The blocks update according to the current hour of the day, as I sketched in the previous part. By lighting up the portion of the day, it reminds the user how much of the day has passed. More over, the color is coded according to sleeping hour. The blocks outside the sleeping hour (8am-10pm) is bright yellow and it gets dimmer after each hour. The blocks within the sleeping hour is deep blue to reminds the user to get rest. Moreover, I splitted the two button's roles, one is for displaying the date, the other is for displaying the time, because I think those are two separate things that one want to know in different occasion. 
+https://youtu.be/wsNgQ7eM7WQ
 
 
