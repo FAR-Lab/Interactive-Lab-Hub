@@ -95,6 +95,7 @@ The system should:
 6) If a person is approaching a wall, it will warn them and say "You are too close to an object" 
 
 *Include videos or screencaptures of both the system and the controller.*
+https://drive.google.com/file/d/1mVyckoidQbm5ALzmIW6bXTdvRDLXtJV_/view?usp=sharing
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -106,11 +107,11 @@ This worked well as a navigator for a blind person by giving them voice directio
 
 
 ### What worked well about the controller and what didn't?
-From a device prototyping perspective, since the computer had to be connected to the pi as a power source, I had to do the wizarding myself. Ideally another person would type in the commands and wizard it, so that it's a faster and more fluid interaction. Also, this should be used as a wearable device, not something you have to hold in your hands.
+From a device prototyping perspective, since the computer had to be connected to the pi as a power source and the speaker, it was a very bulky interaction and didn't feel natural. Also, this should be used as a wearable device or at the end of the white cane, not something you have to hold in your hands. Lastly, when I was showing the capabilities of the proximity sensor, I had to purposefully tap it against a wall so that was not natural.
 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-Next time, the person using the system should be hidden so that it feels more authentic that it's giving directions. 
+Next time with a less bulky system to carry around and actually running into an object, it will feel more natural. Also if we have enough directions programmed into the device, we could really direct a person to a place with these directions. Lastly, I should make the voice sound a bit more pleasant and easier to understand.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
