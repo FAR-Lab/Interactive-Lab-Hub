@@ -101,19 +101,18 @@ We just received some of the small oled screens that we had coped to include in 
 ### Part C
 ### Paper Display
 
-Here is an Arduino breadboard with a paper faceplate on it to turn it into a display:
+Here is an Pi with a paper faceplate on it to turn it into a display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
 
 
-
-This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the breadboard. Also, it really only works for applications where people can come and stand over the breadboard, or where you can mount the board to the wall.
+This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
 
 Here is another prototype for a paper display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
 
-It holds a breadboard and 9v battery, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
+It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
 
 This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
 
@@ -127,7 +126,14 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 
-Make a paper display that uses the servo to show how many times a button on the front has been pressed (or any other thing you can sense or count). Ideally you should design it so that you can slide the breadboard out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the breadboard out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
 
 
 **a. Make a video of your paper display in action.**
+
+### Part D
+### Materiality
+
+**Open Ended**: We are putting very few constraints on this part but we want you to get creative.
+
+Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
