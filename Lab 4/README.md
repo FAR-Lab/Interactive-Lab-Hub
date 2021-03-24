@@ -128,8 +128,8 @@ Here is an example:
 
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
 
-
-**a. Make a video of your paper display in action.**
+**a. Document the design for your paper display. (e.g. if you had to make it again from scratch, what information would you need?)**
+**b. Make a video of your paper display in action.**
 
 ### Part D
 ### Materiality
