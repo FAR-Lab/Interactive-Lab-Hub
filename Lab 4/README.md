@@ -127,9 +127,12 @@ Here is an example:
 
 
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+ 
+**a. Document the design for your paper display. ** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
-**a. Document the design for your paper display. (e.g. if you had to make it again from scratch, what information would you need?)**
 **b. Make a video of your paper display in action.**
+
+**c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 ### Part D
 ### Materiality
@@ -137,3 +140,8 @@ Make a paper display for your project that communicates the state of the Pi and 
 **Open Ended**: We are putting very few constraints on this part but we want you to get creative.
 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
+
+** a. document the material prototype. ** Include candidates that were considered even if they were set aside later.
+
+** b. explain the selection. **
+
