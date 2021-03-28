@@ -111,7 +111,7 @@ buttonB.switch_to_input()
 
 current = 0
 while True:
-    display_img = Image.open("welcome.png")
+    display_img = Image.open("welcome.jpeg")
     display_img = image_formatting(display_img)
     disp.image(display_img, rotation)
 
@@ -181,7 +181,7 @@ while True:
         current = 5
 
     if current == 5:
-        display_img = Image.open("text.png")
+        display_img = Image.open("text.gif")
         display_img = image_formatting(display_img)
         disp.image(display_img, rotation)
         handle_speak("Thanks! You should have received a confirmation text from us. Please press the green button to "
@@ -225,7 +225,7 @@ while True:
         current = 10
 
     if current == 8:
-        display_img = Image.open("fridayapril9.png")
+        display_img = Image.open("friday.jpeg")
         display_img = image_formatting(display_img)
         disp.image(display_img, rotation)
         handle_speak("Great! You are confirmed for the appointment on ")
@@ -242,7 +242,7 @@ while True:
         if red_clicked:
             current = 10
         else:
-            display_img = Image.open("phonering.png")
+            display_img = Image.open("phonering.jpeg")
             display_img = image_formatting(display_img)
             disp.image(display_img, rotation)
             handle_speak("Connecting you to an operator. Please stand by.")
@@ -253,7 +253,7 @@ while True:
 
     if current == 10:
         time.sleep(0.5)
-        display_img = Image.open("welcome.png")
+        display_img = Image.open("welcome.jpeg")
         display_img = image_formatting(display_img)
         disp.image(display_img, rotation)
         handle_speak("Thanks for calling in to the Medical Hotline of Manhattan. Goodbye.")
