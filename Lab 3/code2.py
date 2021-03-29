@@ -15,8 +15,8 @@ cwd = os.getcwd()
 
 
 def handle_speak(val):
-    #subprocess.run(["sh", "GoogleTTS_demo.sh", val])
-    call(f"espeak -ven -k5 -s150 --stdout '{command}' | aplay", shell=True)
+    subprocess.run(["sh", "GoogleTTS_demo.sh", val])
+    # call(f"espeak -ven -k5 -s150 --stdout '{val}' | aplay", shell=True)
     time.sleep(0.5)
 
 
@@ -89,9 +89,7 @@ cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
 
-#GPIO.setup(22, GPIO.OUT)
-#GPIO.add_event_detect(23, GPIO.FALLING, bouncetime=300)
-redButton = qwiic_button.QwiicButton()
+redButton = qwiic_button.QwiicButton(address=0x68)
 redButton.begin()
 
 greenButton = qwiic_button.QwiicButton(address=0x6f)
@@ -121,17 +119,16 @@ while True:
 
     if current == 0:
         subprocess.call("~/Interactive-Lab-Hub/Lab\ 3/welcome.sh", shell=True)
-        time.sleep(0.5)
+        time.sleep(0.8)
         current = 1
 
     if current == 1:
         subprocess.call("~/Interactive-Lab-Hub/Lab\ 3/registered.sh", shell=True)
         while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200);
-            greenButton.LED_on(200)
+            redButton.LED_on(155); greenButton.LED_on(155)
         red_clicked = redButton.is_button_pressed()
-        redButton.LED_off();
-        greenButton.LED_off()
+        green_clicked = greenButton.is_button_pressed()
+        redButton.LED_off(); greenButton.LED_off()
         if red_clicked:
             current = 2
         else:
@@ -250,7 +247,7 @@ while True:
             display_img = image_formatting(display_img)
             disp.image(display_img, rotation)
             handle_speak("Connecting you to an operator. Please stand by.")
-            #os.system('mpg321 ring.mp3 &')
+            os.system('mpg321 ring.mp3 &')
             time.sleep(2)
             backlight.value = False
             break
