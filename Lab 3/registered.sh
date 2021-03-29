@@ -1,0 +1,1 @@
+espeak -ven+f2 -k5 -s150 --stdout  "Hi! Have you previously registered with us or been to one of our medical offices before? Press the red button for no, press the green button for yes." | aplay
