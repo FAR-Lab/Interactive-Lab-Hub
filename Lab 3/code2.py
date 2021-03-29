@@ -6,6 +6,7 @@ import board
 import adafruit_rgb_display.st7789 as st7789
 import subprocess
 import qwiic_button
+import RPi.GPIO as GPIO
 
 from PIL import Image, ImageDraw, ImageFont
 from subprocess import call, Popen
@@ -14,7 +15,9 @@ cwd = os.getcwd()
 
 
 def handle_speak(val):
-    subprocess.run(["sh", "GoogleTTS_demo.sh", val])
+    #subprocess.run(["sh", "GoogleTTS_demo.sh", val])
+    call(f"espeak -ven -k5 -s150 --stdout '{command}' | aplay", shell=True)
+    time.sleep(0.5)
 
 
 def image_formatting(image2):
@@ -50,9 +53,6 @@ disp = st7789.ST7789(
 )
 
 hardware = 'plughw:2,0'
-audio_stream = Popen(
-    "/usr/bin/cvlc alsa://" + hardware + " --sout='#transcode{vcodec=none,acodec=mp3,ab=256,channels=2,samplerate=44100,scodec=none}:http{mux=mp3,dst=:8080/}' --no-sout-all --sout-keep",
-    shell=True)
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
@@ -77,7 +77,7 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 
 # Draw a black filled box to clear the image.
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
-disp.image(image)
+disp.image(image, rotation)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -89,10 +89,12 @@ cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
 
+#GPIO.setup(22, GPIO.OUT)
+#GPIO.add_event_detect(23, GPIO.FALLING, bouncetime=300)
 redButton = qwiic_button.QwiicButton()
 redButton.begin()
 
-greenButton = qwiic_button.QwiicButton(address=0x62)
+greenButton = qwiic_button.QwiicButton(address=0x6f)
 greenButton.begin()
 
 redButton.LED_off()
@@ -111,9 +113,11 @@ buttonB.switch_to_input()
 
 current = 0
 while True:
-    display_img = Image.open("welcome.jpeg")
-    display_img = image_formatting(display_img)
-    disp.image(display_img, rotation)
+    display_image = Image.open("welcome.jpeg")
+    #display_img = image_formatting(display_img)
+    display_image = display_image.convert('RGB')
+    display_image = display_image.resize((width, height), Image.BICUBIC)
+    #disp.image(display_image, rotation)
 
     if current == 0:
         subprocess.call("~/Interactive-Lab-Hub/Lab\ 3/welcome.sh", shell=True)
@@ -123,10 +127,10 @@ while True:
     if current == 1:
         subprocess.call("~/Interactive-Lab-Hub/Lab\ 3/registered.sh", shell=True)
         while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200)
+            redButton.LED_on(200);
             greenButton.LED_on(200)
         red_clicked = redButton.is_button_pressed()
-        redButton.LED_off()
+        redButton.LED_off();
         greenButton.LED_off()
         if red_clicked:
             current = 2
@@ -140,8 +144,8 @@ while True:
 
     if current == 2:
         display_img = Image.open("NY.png")
-        display_img = image_formatting(display_img)
-        disp.image(display_img, rotation)
+        #display_img = image_formatting(display_img)
+        #disp.image(display_img, rotation)
         handle_speak("To begin, are you a resident of New York State?")
         handle_speak("Press the red button for no, or press the green button for yes.")
         while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
@@ -163,10 +167,10 @@ while True:
 
     if current == 3:
         while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200)
+            redButton.LED_on(200);
             greenButton.LED_on(200)
         red_clicked = redButton.is_button_pressed()
-        redButton.LED_off()
+        redButton.LED_off();
         greenButton.LED_off()
         if red_clicked:
             current = 10
@@ -182,8 +186,8 @@ while True:
 
     if current == 5:
         display_img = Image.open("text.gif")
-        display_img = image_formatting(display_img)
-        disp.image(display_img, rotation)
+        #display_img = image_formatting(display_img)
+        #disp.image(display_img, rotation)
         handle_speak("Thanks! You should have received a confirmation text from us. Please press the green button to "
                      "confirm you have received the message. Press the red button to resend.")
         while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
@@ -199,8 +203,8 @@ while True:
 
     if current == 6:
         display_img = Image.open("calendar.png")
-        display_img = image_formatting(display_img)
-        disp.image(display_img, rotation)
+        #display_img = image_formatting(display_img)
+        #disp.image(display_img, rotation)
         handle_speak("Cool! What day would you like to come in to see the doctor?")
         time.sleep(0.8)
         handle_speak("Give me a moment to check the doctor's availability on this day.")
@@ -226,8 +230,8 @@ while True:
 
     if current == 8:
         display_img = Image.open("friday.jpeg")
-        display_img = image_formatting(display_img)
-        disp.image(display_img, rotation)
+        #display_img = image_formatting(display_img)
+        #disp.image(display_img, rotation)
         handle_speak("Great! You are confirmed for the appointment on ")
         handle_speak("Friday April second at")
         handle_speak("nine A M")
@@ -246,7 +250,7 @@ while True:
             display_img = image_formatting(display_img)
             disp.image(display_img, rotation)
             handle_speak("Connecting you to an operator. Please stand by.")
-            os.system('mpg321 ring.mp3 &')
+            #os.system('mpg321 ring.mp3 &')
             time.sleep(2)
             backlight.value = False
             break
@@ -254,11 +258,12 @@ while True:
     if current == 10:
         time.sleep(0.5)
         display_img = Image.open("welcome.jpeg")
-        display_img = image_formatting(display_img)
-        disp.image(display_img, rotation)
+        #display_img = image_formatting(display_img)
+        #disp.image(display_img, rotation)
         handle_speak("Thanks for calling in to the Medical Hotline of Manhattan. Goodbye.")
         time.sleep(2)
         backlight.value = False
         break
 
     time.sleep(0.1)
+    GPIO.cleanup()
