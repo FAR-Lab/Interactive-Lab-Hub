@@ -243,10 +243,11 @@ def arrow_wait(direction):
 
 def show_and_tell(color):
     time_ind = 0
-    for i in range(5):
+    for i in range(10):
         r, g, b, c = apds.color_data
         time.sleep(0.1)
     total = r + g + b
+    return True
 
     r = float(r) / total
     g = float(g) / total

@@ -1,12 +1,13 @@
 from gtts import gTTS
 import RPi.GPIO as GPIO
 import os
+from random import randrange
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import busio
 import time
-import adafruit_apds9960.apds9960 import APDS9960
+from adafruit_apds9960.apds9960 import APDS9960
 import adafruit_rgb_display.st7789 as st7789
 from threading import Thread
 
@@ -82,22 +83,20 @@ def setup():
     backlight.value = True
 
     # Configure the light sensor
-    int_pin = digitalio.DigitalInOut(board.D21)
-    apds = APDS9960(i2c, interrupt_pin=int_pin)
+    apds = APDS9960(i2c)
     apds.enable_proximity = True
-    apds.proximity_interrupt_threshold = (0, 175)
     apds.enable_proximity_interrupt = True
 
-    return Servo, disp, [rotation, top], apds, int_pin
+    return Servo, disp, [rotation, top], apds
 
-Servo, disp, disp_opts, apds, int_pin = setup()
+Servo, disp, disp_opts, apds = setup()
 
 def face_move(num_moves):
-    Servo.start(50)
+    Servo.start(2.5)
     for i in range(num_moves):
-        Servo.ChangeDutyCycle(90)
+        Servo.ChangeDutyCycle(80 / 18 + 2)
         time.sleep(0.5)
-        Servo.ChangeDutyCycle(50)
+        Servo.ChangeDutyCycle(60 / 18 + 2)
         time.sleep(0.5)
 
     Servo.stop()
@@ -116,6 +115,17 @@ def speak(m):
 
 
 while True:
-    if not int_pin.value:
-        speak('Movement detected')
-    time.sleep(1)
+    if apds.proximity > 100:
+        Thread(target=face_move, args=(10,)).start()
+        speak("Heading out? Don't forget your mask. The pandemic hasn't ended yet!")
+        speak("It is nice and sunny out and a warm 75 degrees.")
+        rand_val = randrange(10)
+        if rand_val == 0:
+            speak("Looking good. Got get them, tiger.")
+        elif rand_val < 5:
+            speak("Are you really going to wear your hair like that?")
+        else:
+            speak("What happened to your face?")
+
+    print(apds.proximity)
+    time.sleep(0.1)
