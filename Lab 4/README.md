@@ -86,14 +86,17 @@ Unfortunately, I was not in New York at the time of this lab so have not receive
 
 Here is an Pi with a paper faceplate on it to turn it into a display:
 
+<p align="center">
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
-
+</p>
 
 This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
 
 Here is another prototype for a paper display:
 
+<p align="center">
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
+</p>
 
 It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
 
@@ -106,20 +109,44 @@ Fold the first flap of the strip so that it sits flush against the back of the f
 
 Here is an example:
 
+<p align="center">
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
+</p>
 
+### My idea (show sketches/initial designs)
+tbd
 
-Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+### Show the paper prototypes (initial versions)
+#### Look-like Prototype
+tbd
 
+#### Work-like Prototype
+tbd
+
+#### Act-Like Prototype
+tbd
+
+### Talk about the components/functionality
+tbd
 
 **a. Make a video of your paper display in action.**
 
 ## Part D - Materiality
+### Design of the product
+tbd
 
-**Open Ended**: We are putting very few constraints on this part but we want you to get creative.
+### Components/functionality
+tbd
 
-Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
+### demo working
+tbd
 
 ## Reflection
+### What went well
+tbd
 
+### What could have gone better?
+tbd
+
+### What do I wish I could have done?
 tbd
