@@ -113,20 +113,41 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 </p>
 
-### My idea (show sketches/initial designs)
-tbd
+### My Idea
+For this lab, I decided to create "The Honest Mirror" as an aid for people to get feedback on how they look at they are leaving their homes. This idea came about because, while visiting family in LA, I realized I kept almost forgetting to wear my mask when I left home because there is no mirror by the entrance here like there is in my apartment in New York. This mirror not only will remind you to wear your mask but also will give you a heads up as to what weather you can expect outside and how you look. Unfortunately, this mirror is quite picky with how it looks and holds you to the same standard. Most of the time, it will disapprove of your appearance. Every now and then, though, it will give you some nice validation.
+
+I've included an initial concept of The Honest Mirror below with what components I expect it will need for my intended functionality.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png"/>
+</p>
+
+In order to be a reasonable product, I expect the Honest Mirror will need to meet the following criteria:
+* It will need to be large enough to allow a face and the miniPiTFT screen while also having enough space for the user to look at their own reflection.
+* Given the mirror is intended to be placed near the entrance to the user's home, the device can be expected to be viewed from within a couple feet. Given this criteria, the text on the miniPiTFT should be large enough and simple enough as to be legible from a distance of two feet away at most.
+* I wish my skills with paper prototyping were good enough to make a really elaborate mirror frame design. However, given this is my first foray into prototyping movement and with cardboard at all, I will stick to a simple rectangular frame as this is still a common mirror shape. There should be some frame shape for the device though, to make it clearer that it is a mirror.
+
+As displayed in the concept board image above, I expect the device to require the following components:
+* A "mirror" frame and reflective surface
+* A "face" with movable mouth and eyes
+* A servo motor for enabling facial movement
+* The miniPiTFT screen for displaying weather information
+* Another screen (possibly the OLED) for displaying mask alerts if the user has forgotten their mask.
 
 ### Show the paper prototypes (initial versions)
 #### Look-like Prototype
-tbd
+For the initial look-like prototype, I decided just to do a simple sketch on paper to show my ideal level of detail and feel of the design. 
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/look_like_proto.png"/>
+</p>
+
+A simple yet elegant frame surrounds the mirror and a detailed face appears which will speak to the user. The face is meant to be friendly and calming (despite how it often judges your appearance) to appeal to the user. Beneath the screen lies the weather information and the mask alert. The face is quite large here and takes up a good portion of the mirror. Ideally, the face would only appear after the user is able to see their own appearance and is preparing to leave so as to not get in the user's way of seeing their reflection.
 
 #### Work-like Prototype
 tbd
 
 #### Act-Like Prototype
-tbd
-
-### Talk about the components/functionality
 tbd
 
 **a. Make a video of your paper display in action.**
@@ -149,4 +170,7 @@ tbd
 tbd
 
 ### What do I wish I could have done?
-tbd
+mask alert -> didn't have another screen
+better frame sizing -> made the mirror too big and didn't have enough cardboard
+More elaborate frame -> limited cardboard experience/skills
+smoother face motions -> limited cardboard experience/skills
