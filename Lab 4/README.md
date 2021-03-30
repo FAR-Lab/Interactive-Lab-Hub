@@ -46,9 +46,9 @@ F) [Record the interaction](#part-f-record)
 The [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) a very flexible input sensor. It measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material and it will recognize when you touch it.
 
 <p align="center">
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
-<img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
-<img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
+<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" width=30% />
+<img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" width=30%>
+<img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" width=30%>
 </p>
 
 Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better).
@@ -76,8 +76,8 @@ You can see this setup in action in the demo below!
 We just received some of the small oled screens that we had coped to include in your kit. If you want one feel free to pop into the lab and get one. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
 <p align="center">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" width=40% />
+<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" width=40%>
 </p>
 
 Unfortunately, I was not in New York at the time of this lab so have not received my OLED screen yet. Thus, I do not have any demos to show for this section but I did take a look at the test script and feel it is fairly straightforward. 
@@ -87,7 +87,7 @@ Unfortunately, I was not in New York at the time of this lab so have not receive
 Here is an Pi with a paper faceplate on it to turn it into a display:
 
 <p align="center">
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
+<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width=40%/>
 </p>
 
 This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
@@ -95,7 +95,7 @@ This is fine, but it can be a bit difficult to lay out a great and user friendly
 Here is another prototype for a paper display:
 
 <p align="center">
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
+<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width=40%/>
 </p>
 
 It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
@@ -110,7 +110,7 @@ Fold the first flap of the strip so that it sits flush against the back of the f
 Here is an example:
 
 <p align="center">
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
+<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width=40%/>
 </p>
 
 ### My Idea
@@ -119,7 +119,7 @@ For this lab, I decided to create "The Honest Mirror" as an aid for people to ge
 I've included an initial concept of The Honest Mirror below with what components I expect it will need for my intended functionality.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png"/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png" width=40%/>
 </p>
 
 In order to be a reasonable product, I expect the Honest Mirror will need to meet the following criteria:
@@ -139,7 +139,7 @@ As displayed in the concept board image above, I expect the device to require th
 For the initial look-like prototype, I decided just to do a simple sketch on paper to show my ideal level of detail and feel of the design. 
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/look_like_proto.png"/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/look_like_proto.png" width=40%/>
 </p>
 
 A simple yet elegant frame surrounds the mirror and a detailed face appears which will speak to the user. The face is meant to be friendly and calming (despite how it often judges your appearance) to appeal to the user. Beneath the screen lies the weather information and the mask alert. The face is quite large here and takes up a good portion of the mirror. Ideally, the face would only appear after the user is able to see their own appearance and is preparing to leave so as to not get in the user's way of seeing their reflection.
@@ -152,7 +152,7 @@ I decided to use a drawing for the look-lide prototype rather than actually buil
 For the work-like prototype, I took my look-like design and iterated on it by adding movable components for the face, mask alert, and weather update to better depict how the system would work. This is done with many, many layers of paper in the backing of the mirror to keep each movable component separate. The final work-like prototype is shown below.
 
 <p align="center">
-   <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/work_like_proto.png"/>
+   <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/work_like_proto.png" width=40%/>
 </p>
 
 And the different movements depicting how the mirror would work are demo'd in the below video.
@@ -179,7 +179,7 @@ The entire system is held together with generic tape.
 To demonstrate how I envision a user actually interacting with the Honest Mirror, I've created a storyboard below. Ideally, the user would observe their own appearance then, once they are ready to leave, the mirror would give them last minute updates they may have missed (i.e. weather, mask, appearance).
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png"/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png" width=40%/>
 </p>
 
 ## Part D - Materiality
@@ -189,7 +189,7 @@ For this portion, I decided to build on my paper prototype of the honest mirror 
 To start, I practiced cutting the cardboard into the necessary shape for the frame. I made a frame prototype which has a square "frame" and a slot to slide the bulk of the device into the frame. The device itself will be connected completely to this insert so that maintenance is easy and the device can simply be slid in and out of the frame. The frame prototype is shown below.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/frame_proto.png"/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/frame_proto.png" width=40%/>
 </p>
 
 By prototyping the frame, I was able to quickly understand what structure I would need to design and what the dimensions should be for the frame.
@@ -227,26 +227,26 @@ The main components of this system were as follows:
 I will go through each of these components and discuss them in more detail.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/inner_back_view.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/inner_back_view.png" width=40%/>
 </p>
 
 #### Raspberry Pi/miniPiTFT
 The pi itself, like the proximity sensor, is held onto the device insert via a cardboard sleeve which is hot-glued onto the insert.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/pi_prox_holders.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/pi_prox_holders.png" width=40%/>
 </p>
 
 On the other side of the insert, there is a cutout above the miniPiTFT which shows the weather updates.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_screen.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_screen.png" width=40%/>
 </p>
 
 There is a random number generator which gradually adjusts the temperature outside so, during the demo, you can actually see the temperature updating slightly. In addition, the random number generator can adjust the atmospheric icons, as well. The different icons are shown below:
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_emojis.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_emojis.png" width=40%/>
 </p>
 
 And indicate, sunny, cloudy, rainy, and stormy, respectively. Depending on what the screen shows, the mirror's message in the demo will adjust.
@@ -255,20 +255,20 @@ And indicate, sunny, cloudy, rainy, and stormy, respectively. Depending on what 
 The proximity sensor could detect when the user waved their hand in front of the mirror and began its sequence when this interruption occurred. The sensor, while mounted on the back of the insert, had a cutout on the front of the mirror, as well.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/prox_sensor.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/prox_sensor.png" width=40%/>
 </p>
 
 #### The Face and Movement Mechanism
 The face, while effective, ended up looking pretty creepy... I was attempting to make it feel three dimensional but, in this attempt, made it look a bit like a horror-movie clown. It may have made sense to lean into it and design the system to be more creepy and in line with the mirror in Snow White. However, I decided to stick to the original plan and this can be a future improvement.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_closeup.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_closeup.png" width=40%/>
 </p>
 
 The face has a cutout for the mouth and eyes. The mouth is a stack of small strips of cardboard with the bottom lip glued to the top. This allowed the lip to line up nicely with the rest of the face even given the large gap due to the cardboard depth. The eyes, similarly were small discs glued to a small stack of cardboard on top of the lever. The lever system in the back can be seen below and in the inner workings demo above.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_levers.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_levers.png" width=40%/>
 </p>
 
 The levers were made completely of cardboard, hot glued in some places and held on pivot points in others with staples. The lever was attached to a servo motor which pushed the system back and forth effectively moving the eyes from side to side at the same time as moving the mouth up and down. This was quite tricky to get working properly and I was very proud to get motion in two directions at once.
@@ -277,7 +277,7 @@ The levers were made completely of cardboard, hot glued in some places and held 
 The frame is actually attached to the back of the system as one big box that the device is inserted into. As shown above, four latches keep the frame closed and can be easily unlatched in order to remove the insert. In addition, the corners of the frame were left open in order to allow for easy connection of the power cord and the speaker cord to the raspberry pi.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/power_cord_opening.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/power_cord_opening.png" width=40%/>
 </p>
 
 ## Reflection
