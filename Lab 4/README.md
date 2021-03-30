@@ -184,7 +184,23 @@ To demonstrate how I envision a user actually interacting with the Honest Mirror
 
 ## Part D - Materiality
 ### Design of the product
-tbd
+For this portion, I decided to build on my paper prototype of the honest mirror and bring it to life with moving components in a sturdier form. In addition to the components mentioned in the concept board above, I've also decided to include a proximity sensor for the user to be able to trigger an interaction with a wave of their hand.
+
+To start, I practiced cutting the cardboard into the necessary shape for the frame. I made a frame prototype which has a square "frame" and a slot to slide the bulk of the device into the frame. The device itself will be connected completely to this insert so that maintenance is easy and the device can simply be slid in and out of the frame. The frame prototype is shown below.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/frame_proto.png"/>
+</p>
+
+By prototyping the frame, I was able to quickly understand what structure I would need to design and what the dimensions should be for the frame.
+
+The complete system, in frame, is shown below. Unfortunately, the gap between the frame and the backing ended up being slightly too narrow and I did not have enough cardboard to start again. Thus, you'll see in the back view, that I had to add some clasps for holding the system shut and for easier inserting and removal of the device into the frame.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/front_view.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/back_clasped.png" width=30%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/back_unclasped.png" width=30%/>
+</p>
 
 ### Components/functionality
 tbd
