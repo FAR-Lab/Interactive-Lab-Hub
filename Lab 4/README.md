@@ -119,7 +119,7 @@ For this lab, I decided to create "The Honest Mirror" as an aid for people to ge
 I've included an initial concept of The Honest Mirror below with what components I expect it will need for my intended functionality.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png" width=70%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png"/>
 </p>
 
 In order to be a reasonable product, I expect the Honest Mirror will need to meet the following criteria:
@@ -179,7 +179,7 @@ The entire system is held together with generic tape.
 To demonstrate how I envision a user actually interacting with the Honest Mirror, I've created a storyboard below. Ideally, the user would observe their own appearance then, once they are ready to leave, the mirror would give them last minute updates they may have missed (i.e. weather, mask, appearance).
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png" width=70%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png"/>
 </p>
 
 ## Part D - Materiality
