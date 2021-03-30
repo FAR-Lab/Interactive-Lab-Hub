@@ -69,7 +69,7 @@ For my demo, I used the conductive tape rather than attaching another prop to sh
 
 You can see this setup in action in the demo below!
 
-![https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/cap_test_demo_img.png](https://drive.google.com/file/d/1u8lcGNRIYDVawGsenFPpNi-005Z1B-pH/view)
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/cap_test_demo_img.png)](https://drive.google.com/file/d/1u8lcGNRIYDVawGsenFPpNi-005Z1B-pH/view)
 
 ## Part B - OLED screen
 
