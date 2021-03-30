@@ -87,9 +87,9 @@ def setup():
     apds.enable_proximity = True
     apds.enable_proximity_interrupt = True
 
-    return Servo, disp, [rotation, top], apds
+    return Servo, disp, [rotation, top], apds, font
 
-Servo, disp, disp_opts, apds = setup()
+Servo, disp, disp_opts, apds, font = setup()
 
 def face_move(num_moves):
     Servo.start(2.5)
@@ -101,9 +101,15 @@ def face_move(num_moves):
 
     Servo.stop()
 
-def show_image(filename):
+def show_image(filename, temp):
     image = Image.open(IMG_PATH + filename)
     image = image_formatting(image)
+
+    y = disp_opts[1]
+    x = 150
+    draw = ImageDraw.Draw(image)
+    draw.text((x, y), str(temp) + " degF", font=font, fil="#ffffff")
+
     disp.image(image, disp_opts[0])
 
 def speak(m):
@@ -115,6 +121,8 @@ def speak(m):
 
 
 while True:
+    temp = 76
+    show_image('sunny.png', temp)
     if apds.proximity > 100:
         Thread(target=face_move, args=(10,)).start()
         speak("Heading out? Don't forget your mask. The pandemic hasn't ended yet!")
