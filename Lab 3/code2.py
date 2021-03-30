@@ -109,13 +109,23 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+
+def click_button():
+    while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        redButton.LED_on(155); greenButton.LED_on(155)
+    click_red = redButton.is_button_pressed()
+    green_clicked = greenButton.is_button_pressed()
+    redButton.LED_off(); greenButton.LED_off()
+    return click_red
+
+
 current = 0
 while True:
     display_image = Image.open("welcome.jpeg")
-    #display_img = image_formatting(display_img)
+    # display_img = image_formatting(display_img)
     display_image = display_image.convert('RGB')
     display_image = display_image.resize((width, height), Image.BICUBIC)
-    #disp.image(display_image, rotation)
+    # disp.image(display_image, rotation)
 
     if current == 0:
         subprocess.call("~/Interactive-Lab-Hub/Lab\ 3/welcome.sh", shell=True)
@@ -124,12 +134,13 @@ while True:
 
     if current == 1:
         subprocess.call("~/Interactive-Lab-Hub/Lab\ 3/registered.sh", shell=True)
-        while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(155); greenButton.LED_on(155)
-        red_clicked = redButton.is_button_pressed()
-        green_clicked = greenButton.is_button_pressed()
-        redButton.LED_off(); greenButton.LED_off()
-        if red_clicked:
+        # while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        #     redButton.LED_on(155); greenButton.LED_on(155)
+        # red_clicked = redButton.is_button_pressed()
+        # green_clicked = greenButton.is_button_pressed()
+        # redButton.LED_off(); greenButton.LED_off()
+        rc = click_button()
+        if rc:
             current = 2
         else:
             handle_speak("So, you have already registered with us. Please say your 4 digit registration code.")
@@ -141,17 +152,18 @@ while True:
 
     if current == 2:
         display_img = Image.open("NY.png")
-        #display_img = image_formatting(display_img)
-        #disp.image(display_img, rotation)
+        # display_img = image_formatting(display_img)
+        # disp.image(display_img, rotation)
         handle_speak("To begin, are you a resident of New York State?")
         handle_speak("Press the red button for no, or press the green button for yes.")
-        while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200)
-            greenButton.LED_on(200)
-        red_clicked = redButton.is_button_pressed()
-        redButton.LED_off()
-        greenButton.LED_off()
-        if red_clicked:
+        # while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        #     redButton.LED_on(200)
+        #     greenButton.LED_on(200)
+        # red_clicked = redButton.is_button_pressed()
+        # redButton.LED_off()
+        # greenButton.LED_off()
+        rc = click_button()
+        if rc:
             handle_speak(
                 "I am sorry but due to the high volume of inquiries we cannot create appointments for people residing "
                 "outside of New York State.")
@@ -163,13 +175,14 @@ while True:
             current = 4
 
     if current == 3:
-        while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200);
-            greenButton.LED_on(200)
-        red_clicked = redButton.is_button_pressed()
-        redButton.LED_off();
-        greenButton.LED_off()
-        if red_clicked:
+        # while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        #     redButton.LED_on(200);
+        #     greenButton.LED_on(200)
+        # red_clicked = redButton.is_button_pressed()
+        # redButton.LED_off();
+        # greenButton.LED_off()
+        rc = click_button()
+        if rc:
             current = 10
         else:
             current = 4
@@ -183,25 +196,26 @@ while True:
 
     if current == 5:
         display_img = Image.open("text.gif")
-        #display_img = image_formatting(display_img)
-        #disp.image(display_img, rotation)
+        # display_img = image_formatting(display_img)
+        # disp.image(display_img, rotation)
         handle_speak("Thanks! You should have received a confirmation text from us. Please press the green button to "
                      "confirm you have received the message. Press the red button to resend.")
-        while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200)
-            greenButton.LED_on(200)
-        red_clicked = redButton.is_button_pressed()
-        redButton.LED_off()
-        greenButton.LED_off()
-        if red_clicked:
+        # while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        #     redButton.LED_on(200)
+        #     greenButton.LED_on(200)
+        # red_clicked = redButton.is_button_pressed()
+        # redButton.LED_off()
+        # greenButton.LED_off()
+        rc = click_button()
+        if rc:
             current = 5
         else:
             current = 6
 
     if current == 6:
         display_img = Image.open("calendar.png")
-        #display_img = image_formatting(display_img)
-        #disp.image(display_img, rotation)
+        # display_img = image_formatting(display_img)
+        # disp.image(display_img, rotation)
         handle_speak("Cool! What day would you like to come in to see the doctor?")
         time.sleep(0.8)
         handle_speak("Give me a moment to check the doctor's availability on this day.")
@@ -209,13 +223,14 @@ while True:
         handle_speak("The doctor is not available on this day. May I suggest his next available opening? Friday April "
                      "second at nine A M.")
         handle_speak("Press the green button to confirm this appointment. Press red for other options.")
-        while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200)
-            greenButton.LED_on(200)
-        red_clicked = redButton.is_button_pressed()
-        redButton.LED_off()
-        greenButton.LED_off()
-        if red_clicked:
+        # while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        #     redButton.LED_on(200)
+        #     greenButton.LED_on(200)
+        # red_clicked = redButton.is_button_pressed()
+        # redButton.LED_off()
+        # greenButton.LED_off()
+        rc = click_button()
+        if rc:
             current = 7
         else:
             current = 8
@@ -227,20 +242,21 @@ while True:
 
     if current == 8:
         display_img = Image.open("friday.jpeg")
-        #display_img = image_formatting(display_img)
-        #disp.image(display_img, rotation)
+        # display_img = image_formatting(display_img)
+        # disp.image(display_img, rotation)
         handle_speak("Great! You are confirmed for the appointment on ")
         handle_speak("Friday April second at")
         handle_speak("nine A M")
         handle_speak("We will send you a confirmation text the day before.")
         handle_speak("Is there anything else I can help you with? Please use the buttons.")
-        while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
-            redButton.LED_on(200)
-            greenButton.LED_on(200)
-        red_clicked = redButton.is_button_pressed()
-        redButton.LED_off()
-        greenButton.LED_off()
-        if red_clicked:
+        # while not (redButton.is_button_pressed() or greenButton.is_button_pressed()):
+        #     redButton.LED_on(200)
+        #     greenButton.LED_on(200)
+        # red_clicked = redButton.is_button_pressed()
+        # redButton.LED_off()
+        # greenButton.LED_off()
+        rc = click_button()
+        if rc:
             current = 10
         else:
             display_img = Image.open("phonering.jpeg")
@@ -255,8 +271,8 @@ while True:
     if current == 10:
         time.sleep(0.5)
         display_img = Image.open("welcome.jpeg")
-        #display_img = image_formatting(display_img)
-        #disp.image(display_img, rotation)
+        # display_img = image_formatting(display_img)
+        # disp.image(display_img, rotation)
         handle_speak("Thanks for calling in to the Medical Hotline of Manhattan. Goodbye.")
         time.sleep(2)
         backlight.value = False
