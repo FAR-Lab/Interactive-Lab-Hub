@@ -75,12 +75,12 @@ You can see this setup in action in the demo below!
 
 We just received some of the small oled screens that we had coped to include in your kit. If you want one feel free to pop into the lab and get one. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
-<p float="left">
+<p align="center">
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
 <img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
 </p>
 
-
+Unfortunately, I was not in New York at the time of this lab so have not received my OLED screen yet. Thus, I do not have any demos to show for this section but I did take a look at the test script and feel it is fairly straightforward. 
 
 ## Part C - Paper Display
 
