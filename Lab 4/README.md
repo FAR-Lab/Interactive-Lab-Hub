@@ -274,17 +274,30 @@ The face has a cutout for the mouth and eyes. The mouth is a stack of small stri
 The levers were made completely of cardboard, hot glued in some places and held on pivot points in others with staples. The lever was attached to a servo motor which pushed the system back and forth effectively moving the eyes from side to side at the same time as moving the mouth up and down. This was quite tricky to get working properly and I was very proud to get motion in two directions at once.
 
 #### The Frame
-tbd
+The frame is actually attached to the back of the system as one big box that the device is inserted into. As shown above, four latches keep the frame closed and can be easily unlatched in order to remove the insert. In addition, the corners of the frame were left open in order to allow for easy connection of the power cord and the speaker cord to the raspberry pi.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/power_cord_opening.png" width=30%/>
+</p>
 
 ## Reflection
 ### What went well
-tbd
+I was really proud of the facial movements I was able to achieve. With the lever system made fully with cardboard, hot glue, and staples, I was able to achieve both side-to-side movement of the eyes and up and down movement of the mouth with only a single servo motor. 
+
+To show this in action, again the demo of the inner workings is shown below.
+
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/under_the_hood_demo_img.png)](https://drive.google.com/file/d/1m8lZegaYvzkETPdEul6_WwVZP2KTBMgs/view)
 
 ### What could have gone better?
-tbd
+Making the cardboard prototype turned out to be far more challenging than I expected. I had a very thick piece of cardboard which took a long time to cut and the edges ended up being very messy despite taking 5-6 slices for each cut. It took me many hours just to make the frame itself even without the straps and I accidentally misjudged the depth that would be needed to insert the actual system. This mis-measurement meant that I needed to slice open an extra side of the frame in order to fit the insert in and install the straps.
+
+In addition, the pi, in order to have the power and aux cords line up well with the cord openings in the frame, needed to be pushed into the far corner of the frame which led to some poor alignment as the miniPiTFT ended up being partially obscured by the frame.
+
+Finally, the proximity sensor was unable to detect a hand until it was fairly close to the mirror due to the depth of the cardboard. The cardboard used to make the frame was very, very thick which made it difficult to mount this system in a way where it could do this detection more easily.
 
 ### What do I wish I could have done?
-mask alert -> didn't have another screen
-better frame sizing -> made the mirror too big and didn't have enough cardboard
-More elaborate frame -> limited cardboard experience/skills
-smoother face motions -> limited cardboard experience/skills
+The features I would have liked to make or alter given more time include:
+* Adding another screen for the mask alert. Once I get the OLED screen, I would be able to do this.
+* Making the frame larger and with thinner cardboard which is easier to use, cut, and has enough space for the insert
+* Making a more decorative and elaborate frame
+* Have smoother/less jerky face movements. I would likely need a nicer servo motor to achieve this.
