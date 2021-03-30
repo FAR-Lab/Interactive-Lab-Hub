@@ -144,13 +144,43 @@ For the initial look-like prototype, I decided just to do a simple sketch on pap
 
 A simple yet elegant frame surrounds the mirror and a detailed face appears which will speak to the user. The face is meant to be friendly and calming (despite how it often judges your appearance) to appeal to the user. Beneath the screen lies the weather information and the mask alert. The face is quite large here and takes up a good portion of the mirror. Ideally, the face would only appear after the user is able to see their own appearance and is preparing to leave so as to not get in the user's way of seeing their reflection.
 
+The weather and mask icons are meant to be minimalist and clean. This is meant to not distract from the mirror itself and the face and to give a sense of modern style that goes well with the simpler rectangular frame.
+
+I decided to use a drawing for the look-lide prototype rather than actually building a three dimensional model out of paper because I felt my drawing skills were far better than my cutting and folding skills. Because of this, I felt my drawing would better convey the image and feel (sleek, modern, and minimalist) I hoped to create with the honest mirror.
+
 #### Work-like Prototype
-tbd
+For the work-like prototype, I took my look-like design and iterated on it by adding movable components for the face, mask alert, and weather update to better depict how the system would work. This is done with many, many layers of paper in the backing of the mirror to keep each movable component separate. The final work-like prototype is shown below.
+
+<p align="center">
+   <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/work_like_proto.png"/>
+</p>
+
+And the different movements depicting how the mirror would work are demo'd in the below video.
+
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/paper_work_like_proto_img.png)](https://drive.google.com/file/d/1gV5UBAz4GE8IAhO4yhOsCvPgC7pAzlf8/view)
+
+The different parts required to make this work-like prototype are described below:
+* A top layer "face" with eyes and mouth cutouts
+* A bottom lip with a rectangular bottom portion for demonstrating mouth movement
+* A rectangular scrap of paper with eyes drawn on it for showing eye movement
+* The top layer of the mirror with cutouts for the eyes, mouth, weather (temperature and atmospheric), and mask alerts
+* The mirror frame (strips of paper folded for a three dimensional feel and taped along the mirror edges)
+* The second layer of the mirror backing which sits between the eye strip and the mouth to allow for independent movement of the two (has cutouts for all components except the eyes since they sit on top of this layer)
+* A third layer of mirror backing which sits between the mouth cutout and the atmospheric updates and mask alert (with cutouts for the weather updates and mask alert, no cutout for the mouth since that sits on top of this layer)
+* A strip of paper with different weather icons for showing atmospheric updates such as sunny, rainy, etc.
+* A cut out of a cover indicating whether or not the user is wearing their mask (a cross out appears above the mask icon if they are not wearing a mask)
+* A fourth layer of mirror backing which sits under the atmospheric updates and the mask alert and above the temperature updates (with more cutouts for the temperature updates
+* Two strips for the temperature updates, one for each level of digits (tens and ones)
+* A fifth and final layer of mirror backing to keep everything contained
+
+The entire system is held together with generic tape.
 
 #### Act-Like Prototype
-tbd
+To demonstrate how I envision a user actually interacting with the Honest Mirror, I've created a storyboard below. Ideally, the user would observe their own appearance then, once they are ready to leave, the mirror would give them last minute updates they may have missed (i.e. weather, mask, appearance).
 
-**a. Make a video of your paper display in action.**
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png"/>
+</p>
 
 ## Part D - Materiality
 ### Design of the product
