@@ -59,7 +59,7 @@ def setup():
     height = disp.width  # we swap height/width to rotate it to landscape!
     width = disp.height
     image = Image.new("RGB", (width, height))
-    rotation = 90
+    rotation = 270
 
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image)
@@ -75,7 +75,7 @@ def setup():
     # Alternatively load a TTF font.  Make sure the .ttf font file is in the
     # same directory as the python script!
     # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 40)
 
     # Turn on the backlight
     backlight = digitalio.DigitalInOut(board.D22)
@@ -105,10 +105,8 @@ def show_image(filename, temp):
     image = Image.open(IMG_PATH + filename)
     image = image_formatting(image)
 
-    y = disp_opts[1]
-    x = 150
     draw = ImageDraw.Draw(image)
-    draw.text((x, y), str(temp) + " degF", font=font, fil="#ffffff")
+    draw.text((40, 10), str(temp) + " degF", font=font, fill="#000000")
 
     disp.image(image, disp_opts[0])
 
@@ -120,16 +118,36 @@ def speak(m):
     os.system("/usr/bin/mplayer " + filename)
 
 
+temp = 76.0
+weather = 50
 while True:
-    temp = 76
-    show_image('sunny.png', temp)
+    rand_change = randrange(10)
+    temp += (.05 - rand_change / 100)
+    weather += (.5 - rand_change / 10)
+    weather_class = ""
+    if weather > 30 and weather < 70:
+        weather_class = 'sunny'
+        show_image('sunny.png', round(temp, 1))
+    elif weather > 10 and weather <= 30:
+        weather_class = 'rainy'
+        show_image('rainy.png', round(temp, 1))
+    elif weather <= 10 and weather > 0:
+        weather_class = 'stormy'
+        show_image('stormy.png', round(temp, 1))
+    elif weather >= 70 and weather < 100:
+        weather_class = 'cloudy'
+        show_image('cloudy.png', round(temp, 1))
+    else:
+        weather = 50
+        weather_class = 'sunny'
+        show_image('sunny.png', temp)
     if apds.proximity > 100:
         Thread(target=face_move, args=(10,)).start()
         speak("Heading out? Don't forget your mask. The pandemic hasn't ended yet!")
-        speak("It is nice and sunny out and a warm 75 degrees.")
+        speak(f"It is {weather_class} out and {round(temp, 1)} degrees farenheit.")
         rand_val = randrange(10)
         if rand_val == 0:
-            speak("Looking good. Got get them, tiger.")
+            speak("Looking good. Go get them, tiger.")
         elif rand_val < 5:
             speak("Are you really going to wear your hair like that?")
         else:
