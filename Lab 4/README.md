@@ -204,6 +204,8 @@ The complete system, in frame, is shown below. Unfortunately, the gap between th
 
 As you can see in the front view, the face is at the bottom left, the weather update is in a screen (the miniPiTFT) in the top right, and the proximity sensor is in the center top. I ended up not including a screen for the mask alert since I was not actually able to receive the OLED display. Instead, the system just reminds the user to not forget their mask.
 
+While it is hard to see, I actually wrapped cling wrap around the device board to give it some reflectivity and make it seem more "mirror"-like.
+
 ### Demo
 The system working completely is shown in the demo below:
 
@@ -214,6 +216,44 @@ And a demo showing the inner workings (discussed further in the components secti
 [![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/under_the_hood_demo_img.png)](https://drive.google.com/file/d/1m8lZegaYvzkETPdEul6_WwVZP2KTBMgs/view)
 
 ### Components/functionality
+The main components of this system were as follows:
+* Raspberry pi/miniPiTFT
+* Proximity sensor
+* Face with mouth and eye cutouts
+* Levers for mouth and eye movements
+* Servo motor for movement
+* Mirror Frame
+
+I will go through each of these components and discuss them in more detail.
+
+#### Raspberry Pi/miniPiTFT
+The pi itself, like the proximity sensor, is held onto the device insert via a cardboard sleeve which is hot-glued onto the insert.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/pi_prox_holders.png" width=30%/>
+</p>
+
+On the other side of the insert, there is a cutout above the miniPiTFT which shows the weather updates.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_screen.png" width=30%/>
+</p>
+
+There is a random number generator which gradually adjusts the temperature outside so, during the demo, you can actually see the temperature updating slightly. In addition, the random number generator can adjust the atmospheric icons, as well. The different icons are shown below:
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_emojis.png" width=30%/>
+</p>
+
+And indicate, sunny, cloudy, rainy, and stormy, respectively. Depending on what the screen shows, the mirror's message in the demo will adjust.
+
+#### Proximity Sensor
+tbd
+
+#### The Face and Movement Mechanism
+tbd
+
+#### The Frame
 tbd
 
 ## Reflection
