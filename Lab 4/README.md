@@ -202,10 +202,18 @@ The complete system, in frame, is shown below. Unfortunately, the gap between th
   <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/back_unclasped.png" width=30%/>
 </p>
 
-### Components/functionality
-tbd
+As you can see in the front view, the face is at the bottom left, the weather update is in a screen (the miniPiTFT) in the top right, and the proximity sensor is in the center top. I ended up not including a screen for the mask alert since I was not actually able to receive the OLED display. Instead, the system just reminds the user to not forget their mask.
 
-### demo working
+### Demo
+The system working completely is shown in the demo below:
+
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/full_demo_img.png)](https://drive.google.com/file/d/1BEr1xxo0Tr9dh7z1KFQoy0qT7-n8Wtts/view)
+
+And a demo showing the inner workings (discussed further in the components section below) is also shown:
+
+[![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/under_the_hood_demo_img.png)](https://drive.google.com/file/d/1m8lZegaYvzkETPdEul6_WwVZP2KTBMgs/view)
+
+### Components/functionality
 tbd
 
 ## Reflection
