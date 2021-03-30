@@ -119,7 +119,7 @@ For this lab, I decided to create "The Honest Mirror" as an aid for people to ge
 I've included an initial concept of The Honest Mirror below with what components I expect it will need for my intended functionality.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/concept_board.png" width=70%/>
 </p>
 
 In order to be a reasonable product, I expect the Honest Mirror will need to meet the following criteria:
@@ -139,7 +139,7 @@ As displayed in the concept board image above, I expect the device to require th
 For the initial look-like prototype, I decided just to do a simple sketch on paper to show my ideal level of detail and feel of the design. 
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/look_like_proto.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/look_like_proto.png" width=50%/>
 </p>
 
 A simple yet elegant frame surrounds the mirror and a detailed face appears which will speak to the user. The face is meant to be friendly and calming (despite how it often judges your appearance) to appeal to the user. Beneath the screen lies the weather information and the mask alert. The face is quite large here and takes up a good portion of the mirror. Ideally, the face would only appear after the user is able to see their own appearance and is preparing to leave so as to not get in the user's way of seeing their reflection.
@@ -152,7 +152,7 @@ I decided to use a drawing for the look-lide prototype rather than actually buil
 For the work-like prototype, I took my look-like design and iterated on it by adding movable components for the face, mask alert, and weather update to better depict how the system would work. This is done with many, many layers of paper in the backing of the mirror to keep each movable component separate. The final work-like prototype is shown below.
 
 <p align="center">
-   <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/work_like_proto.png" width=40%/>
+   <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/work_like_proto.png" width=60%/>
 </p>
 
 And the different movements depicting how the mirror would work are demo'd in the below video.
@@ -179,7 +179,7 @@ The entire system is held together with generic tape.
 To demonstrate how I envision a user actually interacting with the Honest Mirror, I've created a storyboard below. Ideally, the user would observe their own appearance then, once they are ready to leave, the mirror would give them last minute updates they may have missed (i.e. weather, mask, appearance).
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/storyboard.png" width=70%/>
 </p>
 
 ## Part D - Materiality
@@ -189,7 +189,7 @@ For this portion, I decided to build on my paper prototype of the honest mirror 
 To start, I practiced cutting the cardboard into the necessary shape for the frame. I made a frame prototype which has a square "frame" and a slot to slide the bulk of the device into the frame. The device itself will be connected completely to this insert so that maintenance is easy and the device can simply be slid in and out of the frame. The frame prototype is shown below.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/frame_proto.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/frame_proto.png" width=60%/>
 </p>
 
 By prototyping the frame, I was able to quickly understand what structure I would need to design and what the dimensions should be for the frame.
@@ -227,26 +227,26 @@ The main components of this system were as follows:
 I will go through each of these components and discuss them in more detail.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/inner_back_view.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/inner_back_view.png" width=60%/>
 </p>
 
 #### Raspberry Pi/miniPiTFT
 The pi itself, like the proximity sensor, is held onto the device insert via a cardboard sleeve which is hot-glued onto the insert.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/pi_prox_holders.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/pi_prox_holders.png" width=50%/>
 </p>
 
 On the other side of the insert, there is a cutout above the miniPiTFT which shows the weather updates.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_screen.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_screen.png" width=50%/>
 </p>
 
 There is a random number generator which gradually adjusts the temperature outside so, during the demo, you can actually see the temperature updating slightly. In addition, the random number generator can adjust the atmospheric icons, as well. The different icons are shown below:
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_emojis.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/weather_emojis.png" width=50%/>
 </p>
 
 And indicate, sunny, cloudy, rainy, and stormy, respectively. Depending on what the screen shows, the mirror's message in the demo will adjust.
@@ -255,7 +255,7 @@ And indicate, sunny, cloudy, rainy, and stormy, respectively. Depending on what 
 The proximity sensor could detect when the user waved their hand in front of the mirror and began its sequence when this interruption occurred. The sensor, while mounted on the back of the insert, had a cutout on the front of the mirror, as well.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/prox_sensor.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/prox_sensor.png" width=50%/>
 </p>
 
 #### The Face and Movement Mechanism
@@ -268,7 +268,7 @@ The face, while effective, ended up looking pretty creepy... I was attempting to
 The face has a cutout for the mouth and eyes. The mouth is a stack of small strips of cardboard with the bottom lip glued to the top. This allowed the lip to line up nicely with the rest of the face even given the large gap due to the cardboard depth. The eyes, similarly were small discs glued to a small stack of cardboard on top of the lever. The lever system in the back can be seen below and in the inner workings demo above.
 
 <p align="center">
-  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_levers.png" width=40%/>
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_levers.png" width=60%/>
 </p>
 
 The levers were made completely of cardboard, hot glued in some places and held on pivot points in others with staples. The lever was attached to a servo motor which pushed the system back and forth effectively moving the eyes from side to side at the same time as moving the mouth up and down. This was quite tricky to get working properly and I was very proud to get motion in two directions at once.
