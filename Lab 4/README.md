@@ -226,6 +226,10 @@ The main components of this system were as follows:
 
 I will go through each of these components and discuss them in more detail.
 
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/inner_back_view.png" width=30%/>
+</p>
+
 #### Raspberry Pi/miniPiTFT
 The pi itself, like the proximity sensor, is held onto the device insert via a cardboard sleeve which is hot-glued onto the insert.
 
@@ -248,10 +252,26 @@ There is a random number generator which gradually adjusts the temperature outsi
 And indicate, sunny, cloudy, rainy, and stormy, respectively. Depending on what the screen shows, the mirror's message in the demo will adjust.
 
 #### Proximity Sensor
-tbd
+The proximity sensor could detect when the user waved their hand in front of the mirror and began its sequence when this interruption occurred. The sensor, while mounted on the back of the insert, had a cutout on the front of the mirror, as well.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/prox_sensor.png" width=30%/>
+</p>
 
 #### The Face and Movement Mechanism
-tbd
+The face, while effective, ended up looking pretty creepy... I was attempting to make it feel three dimensional but, in this attempt, made it look a bit like a horror-movie clown. It may have made sense to lean into it and design the system to be more creepy and in line with the mirror in Snow White. However, I decided to stick to the original plan and this can be a future improvement.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_closeup.png" width=30%/>
+</p>
+
+The face has a cutout for the mouth and eyes. The mouth is a stack of small strips of cardboard with the bottom lip glued to the top. This allowed the lip to line up nicely with the rest of the face even given the large gap due to the cardboard depth. The eyes, similarly were small discs glued to a small stack of cardboard on top of the lever. The lever system in the back can be seen below and in the inner workings demo above.
+
+<p align="center">
+  <img src="https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/face_levers.png" width=30%/>
+</p>
+
+The levers were made completely of cardboard, hot glued in some places and held on pivot points in others with staples. The lever was attached to a servo motor which pushed the system back and forth effectively moving the eyes from side to side at the same time as moving the mouth up and down. This was quite tricky to get working properly and I was very proud to get motion in two directions at once.
 
 #### The Frame
 tbd
