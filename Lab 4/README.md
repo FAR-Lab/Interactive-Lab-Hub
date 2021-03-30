@@ -1,13 +1,8 @@
 # Ph-UI!!!
 
-For lab this week, we focus on the prototyping the physical look and feel of the device. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
+Now it's time to ocus on prototyping the physical look and feel of the device.
 
-
-
-## Prep
-
-1. Pull the new Github Repo.
-2. Readings: 
+## Prototype Readings
 
 * [What do prototypes prototype?](https://www.semanticscholar.org/paper/What-do-Prototypes-Prototype-Houde-Hill/30bc6125fab9d9b2d5854223aeea7900a218f149)
 
@@ -19,25 +14,17 @@ For lab this week, we focus on the prototyping the physical look and feel of the
 
 * [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard.  The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
 
-<img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > Dyson Vacuum cardboard prototypes
+<p align="center">
+<img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > 
 
+Dyson Vacuum cardboard prototypes
+</p>
 
-### For lab, you will need:
+## Acknowledgements
 
-1. Cardboard (start collecting those shipping boxes!)
-1. Cutting board
-1. Cutting tools
-1. Markers
-1. Found objects and materials--like bananas--we're not saying that to be funny.
-
-
-### Deliverables for this lab are: 
-1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do
-4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
-
+For this project, there are a number of individuals that I would like to give credit to for their input on the "honest mirror":
+* For the weather emojis used from: [Michael Flarup](https://blog.prototypr.io/designing-weather-up-cf248e47b5d8)
+* Shivani Doshi, Niki Agrawal, Hortense Gimonet, and Snigdha Singhania (and many other classmates I'm sure I'm forgetting) for their thoughts, feedback, and advice on this idea.
 
 ## Overview
 Here are the parts of the assignment
@@ -54,29 +41,21 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-## The Report
-This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. 
+## Part A - Capacitive Sensing, a.k.a. Human Banana Interaction
 
-Include any material that explains what you did in this lab hub folder, and link it in the readme.
+The [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) a very flexible input sensor. It measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material and it will recognize when you touch it.
 
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
-
-### Part A
-### Capacitive Sensing, a.k.a. Human Banana Interaction
-
-We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use (go?) bananas!
-
-<p float="left">
+<p align="center">
 <img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
 <img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
 <img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
 </p>
 
-Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`
+Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better).
 
 ![](https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg?width=1518&height=1139)
 
-I've connected my banana's* to pads 6 and 10. When you run the code and touch a banana the terminal will print out the following
+An example with twizzlers attached to pins 6 and 10. When you run the code and touch a banana the terminal will print out the following
 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
@@ -84,10 +63,15 @@ Banana 10 touched!
 Banana 6 touched!
 ```
 
-*\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
+For my demo, I used the conductive tape rather than attaching another prop to show the versatility and usefulness of the capacitive touch sensor.
 
-### Part B
-### OLED screen
+![](https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/cap_test.png)
+
+You can see this setup in action in the demo below!
+
+![https://github.com/snlee159/Interactive-Lab-Hub/blob/Spring2021/Lab%204/imgs/cap_test_demo_img.png](https://drive.google.com/file/d/1u8lcGNRIYDVawGsenFPpNi-005Z1B-pH/view)
+
+## Part B - OLED screen
 
 We just received some of the small oled screens that we had coped to include in your kit. If you want one feel free to pop into the lab and get one. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
@@ -98,8 +82,7 @@ We just received some of the small oled screens that we had coped to include in 
 
 
 
-### Part C
-### Paper Display
+## Part C - Paper Display
 
 Here is an Pi with a paper faceplate on it to turn it into a display:
 
@@ -131,9 +114,12 @@ Make a paper display for your project that communicates the state of the Pi and 
 
 **a. Make a video of your paper display in action.**
 
-### Part D
-### Materiality
+## Part D - Materiality
 
 **Open Ended**: We are putting very few constraints on this part but we want you to get creative.
 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
+
+## Reflection
+
+tbd
