@@ -2,6 +2,7 @@ import time
 import board
 import busio
 import digitalio
+import PIL
 from PIL import Image, ImageDraw
 import adafruit_rgb_display.ili9341 as ili9341
 import adafruit_rgb_display.st7789 as st7789  # pylint: disable=unused-import
