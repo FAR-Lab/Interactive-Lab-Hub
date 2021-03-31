@@ -83,13 +83,13 @@ disp.image(image)
 #new code
 while True:
     if buttonA.value and buttonB.value:
-        image = Image.open("call.png")  # turn off backlight
+        image = Image.open("smile.jpg")  # turn off backlight
     else:
-        image = Image.open("call.png")  # turn on backlight
+        image = Image.open("smile.jpg")  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-        image = Image.open("call.png") # set the screen to image
+        image = Image.open("smile.jpg") # set the screen to image
     if buttonA.value and not buttonB.value:  # just button B pressed
-        image = Image.open("call.png")  # set the screen to white
+        image = Image.open("smile.jpg")  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
         image = Image.open("call.png")  # green
     #image = Image.open("smile.jpg")
