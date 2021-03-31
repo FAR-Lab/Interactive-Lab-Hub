@@ -79,7 +79,7 @@ disp.image(image)
 
 #new code
 while True:
-    image = Image.open("call.png")
+    image = Image.open("call.png").convert('RGB')
     #for i in range(12):
     #    if mpr121[i].value:
     #        print(f"Banana {i} touched!")
