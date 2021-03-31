@@ -131,8 +131,13 @@ Make a paper display for your project that communicates the state of the Pi and 
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
 **b. Make a video of your paper display in action.**
+https://drive.google.com/file/d/1QHJ1OHEARKRvwhOtOZc4iHF4SuIwFx2R/view?usp=sharing
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+This design is modeled after a popular device called Furbo, which is a device that throws out treats and then you can see the dog come and collect them. Furbo is a cylinder device that you could put on a table or shelf, and durable so that it won't break if a dog knocks it over. I have followed a similar design. From a prototype standpoint, I tried to keep the design sleek and simple, and hide the wires and presense of the pi as much as I could. '
+
+Here are some more pictures of the device:
+
 
 ### Part D
 ### Materiality
