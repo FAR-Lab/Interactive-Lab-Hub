@@ -77,13 +77,20 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
-#new code
+niki = 0
+
 while True:
-    image = Image.open("call.png").convert('RGB')
+    if niki == 1:
+        image = Image.open("smile.jpg").convert('RGB')
+    else:
+        image = Image.open("call.png").convert('RGB')
+    #image = Image.open("call.png").convert('RGB')
     for i in range(12):
         if mpr121[i].value:
             print(f"Banana {i} touched!")
             image = Image.open("smile.jpg").convert('RGB')
+            niki = 1
+    
     time.sleep(0.25)  # Small delay to keep from spamming output messages.
     
     backlight = digitalio.DigitalInOut(board.D22)
