@@ -1,4 +1,4 @@
-# You're a wizard, [Student Name Here]
+# You're a wizard, [Nicole]
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -72,6 +72,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 *what was the feedback? Who did it come from?*
 
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/1.jpg)
 ## Prototype your system
 
 The system should:

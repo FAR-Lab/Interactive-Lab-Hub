@@ -1,0 +1,1 @@
+espeak -ven+f2 -k5 -s150 --stdout  "Welcome to the Medical Hotline of Manhattan. Before scheduling an appointment, I need to first ask you a few questions. Firstly, please say your name clearly." | aplay

@@ -23,13 +23,14 @@ mpu = adafruit_mpu6050.MPU6050(i2c)
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
 
+
 app = Flask(__name__)
 socketio = SocketIO(app)
 audio_stream = Popen("/usr/bin/cvlc alsa://"+hardware+" --sout='#transcode{vcodec=none,acodec=mp3,ab=256,channels=2,samplerate=44100,scodec=none}:http{mux=mp3,dst=:8080/}' --no-sout-all --sout-keep", shell=True)
 
 @socketio.on('speak')
 def handel_speak(val):
-    call(f"espeak '{val}'", shell=True)
+    call(f"echo '{val}' | festival --tts", shell=True)
 
 @socketio.on('connect')
 def test_connect():
@@ -53,7 +54,6 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 signal.signal(signal.SIGINT, signal_handler)
-
 
 if __name__ == "__main__":
     socketio.run(app, host='0.0.0.0', port=5000)
