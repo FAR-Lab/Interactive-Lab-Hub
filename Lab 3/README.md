@@ -67,12 +67,12 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 ## Prep for Part 2
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
+![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/IMG_0667.jpg)
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
 
-![alt text](https://github.com/nicole-zy/Interactive-Lab-Hub/blob/Spring2021/Lab%203/IMG_0667.jpg)
 ## Prototype your system
 
 The system should:
