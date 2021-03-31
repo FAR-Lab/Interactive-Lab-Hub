@@ -80,11 +80,11 @@ disp.image(image)
 #new code
 while True:
     image = Image.open("call.png").convert('RGB')
-    #for i in range(12):
-    #    if mpr121[i].value:
-    #        print(f"Banana {i} touched!")
-    #        image = Image.open("red.jpg")
-    #time.sleep(0.25)  # Small delay to keep from spamming output messages.
+    for i in range(12):
+        if mpr121[i].value:
+            print(f"Banana {i} touched!")
+            image = Image.open("smile.jpg").convert('RGB')
+    time.sleep(0.25)  # Small delay to keep from spamming output messages.
     
     backlight = digitalio.DigitalInOut(board.D22)
     backlight.switch_to_output()
