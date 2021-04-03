@@ -151,16 +151,42 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 Reiterating:
 ### Deliverables for this lab are: 
-1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do
-4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+**1. Sketches/photos of device designs**
+I decided to create a IDD for a camera. The device will allow the user to cycle through the time/date, the name of the owner of the camera and a picture of a cat.
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/sketch.png)
 
-Video of device:
+
+**2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.**
+The device should look like a normal camera with some added buttons and an added OLED screen. The device should weigh/sit/feel around the same as a standard SDR camera. So I decided to create a paper prototype out of cardboard.
+
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/p1.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/p2.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/p3.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/p4.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/p5.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/p6.png)
+
+Here are some pictures of the finished product:
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/c1.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/c2.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/c3.png)
+
+
+**3. "Works like" prototypes: show us what the device can do**
+The device will allow the user to cycle through the time/date, the name of the owner of the camera and a picture of a cat.
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/buttons.png)
+
+
+**4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device**
+The user should just simply click on the buttons to cycle through the functions.
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/storyboard.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/device.png)
+
+**Video of device:**
 https://drive.google.com/file/d/1uVSLL1IgLxmj75V2d69SYzczZImvI2OE/view?usp=sharing
 
 
-6. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+**5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.**
 
 
 
