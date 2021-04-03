@@ -18,6 +18,7 @@ i2c = board.I2C()
 oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 
 while True:
+
     if mpr121[1].value:
         # Clear display.
         oled.fill(0)
@@ -53,6 +54,80 @@ while True:
                 oled.show()
                 time.sleep(0.001)
 
+            if mpr121[8].value:
+            # Get display width and height.
+            width = oled.width
+            height = oled.height
+
+            # Clear display.
+            oled.fill(0)
+            oled.show()
+
+            # Create image buffer.
+            # Make sure to create image with mode '1' for 1-bit color.
+            image = Image.new("1", (width, height))
+
+            # Load default font.
+            font = ImageFont.load_default()
+
+            # Alternatively load a TTF font.  Make sure the .ttf font file is in the
+            # same directory as this python script!
+            # Some nice fonts to try: http://www.dafont.com/bitmap.php
+            # font = ImageFont.truetype('Minecraftia.ttf', 8)
+
+            # Create drawing object.
+            draw = ImageDraw.Draw(image)
+
+            # Define text and get total width.
+            text = (
+                "William Zhang's Camera"
+            )
+            maxwidth, unused = draw.textsize(text, font=font)
+
+            # Set animation and sine wave parameters.
+            amplitude = height / 4
+            offset = height / 2 - 4
+            velocity = -2
+            startpos = width
+
+            # Animate text moving in sine wave.
+            print("Press Ctrl-C to quit.")
+            pos = startpos
+            while True:
+                # Clear image buffer by drawing a black filled box.
+                draw.rectangle((0, 0, width, height), outline=0, fill=0)
+                # Enumerate characters and draw them offset vertically based on a sine wave.
+                x = pos
+                for i, c in enumerate(text):
+                    # Stop drawing if off the right side of screen.
+                    if x > width:
+                        break
+                    # Calculate width but skip drawing if off the left side of screen.
+                    if x < -10:
+                        char_width, char_height = draw.textsize(c, font=font)
+                        x += char_width
+                        continue
+                    # Calculate offset from sine wave.
+                    y = offset + math.floor(amplitude * math.sin(x / float(width) * 2.0 * math.pi))
+                    # Draw text.
+                    draw.text((x, y), c, font=font, fill=255)
+                    # Increment x position based on chacacter width.
+                    char_width, char_height = draw.textsize(c, font=font)
+                    x += char_width
+
+                # Draw the image buffer.
+                oled.image(image)
+                oled.show()
+
+                # Move position for next frame.
+                pos += velocity
+                # Start over if text has scrolled completely off left side of screen.
+                if pos < -maxwidth:
+                    pos = startpos
+
+                # Pause briefly before drawing next frame.
+                time.sleep(0.05)
+
 
     if mpr121[3].value:
         # Clear display.
@@ -72,140 +147,7 @@ while True:
         oled.image(image)
         oled.show()
 
-
-
-    if mpr121[10].value:
-        oled.fill(0)
-        oled.show()
-
-        # Create blank image for drawing.
-        # Make sure to create image with mode '1' for 1-bit color.
-        width = oled.width
-        height = oled.height
-        image = Image.new("1", (width, height))
-
-        # Get drawing object to draw on image.
-        draw = ImageDraw.Draw(image)
-
-        # Draw a black filled box to clear the image.
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
-
-        # Draw some shapes.
-        # First define some constants to allow easy resizing of shapes.
-        padding = 2
-        shape_width = 20
-        top = padding
-        bottom = height - padding
-        # Move left to right keeping track of the current x position for drawing shapes.
-        x = padding
-        # Draw an ellipse.
-        draw.ellipse((x, top, x + shape_width, bottom), outline=255, fill=0)
-        x += shape_width + padding
-        # Draw a rectangle.
-        draw.rectangle((x, top, x + shape_width, bottom), outline=255, fill=0)
-        x += shape_width + padding
-        # Draw a triangle.
-        draw.polygon(
-            [(x, bottom), (x + shape_width / 2, top), (x + shape_width, bottom)],
-            outline=255,
-            fill=0,
-        )
-        x += shape_width + padding
-        # Draw an X.
-        draw.line((x, bottom, x + shape_width, top), fill=255)
-        draw.line((x, top, x + shape_width, bottom), fill=255)
-        x += shape_width + padding
-
-        # Load default font.
-        font = ImageFont.load_default()
-
-        # Alternatively load a TTF font.  Make sure the .ttf font file is in the
-        # same directory as the python script!
-        # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-        # font = ImageFont.truetype('Minecraftia.ttf', 8)
-
-        # Write two lines of text.
-        draw.text((x, top), "Hello", font=font, fill=255)
-        draw.text((x, top + 20), "World!", font=font, fill=255)
-
-        # Display image.
-        oled.image(image)
-        oled.show()
-
-
-    if mpr121[8].value:
-        # Get display width and height.
-        width = oled.width
-        height = oled.height
-
-        # Clear display.
-        oled.fill(0)
-        oled.show()
-
-        # Create image buffer.
-        # Make sure to create image with mode '1' for 1-bit color.
-        image = Image.new("1", (width, height))
-
-        # Load default font.
-        font = ImageFont.load_default()
-
-        # Alternatively load a TTF font.  Make sure the .ttf font file is in the
-        # same directory as this python script!
-        # Some nice fonts to try: http://www.dafont.com/bitmap.php
-        # font = ImageFont.truetype('Minecraftia.ttf', 8)
-
-        # Create drawing object.
-        draw = ImageDraw.Draw(image)
-
-        # Define text and get total width.
-        text = (
-            "William Zhang's Camera"
-        )
-        maxwidth, unused = draw.textsize(text, font=font)
-
-        # Set animation and sine wave parameters.
-        amplitude = height / 4
-        offset = height / 2 - 4
-        velocity = -2
-        startpos = width
-
-        # Animate text moving in sine wave.
-        print("Press Ctrl-C to quit.")
-        pos = startpos
-        while True:
-            # Clear image buffer by drawing a black filled box.
-            draw.rectangle((0, 0, width, height), outline=0, fill=0)
-            # Enumerate characters and draw them offset vertically based on a sine wave.
-            x = pos
-            for i, c in enumerate(text):
-                # Stop drawing if off the right side of screen.
-                if x > width:
-                    break
-                # Calculate width but skip drawing if off the left side of screen.
-                if x < -10:
-                    char_width, char_height = draw.textsize(c, font=font)
-                    x += char_width
-                    continue
-                # Calculate offset from sine wave.
-                y = offset + math.floor(amplitude * math.sin(x / float(width) * 2.0 * math.pi))
-                # Draw text.
-                draw.text((x, y), c, font=font, fill=255)
-                # Increment x position based on chacacter width.
-                char_width, char_height = draw.textsize(c, font=font)
-                x += char_width
-
-            # Draw the image buffer.
-            oled.image(image)
-            oled.show()
-
-            # Move position for next frame.
-            pos += velocity
-            # Start over if text has scrolled completely off left side of screen.
-            if pos < -maxwidth:
-                pos = startpos
-
-            # Pause briefly before drawing next frame.
-            time.sleep(0.05)
+  
 
 time.sleep(0.25)  # Small delay to keep from spamming output messages.
 
