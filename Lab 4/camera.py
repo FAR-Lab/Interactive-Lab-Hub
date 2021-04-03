@@ -17,10 +17,6 @@ i2c = board.I2C()
 oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 
 while True:
-    for i in range(12):
-        if mpr121[i].value:
-            print(f"Banana {i} touched!")
-
 
         if mpr121[i].value == 1:
             # Clear display.
