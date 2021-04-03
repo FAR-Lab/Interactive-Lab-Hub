@@ -155,6 +155,12 @@ Reiterating:
 1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 3. "Works like" prototypes: show us what the device can do
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+Video of device:
+https://drive.google.com/file/d/1uVSLL1IgLxmj75V2d69SYzczZImvI2OE/view?usp=sharing
+
+
+6. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
 
 
