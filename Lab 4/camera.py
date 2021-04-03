@@ -16,7 +16,7 @@ while True:
             print(f"Banana {i} touched!")
 
 
-        if mpr121[i] == 1:
+        if mpr121[i].value == 1:
             # Setting some variables for our reset pin etc.
             RESET_PIN = digitalio.DigitalInOut(board.D4)
 
