@@ -18,7 +18,7 @@ oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 
 while True:
 
-        if mpr121[i].value == 1:
+        if mpr121.value == 1:
             # Clear display.
             oled.fill(0)
             oled.show()
@@ -54,7 +54,7 @@ while True:
                     time.sleep(0.001)
 
 
-        if mpr121[i].value == 3:
+        if mpr121.value == 3:
             # Clear display.
             disp.fill(0)
             disp.show()
@@ -74,7 +74,7 @@ while True:
 
 
 
-        if mpr121[i].value == 10:
+        if mpr121.value == 10:
             disp.fill(0)
             disp.show()
 
@@ -133,7 +133,7 @@ while True:
             disp.show()
 
 
-        if mpr121[i].value == 8:
+        if mpr121.value == 8:
             # Get display width and height.
             width = disp.width
             height = disp.height
