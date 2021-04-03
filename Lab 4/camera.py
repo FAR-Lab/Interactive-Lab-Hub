@@ -55,11 +55,11 @@ while True:
 
     if mpr121[3].value:
         # Clear display.
-        disp.fill(0)
-        disp.show()
+        oled.fill(0)
+        oled.show()
 
         # Load image based on OLED display height.  Note that image is converted to 1 bit color.
-        if disp.height == 64:
+        if oled.height == 64:
             image = Image.open("happycat_oled_64.ppm").convert("1")
         else:
             image = Image.open("happycat_oled_32.ppm").convert("1")
@@ -68,19 +68,19 @@ while True:
         # image = Image.open('happycat.png').resize((disp.width, disp.height), Image.ANTIALIAS).convert('1')
 
         # Display image.
-        disp.image(image)
-        disp.show()
+        oled.image(image)
+        oled.show()
 
 
 
     if mpr121[10].value:
-        disp.fill(0)
-        disp.show()
+        oled.fill(0)
+        oled.show()
 
         # Create blank image for drawing.
         # Make sure to create image with mode '1' for 1-bit color.
-        width = disp.width
-        height = disp.height
+        width = oled.width
+        height = oled.height
         image = Image.new("1", (width, height))
 
         # Get drawing object to draw on image.
@@ -128,18 +128,18 @@ while True:
         draw.text((x, top + 20), "World!", font=font, fill=255)
 
         # Display image.
-        disp.image(image)
-        disp.show()
+        oled.image(image)
+        oled.show()
 
 
     if mpr121[8].value:
         # Get display width and height.
-        width = disp.width
-        height = disp.height
+        width = oled.width
+        height = oled.height
 
         # Clear display.
-        disp.fill(0)
-        disp.show()
+        oled.fill(0)
+        oled.show()
 
         # Create image buffer.
         # Make sure to create image with mode '1' for 1-bit color.
@@ -194,8 +194,8 @@ while True:
                 x += char_width
 
             # Draw the image buffer.
-            disp.image(image)
-            disp.show()
+            oled.image(image)
+            oled.show()
 
             # Move position for next frame.
             pos += velocity
