@@ -5,6 +5,7 @@ import digitalio
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
 import adafruit_mpr121
+import math
 
 i2c = busio.I2C(board.SCL, board.SDA)
 
