@@ -10,6 +10,12 @@ i2c = busio.I2C(board.SCL, board.SDA)
 
 mpr121 = adafruit_mpr121.MPR121(i2c)
 
+# Setting some variables for our reset pin etc.
+RESET_PIN = digitalio.DigitalInOut(board.D4)
+
+i2c = board.I2C()
+oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
+
 while True:
     for i in range(12):
         if mpr121[i].value:
@@ -17,12 +23,6 @@ while True:
 
 
         if mpr121[i].value == 1:
-            # Setting some variables for our reset pin etc.
-            RESET_PIN = digitalio.DigitalInOut(board.D4)
-
-            i2c = board.I2C()
-            oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
-
             # Clear display.
             oled.fill(0)
             oled.show()
@@ -59,17 +59,6 @@ while True:
 
 
         if mpr121[i].value == 3:
-            # Create the I2C interface.
-            i2c = busio.I2C(SCL, SDA)
-
-            # Create the SSD1306 OLED class.
-            # The first two parameters are the pixel width and pixel height.  Change these
-            # to the right size for your display!
-            disp = adafruit_ssd1306.SSD1306_I2C(128, 64, i2c)
-
-            # Note you can change the I2C address, or add a reset pin:
-            # disp = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c, addr=0x3c, reset=reset_pin)
-
             # Clear display.
             disp.fill(0)
             disp.show()
@@ -149,7 +138,6 @@ while True:
 
 
         if mpr121[i].value == 8:
-
             # Get display width and height.
             width = disp.width
             height = disp.height
