@@ -207,5 +207,5 @@ while True:
                 # Pause briefly before drawing next frame.
                 time.sleep(0.05)
 
-    time.sleep(0.25)  # Small delay to keep from spamming output messages.
+time.sleep(0.25)  # Small delay to keep from spamming output messages.
 
