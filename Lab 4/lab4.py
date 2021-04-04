@@ -87,9 +87,13 @@ while True:
         y += 26
         draw.text((x, y), "cardigan", font=font, fill="#FFFFFF")
         y += 26
+        draw.text((x, y), "Requested by:", font=font, fill="#1DB954")
+        y += 26
+        draw.text((x, y), "Rob", font=font, fill="#FFFFFF")
+        y += 26
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight
     
@@ -101,10 +105,14 @@ while True:
         y += 26
         draw.text((x, y), "Peaches", font=font, fill="#FFFFFF")
         y += 26
+        draw.text((x, y), "Requested by:", font=font, fill="#1DB954")
+        y += 26
+        draw.text((x, y), "Niki", font=font, fill="#FFFFFF")
+        y += 26
     
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight
 
@@ -118,7 +126,7 @@ while True:
         y += 26
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight    
 
@@ -132,7 +140,7 @@ while True:
         y += 26
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight
 
@@ -147,7 +155,7 @@ while True:
         y += 26
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight
 
@@ -165,11 +173,11 @@ while True:
         y += 26
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight
     
-    if mpr121[7].value:
+    if mpr121[8].value:
         backlight.value = True  # turn on backlight
         draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
         y = top
@@ -180,7 +188,7 @@ while True:
        
         # Display image.
         disp.image(image, rotation)
-        time.sleep(2)
+        time.sleep(1)
     else:
         backlight.value = True  # turn on backlight
         
