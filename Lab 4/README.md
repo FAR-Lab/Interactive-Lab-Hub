@@ -74,17 +74,12 @@ We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com
 
 Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`
 
-![](https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg?width=1518&height=1139)
+### Following is my Human Tangerine Interaction implementation :tangerine:
 
-I've connected my banana's* to pads 6 and 10. When you run the code and touch a banana the terminal will print out the following
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
-Banana 10 touched!
-Banana 6 touched!
-```
-
-*\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
+<p float="left">
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/tangerine1.png" height="150" />
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/tangerine2.png" height="150">
+</p>
 
 ### Part B
 ### OLED screen
