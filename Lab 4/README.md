@@ -70,6 +70,8 @@ T
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/IMG_3879.HEIC)
+
 **b. Make a video of your paper display in action.**
 
 https://drive.google.com/file/d/1ujmNInnxtau8brzZxdHIqOgWg4CHBWN7/view?usp=sharing
