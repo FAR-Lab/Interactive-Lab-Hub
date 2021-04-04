@@ -130,9 +130,17 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+I wouldn't need that much information to make this from scratch. Maybe the dimensions of the OLED display and the dimensions of the capacitive sensor.
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.png)
+
+
 **b. Make a video of your paper display in action.**
 
+https://drive.google.com/file/d/16MYjct0jbPCG3lY1MhLGt76bSxqSrwr9/view?usp=sharing
+
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+I designed it so that the buttons will be close to where the thumb of the user will naturally rest when taking a photo. The OLED screen was placed in a location where it would not interfere with the use of the camera or be overly distracting. I also made sure that the buttons were of decent size so that the user would not accidentally press multiple buttons with one touch.
 
 ### Part D
 ### Materiality
@@ -143,7 +151,10 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
+Cardboard was chosen to be the material of the prototype. Printer paper was another candidate that was set aside later.
+
 **b. explain the selection.**
+Cardboard was chosen to be the material of the prototype as it is malleable, decently sturdy and cheap. I also considered printer paper, but thought that it was too flimsy and not close enough in feeling to an actual camera.
 
 ### Part 2.
 
