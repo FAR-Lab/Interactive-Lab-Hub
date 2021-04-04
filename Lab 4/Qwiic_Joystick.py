@@ -38,8 +38,8 @@ def qwiicjoystick():
     elif 575 < Y:
         direction = UP
 
-    if Select_Button == 1:
-        terminate()
+#     if Select_Button == 1:
+#         terminate()
 
     print(direction)
 
