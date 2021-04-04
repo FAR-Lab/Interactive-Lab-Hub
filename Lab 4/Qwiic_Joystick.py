@@ -28,15 +28,16 @@ def qwiicjoystick():
 
     # print(X, Y, " Button = ", bus_data[4])
     time.sleep(.05)
+    direction = "NONE"
     if X < 450:
-        direction = RIGHT
+        direction = "RIGHT"
     elif 575 < X:
-        direction = LEFT
+        direction = "LEFT"
 
     if Y< 450:
-        direction = DOWN
+        direction = "DOWN"
     elif 575 < Y:
-        direction = UP
+        direction = "UP"
 
 #     if Select_Button == 1:
 #         terminate()
