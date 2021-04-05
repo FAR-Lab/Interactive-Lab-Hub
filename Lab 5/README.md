@@ -9,8 +9,7 @@ The lab will help you think about the corner cases of these observant algorithms
 
 ## Prep
 
-1. NOT YET Pull the new Github Repo.
-2. Readings:
+1. NOT YET Check on Wednesday!  ~~Pull the new Github Repo.~~
 
 ### For the lab, you will need:
 
@@ -22,7 +21,7 @@ The lab will help you think about the corner cases of these observant algorithms
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
 1. Show a video of how you embed one of these algorithm into an observant system.
-1. Test, characterize your observant system. Show faults in the detection and how the system handled it. 
+1. Test, characterize your observant system. Show faults in the detection and how the system handled it.
 
 
 ## Overview
@@ -79,12 +78,16 @@ pi@ixe00:~/openCV-examples $ tree -l
 #### Filtering, FFTs, and Time Series data.
 While we do not have examples ready, additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
+`TODO: Example`
+
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple, however, its simplicity is very useful for just experimenting with the capabilities of this technology.
 
 You can train a Model on your browser, experiment with its performance, and then port it to the Raspberry Pi to do even its task on the device.
 
 While there is already a lot of documentation on how to use the models, we will add more details here later.
+
+`TODO: Example`
 
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
@@ -113,8 +116,6 @@ For example:
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
 
-
-
 ### Part-D
 ### Characterize your own Observant system
 
@@ -128,4 +129,4 @@ During the lecture we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-Try to answer those questions and ideally repeat the process to gain an intuitive understanding of how these processes can be used.
+Shoot a short video answering those questions.
