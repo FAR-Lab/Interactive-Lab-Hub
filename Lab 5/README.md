@@ -102,19 +102,19 @@ As a note, the global Python install contains also a PyTorch installation. That 
 Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
-
+**Describe and detail the interaction, as well as your experimentation.**
 
 ### Part C
 ### Test the interaction prototype
 
-Now test-fly your interactive prototype and note down things you notice:
+Now test-fly your interactive prototype and **note things you notice**:
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
-**Think about someone using the system.**
+**Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
@@ -123,7 +123,7 @@ For example:
 ### Part D
 ### Characterize your own Observant system
 
-Now that you have experimented with one or more of these sense-making systems characterize their behavior.
+Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
 * What is a good environment for X?
@@ -133,4 +133,4 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-Include a short video answering these questions.
+**Include a short video answering these questions.**
