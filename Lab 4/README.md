@@ -157,4 +157,25 @@ Reiterating:
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
+**"Looks like" prototypes: **
+![](cardboardprototype.png)
+![](3Ddepiction.png)
+![](materials.png)
+
+![](simonfront.png)
+![](simonside.png)
+![](simonback.png)
+
+**"Works like" prototypes: **
+
+[The SimonCowell Explanation Video](https://drive.google.com/file/d/1VCvVHVvhb_TLJOxbO5XKs04smlNRi-fY/view?usp=sharing)
+[The SimonCowell Sensors Explanation Video](https://drive.google.com/file/d/1sptufSYCPjyKvccyeSIingSZ2vECvih9/view?usp=sharing)
+
+
+**"Acts like" prototypes: **
+![](storyboard1.png)
+![](storyboard2.png)
+
+[The SimonCowell Acts Like Video](https://drive.google.com/file/d/1daJwb1hCilOPexMi4upwdnp66liVC3kk/view?usp=sharing)
+
 
