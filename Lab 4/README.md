@@ -147,6 +147,10 @@ The design of my Puppy Facetime device is modeled after a popular device for dog
 
 Here are some more pictures of the device:
 
+![Inside the Device](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/inside%20the%20device.JPG)
+![The Device](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/device.JPG)
+![Behind the Device](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/behind%20the%20device.JPG)
+
 
 ### Part D
 ### Materiality
@@ -160,4 +164,4 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 In order to achieve the cylinder shape, I used a candle and wrapped light pink wrapping paper around it. I cut out shapes for the camera lens, and cut a window so I could stick my pi inside. I also had to increase the height of the cylinder and add a lid to hide the pi and wires. For the button, I covered a bottle cap with the same wrapping paper, and used the capacity sensors so that when the button was touched, it alerted the pi.
 
 **b. explain the selection.**
-I probably could have used something more sturdy like cardstock to emulate the durability of the device, but the wrapping paper + candle worked well. 
+I probably could have used something more sturdy like cardstock to emulate the durability of the device, but the wrapping paper + candle worked well. Paper is not waterproof though, so that was a limitation.
