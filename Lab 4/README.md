@@ -91,7 +91,9 @@ The device is meant to be both functional and decorative. As a result, I wanted 
 - Marble
 - Plant-based leather
 - screens
+
 **b. explain the selection.**
+
 This device is meant to be a decorative work of art that can be passed down from generation to generation. The hardware is separate from the software, so that the software can be constantly updated, and what is shown on the screens will change overtime, but the device itself will remain the same. Right now it is set up to display Spotify, but in the future that may be different.
 
 Therefore I want the device to be made of beautiful and sustainable material. this way it will look great, last over time, and not damage the environment. The top half of the device which is the jukebox will be made out of crafted marble, while the sides of the mat will be made out of a plant-based leather substitute. Each will have a screen inside. Marble can be heavy, but because this device isn't meant to be moved much that will be fine.
