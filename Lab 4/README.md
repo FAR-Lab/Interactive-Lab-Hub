@@ -131,6 +131,8 @@ The paper display I have made is in a layered bento box style. The bottom layer 
 
 **b. Make a video of your paper display in action.**
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper_prototype2.png)
+
 Link for the video: https://drive.google.com/file/d/1SET2QU-ZippKPggumsWwCOc9RRnFyEZ1/view?usp=sharing
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
@@ -147,7 +149,11 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
+I want to design an Intelligent Voice Agent which made of glasses, or highly transparent and reflective plastics. 
+
 **b. explain the selection.**
+
+I feel the transparency of the material will make the voice agent blended into the living space even more. Moreover, I want to have different lightning effects from the internal design of the IoT devices, which gives it an artistry feeling.
 
 ### Part 2.
 
