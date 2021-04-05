@@ -178,7 +178,7 @@ Back of the SimonCowell where the Raspberry Pi connects to the OLED screen:
 
 ### Works like" prototypes:
 
-[The SimonCowell Explanation Video](https://drive.google.com/file/d/1VCvVHVvhb_TLJOxbO5XKs04smlNRi-fY/view?usp=sharing)
+[The SimonCowell Explanation Video](https://drive.google.com/file/d/1VCvVHVvhb_TLJOxbO5XKs04smlNRi-fY/view?usp=sharing) </br>
 [The SimonCowell Sensors Explanation Video](https://drive.google.com/file/d/1sptufSYCPjyKvccyeSIingSZ2vECvih9/view?usp=sharing)
 
 
