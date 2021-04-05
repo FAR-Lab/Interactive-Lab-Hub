@@ -30,7 +30,36 @@
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+Here are my initial sketches of the device design, mat layout, and final form factor:
+
+
 ![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Finished%20Device%20Full.jpg)
+
+Feedback on initial device design sketches:
+
+Rob: Liked the first and last designs (of the top 4) its nostalgic but works for a smarthome
+Irene: maybe you can do it so that the person holding the "ball" gets to play a song. It could even tell you how long they have had it (been the DJ)
+Anu: she liked the 2nd of the top 4 designs, thought maybe you could stick it to the wall
+Someone said it would be cool if it accepted money and allowed you to control the songs if you put money in
+Ilan: could be cool if it was randomized with something like play cards to decide who picks the next song
+
+From the feedback I decided to choose option 2 of the top 4 designs, because I felt it was important other people in the room could see the screen from a distance, but that the mat would be the best way to control it. Additionally, the jukebox looks gives it a cool nostalgic feel and enables it to also serve as a decoration piece. I also added different modes of selecting a DJ, including rotating automatically after a certain amount of time, and random selection.
+
+Then I did the sketches of what the screens would actually look like (also pictured above)
+
+Last I did the actual form factor of the jukebox:
+
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Initial%20Device%20Sketches.jpg)
+
+I leveraged Google images for ideas on how to make it look like an old fashioned JukeBox
+
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Google%20Image%20Search.png)
+
+Here is the final paper prototype:
+
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Finished%20Device%20Full.jpg)
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Finished%20Device%20Mat.jpg)
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Finished%20Device%20Screen.jpg)
 
 **b. Make a video of your paper display in action.**
 
