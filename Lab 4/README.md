@@ -41,7 +41,7 @@ Rob: Liked the first and last designs (of the top 4) because he thought the juke
 Irene: maybe you can do it so that the person holding the "ball" gets to play a song. It could even tell you how long they have had it (been the DJ)
 Anu: she liked the 2nd of the top 4 designs, thought maybe you could stick it to the wall
 Someone said it would be cool if it accepted money and allowed you to control the songs if you put money in
-Ilan: could be cool if it was randomized with something like play cards to decide who picks the next song
+Ilan: could be cool if it was randomized with something like playing cards to decide who picks the next song
 
 From the feedback I decided to choose option 1 of the top 4 designs, because I felt it was important other people in the room could see the screen from a distance, but that the mat would be the best way to control it. Additionally, the jukebox looks gives it a cool nostalgic feel and enables it to also serve as a decoration piece. I also added different modes of selecting a DJ, including rotating automatically after a certain amount of time, and random selection.
 
