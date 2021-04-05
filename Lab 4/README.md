@@ -43,7 +43,7 @@ Anu: she liked the 2nd of the top 4 designs, thought maybe you could stick it to
 Someone said it would be cool if it accepted money and allowed you to control the songs if you put money in
 Ilan: could be cool if it was randomized with something like playing cards to decide who picks the next song
 
-From the feedback I decided to choose option 1 of the top 4 designs, because I felt it was important other people in the room could see the screen from a distance, but that the mat would be the best way to control it. Additionally, the jukebox looks gives it a cool nostalgic feel and enables it to also serve as a decoration piece. I also added different modes of selecting a DJ, including rotating automatically after a certain amount of time, and random selection.
+From the feedback I decided to choose option 1 of the top 4 designs, because I felt it was important other people in the room could see the screen from a distance, but that the mat would be the best way to control it. Additionally, the jukebox look gives it a cool nostalgic feel and enables it to also serve as a decoration piece. I also added different modes of selecting a DJ, including rotating automatically after a certain amount of time, and random selection.
 
 Then I did the sketches of what the screens would actually look like (also pictured above)
 
@@ -78,7 +78,7 @@ https://drive.google.com/file/d/1ujmNInnxtau8brzZxdHIqOgWg4CHBWN7/view?usp=shari
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-The device is meant to be both functional and decorative. As a result, I wanted to make it large enough so that the screen would be big enough for people to see if they are sitting across the room, and so that the mat would be easy to control, but not too large that so that it could easily fit in many different homes on top of a media stand or a shelf. I wanted it to look cool and be decorative and not take up too much space. Therefore, this size is just about perfect, and it's roughly the same size as various other items you'd have displayed in a living room. It will most likely weigh 5-10 lbs.
+The device is meant to be both functional and decorative. As a result, I wanted to make it large enough so that the screen would be big enough for people to see if they are sitting across the room, and so that the mat would be easy to control, but not too large that that it couldn't easily fit in many different homes on top of a media stand or a shelf. I wanted it to look cool and be decorative and not take up too much space. Therefore, this size is just about perfect, and it's roughly the same size as various other items you'd have displayed in a living room. It will most likely weigh 5-10 lbs.
 
 ### Part D
 ### Materiality
