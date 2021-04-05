@@ -204,4 +204,6 @@ The new storyboard including the cardboard prototype of the SimonCowell:
 
 [The SimonCowell Acts Like Video](https://drive.google.com/file/d/1daJwb1hCilOPexMi4upwdnp66liVC3kk/view?usp=sharing)
 
+Acknowledgements: I worked with Ahaan Parekh on this lab.
+
 
