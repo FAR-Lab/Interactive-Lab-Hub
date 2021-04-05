@@ -170,6 +170,9 @@ Materials needed to build out the cardboard prototype:
 Finished front of the SimonCowell. This is what the user will see when they interact with the device:
 ![](simonfront.png)
 
+OLED Screen Closeup:
+![](oledscreen.png)
+
 The SimonCowell side showcasing the wizarding station with the raspberry pi behind the user facing Simon Cowell device:
 ![](simonside.png) 
 
