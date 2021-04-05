@@ -28,7 +28,7 @@ def qwiicjoystick():
 
     # print(X, Y, " Button = ", bus_data[4])
     time.sleep(.05)
-    direction = "NONE"
+    direction = None
     if X < 450:
         direction = "RIGHT"
     elif 575 < X:
