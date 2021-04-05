@@ -171,7 +171,7 @@ Finished front of the SimonCowell. This is what the user will see when they inte
 ![](simonfront.png)
 
 The SimonCowell side showcasing the wizarding station with the raspberry pi behind the user facing Simon Cowell device:
-![](simonside.png)
+![](simonside.png) 
 
 Back of the SimonCowell where the Raspberry Pi connects to the OLED screen:
 ![](simonback.png)
