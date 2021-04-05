@@ -1,31 +1,35 @@
-# Seeing, Listening, and Sense-Making
+# Observant Systems
 
 
-For lab this week, we focus on creating something similar to the boat detector shown in the lecture.
+For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your ``observant device`` could for example count items, find objects, recognize an event or continuously monitor a room.
 
-The lab will help you think about the corner cases of these observant algorithms.
+This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
+
+In Lab 5 part 1, we focus on detecting and sense-making.
+
+In Lab 5 part 2, we'll incorporate interactive responses.
 
 
 ## Prep
 
-1. NOT YET Check on Wednesday!  ~~Pull the new Github Repo.~~
+1.  ~~Pull the new Github Repo.~~ Check on Wednesday to pull the new Github Repo.! 
 
 ### For the lab, you will need:
 
 1. Raspberry Pi
 1. Raspberry Pi Camera (2.1)
-1. Microphone (optional)
-1. Webcam (optional)
+1. Microphone (if you want speech or sound input)
+1. Webcam (if you want to be able to locate the camera more flexibly than the Pi Camera)
 
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
-1. Show a video of how you embed one of these algorithm into an observant system.
-1. Test, characterize your observant system. Show faults in the detection and how the system handled it.
+1. Show a video of how you embed one of these algorithms into your observant system.
+1. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
 
 
 ## Overview
-Maybe I am beating the paper-airplane metaphor too hard, but here goes:
+Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
 
 A) [Play](#part-a)
 
@@ -81,7 +85,7 @@ While we do not have examples ready, additional filtering and analysis can be do
 `TODO: Example`
 
 #### Teachable Machines
-Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple, however, its simplicity is very useful for just experimenting with the capabilities of this technology.
+Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
 
 You can train a Model on your browser, experiment with its performance, and then port it to the Raspberry Pi to do even its task on the device.
 
@@ -106,9 +110,9 @@ Try out different interactions outputs and inputs.
 Now test-fly your interactive prototype and note down things you notice:
 For example:
 1. When does it what it is supposed to do?
-1. when does it fail?
-1. When it fails why does it fail
-1. Based on the behavior you have seen what other scenarios could cause problems
+1. When does it fail?
+1. When it fails, why does it fail?
+1. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **Think about someone using the system.**
 1. Are they aware of the uncertainties in the system?
@@ -120,7 +124,7 @@ For example:
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems characterize their behavior.
-During the lecture we mentioned questions to help characterize a material:
+During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
 * What is a good environment for X?
 * What is a bad environment for X?
@@ -129,4 +133,4 @@ During the lecture we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-Shoot a short video answering those questions.
+Include a short video answering these questions.
