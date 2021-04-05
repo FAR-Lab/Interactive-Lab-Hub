@@ -162,9 +162,23 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/bot1.png)
+
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/bot2.png)
+ 
 3. "Works like" prototypes: show us what the device can do
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/bot3.png)
+
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/storyboard.png)
+
+Link for the video: https://drive.google.com/file/d/1SET2QU-ZippKPggumsWwCOc9RRnFyEZ1/view?usp=sharing
+
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 
