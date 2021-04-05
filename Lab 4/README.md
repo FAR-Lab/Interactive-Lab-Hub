@@ -161,7 +161,7 @@ Reiterating:
 Cardboard depictions of the SimonCowell: 
 ![](cardboardprototype.png)
 
-3D depicion of the SimonCowell:
+3D depiction of the SimonCowell:
 ![](3Ddepiction.png)
 
 Materials needed to build out the cardboard prototype: 
