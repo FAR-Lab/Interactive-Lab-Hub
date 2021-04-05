@@ -90,14 +90,13 @@ The device is meant to be both functional and decorative. As a result, I wanted 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 - Marble
 - Plant-based leather
-- screens
+- Screens
 
 **b. explain the selection.**
 
 This device is meant to be a decorative work of art that can be passed down from generation to generation. The hardware is separate from the software, so that the software can be constantly updated, and what is shown on the screens will change overtime, but the device itself will remain the same. Right now it is set up to display Spotify, but in the future that may be different.
 
-Therefore I want the device to be made of beautiful and sustainable material. this way it will look great, last over time, and not damage the environment. The top half of the device which is the jukebox will be made out of crafted marble, while the sides of the mat will be made out of a plant-based leather substitute. Each will have a screen inside. Marble can be heavy, but because this device isn't meant to be moved much that will be fine.
-Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
+Therefore I want the device to be made of beautiful and sustainable material. this way it will look great, last over time, and not damage the environment too much. The top half of the device which is the jukebox will be made out of crafted marble, while the sides of the mat will be made out of a plant-based leather substitute. Each will have a screen inside. Marble can be heavy, but because this device isn't meant to be moved much that will be fine.
 
 Additional:
 Antonio Mojena helped me set up the touch capacitor
