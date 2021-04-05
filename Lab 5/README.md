@@ -13,7 +13,9 @@ In Lab 5 part 2, we'll incorporate interactive responses.
 
 ## Prep
 
-1.  ~~Pull the new Github Repo.~~ Check on Wednesday to pull the new Github Repo.! 
+1.  ~~Pull the new Github Repo.~~ Check on Wednesday to pull the new Github Repo!
+2.  Read about [OpenCV](https://opencv.org/about/).
+3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
 ### For the lab, you will need:
 
