@@ -33,7 +33,7 @@
 Here are my initial sketches of the device design, mat layout, and final form factor:
 
 
-![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Finished%20Device%20Full.jpg)
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Initial%20Device%20Sketches.jpg)
 
 Feedback on initial device design sketches:
 
@@ -49,7 +49,7 @@ Then I did the sketches of what the screens would actually look like (also pictu
 
 Last I did the actual form factor of the jukebox:
 
-![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Initial%20Device%20Sketches.jpg)
+![Device](https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Images/Form%20Factor%20Sketches.jpg)
 
 I leveraged Google images for ideas on how to make it look like an old fashioned JukeBox
 
