@@ -1,4 +1,4 @@
-# The Clothes Make the Device
+# Ph-UI!!!
 
 For lab this week, we focus on the prototyping the physical look and feel of the device. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
@@ -15,7 +15,9 @@ For lab this week, we focus on the prototyping the physical look and feel of the
 
 * [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
 
-* [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard. The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
+* [Tips to Cut, Fold, Mold and Papier-Mache Cardboard](https://makezine.com/2016/04/21/working-with-cardboard-tips-cut-fold-mold-papier-mache/) from Make Magazine.
+
+* [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard.  The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
 
 <img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > Dyson Vacuum cardboard prototypes
 
@@ -99,19 +101,18 @@ We just received some of the small oled screens that we had coped to include in 
 ### Part C
 ### Paper Display
 
-Here is an Arduino breadboard with a paper faceplate on it to turn it into a display:
+Here is an Pi with a paper faceplate on it to turn it into a display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
 
 
-
-This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the breadboard. Also, it really only works for applications where people can come and stand over the breadboard, or where you can mount the board to the wall.
+This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
 
 Here is another prototype for a paper display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
 
-It holds a breadboard and 9v battery, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
+It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
 
 This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
 
@@ -125,7 +126,35 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 
-Make a paper display that uses the servo to show how many times a button on the front has been pressed (or any other thing you can sense or count). Ideally you should design it so that you can slide the breadboard out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+ 
+**a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
+
+**b. Make a video of your paper display in action.**
+
+**c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+### Part D
+### Materiality
+
+**Open Ended**: We are putting very few constraints on this part but we want you to get creative.
+
+Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
+
+**a. document the material prototype.** Include candidates that were considered even if they were set aside later.
+
+**b. explain the selection.**
+
+### Part 2.
+
+Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
+
+Reiterating:
+### Deliverables for this lab are: 
+1. Sketches/photos of device designs
+1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+3. "Works like" prototypes: show us what the device can do
+4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 
-**a. Make a video of your paper display in action.**
