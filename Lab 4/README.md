@@ -132,6 +132,8 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+![Sketch](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/lab4%20sketch.JPG)
+
 I am creating a Puppy Facetime device. In March 2020 in the beginning of quarantine, my family got a puppy, but when I moved back to NYC, I missed the dog a lot. I keep FaceTiming my parents so they can reverse the video and I can see my dog. But my parents unfortuntely use the call to also ask me stressful questions like have I done my taxes and when am I getting married, so I really would like to bypass my interactions with them and just FaceTime my dog. This is the premise of my device.
 
 
