@@ -125,9 +125,18 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper_design.png)
+
+The paper display I have made is in a layered bento box style. The bottom layer holds the respberry pi and the top layer contains the input & output devices with the display. At the back of the bottom layer, there is also a window for the power cord. Each layer can be removed and stacked separately, so it allows me to pull the raspberry pi out for debug. The demension of the 2-layer box is about 15cm * 15cm * 7cm.
+
 **b. Make a video of your paper display in action.**
 
+Link for the video: https://drive.google.com/file/d/1SET2QU-ZippKPggumsWwCOc9RRnFyEZ1/view?usp=sharing
+
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+My device is a PiTest Bot, so I want it to be small and cute. That's way I have created a box that can be hold in one hand, also won't take too much space if put it on the table.
+
 
 ### Part D
 ### Materiality
