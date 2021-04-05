@@ -41,7 +41,7 @@ D) [Reflect](#part-d)
 
 ---
 
-### Part-A
+### Part A
 ### Play with different sense-making algorithms.
 
 #### OpenCV
@@ -96,7 +96,7 @@ While there is already a lot of documentation on how to use the models, we will 
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
 
-### Part-B
+### Part B
 ### Construct a simple interaction.
 
 Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
@@ -104,7 +104,7 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 
 
-### Part-C
+### Part C
 ### Test the interaction prototype
 
 Now test-fly your interactive prototype and note down things you notice:
@@ -120,7 +120,7 @@ For example:
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
 
-### Part-D
+### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems characterize their behavior.
