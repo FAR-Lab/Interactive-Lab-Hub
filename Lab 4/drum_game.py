@@ -80,13 +80,13 @@ player1_range = range(0, 4)
 player2_range = range(8, 12)
 
 color_match = {
-    3: ("#FFFFFF", "WHITE")
-    2: ("#1E90FF", "BLUE")
-    1: ("#228B22", "GREEN")
-    0: ("#DC143C", "RED")
-    8: ("#FFFFFF", "WHITE")
-    9: ("#1E90FF", "BLUE")
-    10: ("#228B22", "GREEN")
+    3: ("#FFFFFF", "WHITE"),
+    2: ("#1E90FF", "BLUE"),
+    1: ("#228B22", "GREEN"),
+    0: ("#DC143C", "RED"),
+    8: ("#FFFFFF", "WHITE"),
+    9: ("#1E90FF", "BLUE"),
+    10: ("#228B22", "GREEN"),
     11: ("#DC143C", "RED")
 }
 
