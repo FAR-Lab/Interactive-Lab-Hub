@@ -3,6 +3,7 @@ import board
 import busio
 import adafruit_rgb_display.st7789 as st7789
 from PIL import Image, ImageDraw, ImageFont
+import digitalio
 import random
 import sys
 
