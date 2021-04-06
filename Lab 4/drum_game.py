@@ -17,7 +17,7 @@ dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
 BAUDRATE = 64000000  # the rate  the screen talks to the pi
 # Create the ST7789 display:
-display = st7789.ST7789(
+disp = st7789.ST7789(
     board.SPI(),
     cs=cs_pin,
     dc=dc_pin,
