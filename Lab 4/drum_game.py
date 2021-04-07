@@ -57,11 +57,7 @@ draw.text((0.5, 10), "<<< START", font=font_small, fill="#FFFFFF")
 draw.text((0.5, 105), "<<< QUIT", font=font_small, fill="#FFFFFF")
 disp.image(image, rotation)
 
-while True:
-    if buttonB.value and not buttonA.value:
-        game()
-    if buttonA.value and not buttonB.value:
-        sys.exit()
+
 
 def game():
     countdown = 3
@@ -151,3 +147,9 @@ def game():
     draw.text((0.5, 10), "<<< RESET", font=font_small, fill="#FFFFFF")
     draw.text((0.5, 105), "<<< QUIT", font=font_small, fill="#FFFFFF")
     disp.image(image, rotation)
+
+while True:
+    if buttonB.value and not buttonA.value:
+        game()
+    if buttonA.value and not buttonB.value:
+        sys.exit()
