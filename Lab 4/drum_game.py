@@ -57,8 +57,6 @@ draw.text((0.5, 10), "<<< START", font=font_small, fill="#FFFFFF")
 draw.text((0.5, 105), "<<< QUIT", font=font_small, fill="#FFFFFF")
 disp.image(image, rotation)
 
-
-
 def game():
     countdown = 3
     while countdown > 0:
@@ -89,7 +87,7 @@ def game():
     }
 
     player1_error = player2_error = 0
-    max_error = 3
+    max_error = 16
 
     interval = 1.5
     count = 0
@@ -102,9 +100,9 @@ def game():
         draw.text((110, 40), color_match[curr_key][1], font=font, fill="#FFFFFF")
 
         draw.text((0.5, 90), "P1 ERROR", font=font_small, fill="#FFFFFF")
-        draw.text((0.5, 110), "X"*player1_error, font=font_small, fill="#FFFFFF")
+        draw.text((0.5, 110), "X"*int(player1_error/5), font=font_small, fill="#FFFFFF")
         draw.text((125, 90), "P2 ERROR", font=font_small, fill="#FFFFFF")
-        draw.text((220, 110), "X"*player2_error, font=font_small, fill="#FFFFFF")
+        draw.text((220, 110), "X"*int(player2_error/5), font=font_small, fill="#FFFFFF")
 
         disp.image(image, rotation)
 
@@ -147,6 +145,7 @@ def game():
     draw.text((0.5, 10), "<<< RESET", font=font_small, fill="#FFFFFF")
     draw.text((0.5, 105), "<<< QUIT", font=font_small, fill="#FFFFFF")
     disp.image(image, rotation)
+
 
 while True:
     if buttonB.value and not buttonA.value:
