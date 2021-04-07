@@ -46,8 +46,6 @@ D) [Reflect](#part-d)
 ### Part A
 ### Play with different sense-making algorithms.
 
-First install your camera. There are many tutorials out there for the Raspberry Pi Camera V2. The one that worked for me is this the one from [The Pi Hut](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).
-
 #### OpenCV
 A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
 
@@ -94,14 +92,17 @@ Using the set up from the Lab 3 demo and the accelerometer, try the following:
 
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
 
-#### Teachable Machines
+#### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
 
 You can train a Model on your browser, experiment with its performance, and then port it to the Raspberry Pi to do even its task on the device.
 
-While there is already a lot of documentation on how to use the models, we will add more details here later.
+Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teachable Machines:
+[Setup](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/raspberry-pi-setup)
+Install Tensorflow: Like [this](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/tensorflow-lite-2-setup), but use this [pre-built binary](https://github.com/lhelontra/tensorflow-on-arm) for Tensorflow, it will speed things up a lot.
+[Collect data and train models using the PiCam](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/training)
+[Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
 
-`TODO: Example`
 
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
