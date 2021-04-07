@@ -142,7 +142,7 @@ while True:
         weather_class = 'sunny'
         show_image('sunny.png', temp)
     if apds.proximity > 100:
-        Thread(target=face_move, args=(10,)).start()
+        Thread(target=face_move, args=(15,)).start()
         speak("Heading out? Don't forget your mask. The pandemic hasn't ended yet!")
         speak(f"It is {weather_class} out and {round(temp, 1)} degrees farenheit.")
         rand_val = randrange(10)
