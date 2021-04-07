@@ -87,7 +87,9 @@ Additional filtering and analysis can be done on the sensors that were provided 
 Using the set up from the Lab 3 demo and the accelerometer, try the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+
 **2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
