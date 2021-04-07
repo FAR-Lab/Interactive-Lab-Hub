@@ -2,7 +2,7 @@
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your ``observant device`` could for example count items, find objects, recognize an event or continuously monitor a room.
+Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
 
 This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
 
@@ -13,7 +13,7 @@ In Lab 5 part 2, we'll incorporate interactive responses.
 
 ## Prep
 
-1.  ~~Pull the new Github Repo.~~ Check on Wednesday to pull the new Github Repo!
+1.  Pull the new Github Repo.
 2.  Read about [OpenCV](https://opencv.org/about/).
 3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
@@ -37,7 +37,7 @@ A) [Play](#part-a)
 
 B) [Fold](#part-b)
 
-C) [Test Fly](#part-c)
+C) [Flight test](#part-c)
 
 D) [Reflect](#part-d)
 
@@ -109,7 +109,7 @@ Try out different interactions outputs and inputs.
 ### Part C
 ### Test the interaction prototype
 
-Now test-fly your interactive prototype and **note things you notice**:
+Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
