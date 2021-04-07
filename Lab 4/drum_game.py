@@ -123,13 +123,13 @@ def game():
         if player2_firstkey is None or player2_firstkey != 11-curr_key:
             player2_error += 1
 
-        if count > 100:
+        if count > 25:
             interval = 0.5
-        elif count > 75:
+        elif count > 20:
             interval = 0.75
-        elif count > 50:
+        elif count > 15:
             interval = 1
-        elif count > 25:
+        elif count > 10:
             interval = 1.25
 
         count += 1
