@@ -57,6 +57,11 @@ draw.text((0.5, 10), "<<< START", font=font_small, fill="#FFFFFF")
 draw.text((0.5, 105), "<<< QUIT", font=font_small, fill="#FFFFFF")
 disp.image(image, rotation)
 
+while True:
+    if buttonB.value and not buttonA.value:
+        game()
+    if buttonA.value and not buttonB.value:
+        sys.exit()
 
 def game():
     countdown = 3
@@ -96,13 +101,14 @@ def game():
     while player1_error < max_error and player2_error < max_error:
         draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
         curr_key = random.randint(0, 3)
-        draw.rectangle((40, 40, 80, 80), outline=0, fill=color_match[curr_key][0])
-        draw.text((90, 40), color_match[curr_key][1], font=font, fill="#FFFFFF")
+        draw.text((80, 0), "#"+str(count), font=font, fill="#FFFFFF")
+        draw.rectangle((60, 40, 80, 80), outline=0, fill=color_match[curr_key][0])
+        draw.text((110, 40), color_match[curr_key][1], font=font, fill="#FFFFFF")
 
         draw.text((0.5, 90), "P1 ERROR", font=font_small, fill="#FFFFFF")
-        draw.text((0.5, 110), str(player1_error), font=font_small, fill="#FFFFFF")
-        draw.text((120, 90), "P2 ERROR", font=font_small, fill="#FFFFFF")
-        draw.text((220, 110), str(player2_error), font=font_small, fill="#FFFFFF")
+        draw.text((0.5, 110), "X"*player1_error, font=font_small, fill="#FFFFFF")
+        draw.text((125, 90), "P2 ERROR", font=font_small, fill="#FFFFFF")
+        draw.text((220, 110), "X"*player2_error, font=font_small, fill="#FFFFFF")
 
         disp.image(image, rotation)
 
@@ -123,9 +129,15 @@ def game():
         if player2_firstkey is None or player2_firstkey != 11-curr_key:
             player2_error += 1
 
-        if count > 20:
-            interval -= 0.25
-            count = 0
+        if count > 100:
+            interval = 0.5
+        elif count > 75:
+            interval = 0.75
+        elif count > 50:
+            interval = 1
+        elif count > 25:
+            interval = 1.25
+
         count += 1
 
     draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
@@ -139,9 +151,3 @@ def game():
     draw.text((0.5, 10), "<<< RESET", font=font_small, fill="#FFFFFF")
     draw.text((0.5, 105), "<<< QUIT", font=font_small, fill="#FFFFFF")
     disp.image(image, rotation)
-
-while True:
-    if buttonB.value and not buttonA.value:
-        game()
-    if buttonA.value and not buttonB.value:
-        sys.exit()
