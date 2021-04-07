@@ -46,6 +46,8 @@ D) [Reflect](#part-d)
 ### Part A
 ### Play with different sense-making algorithms.
 
+First install your camera. There are many tutorials out there for the Raspberry Pi Camera V2. The one that worked for me is this the one from [The Pi Hut](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).
+
 #### OpenCV
 A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
 
