@@ -84,7 +84,7 @@ pi@ixe00:~/openCV-examples $ tree -l
 #### Filtering, FFTs, and Time Series data.
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
-Using the set up from the Lab 3 demo and the accelerometer, try the following:
+Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
