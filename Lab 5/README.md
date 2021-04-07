@@ -106,6 +106,7 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 3. [Collect data and train models using the PiCam](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/training)
 4. [Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
 
+Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
