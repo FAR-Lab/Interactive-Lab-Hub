@@ -94,9 +94,25 @@ The device is meant to be both functional and decorative. As a result, I wanted 
 
 **b. explain the selection.**
 
+<<<<<<< HEAD
 This device is meant to be a decorative work of art that can be passed down from generation to generation. The hardware is separate from the software, so that the software can be constantly updated, and what is shown on the screens will change overtime, but the device itself will remain the same. Right now it is set up to display Spotify, but in the future that may be different.
 
 Therefore I want the device to be made of beautiful and sustainable material. this way it will look great, last over time, and not damage the environment too much. The top half of the device which is the jukebox will be made out of crafted marble, while the sides of the mat will be made out of a plant-based leather substitute. Each will have a screen inside. Marble can be heavy, but because this device isn't meant to be moved much that will be fine.
 
 Additional:
 Antonio Mojena helped me set up the touch capacitor
+=======
+### Part 2.
+
+Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
+
+Reiterating:
+### Deliverables for this lab are: 
+1. Sketches/photos of device designs
+1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+3. "Works like" prototypes: show us what the device can do
+4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+
+>>>>>>> 81d94b73a2b786f34ac00a0b1b93589cd6a7fc44
