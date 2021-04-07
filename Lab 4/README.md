@@ -133,6 +133,37 @@ Make a paper display for your project that communicates the state of the Pi and 
 **b. Make a video of your paper display in action.**
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+For this lab, I collaborated with Wenqing Tang (https://github.com/FadingWinds/Interactive-Lab-Hub/tree/Spring2021/Lab%204).
+
+Our design is a 2-player drum music game.
+
+Game Rules:
+
+Each player will have four "drums" represented by different colors (white, red, blue and green) and two "drumsticks". During the game, the screen will show a color every second and the players will need to play the corresponding drum. Each player will be allowed to make three mistakes (play the wrong drum or miss a beat), and if the limit exceeds, the other player wins. As the game proceeds, the time interval for the color switching will become shorter and therefore make
+
+Materials:
+
+Several cardboard boxes
+Unused aluminum foil (or used, if you don't mind)
+Two set of chopsticks (or any stick-shaped thingy)
+8 cans in 4 different sizes
+Acrylic paint with 4 colors, or paper in 4 colors
+[Optional] Shiny strips
+Procedure:
+
+Paint or wrap the cans in four different colors. Cans with the same sizes should have the same color.
+
+Four cans with four different colors will be a "drumset". Carve the shape of each drumset on a cardboard, and put the cans in it. This is to fix the positions for the drums.
+
+Wrap the drumsticks with aluminum foil. Add decorations (shiny strips) if preferred.
+
+Connect the capacitive sensor board to the cans.
+
+Paint and carve a box for the Raspberry Pi.
+
+Put the drumsets at two different sides, and put the Raspberry Pi in the middle so both players can see the screen.
+
+Please refer to the video at the end to see a full setting!
 
 ### Part D
 ### Materiality
@@ -144,12 +175,17 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
 **b. explain the selection.**
+We used cans in different sizes as drums and painted them because a) we want the players to easily distinguish between different cans and know which one they should play, and b) different sizes will have different sounds when played which will make the whole game more fun and produce more real music.
+
+We chose metal cans and wrap the chopsticks with aluminum foil so they can conduct electricity.
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
 
 Reiterating:
+Our Final Video: https://youtu.be/VdRJB1FQSQI
+
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
