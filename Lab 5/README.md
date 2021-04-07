@@ -82,9 +82,15 @@ pi@ixe00:~/openCV-examples $ tree -l
     └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 ```
 #### Filtering, FFTs, and Time Series data.
-While we do not have examples ready, additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
+Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
-`TODO: Example`
+Using the set up from the Lab 3 demo and the accelerometer, try the following:
+
+**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
+
+Include links to your code here, and put the code for these in your repo--they will come in handy later.
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
