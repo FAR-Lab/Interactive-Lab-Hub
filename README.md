@@ -7,3 +7,5 @@ Please place links here to the README.md's for each of your labs here:
 [Lab 2. The Clock of Pi](Lab%202/) <br>
 [Lab 3. You're a Wizard](Lab%203/) <br>
 [Lab 4. Ph-UI!!!](Lab%204/)
+
+[Lab 5. Observant Systems](Lab%205/)
