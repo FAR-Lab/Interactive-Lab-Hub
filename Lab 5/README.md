@@ -2,7 +2,7 @@
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your ``observant device`` could for example count items, find objects, recognize an event or continuously monitor a room.
+Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
 
 This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
 
@@ -13,7 +13,7 @@ In Lab 5 part 2, we'll incorporate interactive responses.
 
 ## Prep
 
-1.  ~~Pull the new Github Repo.~~ Check on Wednesday to pull the new Github Repo!
+1.  Pull the new Github Repo.
 2.  Read about [OpenCV](https://opencv.org/about/).
 3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
@@ -37,7 +37,7 @@ A) [Play](#part-a)
 
 B) [Fold](#part-b)
 
-C) [Test Fly](#part-c)
+C) [Flight test](#part-c)
 
 D) [Reflect](#part-d)
 
@@ -45,6 +45,8 @@ D) [Reflect](#part-d)
 
 ### Part A
 ### Play with different sense-making algorithms.
+
+Befor you get started connect the RaspberryPi Camera V2. [The Pi hut has a great explanation on how to do that](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).  
 
 #### OpenCV
 A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
@@ -82,18 +84,31 @@ pi@ixe00:~/openCV-examples $ tree -l
     └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 ```
 #### Filtering, FFTs, and Time Series data.
-While we do not have examples ready, additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
+Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
-`TODO: Example`
+Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
 
-#### Teachable Machines
+**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+
+**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+
+**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
+
+Include links to your code here, and put the code for these in your repo--they will come in handy later.
+
+#### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
 
 You can train a Model on your browser, experiment with its performance, and then port it to the Raspberry Pi to do even its task on the device.
 
-While there is already a lot of documentation on how to use the models, we will add more details here later.
+Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teachable Machines:
 
-`TODO: Example`
+1. [Setup](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/raspberry-pi-setup)
+2. Install Tensorflow: Like [this](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/tensorflow-lite-2-setup), but use this [pre-built binary](https://github.com/bitsy-ai/tensorflow-arm-bin/) [the file](https://github.com/bitsy-ai/tensorflow-arm-bin/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl) for Tensorflow, it will speed things up a lot.
+3. [Collect data and train models using the PiCam](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/training)
+4. [Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
+
+Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
@@ -109,7 +124,7 @@ Try out different interactions outputs and inputs.
 ### Part C
 ### Test the interaction prototype
 
-Now test-fly your interactive prototype and **note things you notice**:
+Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
@@ -135,4 +150,4 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-**Include a short video answering these questions.**
+**Include a short video demonstrating the answers to these questions.**
