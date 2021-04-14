@@ -29,11 +29,11 @@ var vlSpec = {
 
 socket.on('thresh-passed', data => {
     txt_holder.innerHTML = data.data;
-})
+});
 
 socket.on('peak-detected', data => {
   peak_holder.innerHTML = data.data;
-})
+});
 
 vegaEmbed('#chart', vlSpec).then( (res) => {
   let  x, y, z;
