@@ -26,7 +26,7 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 1. Plug the SD card into your computer using the card reader
 2. Choose the downloaded file for "Choose OS" and the SD card for "Choose SD card" then hit write.
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />
-3. Configure the Pi for [headless mode](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) . Create a file called "wpa_supplicant.conf"in the Boot image of the new disk. The file contents should have the following:
+3. Configure the Pi for [headless mode]("https://www.raspberrypi.org/documentation/configuration/wireless/headless.md") . Create a file called "wpa_supplicant.conf"in the Boot image of the new disk. The file contents should have the following:
 
 	```
 	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
