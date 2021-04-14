@@ -151,3 +151,9 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **Include a short video demonstrating the answers to these questions.**
+
+### Part 2.
+
+Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use iwth a video.
+**Include a short video demonstrating the finished result.**
+
