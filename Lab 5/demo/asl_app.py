@@ -31,15 +31,13 @@ hardware = 'plughw:2,0'
 app = Flask(__name__)
 socketio = SocketIO(app)
 
-acc_history = list(np.zeros((10000,3)))
-avg_history = list(np.zeros((10000,3)))
-
 img = None
 webCam = None
 cap = cv2.VideoCapture()
 
 np.set_printoptions(suppress=True)
 model = tensorflow.keras.model.load_model("converted_keras/keras_model.h5")
+labels = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ']
 
 @socketio.on('connect')
 def test_connect():
@@ -60,29 +58,10 @@ def handle_message(val):
     data[0] = normalized_image_array
 
     prediction = model.predict(data)
-    print(prediction)
+    pred_ind = np.argmax(prediction)
+    #print(prediction)
 
-    global acc_history
-    global avg_history
-    acc_history = acc_history[1:]
-    acc_history += [list(mpu.acceleration)]
-    avg_history = avg_history[1:]
-    avg_history += [np.mean(acc_history[-10:], axis=0)]
-    tmp = np.array(avg_history)
-    x_peaks, _ = find_peaks(tmp[:,0])
-    y_peaks, _ = find_peaks(tmp[:,1])
-    z_peaks, _ = find_peaks(tmp[:,2])
-    if x_peaks[-1] > 950 or y_peaks[-1] > 950 or z_peaks[-1] > 950:
-        emit('peak-detected', {'data': 'PEAK!!!'})
-    else:
-        emit('peak-detected', {'data': ''})
-    if sum(np.where(np.array(mpu.acceleration) > 10)) > 0:
-        emit('thresh-passed', {'data': 'BOAT!!!'})
-    else:
-        emit('thresh-passed', {'data': ''})
-    emit('pong-gps', tuple(np.mean(acc_history[-10:], axis=0))) 
-
-
+    emit('new_letter', {'letter': labels[pred_ind]})
 
 
 @app.route('/')
