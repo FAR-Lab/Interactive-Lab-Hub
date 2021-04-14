@@ -69,10 +69,13 @@ def handle_message(val):
     avg_history = avg_history[1:]
     avg_history += [np.mean(acc_history[-10:], axis=0)]
     tmp = np.array(avg_history)
-    x_peaks, _ = find_peaks(tmp[:,0])
-    y_peaks, _ = find_peaks(tmp[:,1])
-    z_peaks, _ = find_peaks(tmp[:,2])
-    if x_peaks[-1] > 950 or y_peaks[-1] > 950 or z_peaks[-1] > 950:
+    x_peaks, _ = find_peaks(tmp[:,0], prominence=0.1, distance=5)
+    y_peaks, _ = find_peaks(tmp[:,1], prominence=0.1, distance=5)
+    z_peaks, _ = find_peaks(tmp[:,2], prominence=0.1, distance=5)
+    x_peaks = list(np.zeros(10)) + list(x_peaks)
+    y_peaks = list(np.zeros(10)) + list(y_peaks)
+    z_peaks = list(np.zeros(10)) + list(z_peaks)
+    if x_peaks[-1] > 9997 or y_peaks[-1] > 9997 or z_peaks[-1] > 9997:
         emit('peak-detected', {'data': 'PEAK!!!'})
     else:
         emit('peak-detected', {'data': ''})
