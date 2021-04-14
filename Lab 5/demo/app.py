@@ -27,6 +27,8 @@ hardware = 'plughw:2,0'
 app = Flask(__name__)
 socketio = SocketIO(app)
 
+acc_history = list(np.zeros((10, 3)))
+
 @socketio.on('connect')
 def test_connect():
     print('connected')
@@ -34,11 +36,13 @@ def test_connect():
 
 @socketio.on('ping-gps')
 def handle_message(val):
+    acc_history = acc_history[1:]
+    acc_history += [list(mpu.acceleration)]
     if sum(np.where(np.array(mpu.acceleration) > 10)) > 0:
         emit('thresh-passed', {'data': 'BOAT!!!'})
     else:
         emit('thresh-passed', {'data': ''})
-    emit('pong-gps', mpu.acceleration) 
+    emit('pong-gps', np.mean(acc_history, axis=0)) 
 
 
 
