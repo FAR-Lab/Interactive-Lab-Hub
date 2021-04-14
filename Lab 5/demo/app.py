@@ -19,8 +19,10 @@ from queue import Queue
 import numpy as np
 from scipy.signal import find_peaks
 
+import pandas as pd
 import cv2
 import tensorflow.keras
+import tensorflow as tf
 
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
@@ -36,10 +38,13 @@ avg_history = list(np.zeros((10000,3)))
 
 img = None
 webCam = None
-cap = cv2.VideoCapture()
+cap = cv2.VideoCapture(0)
 
 np.set_printoptions(suppress=True)
-model = tensorflow.keras.model.load_model("converted_keras/keras_model.h5")
+model = tensorflow.keras.models.load_model("../models/converted_keras/keras_model.h5")
+labels = list(pd.read_csv('../models/converted_keras/labels.txt', header=None)[0])
+labels = [x.split(' ')[1] for x in labels]
+labels[-1] = ' '
 
 @socketio.on('connect')
 def test_connect():
@@ -51,16 +56,17 @@ def handle_message(val):
     global cap
     ret, img = cap.read()
     size = (224, 224)
-    img = ImageOps.fit(img, size, Image. ANTIALIAS)
+    img = cv2.resize(img, dsize=size, interpolation=cv2.INTER_CUBIC)
 
-    image_array = np.asarray(image)
+    image_array = np.asarray(img)
     normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
 
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
     data[0] = normalized_image_array
 
     prediction = model.predict(data)
-    print(prediction)
+    pred_ind = np.argmax(prediction)
+    print(labels[pred_ind])
 
     global acc_history
     global avg_history
