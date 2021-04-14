@@ -19,6 +19,9 @@ from queue import Queue
 import numpy as np
 from scipy.signal import find_peaks
 
+import cv2
+import tensorflow.keras
+
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
@@ -31,11 +34,12 @@ socketio = SocketIO(app)
 acc_history = list(np.zeros((10000,3)))
 avg_history = list(np.zeros((10000,3)))
 
+img = None
+webCam = None
+cap = cv2.VideoCapture()
+
 np.set_printoptions(suppress=True)
-model = tensorflow.keras.models.load_model("../models/converted_keras/keras_model.h5")
-labels = list(pd.read_csv('../models/converted_keras/labels.txt', header=None)[0])
-labels = [x.split(' ')[1] for x in labels]
-labels[-1] = ' '
+model = tensorflow.keras.model.load_model("converted_keras/keras_model.h5")
 
 @socketio.on('connect')
 def test_connect():
@@ -44,6 +48,20 @@ def test_connect():
 
 @socketio.on('ping-gps')
 def handle_message(val):
+    global cap
+    ret, img = cap.read()
+    size = (224, 224)
+    img = ImageOps.fit(img, size, Image. ANTIALIAS)
+
+    image_array = np.asarray(image)
+    normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
+
+    data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
+    data[0] = normalized_image_array
+
+    prediction = model.predict(data)
+    print(prediction)
+
     global acc_history
     global avg_history
     acc_history = acc_history[1:]
@@ -51,13 +69,10 @@ def handle_message(val):
     avg_history = avg_history[1:]
     avg_history += [np.mean(acc_history[-10:], axis=0)]
     tmp = np.array(avg_history)
-    x_peaks, _ = find_peaks(tmp[:,0], prominence=0.1, distance=5)
-    y_peaks, _ = find_peaks(tmp[:,1], prominence=0.1, distance=5)
-    z_peaks, _ = find_peaks(tmp[:,2], prominence=0.1, distance=5)
-    x_peaks = list(np.zeros(10)) + list(x_peaks)
-    y_peaks = list(np.zeros(10)) + list(y_peaks)
-    z_peaks = list(np.zeros(10)) + list(z_peaks)
-    if x_peaks[-1] > 9997 or y_peaks[-1] > 9997 or z_peaks[-1] > 9997:
+    x_peaks, _ = find_peaks(tmp[:,0])
+    y_peaks, _ = find_peaks(tmp[:,1])
+    z_peaks, _ = find_peaks(tmp[:,2])
+    if x_peaks[-1] > 950 or y_peaks[-1] > 950 or z_peaks[-1] > 950:
         emit('peak-detected', {'data': 'PEAK!!!'})
     else:
         emit('peak-detected', {'data': ''})
@@ -66,6 +81,8 @@ def handle_message(val):
     else:
         emit('thresh-passed', {'data': ''})
     emit('pong-gps', tuple(np.mean(acc_history[-10:], axis=0))) 
+
+
 
 
 @app.route('/')
