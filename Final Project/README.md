@@ -7,10 +7,6 @@ Functional check-off - May 10
 Final Project Presentations (video watch party) - May 12
 
 
-## Examples
-
-[Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
-This version of the class is very different, but it may be useful to see these.
 
 ## Objective
 
@@ -30,3 +26,8 @@ Your project is to design and build an interactive device to suit a specific app
 ## Teams
 
 You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
+
+## Examples
+
+[Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
+This version of the class is very different, but it may be useful to see these.
