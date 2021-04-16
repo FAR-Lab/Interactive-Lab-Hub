@@ -75,10 +75,10 @@ Acceptable messages (string): 'red' || 'green' || 'blue' (more to be added later
 
 Find at least one class partner, and design a distributed application together. 
 
-*1. Explain your design* For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
-*2. Diagram the architecture of the system.* Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+**2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-*3. Build a working prototype of the system.* 
+**3. Build a working prototype of the system.** 
 
-*4. Document the working prototype in use.* It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+**4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
