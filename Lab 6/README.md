@@ -42,6 +42,3 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 
 
 Once connected you should be able to see all the messaged on the IDD topic. From the interface you can send and plot messages as well.
-
-
-
