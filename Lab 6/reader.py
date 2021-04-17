@@ -1,8 +1,6 @@
 import paho.mqtt.client as mqtt
 import uuid
 
-
-
 # the # wildcard means we subscribe to all subtopics of IDD
 topic = 'IDD/#'
 
@@ -40,7 +38,6 @@ client.on_message = on_message
 client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
-
 
 # this is blocking. to see other ways of dealing with the loop
 #  https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php#network-loop
