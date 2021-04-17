@@ -21,7 +21,7 @@ The point of this lab is to introduce you to distributed interaction. We've incl
 
 MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networks. It was later adopted as a defacto standard for a variety of Internet of Things (IoT) devices. 
 
-#### The Bits
+### The Bits
 
 * **Broker** - The central server node that receives all messages and sends them out to the interested clients. Our broker is hosted on the far lab server (Thanks David!) at `farlab.infosci.cornell.edu/8883`
 * **Client** - A device that subscribes or publishes information on the network
@@ -31,7 +31,7 @@ MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networ
 
 Setting up a broker isn't much work but for the purposes of this class you should all use the broker we've set up for you. 
 
-#### Useful Tooling
+### Useful Tooling
 
 Debugging and visualizing what's happening on your MQTT broker can be helpful. We like [MQTT Explorer](http://mqtt-explorer.com/). You can connect by putting in the settings from the image below.
 
@@ -87,7 +87,7 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 ## Make it your own
 
-Find at least one class partner, and design a distributed application together. 
+Find at least one class (more are okay) partner, and design a distributed application together. 
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
