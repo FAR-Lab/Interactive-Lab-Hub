@@ -1,6 +1,4 @@
-# Punny title goes here
-
-
+# m[Q](https://en.wikipedia.org/wiki/QAnon)tt[Anon](https://en.wikipedia.org/wiki/QAnon): Where We Go One, We Go All
 
 ## Prep
 
@@ -9,13 +7,11 @@
 3. Readings 
    * [MQTT](#MQTT)
    * [The Presence Table](https://dl.acm.org/doi/10.1145/1935701.1935800) and [video](https://vimeo.com/15932020)
-   * 
+
 
 ## Introduction
 
 The point of this lab is to introduce you to distributed interaction. We've included a some Natural Language Processing (NLP) and Generation (NLG) but those are not really the emphasis. Feel free to dig into the examples and play around the code which you can integrate into your projects. However we want to emphasize the grading will focus on your ability to develop interesting uses for messaging across distributed devices. 
-
-
 
 ## MQTT
 
@@ -52,9 +48,6 @@ Once connected you should be able to see all the messaged on the IDD topic. From
 
 
 To run these examples make sure to install the packages from `requirements.txt`
-
-
-
 
 
 ## The One True ColorNet
