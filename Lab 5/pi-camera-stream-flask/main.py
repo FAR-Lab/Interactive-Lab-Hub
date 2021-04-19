@@ -21,11 +21,17 @@ m = 0
 
 @app.route('/')
 def index():
-    return render_template('index.html', numofface=n, numoflipstick=m)
+    return render_template('index.html')
 
-# @app.route('/update_number')
-# def update_number()
-#     return render_template('index.html', numofface=n, numoflipstick=m)
+@app.route('/update_number')
+def update_number()
+    while True:
+        direction = qwiicjoystick()
+        if direction == "LEFT":
+            n += 1
+        if direction == "RIGHT":
+            m += 1
+    return render_template('numbers.html', numofface=n, numoflipstick=m)
         
 def gen(camera):
     #get camera frame
@@ -41,14 +47,6 @@ def video_feed():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=False)
-    while True:
-        direction = qwiicjoystick()
-        if direction == "LEFT":
-            n += 1
-            render_template('index.html', numofface=n, numoflipstick=m)
-        if direction == "RIGHT":
-            m += 1
-            render_template('index.html', numofface=n, numoflipstick=m)
     
     
     
