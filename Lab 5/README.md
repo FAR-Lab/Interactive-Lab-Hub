@@ -95,6 +95,7 @@ Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-La
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
+https://github.com/iamyuchy/Interactive-Lab-Hub/tree/Spring2021/Lab%205
 
 #### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -121,40 +122,39 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+I choice to test the face detection. I have the camera setted near the mirror and trying to count how many times I will look at or pass the mirror every day. 
+
+Based on this experiment, I want to design the prototype as a smart make-up mirror. Not only it can count number of times my face is detected, but also it can also record the number of lipsticks I used.
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note your observations**:
-For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Most of the time the face detection works ok. Sometimes the detection for the lipstick usage is good, but it often fails when the lightning is bad or my head is facing toward the left or the right. Meanwhile, the detection can not distinguish between me using the lipsticks or simply raise my hand around the mouth, especially when the lipstick is covered by my hand.
 
 **Think about someone using the system. Describe how you think this will work.**
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+User will be aware of the miss classfication of different movement during the makeup process. However, they won't be severely impact. The miss classification is mainly because the training dataset is relatively small. The sense-making algorithm should be more accurate if the training dataset include more photos of different hand postures holding a lipstick.
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
-During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+
+Ideally the system will also record the number of usage of different makeup products and tools, such as the number of mascara and the number of eyeshadows. It may even analysis the time I spent on each makeup product and help me figure out which part of my makeup is finished with high quality and which part of my makeup need more improvement.
 
 **Include a short video demonstrating the answers to these questions.**
+
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%205/demo1.png)
+
+https://drive.google.com/file/d/1AnV2rWstNuup7P79AvIm1b4zE9sLLmPe/view?usp=sharing
+
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+
 
