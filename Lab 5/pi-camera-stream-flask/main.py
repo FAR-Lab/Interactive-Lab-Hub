@@ -16,7 +16,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html') #you can customze index.html here
+    n = get_num_of_face()
+    return render_template('index.html', numofface=n) #you can customze index.html here
+
+def get_num_of_face():
+    n = 0
+    return 0
 
 def gen(camera):
     #get camera frame
