@@ -24,7 +24,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/update_number')
-def update_number()
+def update_number():
     while True:
         direction = qwiicjoystick()
         if direction == "LEFT":
