@@ -103,7 +103,7 @@ Signal is averaged over the previous 10 points.
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 peak-detected is printed when a peak is detected. 
-![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/peakddetect.png)
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/peakdetect.png)
 
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
 
