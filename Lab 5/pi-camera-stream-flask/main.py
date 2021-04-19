@@ -8,26 +8,24 @@ from camera import VideoCamera
 import time
 import threading
 import os
+from Qwiic_Joystick import qwiicjoystick
 
 pi_camera = VideoCamera(flip=False) # flip pi camera if upside down.
 
 # App Globals (do not edit)
 app = Flask(__name__)
+n = 12
+m = 0
 
 @app.route('/')
 def index():
-    n = get_num_of_face()
-    m = get_num_of_lipstick()
     return render_template('index.html', numofface=n, numoflipstick=m) #you can customze index.html here
 
-def get_num_of_face():
-    n = 12
-    return n
-
-def get_num_of_lipstick():
-    m = 0
-    return m
-
+@app.route('/update_number')
+def check_number():
+    return
+    
+        
 def gen(camera):
     #get camera frame
     while True:
@@ -41,8 +39,11 @@ def video_feed():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-
+    global bus_data, X, Y
+    while True:
+        qwiicjoystick()
     app.run(host='0.0.0.0', debug=False)
+    
     
 
 
