@@ -115,46 +115,40 @@ As a note, the global Python install contains also a PyTorch installation. That 
 
 ### Part B
 ### Construct a simple interaction.
-
 Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
+We used the object detection model. We created a device to detect whether or not a ball completley crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completley entered the frame. The device seemed to do this effectivley. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
 
 ### Part C
 ### Test the interaction prototype
-
 Now flight test your interactive prototype and **note your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
-
+1. When does it do what it is supposed to do? The device does what its supposed to do when it detects the ball rolling in the frame
+1. When does it fail? It fails if it does not detect the ball rolling in the frame
+1. When it fails, why does it fail? It fails becasue the ball is rolling too fast, becasue of the presence of shadows, and when there is poor lighting
+1. Based on the behavior you have seen, what other scenarios could cause problems? The presence of other objects or a player in the frame might lead to the device not detecting the ball.
 **Think about someone using the system. Describe how you think this will work.**
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
+1. Are they aware of the uncertainties in the system? They would not be aware of the unertanities unless they were informed of them.
+1. How bad would they be impacted by a miss classification? They would be negatively impacted in context of the game(soccer) being played. The device mistakenly detecting another object may lead to false goal being given, whearas it not detecting the ball may result in a goal not being given.
 1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are there optimizations you can try to do on your sense-making algorithm. The object detection algorithm could be changed to also classify objects. This would allow the device to distinguish between a ball and a player (or any other object) in the frame. Thus negating a potential failing of the device.
 
 ### Part D
 ### Characterize your own Observant system
-
-Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
+Now that you have experimented with one or more of  these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
+We experimented with the objected detection algorithm.
+* What can you use X for? It can be used to detect the presence of an object or multiple objects in a frame. This could serve a variety of use case. For example a security system.
+* What is a good environment for X? A well lit enviorment. Also one where there is a contrast between the background and the object being detected.
+* What is a bad environment for X? A bad enviornemnt would include the opposite of the above - bad lighting, bad contrast. Additonally and enviornment that is clutterred with different moving objects might be too confusing and not allow for interpretable insights.
+* When will X break? It might break, as stated above, if there are too many objects moving in the frame.
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
-
 **Include a short video demonstrating the answers to these questions.**
 
 ### Part 2.
-
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
 **Include a short video demonstrating the finished result.**
-
