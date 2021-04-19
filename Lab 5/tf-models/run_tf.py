@@ -26,7 +26,7 @@ def detect(img):
 
 if __name__ == "__main__":
 	data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
-	image = Image.open('/home/pi/openCV-examples/data/test.jpg')
+	image = Image.open('/home/pi/Interactive-Lab-Hub/Lab 5/example.jpg')
 	size = (224, 224)
 	image = ImageOps.fit(image, size, Image.ANTIALIAS)
 	img_array = np.asarray(image)

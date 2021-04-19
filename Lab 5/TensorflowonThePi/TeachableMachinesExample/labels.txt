@@ -1,0 +1,3 @@
+0 Person
+1 Background
+2 USB Stick
