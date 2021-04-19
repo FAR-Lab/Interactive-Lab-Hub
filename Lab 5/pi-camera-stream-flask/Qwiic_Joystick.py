@@ -3,13 +3,18 @@ bus = smbus.SMBus(1)
 addr = 0x20
 
 def main():
-    global bus_data, X, Y
+    global bus_data, X, Y, n, m
+    n, m = 12, 0
     while True:
-        qwiicjoystick()
-
+        direction = qwiicjoystick()
+        if direction == "LEFT":
+            n += 1
+        if direction == "RIGHT":
+            m += 1
+        print(n, m)
 
 def qwiicjoystick():
-    global bus_data, X, Y 
+    global bus_data, X, Y, n, m
 
     try:
         bus_data = bus.read_i2c_block_data(addr, 0x03, 5)
@@ -42,7 +47,6 @@ def qwiicjoystick():
     time.sleep(.1)
 #     if Select_Button == 1:
 #         terminate()
-
     return direction
 
 if __name__ == '__main__':
