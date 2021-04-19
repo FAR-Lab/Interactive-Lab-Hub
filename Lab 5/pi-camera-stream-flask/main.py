@@ -8,7 +8,7 @@ from camera import VideoCamera
 import time
 import threading
 import os
-from Qwiic_Joystick import *
+import Qwiic_Joystick
 
 pi_camera = VideoCamera(flip=False) # flip pi camera if upside down.
 
