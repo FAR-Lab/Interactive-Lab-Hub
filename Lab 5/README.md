@@ -146,6 +146,10 @@ Ideally the system will also record the number of usage of different makeup prod
 
 **Include a short video demonstrating the answers to these questions.**
 
+![alt text](https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%205/demo1.png)
+
+https://drive.google.com/file/d/1AnV2rWstNuup7P79AvIm1b4zE9sLLmPe/view?usp=sharing
+
 
 ### Part 2.
 
