@@ -118,7 +118,9 @@ As a note, the global Python install contains also a PyTorch installation. That 
 Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
+
 **Describe and detail the interaction, as well as your experimentation.**
+
 We used the object detection model. We created a device to detect whether or not a ball completley crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completley entered the frame. The device seemed to do this effectivley. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
 
 ### Part C
@@ -147,8 +149,10 @@ We experimented with the objected detection algorithm.
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
+
 **Include a short video demonstrating the answers to these questions.**
 
 ### Part 2.
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
 **Include a short video demonstrating the finished result.**
