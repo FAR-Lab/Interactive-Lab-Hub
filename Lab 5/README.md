@@ -127,29 +127,29 @@ We used the object detection model. We created a device to detect whether or not
 ### Test the interaction prototype
 Now flight test your interactive prototype and **note your observations**:
 For example:
-**1. When does it do what it is supposed to do?**
+**1. When does it do what it is supposed to do?** </br>
 The device does what its supposed to do when it detects the ball rolling in the frame
 
-**2. When does it fail?**
+**2. When does it fail?** </br>
 It fails if it does not detect the ball rolling in the frame
 
-**3. When it fails, why does it fail?** 
+**3. When it fails, why does it fail?** </br>
 It fails becasue the ball is rolling too fast, becasue of the presence of shadows, and when there is poor lighting
 
-**4. Based on the behavior you have seen, what other scenarios could cause problems?**
+**4. Based on the behavior you have seen, what other scenarios could cause problems?** </br>
 The presence of other objects or a player in the frame might lead to the device not detecting the ball.
 
 **Think about someone using the system. Describe how you think this will work.**
 
-**1. Are they aware of the uncertainties in the system?**
+**1. Are they aware of the uncertainties in the system?** </br>
 They would not be aware of the unertanities unless they were informed of them.
 
-**2. How bad would they be impacted by a miss classification?**
+**2. How bad would they be impacted by a miss classification?** </br>
 They would be negatively impacted in context of the game(soccer) being played. The device mistakenly detecting another object may lead to false goal being given, whearas it not detecting the ball may result in a goal not being given.
 
-**3. How could change your interactive system to address this?**
+**3. How could change your interactive system to address this?** </br>
 
-**4. Are there optimizations you can try to do on your sense-making algorithm?**
+**4. Are there optimizations you can try to do on your sense-making algorithm?** </br>
 The object detection algorithm could be changed to also classify objects. This would allow the device to distinguish between a ball and a player (or any other object) in the frame. Thus negating a potential failing of the device.
 
 ### Part D
@@ -157,7 +157,9 @@ The object detection algorithm could be changed to also classify objects. This w
 Now that you have experimented with one or more of  these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 We experimented with the objected detection algorithm.
-* What can you use X for? It can be used to detect the presence of an object or multiple objects in a frame. This could serve a variety of use case. For example a security system.
+* What can you use X for?
+It can be used to detect the presence of an object or multiple objects in a frame. This could serve a variety of use case. For example a security system.
+
 * What is a good environment for X? A well lit enviorment. Also one where there is a contrast between the background and the object being detected.
 * What is a bad environment for X? A bad enviornemnt would include the opposite of the above - bad lighting, bad contrast. Additonally and enviornment that is clutterred with different moving objects might be too confusing and not allow for interpretable insights.
 * When will X break? It might break, as stated above, if there are too many objects moving in the frame.
