@@ -154,11 +154,18 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **Include a short video demonstrating the answers to these questions.**
 
+https://drive.google.com/file/d/1nyU0JgauauaJrPVqDFTJSYuFp3p36ajM/view?usp=sharing
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
 
-![Raincoat Video](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%205/Raincoat%3F.mp4)
+This program was unfortunately very slow and lagged a lot, so its not the best demonstration video like David's was of the boat. It only registers my video with a significant lag. I trained the model to recognize raincoat or no raincoat. In future projects, I can include sounds, other outfits and accessories like an umbrella or warm/cold weather clothes.
+
+https://drive.google.com/file/d/1dU7y8yD9Esy9tpXtzNtarxSw0eSmf4gA/view?usp=sharing
+
+
+
 
