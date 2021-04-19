@@ -17,11 +17,16 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     n = get_num_of_face()
-    return render_template('index.html', numofface=n) #you can customze index.html here
+    m = get_num_of_lipstick()
+    return render_template('index.html', numofface=n, numoflipstick=m) #you can customze index.html here
 
 def get_num_of_face():
-    n = 0
-    return 0
+    n = 12
+    return n
+
+def get_num_of_lipstick():
+    m = 0
+    return m
 
 def gen(camera):
     #get camera frame

@@ -1,10 +1,11 @@
 import time
 import logging
-from mobilenet_v2 import MobileNetV2Base
+#from mobilenet_v2 import MobileNetV2Base
 import os
 import sys
 import numpy as np
 from PIL import Image, ImageOps
+import tensorflow.keras
 
 CONFIDENCE_THRESHOLD = 0.5
 PERSISTANCE_THRESHOLD = 0.25
@@ -12,11 +13,14 @@ PERSISTANCE_THRESHOLD = 0.25
 logging.basicConfig()
 logging.getLogger().setLevel(logging.INFO)
 
-model = MobileNetV2Base()
+#model = MobileNetV2Base()
+model_path = '/home/pi/TensorflowonThePi/TeachableMachinesExample/keras_model.h5'
+model = tensorflow.keras.models.load_model(model_path)
+
 last_seen = [None] * 5
 
 def detect(img):
-	prediction = model.predict(img)[0]
+	prediction = model.predict(img)
 	for p in prediction:
 		label,name,conf = p
 		if conf > CONFIDENCE_THRESHOLD:
@@ -32,4 +36,4 @@ if __name__ == "__main__":
 	img_array = np.asarray(image)
 	img_n = (img_array.astype(np.float32) / 127.0) - 1
 	data[0] = img_n
-	detect(img_n)
+	detect(data)
