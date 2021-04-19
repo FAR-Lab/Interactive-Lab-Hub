@@ -135,26 +135,10 @@ body {
      
 </div>
 
-  <div class="top-right-logo" id="place_for_numbers"></div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-	<script>
-	$("#search_form_input").keyup(function(){
-	    var text = $(this).val();
-
-	    $.ajax({
-	      url: "/update_number",
-	      type: "get",
-	      data: {jsdata: text},
-	      success: function(response) {
-		$("#place_for_numbers").html(response);
-	      },
-	      error: function(xhr) {
-		//Do Something to handle error
-	      }
-	    });
-	});
-   </script>	
+<div class="top-right-logo" id="place_for_numbers">
+ 	<a></a>Face Detected {{ numofface }} Times |  </a>
+	<a></a>Used lipsticks {{ numoflipstick }} Times </a>	  
+</div>
 
 <div class="navbar">
 
