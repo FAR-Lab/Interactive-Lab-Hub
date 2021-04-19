@@ -126,7 +126,7 @@ We used the object detection model. We created a device to detect whether or not
 ### Part C
 ### Test the interaction prototype
 Now flight test your interactive prototype and **note your observations**:
-For example:
+For example: </br>
 **1. When does it do what it is supposed to do?** </br>
 The device does what its supposed to do when it detects the ball rolling in the frame
 
