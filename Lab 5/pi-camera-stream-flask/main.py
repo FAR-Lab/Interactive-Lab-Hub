@@ -21,17 +21,17 @@ m = 0
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', numofface=n, numoflipstick=m)
 
-@app.route('/update_number')
-def update_number():
-    while True:
-        direction = qwiicjoystick()
-        if direction == "LEFT":
-            n += 1
-        if direction == "RIGHT":
-            m += 1
-    return render_template('numbers.html', numofface=n, numoflipstick=m)
+# @app.route('/update_number')
+# def update_number():
+#     while True:
+#         direction = qwiicjoystick()
+#         if direction == "LEFT":
+#             n += 1
+#         if direction == "RIGHT":
+#             m += 1
+#     return render_template('numbers.html', numofface=n, numoflipstick=m)
         
 def gen(camera):
     #get camera frame
