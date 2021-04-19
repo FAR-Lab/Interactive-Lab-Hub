@@ -157,4 +157,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **Include a short video demonstrating the finished result.**
 
+<p float="left">
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%205/1.gif" height="200" />
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%205/2.gif" height="200">
+</p>
+
+https://drive.google.com/file/d/1dNCkZpZJosKm-SM8z4nH0OAAXKjvnZyY/view?usp=sharing
+
 
