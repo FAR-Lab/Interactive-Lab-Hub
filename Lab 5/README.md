@@ -127,10 +127,18 @@ We used the object detection model. We created a device to detect whether or not
 ### Test the interaction prototype
 Now flight test your interactive prototype and **note your observations**:
 For example:
-1. When does it do what it is supposed to do? The device does what its supposed to do when it detects the ball rolling in the frame
-1. When does it fail? It fails if it does not detect the ball rolling in the frame
-1. When it fails, why does it fail? It fails becasue the ball is rolling too fast, becasue of the presence of shadows, and when there is poor lighting
-1. Based on the behavior you have seen, what other scenarios could cause problems? The presence of other objects or a player in the frame might lead to the device not detecting the ball.
+1. When does it do what it is supposed to do? 
+
+The device does what its supposed to do when it detects the ball rolling in the frame
+
+4. When does it fail? 
+
+It fails if it does not detect the ball rolling in the frame
+
+6. When it fails, why does it fail? 
+
+It fails becasue the ball is rolling too fast, becasue of the presence of shadows, and when there is poor lighting
+8. Based on the behavior you have seen, what other scenarios could cause problems? The presence of other objects or a player in the frame might lead to the device not detecting the ball.
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system? They would not be aware of the unertanities unless they were informed of them.
 1. How bad would they be impacted by a miss classification? They would be negatively impacted in context of the game(soccer) being played. The device mistakenly detecting another object may lead to false goal being given, whearas it not detecting the ball may result in a goal not being given.
