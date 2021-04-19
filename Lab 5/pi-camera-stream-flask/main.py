@@ -14,30 +14,25 @@ pi_camera = VideoCamera(flip=False) # flip pi camera if upside down.
 
 # App Globals (do not edit)
 app = Flask(__name__)
+
 global n, m
 n = 12
 m = 0
 
+while True:
+    direction = qwiicjoystick()
+    if direction == "LEFT":
+        n += 1
+    if direction == "RIGHT":
+        m += 1
+
 @app.route('/')
 def index():
-    while True:
-        direction = qwiicjoystick()
-        if direction == "LEFT":
-            n += 1
-        if direction == "RIGHT":
-            m += 1
     return render_template('index.html', numofface=n, numoflipstick=m)
 
 # @app.route('/update_number')
-# def update_number():
-#     while True:
-#         direction = qwiicjoystick()
-#         if direction == "LEFT":
-#             n += 1
-#         if direction == "RIGHT":
-#             m += 1
+# def update_number()
 #     return render_template('index.html', numofface=n, numoflipstick=m)
-    
         
 def gen(camera):
     #get camera frame
