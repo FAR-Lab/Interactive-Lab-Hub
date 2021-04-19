@@ -19,13 +19,6 @@ global n, m
 n = 12
 m = 0
 
-while True:
-    direction = qwiicjoystick()
-    if direction == "LEFT":
-        n += 1
-    if direction == "RIGHT":
-        m += 1
-
 @app.route('/')
 def index():
     return render_template('index.html', numofface=n, numoflipstick=m)
@@ -47,8 +40,16 @@ def video_feed():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    
     app.run(host='0.0.0.0', debug=False)
+    while True:
+        direction = qwiicjoystick()
+        if direction == "LEFT":
+            n += 1
+            render_template('index.html', numofface=n, numoflipstick=m)
+        if direction == "RIGHT":
+            m += 1
+            render_template('index.html', numofface=n, numoflipstick=m)
+    
     
     
 
