@@ -90,11 +90,24 @@ Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-La
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
+threshold-passed is printed when the threshold set is passed.
+
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/thresholddetect.png)
+
 **2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+
+Signal is averaged over the previous 10 points.
+
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/averaging.png)
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
+peak-detected is printed when a peak is detected. 
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/peakddetect.png)
+
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
+
+Code is given in the "demo" folder.
 
 #### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
