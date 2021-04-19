@@ -73,3 +73,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **Include a short video demonstrating the answers to these questions.**
+
+https://drive.google.com/file/d/1wjtAtYutlEK6VfAyCYm68JLUFCgCeeLA/view?usp=sharing
+
+As shown, the device can be used for determining whether or not someone is in the good spot on the couch. The screen can be displayed anywhere else in the home or the apartment, and will tell someone in a different area or room if the spot is open. A good environment for this is big spaces where the couch is far away or hidden from other parts of the party. A bad environment is one where there are tons of people and the spot may get filled before the person who sees the alert is able to get there. It will break if someone is in the camera frame (even partially) but not in the spot. The system in its current form allows you to also see who the person is that's sitting there, if they're about to get up, or if they're actually on screen and not in the spot (indicating that the system is wrong). It feels like a very neat and simple solution to a common problem at house parties. However, it could probably be done more simply with a colored light, a text alert on your phone, or just the alert on the screen and no camera feed. For this to happen, the model would need to be trained more accurately and the window of the camera would need to be more narrow.
