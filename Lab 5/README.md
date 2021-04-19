@@ -1,28 +1,14 @@
 # Observant Systems
 
 
-For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
-
-This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
-
-In Lab 5 part 1, we focus on detecting and sense-making.
-
-In Lab 5 part 2, we'll incorporate interactive responses.
 
 
 ## Prep
 
-1.  Pull the new Github Repo.
-2.  Read about [OpenCV](https://opencv.org/about/).
-3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
 ### For the lab, you will need:
 
-1. Raspberry Pi
-1. Raspberry Pi Camera (2.1)
-1. Microphone (if you want speech or sound input)
-1. Webcam (if you want to be able to locate the camera more flexibly than the Pi Camera)
+
 
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
@@ -31,93 +17,29 @@ In Lab 5 part 2, we'll incorporate interactive responses.
 
 
 ## Overview
-Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
 
-A) [Play](#part-a)
-
-B) [Fold](#part-b)
-
-C) [Flight test](#part-c)
-
-D) [Reflect](#part-d)
-
----
 
 ### Part A
 ### Play with different sense-making algorithms.
 
 #### OpenCV
-A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
 
-Additionally, we also included 4 standard OpenCV examples. These examples include contour(blob) detection, face detection with the ``Haarcascade``, flow detection(a type of keypoint tracking), and standard object detection with the [Yolo](https://pjreddie.com/darknet/yolo/) darknet.
-
-Most examples can be run with a screen (I.e. VNC or ssh -X or with an HDMI monitor), or with just the terminal. The examples are separated out into different folders. Each folder contains a ```HowToUse.md``` file, which explains how to run the python example.
-
-```shell
-pi@ixe00:~/openCV-examples $ tree -l
-.
-├── contours-detection
-│   ├── contours.py
-│   └── HowToUse.md
-├── data
-│   ├── slow_traffic_small.mp4
-│   └── test.jpg
-├── face-detection
-│   ├── face-detection.py
-│   ├── faces_detected.jpg
-│   ├── haarcascade_eye_tree_eyeglasses.xml
-│   ├── haarcascade_eye.xml
-│   ├── haarcascade_frontalface_alt.xml
-│   ├── haarcascade_frontalface_default.xml
-│   └── HowToUse.md
-├── flow-detection
-│   ├── flow.png
-│   ├── HowToUse.md
-│   └── optical_flow.py
-└── object-detection
-    ├── detected_out.jpg
-    ├── detect.py
-    ├── frozen_inference_graph.pb
-    ├── HowToUse.md
-    └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
-```
 #### Filtering, FFTs, and Time Series data.
-Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
-
-Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
-
-**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
-
-**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
-
-**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
-
-Include links to your code here, and put the code for these in your repo--they will come in handy later.
 
 #### Teachable Machines (beta, optional)
-Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
 
-You can train a Model on your browser, experiment with its performance, and then port it to the Raspberry Pi to do even its task on the device.
-
-Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teachable Machines:
-
-1. [Setup](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/raspberry-pi-setup)
-2. Install Tensorflow: Like [this](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/tensorflow-lite-2-setup), but use this [pre-built binary](https://github.com/bitsy-ai/tensorflow-arm-bin/) [the file](https://github.com/bitsy-ai/tensorflow-arm-bin/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_aarch64.whl) for Tensorflow, it will speed things up a lot.
-3. [Collect data and train models using the PiCam](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/training)
-4. [Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
-
-Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
 #### PyTorch  
-As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
+
 
 ### Part B
 ### Construct a simple interaction.
 
-Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
-This can be as simple as the boat detector earlier.
-Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
+
+I am creating a system to monitor when the best spot on the couch is open. This way, if you're at a house party and having a good time talking to people, but are waiting to sit down, you dont need to constantly walk to the other part of the room to check the couch. You just look at the screen closest to you, and it will tell you whether or not the spot is available. The camera will be focused on the primary spot. If it detects a person, it will say that the spot is taken, however if it does not, it will say that the spot is available.
+
+While experimenting, I noticed that the camera was displaying all sorts of objects at first. I kept playing around with the focus/resolution to make the window it was looking at smaller. Eventually, I made it so narrow that it wouldn't name any objects at all and draw a box around them, but the text output for the system would change to recongize whether or not a person was on the couch. This was a cleaner way of doing it, although a bit of a hack.
 
 ### Part C
 ### Test the interaction prototype
@@ -125,15 +47,28 @@ Try out different interactions outputs and inputs.
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+    The system does what its supposed to do when there is no one on screen, or when a person is sitting in the spot. However, it breaks when someone is on screen but not in the spot.
+3. When does it fail?
+It fails when there is a person on the screen, but not in the spot. So if there is no person on the screen it will say that the spot is open, but if there's       a person anywhere on the screen it will say the spot is taken, even though they're not necessarily in spot and the spot may still be avaialeble.
+
+5. When it fails, why does it fail?
+It fails because the focus/resolution or frame is not narrow enough. It's picking up everything in the lens, not just the specific spot on the couch. It also fails because it is recognizing parts of a human as a person, even though the whole person may not be pictured. therefore it's pickup up a hand or part of a head, when in reality the person's whole body would be captured if they were in the spot.
+
+7. Based on the behavior you have seen, what other scenarios could cause problems?
+Although I did not have multiple people to try this with, I think having more than one person could cause problems. If there were two people on the screen at once I assume it would say the spot is taken. Additionally, if there are other random objects in the background it may recognize them as people and fail.
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+I think if someone was actually using the system they would instantly be aware of the uncertainties, since you can see both the alert and the camera feed on the same screen. This way, if the camera says the spot is unavailable, they'll still be able to see that no one is sitting in it, or more likely the someone is walking around and in motion which will catch their eye.
+2. How bad would they be impacted by a miss classification?
+I don't think they would be impacted too negatively by a miss classification. At the end of the day, the purpose of the device is to keep you informed as to whether or not the good spot on the couch is open without you having to constantly walkover and check. This way with a quick glance at the screen you can see whether or not the spot is open. The written and colored text alert is nice because it grabs your attention when something changes and makes it easier to notice when you're mid-conversation. However, you'd probably notice the person getting up from the spot and walking away anyway, and would know if the spot is open.
+
+That being said, if I build it later on to not have the camera feed, and just be an alert, or a light somewhere in your apartment, then it would need to be more exact.
+
+3. How could change your interactive system to address this?
+I need to narrow down the window that the camera is searching in. I code do this through coding, or alternatively I could move the camera closer to the spot so that is the only think it is capturing.
+4. Are there optimizations you can try to do on your sense-making algorithm.
+Yes, I could make it so that the camera only recongizes a person when the person's full body is picture, and not just a part of the body, this way you know they're full in the seat.
 
 ### Part D
 ### Characterize your own Observant system
