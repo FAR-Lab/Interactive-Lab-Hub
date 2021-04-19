@@ -160,3 +160,5 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **Include a short video demonstrating the finished result.**
 
+![Raincoat Video](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%205/Raincoat%3F.mp4)
+
