@@ -121,6 +121,7 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
+
 I choice to test the face detection. I have the camera setted near the mirror and trying to count how many times I will look at or pass the mirror every day. 
 
 Based on this experiment, I want to design the prototype as a smart make-up mirror. Not only it can count number of times my face is detected, but also it can also record the number of lipsticks I used.
@@ -129,9 +130,11 @@ Based on this experiment, I want to design the prototype as a smart make-up mirr
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note your observations**:
+
 Most of the time the face detection works ok. Sometimes the detection for the lipstick usage is good, but it often fails when the lightning is bad or my head is facing toward the left or the right. Meanwhile, the detection can not distinguish between me using the lipsticks or simply raise my hand around the mouth, especially when the lipstick is covered by my hand.
 
 **Think about someone using the system. Describe how you think this will work.**
+
 User will be aware of the miss classfication of different movement during the makeup process. However, they won't be severely impact. The miss classification is mainly because the training dataset is relatively small. The sense-making algorithm should be more accurate if the training dataset include more photos of different hand postures holding a lipstick.
 
 ### Part D
