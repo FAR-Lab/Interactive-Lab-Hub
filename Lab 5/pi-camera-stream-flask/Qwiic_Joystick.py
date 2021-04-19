@@ -7,11 +7,6 @@ def main():
     n, m = 12, 0
     while True:
         direction = qwiicjoystick()
-        if direction == "LEFT":
-            n += 1
-        if direction == "RIGHT":
-            m += 1
-        print(n, m)
 
 def qwiicjoystick():
     global bus_data, X, Y, n, m
