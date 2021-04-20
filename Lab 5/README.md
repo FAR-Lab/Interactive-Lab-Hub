@@ -188,7 +188,6 @@ In the context of the beer pong game, the player could be negatively impacted by
 In the context of the soccer game being played, there would be a negative impact when the device mistakenly detects another object, leading to a false goal being given. There could also be an error when the system does not detect the object at all. If it were in the context of a major sport champinionship event like the World Cup, this error could lead to great consequences. 
 
 **3. How could you change your interactive system to address this?** </br>
-
 The interactive system could be changed to incorporate a more specific object classification rather than be a general object detection system. By specifying what type of objects (in this case, ping ball balls) the model is detecting, the model would be much better at performing its desired effect as a whole. 
 
 **4. Are there optimizations you can try to do on your sense-making algorithm?** </br>
@@ -201,22 +200,25 @@ Now that you have experimented with one or more of  these sense-making systems *
 During the lecture, we mentioned questions to help characterize a material:
 We experimented with the objected detection algorithm.
 * What can you use X for? </br>
-It can be used to detect the presence of an object or multiple objects in a frame. This could serve a variety of use case. For example a security system.
+As mentioned in the earlier parts, the sense making system can be used for detecting ping pong balls in red solo cups in a game of beer pong. It could also be used to detect whether or not a ball has entered into a goal in a sports game like soccer. Since the system can be used to detect the presence of an object or multiple objects in a frame, it could serve a variety of additional use cases like a security system.
 
 * What is a good environment for X? </br>
-A well lit enviorment. Also one where there is a contrast between the background and the object being detected.
+A well lit environment. Also one where there is a contrast between the background and the object being detected.
 
 * What is a bad environment for X? </br>
-A bad enviornemnt would include the opposite of the above - bad lighting, bad contrast. Additonally and enviornment that is clutterred with different moving objects might be too confusing and not allow for interpretable insights.
+A bad environment would include the opposite of the above - bad lighting, bad contrast. Additonally an environment that is clutterred with different moving objects might be too confusing and not allow for interpretable insights.
 
 * When will X break? </br>
-It might break, as stated above, if there are too many objects moving in the frame.
+It might break, as stated above, if there are too many objects moving in the frame. It could also break if the camera capturing the object detection is not fixed in place (eg. when it is handheld). 
 
 * When it breaks how will X break? </br>
+When it breaks, it will break by not detecting any of the desired objects, thus not accomplishing the set task of the system. In the context of the beer pong game, it will break when it does not detect the ping pong ball that has entered into the red solo cup. 
 
 * What are other properties/behaviors of X? </br>
+The ball detection system should also be able to detect when the ping pong ball is in the air and after the ping pong ball has landed into the cup. 
 
 * How does X feel? </br>
+Not completely sure what this question is asking but the ball detection system feels nice. It is a camera mounted on a fixed platform to ensure stability as it detects balls. Users should feel like the system is reliable and an objective indicator of whether or not a ball has been scored in a game. 
 
 **Include a short video demonstrating the answers to these questions.**
 
