@@ -218,7 +218,7 @@ When it breaks, it will break by not detecting any of the desired objects, thus 
 The ball detection system should also be able to detect when the ping pong ball is in the air and after the ping pong ball has landed into the cup. 
 
 * How does X feel? </br>
-Not completely sure what this question is asking but the ball detection system feels nice. It is a camera mounted on a fixed platform to ensure stability as it detects balls. Users should feel like the system is reliable and an objective indicator of whether or not a ball has been scored in a game. 
+Not completely sure what this question is asking but the ball detection system should feel fairly straightforward. It is a camera mounted on a fixed platform to ensure stability as it detects balls. Users are told to land the balls into the cups. Users should feel like the system is reliable and an objective indicator of whether or not a ball has been scored in a game. 
 
 **Include a short video demonstrating the answers to these questions.**
 
