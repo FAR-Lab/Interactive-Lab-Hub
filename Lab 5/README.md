@@ -138,6 +138,8 @@ I decided to use the object-detection model for detecting cars. In designing bri
 
 The interaction should detect and tell the user the number of cars there are on the screen, what is the confidence of prediction and maybe even detect some other things like traffic lights.
 
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/sketch.png)
+
 ### Part C
 ### Test the interaction prototype
 
@@ -161,6 +163,8 @@ For example:
    I could include other things that the system don't currently account for. For example, the system can maybe detect common species of bird, detect a car crash and detect ships.
 7. Are there optimizations you can try to do on your sense-making algorithm.
    I am sure that improvements on the algorithm can be made and the program can be made to run faster. But at this moment I am not sure it can be done.
+
+![alt text](https://github.com/williamzhang012998/Interactive-Lab-Hub/blob/Spring2021/Lab%205/traffic.png)
 
 ### Part D
 ### Characterize your own Observant system
