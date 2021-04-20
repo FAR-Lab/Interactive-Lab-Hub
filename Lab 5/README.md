@@ -127,17 +127,34 @@ We used the object detection model. We first tested the object detection model o
 We then tested out the model on a stock image of the Apple Health app: 
 ![](imagedetection.png)
 
-We created a device to detect whether or not a ball completley crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completely entered the frame. The device seemed to do this effectivley. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
+For our object detection experiment, we thought it would be a fun to see if it could be applied in a party game like beer pong (water pong for the purposes of this experiment). Since it is usually a point of contention among partygoers of whether or not the ping pong ball has actually landed into the red solo cup, we wanted to eliminate all debates of beer pong fairness and create an object detection system that can detect whether or not the ping pong has indeed landed into the red solo cup. 
+
+Below is the apparatus of the three red solo cups we will be using in our experimentation: 
+![](redcups.png)
+
+Below is the apparatus of the three red solo cups with the two differently colored ping pong balls we will be testing if the model detects. 
+![](redcupswballs.png)
+
+In our experiment, we will be bouncing the two differently shaded ping pong balls into the red solo cups filled with water (one that is orange and one that is white). The goal is to have the object detection model detect both of the ping pong balls thrown into the cups. We will see whether or not the balls are detected when it is in the air, when it has landed into the cup, and after it has landed in the cup after a few seconds. We will also see how the object detection model reacts when the ping pong balls are thrown at different speeds and backgrounds. 
 
 ### Part C
 ### Test the interaction prototype
 Now flight test your interactive prototype and **note your observations**:
+
+[Here is a video testing out the interaction](https://drive.google.com/file/d/1947zpF992Qu8PfrY8AMpiZ0kKdCEJDfz/view?usp=sharing)
+[Here is a video testing out the interaction (Attempt 2)] (https://drive.google.com/file/d/1R6-es-YyW_FgjdKsFkKlekFKr9ia0Drt/view?usp=sharing)
+[Here is a video testing out the interaction with a different background with the camera fixed in place] (https://drive.google.com/file/d/1ELxcZHWK4ICmsvwLeMCQQ-ruYeDqn0wG/view?usp=sharing)
+[Here is a video testing out a new interaction since our previous attempts failed](https://drive.google.com/file/d/1oj4tROrg_KRTd9geLWc-R2xYPnzvEyME/view?usp=sharing)
+
+**Description of the pivoted second interaction when the first one didn't work as well**
+For our second object detection experiment, we created a device to detect whether or not a ball completely crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completely entered the frame. The device seemed to do this effectively. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
+
 For example: </br>
 **1. When does it do what it is supposed to do?** </br>
-The device does what its supposed to do when it detects the ball rolling in the frame
+The object detection device is supposed to detect the ping pong ball when it enters into one of the three red solo cups in the frame. There should be a clear red square around the ball when it enters into the frame. For the second object detection interaction, the device is supposed to detect the ping pong ball as it rolls in and out of the frame. 
 
 **2. When does it fail?** </br>
-It fails if it does not detect the ball rolling in the frame
+The object detection device is supposed to fail when it does not detect the ping pong ball entering into one of the red solo cups in the frame. 
 
 **3. When it fails, why does it fail?** </br>
 It fails becasue the ball is rolling too fast, becasue of the presence of shadows, and when there is poor lighting
@@ -157,6 +174,7 @@ They would be negatively impacted in context of the game(soccer) being played. T
 
 **4. Are there optimizations you can try to do on your sense-making algorithm?** </br>
 The object detection algorithm could be changed to also classify objects. This would allow the device to distinguish between a ball and a player (or any other object) in the frame. Thus negating a potential failing of the device.
+
 
 ### Part D
 ### Characterize your own Observant system
