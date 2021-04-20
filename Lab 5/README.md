@@ -141,10 +141,13 @@ In our experiment, we will be bouncing the two differently shaded ping pong ball
 ### Test the interaction prototype
 Now flight test your interactive prototype and **note your observations**:
 
-[Here is a video testing out the interaction](https://drive.google.com/file/d/1947zpF992Qu8PfrY8AMpiZ0kKdCEJDfz/view?usp=sharing)
-[Here is a video testing out the interaction (Attempt 2)] (https://drive.google.com/file/d/1R6-es-YyW_FgjdKsFkKlekFKr9ia0Drt/view?usp=sharing)
-[Here is a video testing out the interaction with a different background with the camera fixed in place] (https://drive.google.com/file/d/1ELxcZHWK4ICmsvwLeMCQQ-ruYeDqn0wG/view?usp=sharing)
-[Here is a video testing out a new interaction since our previous attempts failed](https://drive.google.com/file/d/1oj4tROrg_KRTd9geLWc-R2xYPnzvEyME/view?usp=sharing)
+[Here is a video testing out the interaction](https://drive.google.com/file/d/1947zpF992Qu8PfrY8AMpiZ0kKdCEJDfz/view?usp=sharing) </br>
+
+[Here is a video testing out the interaction Attempt 2] (https://drive.google.com/file/d/1R6-es-YyW_FgjdKsFkKlekFKr9ia0Drt/view?usp=sharing) </br>
+
+[Here is a video testing out the interaction with a different background with the camera fixed in place] (https://drive.google.com/file/d/1ELxcZHWK4ICmsvwLeMCQQ-ruYeDqn0wG/view?usp=sharing) </br>
+
+[Here is a video testing out a new interaction since our previous attempts failed](https://drive.google.com/file/d/1oj4tROrg_KRTd9geLWc-R2xYPnzvEyME/view?usp=sharing) </br>
 
 **Description of the pivoted second interaction when the first one didn't work as well**
 For our second object detection experiment, we created a device to detect whether or not a ball completely crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completely entered the frame. The device seemed to do this effectively. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
