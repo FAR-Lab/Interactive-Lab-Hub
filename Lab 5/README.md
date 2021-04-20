@@ -157,15 +157,23 @@ The object detection algorithm could be changed to also classify objects. This w
 Now that you have experimented with one or more of  these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 We experimented with the objected detection algorithm.
-* What can you use X for?
+* What can you use X for? </br>
 It can be used to detect the presence of an object or multiple objects in a frame. This could serve a variety of use case. For example a security system.
 
-* What is a good environment for X? A well lit enviorment. Also one where there is a contrast between the background and the object being detected.
-* What is a bad environment for X? A bad enviornemnt would include the opposite of the above - bad lighting, bad contrast. Additonally and enviornment that is clutterred with different moving objects might be too confusing and not allow for interpretable insights.
-* When will X break? It might break, as stated above, if there are too many objects moving in the frame.
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What is a good environment for X? </br>
+A well lit enviorment. Also one where there is a contrast between the background and the object being detected.
+
+* What is a bad environment for X? </br>
+A bad enviornemnt would include the opposite of the above - bad lighting, bad contrast. Additonally and enviornment that is clutterred with different moving objects might be too confusing and not allow for interpretable insights.
+
+* When will X break? </br>
+It might break, as stated above, if there are too many objects moving in the frame.
+
+* When it breaks how will X break? </br>
+
+* What are other properties/behaviors of X? </br>
+
+* How does X feel? </br>
 
 **Include a short video demonstrating the answers to these questions.**
 
