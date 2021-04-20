@@ -121,7 +121,13 @@ Try out different interactions outputs and inputs.
 
 **Describe and detail the interaction, as well as your experimentation.**
 
-We used the object detection model. We created a device to detect whether or not a ball completley crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completley entered the frame. The device seemed to do this effectivley. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
+We used the object detection model. We first tested the object detection model on the image of david as seen below:
+![](david.png)
+
+We then tested out the model on a stock image of the Apple Health app: 
+![](imagedetection.png)
+
+We created a device to detect whether or not a ball completley crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completely entered the frame. The device seemed to do this effectivley. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
 
 ### Part C
 ### Test the interaction prototype
