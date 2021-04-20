@@ -149,7 +149,7 @@ Now flight test your interactive prototype and **note your observations**:
 
 [Here is a video testing out a new interaction since our previous attempts failed](https://drive.google.com/file/d/1oj4tROrg_KRTd9geLWc-R2xYPnzvEyME/view?usp=sharing) </br>
 
-**Description of the pivoted second interaction when the first one didn't work as well**
+**Description of the pivoted second interaction when the first one didn't work as well:**
 For our second object detection experiment, we created a device to detect whether or not a ball completely crosses the goal line in soccer. We used a ping pong ball as a proxy for a football while experimenting. One edge of the frame of the camera was assumed to be exactly at the goal line. So if a ball only comes half way into the frame we would hope it would not be detected. We only wanted the ball to be detected once it completely entered the frame. The device seemed to do this effectively. We also experimented with rolling the ping pong balls at different speeds, which the model handled well and detected the ball every time.
 
 For example: </br>
@@ -157,23 +157,39 @@ For example: </br>
 The object detection device is supposed to detect the ping pong ball when it enters into one of the three red solo cups in the frame. There should be a clear red square around the ball when it enters into the frame. For the second object detection interaction, the device is supposed to detect the ping pong ball as it rolls in and out of the frame. 
 
 **2. When does it fail?** </br>
-The object detection device is supposed to fail when it does not detect the ping pong ball entering into one of the red solo cups in the frame. 
+The object detection device is supposed to fail when it does not detect the ping pong ball entering into one of the red solo cups in the frame or when the ping pong ball is not detected at all as it enters into the frame in the second interaction. 
 
 **3. When it fails, why does it fail?** </br>
-It fails becasue the ball is rolling too fast, becasue of the presence of shadows, and when there is poor lighting
+For the first interaction, the device failed when it did not detect any of the balls that entered into the frame. While the device detected the red solo cups and all the other surrounding objects in the frame, it did not detect the ping pong ball as it entered into the cup:
+![](pingpongballdetect.png)
+
+Even when we tried to place the cups onto a different background and keep the camera fixed to ensure less movement, the object detection system was not able to detect the ping pong ball. 
+![](ballnodetectdiffback.png)
+
+The device fails because there was too much motion when the camera is filming the frame. It also fails when the ball enters into the frame too fast, which does not give the system enough of a reaction time to quickly detect the moving object. The device could also fail when there is poor lighting or the presence of shadows in the environment. It could also fail when there isn't enough of a stark color contrast between the balls, cups, and surroudning environment, indicating that all of the colors and objects have camouflaged into one. 
+
+After our system failed in both of our attempts, we wanted to see if the system could detect the ping pong ball at all, without the presence of the red solo cups: 
+![](balldetectonown.png)
+
+Once we found that the red solo cups were causing the system to not detect the balls, we decided to try out a new experiment where the ping pong ball represents a ball coming into the goal in a soccer game. Here is an image of the ball moving in the frame in action:
+![](orangeballmoving.png)
 
 **4. Based on the behavior you have seen, what other scenarios could cause problems?** </br>
-The presence of other objects or a player in the frame might lead to the device not detecting the ball.
+As mentioned above, motion, lighting, presence of shadows, objects, or players in the frame could all lead to the device not detecting the ball. 
 
 **Think about someone using the system. Describe how you think this will work.**
 
 **1. Are they aware of the uncertainties in the system?** </br>
-They would not be aware of the unertanities unless they were informed of them.
+They would not be aware of the unertanities unless they were informed of them before hand. They would just go about performing the activity normally if the system hadn't existed in the first place. 
 
 **2. How bad would they be impacted by a miss classification?** </br>
-They would be negatively impacted in context of the game(soccer) being played. The device mistakenly detecting another object may lead to false goal being given, whearas it not detecting the ball may result in a goal not being given.
+In the context of the beer pong game, the player could be negatively impacted by a miss classification when the ball is not detected but has actually landed into a red cup. When this happens, the player would not receive a point in the game they have rightfully earned. This could lead to severe discontent by the player. 
 
-**3. How could change your interactive system to address this?** </br>
+In the context of the soccer game being played, there would be a negative impact when the device mistakenly detects another object, leading to a false goal being given. There could also be an error when the system does not detect the object at all. If it were in the context of a major sport champinionship event like the World Cup, this error could lead to great consequences. 
+
+**3. How could you change your interactive system to address this?** </br>
+
+The interactive system could be changed to incorporate a more specific object classification rather than be a general object detection system. By specifying what type of objects (in this case, ping ball balls) the model is detecting, the model would be much better at performing its desired effect as a whole. 
 
 **4. Are there optimizations you can try to do on your sense-making algorithm?** </br>
 The object detection algorithm could be changed to also classify objects. This would allow the device to distinguish between a ball and a player (or any other object) in the frame. Thus negating a potential failing of the device.
