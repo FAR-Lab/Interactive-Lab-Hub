@@ -134,21 +134,33 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+I decided to use the object-detection model for detecting cars. In designing bridges, many times you have to know how many cars cross the bridge everyday. Because I don't live next to a busy bridge, I have decided to create an interaction where I can count the number of cars that are on a bridge at a certain time from a recorded video.
+
+The interaction should detect and tell the user the number of cars there are on the screen, what is the confidence of prediction and maybe even detect some other things like traffic lights.
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+   The intercation does what it is supposed to do under normal conditions where the video is clear and the visibility is good.
+3. When does it fail?
+   The interaction fails when the visibility is not good or when something that the system is not designed to count comes into the frame (for example a large number of birds).
+5. When it fails, why does it fail?
+   It fails because the models fail to account for certain objects and organisms.
+7. Based on the behavior you have seen, what other scenarios could cause problems?
+   There could potentially be a problem if there is a car crash. This is because a lot of times, in car crashes, the cars overlap and it could be hard for the system to differentiate the different cars.
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+   Yes, they should be away of the uncertainties as the confidence of prediction is displayed next to each prediction on screen. 
+3. How bad would they be impacted by a miss classification?
+   I would not say that the user will be impacted greatly by a miss classification as counting cars on a bridge to determine bridge use rate is normally not a life or death matter.
+5. How could change your interactive system to address this?
+   I could include other things that the system don't currently account for. For example, the system can maybe detect common species of bird, detect a car crash and detect ships.
+7. Are there optimizations you can try to do on your sense-making algorithm.
+   I am sure that improvements on the algorithm can be made and the program can be made to run faster. But at this moment I am not sure it can be done.
 
 ### Part D
 ### Characterize your own Observant system
@@ -156,11 +168,22 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+  The system can be used for calculating the use rate of a bridge or tracking the use rate of a parking lot.
 * What is a good environment for X?
+  Bridges, parking lots, environments where the visibility is good and there are not a lot of other object other than cars.
 * What is a bad environment for X?
+  Any environment where there are many other objects other than cars.
 * When will X break?
+  When objects or cars are too close to each other. The system then won't be able to differentiate different cars from each other.
 * When it breaks how will X break?
+  When it breaks, the number of cars that the system counts will be incorrect.
 * What are other properties/behaviors of X?
+  There are not a lot of other properties of the system.
 * How does X feel?
+  The system feels pretty efficient to use.
 
 **Include a short video demonstrating the answers to these questions.**
+
+You Only Look Once (YOLO) is a CNN architecture for performing real-time object detection. The algorithm applies a single neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region. This lab aims to count every vehicle, which includes, motorcycle, bus, car, cycle, truck, train) detected in the input video using YOLOv3 object-detection algorithm.
+
+https://drive.google.com/file/d/1kp1nEAqXW8izBuanlSBdvXsNP_dz7OiM/view?usp=sharing
