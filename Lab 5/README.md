@@ -190,4 +190,4 @@ During the lecture, we mentioned questions to help characterize a material:
 
 You Only Look Once (YOLO) is a CNN architecture for performing real-time object detection. The algorithm applies a single neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region. This lab aims to count every vehicle, which includes, motorcycle, bus, car, cycle, truck, train) detected in the input video using YOLOv3 object-detection algorithm.
 
-https://drive.google.com/file/d/1kp1nEAqXW8izBuanlSBdvXsNP_dz7OiM/view?usp=sharing
+https://drive.google.com/file/d/1nb58KrZoGBwwc0v-HN0SxOR7B79ybgKS/view?usp=sharing
