@@ -1,4 +1,4 @@
-#I am having a strong side effect from covid vaccine 2nd dose. I will update my project after recovering :)
+# I am having a strong side effect from covid vaccine 2nd dose. I will update my project after recovering :)
 
 # Observant Systems
 
