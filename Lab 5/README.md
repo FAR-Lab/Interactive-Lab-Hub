@@ -143,9 +143,9 @@ Now flight test your interactive prototype and **note your observations**:
 
 [Here is a video testing out the interaction](https://drive.google.com/file/d/1947zpF992Qu8PfrY8AMpiZ0kKdCEJDfz/view?usp=sharing) </br>
 
-[Here is a video testing out the interaction Attempt 2] (https://drive.google.com/file/d/1R6-es-YyW_FgjdKsFkKlekFKr9ia0Drt/view?usp=sharing) </br>
+[Here is a video testing out the interaction Attempt 2](https://drive.google.com/file/d/1R6-es-YyW_FgjdKsFkKlekFKr9ia0Drt/view?usp=sharing) </br>
 
-[Here is a video testing out the interaction with a different background with the camera fixed in place] (https://drive.google.com/file/d/1ELxcZHWK4ICmsvwLeMCQQ-ruYeDqn0wG/view?usp=sharing) </br>
+[Here is a video testing out the interaction with a different background with the camera fixed in place](https://drive.google.com/file/d/1ELxcZHWK4ICmsvwLeMCQQ-ruYeDqn0wG/view?usp=sharing)
 
 [Here is a video testing out a new interaction since our previous attempts failed](https://drive.google.com/file/d/1oj4tROrg_KRTd9geLWc-R2xYPnzvEyME/view?usp=sharing) </br>
 
