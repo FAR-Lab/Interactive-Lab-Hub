@@ -47,7 +47,7 @@ Once connected you should be able to see all the messaged on the IDD topic. From
 
 
 
-To run these examples make sure to install the packages from `requirements.txt`
+To run these examples make sure to install the packages from `requirements.txt`, ideally in a python environment. We've been using the circuitpython environment we setup earlier this semester
 
 
 ## The One True ColorNet
