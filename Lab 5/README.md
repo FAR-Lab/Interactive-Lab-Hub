@@ -22,12 +22,62 @@
 ### Part A
 ### Play with different sense-making algorithms.
 
+Befor you get started connect the RaspberryPi Camera V2. [The Pi hut has a great explanation on how to do that](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).  
+
 #### OpenCV
+
+A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
+
+Additionally, we also included 4 standard OpenCV examples. These examples include contour(blob) detection, face detection with the ``Haarcascade``, flow detection(a type of keypoint tracking), and standard object detection with the [Yolo](https://pjreddie.com/darknet/yolo/) darknet.
+
+Most examples can be run with a screen (I.e. VNC or ssh -X or with an HDMI monitor), or with just the terminal. The examples are separated out into different folders. Each folder contains a ```HowToUse.md``` file, which explains how to run the python example.
+
+```shell
+pi@ixe00:~/openCV-examples $ tree -l
+.
+├── contours-detection
+│   ├── contours.py
+│   └── HowToUse.md
+├── data
+│   ├── slow_traffic_small.mp4
+│   └── test.jpg
+├── face-detection
+│   ├── face-detection.py
+│   ├── faces_detected.jpg
+│   ├── haarcascade_eye_tree_eyeglasses.xml
+│   ├── haarcascade_eye.xml
+│   ├── haarcascade_frontalface_alt.xml
+│   ├── haarcascade_frontalface_default.xml
+│   └── HowToUse.md
+├── flow-detection
+│   ├── flow.png
+│   ├── HowToUse.md
+│   └── optical_flow.py
+└── object-detection
+    ├── detected_out.jpg
+    ├── detect.py
+    ├── frozen_inference_graph.pb
+    ├── HowToUse.md
+    └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
+```
+#### Filtering, FFTs, and Time Series data. (beta, optional)
+Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
+
+Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
 
 #### Filtering, FFTs, and Time Series data.
 
 #### Teachable Machines (beta, optional)
 
+=======
+Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teachable Machines:
+
+1. [Setup](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/raspberry-pi-setup)
+2. Install Tensorflow: Like [this](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/tensorflow-lite-2-setup), but use this [pre-built binary](https://github.com/bitsy-ai/tensorflow-arm-bin/) [the file](https://github.com/bitsy-ai/tensorflow-arm-bin/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl) for Tensorflow, it will speed things up a lot.
+3. [Collect data and train models using the PiCam](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/training)
+4. [Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
+
+Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
 #### PyTorch  
 
@@ -73,3 +123,10 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **Include a short video demonstrating the answers to these questions.**
+
+### Part 2.
+
+Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+**Include a short video demonstrating the finished result.**
+
