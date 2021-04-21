@@ -33,7 +33,7 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 
 
 
-![input settings](/Users/ilanmandel/Documents/IDD/Interactive-Lab-Hub/Lab 6/imgs/mqtt_explorer.png)
+![input settings](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/mqtt_explorer.png?raw=true)
 
 
 
