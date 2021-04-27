@@ -128,11 +128,29 @@ Here is an example:
 
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
+### PUPPY FACETIME!
+ 
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
+
+![Sketch](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/lab4%20sketch.JPG)
+
+I am creating a Puppy Facetime device. In March 2020 in the beginning of quarantine, my family got a puppy, but when I moved back to NYC, I missed the dog a lot. I keep FaceTiming my parents so they can reverse the video and I can see my dog. But my parents unfortuntely use the call to also ask me stressful questions like have I done my taxes and when am I getting married, so I really would like to bypass my interactions with them and just FaceTime my dog. This is the premise of my device.
+
 
 **b. Make a video of your paper display in action.**
 
+https://drive.google.com/file/d/1QHJ1OHEARKRvwhOtOZc4iHF4SuIwFx2R/view?usp=sharing
+
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The design of my Puppy Facetime device is modeled after a popular device for dogs called Furbo, which is a device where the owner remotely throws out treats and then the dog can come collect it. The Furbo is a cylinder device that you could put on a table or shelf, and durable so that it won't break if a dog knocks it over. I have followed a similar design. I also have a short cylinder design, with a camera on the front so you can see the dog, and a screen so the dog can see you. There is a button coming out from the side that your dog presses once he/she hears a ringing sound. Once that button is pressed, the camera turns on. From a prototype standpoint, I tried to keep the design sleek and simple with a light pink pastel color, and hide the wires and presence of the pi as much as I could. 
+
+Here are some more pictures of the device:
+
+![Inside the Device](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/inside%20the%20device.JPG)
+![The Device](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/device.JPG)
+![Behind the Device](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%204/behind%20the%20device.JPG)
+
 
 ### Part D
 ### Materiality
@@ -143,7 +161,7 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
-**b. explain the selection.**
+In order to achieve the cylinder shape, I used a candle and wrapped light pink wrapping paper around it. I cut out shapes for the camera lens, and cut a window so I could stick my pi inside. I also had to increase the height of the cylinder and add a lid to hide the pi and wires. For the button, I covered a bottle cap with the same wrapping paper, and used the capacity sensors so that when the button was touched, it alerted the pi.
 
 ### Part 2.
 
@@ -157,4 +175,7 @@ Reiterating:
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
+
+**b. explain the selection.**
+I probably could have used something more sturdy like cardstock to emulate the durability of the device, but the wrapping paper + candle worked well. Paper is not waterproof though, so that was a limitation.
 

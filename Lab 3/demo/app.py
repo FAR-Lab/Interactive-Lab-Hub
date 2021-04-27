@@ -41,8 +41,6 @@ def handle_message(val):
     # print(mpu.acceleration)
     emit('pong-gps', mpu.acceleration) 
 
-
-
 @app.route('/')
 def index():
     return render_template('index.html', hostname=hostname)

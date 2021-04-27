@@ -127,9 +127,9 @@ Try out different interactions outputs and inputs.
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+3. When does it fail?
+4. When it fails, why does it fail?
+5. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
@@ -139,6 +139,8 @@ For example:
 
 ### Part D
 ### Characterize your own Observant system
+
+The device is supposed to sit at the top of your front door before you walk out of your apartment. It checks the weather for rain, and then as you leave it uses CV to see if you are wearing a raincoat. If you are not wearing a raincoat, it alerts you saying "It's raining outside, you are not wearing a raincoat". And if you are wearing a raincoat, it is happy. 
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
@@ -152,9 +154,18 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **Include a short video demonstrating the answers to these questions.**
 
+https://drive.google.com/file/d/1nyU0JgauauaJrPVqDFTJSYuFp3p36ajM/view?usp=sharing
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+
+This program was unfortunately very slow and lagged a lot, so its not the best demonstration video like David's was of the boat. It only registers my video with a significant lag. I trained the model to recognize raincoat or no raincoat. In future projects, I can include sounds, other outfits and accessories like an umbrella or warm/cold weather clothes.
+
+https://drive.google.com/file/d/1dU7y8yD9Esy9tpXtzNtarxSw0eSmf4gA/view?usp=sharing
+
+
+
 
