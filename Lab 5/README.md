@@ -219,10 +219,22 @@ The ball detection system should also be able to detect when the ping pong ball 
 
 * How does X feel? </br>
 Not completely sure what this question is asking but the ball detection system should feel fairly straightforward. It is a camera mounted on a fixed platform to ensure stability as it detects balls. Users are told to land the balls into the cups. Users should feel like the system is reliable and an objective indicator of whether or not a ball has been scored in a game. 
-
 **Include a short video demonstrating the answers to these questions.**
 
 ### Part 2.
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+For Part 2 of the lab, we wanted to refine our observant system so that it would be better at detecting the ping pong balls during the game of beer pong since our first few attempts using the object detection didn't work as well in Part 1. As a recap, in Part 1 of the lab, when using the object detection system (videos above), the model detected too many different items in the frame and/or didn't detect the ping pong balls at all when it was thrown into the red solo cup. We wanted to refine our code so that our observant system could be more precise and have better performance. 
+
 **Include a short video demonstrating the finished result.**
+
+[Here is a video of the observant system detecting the ping pong balls in the cup](https://drive.google.com/file/d/1vLRKCyX9XOmoSvGJaoniovgVnQyuYS6j/view?usp=sharing) </br>
+
+As you can see in the video above, the system is much better at detecting the ping pong ball compared to the previous attempts highlighted above. Whenever the ping pong ball enters into the frame, a blue square will automatically center around it. Although at times the system misclassified my hand as the ping pong ball, overall, the precision of the model is much better. 
+
+[Here is a video showing what happens when other random objects are placed into the cup](https://drive.google.com/file/d/1jDNf8U0esyZujxK62XRFKO-HXL0RXsfx/view?usp=sharing) </br>
+
+In the video above, a series of random objects (ginger, edamame beans, crackers, tomato etc.) were thrown into the mix alongside the ping pong ball to see how good the system is at detecting the ping pong ball when other objects of similar sizes and shape are also thrown in. The only random object the system mistook for a ping pong ball was the ginger that was a similar round shape, size, and color (darker brown compared to the orange ping pong ball). Overall, the system did a good job at solely detecting the ping pong ball and not detecting the other items. 
+
+--
+I worked with Ahaan Parekh on this lab. 
