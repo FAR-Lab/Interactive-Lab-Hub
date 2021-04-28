@@ -8,6 +8,8 @@ Functional check-off - May 10
  
 Final Project Presentations (video watch party) - May 12
 
+Final Project Documentation due - May 19
+
 
 
 ## Objective
