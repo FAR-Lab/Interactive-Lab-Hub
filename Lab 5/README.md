@@ -230,11 +230,15 @@ For Part 2 of the lab, we wanted to refine our observant system so that it would
 
 [Here is a video of the observant system detecting the ping pong balls in the cup](https://drive.google.com/file/d/1vLRKCyX9XOmoSvGJaoniovgVnQyuYS6j/view?usp=sharing) </br>
 
-As you can see in the video above, the system is much better at detecting the ping pong ball compared to the previous attempts highlighted above. Whenever the ping pong ball enters into the frame, a blue square will automatically center around it. Although at times the system misclassified my hand as the ping pong ball, overall, the precision of the model is much better. 
+![](pingpongdetection2.png)
+
+As you can see in the photo and video above, the system is much better at detecting the ping pong ball compared to the previous attempts highlighted above. Whenever the ping pong ball enters into the frame, a blue square will automatically center around it. Although at times the system misclassified my hand as the ping pong ball, overall, the precision of the model is much better. 
 
 [Here is a video showing what happens when other random objects are placed into the cup](https://drive.google.com/file/d/1jDNf8U0esyZujxK62XRFKO-HXL0RXsfx/view?usp=sharing) </br>
 
-In the video above, a series of random objects (ginger, edamame beans, crackers, tomato etc.) were thrown into the mix alongside the ping pong ball to see how good the system is at detecting the ping pong ball when other objects of similar sizes and shape are also thrown in. The only random object the system mistook for a ping pong ball was the ginger that was a similar round shape, size, and color (darker brown compared to the orange ping pong ball). Overall, the system did a good job at solely detecting the ping pong ball and not detecting the other items. 
+![](randomdetection2.png)
+
+In the photo and video above, a series of random objects (ginger, edamame beans, crackers, tomato etc.) were thrown into the mix alongside the ping pong ball to see how good the system is at detecting the ping pong ball when other objects of similar sizes and shape are also thrown in. The only random object the system mistook for a ping pong ball was the ginger that was a similar round shape, size, and color (darker brown compared to the orange ping pong ball). Overall, the system did a good job at solely detecting the ping pong ball and not detecting the other items. 
 
 --
 I worked with Ahaan Parekh on this lab. 
