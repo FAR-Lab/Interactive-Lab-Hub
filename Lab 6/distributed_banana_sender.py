@@ -24,17 +24,9 @@ mpr121 = adafruit_mpr121.MPR121(i2c)
 while True:
     myJoystick = qwiic_joystick.QwiicJoystick()
     myJoystick.begin()
-    #amount = myTwist.count*10
+    amount = myTwist.count*10
     if myJoystick.get_vertical() <= 205:
-        val = f"mixing"
+        val = f"mixing!"
         print(val, amount)
         client.publish(topic, val)
-    #if amount < 350:
-    #    val = f"Oven not set. Set oven to 350 to continue."
-    #    print(val, amount)
-    #    client.publish(topic, val)
-    #if amount >= 350:
-    #    val = f"Oven set!"
-    #    print(val, amount)
-    #    client.publish(topic, val)
     time.sleep(0.25)
