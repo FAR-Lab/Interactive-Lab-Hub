@@ -95,6 +95,7 @@ We chose to design a distributed system for baking a cake (because you can't go 
 Why would anyone want this? Why does anyone want anything?? Life is about making things more complicated than they need to be in the pursuit of deeper meaning.
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+[Cake Diagram!](https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%206/imgs/Cake%20Diagram.jpg)
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 We used tools that simulate what you would be doing when baking. The egg is cracked using a button, the batter is mixed using the joystick, and the oven is turned on using the twist stick, to simulate an oven dial. Therefore I think most people would know how to interact with it. The directions tell you whose step is up.
