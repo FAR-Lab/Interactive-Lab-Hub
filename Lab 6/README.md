@@ -83,7 +83,10 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
-I worked with Niki and Rob, who were instrumental in developing the code and final product. We also split the write up. DistributedBanana_Joystick is Niki's Code, oven_set.py is Rob's Code. We also got help from Ilan and David.
+I worked with Niki and Rob, who were instrumental in developing the code and final product. We also split the write up. We also got help from Ilan and David.
+
+Rob's Code: https://github.com/rgentul/Interactive-Lab-Hub/blob/Spring2021/Lab%206/oven_set.py
+Niki's Code: https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%206/distributed_banana_sender_joystick.py
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
