@@ -92,7 +92,7 @@ Niki's Code: https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%2
 
 We chose to design a distributed system for baking a cake (because you can't go wrong with cake). Each of our group members was in charge of a different piece of the cake-making system - cracking eggs, mixing ingredients, and baking the cake. We chose to represent these steps using different components of the pi.
 
-Why would anyone want this? Why does anyone want anything?? Life is about making things more complicated than they need to be in the pursuit of deeper meaning.
+While our design is more of an extreme example, this distributed system could be applied to large line kitchens where chefs need to communicate with each other without actually interacting. Mass production lines in particular would benefit from these systems.
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
