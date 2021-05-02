@@ -83,6 +83,8 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
+I worked with Niki and Rob, who were instrumental in developing the code and final product. We also got help from Ilan and David.
+
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
@@ -91,6 +93,10 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+We used tools that simulate what you would be doing when baking. The egg is cracked using a button, the batter is mixed using the joystick, and the oven is turned on using the twist stick, to simulate an oven dial. Therefore I think most people would know how to interact with it. The directions tell you whose step is up.
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+https://iddlab6-mbas.glitch.me
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
