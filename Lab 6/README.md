@@ -96,6 +96,8 @@ While our design is more of an extreme example, this distributed system could be
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+Each person does their respective job in the baking process, and then that input is transferred over MQTT to a centralized screen, which shows the next person that the step has been completed and that it is their turn to complete their part. Therefore they don't need to communicate or all be in the same place to know when to resume their part of the baking.
+
 <img src="https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/Cake%20Diagram.jpg">
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
