@@ -83,9 +83,13 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
-I worked with Niki and Rob, who were instrumental in developing the code and final product. We also got help from Ilan and David.
+I worked with Niki and Rob, who were instrumental in developing the code and final product. We also split the write up. DistributedBanana_Joystick is Niki's Code, oven_set.py is Rob's Code. We also got help from Ilan and David.
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+
+We chose to design a distributed system for baking a cake (because you can't go wrong with cake). Each of our group members was in charge of a different piece of the cake-making system - cracking eggs, mixing ingredients, and baking the cake. We chose to represent these steps using different components of the pi.
+
+Why would anyone want this? Why does anyone want anything?? Life is about making things more complicated than they need to be in the pursuit of deeper meaning.
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
