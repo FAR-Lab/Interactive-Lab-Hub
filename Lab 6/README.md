@@ -106,4 +106,6 @@ We used tools that simulate what you would be doing when baking. The egg is crac
 
 https://iddlab6-mbas.glitch.me
 
+https://cornell.zoom.us/rec/share/aCI2nLI-J_6404ME5aPzNJV3_117DD6lgdAnxoroOQ8zO75XBEBF5I02L7BHXQK_.MdkeZ86xKVyBp75q
+
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
