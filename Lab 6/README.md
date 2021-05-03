@@ -84,10 +84,23 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+I have made a mini radio across the MQTT. The idea is inspired by David's MQTTRadio example. When someone pressed the button on the pi, MQTT will receive the signal, then get the radio text from the bbc topic on mqtt.eclipseprojects.io. The radio will then be send through the topic and then the reader side can see those. Both sides can also hear the voice of the text if with a speaker.
+
+This mini radio design can be extended to: (1) daily motivational speech (2) play music for another listener.
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+Input: Button pressed by pi. Radio text from the bbc topic.
+Output: Text sent on the topic. Audio output.
+There will be a radio host along with the pi to press the button so the radio can be started. Anyone join the topic can be the listener from anywhere.
+
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Video link: https://drive.google.com/file/d/1AnV2rWstNuup7P79AvIm1b4zE9sLLmPe/view?usp=sharing
+
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
