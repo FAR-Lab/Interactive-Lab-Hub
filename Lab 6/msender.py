@@ -42,14 +42,15 @@ while True:
 	topic = f"IDD/mmmradio"
 	if not qwiicjoystick():
 		print("Button Pressed.")
+		time.sleep(.05)
 		radio_flag ^= 1
-		if radio_flag:
-			print("Radio broadcast started.")
+		print("Radio broadcast started.")
 			
 	while radio_flag:
 		for val in radio_list:
 			client.publish(topic, val)
 			if not qwiicjoystick():
+				time.sleep(.05)
 				radio_flag ^= 1
 				print("Radio broadcast ended.")
 				break
