@@ -45,9 +45,10 @@ while True:
 		radio_flag ^= 1
 		if radio_flag:
 			print("Radio broadcast started.")
-		else:
-			print("Radio broadcast ended.")
 			
 	while radio_flag:
 		for val in radio_list:
 			client.publish(topic, val)
+			if not qwiicjoystick():
+				radio_flag ^= 1
+				print("Radio broadcast ended.")
