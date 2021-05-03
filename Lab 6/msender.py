@@ -39,16 +39,16 @@ bus = smbus.SMBus(1)
 addr = 0x20
 radio_flag = 0
 while True:
-  topic = f"IDD/mmmradio"
+	topic = f"IDD/mmmradio"
   
-  if not qwiicjoystick():
-	print("Button Pressed.")
-        radio_flag ^= 1
+  	if not qwiicjoystick():
+		print("Button Pressed.")
+        	radio_flag ^= 1
   
-  while radio_flag:
-	print("Radio broadcast started.")				
-    	for val in radio_list:
-        	client.publish(topic, val)
+  	while radio_flag:
+		print("Radio broadcast started.")				
+    		for val in radio_list:
+        		client.publish(topic, val)
   
   
 
