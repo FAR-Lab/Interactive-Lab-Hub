@@ -1,5 +1,8 @@
 import paho.mqtt.client as mqtt
 import uuid
+import smbus, time
+import sys
+import os
 
 # Every client needs a random ID
 client = mqtt.Client(str(uuid.uuid1()))
@@ -32,16 +35,20 @@ def qwiicjoystick():
 	selected = bus_data[4]
 	return selected
 
+bus = smbus.SMBus(1)
+addr = 0x20
 radio_flag = 0
 while True:
   topic = f"IDD/mmmradio"
   
   if not qwiicjoystick():
+	print("Button Pressed.")
         radio_flag ^= 1
   
   while radio_flag:
-    for val in radio_list:
-        client.publish(topic, val)
+	print("Radio broadcast started.")				
+    	for val in radio_list:
+        	client.publish(topic, val)
   
   
 
