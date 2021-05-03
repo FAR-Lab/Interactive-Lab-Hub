@@ -21,9 +21,26 @@ systemic option for me. Follow the  money. Yeah, exactly."""
 
 radio_list = radio_text.split()
 
+def qwiicjoystick():
+	global bus_data,X,Y,mode
+	try:
+		bus_data = bus.read_i2c_block_data(addr, 0x03, 5)
+	except Exception as e:
+		print(e)
+	X = (bus_data[0]<<8 | bus_data[1])>>6
+	Y = (bus_data[2]<<8 | bus_data[3])>>6
+	selected = bus_data[4]
+	return selected
+
+radio_flag = 0
 while True:
   topic = f"IDD/mmmradio"
-  for val in radio_list:
+  
+  if not qwiicjoystick():
+        radio_flag ^= 1
+  
+  while radio_flag:
+    for val in radio_list:
         client.publish(topic, val)
   
   
