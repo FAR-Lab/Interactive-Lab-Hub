@@ -49,7 +49,7 @@ while True:
 	while radio_flag:
 		for val in radio_list:
 			client.publish(topic, val)
-			if qwiicjoystick():
+			if not qwiicjoystick():
 				radio_flag ^= 1
 				print("Radio broadcast ended.")
 				break
