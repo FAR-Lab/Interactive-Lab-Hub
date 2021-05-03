@@ -23,7 +23,8 @@ radio_list = radio_text.split()
 
 while True:
   topic = f"IDD/mmmradio"
-  print(radio_list)
+  for val in radio_list:
+        client.publish(topic, val)
   
   
 
