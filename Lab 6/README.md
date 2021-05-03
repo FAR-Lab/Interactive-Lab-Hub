@@ -103,7 +103,7 @@ There will be a radio host along with the pi to press the button so the radio ca
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-Video link: https://drive.google.com/file/d/1AnV2rWstNuup7P79AvIm1b4zE9sLLmPe/view?usp=sharing
+Video link: https://drive.google.com/file/d/1Gb516ISvlM086XO41efb5Sxr32dpnhJY/view?usp=sharing
 
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
