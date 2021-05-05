@@ -96,7 +96,7 @@ There are several features not fully implemented in the following storyboard, su
 Below are our brainstorming notes/storyboard: 
 
 ![](brainstorm6.1.png)
-![](Brainstorm6.2.png)
+![](brainstorm6.2.png)
 ![](storyboard6.1.png)
 ![](storyboard6.2.png)
 
