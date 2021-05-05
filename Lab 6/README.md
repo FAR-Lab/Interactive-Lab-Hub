@@ -92,6 +92,9 @@ The device aims to hold project partners accountable when working on a group ass
 The overall goal was to build something that could act as more casual than email but more formal than text; a messaging medium that lies somewhere between these two, like a picture frame that sits on a table and is updated from time to time with some semi-important message. Often times text is too fleeting to let the importance of a message sink in, and email seems to miss a level of freedom and play. So we created a messaging system on RPi + TFT, with MQTT and Mozilla DeepSpeech.
 
 There are several features not fully implemented in the following storyboard, such as score keeping, but the principal idea was helpful for guiding the build of the project and conveying the purpose of the device.
+
+Below are our brainstorming notes/storyboard: 
+
 ![](brainstorm6.1.png)
 ![](Brainstorm6.2.png)
 ![](storyboard6.1.png)
@@ -117,8 +120,11 @@ Vince using the device and recording a message:
 
 Capturing the speech to text stream through Deep Speech required an understanding of how the stream worked, where microphone stream data is treated in time frames. An example script provided by Mozilla was modified and imported in the script that handles mqtt and tft control, and set to run for ~10 seconds.
 There is an un-implemented feature for clearing the DeepSpeech cache -- as it is, the memory cache only allows for 5 speech to text iterations before it cannot write to memory. This limitation is an example of some of the unweildy features of connecting DeepSpeech with MQTT, where we are essentially funneling a large SST task into a MQTT logs that are optimized for quick data tranfer.
+
 There was also a lot of messing with the display text so that it would show as a clean log on the TFT. Adding EB Garamond as a font really helped with legibility and spacing between messages. Also, because showing timestamps for messages seemed like an important feature for the multiple users, and because mqtt does not inherently provide log data, there was the need to manually log time at the mqtt publish stage. This manually logged time then needs to be regex'ed out so that the message is speakable by pyttsx3.
+
 There is an additional incomplete feature of not hardcoding client 1 and 2 and topic 1 and 2, but allowing a user to set these as arguments at command line via parser. e.g. python3.7 tester.py -client Vince -topic Rui; meaning I publish to the topic Vince and subscribe to the topic Rui. This would make it so many people could for example subscribe to a single topic, creating a network of mqtt messaging clients. This was partially implemented but is left incomplete for the purposes of this lab.
+
 One of the most interesting results of this prototype system was finding how much microphone quality impacts transcription. The included mic was almost entirely noise to dspeech, a little bit of tuning may have improved results, but this tuning is not realistic for scaling to many devices and clients, unless the devices are uniform. So for this lab no parameter tuning was done. An earbud microphone worked better than the default rpi mic, picking up longer messages, and a stage microphone worked far better than the rest. The suggests that native audio isolation found in a high quality mic might be key to off-line speech to text.
 
 
