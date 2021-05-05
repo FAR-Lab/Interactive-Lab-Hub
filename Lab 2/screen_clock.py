@@ -1,3 +1,4 @@
+from time import strftime, sleep
 import time
 import subprocess
 import digitalio
@@ -54,18 +55,61 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 13)
 
 # Turn on the backlight
+
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+drunk = 0
 
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    y = top
+    if buttonA.value and buttonB.value:
+        draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
+        backlight.value = True
+        y = top
+        if strftime("%H:%M") == "00:00":
+            drunk = 0
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
+        tim = int(strftime("%H"))
+        tim2 = int(strftime("%M"))
+        tim3 = ((tim*60)+tim2)/1440
+        ww = width * tim3
+        rui_time = strftime("%m/%d/%Y %H:%M:%S")
+        y = top
+        draw.rectangle((0, 0, ww, height), outline=0, fill="#3944BC")
+        draw.text((x+5, y), rui_time, font=font, fill="#FFFFFF")
+        
+        var = int(strftime("%H")) *125
+        text = str(var) + " mL / 3L of water recommended."
+        draw.text((x+5, y), rui_time, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+20), text, font=font, fill="#FFFFFF")
+
+
+        y = top
+        text = "This clock measures time based on"
+        text2 = "mL of water consumed. Starting at"
+        text3 = "midnight, 125mL of water is added"
+        text4 = "every hour."
+
+        draw.text((x+5, y+60), text, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+80), text2, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+100), text3, font=font, fill="#FFFFFF")
+        draw.text((x+5, y+120), text4, font=font, fill="#FFFFFF")
+    if buttonA.value and not buttonB.value:
+        drunk += 125
+    if buttonB.value and not buttonA.value:
+        backlight.value = True
+        draw.rectangle((0, 0, width, height), outline=0, fill="#016064")
+        text = str(drunk) + " mL of water consumed"
+        draw.text((x+25, y+55), text, font=font, fill = "#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)

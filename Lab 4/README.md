@@ -157,4 +157,53 @@ Reiterating:
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
+### "Looks like" prototypes:
+Cardboard depictions of the SimonCowell: 
+![](cardboardprototype.png)
+
+3D depiction of the SimonCowell:
+![](3Ddepiction.png)
+
+Paper Prototype: 
+![](paperprototype.png)
+
+Based on the sketches above, the paper prototype gives a rough 3D depiction of what the SimonCowell device will look like. The design is meant to be simple, easy to interact with and approachable to the contestants. The picture of Simon Cowell is meant to create a more realistic feeling that Simon Cowell is judging the audition and the buttons are meant to be very easy to press and intuitive. The SimonCowell starts from left to right following the natural flow of how people read/interact with devices. (ie. the user first starts interacting with the device from the far left when they press the start button. They then select which audition they will be doing and then receive feedback on the right side of the advice.) 
+
+[Paper Prototype Video](https://drive.google.com/file/d/1GppgcvDufJz9zWRO3WYyjt5ZmKY9nM4L/view?usp=sharing)
+
+Materials needed to build out the cardboard prototype: 
+![](materials.png)
+
+We will also be using the Qwiic Red button to activate the Simon Cowell, the capacitive sensing to indicate whether or not the "Dance" or "Sing" button was pushed, a motion detector (to detect dancing), and a speech detector (to detect singing) connected to the raspberry pi. 
+
+Finished front of the SimonCowell. This is what the user will see when they interact with the device:
+![](simonfront.png)
+
+OLED Screen Closeup:
+![](oledscreen.png)
+
+The SimonCowell side showcasing the wizarding station with the raspberry pi behind the user facing Simon Cowell device:
+![](simonside.png) 
+
+Back of the SimonCowell where the Raspberry Pi connects to the OLED screen:
+![](simonback.png)
+
+### "Works like" prototypes:
+
+[The SimonCowell Explanation Video](https://drive.google.com/file/d/1VCvVHVvhb_TLJOxbO5XKs04smlNRi-fY/view?usp=sharing) </br>
+[The SimonCowell Sensors Explanation Video](https://drive.google.com/file/d/1sptufSYCPjyKvccyeSIingSZ2vECvih9/view?usp=sharing)
+
+
+### "Acts like" prototypes:
+
+This is the initial storyboard of the SimonCowell from Lab 3: 
+![](storyboard1.png)
+
+The new storyboard including the cardboard prototype of the SimonCowell: 
+![](storyboard2.png)
+
+[The SimonCowell Acts Like Video](https://drive.google.com/file/d/1daJwb1hCilOPexMi4upwdnp66liVC3kk/view?usp=sharing)
+
+Acknowledgements: I worked with Ahaan Parekh on this lab.
+
 
