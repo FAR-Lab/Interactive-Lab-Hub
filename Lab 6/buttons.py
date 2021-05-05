@@ -4,19 +4,21 @@ import time
 import board
 import busio
 from subprocess import Popen, call
+import digitalio
+
 
 
 import paho.mqtt.client as mqtt
 import uuid
 
-GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BCM)
-
-buttonPin_R = 18
-buttonPin_G = 23
-
-GPIO.setup(buttonPin_R, GPIO.IN, GPIO.PUD_UP)
-GPIO.setup(buttonPin_G, GPIO.IN, GPIO.PUD_UP)
+# these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 i2c = busio.I2C(board.SCL, board.SDA)
 
@@ -43,7 +45,6 @@ client.tls_set()
 # this is the username and pw we have setup for the class
 client.username_pw_set('idd', 'device@theFarm')
 
-
 client.on_connect = on_connect
 client.on_message = on_message
 
@@ -56,11 +57,11 @@ client.connect(
 
 while True:
         client.loop()
-        if GPIO.input(buttonPin_R) == 1:
+        if buttonA.value:
                 buttonSts = 'Do not touch my food'
                 client.publish(send_topic, buttonSts)
                 # call(f"espeak -s125 '{buttonSts}'", shell=True)
-        if GPIO.input(buttonPin_G) == 1:
+        if buttonB.value:
                 buttonSts = 'Go ahead and enjoy it'
                 client.publish(send_topic, buttonSts)
                 # call(f"espeak -s125 '{buttonSts}'", shell=True)
