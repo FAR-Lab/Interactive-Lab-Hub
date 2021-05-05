@@ -127,5 +127,6 @@ There is an additional incomplete feature of not hardcoding client 1 and 2 and t
 
 One of the most interesting results of this prototype system was finding how much microphone quality impacts transcription. The included mic was almost entirely noise to dspeech, a little bit of tuning may have improved results, but this tuning is not realistic for scaling to many devices and clients, unless the devices are uniform. So for this lab no parameter tuning was done. An earbud microphone worked better than the default rpi mic, picking up longer messages, and a stage microphone worked far better than the rest. The suggests that native audio isolation found in a high quality mic might be key to off-line speech to text.
 
+[Video Link](https://drive.google.com/file/d/1LrZzyW5d5auMs_47vhyaIRIryTkDqJ-P/view?usp=sharing)
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
