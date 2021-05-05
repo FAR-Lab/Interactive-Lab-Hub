@@ -130,3 +130,5 @@ One of the most interesting results of this prototype system was finding how muc
 [Video Link](https://drive.google.com/file/d/1LrZzyW5d5auMs_47vhyaIRIryTkDqJ-P/view?usp=sharing)
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
+
+-- I worked with Vince Bartle on this lab
