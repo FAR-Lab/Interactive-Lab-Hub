@@ -83,7 +83,7 @@ pi@ixe00:~/openCV-examples $ tree -l
     ├── HowToUse.md
     └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 ```
-#### Filtering, FFTs, and Time Series data.
+#### Filtering, FFTs, and Time Series data. (beta, optional)
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
 Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
@@ -188,6 +188,15 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **Include a short video demonstrating the answers to these questions.**
 
+<<<<<<< HEAD
 You Only Look Once (YOLO) is a CNN architecture for performing real-time object detection. The algorithm applies a single neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region. This lab aims to count every vehicle, which includes, motorcycle, bus, car, cycle, truck, train) detected in the input video using YOLOv3 object-detection algorithm.
 
 https://drive.google.com/file/d/1nb58KrZoGBwwc0v-HN0SxOR7B79ybgKS/view?usp=sharing
+=======
+### Part 2.
+
+Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+**Include a short video demonstrating the finished result.**
+
+>>>>>>> b951a10337b029ca5619fd9fd8c73ea644a1bf2e
