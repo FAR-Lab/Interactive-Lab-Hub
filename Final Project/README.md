@@ -2,9 +2,13 @@
 
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
+Project Github page set up - May 3
+
 Functional check-off - May 10
  
 Final Project Presentations (video watch party) - May 12
+
+Final Project Documentation due - May 19
 
 
 
