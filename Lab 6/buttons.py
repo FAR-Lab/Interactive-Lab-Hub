@@ -11,6 +11,10 @@ import digitalio
 import paho.mqtt.client as mqtt
 import uuid
 
+cs_pin = digitalio.DigitalInOut(board.CE0)
+dc_pin = digitalio.DigitalInOut(board.D25)
+reset_pin = None
+
 # these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
