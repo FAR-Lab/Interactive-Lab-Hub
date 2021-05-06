@@ -56,6 +56,7 @@ sensor.enable_color = True
 r, g, b, a = sensor.color_data
 
 topic = 'IDD/colors'
+payloadMessage = "red"
 
 def on_connect(client, userdata, flags, rc):
     print(f"connected with result code {rc}")
@@ -64,10 +65,17 @@ def on_connect(client, userdata, flags, rc):
 def on_message(cleint, userdata, msg):
     # if a message is recieved on the colors topic, parse it and set the color
     if msg.topic == topic:
+        print("this is working")
         colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
         draw.rectangle((0, 0, width, height*0.5), fill=color)
         disp.image(image)
-
+    if msg.payloadMessage == topic:
+            print("this is working")
+            colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
+            draw.rectangle((0, 0, width, height*0.5), fill=color)
+            disp.image(image)
+        
+        
 client = mqtt.Client(str(uuid.uuid1()))
 client.tls_set()
 client.username_pw_set('idd', 'device@theFarm')
