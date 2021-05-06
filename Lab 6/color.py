@@ -98,7 +98,7 @@ def handler(signum, frame):
 signal.signal(signal.SIGINT, handler)
 
 # our main loop
-#while True:
+while True:
     #r, g, b, a = sensor.color_data
     
     # there's a few things going on here 
@@ -114,5 +114,5 @@ signal.signal(signal.SIGINT, handler)
     #    client.publish(topic, f"{r},{g},{b}")
     #draw.rectangle((0, height*0.5, width, height), fill=color[:3])
     #disp.image(image)
-    #time.sleep(.01)
+    time.sleep(.01)
     
