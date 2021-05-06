@@ -65,13 +65,13 @@ while True:
     else:
         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-        if curstate>0 & !pygame.mixer.music.get_busy():
+        if curstate>0 and not pygame.mixer.music.get_busy():
             curstate = curstate - 1
             pygame.mixer.music.load(musics[curstate-1])
             print(curstate)
 
     if buttonA.value and not buttonB.value:  # just button B pressed
-        if curstate<5 & !pygame.mixer.music.get_busy():
+        if curstate<5 and not pygame.mixer.music.get_busy():
             curstate = curstate + 1
             pygame.mixer.music.load(musics[curstate-1])
 
@@ -81,7 +81,10 @@ while True:
     if curstate == 0:
         continue
     else:
-        pygame.mixer.music.play()
 
         if pygame.mixer.music.get_busy() == True:
+            print('playing music')
             continue
+        else:
+            pygame.mixer.music.play()
+            print("start to play music")
