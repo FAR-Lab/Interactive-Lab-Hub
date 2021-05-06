@@ -1,6 +1,6 @@
 import board
 import busio
-import adafruit_apds9960.apds9960
+#import adafruit_apds9960.apds9960
 import time
 import paho.mqtt.client as mqtt
 import uuid
@@ -8,7 +8,7 @@ import signal
 
 import digitalio
 from PIL import Image, ImageDraw, ImageFont
-import adafruit_rgb_display.st7789 as st7789
+#import adafruit_rgb_display.st7789 as st7789
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -49,11 +49,11 @@ image = Image.new("RGB", (width, height))
 draw = ImageDraw.Draw(image)
 
 
-i2c = busio.I2C(board.SCL, board.SDA)
-sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
+#i2c = busio.I2C(board.SCL, board.SDA)
+#sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
 
-sensor.enable_color = True
-r, g, b, a = sensor.color_data
+#sensor.enable_color = True
+#r, g, b, a = sensor.color_data
 
 topic = 'IDD/colors'
 payloadMessage = "red"
@@ -69,7 +69,7 @@ def on_message(cleint, userdata, msg):
         colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
         draw.rectangle((0, 0, width, height*0.5), fill=color)
         disp.image(image)
-    if msg.payloadMessage == topic:
+    if msg.payload == topic:
             print("this is working")
             colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
             draw.rectangle((0, 0, width, height*0.5), fill=color)
@@ -98,8 +98,8 @@ def handler(signum, frame):
 signal.signal(signal.SIGINT, handler)
 
 # our main loop
-while True:
-    r, g, b, a = sensor.color_data
+#while True:
+    #r, g, b, a = sensor.color_data
     
     # there's a few things going on here 
     # colors are reported at 16bits (thats 65536 levels per color).
@@ -107,12 +107,12 @@ while True:
     # color are also reported with an alpha (opacity, or in our case a proxy for ambient brightness)
     # 255*(1-(a/65536)) acts as scaling factor for brightness, it worked well enough in the lab but 
     # your success may vary depenging on how much ambient light there is, you can mess with these constants
-    color =tuple(map(lambda x: int(255*(1-(a/65536))*255*(x/65536)) , [r,g,b,a]))
+    #color =tuple(map(lambda x: int(255*(1-(a/65536))*255*(x/65536)) , [r,g,b,a]))
 
     # if we press the button, send msg to cahnge everyones color
-    if not buttonA.value:
-        client.publish(topic, f"{r},{g},{b}")
-    draw.rectangle((0, height*0.5, width, height), fill=color[:3])
-    disp.image(image)
-    time.sleep(.01)
+    #if not buttonA.value:
+    #    client.publish(topic, f"{r},{g},{b}")
+    #draw.rectangle((0, height*0.5, width, height), fill=color[:3])
+    #disp.image(image)
+    #time.sleep(.01)
     
