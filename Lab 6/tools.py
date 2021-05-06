@@ -17,8 +17,8 @@ i2c = busio.I2C(board.SCL, board.SDA)
 
 mpr121 = adafruit_mpr121.MPR121(i2c)
 
-read_topic = 'IDD/foodserv/button'
-send_topic = 'IDD/foodserv/food'
+read_topic = 'IDD/tools/response'
+send_topic = 'IDD/tools/guess'
 
 
 def on_connect(client, userdata, flags, rc):
@@ -49,10 +49,13 @@ client.connect('farlab.infosci.cornell.edu',port=8883)
 # food_list = {0:'milk',1:'orange'}
 
 while True:
-        for i in range(12):
-                if mpr121[i].value:
-                        val = f"Banana {i} touched"
-                        print(val)
-                        client.publish(send_topic, val)
+    if mpr121[0].value:
+        val = "screwdriver"
+        print(val)
+        client.publish(send_topic, val)
+    if mpr121[1].value:
+        val = "pliers"
+        print(val)
+        client.publish(send_topic, val)
 
 client.loop_forever()
