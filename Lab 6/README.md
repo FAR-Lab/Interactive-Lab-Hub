@@ -1,5 +1,7 @@
 # m[Q](https://en.wikipedia.org/wiki/QAnon)tt[Anon](https://en.wikipedia.org/wiki/QAnon): Where We Go One, We Go All
 
+# Dr. Tool: your remote tool learning tutor
+
 ## Prep
 
 1. Pull the new changes
@@ -87,10 +89,33 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+**Partner: William Zhang (WZ425)**
+
+![storyboard](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/storyboard.jpg)
+
+**This remote machine/tool learning platform helps users to learn how to deploy certain tools to use a machine. When the user is at loss in front of a pile of tools, he or she would consult the online tool tutor Dr. Tool who is super experienced with solving these problems, so that the user doesn't have to try many times before finding the tool that could fit in the machine. If the tool doesn't work at first, the user could give quick feedback by pressing the "Fit/Not Fit" buttons. The further implementation of the product would be the complicated assembly or dissembly using a set of tools.**
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+![systemdiagram](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/system%20building.jpg)
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+**The core of the system is the MQTT platform that allows instant response from both the Dr. Tool tutor side and the user side. The experienced Dr. Tool starts with guessing a tool with just touching the tool connected to the capcitive sensor. And the user responds "fit" or "not fit" with just pressing the button after trying the tool. The interactions are self-explanatory with these sensors, enabling a efficient online tool tutoring process.**
+
+![mqtt](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/mqtt.jpg)
+
+![capticive](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/capcitive%20tools.jpg)
+
+![buttons](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/fitnotfitbuttons.jpg)
+
+![notfit](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/wrench.jpg)
+
+![fit](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/plier.jpg)
+
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+**Video link: https://drive.google.com/file/d/1h0S7pHWen7iEwqcwoyqWsqgm8EawLjXM/view?usp=sharing**
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.

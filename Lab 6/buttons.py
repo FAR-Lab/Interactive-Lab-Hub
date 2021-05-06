@@ -13,15 +13,15 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
 buttonPin_R = 18
-buttonPin_G = 23
+buttonPin_B = 23
 
 GPIO.setup(buttonPin_R, GPIO.IN, GPIO.PUD_UP)
-GPIO.setup(buttonPin_G, GPIO.IN, GPIO.PUD_UP)
+GPIO.setup(buttonPin_B, GPIO.IN, GPIO.PUD_UP)
 
 i2c = busio.I2C(board.SCL, board.SDA)
 
-send_topic = 'IDD/foodserv/button'
-read_topic = 'IDD/foodserv/food'
+send_topic = 'IDD/tools/testing'
+read_topic = 'IDD/tools/test'
 
 
 def on_connect(client, userdata, flags, rc):
@@ -56,11 +56,11 @@ client.connect(
 
 while True:
 	client.loop()
-	if GPIO.input(buttonPin_R) == 1:
-		buttonSts = 'Do not touch my food'
+	if not GPIO.input(buttonPin_R):
+		buttonSts = 'Not Fit'
 		client.publish(send_topic, buttonSts)
 		# call(f"espeak -s125 '{buttonSts}'", shell=True)
-	if GPIO.input(buttonPin_G) == 1:
-		buttonSts = 'Go ahead and enjoy it'
+	if not GPIO.input(buttonPin_B):
+		buttonSts = 'Fit'
 		client.publish(send_topic, buttonSts)
 		# call(f"espeak -s125 '{buttonSts}'", shell=True)
