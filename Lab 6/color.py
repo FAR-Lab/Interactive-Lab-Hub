@@ -65,16 +65,15 @@ def on_connect(client, userdata, flags, rc):
 def on_message(cleint, userdata, msg):
     # if a message is recieved on the colors topic, parse it and set the color
     if msg.topic == topic:
-        print("this is working")
-        colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
+        print("this is working1")
+        #colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
         #draw.rectangle((0, 0, width, height*0.5), fill=color)
         #disp.image(image)
     if msg.payload == topic:
-            print("this is working")
+            print("this is working2")
             #colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
             #draw.rectangle((0, 0, width, height*0.5), fill=color)
             #disp.image(image)
-        
         
 client = mqtt.Client(str(uuid.uuid1()))
 client.tls_set()
