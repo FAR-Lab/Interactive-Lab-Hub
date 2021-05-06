@@ -69,7 +69,7 @@ def on_message(cleint, userdata, msg):
         #colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
         #draw.rectangle((0, 0, width, height*0.5), fill=color)
         #disp.image(image)
-    if msg.payload == topic:
+    if msg.payload == payloadMessage:
             print("this is working2")
             #colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
             #draw.rectangle((0, 0, width, height*0.5), fill=color)
