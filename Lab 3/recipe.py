@@ -48,7 +48,7 @@ musics=[]
 for filename in os.listdir("audios"):
     if filename.endswith(".wav"):
         curmusic = 'audios/' +filename
-        # musics.append[curmusic]
+        musics.append[curmusic]
         print('find audio %s'%filename)
 
 
