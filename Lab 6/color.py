@@ -31,22 +31,22 @@ buttonB.switch_to_input()
 spi = board.SPI()
 
 # Create the ST7789 display:
-disp = st7789.ST7789(
-    spi,
-    cs=cs_pin,
-    dc=dc_pin,
-    rst=reset_pin,
-    baudrate=BAUDRATE,
-    width=135,
-    height=240,
-    x_offset=53,
-    y_offset=40,
-)
+#disp = st7789.ST7789(
+#    spi,
+#    cs=cs_pin,
+#    dc=dc_pin,
+#    rst=reset_pin,
+#    baudrate=BAUDRATE,
+#    width=135,
+#    height=240,
+#    x_offset=53,
+#    y_offset=40,
+#)
 
-height =  disp.height
-width = disp.width 
-image = Image.new("RGB", (width, height))
-draw = ImageDraw.Draw(image)
+#height =  disp.height
+#width = disp.width 
+#image = Image.new("RGB", (width, height))
+#draw = ImageDraw.Draw(image)
 
 
 #i2c = busio.I2C(board.SCL, board.SDA)
@@ -67,13 +67,13 @@ def on_message(cleint, userdata, msg):
     if msg.topic == topic:
         print("this is working")
         colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
-        draw.rectangle((0, 0, width, height*0.5), fill=color)
-        disp.image(image)
+        #draw.rectangle((0, 0, width, height*0.5), fill=color)
+        #disp.image(image)
     if msg.payload == topic:
             print("this is working")
-            colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
-            draw.rectangle((0, 0, width, height*0.5), fill=color)
-            disp.image(image)
+            #colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
+            #draw.rectangle((0, 0, width, height*0.5), fill=color)
+            #disp.image(image)
         
         
 client = mqtt.Client(str(uuid.uuid1()))
