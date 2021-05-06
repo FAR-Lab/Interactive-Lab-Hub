@@ -5,8 +5,9 @@ from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
 import webcolors
 
+import pygame
 # The display uses a communication protocol called SPI.
-# SPI will not be covered in depth in this course. 
+# SPI will not be covered in depth in this course.
 # you can read more https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -37,14 +38,14 @@ buttonB.switch_to_input()
 
 
 # get a color from the user
-screenColor = None
-while not screenColor:
-    try:
-        # get a color from the user and convert it to RGB
-        screenColor = color565(*list(webcolors.name_to_rgb(input('Type the name of a color and hit enter: '))))
-    except ValueError:
-        # catch colors we don't recognize and go again
-        print("whoops I don't know that one")
+display.fill(color565(0, 255, 0))
+
+pygame.mixer.init()
+pygame.mixer.music.load("audios/Step1.aac")
+pygame.mixer.music.play()
+while pygame.mixer.music.get_busy() == True:
+    continue
+
 # Main loop:
 while True:
     if buttonA.value and buttonB.value:
@@ -57,4 +58,3 @@ while True:
         display.fill(color565(255, 255, 255))  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
         display.fill(color565(0, 255, 0))  # green
-
