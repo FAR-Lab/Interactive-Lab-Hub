@@ -53,22 +53,27 @@ while True:
         val = "screwdriver"
         print(val)
         client.publish(send_topic, val)
+        
     if mpr121[1].value:
         val = "wrench"
         print(val)
         client.publish(send_topic, val)
+
     if mpr121[2].value:
         val = "hex wrench"
         print(val)
         client.publish(send_topic, val)
+
     if mpr121[3].value:
         val = "protractor"
         print(val)
         client.publish(send_topic, val)
+
     if mpr121[4].value:
         val = "ruler"
         print(val)
         client.publish(send_topic, val)
+
     if mpr121[5].value:
         val = "pliers"
         print(val)
