@@ -7,9 +7,8 @@ import webcolors
 
 import pygame
 import os
-# The display uses a communication protocol called SPI.
-# SPI will not be covered in depth in this course.
-# you can read more https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/
+
+
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
@@ -48,12 +47,12 @@ musics=[]
 #iterate files in audios
 for filename in os.listdir("audios"):
     if filename.endswith(".wav"):
-        curmusic = pygame.mixer.music.load("audios/%s"%filename)
+        curmusic = 'audios/' +filename
         musics.append[curmusic]
         print('find audio %s'%filname)
 
 
-# pygame.mixer.music.load("audios/Step1.wav")
+pygame.mixer.music.load("audios/Step1.wav")
 # pygame.mixer.music.play()
 # while pygame.mixer.music.get_busy() == True:
 #     continue
@@ -68,16 +67,19 @@ while True:
         if curstate>0:
             curstate = curstate - 1
         print(curstate)
+        pygame.mixer.music.load(musics[curstate-1])
+
     if buttonA.value and not buttonB.value:  # just button B pressed
         if curstate<5:
             curstate = curstate + 1
         print(curstate)
+        pygame.mixer.music.load(musics[curstate-1])
 
-    # if not buttonA.value and not buttonB.value:  # none pressed
-    #     display.fill(color565(0, 255, 0))  # green
+
     if curstate == 0:
         continue
     else:
-        musics[curstate-1].play()
-        while musics[curstate-1].get_busy() == True:
+        pygame.mixer.music.play()
+
+        if pygame.mixer.music.get_busy() == True:
             continue
