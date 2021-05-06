@@ -89,7 +89,7 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
-**Partner: William Zhang (WZ425)**
+**Partner: Jeanne Li (XL863)**
 
 ![storyboard](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%206/storyboard.jpg)
 
