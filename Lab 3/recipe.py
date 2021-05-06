@@ -49,7 +49,7 @@ for filename in os.listdir("audios"):
     if filename.endswith(".wav"):
         curmusic = 'audios/' +filename
         # musics.append[curmusic]
-        print('find audio %s'%filname)
+        print('find audio %s'%filename)
 
 
 pygame.mixer.music.load("audios/Step1.wav")
@@ -66,14 +66,16 @@ while True:
     if buttonB.value and not buttonA.value:  # just button A pressed
         if curstate>0:
             curstate = curstate - 1
+            pygame.mixer.music.load(musics[curstate-1])
+
         print(curstate)
-        pygame.mixer.music.load(musics[curstate-1])
 
     if buttonA.value and not buttonB.value:  # just button B pressed
         if curstate<5:
             curstate = curstate + 1
+            pygame.mixer.music.load(musics[curstate-1])
+
         print(curstate)
-        pygame.mixer.music.load(musics[curstate-1])
 
 
     if curstate == 0:
