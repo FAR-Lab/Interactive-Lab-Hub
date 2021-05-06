@@ -50,7 +50,7 @@ client.connect('farlab.infosci.cornell.edu',port=8883)
 
 while True:
     if mpr121[0].value:
-        val = "screwdriver"
+        val = "ruler"
         print(val)
         client.publish(send_topic, val)
         
@@ -70,7 +70,7 @@ while True:
         client.publish(send_topic, val)
 
     if mpr121[4].value:
-        val = "ruler"
+        val = "screwdriver"
         print(val)
         client.publish(send_topic, val)
 
