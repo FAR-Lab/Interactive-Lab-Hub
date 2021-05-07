@@ -16,3 +16,9 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 5. Observant Systems](Lab%205/)
 
+<<<<<<< HEAD
+=======
+[Lab 6. Where We Go One, We Go All](Lab%206/)
+
+[Final Project](Final%20Project/)
+>>>>>>> b951a10337b029ca5619fd9fd8c73ea644a1bf2e
