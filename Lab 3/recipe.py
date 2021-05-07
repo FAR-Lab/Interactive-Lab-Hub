@@ -54,7 +54,7 @@ for filename in os.listdir("audios"):
 
 
 pygame.mixer.music.load("audios/Step1.wav")
-onpause = true
+onpause = True
 # pygame.mixer.music.play()
 # while pygame.mixer.music.get_busy() == True:
 #     continue
@@ -70,14 +70,14 @@ while True:
             curstate = curstate - 1
             pygame.mixer.music.load(musics[curstate-1])
             print(curstate)
-            onpause = false
+            onpause = False
 
     if buttonA.value and not buttonB.value:  # just button B pressed
         if curstate<5 and not pygame.mixer.music.get_busy():
             curstate = curstate + 1
             pygame.mixer.music.load(musics[curstate-1])
             print(curstate)
-            onpause = false
+            onpause = False
 
 
     if curstate == 0 or onpause:
