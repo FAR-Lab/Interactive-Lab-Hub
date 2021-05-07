@@ -44,8 +44,10 @@ pygame.mixer.init()
 # states = ["step1", "step2", "step3", "step4", "step5"]
 curstate = 0
 musics=[]
+
+files = sorted(os.listdir("audios"))
 #iterate files in audios
-for filename in os.listdir("audios"):
+for filename in files:
     if filename.endswith(".wav"):
         curmusic = 'audios/'+filename
         print(curmusic)
@@ -89,4 +91,4 @@ while True:
         else:
             pygame.mixer.music.play(1)
             print("start to play music")
-            onpause = true
+            onpause = True
