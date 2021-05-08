@@ -1,5 +1,3 @@
-// this is the README
-
 Team members: Niki Agrawal, Ross Kleinrock, Rob Gentul
 
 button.py - code that runs when button on the couch is pressed, it sends a message/signal to MQTT that button has been pressed
