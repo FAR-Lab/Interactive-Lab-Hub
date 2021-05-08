@@ -44,7 +44,19 @@ buttonB.switch_to_input()
 def speak2me(val):
     call(f"espeak '{val}'", shell=True)
     
-speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
+#speak2me("Welcome to your navigation buddy, Please tell me where you would like to go")
+
+client = mqtt.Client(str(uuid.uuid1()))
+client.tls_set()
+client.username_pw_set('idd', 'device@theFarm')
+
+client.connect(
+    'farlab.infosci.cornell.edu',
+    port=8883)
+
+topic = 'IDD/remote'
+
+i2c = busio.I2C(board.SCL, board.SDA)
 
 count = 0
 while True:
@@ -54,10 +66,12 @@ while True:
     buttonB.switch_to_input()
    
     if buttonB.value and not buttonA.value:  # just button A pressed
+        #publishing to MQTT and saying remote bot
         print(count)
-        print("buttonA")
-        #send to MQTT!
-        speak2me("Ok now turn left and walk two steps")
+        print("buttonA pressed")
+        val = f"Button pressed!"
+        client.publish(topic, val)
+        speak2me("Remote Bot")
     if buttonA.value and not buttonB.value:  # just button B pressed
         speak2me("Ok now turn left and walk five steps, the fridge will be on your left")
     else:
@@ -73,10 +87,6 @@ def test_connect():
     print('connected')
     emit('after connect',  {'data':'Lets dance'})
 
-#@socketio.on('ping-gps')
-#def handle_message(val):
-#    # print(mpu.acceleration)
-#    emit('pong-gps', mpu.acceleration) 
 
 @app.route('/')
 def index():
