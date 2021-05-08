@@ -83,14 +83,31 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
+I worked with Niki and Rob, who were instrumental in developing the code and final product. We also split the write up. We also got help from Ilan and David.
+
+Rob's Code: https://github.com/rgentul/Interactive-Lab-Hub/blob/Spring2021/Lab%206/oven_set.py
+Niki's Code: https://github.com/nagrawal44/Interactive-Lab-Hub/blob/master/Lab%206/distributed_banana_sender_joystick.py
+
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+We chose to design a distributed system for baking a cake (because you can't go wrong with cake). Each of our group members was in charge of a different piece of the cake-making system - cracking eggs, mixing ingredients, and baking the cake. We chose to represent these steps using different components of the pi.
+
+While our design is more of an extreme example, this distributed system could be applied to large line kitchens where chefs need to communicate with each other without actually interacting. Mass production lines in particular would benefit from these systems.
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+Each person does their respective job in the baking process, and then that input is transferred over MQTT to a centralized screen, which shows the next person that the step has been completed and that it is their turn to complete their part. Therefore they don't need to communicate or all be in the same place to know when to resume their part of the baking.
 
 <img src="https://github.com/rkleinro-CT/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/Cake%20Diagram.jpg">
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+We used tools that simulate what you would be doing when baking. The egg is cracked using a button, the batter is mixed using the joystick, and the oven is turned on using the twist stick, to simulate an oven dial. Therefore I think most people would know how to interact with it. The directions tell you whose step is up.
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+https://iddlab6-mbas.glitch.me
+
+https://cornell.zoom.us/rec/share/aCI2nLI-J_6404ME5aPzNJV3_117DD6lgdAnxoroOQ8zO75XBEBF5I02L7BHXQK_.MdkeZ86xKVyBp75q
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
