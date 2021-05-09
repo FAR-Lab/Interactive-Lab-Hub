@@ -12,6 +12,8 @@ import board
 from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
 import webcolors
+from PIL import Image, ImageDraw, ImageFont
+
 
 import pygame
 import os
