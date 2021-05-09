@@ -15,13 +15,13 @@ camera = False
 
 try:
     print("Trying to open the Webcam.")
-    curImg = cv2.VideoCapture(0) #capture through camera
-    if curImg is None or not cap.isOpened():
+    cap = cv2.VideoCapture(0) #capture through camera
+    if cap is None or not cap.isOpened():
         raise("No camera")
     camera = True
 except:
-    print("no camera found")
-    exit()
+    print("no camera found, use default image")
+    img = cv2.imread('/home/pi/openCV-examples/data/test.jpg')
 
 
 # Load the model
