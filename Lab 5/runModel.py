@@ -11,30 +11,22 @@ import sys
 np.set_printoptions(suppress=True)
 
 img = None
-webCam = False
-if(len(sys.argv)>1 and not sys.argv[-1]== "noWindow"):
-   try:
-      print("I'll try to read your image");
-      img = cv2.imread(sys.argv[1])
-      if img is None:
-         print("Failed to load image file:", sys.argv[1])
-   except:
-      print("Failed to load the image are you sure that:", sys.argv[1],"is a path to an image?")
-else:
-   try:
-      print("Trying to open the Webcam.")
-      cap = cv2.VideoCapture(0)
-      if cap is None or not cap.isOpened():
-         raise("No camera")
-      webCam = True
-   except:
-      img = cv2.imread("../data/test.jpg")
-      print("Using default image.")
+camera = False
+
+try:
+    print("Trying to open the Webcam.")
+    curImg = cv2.VideoCapture(0) #capture through camera
+    if curImg is None or not cap.isOpened():
+        raise("No camera")
+    camera = True
+except:
+    print("no camera found")
+    exit()
 
 
 # Load the model
 model = tensorflow.keras.models.load_model('keras_model.h5')
-# Load Labels:
+
 labels=[]
 f = open("labels.txt", "r")
 for line in f.readlines():
@@ -43,8 +35,10 @@ for line in f.readlines():
     labels.append(line.split(' ')[1].strip())
 
 
+print
+
 while(True):
-    if webCam:
+    if camera:
         ret, img = cap.read()
 
     rows, cols, channels = img.shape
