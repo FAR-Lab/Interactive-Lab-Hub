@@ -36,8 +36,8 @@ display = st7789.ST7789(
     x_offset=53,
     y_offset=40,
 )
-height = disp.width
-width = disp.height
+height = display.width
+width = display.height
 
 # these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
 backlight = digitalio.DigitalInOut(board.D22)
@@ -124,7 +124,7 @@ def detectKnot():
 
     # curTime = strftime("%H:%M:%S")
     draw = ImageDraw.Draw(image)
-    disp.image(image, 90)
+    display.image(image, 90)
 
 
 
