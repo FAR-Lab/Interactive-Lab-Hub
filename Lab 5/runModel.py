@@ -140,7 +140,6 @@ while(True):
         break
 
 
-    time.sleep(1)
 
 # while(True):
 #
