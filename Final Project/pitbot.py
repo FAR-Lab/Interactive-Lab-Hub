@@ -18,18 +18,21 @@ if __name__ == '__main__':
 	draw_pibot(mode)
 	setup()
 	oneturn()
-
+	destroy()
+	
+	setup()
 	global bus_data, X, Y
 	while True:
 		direction, selected = qwiicjoystick()
 		if selected == 0:
 			if mode == RESULTMODE:
 				mode = SLEEPMODE
+				setup()
 			else:
 				mode += 1
 			draw_pibot(mode)
 			speak_by_mode(mode)
 			if mode == ROTMODE:
 				oneturn()
-				continue
-	destroy()
+				destroy()
+	
