@@ -87,7 +87,11 @@ The system should:
 
 *Document how the system works*
 
+The system takes voice and button input. Because the purpose is to free one's hand during cooking, the system heavily rely on voice input. But when voice input is not accurate, it is crutial to have button input as a back up. The interaction is very straigtforward: go to previous step or next step. If on the first step, then one can only go to next step. If on last step, then one cannot go further. The voice instruction is the recipe of "stir-fried tomato and egg", the most common food which many Chinese pick when first learning cooking. 
+
 *Include videos or screencaptures of both the system and the controller.*
+
+https://youtu.be/Wf9ABM8uPZs
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -95,18 +99,17 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+There are some key missing parts for interaction. One is to repeat the current step. User often need to remind themselve the current step which is not supported in the system. They have to wait until "previous step" is over but timing is important when cooking.  
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+The button input is very stable, but the voice input sometimes confuses the user.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
+Currently the voice input rely on WoZ interaction. But it fullfils the need of learning user's voice behavior. For future autonomous version, voice input would need "repeat" and "cancel" and "help" funtion.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-*your answer here*
+Another modalities to capture is image recognition. It would be helpful for the device to recognize the current food -> if the right item or the right size. To create a dateset of interaction, it would recored and anaylze the user's wording. The word frequency and ordering should be reflected in the dataset. 
 
