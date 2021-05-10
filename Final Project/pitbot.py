@@ -1,7 +1,7 @@
 from display import draw_pibot
 from Qwiic_Joystick import qwiicjoystick
 from speak import speak_by_mode
-from servo import turn
+from servo import oneturn
 
 import smbus, time
 bus = smbus.SMBus(1)
