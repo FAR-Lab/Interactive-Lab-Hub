@@ -24,11 +24,10 @@ image = Image.new("1", (oled.width, oled.height))
 draw = ImageDraw.Draw(image)
 emoticon_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 
-def clear():
+def draw_pibot(mode):	
 	image = Image.new("1", (oled.width, oled.height))
 	draw = ImageDraw.Draw(image)
-
-def draw_pibot(mode):
+	oled.image(image)
 	oled.fill(0)
 	oled.show()
 	
