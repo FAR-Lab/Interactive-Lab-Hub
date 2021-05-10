@@ -33,10 +33,10 @@ def draw_pibot(mode):
 	
 	pibot_face = None
 	sleep_emoticon = "(-_-) ZZZ"
-	wakeup_emoticon = "!!(;ﾟﾛﾟﾉ)ﾉ"
+	wakeup_emoticon = "(☉.☉)"
 	rotate_emoticon = "٩( ᐛ )و"
-	question_emoticon = "(∗´꒳`)"
-	answer_emoticon = "(=^ェ^=)"
+	question_emoticon = "☆:.｡. o(≧▽≦)o .｡.:☆"
+	answer_emoticon = "٩( ^ᴗ^ )۶"
 
 	if(mode == 1):
 		pibot_face = wakeup_emoticon
