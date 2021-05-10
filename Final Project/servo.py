@@ -12,8 +12,7 @@ def setup():
     if mode == 11:
         pass
     else:
-        GPIO.setmode(GPIO.BOARD)
-        
+        GPIO.setmode(GPIO.BOARD)        
     GPIO.setup(servo,GPIO.OUT)
     GPIO.output(servo,GPIO.LOW)
 
@@ -58,8 +57,9 @@ def destroy():
 
 if __name__ == '__main__':     #Program start from here
     print("starting...")
-    setup()
-    try:
-        loop()
-    except KeyboardInterrupt:  # When 'Ctrl+C' is pressed, the child program destroy() will be  executed.
-            destroy()
+    oneturn()
+    #setup()
+    #try:
+    #    loop()
+    #except KeyboardInterrupt:  # When 'Ctrl+C' is pressed, the child program destroy() will be  executed.
+    #        destroy()
