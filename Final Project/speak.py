@@ -18,7 +18,7 @@ def speak_by_mode(mode):
 	elif(mode == 4):
 		say("Anyway I will just let you know! Since this is the only thing I know! The current tempeture is ...")
 	else:
-		pibot_face = sleep_emoticon
+		pass
 
 if __name__ == '__main__':
 	t = "test test"
