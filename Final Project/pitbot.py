@@ -26,5 +26,7 @@ if __name__ == '__main__':
 				mode = SLEEPMODE
 			else:
 				mode += 1
+			if mode == ROTMODE:
+				oneturn()
 			draw_pibot(mode)
 			speak_by_mode(mode)
