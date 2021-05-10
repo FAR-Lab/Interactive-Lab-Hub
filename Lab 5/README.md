@@ -158,5 +158,12 @@ During the lecture, we mentioned questions to help characterize a material:
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-**Include a short video demonstrating the finished result.**
+One problem with the interactive system is the button pressed will shake the camera, resulting in blurred images and bad performance.
+Therefore the improved set up:
+https://youtu.be/h8FNAFAY9Bs
+(note: the sticky "gum" is my magic sticker that used for pasting poster on the wall, not chewed gum" 
 
+**Include a short video demonstrating the finished result.**
+https://youtu.be/dAoVs3Ze894
+Since my mini screen is broken and has a bad display, this is the screen shot of results.
+<picture here>
