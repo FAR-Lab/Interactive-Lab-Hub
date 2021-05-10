@@ -16,8 +16,6 @@ RESULTMODE = 4
 if __name__ == '__main__':
 	mode = SLEEPMODE
 	draw_pibot(mode)
-	setup()
-	oneturn()
 	
 	global bus_data, X, Y
 	while True:
@@ -30,7 +28,6 @@ if __name__ == '__main__':
 			draw_pibot(mode)
 			speak_by_mode(mode)
 			if mode == ROTMODE:
-				destroy()
 				setup()
 				oneturn()
 	destroy()
