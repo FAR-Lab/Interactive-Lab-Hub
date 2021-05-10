@@ -40,7 +40,7 @@ if __name__ == '__main__':
 		direction, selected = qwiicjoystick()
 		if selected == 0:
 			mode = act(mode)
-		if mpr121[6].value:
+		if mpr121[7].value:
 			mode = act(mode)
 	destroy()
 	
