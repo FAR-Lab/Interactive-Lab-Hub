@@ -30,5 +30,4 @@ if __name__ == '__main__':
 			speak_by_mode(mode)
 			if mode == ROTMODE:
 				oneturn()
-				time.sleep(1.2)
-				mode += 1
+				break
