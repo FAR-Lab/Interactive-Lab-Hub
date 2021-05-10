@@ -22,4 +22,4 @@ if __name__ == '__main__':
 				mode = SLEEPMODE
 			else:
 				mode += 1
-			draw_pibot(mode)
+		draw_pibot(mode)
