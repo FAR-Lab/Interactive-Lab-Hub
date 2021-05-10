@@ -18,7 +18,7 @@ if __name__ == '__main__':
 	draw_pibot(mode)
 	setup()
 	oneturn()
-# 	destroy()
+	destroy()
 	
 	global bus_data, X, Y
 	while True:
