@@ -9,6 +9,7 @@ servo = 12
 def setup():
     global P
     mode = GPIO.getmode()
+    print("Current mode: " + str(mode))
     if mode == 11:
         pass
     else:
@@ -41,15 +42,22 @@ def loop():
         time.sleep(0.5)
 
 def oneturn():
+    print("Set up one turn")
     setup()
+    
+    print("Turn left ...")
     for i in range(0,181,1):
         servoWrite(i)
         time.sleep(0.01)
     time.sleep(0.5)
+    
+    print("Turn right ...")
     for i in range (180,-1,-1):
         servoWrite(i)
         time.sleep(0.01)
     time.sleep(0.5)
+    
+    print("Clean up")
     destroy()
 
 def destroy():
