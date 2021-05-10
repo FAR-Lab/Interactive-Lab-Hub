@@ -53,7 +53,7 @@ def oneturn():
     destroy()
 
 def destroy():
-    p.stop()
+    P.stop()
     GPIO.cleanup()
 
 if __name__ == '__main__':     #Program start from here
