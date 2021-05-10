@@ -124,8 +124,8 @@ Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
 <p float="left">
-<img src="images/clove1" height="200" />
-<img src="iamges/munter1" height="200">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/clove1" height="200" />
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/iamges/munter1" height="200">
 </p>
 
 ### Part C
