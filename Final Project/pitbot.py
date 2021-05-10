@@ -8,4 +8,4 @@ RESULTMODE = 4
 if __name__ == '__main__':
 	mode = SLEEPMODE
 	while True:
-		draw_pibot(63,15,0,'#ffffff')
+		draw_pibot(1)
