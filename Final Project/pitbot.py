@@ -29,5 +29,6 @@ if __name__ == '__main__':
 			draw_pibot(mode)
 			speak_by_mode(mode)
 			if mode == ROTMODE:
+				time.sleep(1.0)
 				oneturn()
-				time.sleep(1.6)
+				time.sleep(1.0)
