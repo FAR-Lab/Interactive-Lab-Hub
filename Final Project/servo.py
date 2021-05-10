@@ -44,10 +44,7 @@ def loop():
             time.sleep(0.01)
         time.sleep(0.5)
 
-def oneturn():
-    print("Set up one turn")
-    setup()
-    
+def oneturn():    
     print("Turn left ...")
     for i in range(0,181,1):
         servoWrite(i)
@@ -59,9 +56,6 @@ def oneturn():
         servoWrite(i)
         time.sleep(0.01)
     time.sleep(0.5)
-    
-    print("Clean up")
-    destroy()
 
 def destroy():
     P.stop()
