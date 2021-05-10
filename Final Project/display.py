@@ -49,7 +49,7 @@ def draw_pibot(mode):
 	else:
 		pibot_face = sleep_emoticon
 
-	draw.text((30, 5), pibot_face, font=emoticon_font, fill='#FFFFFF')
+	draw.text((20, 5), pibot_face, font=emoticon_font, fill='#FFFFFF')
 	oled.image(image)
 	oled.show()
 
