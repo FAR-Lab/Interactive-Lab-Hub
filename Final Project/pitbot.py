@@ -1,7 +1,7 @@
 from display import draw_pibot
 from Qwiic_Joystick import qwiicjoystick
 from speak import speak_by_mode
-from servo import oneturn
+from servo import oneturn, setup, destroy
 
 import smbus, time
 bus = smbus.SMBus(1)
@@ -16,7 +16,8 @@ RESULTMODE = 4
 if __name__ == '__main__':
 	mode = SLEEPMODE
 	draw_pibot(mode)
-	#oneturn()
+	setup()
+	oneturn()
 
 	global bus_data, X, Y
 	while True:
@@ -31,3 +32,4 @@ if __name__ == '__main__':
 			if mode == ROTMODE:
 				oneturn()
 				continue
+	destroy()
