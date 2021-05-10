@@ -26,7 +26,7 @@ def qwiicjoystick():
     X = (bus_data[0]<<8 | bus_data[1])>>6
     Y = (bus_data[2]<<8 | bus_data[3])>>6
 
-    # print(X, Y, " Button = ", bus_data[4])
+    print(X, Y, " Button = ", bus_data[4])
     time.sleep(.05)
     direction = None
     if X < 450:
