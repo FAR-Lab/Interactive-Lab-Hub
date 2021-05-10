@@ -13,8 +13,9 @@ RESULTMODE = 4
 
 if __name__ == '__main__':
 	mode = SLEEPMODE
-	global bus_data, X, Y
+	draw_pibot(mode)
 	
+	global bus_data, X, Y
 	while True:
 		direction, selected = qwiicjoystick()
 		if selected == 0:
@@ -22,4 +23,4 @@ if __name__ == '__main__':
 				mode = SLEEPMODE
 			else:
 				mode += 1
-		draw_pibot(mode)
+			draw_pibot(mode)
