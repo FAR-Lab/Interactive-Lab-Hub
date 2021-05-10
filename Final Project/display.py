@@ -22,35 +22,39 @@ oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 
 image = Image.new("1", (oled.width, oled.height))
 draw = ImageDraw.Draw(image)
-emoticon_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
+emoticon_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
 
 
-def draw_pibot(xpos, ypos, mode, col):
+def draw_pibot(mode):
+	oled.fill(0)
 	pibot_face = None
-	sleep_emoticon = "(-_-) zzzZZZ"
+	sleep_emoticon = "(-_-) ZZZ"
 	wakeup_emoticon = "╭( ๐ _๐)╮"
-	result_emoticon = "٩( ᐛ )و"
+	rotate_emoticon = "٩( ᐛ )و"
+	question_emoticon = "（・∩・）？"
+	answer_emoticon = "(っ- ‸ - ς)"
 
 	if(mode == 1):
 		pibot_face = wakeup_emoticon
 	elif(mode == 2):
-		pibot_face = result_emoticon
+		pibot_face = rotate_emoticon
+	elif(mode == 3):
+		pibot_face = question_emoticon
+	elif(mode == 4):
+		pibot_face = answer_emoticon
 	else:
 		pibot_face = sleep_emoticon
 
-	draw.text((xpos, ypos), pibot_face, font=emoticon_font, fill=col)
-
-def main():
-	center_x = 63
-	center_y = 15
-
-	oled.fill(0)
+	draw.text((30, 5), pibot_face, font=emoticon_font, fill='#ffffff')
+	oled.image(image)
 	oled.show()
 
+def main():
+	oled.fill(0)
+	oled.show()
 	while True:
-		draw_pibot(center_x, center_y, 0, '#cef716')
-		oled.image(image)
-		oled.show()
+		draw_pibot(0)
+
 
 if __name__ == '__main__':
 	main()
