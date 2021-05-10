@@ -8,7 +8,7 @@ def say(text):
     print(str(text))
     engine.runAndWait()
 
-def speak(mode):
+def speak_by_mode(mode):
 	if(mode == 1):
 		say("Oh hey, hello!")
 	elif(mode == 2):
