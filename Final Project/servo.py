@@ -8,10 +8,12 @@ servo = 12
 
 def setup():
     global P
-#     mode = GPIO.getmode()
-#     print(mode)
-    GPIO.cleanup()
-    GPIO.setmode(GPIO.BOARD)
+    mode = GPIO.getmode()
+    if mode == 11:
+        pass
+    else:
+        GPIO.setmode(GPIO.BOARD)
+        
     GPIO.setup(servo,GPIO.OUT)
     GPIO.output(servo,GPIO.LOW)
 
