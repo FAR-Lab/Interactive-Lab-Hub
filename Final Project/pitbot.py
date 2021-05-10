@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	
 	while True:
 		direction, selected = qwiicjoystick()
-		if !selected:
+		if selected == 1:
 			if mode == RESULTMODE:
 				mode = SLEEPMODE
 			else:
