@@ -1,5 +1,5 @@
 from display import draw_pibot
-from Qwiic_Joystick import qwiicjoystick()
+from Qwiic_Joystick import qwiicjoystick
 
 import smbus, time
 bus = smbus.SMBus(1)
