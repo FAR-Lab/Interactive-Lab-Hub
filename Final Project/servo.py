@@ -4,18 +4,21 @@ import time
 DUTY = 0.5
 MIN_DUTY=2.5+DUTY
 MAX_DUTY=12.5+DUTY
-servo = 12
+
 
 def setup():
     global P
     mode = GPIO.getmode()
     print("Current mode: " + str(mode))
-    if mode == 11:
-        pass
+    if mode == GPIO.BCM:
+        servo = 18
+        GPIO.setup(servo,GPIO.OUT)
+        GPIO.output(servo,GPIO.LOW)
     else:
+        servo = 12
         GPIO.setmode(GPIO.BOARD)        
-    GPIO.setup(servo,GPIO.OUT)
-    GPIO.output(servo,GPIO.LOW)
+        GPIO.setup(servo,GPIO.OUT)
+        GPIO.output(servo,GPIO.LOW)
 
     P = GPIO.PWM(servo,50)
     P.start(0)
