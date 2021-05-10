@@ -56,6 +56,7 @@ def oneturn():
         servoWrite(i)
         time.sleep(0.01)
     time.sleep(0.5)
+    P.stop()
 
 def destroy():
     P.stop()
