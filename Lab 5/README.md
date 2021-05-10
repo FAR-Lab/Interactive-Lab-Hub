@@ -124,8 +124,10 @@ Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
 <p float="left">
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/clove1.png" height="200" />
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/iamges/munter1.png" height="200">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/clove1.png" height="400" />
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/munter1.png" height="400">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/munter2.png" height="400">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/girth1.png" height="400">
 </p>
 
 ### Part C
