@@ -1,5 +1,6 @@
 from display import draw_pibot
 from Qwiic_Joystick import qwiicjoystick
+from speak import speak_by_mode
 
 import smbus, time
 bus = smbus.SMBus(1)
@@ -24,3 +25,4 @@ if __name__ == '__main__':
 			else:
 				mode += 1
 			draw_pibot(mode)
+			speak_by_mode(mode)
