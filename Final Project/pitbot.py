@@ -18,7 +18,6 @@ if __name__ == '__main__':
 	draw_pibot(mode)
 	setup()
 	oneturn()
-	destroy()
 	
 	global bus_data, X, Y
 	while True:
@@ -31,7 +30,6 @@ if __name__ == '__main__':
 			draw_pibot(mode)
 			speak_by_mode(mode)
 			if mode == ROTMODE:
-				setup()
 				oneturn()
-				#destroy()
+	destroy()
 	
