@@ -21,7 +21,7 @@ def speak_by_mode(mode):
 		time.sleep(0.1)
 		say("Since this is the only thing I know!") 
 		time.sleep(0.1)
-		say("The current tempeture is ...")
+		say("The current tempeture is 21 celsius and humidity is 45%.")
 	else:
 		pass
 
