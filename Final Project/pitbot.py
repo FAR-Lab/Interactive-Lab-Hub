@@ -30,6 +30,7 @@ if __name__ == '__main__':
 			draw_pibot(mode)
 			speak_by_mode(mode)
 			if mode == ROTMODE:
+				destroy()
 				setup()
 				oneturn()
 	destroy()
