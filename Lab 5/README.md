@@ -123,6 +123,11 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+<p float="left">
+<img src="images/clove1" height="200" />
+<img src="iamges/munter1" height="200">
+</p>
+
 ### Part C
 ### Test the interaction prototype
 
@@ -159,11 +164,13 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 One problem with the interactive system is the button pressed will shake the camera, resulting in blurred images and bad performance.
+
 Therefore the improved set up:
 https://youtu.be/h8FNAFAY9Bs
 (note: the sticky "gum" is my magic sticker that used for pasting poster on the wall, not chewed gum" 
 
 **Include a short video demonstrating the finished result.**
+
 https://youtu.be/dAoVs3Ze894
 Since my mini screen is broken and has a bad display, this is the screen shot of results.
 <picture here>
