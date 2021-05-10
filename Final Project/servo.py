@@ -63,8 +63,9 @@ def destroy():
 
 if __name__ == '__main__':     #Program start from here
     print("starting...")
+    setup()
     oneturn()
-    #setup()
+    destroy()
     #try:
     #    loop()
     #except KeyboardInterrupt:  # When 'Ctrl+C' is pressed, the child program destroy() will be  executed.
