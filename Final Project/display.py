@@ -27,8 +27,6 @@ emoticon_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.
 
 def draw_pibot(mode):
 	oled.fill(0)
-	image = Image.new("1", (oled.width, oled.height))
-	draw = ImageDraw.Draw(image)
 	oled.show()
 	
 	pibot_face = None
