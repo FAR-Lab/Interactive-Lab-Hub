@@ -1,4 +1,4 @@
-from display import draw_pibot, clear
+from display import draw_pibot
 from Qwiic_Joystick import qwiicjoystick
 
 import smbus, time
@@ -23,5 +23,4 @@ if __name__ == '__main__':
 				mode = SLEEPMODE
 			else:
 				mode += 1
-			clear()
 			draw_pibot(mode)
