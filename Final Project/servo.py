@@ -44,7 +44,8 @@ def loop():
             time.sleep(0.01)
         time.sleep(0.5)
 
-def oneturn():    
+def oneturn():
+    P.start(0)
     print("Turn left ...")
     for i in range(0,181,1):
         servoWrite(i)
