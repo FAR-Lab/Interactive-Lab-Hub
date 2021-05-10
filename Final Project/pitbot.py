@@ -29,6 +29,7 @@ def act(mode):
 		setup()
 		oneturn()
 	speak_by_mode(mode)
+	time.sleep(0.1)
 	return mode
 
 if __name__ == '__main__':
