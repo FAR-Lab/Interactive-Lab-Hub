@@ -8,11 +8,12 @@ servo = 12
 
 def setup():
     global P
-    mode = GPIO.getmode()
-    print(mode)
-#     GPIO.setmode(GPIO.BOARD)
-#     GPIO.setup(servo,GPIO.OUT)
-#     GPIO.output(servo,GPIO.LOW)
+#     mode = GPIO.getmode()
+#     print(mode)
+    GPIO.cleanup()
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(servo,GPIO.OUT)
+    GPIO.output(servo,GPIO.LOW)
 
     P = GPIO.PWM(servo,50)
     P.start(0)
