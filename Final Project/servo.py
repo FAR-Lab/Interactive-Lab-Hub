@@ -36,7 +36,7 @@ def loop():
             time.sleep(0.01)
         time.sleep(0.5)
 
-def loop():
+def turn():
     for i in range(0,181,1):
         servoWrite(i)
         time.sleep(0.01)
