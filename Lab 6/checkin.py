@@ -23,19 +23,16 @@ client.connect(
 
 def check_time():
     now = datetime.now()
-
     current_time = now.strftime("%H")
-    print("Current Time =", current_time)
-
+    # print("Current Time =", current_time)
     attime = False
     if current_time == "04":
         attime = True
 
     return attime
 
-
-
 def report():
+    reported = True
     cmd_beg= 'espeak '
     cmd_end= ' | aplay /home/pi/Desktop/Text.wav  2>/dev/null' # To play back the stored .wav file and to dump the std errors to /dev/null
     cmd_out= '--stdout > /home/pi/Desktop/Text.wav ' # To store the voice file
@@ -47,7 +44,6 @@ def report():
 
     #Calls the Espeak TTS Engine to read aloud a Text
     call([cmd_beg+cmd_out+text+cmd_end], shell=True)
-    reported = True
 
 reported = False
 
