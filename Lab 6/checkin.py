@@ -16,7 +16,8 @@ client.connect(
     port=8883)
 
 val = "whether pressed button"
-client.publish("checkin", val)
+while True:
+    client.publish("IDD/{checkin}", val)
 
 
 # while True:
