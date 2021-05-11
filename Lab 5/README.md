@@ -123,12 +123,7 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-<p float="left">
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/clove1.png" height="400" />
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/munter1.png" height="400">
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/munter2.png" height="400">
-<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/girth1.png" height="400">
-</p>
+During rock climbing, a climber's life is hanged on one single rope. Knotting is therefore curtial in every single step of rock climbing. However, knotting can be complicated because some are very similar to another. In this project, I designed a program that recognize "clove, munter, and girth" hitch. (some introduction can be found in this article https://www.backcountry.com/explore/the-seven-need-to-know-climbing-knots) I had a hard time learning and recognizing the three hitches. They look similar, but their function are deadly different: if you tie a munter to where you suppose to tie a clove, then you will fall from the top of the cliff when weighted on the rope. For a beginner's eye, it is really hard to distinguish the 3 knots. In program helps to identify the knots and tells the learner which one they haved tied. 
 
 ### Part C
 ### Test the interaction prototype
@@ -141,10 +136,8 @@ For example:
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **Think about someone using the system. Describe how you think this will work.**
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+If not told, a user would not be aware of the uncertainty in the system. Since we are aiming for zero-error in rock climbing knotting, a mis-classification will have a bad impact of one's learning process. The interaction system recommend the user to test their knot mulitiple times on different angle. 
 
 ### Part D
 ### Characterize your own Observant system
@@ -159,7 +152,14 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-**Include a short video demonstrating the answers to these questions.**
+Testing the program:
+<p float="left">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/clove1.png" height="400" />
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/munter1.png" height="400">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/munter2.png" height="400">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/girth1.png" height="400">
+</p>
+There is not any existing model about rock climbing knotting. So I trained my own model in Google Teachable Machine. This system is used to recognition and identification of the 3 most common hitch: clove, munter, and girth. The program works pretty accurate when having a pure white background. But when the background becomes complicated, the performance drops drastically. A dark environment will completely break the system. The ideal environment is: enought lighting with simple background. A broken system will result in mis-classification, so the system recommend the user to test their knots multiple times in different angle. When I built the dateset to train the model, I included images of the knots in different angle and different directions in front of a white background. A small carabiner and thin rope is ideal for the classification. Morever, the systems has a better performance on recognizing "clove" but a hard time distinguishing "munter vs girth". Morever, the sytem only support a single rope situation.
 
 ### Part 2.
 
@@ -174,5 +174,5 @@ https://youtu.be/h8FNAFAY9Bs
 **Include a short video demonstrating the finished result.**
 
 https://youtu.be/dAoVs3Ze894
-Since my mini screen is broken and has a bad display, this is the screen shot of results.
+Since my mini screen is broken and has a bad display (it is halfly broken), this is the screen shot of results.
 <picture here>
