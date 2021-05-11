@@ -123,6 +123,7 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+#### ---MY ANSWER---
 During rock climbing, a climber's life is hanged on one single rope. Knotting is therefore curtial in every single step of rock climbing. However, knotting can be complicated because some are very similar to another. In this project, I designed a program that recognize "clove, munter, and girth" hitch. (some introduction can be found in this article https://www.backcountry.com/explore/the-seven-need-to-know-climbing-knots) I had a hard time learning and recognizing the three hitches. They look similar, but their function are deadly different: if you tie a munter to where you suppose to tie a clove, then you will fall from the top of the cliff when weighted on the rope. For a beginner's eye, it is really hard to distinguish the 3 knots. In program helps to identify the knots and tells the learner which one they haved tied. 
 
 ### Part C
@@ -137,6 +138,7 @@ For example:
 
 **Think about someone using the system. Describe how you think this will work.**
 
+#### ---MY ANSWER---
 If not told, a user would not be aware of the uncertainty in the system. Since we are aiming for zero-error in rock climbing knotting, a mis-classification will have a bad impact of one's learning process. The interaction system recommend the user to test their knot mulitiple times on different angle. 
 
 ### Part D
@@ -152,6 +154,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
+#### ---MY ANSWER---
 Testing the program:
 <p float="left">
 <img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/clove1.png" height="400" />
@@ -172,7 +175,10 @@ https://youtu.be/h8FNAFAY9Bs
 (note: the sticky "gum" is my magic sticker that used for pasting poster on the wall, not chewed gum" 
 
 **Include a short video demonstrating the finished result.**
-
+<p float="left">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/Screen%20Shot%202021-05-09%20at%202.20.55%20AM.png" height="400" />
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%205/images/Screen%20Shot%202021-05-10%20at%202.11.57%20AM.png" height="400" />
+</p>
 https://youtu.be/dAoVs3Ze894
 Since my mini screen is broken and has a bad display (it is halfly broken), this is the screen shot of results.
-<picture here>
+
