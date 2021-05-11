@@ -76,7 +76,8 @@ The LCD screen, Joystick and servo are attached to the LEGO base with adhesive t
 
 <p float="left">
 <img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/4.png" height="350" />
- <img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/5.png" height="350" />
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/5.png" height="350" />
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/6.png" height="350" />
 </p>
 
 #### Software
