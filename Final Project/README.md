@@ -21,7 +21,7 @@ My final project is inspired by my Lab4 design: PiT Bot. The PiT Bot will be an 
 
 ## Deliverables
 
-1. Documentation of design process
+### 1. Documentation of design process
 
 The idea and basic concept of the PiT Bot is from my Lab4 design showing below. There are few key points: (1) I want it to be able to move or turn a bit, (2) I want it to be small and light, and (3) I want it to be cute.
 
@@ -33,13 +33,21 @@ At the beginning, the first thing I chose to work on is to incorperate a servo m
 
 As a result, I changed to a smaller servo: SG90, which can directly connect to the Pi 5V output. I also got the breadboard with correponding jumper wires and GPIO caples. However, after using this smaller servo, I realized it is impossible to get the breadboard and everything onto a tiny box. Even if everything fitted into a larger box, the servo may not have enough torque to rotate it. That's why in the end, the design changed to a LEGO base with a rotating head.
 
+<p float="left">
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/servo1.png" height="250" />
+<img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/servo2.png" height="250" />
+</p>
+
 The next step I did is to incorperate the LCD screen with emoticons and the Joystick for general system control. Then suggested by the instructors, I added the conductive tapes on the head with the capative sensor, so I can "pat" the bot to activate it.
 
 Lastly, I added the temperature and humidity sensor so I can have some sort of voice interaction with the PiT Bot.
 
-3. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
-4. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
-5. Reflections on process (What have you learned or wish you knew at the start?)
+### 2. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
+
+
+### 3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
+
+### 4. Reflections on process (What have you learned or wish you knew at the start?)
 
 
 ## Teams
