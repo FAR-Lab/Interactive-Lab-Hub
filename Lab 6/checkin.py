@@ -47,12 +47,17 @@ def report():
 
     #Calls the Espeak TTS Engine to read aloud a Text
     call([cmd_beg+cmd_out+text+cmd_end], shell=True)
+    reported = True
+
+reported = False
 
 while True:
-    if check_time():
+
+    if check_time() and not reported:
         report()
         val = "pressed"
         client.publish("IDD/checkin", val)
+
 # while True:
 # 	cmd = input('>> topic: IDD/')
 # 	if ' ' in cmd:
