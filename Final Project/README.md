@@ -13,7 +13,10 @@ Final Project Presentations (video watch party) - May 12
 The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
  
 ## Description
-Your project is to design and build an interactive device to suit a specific application of your choosing. 
+My final project is inspired by my Lab4 design: PiT Bot.
+
+
+PiT Bot will be an Intelligent Voice Agent in a tiny lightweight box. The bot should be able to display emotion through emoticons, rotate if noticing people moving towards it, and communicate with people (mainly answering questions through voice).
 
 ## Deliverables
 
