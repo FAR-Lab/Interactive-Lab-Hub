@@ -29,9 +29,9 @@ The idea and basic concept of the PiT Bot is from my Lab4 design showing below. 
 <img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Lab%204/storyboard.png" height="550" />
 </p>
 
-At the beginning, the first thing I chose to work on is to incorperate a servo motor, so the box for the PiT Bot can turn around, like what shown in the original storyboard. I got the the ADAFRUIT INDUSTRIES 155 STANDARD SERVO - TOWERPRO SG-5TOWERPRO SG-5010, but this motor requires a seperate power source and the AAA battery case I bought isn't working. 
+At the beginning, the first thing I chose to work on is to incorperate a servo motor, so the box for the PiT Bot can turn around, like what has shown in the original storyboard. I got the the ADAFRUIT INDUSTRIES 155 STANDARD SERVO - TOWERPRO SG-5TOWERPRO SG-5010, but this motor requires a seperate power source and the AAA battery case I bought didn't work. 
 
-As a result, I changed to a smaller servo: SG90, which can directly connect to the Pi 5V output. I also got the breadboard with correponding jumper wires and GPIO caples. However, after using this smaller servo, I realized it is impossible to get the breadboard and everything onto a tiny box. Even if everything fitted into a larger box, the servo may not have enough torque to rotate it. That's why in the end, the design changed to a LEGO base with a rotating head.
+As a result, I changed to a smaller servo: SG90, which can be directly connected to the Pi 5V output. I also got the breadboard with correponding jumper wires and GPIO caples. However, after using this smaller servo, I realized it is impossible to get the breadboard and everything onto a tiny box. Even if everything fits into a larger box, the servo may not have enough torque to rotate it. That's why in the end, the design changed to a fixed LEGO base with a rotating head.
 
 <p float="left">
 <img src="https://github.com/iamyuchy/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/servo1.png" height="250" />
