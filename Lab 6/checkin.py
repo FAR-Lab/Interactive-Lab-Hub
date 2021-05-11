@@ -51,6 +51,7 @@ while True:
 
     if check_time() and not reported:
         report()
+        reported = True
         val = "pressed"
         client.publish("IDD/checkin", val)
 
