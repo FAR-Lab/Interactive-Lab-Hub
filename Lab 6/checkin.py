@@ -17,7 +17,7 @@ client.connect(
 
 val = "whether pressed button"
 # while True:
-client.publish("checkin", val)
+client.publish("IDD/checkin", val)
 
 
 # while True:
