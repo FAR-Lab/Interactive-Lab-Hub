@@ -6,6 +6,7 @@ from subprocess import call
 from datetime import datetime
 import qwiic_button
 import time
+import pygame
 
 # Every client needs a random ID
 client = mqtt.Client(str(uuid.uuid1()))
@@ -23,6 +24,9 @@ client.connect(
 p_button = qwiic_button.QwiicButton()
 if p_button.is_connected():
     print("answer button detected!")
+
+pygame.mixer.init()
+pygame.mixer.music.load("weather.wav")
 
 reported = False
 answered = False
@@ -74,6 +78,8 @@ while True:
         print("answered")
         val = "answered"
         client.publish("IDD/checkin", val)
+    else:
+        print("button stopped")
 
 
     if reset_time():
@@ -81,8 +87,16 @@ while True:
         reported = False
 
     if check_time() and not reported:
-        report()
+        # report()
         reported = True
+
+        if pygame.mixer.music.get_busy() == True:
+            print('playing music')
+            continue
+        else:
+            pygame.mixer.music.play(1)
+            print("start to play music")
+            onpause = True
 
 
 # while True:
