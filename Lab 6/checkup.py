@@ -52,7 +52,7 @@ rotation = 90
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 font_big = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
 
-draw = ImageDraw.Draw(image)
+
 
 # some other examples
 # topic = 'IDD/a/fun/topic'
@@ -71,8 +71,10 @@ def on_message(cleint, userdata, msg):
 	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
 	# you can filter by topics
 	# if msg.topic == 'IDD/some/other/topic': do thing
-    draw.text((0.5, 10), "check in recieved", font=font, fill="#FFFFFF")
-    disp.image(image, rotation)
+    draw = ImageDraw.Draw(image)
+    print("message recieved")
+    # draw.text((0.5, 10), "check in recieved", font=font, fill="#FFFFFF")
+    display.image(image, rotation)
 
 
 # Every client needs a random ID

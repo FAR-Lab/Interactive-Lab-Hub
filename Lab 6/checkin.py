@@ -87,7 +87,7 @@ while True:
     if check_time() and not reported:
         # report()
         reported = True
-        print(time to report)
+        print("time to report")
 
         if pygame.mixer.music.get_busy() == True:
             print('playing music')
