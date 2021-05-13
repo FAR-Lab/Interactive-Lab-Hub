@@ -2,7 +2,7 @@
 
 import paho.mqtt.client as mqtt
 import uuid
-
+import numpy as np
 
 import digitalio
 import board
