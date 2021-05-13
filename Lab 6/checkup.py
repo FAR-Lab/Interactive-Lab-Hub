@@ -12,6 +12,8 @@ import adafruit_rgb_display.st7789 as st7789
 import webcolors
 from PIL import Image, ImageDraw, ImageFont
 
+import qwiic_button
+
 # ----------------
 # enable button on adafruit adafruit_rgb_display
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -91,6 +93,19 @@ client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
 
+
+p_button = qwiic_button.QwiicButton()
+if p_button.is_connected():
+    print("answer button detected!")
+
+while True:
+    if p_button.is_button_pressed():
+
+        val = "answered"
+        client.publish("IDD/checkin", "inquiry")
+
+    mqtt.loop()
+
 # this is blocking. to see other ways of dealing with the loop
 #  https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php#network-loop
-client.loop_forever()
+# client.loop_forever()
