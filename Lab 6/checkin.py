@@ -72,23 +72,22 @@ def report():
 
 
 while True:
-
+    # if recieve button pressed, send to MQTT
     if p_button.is_button_pressed():
         answered = True
-        print("answered")
         val = "answered"
         client.publish("IDD/checkin", val)
-    else:
-        print("button stopped")
 
-
+    # reset every midnight
     if reset_time():
         answered = False
         reported = False
 
+    #check if it is 9am
     if check_time() and not reported:
         # report()
         reported = True
+        print(time to report)
 
         if pygame.mixer.music.get_busy() == True:
             print('playing music')
@@ -96,20 +95,3 @@ while True:
         else:
             pygame.mixer.music.play(1)
             print("start to play music")
-            onpause = True
-
-
-# while True:
-# 	cmd = input('>> topic: IDD/')
-# 	if ' ' in cmd:
-# 		print('sorry white space is a no go for topics')
-# 	else:
-# 		topic = f"IDD/{cmd}"
-# 		print(f"now writing to topic {topic}")
-# 		print("type new-topic to swich topics")
-# 		while True:
-# 			val = input(">> message: ")
-# 			if val =='new-topic':
-# 				break
-# 			else:
-# 				client.publish(topic, val)

@@ -3,8 +3,56 @@
 import paho.mqtt.client as mqtt
 import uuid
 
-# the # wildcard means we subscribe to all subtopics of IDD
-topic = 'IDD/checkin'
+
+import digitalio
+import board
+
+from adafruit_rgb_display.rgb import color565
+import adafruit_rgb_display.st7789 as st7789
+import webcolors
+from PIL import Image, ImageDraw, ImageFont
+
+# ----------------
+# enable button on adafruit adafruit_rgb_display
+cs_pin = digitalio.DigitalInOut(board.CE0)
+dc_pin = digitalio.DigitalInOut(board.D25)
+reset_pin = None
+BAUDRATE = 64000000  # the rate  the screen talks to the pi
+# Create the ST7789 display:
+display = st7789.ST7789(
+    board.SPI(),
+    cs=cs_pin,
+    dc=dc_pin,
+    rst=reset_pin,
+    baudrate=BAUDRATE,
+    width=135,
+    height=240,
+    x_offset=53,
+    y_offset=40,
+)
+height = display.width
+width = display.height
+
+# these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+# Disable scientific notation for clarity
+np.set_printoptions(suppress=True)
+display.fill(color565(0, 255, 0))
+
+
+image = Image.new("RGB", (width, height))
+rotation = 90
+
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font_big = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
+
+draw = ImageDraw.Draw(image)
 
 # some other examples
 # topic = 'IDD/a/fun/topic'
@@ -23,6 +71,8 @@ def on_message(cleint, userdata, msg):
 	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
 	# you can filter by topics
 	# if msg.topic == 'IDD/some/other/topic': do thing
+    draw.text((0, top), "checked in today", font=font, fill="#FFFFFF")
+    disp.image(image, rotation)
 
 
 # Every client needs a random ID
