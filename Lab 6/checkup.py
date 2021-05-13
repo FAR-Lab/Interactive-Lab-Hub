@@ -71,7 +71,7 @@ def on_message(cleint, userdata, msg):
 	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
 	# you can filter by topics
 	# if msg.topic == 'IDD/some/other/topic': do thing
-    draw.text((0, top), "checked in today", font=font, fill="#FFFFFF")
+    draw.text((0.5, 10), "check in recieved", font=font, fill="#FFFFFF")
     disp.image(image, rotation)
 
 
