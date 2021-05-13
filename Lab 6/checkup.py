@@ -68,12 +68,10 @@ def on_connect(client, userdata, flags, rc):
 
 # this is the callback that gets called each time a message is recived
 def on_message(cleint, userdata, msg):
-	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
-	# you can filter by topics
-	# if msg.topic == 'IDD/some/other/topic': do thing
+    print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
     draw = ImageDraw.Draw(image)
     print("message recieved")
-    # draw.text((0.5, 10), "check in recieved", font=font, fill="#FFFFFF")
+    draw.text((0.5, 10), "check in recieved", font=font, fill="#FFFFFF")
     display.image(image, rotation)
 
 
