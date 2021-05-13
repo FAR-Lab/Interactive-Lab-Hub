@@ -26,7 +26,7 @@ if p_button.is_connected():
     print("answer button detected!")
 
 pygame.mixer.init()
-pygame.mixer.music.load("weather.wav")
+pygame.mixer.music.load("./weather.wav")
 
 reported = False
 answered = False

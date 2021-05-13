@@ -55,7 +55,7 @@ font_big = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
 
 
 # some other examples
-# topic = 'IDD/a/fun/topic'
+topic = 'IDD/checkin'
 
 #this is the callback that gets called once we connect to the broker.
 #we should add our subscribe functions here as well
