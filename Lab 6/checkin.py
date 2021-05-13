@@ -4,7 +4,8 @@ import paho.mqtt.client as mqtt
 import uuid
 from subprocess import call
 from datetime import datetime
-
+import qwiic_button
+import time
 
 # Every client needs a random ID
 client = mqtt.Client(str(uuid.uuid1()))
@@ -19,7 +20,12 @@ client.connect(
     port=8883)
 
 
+p_button = qwiic_button.QwiicButton()
+if p_button.is_connected():
+    print("answer button detected!")
 
+reported = False
+answered = False
 
 def check_time():
     now = datetime.now()
@@ -30,6 +36,18 @@ def check_time():
         attime = True
 
     return attime
+
+# reset reported detail at 12 everyday
+def reset_time():
+    now = datetime.now()
+    current_time = now.strftime("%H")
+    # print("Current Time =", current_time)
+    attime = False
+    if current_time == "12":
+        attime = True
+
+    return attime
+
 
 def report():
     reported = True
@@ -45,15 +63,27 @@ def report():
     #Calls the Espeak TTS Engine to read aloud a Text
     call([cmd_beg+cmd_out+text+cmd_end], shell=True)
 
-reported = False
+    timer = time.time()
+
+
 
 while True:
+
+    if p_button.is_button_pressed():
+        answered = True
+        print("answered")
+        val = "answered"
+        client.publish("IDD/checkin", val)
+
+
+    if reset_time():
+        answered = False
+        reported = False
 
     if check_time() and not reported:
         report()
         reported = True
-        val = "pressed"
-        client.publish("IDD/checkin", val)
+
 
 # while True:
 # 	cmd = input('>> topic: IDD/')
