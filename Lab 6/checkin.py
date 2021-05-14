@@ -73,7 +73,7 @@ def report():
 #we should add our subscribe functions here as well
 def on_connect(client, userdata, flags, rc):
 	print(f"connected with result code {rc}")
-	client.subscribe('IDD/checkin')
+	client.subscribe('IDD/checkup')
 	# you can subsribe to as many topics as you'd like
 	# client.subscribe('some/other/topic')
 
