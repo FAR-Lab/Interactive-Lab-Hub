@@ -28,7 +28,7 @@ strd = listdiv[5].text
 pos = strd.find('Wind')
 other_data = strd[pos:]
 
-text = "In " + city + "Temperature is" + temp + sky
+text = "At" + time + "In " + city + ", Temperature is" + temp + sky + ". Please press button to check in."
 #call out weather
 
 cmd_beg= 'espeak '
