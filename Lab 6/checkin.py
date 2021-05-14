@@ -91,6 +91,8 @@ def on_message(cleint, userdata, msg):
 client.on_connect = on_connect
 client.on_message = on_message
 
+
+client.loop_start()
 while True:
     # if recieve button pressed, send to MQTT
     if p_button.is_button_pressed():
@@ -115,3 +117,6 @@ while True:
         else:
             pygame.mixer.music.play(1)
             print("start to play music")
+
+client.loop_stop()    #Stop loop
+client.disconnect()
