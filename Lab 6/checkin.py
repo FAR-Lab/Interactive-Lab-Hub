@@ -36,7 +36,7 @@ def check_time():
     current_time = now.strftime("%H")
     # print("Current Time =", current_time)
     attime = False
-    if current_time == "04":
+    if current_time == "11":
         attime = True
 
     return attime
