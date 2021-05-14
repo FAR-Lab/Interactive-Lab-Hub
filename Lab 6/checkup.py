@@ -97,14 +97,15 @@ client.connect(
 p_button = qwiic_button.QwiicButton()
 if p_button.is_connected():
     print("answer button detected!")
-
+client.loop_start()
 while True:
     if p_button.is_button_pressed():
 
         val = "answered"
         client.publish("IDD/checkin", "inquiry")
 
-    client.loop_forever()
+client.loop_stop()    #Stop loop
+client.disconnect()
 
 
 # this is blocking. to see other ways of dealing with the loop
