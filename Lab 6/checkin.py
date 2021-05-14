@@ -84,11 +84,12 @@ def on_message(cleint, userdata, msg):
     print("message recieved")
     if pygame.mixer.music.get_busy() == True:
         print('playing music')
-        continue
     else:
         pygame.mixer.music.play(1)
         print("start to play music")
 
+client.on_connect = on_connect
+client.on_message = on_message
 
 while True:
     # if recieve button pressed, send to MQTT
