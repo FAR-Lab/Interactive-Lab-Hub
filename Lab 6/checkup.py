@@ -104,7 +104,8 @@ while True:
         val = "answered"
         client.publish("IDD/checkin", "inquiry")
 
-    mqtt.loop()
+    client.loop_forever()
+
 
 # this is blocking. to see other ways of dealing with the loop
 #  https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php#network-loop
