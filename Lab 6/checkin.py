@@ -69,6 +69,25 @@ def report():
 
     timer = time.time()
 
+#this is the callback that gets called once we connect to the broker.
+#we should add our subscribe functions here as well
+def on_connect(client, userdata, flags, rc):
+	print(f"connected with result code {rc}")
+	client.subscribe('IDD/checkin')
+	# you can subsribe to as many topics as you'd like
+	# client.subscribe('some/other/topic')
+
+
+# this is the callback that gets called each time a message is recived
+def on_message(cleint, userdata, msg):
+    print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
+    print("message recieved")
+    if pygame.mixer.music.get_busy() == True:
+        print('playing music')
+        continue
+    else:
+        pygame.mixer.music.play(1)
+        print("start to play music")
 
 
 while True:

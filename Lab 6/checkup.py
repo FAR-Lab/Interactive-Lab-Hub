@@ -102,7 +102,7 @@ while True:
     if p_button.is_button_pressed():
 
         val = "answered"
-        client.publish("IDD/checkin", "inquiry")
+        client.publish("IDD/checkup", "inquiry")
 
 client.loop_stop()    #Stop loop
 client.disconnect()
