@@ -85,12 +85,29 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
+This is a teamwork from Wengqing and Heidi
+
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+
+Glocal aging is now a rising issue. Many elderlies live alone and do not recieve much attention from other social bounding. There are many cases, especially in Asia, that an old people die out of sudden illness but no one discovers until corspe smell prevalent in the building. Because a sudden illness is not discovered in time, the golden time for saving their life is thus missed. The Oscar-winning movie "Okuribito" narrates a chapter on a similar story. In this project, we designed a system that enable an lonely elderly to have a daily report to their far away family member, without much friction that distrubs any of their life. We coded a very straitford communication protocol that only requires pressing button. At first we wanted to detect the sound & action track in the elderly's home everyday. But such supervision invades the user's privacy and therefore leaves a bad impression. Moreover, instead of directly asking them to "check-in" every morning, we nudge it by reporting the live weather for a much better user experience. Therefore, the system is respecful of their privacy and agency. 
+
+<p float="left">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%206/movie.jpeg" height="300" />
+</p>
+A screenshot from the movie
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+<p float="left">
+<img src="https://github.com/HeidiHe/Interactive-Lab-Hub/blob/Spring2021/Lab%206/lab6_diagram.png" height="600" />
+</p>
+
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+The system requires a little bit a training for the elderly. But given that we make our best to simplify it, there is little friction for them to use everyday. 
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+video: 
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
