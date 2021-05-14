@@ -96,6 +96,7 @@ Glocal aging is now a rising issue. Many elderlies live alone and do not recieve
 </p>
 A screenshot from the movie
 
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 <p float="left">
@@ -108,6 +109,6 @@ The system requires a little bit a training for the elderly. But given that we m
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-video: 
+video: https://youtu.be/VqCQJ_bMAIU
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
