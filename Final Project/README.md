@@ -6,7 +6,7 @@ Functional check-off - May 10
  
 Final Project Presentations (video watch party) - May 12
 
-
+Here is the link to my final project github: https://github.com/nagrawal44/Interactive-Lab-Hub/tree/master/final_project
 
 ## Objective
 
