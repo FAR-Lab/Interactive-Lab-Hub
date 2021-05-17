@@ -11,4 +11,4 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 6. Where We Go One, We Go All](Lab%206/)
 
-[Final Project](Final%20Project/)
+[Final Project](https://github.com/williamzhang012998/CS5424-Final-Project)
