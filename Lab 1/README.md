@@ -6,9 +6,9 @@ In the original stage production of Peter Pan, Tinker Bell was represented by a 
 
 There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
 
+For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
 
-
-For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
+_Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
 
 
