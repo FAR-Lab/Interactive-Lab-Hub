@@ -15,10 +15,9 @@ _Make sure you read all the instructions and understand the whole of the laborat
 ## Prep
 
 ### To start the semester, you will need:
-1. Set up [your Github "Lab Hub" repository](../../../) by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md).
-2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how to](https://guides.github.com/features/mastering-markdown/) post links to your submissions on your README.md so we can find them easily.
-
-
+1. Set up [your own Github "Lab Hub" repository](../../../) to keep all you work in record by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md).
+2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how to](https://guides.github.com/features/mastering-markdown/) orginize and post links to your submissions on your README.md so we can find them easily.
+(extra 3. Learn about what exactly is git from [here] (https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).)
 
 ### For lab, you will need:
 
