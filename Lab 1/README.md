@@ -17,7 +17,7 @@ _Make sure you read all the instructions and understand the whole of the laborat
 ### To start the semester, you will need:
 1. Set up [your own Github "Lab Hub" repository](../../../) to keep all you work in record by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md).
 2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how to](https://guides.github.com/features/mastering-markdown/) orginize and post links to your submissions on your README.md so we can find them easily.
-3. (extra: Learn about what exactly is git from [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).)
+3. (extra: Learn about what exactly Git is from [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).)
 
 ### For lab, you will need:
 1. Paper
@@ -35,9 +35,9 @@ _Make sure you read all the instructions and understand the whole of the laborat
 1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
 
 ## The Report
-This README.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
+This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
 
-## Overview
+## Lab Overview
 For this assignment, you are going to:
 
 A) [Plan](#part-a-plan) 
