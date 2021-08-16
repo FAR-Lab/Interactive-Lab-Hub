@@ -20,12 +20,11 @@ _Make sure you read all the instructions and understand the whole of the laborat
 3. (extra: Learn about what exactly is git from [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).)
 
 ### For lab, you will need:
-
 1. Paper
 1. Markers/ Pen
-1. Smart Phone--Main required feature is that the phone needs to have a browser and display a webpage.
-1. Computer--we will use your computer to host a webpage which also features controls
-1. Found objects and materials--you’ll have to costume your phone so that it looks like some other device. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case. Be creative!
+1. Smart Phone -- The main required feature is that the phone needs to have a browser and display a webpage.
+1. Computer -- We will use your computer to host a webpage which also features controls.
+1. Found objects and materials -- You will have to costume your phone so that it looks like some other devices. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case, etc. Be creative!
 1. Scissors
 
 ### Deliverables for this lab are: 
