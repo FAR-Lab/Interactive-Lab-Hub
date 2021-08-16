@@ -34,7 +34,7 @@ _Make sure you read all the instructions and understand the whole of the laborat
 1. Video sketch of the prototyped interaction
 1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
 
-## The Report
+### The Report
 This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
 
 ## Lab Overview
