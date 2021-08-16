@@ -30,13 +30,15 @@ _Make sure you read all the instructions and understand the whole of the laborat
 ### Deliverables for this lab are: 
 1. Storyboard
 1. Sketches/photos of costumed device
-1. Any reflections you have on the process.
-1. Video sketch of the prototyped interaction.
-1. Submit these in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+1. Any reflections you have on the process
+1. Video sketch of the prototyped interaction
+1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
 
+## The Report
+This README.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
 ## Overview
-For this assignment, you are going to 
+For this assignment, you are going to:
 
 A) [Plan](#part-a-plan) 
 
@@ -49,9 +51,6 @@ D) [Wizard the device](#part-d-wizard-the-device)
 E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
-
-## The Report
-This README.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
