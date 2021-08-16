@@ -100,6 +100,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
@@ -108,6 +109,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
 
 ## Part E. Costume the device
 
@@ -127,6 +129,8 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+
+
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
@@ -142,7 +146,7 @@ You will be assigned three partners from another group. Go to their github pages
 
 Do last week’s assignment again, but this time: 
 1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
+2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
-\*\***Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
