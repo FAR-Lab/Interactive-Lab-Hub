@@ -19,7 +19,7 @@ _Make sure you read all the instructions and understand the whole of the laborat
 2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how to](https://guides.github.com/features/mastering-markdown/) orginize and post links to your submissions on your README.md so we can find them easily.
 3. (extra: Learn about what exactly Git is from [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).)
 
-### For lab, you will need:
+### For this lab, you will need:
 1. Paper
 2. Markers/ Pens
 3. Scissors
