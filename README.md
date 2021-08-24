@@ -1,21 +1,19 @@
-# Interactive-Lab-Hub
+# [Your name here]'s-Lab-Hub
+for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
-Completed Prelabs for Wen-Ying Lee
+Please place links here to the README.md's for each of your labs here:
 
-1. Prelab 1 (completed)
-2. Prelab 2 (completed)
-3. Prelab 3 (completed)
-4. Prelab 4 (completed)
-5. Prelab 5 (completed)
-6. Prelab 6 (completed)
-7. Prelab 7 (completed)
+[Lab 1. Staging Interaction](Lab%201/)
 
-Completed Labs for Wen-Ying Lee
+[Lab 2. The Clock of Pi](Lab%202/)
 
-1. [Lab 1](//github.com/wendy039474/IDD-Fa18-Lab1)
-2. [Lab 2](//github.com/wendy039474/IDD-Fa19-Lab2)
-3. [Lab 3](//github.com/wendy039474/IDD-Fa19-Lab3)
-4. [Lab 4](//github.com/wendy039474/IDD-Fa19-Lab4)
-5. [Lab 5](//github.com/wendy039474/IDD-Fa19-Lab5)
-6. [Lab 6](//github.com/wendy039474/IDD-Fa19-Lab6)
-7. [Lab 7](//github.com/wendy039474/IDD-Fa19-Lab7)
+[Lab 3. You're a Wizard](Lab%203/)
+
+[Lab 4. Ph-UI!!!](Lab%204/)
+
+[Lab 5. Observant Systems](Lab%205/)
+
+[Lab 6. Where We Go One, We Go All](Lab%206/)
+
+[Final Project](Final%20Project/)
+
