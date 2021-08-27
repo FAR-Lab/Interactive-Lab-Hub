@@ -11,20 +11,20 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 ## Prep
 
-[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Wednesday.
+[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
 
 ### Get your kit
-If you are overseas, you should have already ordered your parts.
+<!--If you are overseas, you should have already ordered your parts.-->
 
-If you are remote but in the US, the teaching team mailed parts last week.
+If you are remote, the teaching team should have mailed the kit to you last week.
 
 If you are in New York, you can pick up your parts. If you have not picked up your parts by class you should come to Tata 351.
 
 ### Set up your Lab 2
 
-1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Spring/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Wednesday.)
+1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
 
-In terminal cd into your Interactive-Lab-Hub folder and run 
+In terminal, cd into your Interactive-Lab-Hub folder and run 
 
 ```
 Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
