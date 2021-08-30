@@ -1,2 +1,0 @@
-# Parts list inventory
-
