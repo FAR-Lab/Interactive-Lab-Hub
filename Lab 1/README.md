@@ -89,7 +89,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
-_Device:_ 
+_Feedback:_ 
 - Perhaps you could interact with the lighted crystal ball in some way after it lights up. Maybe the light moves to one side, or pules.
 - You can try projecting an image into the crystal ball instead.
 
