@@ -36,11 +36,11 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 	country=US
 	
 	network={
-	 ssid="/*/*/*<Name of your wireless LAN>/*/*/*"
-	 psk="/*/*/*<Password for your wireless LAN>/*/*/*"
+	 ssid="<Name of your wireless LAN>"
+	 psk="<Password for your wireless LAN>"
 	}
 	```
-    Make sure to update the above contents with your own network information.
+    Make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk```.
 	
     This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network.
 
