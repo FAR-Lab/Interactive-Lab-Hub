@@ -9,8 +9,7 @@ Prior to lab Wednesday, taken inventory of the kit parts that you have, and note
 
 - [Raspberry Pi 4](https://www.adafruit.com/product/4296)
 - [Power Supply](https://www.adafruit.com/product/4298)
-- [SD card](https://www.bhphotovideo.com/c/product/1536561-REG/silicon_power_sp032gbsthbv1v20sp_32gb_elite_a1_uhs_1.html/reviews)
-- [SD card reader](https://www.bhphotovideo.com/c/product/751120-REG/Iogear_GFR204SD_10_in_1_USB_2_0_SD_MicroSD_MMC.html)
+- [SD card + Reader](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294)
 - [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393)
 
 <!--Done this part for all the students already so no needs (Fall2021)
@@ -27,30 +26,30 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 2. Choose the downloaded file for "Choose OS" and the SD card for "Choose SD card" then hit write.
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />-->
 
-### Setting up your OS
-1. Plug the SD card into your computer using the card reader, you should be able to see a desk name "boot".
-2. Configure the Pi for <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a> . Create a file called "wpa_supplicant.conf" in the Boot image of the new disk. The file contents should have the following:
+### Setting up your OS for the Pi
+1. Plug the SD card into your computer using the card reader, you should be able to see a disk name "boot".
+2. Configure the Pi for <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>: Create a file called "wpa_supplicant.conf" in the "boot" disk. The file contents should have the following:
 
 	```
 	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 	update_config=1
-	country=<Insert 2 letter ISO 3166-1 country code here, for the United states it is US>
+	country=US
 	
 	network={
-	 ssid="<Name of your wireless LAN>"
-	 psk="<Password for your wireless LAN>"
+	 ssid="\*\*\*<Name of your wireless LAN>\*\*\*"
+	 psk="\*\*\*<Password for your wireless LAN>\*\*\*"
 	}
 	```
 Make sure to update the above contents with your own network information.
 	
-This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network
+This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network.
 
-3. Eject or unmount the microSD card drive, and then remove it and reinsert it into the RPi in the slot on the bottom (silver rectangle on the right)
+3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right)
 
 <img src="https://cdn-shop.adafruit.com/1200x900/4296-12.jpg" alt="Pi bottom side" height="200" />
 
 
-4. Boot the RPi by connecting it to a power source
+4. Boot the Pi by connecting it to a power source with USB-C connector.
 
 ### Try to set up your Pi to run in headless mode
 
