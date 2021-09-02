@@ -69,6 +69,15 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+_Setting:_ A small, dim circus tent lit only by candles. There is a table with two chairs on opposite sides. On the table is a clear, unlit glass ball.
+
+_Players:_ The fortune teller and a client.
+
+_Activity:_ The fortune teller is doing a crystal ball reading for the client.
+
+_Goals:_ The fortune teller is trying to trick the client into thinking magic is happening and it's real, and the client wants to hear their fortune.
+
+_Device:_ The interactive device is the crystal ball, or rather, a phone disguised under the crystal ball. It will light up the ball when prompted.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
