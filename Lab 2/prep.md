@@ -36,8 +36,8 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 	country=US
 	
 	network={
-	 ssid="\*\*\*<Name of your wireless LAN>\*\*\*"
-	 psk="\*\*\*<Password for your wireless LAN>\*\*\*"
+	 ssid="/*/*/*<Name of your wireless LAN>/*/*/*"
+	 psk="/*/*/*<Password for your wireless LAN>/*/*/*"
 	}
 	```
     Make sure to update the above contents with your own network information.
