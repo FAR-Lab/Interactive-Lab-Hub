@@ -27,8 +27,8 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />-->
 
 ### Setting up your OS for the Pi
-1. Plug the SD card into your computer using the card reader, you should be able to see a disk name "boot".
-2. Configure the Pi for <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>: Create a file called "wpa_supplicant.conf" in the "boot" disk. The file contents should have the following:
+1. Plug the SD card into your computer using the card reader, you should be able to see a disk named "boot".
+2. Configure the Pi for <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>: Create a file called ```wpa_supplicant.conf``` in the "boot" disk. The file contents should have the following text:
 
 	```
 	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -40,9 +40,9 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 	 psk="\*\*\*<Password for your wireless LAN>\*\*\*"
 	}
 	```
-Make sure to update the above contents with your own network information.
+    Make sure to update the above contents with your own network information.
 	
-This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network.
+    This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network.
 
 3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right)
 
