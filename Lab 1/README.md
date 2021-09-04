@@ -99,9 +99,10 @@ _Feedback:_
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+- Trying to do light flashes with the Tinkerbelle program is a bit harder than it looks. Also, having sounds should be tested first, because certain sounds are longer or short than expected.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+- Having changing colors to reflect what's happening in the scene.
 
 ## Part C. Prototype the device
 
@@ -114,6 +115,9 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
+_Feedback:_ 
+- No problems using the tool.
 
 
 ## Part D. Wizard the device
