@@ -59,24 +59,36 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 To stage the interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+- This interaction is happening in the bedroom or in a car. This is happening when the user forgets his or her key in the bedroom or in the car. The sensor will know when the key is out of range or if the user leaves the room/car without it.
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+- The players are people who have cars, who live in a room, roommates, passengers.
 
 _Activity:_ What is happening between the actors?
+- The actor will exit a room and the light from the sensor and from the phone will turn on if their key is inside the room.
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+- Goals for each player is to exit a room.
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+- This interaction is happening in the bedroom or in a car. This is happening when the user forgets his or her key in the bedroom or in the car. The sensor will know when the key is out of range or if the user leaves the room/car without it.
+- The players are people who have cars, who live in a room, roommates, passengers.
+- The actor will exit a room and the light from the sensor and from the phone will turn on if their key is inside the room.
+- The goal for each player is to exit a room.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
 
+https://drive.google.com/file/d/1rWByN_DyfqdJsVgyflGi_MSuDQFrVmU0/view?usp=sharing
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+Everyone thought the idea is very useful and great. One question that was asked was how would the sensor know what's inside and outside? My answer is that we can turn the sensor inward and specify the area of the room. Once the sensor is setup, it will know the range of the room and what's inside and what's outside of the room. Another question was asked is how would the sensor know where the key is? I would say similarly to Tile, it can track the location of the sticker attached to the key. This could be thought of as an extension of Tile.
 
 
 ## Part B. Act out the Interaction
@@ -85,8 +97,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+Yes, the position of the camera might be right for the situation to make sense. On paper, I was able to draw out a birds eyeview of situation.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+No
 
 ## Part C. Prototype the device
 
@@ -99,6 +114,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+I thought it was a great idea; however, I don't know my WiFi iPv4 address, so I did not get it to work.
 
 
 ## Part D. Wizard the device
@@ -106,10 +122,13 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+https://drive.google.com/file/d/1s87j-X1ksuXVuB2lJSaVEA-Fh-McVa5p/view?usp=sharing
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+https://drive.google.com/file/d/1s87j-X1ksuXVuB2lJSaVEA-Fh-McVa5p/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -118,13 +137,16 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+https://drive.google.com/file/d/1TYmGxwpeNjJe52sG7y3bMnkfYtGjchbU/view?usp=sharing
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+Some concerns include where to tell the user to position the sensor. If it's too tall, then users might not be able to see it. If it's too short, they also cannot see it. There is an opportunity to do some user testing and see what works best for users' peripheral vision. Another concern is whether the adhesive will damage the wall. There is an opportunity for us to partner/look for adhesives that are easily removed without damanging properties.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
+https://drive.google.com/file/d/1V6ppzn4Aqr31Qr2x-GIsbCVuxv5rsckM/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
