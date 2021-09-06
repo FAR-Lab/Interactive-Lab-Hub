@@ -59,11 +59,11 @@ To address the concern stated above, I decided to have the light flashing on and
 
 ## Part C. Prototype the device
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
+\*\***Give us feedback on Tinkerbelle.**\*\* <br />
+I have to say I like how easy it is to set up Tinkerbelle and use it to mirror and change colors on my phone. Many of my friends had problems setting it up and getting the servers connected, so I was a bit intimidated before settin it up on my own. But the process of hooking it up was smooth and the mirroring between my laptop and my phone wasn't choppy or lagging at all. Overall, it waa a positive experience using Tinkerbelle.
 
 
-## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+## Part D. Wizard the device 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
