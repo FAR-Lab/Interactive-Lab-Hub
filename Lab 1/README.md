@@ -49,25 +49,15 @@ The interaction with my interactive device would take place in the kitchen as th
 \*\***Summarize feedback you got here.**\*\* <br />
 People thought this device would be useful as an add-on to the smart home appliances. Something they suggested me to think about in the next stage is to include sounds as it may be more alarming than pure flashing lights -- "Users could miss the light signal if they leave the kitchen right after grabbing food from the fridge."
 
-
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+\*\***Are there things that seemed better on paper than acted out?**\*\* <br />
+On paper, it seemed like the fridge is right next to the user, and therefore, a simple color change (green > red) could catch the user's attention. However, when acting it out, I discovered that static color signal wasn't alarming enough. You could barely notice it if your back is against the fridge or if you are far away from the fridge.
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\* <br />
+To address the concern stated above, I decided to have the light flashing on and off quickly to make it more noticeable and alarming.
 
 ## Part C. Prototype the device
-
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-``Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
