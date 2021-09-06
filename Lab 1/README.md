@@ -83,10 +83,10 @@ Since there should be a way for the device to be adhere to the fridge door, I de
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+\*\***Take a video of your prototyped interaction.**\*\* <br />
 Video: https://drive.google.com/file/d/1wUUo7_6n62GB4SuuFOEXbx--G0powKEv/view?usp=sharing
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\* <br />
 My friend, Aaron. 
 
 
