@@ -69,14 +69,27 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+_Setting:_ Two different rooms in a house
+
+_Players:_ Parent who is working from home and a baby
+
+_Activity:_ The baby is crying in a room and the parent is on a zoom meeting in a different room.
+
+_Goals:_ Instead of the parent getting a loud noise on the baby monitor, a light source flashes alerting the parents of the child crying. This can help parents who are working from home to monitor their babies in a non-intrusive way using light
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
+![Storyboard](https://drive.google.com/file/d/13sKppYrqIETwrrzRmOP0bV3xyF-bV4U7/view?usp=sharing)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+_Roommates:_ The idea is great and interesting. Could be useful to the parents given the current scenario. Also try to communicate the urgency or intensity of the baby’s crying to the parent
 
 
 ## Part B. Act out the Interaction
@@ -85,7 +98,14 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+The initial plan involved using the room light as the alerting light. But the intensity of that is very low especially during the day. So we shifted towards a table/bedside lamp.
+It’s hard to act out and record scenes happening in separate rooms at the same time, which is easy to deliver on paper.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+We decided to place the mobile phone controlled using tinkerbelle inside the table lamp instead of using the light bulb in the lamp itself as a lightsource.
+The light source should be placed somewhere more visible.
+Changing the intensity of the light based on the baby’s volume could be done usng other light sources like smart lighting.
 
 
 ## Part C. Prototype the device
@@ -100,9 +120,12 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Tinkerbelle works great with colour changing and the interaction is seamless. We hope it can include features such as blinking and gradual variation of intensity too. 
+
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+![wizard](https://drive.google.com/file/d/1QzRQtnrdjTlRJjqTUc63KL_jYwXGuNoF/view?usp=sharing)
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
@@ -120,6 +143,8 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Include sketches of what your device might look like here.**\*\*
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+As we understood from the acting out step, the communication has to be equally effective both during the day and at night. So we decided to use the bedside lamp. Also a better alternative to the device would be a smart lamp controlled again by the sound of the baby’s noise.
 
 
 ## Part F. Record
