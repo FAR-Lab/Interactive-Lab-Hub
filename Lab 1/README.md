@@ -100,7 +100,7 @@ If you run into technical issues with this tool, you can also use a light switch
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
+\*\***Only recorded once so I have not included additional recording attempts.**\*\*
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -122,7 +122,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+\*\***In class, I brainstormed with Larry Xu, Jenny Li, and Brandon Newman. Together we decided that the best uses for the light would be for detection and that different colors should represent distinct stages or needs.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
