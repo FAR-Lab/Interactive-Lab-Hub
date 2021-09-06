@@ -68,7 +68,12 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+\*\*
+Setting: The interaction is happing in residential housing settings, specifically right on top or beside the hallway light switch by the door to outside that people will turn off during leaving the house. A light will signal the outside temperature with colors ranging from red (represents warm) to blue (represents cold) relavant to current season. 
+Players: The player involved in the interaction is the resident in the household that currently planning to leave the house. 
+Activity: When the user/resident plans to leave the house and turn off the light by the front door (usually hallway light and the last light to turn off when leaving), the light will be turned off 
+Goals:
+\*\*
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
