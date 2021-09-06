@@ -66,12 +66,12 @@ I have to say I like how easy it is to set up Tinkerbelle and use it to mirror a
 ## Part D. Wizard the device 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\* <br />
-Video: https://drive.google.com/file/d/1AJ7H48xXZtXWF-TzNpZcJAjpKj6va-LB/view?usp=sharing
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+The first attempt is to make the device an indicator - when the fridge door is open, the device turns red to indicate that the door is not properly closed.
+Video: https://drive.google.com/file/d/1CCJTenX7HRHGCey4Y-zkiCjuf6HsndhJ/view?usp=sharing
 
 \*\***Show the follow-up work here.**\*\*
-
+If the goal is to indicate the states of the fridge door, two different colors, red and green, might be sufficient. But if the device would act as an alarming system, then an additional color and flashing sequence are required to mimic the interaction. 
+Video: https://drive.google.com/file/d/1ic_jV6gpDw7ZwSBZkM5m--VDYTe10rxG/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -81,7 +81,9 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\* <br />
+The device should be in a good size so that users can see if from a 
 
 
 ## Part F. Record
