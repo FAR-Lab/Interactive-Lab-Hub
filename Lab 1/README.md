@@ -120,7 +120,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+![video](https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Flower%20Pot.mp4)
 
 \*\***In class, I brainstormed with Larry Xu, Jenny Li, and Brandon Newman. Together we decided that the best uses for the light would be for detection and that different colors should represent distinct stages or needs.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
