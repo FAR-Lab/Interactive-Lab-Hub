@@ -83,7 +83,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
-![Storyboard](https://drive.google.com/file/d/13sKppYrqIETwrrzRmOP0bV3xyF-bV4U7/view?usp=sharing)
+![Storyboard](https://github.com/nehamanjunath3/Interactive-Lab-Hub/blob/Fall2021/Lab%201/images/Screen%20Shot%202021-09-06%20at%206.01.09%20PM.png)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -125,13 +125,22 @@ Tinkerbelle works great with colour changing and the interaction is seamless. We
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-![wizard](https://drive.google.com/file/d/1QzRQtnrdjTlRJjqTUc63KL_jYwXGuNoF/view?usp=sharing)
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
+
+
+
+
+
+https://user-images.githubusercontent.com/64258179/132265393-9427e63a-c3d8-40ee-8fb2-a80e01bb12f2.mov
+
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
+
 
 
 ## Part E. Costume the device
@@ -141,6 +150,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+![Device sketches](https://github.com/nehamanjunath3/Interactive-Lab-Hub/blob/Fall2021/Lab%201/images/Screen%20Shot%202021-09-06%20at%206.15.21%20PM.png)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
@@ -153,6 +163,10 @@ As we understood from the acting out step, the communication has to be equally e
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+
+https://user-images.githubusercontent.com/64258179/132265404-ac721a43-5458-41a2-bfd0-3cb947a91807.mov
+
 
 
 
