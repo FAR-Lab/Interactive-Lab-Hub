@@ -44,7 +44,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 The interaction with my interactive device would take place in the kitchen as the device I'm designing is a fridge door alarm. When a fridge door is not properly shut close, the door alarm would be triggered and start flashing to alert the user. I believe this tool is especially useful for people who live alone where there isn't a second person to remind them and/or close the fridge door for them. Like other alarm systems, this device would help people living solo to be more attentive to their living spaces. It surely would help ensure food preservation is maximized by signaling if the fridge door is left open.
 
 \*\***Include a picture of your storyboard here**\*\* <br />
-
+![P1:Storyboard](./images/Storyboard.jpg)
 
 \*\***Summarize feedback you got here.**\*\* <br />
 People thought this device would be useful as an add-on to the smart home appliances. Something they suggested me to think about in the next stage is to include sounds as it may be more alarming than pure flashing lights -- "Users could miss the light signal if they leave the kitchen right after grabbing food from the fridge."
