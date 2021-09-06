@@ -66,6 +66,7 @@ I have to say I like how easy it is to set up Tinkerbelle and use it to mirror a
 ## Part D. Wizard the device 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\* <br />
+![Set-up](./images/Set-up.mov)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
