@@ -58,17 +58,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ In a person's home near a window.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ The inexperienced plant owner and the plant.
 
-_Activity:_ What is happening between the actors?
+_Activity:_ The plant owner is trying to detect the plant's needs and take care of it. The plant is growing, photosynthesizing, and doing other plant things.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
-\*\***Describe your setting, players, activity and goals here.**\*\*
+_Goals:_ The goal of the plant owner is to take care of the plant so it looks healthy and adds decoration to their room. The goal of the plant is to stay alive.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
@@ -76,14 +72,14 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
-\*\***Summarize feedback you got here.**\*\*
+\*\***People liked the idea of different lights for different needs, but noted that the colors' meanings needed to be very clear.**\*\*
 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+\*\***When watering, I had to make sure to be standing such that the light was visible to avoid over-watering.**\*\*
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
@@ -98,7 +94,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
+\*\***Tinkerbelle feedback: Very cool, though took me a while to understand the instructions on how to set it up. Would be cool to choose two colors and use the interface to switch between them with a gradient effect rather than just a selected color, white, and black. The audio effect was a little weird, noises repeated at different rates and sometimes kept going after I hit stop**\*\*
 
 
 ## Part D. Wizard the device
@@ -108,7 +104,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-\*\***Show the follow-up work here.**\*\*
+\*\***^I don't understand what this means.**\*\*
 
 
 ## Part E. Costume the device
@@ -117,9 +113,9 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-\*\***Include sketches of what your device might look like here.**\*\*
+\*\***See storyboard for sketches.**\*\*
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+\*\***The electronics will need to be water resistant, especially if some water spills onto the outside of the pot. May need some heat resistance for especially hot, sunny days. If the pot is placed outside, it may need additional durability. I have not included a power source, so I imagine it will be solar-powered.**\*\*
 
 
 ## Part F. Record
