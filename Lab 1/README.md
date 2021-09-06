@@ -79,16 +79,15 @@ Video: https://drive.google.com/file/d/1ic_jV6gpDw7ZwSBZkM5m--VDYTe10rxG/view?us
 ![P2:Costume](./images/Costume.jpg)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\* <br />
-The device should be in a good size so that users can see if from a 
-
+Since there should be a way for the device to be adhere to the fridge door, I decided to add a magnet at the back of the device. Also, the light signal should be noticed even from distance, so I designed the surface where the light inidicator to be in a good size and good brightness level with great contrast from the surrounings.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+Video: https://drive.google.com/file/d/1wUUo7_6n62GB4SuuFOEXbx--G0powKEv/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
+My friend, Aaron. 
 
 
 # Staging Interaction, Part 2 
