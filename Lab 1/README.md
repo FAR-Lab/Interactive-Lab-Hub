@@ -47,25 +47,25 @@ The interaction with my interactive device would take place in the kitchen as th
 ![P1:Storyboard](./images/Storyboard.jpg)
 
 \*\***Summarize feedback you got here.**\*\* <br />
-People thought this device would be useful as an add-on to the smart home appliances. Something they suggested me to think about in the next stage is to include sounds as it may be more alarming than pure flashing lights -- "Users could miss the light signal if they leave the kitchen right after grabbing food from the fridge."
+People thought this device would be useful as an add-on to smart home appliances. Something they suggested is to include sounds in the next stage as it may be more alarming than pure flashing lights -- "Users could miss the light signal if they leave the kitchen right after grabbing food from the fridge."
 
 ## Part B. Act out the Interaction
 
 \*\***Are there things that seemed better on paper than acted out?**\*\* <br />
-On paper, it seemed like the fridge is right next to the user, and therefore, a simple color change (green > red) could catch the user's attention. However, when acting it out, I discovered that static color signal wasn't alarming enough. You could barely notice it if your back is against the fridge or if you are far away from the fridge.
+On paper, it seemed like the fridge is right next to the user, and therefore, a simple color change (green > red) could catch the user's attention. However, when acting it out, I discovered that the static color signal wasn't alarming enough. You could barely notice it if your back is against the fridge or if you are far away from the fridge.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\* <br />
-To address the concern stated above, I decided to have the light flashing on and off to make it more noticeable and alarming. Inspired by the microwave beeping, I also considered flashing speed. If the door is left open for 1 minute, the light would flash quickly, and when it reaches 3 minute mark, the speed would even get accelerated to provide a sense of urgency.
+To address the concern stated above, I decided to have the light flashing on and off to make it more noticeable and alarming. Inspired by the microwave beeping, I also considered flashing speed. If the door is left open for 1 minute, the light would flash quickly, and when it reaches 3-minute mark, the speed would even get accelerated to provide a sense of urgency.
 
 ## Part C. Prototype the device
 
 \*\***Give us feedback on Tinkerbelle.**\*\* <br />
-I have to say I like how easy it is to set up Tinkerbelle and use it to mirror and change colors on my phone. Many of my friends had problems setting it up and getting the servers connected, so I was a bit intimidated before settin it up on my own. But the process of hooking it up was smooth and the mirroring between my laptop and my phone wasn't choppy or lagging at all. Overall, it waa a positive experience using Tinkerbelle.
+I have to say I like how easy it is to set up Tinkerbelle and use it to mirror and change colors on my phone. Many of my friends had problems setting it up and getting the servers connected, so I was a bit intimidated before setting it up on my own. But the process of hooking it up was smooth and the mirroring between my laptop and my phone wasn't choppy or lagging at all. Overall, it was a positive experience using Tinkerbelle.
 
 
 ## Part D. Wizard the device 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
+\*\***Include your first attempts at recording the set-up video here.**\*\* <br />
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
