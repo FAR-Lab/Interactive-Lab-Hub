@@ -55,7 +55,7 @@ People thought this device would be useful as an add-on to the smart home applia
 On paper, it seemed like the fridge is right next to the user, and therefore, a simple color change (green > red) could catch the user's attention. However, when acting it out, I discovered that static color signal wasn't alarming enough. You could barely notice it if your back is against the fridge or if you are far away from the fridge.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\* <br />
-To address the concern stated above, I decided to have the light flashing on and off quickly to make it more noticeable and alarming.
+To address the concern stated above, I decided to have the light flashing on and off to make it more noticeable and alarming. Inspired by the microwave beeping, I also considered flashing speed. If the door is left open for 1 minute, the light would flash quickly, and when it reaches 3 minute mark, the speed would even get accelerated to provide a sense of urgency.
 
 ## Part C. Prototype the device
 
