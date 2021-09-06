@@ -82,9 +82,13 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 \*\***Include a picture of your storyboard here**\*\*
 
+https://drive.google.com/file/d/1Q4HuA_H5aNpeCAJPeeFfpP7AZwnVkdYF/view?usp=sharing
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+Group members thought this was an interesting idea. They liked the idea of using lighting as a guide/visual assistant through a series of yoga poses. The initial proposal was to have posture recognition integrated with lighting as a visual cue for yoga practitioners, however it was suggested to try something simpler first such as pose timing and transition assistance. I liked this feedback from a feasability standpoint, and agree that the simpler use case is much more practical. An ultimate goal of the idea could still be to attempt integration of lighting with posture recognition. 
 
 
 ## Part B. Act out the Interaction
@@ -93,7 +97,15 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+Posture recognition and integrated lighting was a good idea on paper, but in practice it did not work so well. The premise of the idea is that as you work into a particular pose, the lights will go from a low to high brightness thereby providing you an indicator of when you are roughly in the correct pose. However, this had several challenges. It was easy to tell when I was not yet in the correct posture by the dimness of the light, but difficult to ascertain when I had reached the correct/optimal position. Additionally, there was no indication of when I overextended beyond a certain posture.
+
+Using lighting for pose timing and when to change poses was much smoother. When in a certain pose, I could guage how long I should stay in the pose by the timing of the brightening of the light. A blink of the light would alert me that it was time to transition into the next pose, and I would time my transition again by the dimming to brightening time of the light. 
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+The initial difficulty of interpreting the lighting's purpose inspired the simplifying of the instructions. Easier to understand visual cues such as blinks and brightening/dimming are much easier to understand. 
+
+Another idea that came up was to use different colors for the lighting. Many yoga poses can have a long series of postures, and color coding the sequence can be a useful indicator of where you are in the practice.
 
 
 ## Part C. Prototype the device
@@ -107,6 +119,8 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
+Instead of the tinkerbelle tool, I opted to use Philips Hue smart lighting that I have in my apartment. The lighting provides all the functionality needed (blinking, fading/brightening, color changes, etc) to simulate the idea. 
 
 
 ## Part D. Wizard the device
