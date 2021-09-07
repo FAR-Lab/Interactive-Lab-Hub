@@ -84,11 +84,12 @@ F) [Record the interaction](#part-f-record)
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+![image](https://user-images.githubusercontent.com/42874337/132280544-017f1aa2-d221-4bc4-911f-170cff9135a8.png)
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-
+**I want the design to be as thin, as close to the thickness of a mirror as possible, so it can asthetically fit in the bedroom design. Also I designed it to be powered by button battery so it can be portable and physically space saving. If in future designs the information deliver system involves more than just lights, than it can also be using a LED or OLED screen to provide more weather information and even other relavant information in the same design.
 
 
 ## Part F. Record
@@ -96,9 +97,6 @@ F) [Record the interaction](#part-f-record)
 [![image](https://user-images.githubusercontent.com/42874337/132276912-d56f8408-fe02-4a48-b7ce-1a56d9c2369e.png)](https://drive.google.com/file/d/1VjAQrg9nY_Y2pPlKR1j6hw2vRbeYWdGP/view?usp=sharing)
 
 Contributer: Hongyu Shen, Wenlan Wei, Haohua Liu
-
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
 
 
 # Staging Interaction, Part 2 
