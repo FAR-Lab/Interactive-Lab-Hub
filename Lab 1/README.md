@@ -79,7 +79,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 **Story Board:**
-![2b50050f837811c7e234d341172b84b](https://user-images.githubusercontent.com/42874337/132269476-c0b14f88-d8b5-4be1-9ea2-1d2152d24dca.jpg)
+![2b50050f837811c7e234d341172b84b](https://user-images.githubusercontent.com/42874337/132269814-0453aa18-c5a3-4d8f-8f8f-09ddf565285b.jpg)
 
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
@@ -99,9 +99,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Acting Result:**
 
-**The action**
+**The action feels smoother than I expected, and the association with switch connects the behavior of "exiting" with what's the temperature is going to be like outside, which is intuitive and easy to understand the association. However, as the feedback suggests, it does feel less useful due to the fact that if I want to change cloth I'd have to go back. Also, just like roommate noise in Alexa, people might have different reasons to turn on or off the light (though the information doesn't hurt, it do feels not efficient enough).**
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+**New Ideas:**
+
+**Due to the acting experience, I decided to change the settings and the interaction method. The temperature light will now be placed in the bedroom/dressing room setting, specifically by the mirror, which people mostly visit only when dressing up or changing cloth. The temperature light will now be associated with a motion detector that detect whether there is a person standing in front of the mirror. If a person does, it will then display the color associated with the temperature from red to blue (warm to cold) with respect to current season (delivering the idea that whether warmer than normal or colder than normal). In that case, user will be directly getting the information during changing clothes, also the information will be automtically delivered when using the mirror instead of associated with a switch.**
 
 
 ## Part C. Prototype the device
@@ -114,7 +116,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
+**Tinkerbelle is a brilliant design! The only problem I experienced is that its color is categorical in transition, so I cannot make a smooth transition from blue to red (if I want to skip purple).**
 
 
 ## Part D. Wizard the device
