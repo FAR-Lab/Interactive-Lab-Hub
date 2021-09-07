@@ -79,14 +79,17 @@ The interactive device can be anything *except* a computer, a tablet computer or
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 **Story Board:**
-![2b50050f837811c7e234d341172b84b](https://user-images.githubusercontent.com/42874337/132269145-632ff4aa-e411-4b8d-9a7c-dd0792df8e8d.jpg)
+![2b50050f837811c7e234d341172b84b](https://user-images.githubusercontent.com/42874337/132269476-c0b14f88-d8b5-4be1-9ea2-1d2152d24dca.jpg)
 
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 **Feedback: **
+
 **1) Not every user who turn off the light is for leaving the house.**
+
 **2) If leave the house in morning, might not need to go through the turn off light action.**
+
 **3) Even if noticed, would be extra work to return to bedroom and get cloth or remove cloth.**
 
 
@@ -94,7 +97,9 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+**Acting Result:**
+
+**The action**
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
