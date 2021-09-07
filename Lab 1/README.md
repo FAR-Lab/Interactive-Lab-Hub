@@ -79,8 +79,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 **Story Board:**
-![image](https://user-images.githubusercontent.com/42874337/132272366-a8044377-0b4e-4091-95e5-426979d40699.png)
-
+![image](https://user-images.githubusercontent.com/42874337/132273124-b62354fc-717b-4fe9-9394-f5613996822b.png)
 
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
@@ -123,7 +122,6 @@ If you run into technical issues with this tool, you can also use a light switch
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -143,9 +141,10 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+[![image](https://user-images.githubusercontent.com/42874337/132276912-d56f8408-fe02-4a48-b7ce-1a56d9c2369e.png)](https://drive.google.com/file/d/1VjAQrg9nY_Y2pPlKR1j6hw2vRbeYWdGP/view?usp=sharing)
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Contributer: Hongyu Shen, Wenlan Wei, Haohua Liu
+
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
