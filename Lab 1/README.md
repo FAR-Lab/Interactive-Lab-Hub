@@ -71,12 +71,12 @@ F) [Record the interaction](#part-f-record)
 
 **First SetUp:**
 
-[![image](![image](https://user-images.githubusercontent.com/42874337/132278584-f5033e5b-4604-4d71-b578-11c9b7a78457.png)](https://drive.google.com/file/d/1RqFuBfOTK79hKTt1qTOuxZC4Meb8LcjT/view?usp=sharing)
+[![image](https://user-images.githubusercontent.com/42874337/132278584-f5033e5b-4604-4d71-b578-11c9b7a78457.png)](https://drive.google.com/file/d/1RqFuBfOTK79hKTt1qTOuxZC4Meb8LcjT/view?usp=sharing)
 
 \*\***Show the follow-up work here.**\*\*
 
 **Follow-up Setup:**
-[![image](![image](![image](https://user-images.githubusercontent.com/42874337/132278874-f339754d-1fa6-4902-a26a-a5b9406a33d0.png))](https://drive.google.com/file/d/1U0sXsZ3yTmBszmU2Z3lJ66vWlRolq084/view?usp=sharing)
+[![image](![image](https://user-images.githubusercontent.com/42874337/132278874-f339754d-1fa6-4902-a26a-a5b9406a33d0.png))](https://drive.google.com/file/d/1U0sXsZ3yTmBszmU2Z3lJ66vWlRolq084/view?usp=sharing)
 
 
 ## Part E. Costume the device
