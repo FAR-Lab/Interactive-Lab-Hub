@@ -68,16 +68,31 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+-----
+**Setting**：In my grandma's house, who is living by her alone in a small village. 
+
+**Players**: Elders(Grandma)
+
+**Activity**: As in the small village, it is hard to obtain a telephone line and it is hard to study using a mobile phone for an elder as well. That is why we prepare her a simple mobile phone which could store up to 6 phone numbers and the elders are able to dial one of them with one button. However, the elders may not remember to recharge the phone everyday and this could result in unavailable to answer the phone from their children. 
+
+**Goals**: The Device is designed to settle this problem by using a simple warm orange light to inform them that their children wants to dial them or need a call back. By using this device, children could set the light as they wanted to give a call. To reduce the difficulty to remember, I suggest one light only relates to one family member. The light would not go off until the call being made.
+
+----
+
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include a picture of your storyboard here**\*\*
+ ![Sketch](./Sketch.jpg)
+
+
+----
+
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+---
 
 ## Part B. Act out the Interaction
 
@@ -104,6 +119,8 @@ If you run into technical issues with this tool, you can also use a light switch
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
+
+![test1](./IMG_0231.jpeg)
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
@@ -120,7 +137,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Include sketches of what your device might look like here.**\*\*
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+![](./IMG_0010.jpeg)
 
 ## Part F. Record
 
@@ -128,7 +145,10 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+![](./video.png)
+https://cornell.box.com/s/uje3is2a1emxvnqzmy2kxaab0r9vxfmf
 
+**Contributor: Xuanyu Fang, Hongyu Shen, Haohua Liu**
 
 
 # Staging Interaction, Part 2 
