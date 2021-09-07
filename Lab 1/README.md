@@ -89,6 +89,13 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
+_Xiaotian Liu (xl467):_
+Would be a very useful tool for WFH mothers! The illustration is cute and clear. If empowered by a sensitive babyface detector, I believe the device can really help to avoid unexpected meeting interruptions.
+
+_Jueying Li (jl2852):_
+I think that this idea is a really brilliant one. It solves the problem that a parent has to be in the same room as the child while working. Working with a child beside must be very distracting and therefore improvements are need. The status of the child is represented with the light signal. Therefore, the parent will not need to check the child's status frequently but only check the child when the signal turns red(meaning the child is crying). This design is both straightforward and creative. It is of real-world significance because it helps to unurden the caregivers, especially the working parents. One potential improvement may be to give the light more colors to indicated different status of the child. For example, there are currently sensors that can detect whether people are asleep or wake, and using this sensor, the system can not only show the child's status as crying or not, but also sleeping or awake. Overall, I really like the design and looking forward to seeing the future improvements.
+
+
 _Roommates:_ The idea is great and interesting. Could be useful to the parents given the current scenario. Also try to communicate the urgency or intensity of the baby’s crying to the parent
 
 
