@@ -19,28 +19,29 @@ F) [Record the interaction](#part-f-record)
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-**Setting: The interaction is happing in residential housing settings, specifically right on top or beside the hallway light switch by the door to outside that people will turn off during leaving the house. A light will signal the outside temperature with colors ranging from red (represents warm) to blue (represents cold) relavant to current season.**
+Setting: The interaction is happing in residential housing settings, specifically right on top or beside the hallway light switch by the door to outside that people will turn off during leaving the house. A light will signal the outside temperature with colors ranging from red (represents warm) to blue (represents cold) relavant to current season.
 
-**Players: The player involved in the interaction is the resident in the household that currently planning to leave the house and the light switch.**
+Players: The player involved in the interaction is the resident in the household that currently planning to leave the house and the light switch.
 
-**Activity: When the user/resident plans to leave the house and turn off the light by the front door (usually hallway light and the last light to turn off when leaving), the device will be connected to the light switch and then signals the outside temperature today with a color scale from dark red to dark blue.**
+Activity: When the user/resident plans to leave the house and turn off the light by the front door (usually hallway light and the last light to turn off when leaving), the device will be connected to the light switch and then signals the outside temperature today with a color scale from dark red to dark blue.
 
-**Goals: The goal of this design is to actively share weather information with resident who is intended to leave the house to the outside. It can remind people of wearing more or less cloth when adjusting the temperature outside.**
+Goals: The goal of this design is to actively share weather information with resident who is intended to leave the house to the outside. It can remind people of wearing more or less cloth when adjusting the temperature outside.
 
 \*\***Include a picture of your storyboard here**\*\*
 
 **Story Board:**
+
 ![image](https://user-images.githubusercontent.com/42874337/132273124-b62354fc-717b-4fe9-9394-f5613996822b.png)
 
 \*\***Summarize feedback you got here.**\*\*
 
-**Feedback: **
+**Feedback:**
 
-**1) Not every user who turn off the light is for leaving the house.**
+1) Not every user who turn off the light is for leaving the house.
 
-**2) If leave the house in morning, might not need to go through the turn off light action.**
+2) If leave the house in morning, might not need to go through the turn off light action.
 
-**3) Even if noticed, would be extra work to return to bedroom and get cloth or remove cloth.**
+3) Even if noticed, would be extra work to return to bedroom and get cloth or remove cloth.
 
 
 ## Part B. Act out the Interaction
@@ -49,20 +50,20 @@ F) [Record the interaction](#part-f-record)
 
 **Acting Result:**
 
-**The action feels smoother than I expected, and the association with switch connects the behavior of "exiting" with what's the temperature is going to be like outside, which is intuitive and easy to understand the association. However, as the feedback suggests, it does feel less useful due to the fact that if I want to change cloth I'd have to go back. Also, just like roommate noise in Alexa, people might have different reasons to turn on or off the light (though the information doesn't hurt, it do feels not efficient enough).**
+The action feels smoother than I expected, and the association with switch connects the behavior of "exiting" with what's the temperature is going to be like outside, which is intuitive and easy to understand the association. However, as the feedback suggests, it does feel less useful due to the fact that if I want to change cloth I'd have to go back. Also, just like roommate noise in Alexa, people might have different reasons to turn on or off the light (though the information doesn't hurt, it do feels not efficient enough).
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
 **New Ideas:**
 
-**Due to the acting experience, I decided to change the settings and the interaction method. The temperature light will now be placed in the bedroom/dressing room setting, specifically by the mirror, which people mostly visit only when dressing up or changing cloth. The temperature light will now be associated with a motion detector that detect whether there is a person standing in front of the mirror. If a person does, it will then display the color associated with the temperature from red to blue (warm to cold) with respect to current season (delivering the idea that whether warmer than normal or colder than normal). In that case, user will be directly getting the information during changing clothes, also the information will be automtically delivered when using the mirror instead of associated with a switch.**
+Due to the acting experience, I decided to change the settings and the interaction method. The temperature light will now be placed in the bedroom/dressing room setting, specifically by the mirror, which people mostly visit only when dressing up or changing cloth. The temperature light will now be associated with a motion detector that detect whether there is a person standing in front of the mirror. If a person does, it will then display the color associated with the temperature from red to blue (warm to cold) with respect to current season (delivering the idea that whether warmer than normal or colder than normal). In that case, user will be directly getting the information during changing clothes, also the information will be automtically delivered when using the mirror instead of associated with a switch.
 
 
 ## Part C. Prototype the device
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
-**Tinkerbelle is a brilliant design! The only problem I experienced is that its color is categorical in transition, so I cannot make a smooth transition from blue to red (if I want to skip purple).**
+Tinkerbelle is a brilliant design! The only problem I experienced is that its color is categorical in transition, so I cannot make a smooth transition from blue to red (if I want to skip purple).
 
 
 ## Part D. Wizard the device
@@ -89,7 +90,7 @@ F) [Record the interaction](#part-f-record)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-**I want the design to be as thin, as close to the thickness of a mirror as possible, so it can asthetically fit in the bedroom design. Also I designed it to be powered by button battery so it can be portable and physically space saving. If in future designs the information deliver system involves more than just lights, than it can also be using a LED or OLED screen to provide more weather information and even other relavant information in the same design.
+I want the design to be as thin, as close to the thickness of a mirror as possible, so it can asthetically fit in the bedroom design. Also I designed it to be powered by button battery so it can be portable and physically space saving. If in future designs the information deliver system involves more than just lights, than it can also be using a LED or OLED screen to provide more weather information and even other relavant information in the same design.
 
 
 ## Part F. Record
