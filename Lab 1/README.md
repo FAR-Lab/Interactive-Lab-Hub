@@ -76,7 +76,7 @@ F) [Record the interaction](#part-f-record)
 \*\***Show the follow-up work here.**\*\*
 
 **Follow-up Setup:**
-[![image](![image](https://user-images.githubusercontent.com/42874337/132278874-f339754d-1fa6-4902-a26a-a5b9406a33d0.png))](https://drive.google.com/file/d/1U0sXsZ3yTmBszmU2Z3lJ66vWlRolq084/view?usp=sharing)
+[![image](https://user-images.githubusercontent.com/42874337/132279502-f09d27c3-0d7c-434f-8ed6-3a5d42ff3018.png))](https://drive.google.com/file/d/1U0sXsZ3yTmBszmU2Z3lJ66vWlRolq084/view?usp=sharing)
 
 
 ## Part E. Costume the device
