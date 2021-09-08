@@ -114,7 +114,8 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	pi@192.168.1.131's password:
 	```
 	The initial setting of your Pi's password is `raspberry`, type it and press enter. Note: the terminal will not show what you type for security so do not worry about it and just make sure you type the correct password. After that, you should see something similar to this:	
-
+	
+	````
 	```shell
 	pi@192.168.1.131's password:
 	Linux ixe00 4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017 armv7l
@@ -134,7 +135,8 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	
 	pi@ixe00:~ $ 
 	```
-
+	````
+	
 	This means you are signed in and your terminal is now connected directly to the 'terminal' on your Pi, via `ssh`. You can tell this by looking at the user and hostname at the beginning of each line, which should now look like:
 
 	```shell
