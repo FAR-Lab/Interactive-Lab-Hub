@@ -32,7 +32,7 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 3. Locate the file ```wpa_supplicant.conf``` in the "boot" disk, you should be able to open it with any text editing programs. This file is meant for setting up the Pi to <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>.
 4. The file contents should have the following text:
 
-	```
+	````
 	update_config=1
 	country=US
 
@@ -54,7 +54,7 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 	    ssid="RedRover"
 	    key_mgmt=NONE
 	}
-	```
+	````
     The listed network information will be searched by your Raspberry Pi in sequence when it boots up and tryies to connect to available network. If the network you are planning to use is not listed, make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk``` or just add an additional one. Make sure your laptop is on the same network you are planning to use so that later you can access to your Raspberry Pi.
 
 3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
@@ -74,16 +74,16 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While you could plug in a monitor, keyboard, and mouse we will be connecting to your Pi over [SSH](https://en.wikipedia.org/wiki/Secure_Shell). You can do this in [Mac Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) or [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh). Make sure you connect your laptop to the same network as you entered in your `wpa_supplicant.conf` above.
 
 1. When you boot up your Pi, the MiniPiTFT should have the following information shown:
-	```
+	````
 	IP: xxx.xxx.xxx.xxx
 	MAC: xx:xx:xx:xx:xx:xx
 	NET: [YourWifiNetwork]
-	```
+	````
 	The IP address is what you will need to SSH your Pi later through the same network. The media access control address (MAC address) is a unique identifier assigned to a network interface controller, you will need it later for registering the device if you are using Cornell network (e.g. RedRover). The NET shows which WiFi network your Pi is connected to.
 	For MAC address: If you are planning to use Cornell network (e.g. RedRover and eduroam), you will have to register the device (your Pi) to the Cornell System to get it online. Please follow the instructions [here](https://it.cornell.edu/wifi-wired/register-device-doesnt-have-browser) from Cornell. If you are using the House network, you will need to register the device (your Pi) through [Boingo](https://support.boingo.com/s/article/How-do-I-add-and-remove-devices-from-my-account). You might need to wait for a few minutes for your Pi to actually get online after registering it.
 
 2. Verify your Pi is online. In the terminal of your laptop, type `ping <Your Pi's IP Address shown on the MiniPiTFT>` and press enter. If your Pi is online, you should get similar messages as below (with different IP address):
-    	```
+    	````
 	$ ping 192.168.1.131
 	PING 192.168.1.131 (192.168.1.131): 56 data bytes
 	64 bytes from 192.168.1.131: icmp_seq=0 ttl=64 time=252.118 ms
@@ -94,17 +94,17 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	--- 192.168.1.131 ping statistics ---
 	4 packets transmitted, 4 packets received, 0.0% packet loss
 	round-trip min/avg/max/stddev = 10.209/71.868/252.118/104.084 ms
-	```
+	````
 	You can use `control-C` to interrupt and exit the ping (press the `control` key, and while holding it down, also press the `C` key, then let go of both together--this looks like `^C` in the terminal).
 
 3. Once your Pi is online, you can go ahead and SSH into the Pi. In the terminal of your laptop, type in the command
-	```
+	````
 	$ ssh pi@<Your Pi's IP Address shown on the MiniPiTFT>
-	```
+	````
 	When you first log in it, the terminal will show you a "fingerprint" and ask you whether you want to continue connecting. Type `yes` and press enter. 
-	```shell
+	````shell
 	$ ssh pi@192.168.1.131
-	The authenticity of host '192.168.1.131' can`t be established.
+	The authenticity of host '192.168.1.131' can't be established.
 	ECDSA key fingerprint is SHA256:Y9S4oMH2H70fz3K/L42Kw39k+zkpyfr0DmGdzBx7SKk.
 	Are you sure you want to continue connecting (yes/no)? yes
 	```
@@ -112,11 +112,10 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	```
 	Warning: Permanently added '10.58.130.183' (ECDSA) to the list of known hosts.
 	pi@192.168.1.131's password:
-	```
+	````
 	The initial setting of your Pi's password is `raspberry`, type it and press enter. Note: the terminal will not show what you type for security so do not worry about it and just make sure you type the correct password. After that, you should see something similar to this:	
 	
-	````
-	```shell
+	````shell
 	pi@192.168.1.131's password:
 	Linux ixe00 4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017 armv7l
 	
@@ -134,14 +133,13 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	in as the 'pi' user and type 'passwd' to set a new password.
 	
 	pi@ixe00:~ $ 
-	```
 	````
 	
 	This means you are signed in and your terminal is now connected directly to the 'terminal' on your Pi, via `ssh`. You can tell this by looking at the user and hostname at the beginning of each line, which should now look like:
 
-	```shell
+	````shell
 	pi@ixe00 ~ $
-	```
+	````
 
 
 ### Change the password of your Pi
@@ -156,10 +154,10 @@ Because the Pi asked you to! Also to keep your Pi from getting hacked. Write it 
 
 The command line/terminal is a powerful way to interact with your computer without using a Graphical User Interface (GUI). When you SSH onto your Pi, you have a prompt you can enter commands. In your terminal there is a shell, there are many shells but for this class we will use one of the most common **bash**
 
-	```
+	````
 	pi@ixe00:~ $ echo $SHELL
 	/bin/bash
-	```
+	````
 In the code above we've typed `echo $SHELL`. The `echo` tells it to print something to the screen. You could try typing `echo 'hello'` to see how that works for strings. The `$` at the front of `$SHELL` tells bash we are referring to a variable. In this case it is a variable the OS is using to store the shell program. In a folder `/bin` is a program called bash that we are currently using. The up arrow with show the most recent command.
 
 
@@ -168,7 +166,7 @@ In the code above we've typed `echo $SHELL`. The `echo` tells it to print someth
 
 There are many commands you can use in the command line, they can take a variety of options that change how they are used. You can look these up online to learn more. Many commands have a manual page with documentation that you can see directly in the terminal by typing `man [command]`. For example:
 
-```
+````
 pi@ixe00:~ $ man echo
 ECHO(1)                           User Commands                          ECHO(1)
 
@@ -185,7 +183,7 @@ DESCRIPTION
        --help display this help and exit
        --version
 Manual page echo(1) line 1 (press h for help or q to quit)
-```
+````
 These are some useful commands. Read the manual pages for advanced usage.
 
 * `pwd` - print working directory, tells us where on the computer we are
