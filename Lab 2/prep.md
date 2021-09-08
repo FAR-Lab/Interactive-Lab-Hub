@@ -27,29 +27,45 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />-->
 
 ### Setting up your OS for the Pi
-1. Plug the SD card into your computer using the card reader, you should be able to see a disk named "boot".
-2. Configure the Pi for <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>: Create a file called ```wpa_supplicant.conf``` in the "boot" disk. The file contents should have the following text:
+1. The teaching team should have already burnt the required Pi image to your SD card for you to use on Pi directly. If not, go download and install the [Raspberry Pi Imager](https://www.raspberrypi.org/software/), download the the customed [image file](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0) we made for the class. Open the Raspberry Pi Imager and choose the downloaded image file from "Choose OS" and the SD card from "Choose SD card" then hit write.
+2. Plug the SD card reader (with SD card loaded) into your computer, you should be able to see a disk named "boot".
+3. Locate the file ```wpa_supplicant.conf``` in the "boot" disk, you should be able to open it with any text editing programs. This file is meant for setting up the Pi to <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>
+4. The file contents should have the following text:
 
 	```
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 	update_config=1
 	country=US
-	
+
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 	network={
-	 ssid="<Name of your wireless LAN>"
-	 psk="<Password for your wireless LAN>"
+	    ssid="The House"
+	    key_mgmt=NONE
+	}
+	
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	network={
+	    ssid="DeviceFarm"
+	    psk="device@theFarm"
+	    key_mgmt=WPA-PSK
+	}
+	
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	network={
+	    ssid="RedRover"
+	    key_mgmt=NONE
 	}
 	```
-    Make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk```.
-	
-    This information gets copied over to your Raspberry Pi when it boots up, so that the Pi gets a DHCP address from your network router and can show up on your network.
+    The listed network information will be searched by your Raspberry Pi in sequence when it boots up and tryies to connect to available network. If the network you are planning to use is not listed, make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk``` or just add an additional one. Make sure your laptop is on the same network you are planning to use so that later you can access to your Raspberry Pi.
 
-3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right)
+3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
 
 <img src="https://cdn-shop.adafruit.com/1200x900/4296-12.jpg" alt="Pi bottom side" height="200" />
 
+4. Take and connect the Adafruit MiniPiTFT to your pi with the configuration shown below, the MiniPiTFT should be on the top left corner of your Pi.
 
-4. Boot the Pi by connecting it to a power source with USB-C connector.
+<img src="PlacingMiniPiTFTonPi.jpg" alt="MiniPiTFTonPi" height="200" />
+
+5. Boot the Pi by connecting it to a power source with USB-C connector.
 
 ### Try to set up your Pi to run in headless mode
 
