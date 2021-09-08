@@ -104,7 +104,7 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	When you first log in it, the terminal will show you a "fingerprint" and ask you whether you want to continue connecting. Type `yes` and press enter. 
 	```shell
 	$ ssh pi@192.168.1.131
-	The authenticity of host '192.168.1.131' can\'t be established.
+	The authenticity of host '192.168.1.131' can`t be established.
 	ECDSA key fingerprint is SHA256:Y9S4oMH2H70fz3K/L42Kw39k+zkpyfr0DmGdzBx7SKk.
 	Are you sure you want to continue connecting (yes/no)? yes
 	```
