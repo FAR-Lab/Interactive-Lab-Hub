@@ -166,26 +166,26 @@ In the code above we've typed `echo $SHELL`. The `echo` tells it to print someth
 
 There are many commands you can use in the command line, they can take a variety of options that change how they are used. You can look these up online to learn more. Many commands have a manual page with documentation that you can see directly in the terminal by typing `man [command]`. For example:
 
-````
-pi@ixe00:~ $ man echo
-ECHO(1)                           User Commands                          ECHO(1)
-
-NAME
-       echo - display a line of text
-SYNOPSIS
-       echo [SHORT-OPTION]... [STRING]...
-       echo LONG-OPTION
-DESCRIPTION
-       Echo the STRING(s) to standard output.
-       -n     do not output the trailing newline
-       -e     enable interpretation of backslash escapes
-       -E     disable interpretation of backslash escapes (default)
-       --help display this help and exit
-       --version
-Manual page echo(1) line 1 (press h for help or q to quit)
-````
+	```shell
+	pi@ixe00:~ $ man echo
+	ECHO(1)                           User Commands                          ECHO(1)
+	
+	NAME
+	       echo - display a line of text
+	SYNOPSIS
+	       echo [SHORT-OPTION]... [STRING]...
+	       echo LONG-OPTION
+	DESCRIPTION
+	       Echo the STRING(s) to standard output.
+	       -n     do not output the trailing newline
+	       -e     enable interpretation of backslash escapes
+	       -E     disable interpretation of backslash escapes (default)
+	       --help display this help and exit
+	       --version
+	Manual page echo(1) line 1 (press h for help or q to quit)
+	```	
 These are some useful commands. Read the manual pages for advanced usage.
-
+	
 * `pwd` - print working directory, tells us where on the computer we are
 * `ls` - list the things in the current directory. 
 * `cd` - change directory. This lets you move to another folder on your machine.
@@ -199,7 +199,7 @@ These are some useful commands. Read the manual pages for advanced usage.
 There is plenty more to learn about using the terminal to navigate a computer but this should give a good start for getting around the raspberry pi.
 
 
-### Using VNC
+### Using VNC to see your Pi desktop
 Another convenient way to remotely connect to your Pi is using VNC (Virtual Network Computing), it essentially is remote login. The easiest client to use is [VNC Connect](https://www.realvnc.com/en/connect/download/viewer/). Download and install it. Once that's done type the IP address of your Pi in the text-box at the top. 
 ![](images/VNC1.png)
 
