@@ -175,13 +175,15 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
-Additional Feedback: One group member said this would be very useful because often when doing yoga in a solo/remote setting, it is difficult to do the yoga pose and watch the TV/tablet/phone that has the instructor on it at the same time. The visual cue from the light would help take the focus off worrying about the timing and constantly looking at the instructor. 
-
 Peer Feeback 1: Zhengxing liked the idea of blinking and brightening/dimming lights for cadence management, but suggested that more design cycles might be needed to discover the optimal lighting patterns for different users. Also suggested adding voice or sound interaction. I definitely agree that a "one size fits all" approach is not the best since different users may have slightly different preferences for speed and timing through their yoga practice. Definitely something to ponder.
 
 Peer Feedback 2: Hansen had similar feedback, and suggested fully exploring the capabilities of the lighting and incorporating different colors. This is something that I have been thinking about. In a yoga sequence, there are a certain number of steps and each of these steps could be color coded with a different color to help beginner yoga practitioners associate the color of the light with the next step they are supposed to go into. Hansen also suggested exploring other modalities. I think sound is something I will try to incorporate. 
 
 Peer Feedback 3: Meyhaa appreciated going with the simpler use case rather than the more complicated integration of lighting with posture alignment. She brought up a good point that the storyboard I made was a bit confusing. I agree with this. I tried to storyboard using the template that Wendy provided (the one with the different panels for Idea, Error, Setting, etc) and definitely felt like there was a lot going on with this template. I also felt like there was no flow from panel to panel in the storyboard that explained my idea using this template. I think for part 2 of the lab, I will try a simpler storyboard that focuses more on the idea. Meyhaa also suggested incorporating sound to account for those scenarios where the user is in a pose that makes them unable to see the light. 
+
+Additional Feedback: One group member said this would be very useful because often when doing yoga in a solo/remote setting, it is difficult to do the yoga pose and watch the TV/tablet/phone that has the instructor on it at the same time. The visual cue from the light would help take the focus off worrying about the timing and constantly looking at the instructor. 
+
+Another group member said that an auditory cue would be very useful, but consideration should be given to the specific type of auditory cue. For example, a cue that is commonly used in HIIT (high intensity interval training) workouts is a high pitched series of beeps that is used to convey to the individual that it is time to move to the next station. The nature of this sound is to keep the energy up. However, as yoga is a slower paced, calmer activity, the high pitched series of beeps may not be an appropriate indicator of when to move to the next pose. A calmer sound would be appropriate. 
 
 ## Make it your own
 
