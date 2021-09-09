@@ -60,10 +60,11 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. 
 ## Connect to your Pi
-Just like you did in the lab prep, ssh on to your pi. Once there create a Python environment.
+Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
 
 ```
-ssh pi@ixe00
+ssh pi@<your Pi's IP address>
+...
 pi@ixe00:~ $ virtualenv circuitpython
 pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
@@ -72,28 +73,28 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 
 ## Part B. 
 ### Try out the Command Line Clock
-Clone the repo for this assignment
+Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
 ```
-(circuitpython) pi@ixe00:~$ git clone https://github.com/YOURGITID/Interactive-Lab-Hub.git
+(circuitpython) pi@ixe00:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ 
 ```
 
-Install the packages from the requirements.txt and run the example
+Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ pip install -r requirements.txt
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
 02/24/2021 11:20:49
 ```
-you can press `ctrl-c` to exit.
-If you're unfamiliar with the Python code in `cli_clock.py` have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned, please reach out to the teaching staff!
+
+The terminal should show the time, you can press `ctrl-c` to exit the script.
+If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you are still concerned, please reach out to the teaching staff!
 
 
 ## Part C. 
 ## Set up your RGB Display
-We will introduce you to the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) and Python on the Pi.
+We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) on your Pi in the Lab 2 prep already. Here, we will introduce you to the MiniPiTFT and Python scripts on the Pi with more details.
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
 
@@ -103,9 +104,9 @@ The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in
 
 To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. Some terms may be unfamiliar but we will go over the relevant ones as they come up.
 
-### Hardware
+### Hardware (you have done this prep)
 
-From your kit take out the display and the [Raspberry Pi 4](https://www.adafruit.com/product/4296 | width=200)
+From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/1200x900/4296-13.jpg)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
@@ -120,16 +121,16 @@ The display uses a communication protocol called [SPI](https://www.circuitbasics
 
 We can test it by typing 
 ```
-python screen_test.py
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python screen_test.py
 ```
 
-You can type the name of a color then press either of the buttons to see what happens on the display. Take a look at the code with
+You can type the name of a color then press either of the buttons on the MiniPiTFT to see what happens on the display! You can press `ctrl-c` to exit the script. Take a look at the code with
 ```
-cat screen_test.py
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ cat screen_test.py
 ```
 
-#### Displaying Info
-You can look in `stats.py` for how to display text on the screen
+#### Displaying Info with Texts
+You can look in `stats.py` for how to display text on the screen!
 
 #### Displaying an image
 
@@ -139,8 +140,16 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 ## Part D. 
 ## Set up the Display Clock Demo
+Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
-In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
+###How to Edit Scripts on Pi
+One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ nano screen_clock.py
+```
+You can make changes to the script this way, remember to save the changes by pressing `ctrl-o` and press enter again. You can press `ctrl-x` to exit the nano mode. There are more options listed down in the terminal you can use in nano.
+
+Another way for you to edit scripts is to use VNC on your laptop to remotely connect your Pi. Try to open the files directly like what you will do with your laptop and edit them.
 
 
 ## Part E.
@@ -152,11 +161,11 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **A copy of your code should be in your Lab 2 Github repo.**
 
-You can push to your personal github repo by adding the files here, commiting and pushing.
+After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
 git add .
-git commit -m'your message here'
+git commit -m 'your message here'
 git push
 ```
 
