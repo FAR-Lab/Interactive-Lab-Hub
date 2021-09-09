@@ -91,6 +91,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 Group members thought this was an interesting idea. They liked the idea of using lighting as a guide/visual assistant through a series of yoga poses. The initial proposal was to have posture recognition integrated with lighting as a visual cue for yoga practitioners, however it was suggested to try something simpler first such as pose timing and transition assistance. I liked this feedback from a feasability standpoint, and agree that the simpler use case is much more practical. An ultimate goal of the idea could still be to attempt integration of lighting with posture recognition. 
 
 
+
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
@@ -174,6 +175,8 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
+Additional Feedback: One group member said this would be very useful because often when doing yoga in a solo/remote setting, it is difficult to do the yoga pose and watch the TV/tablet/phone that has the instructor on it at the same time. The visual cue from the light would help take the focus off worrying about the timing and constantly looking at the instructor. 
 
 ## Make it your own
 
