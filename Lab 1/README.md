@@ -143,7 +143,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+Since I did not opt to use my phone as the wizarding device, I had no need to costume the device. The light which I am using as part of the lab is sufficient. However, I am including a sketch of the optimal layout of the light in terms of functionality. 
+
+https://drive.google.com/file/d/1_mGGAVddCkGQLU56ORy8Ekc8IiCst56y/view?usp=sharing
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+Functionally, the light should be in a place where the yoga practitioner can see it no matter the pose that they are doing. Optimally, this location is at the front of the yoga mat, as the light falls across the entire area of the yoga mat. 
 
 
 ## Part F. Record
