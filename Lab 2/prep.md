@@ -74,16 +74,20 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While you could plug in a monitor, keyboard, and mouse we will be connecting to your Pi over [SSH](https://en.wikipedia.org/wiki/Secure_Shell). You can do this in [Mac Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) or [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh). Make sure you connect your laptop to the same network as you entered in your `wpa_supplicant.conf` above.
 
 1. When you boot up your Pi, the MiniPiTFT should have the following information shown:
+	
 	````
 	IP: xxx.xxx.xxx.xxx
 	MAC: xx:xx:xx:xx:xx:xx
 	NET: [YourWifiNetwork]
 	````
+	
 	The IP address is what you will need to SSH your Pi later through the same network. The media access control address (MAC address) is a unique identifier assigned to a network interface controller, you will need it later for registering the device if you are using Cornell network (e.g. RedRover). The NET shows which WiFi network your Pi is connected to.
+	
 	For MAC address: If you are planning to use Cornell network (e.g. RedRover and eduroam), you will have to register the device (your Pi) to the Cornell System to get it online. Please follow the instructions [here](https://it.cornell.edu/wifi-wired/register-device-doesnt-have-browser) from Cornell. If you are using the House network, you will need to register the device (your Pi) through [Boingo](https://support.boingo.com/s/article/How-do-I-add-and-remove-devices-from-my-account). You might need to wait for a few minutes for your Pi to actually get online after registering it.
 
 2. Verify your Pi is online. In the terminal of your laptop, type `ping <Your Pi's IP Address shown on the MiniPiTFT>` and press enter. If your Pi is online, you should get similar messages as below (with different IP address):
-    	````
+    	
+	```shell
 	$ ping 192.168.1.131
 	PING 192.168.1.131 (192.168.1.131): 56 data bytes
 	64 bytes from 192.168.1.131: icmp_seq=0 ttl=64 time=252.118 ms
@@ -94,15 +98,20 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	--- 192.168.1.131 ping statistics ---
 	4 packets transmitted, 4 packets received, 0.0% packet loss
 	round-trip min/avg/max/stddev = 10.209/71.868/252.118/104.084 ms
-	````
+	```
+	
 	You can use `control-C` to interrupt and exit the ping (press the `control` key, and while holding it down, also press the `C` key, then let go of both together--this looks like `^C` in the terminal).
 
 3. Once your Pi is online, you can go ahead and SSH into the Pi. In the terminal of your laptop, type in the command
-	````
+	
+	```
 	$ ssh pi@<Your Pi's IP Address shown on the MiniPiTFT>
-	````
+	```
+	
 	When you first log in it, the terminal will show you a "fingerprint" and ask you whether you want to continue connecting. Type `yes` and press enter. 
-	````shell
+	
+	````
+	```shell
 	$ ssh pi@192.168.1.131
 	The authenticity of host '192.168.1.131' can't be established.
 	ECDSA key fingerprint is SHA256:Y9S4oMH2H70fz3K/L42Kw39k+zkpyfr0DmGdzBx7SKk.
@@ -112,10 +121,13 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	```
 	Warning: Permanently added '10.58.130.183' (ECDSA) to the list of known hosts.
 	pi@192.168.1.131's password:
+	```
 	````
+	
 	The initial setting of your Pi's password is `raspberry`, type it and press enter. Note: the terminal will not show what you type for security so do not worry about it and just make sure you type the correct password. After that, you should see something similar to this:	
 	
-	````shell
+	````
+	```shell
 	pi@192.168.1.131's password:
 	Linux ixe00 4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017 armv7l
 	
@@ -133,21 +145,22 @@ Unlike your laptop, the Pi doesn't come with its own keyboard or mouse. While yo
 	in as the 'pi' user and type 'passwd' to set a new password.
 	
 	pi@ixe00:~ $ 
+	```
 	````
 	
 	This means you are signed in and your terminal is now connected directly to the 'terminal' on your Pi, via `ssh`. You can tell this by looking at the user and hostname at the beginning of each line, which should now look like:
 
-	````shell
+	```shell
 	pi@ixe00 ~ $
-	````
+	```
 
 
 ### Change the password of your Pi
 
-Because the Pi asked you to! Also to keep your Pi from getting hacked. Write it down somewhere because we do not know how to recover lost passwords on the Pi.
+Because the Pi asked you to! Also to keep your Pi from getting hacked. Write it down somewhere because we do not know how to recover lost passwords on the Pi. In the terminal on your Pi, type `sudo raspi-config` and press enter, you should be able to see the manual of your Pi:
+<img src="https://www.raspberrypi.org/documentation/computers/images/raspi-config.png" alt="Pi configuration" height="200" />
 
-***Note here if you run into issues*** (and Slack message the teaching team), so that we can use Lab time on Thursday to try to fix them.
-
+Choose '1. System Options' and 'S3 Password', they terminal will then ask you to enter your new password. Again, the terminal will not show what you type for security so do not worry about it and just make sure you type the correct new password twice. After you change the password successfully, you will have to use the new password next time you SSH to your Pi.
 
 
 ### Refresh your knowledge of command line interfaces: 
