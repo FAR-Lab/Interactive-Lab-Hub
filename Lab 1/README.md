@@ -172,3 +172,25 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+### Idea: 
+Instead of using light, I will use sound along with light. The idea is user will be able to adjust the volume of the sound. Sound catches a person's attention more than that of light. However, some people might have problems with sight and might not be able to see. Adding another modality will make the device more utilizable. The user can also use different colors to indicate other items that are essential when leaving your room such as phone and wallet. I will indicate pink as wallet and green as phone. For sound, different sounds will indicate which item is missing. The lights will turn on back to back and sounds will as well. For example, if user forgets wallet and phone, then user will see yellow and pink and also (optionally) hear 2 sounds not at the same time but back to back. The light color and the corresponding sound will turn on together at the same time however.
+
+The user will be able to turn on and off the light feature using a remote control and same for the sound feature. The user will have the autonomy to control which feature is activated when they forget their keys.
+
+### Prototype:
+The prototype will have a hook for users to minimize the problem of the light and/or sound going off by putting his/her key on a hook. 
+
+***Feedback***:
+Great idea! One extra idea is to use different colors for not just keys but also phone and wallet since they are also essential things. I incorporated this in my design.
+
+### Storyboard:
+
+
+### Video:
+
+### Limitation:
+- The user won't be able to change the color of the light (only yellow light). 
+- The user might be annoyed with the system if sensor doesn't work as intended
+- The sound needs to have the right pitch or that would bother users
+
