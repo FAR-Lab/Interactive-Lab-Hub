@@ -178,19 +178,24 @@ Instead of using light, I will use sound along with light. The idea is user will
 
 The user will be able to turn on and off the light feature using a remote control and same for the sound feature. The user will have the autonomy to control which feature is activated when they forget their keys.
 
+The device will also be placed 1 foot from the door so that the user doesn't lock themselves out when the door closes.
+
 ### Prototype:
 The prototype will have a hook for users to minimize the problem of the light and/or sound going off by putting his/her key on a hook. 
+
+https://drive.google.com/file/d/1NpgB6ibLykh53TAwpWCxn8ShovvUDgI2/view?usp=sharing
+
 
 ***Feedback***:
 Great idea! One extra idea is to use different colors for not just keys but also phone and wallet since they are also essential things. I incorporated this in my design.
 
 ### Storyboard:
-
+https://drive.google.com/file/d/1GkwNxZBolgQSgjR2dwv3y6XXLOvcoVw8/view?usp=sharing
 
 ### Video:
 
 ### Limitation:
-- The user won't be able to change the color of the light (only yellow light). 
+- The user won't be able to change the color of the light. The colors are fixed. 
 - The user might be annoyed with the system if sensor doesn't work as intended
 - The sound needs to have the right pitch or that would bother users
 
