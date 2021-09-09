@@ -54,12 +54,12 @@ F) [Make a short video of your modified barebones PiClock](#part-f)
 G) [Sketch and brainstorm further interactions and features you would like for your clock for Part 2.](#part-g)
 
 ## The Report
-This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
+This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the \*\*\***stars**\*\*\*. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
 ## Part A. 
-## Connect to your Pi
+### Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
 
 ```
@@ -70,6 +70,10 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
 ```
+### Setup Personal Access Tokens on GitHub
+The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
+
+Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up one for your Pi to use. Depends on your preference, you can set up and select the scopes, or permissions, you'd like to grant the token your Pi is going to use. This token will act as your GitHub password later when you use the terminal on you Pi to sync files with your lab-hub repo.
 
 ## Part B. 
 ### Try out the Command Line Clock
@@ -79,6 +83,8 @@ Clone your own lab-hub repo for this assignment to your Pi and change the direct
 (circuitpython) pi@ixe00:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
+Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
+
 
 Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
@@ -93,7 +99,7 @@ If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [th
 
 
 ## Part C. 
-## Set up your RGB Display
+### Set up your RGB Display
 We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) on your Pi in the Lab 2 prep already. Here, we will introduce you to the MiniPiTFT and Python scripts on the Pi with more details.
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
@@ -104,7 +110,7 @@ The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in
 
 To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. Some terms may be unfamiliar but we will go over the relevant ones as they come up.
 
-### Hardware (you have done this prep)
+### Hardware (you have done this in the prep)
 
 From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/1200x900/4296-13.jpg)
 
@@ -115,7 +121,7 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/861/original/adafruit_products_image.png" height="200">
 </p>
 
-#### Testing your Screen
+### Testing your Screen
 
 The display uses a communication protocol called [SPI](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/) to speak with the raspberry pi. We won't go in depth in this course over how SPI works. The port on the bottom of the display connects to the SDA and SCL pins used for the I2C communication protocol which we will cover later. GPIO (General Purpose Input/Output) pins 23 and 24 are connected to the two buttons on the left. GPIO 22 controls the display backlight.
 
@@ -139,10 +145,10 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 
 ## Part D. 
-## Set up the Display Clock Demo
+### Set up the Display Clock Demo
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
-###How to Edit Scripts on Pi
+### How to Edit Scripts on Pi
 One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ nano screen_clock.py
@@ -153,33 +159,35 @@ Another way for you to edit scripts is to use VNC on your laptop to remotely con
 
 
 ## Part E.
-## Modify the barebones clock to make it your own
+### Modify the barebones clock to make it your own
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
-**A copy of your code should be in your Lab 2 Github repo.**
+\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
-git add .
-git commit -m 'your message here'
-git push
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git add .
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
 ```
 
-After that, git will ask you to login to your github account to upload.
+After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-**Take a video of your PiClock.**
+\*\*\***Take a video of your PiClock.**\*\*\*
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-## Prep for Part 2
+
+# Prep for Part 2
 
 1. Pick up remaining parts for kit.
 
