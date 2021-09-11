@@ -103,8 +103,6 @@ Better: On the paper could show the specific scenario that the phone is uncharge
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
-
-
 ## Part C. Prototype the device
 
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device.
@@ -118,7 +116,6 @@ If you run into technical issues with this tool, you can also use a light switch
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
 **Tinkerbelle works will on my MAC**
-
 
 ## Part D. Wizard the device
 
@@ -152,6 +149,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 ![](./video.png)
+https://www.youtube.com/watch?v=WHZzO6mFkqc
 https://cornell.box.com/s/uje3is2a1emxvnqzmy2kxaab0r9vxfmf
 
 **Contributor: Xuanyu Fang, Hongyu Shen, Haohua Liu**
@@ -166,6 +164,12 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+My partners kindly give me a lot of positive feedbacks.
+
+1. They thinks that this is a good idea for universal problem of many elderly adults.
+2. Elder people do have a problem that they did not pick up her phone.
+3. They think it would be better if the device and the light being related, like 6 buttons correspond to 6 lights instead of 1 light.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time:
@@ -175,3 +179,18 @@ Do last week’s assignment again, but this time:
 3. We will be grading with an emphasis on creativity.
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+IMPROVEMENT: More Lights which corresponds to more family members.
+
+### New Story board
+
+![Modified Storyboard](Storyboard2.jpg)
+
+I added the connection between the phone and lights which make them have more consistency.
+
+### New Video
+
+New video added more information and redesigned the product.
+
+![New Video](./NewVideo.png)
+https://www.youtube.com/watch?v=nWHMEDW1NjE
