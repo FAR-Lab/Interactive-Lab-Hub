@@ -136,8 +136,12 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+\*\***Overall, feedback was very positive. One user's main concern, which I did actually consider originally, was aesthetic. They wrote that "having a brightly colored light in a pot may turn users away because they do not like how the light conflicts with the usually calm and pretty appearance of places."  However, their other thought, that people may forget they need to take care of the plant and to add a flashing light feature, somewhat conflicts with the aesthetics issue despite being a valuable thought. I need to balance appearance with function and make sure it looks good while still helping keep the plant alive.**
 
+**Another person had the idea of a "hydration percentage" on screen in addition to the colors but another user and I disagree, noting that most users just need guidance on what to do and don't care about the actual values. That said, perhaps I could add a way to access advanced settings for more experienced plant owners.**
+
+**My favorite idea was the addition of a camera to automate the plant selection. It would also provide more data to calibrate sensors that determine which light to show.**\*\*
+ 
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
