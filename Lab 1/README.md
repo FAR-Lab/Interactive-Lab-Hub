@@ -197,7 +197,9 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-Updated Storyboard: https://drive.google.com/file/d/1LrGmEb93BZ6-OqrJeA9mpTzmwAmshlLH/view?usp=sharing
+Updated Storyboard Link: https://drive.google.com/file/d/1LrGmEb93BZ6-OqrJeA9mpTzmwAmshlLH/view?usp=sharing
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture3.JPG)
 
 The storyboard has been updated to reflect peer feedback and testing. One helpful suggestion was to use an audio cue to signal when it is time to change yoga poses. This was a great suggestion because during initial testing, I found that the visual indicator had too many functions (in terms of signaling when to change pose in addition to the pose timing assistance through change of brightness). Another suggestion was to color code the lighting based on the pose that is being done. Different poses will have different colors, and will still dim and brighten to assist with progression through the pose. 
 
