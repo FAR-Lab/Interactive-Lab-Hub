@@ -99,7 +99,14 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+\*\***Summarize feedback from your partners here.**\*\* <br />
+Bella Bidak - Great Idea & very useful ! All parts were clear and well done. 
+You mentioned this in your lab but I think it is definitely necessary to integrate this with sound as well. What if leave my fridge open and leave the room? Another thing that could be nice to see is how you got the phone to stay on your fridge in the prototype. 
+Over all great work! <br />
+
+Aman Prasad - The final video was great in demonstrating how the device works - the previous videos were a bit hard to follow (specifically I was unclear what the purpose of the orange light was), however it was clear after watching the final demo. <br />
+
+Jeongmin Huh - I like that the fridge would have a light system, and that the device can be installed anywhere on the fridge. I think it would be great if you could incorporate sound as well, if possible, in order to convey the message even more clearly. Also, the storyboard is very clear in its delivery. There was no effort on my part to try to decipher what was going on, especially with the facial expressions. <br />
 
 ## Make it your own
 
