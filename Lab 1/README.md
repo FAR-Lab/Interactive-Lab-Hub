@@ -207,11 +207,15 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-The storyboard has been updated to reflect peer feedback and testing. One helpful suggestion was to use an audio cue to signal when it is time to change yoga poses. This was a great suggestion because during initial testing, I found that the visual indicator had too many functions (in terms of signaling when to change pose in addition to the pose timing assistance through change of brightness). Another suggestion was to color code the lighting based on the pose that is being done. Different poses will have different colors, and will still dim and brighten to assist with progression through the pose. 
+The storyboard has been updated to reflect peer feedback and testing. One helpful suggestion was to use an audio cue to signal when it is time to change yoga poses. This was a great suggestion because during initial testing, I found that the visual indicator had too many functions (in terms of blinking to signal when to change pose in addition to the pose timing assistance through change of brightness), and adding the audio cue simplified this nicely. Another suggestion was to color code the lighting based on the pose that is being done. Different poses will have different colors, and will still dim and brighten to assist with progression through the pose. 
 
 Another idea that struck me was regarding that timing of yoga poses. Yoga poses typically follow the inhalation and exhalation of the breath, where one pose might last for the duration of an inhale and the following pose might last for the duration of the exhale. I often have trouble keeping a consistently slow and steady breath throughout the practice. Therefore, I decided to try and tie the brightening and dimming of the lighting to my breath, where brightening of the light represents an inhale and dimming represents an exhale. This ended up integrating very well with the yoga practice. 
 
 ![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture7.JPG)
+
+A picture of the finalized setup is included here. Including two lights rather than one provides for much higher visibility and allows the participant to view the light from poses that may change the user's position. Additionally, a speaker (shown in between the light) is available to play a tone indicating when it is time to switch poses. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture8.JPG)
 
 Please see the video below for the iterated idea. 
 
