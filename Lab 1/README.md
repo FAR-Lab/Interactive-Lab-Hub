@@ -93,7 +93,6 @@ Present your idea to the other people in your breakout room. You can just get fe
 Group members thought this was an interesting idea. They liked the idea of using lighting as a guide/visual assistant through a series of yoga poses. The initial proposal was to have posture recognition integrated with lighting as a visual cue for yoga practitioners, however it was suggested to try something simpler first such as pose timing and transition assistance. I liked this feedback from a feasability standpoint, and agree that the simpler use case is much more practical. An ultimate goal of the idea could still be to attempt integration of lighting with posture recognition. 
 
 
-
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
@@ -148,7 +147,9 @@ Think about the setting of the device: is the environment a place where the devi
 
 Since I did not opt to use my phone as the wizarding device, I had no need to costume the device. The light which I am using as part of the lab is sufficient. However, I am including a sketch of the optimal layout of the light in terms of functionality. 
 
-https://drive.google.com/file/d/1_mGGAVddCkGQLU56ORy8Ekc8IiCst56y/view?usp=sharing
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture2.JPG)
+
+Link: https://drive.google.com/file/d/1_mGGAVddCkGQLU56ORy8Ekc8IiCst56y/view?usp=sharing
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
