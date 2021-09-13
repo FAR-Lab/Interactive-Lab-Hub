@@ -198,6 +198,9 @@ Updated Storyboard: https://drive.google.com/file/d/1LrGmEb93BZ6-OqrJeA9mpTzmwAm
 
 The storyboard has been updated to reflect peer feedback and testing. One helpful suggestion was to use an audio cue to signal when it is time to change yoga poses. This was a great suggestion because during initial testing, I found that the visual indicator had too many functions (in terms of signaling when to change pose in addition to the pose timing assistance through change of brightness). Another suggestion was to color code the lighting based on the pose that is being done. Different poses will have different colors, and will still dim and brighten to assist with progression through the pose. 
 
+[Storyboard 2.pdf](https://github.com/rohangreddy/Interactive-Lab-Hub/files/7157545/Storyboard.2.pdf)
+
+
 Another idea that struck me was regarding that timing of yoga poses. Yoga poses typically follow the inhalation and exhalation of the breath, where one pose might last for the duration of an inhale and the following pose might last for the duration of the exhale. I often have trouble keeping a consistently slow and steady breath throughout the practice. Therefore, I decided to try and tie the brightening and dimming of the lighting to my breath, where brightening of the light represents an inhale and dimming represents an exhale. This ended up integrating very well with the yoga practice. Please see the video below for the iterated idea. 
 
 Updated Video: https://youtu.be/Y8alII_DFnw
