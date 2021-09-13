@@ -155,6 +155,12 @@ Link: https://drive.google.com/file/d/1_mGGAVddCkGQLU56ORy8Ekc8IiCst56y/view?usp
 
 Functionally, the light should be in a place where the yoga practitioner can see it no matter the pose that they are doing. Optimally, this location is at the front of the yoga mat, as the light falls across the entire area of the yoga mat. 
 
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture4.JPG)
+
+vs.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture5.JPG)
+
 
 ## Part F. Record
 
