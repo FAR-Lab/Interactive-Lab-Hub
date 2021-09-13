@@ -148,6 +148,9 @@ Some future ideas that can be derived from this device is connected to other par
 
 ### Story Board
 
+![image](https://user-images.githubusercontent.com/42874337/133167484-7283519a-7d72-4652-86da-5e1b3a322d12.png)
+
+
 ### Prototyping process pictures & Videos
 
 ### Interaction Video
