@@ -136,6 +136,10 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 \*\***Show the follow-up work here.**\*\*
 
+This updated interaction shows some of the functionality of the light integrated with a yoga practice. In particular, the blink of the light would indicate the start of the pose, and the brightening of the light indicates how much of the pose has been completed. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture6.JPG)
+
 
 ## Part E. Costume the device
 
