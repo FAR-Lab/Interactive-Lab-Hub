@@ -11,17 +11,17 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 ## Prep
 
-[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Wednesday.
+[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
 
 ### Get your kit
 If you are remote but in the US, let the teaching team know you need the parts mailed.
 
-If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by class you should come to Tata 351.
+If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
 
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-
+  
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
