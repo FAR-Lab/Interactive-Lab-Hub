@@ -150,3 +150,39 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+## Part A. Plan 
+_Setting:_ In a person's home near a window. The person has some control over the home's temperature and lighting.
+
+_Players:_ The inexperienced, but aesthetically-minded, plant owner and the plant.
+
+_Activity:_ The plant owner is trying to detect the plant's needs and take care of it. The owner is also trying to make their apartment look stylish. The plant is growing, photosynthesizing, and doing other plant things.
+
+_Goals:_ The goal of the plant owner is to take care of the plant so it looks healthy and adds decoration to their room. The goal of the plant is to stay alive.
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+**NEW STORYBOARD HERE**
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+\*\***When watering, I had to make sure to be standing such that the light was visible to avoid over-watering. While acting out I, of course, knew that the light was on and attended to the plant accordingly. However, the device may need a way of drawing the user's attention if they are not thinking about the plant.**\*\*
+
+## Part C. Prototype the device
+I did not change much but I continued to use Tinkerbelle. No issues.
+
+## Part D. Wizard the device
+See above for my recording for the previous part of the Lab.
+
+## Part E. Costume the device
+
+Much of my feedback came from aesthetic concerns. Although I used the original design for my storyboard, here are some potential new designs:
+
+**NEW DESIGNS HERE**
+
+## Part F. Record
+
+**Much of my original design's functionality has not changed so I've used this recording just to show some function changes.**
+**ADD VIDEO**
