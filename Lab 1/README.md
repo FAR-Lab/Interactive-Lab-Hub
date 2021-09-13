@@ -105,11 +105,21 @@ Contributer: Hongyu Shen, Wenlan Wei, Haohua Liu
 This describes the second week's work for this lab activity.
 
 
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+## Feedback
 
 \*\***Summarize feedback from your partners here.**\*\*
+
+Nice job. I love the mirror integration and location choice for where you're choosing your clothes. Keeping tech hyper relevant to the situation without having to grab your phone would save time. I usually go scrambling for my phone when getting dressed to check the weather!
+
+What I wish it had was a suggestion like "light jacket" or "heavy jacket" based on weather. Sometimes I am unsure what to grab, even knowing the temperature. Great job!!
+
+This is a very useful innovation that I actually may need in daily life. It's especially considerate to put the device in the bedroom next to a mirror, where most people change outfits. The only critical feedback I can think of is that maybe you can also add in features to indicates humidity/raining/snow/wind etc. Because sometimes under different weather condition, temperature may not be the only thing that determines what to wear for the day.
+
+**Summary:**
+
+1) Cloth Suggestions may be applied based on weather information
+2) Not only just warm/cold, but also other type of weather information like rain/snow/humidit
+
 
 ## Make it your own
 
@@ -119,3 +129,25 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+### New Idea Description
+
+After evaluating the feedback and act in a series of new interactions, I decided to expand the device in terms of both receiving information and delivering information (also interaction with human users). 
+
+Instead of just using a range of light to indicate relative temperature outside, now it's no longer limited to deliver information through light, but through a LED screen that could provide more information through a more user-friendly interface. Other than just a motion detector that associated with detection of human standing in front of the mirror, now it also has a camera or actually can be replaced by a single camera with multiple purposes (motion detection, hand-gesture recognition, and cloth recognition).
+
+The device now provides a more detailed weather information with not only just colors for temperatures, but also rain status, extreme weather conditions, sunlight degrees, and humidity. Other than original designed weather information, the device can now also provide cloths suggestions in a modern and personalized way. The feedback from my fellow classmates and my friends shares a common thought that people do not know what to wear even with the weather information known sometimes. Also it's common for people not to check the weather & temperature intentionally on the phone if they are in a hurry when dressing up, or just don't want to spend an extra effort on taking the phone out of pocket while hold clothes in hands. Thus, in this novel version of the device, people can stand in front of the mirror to active the device through motion as before, then they will receive detailed weather information in the main screen. Then, if they use hand gesture to swipe to the right, they can see cloth suggestions based on current weather.
+ 
+The cloth suggestion firstly gives out some common combinations of cloth to wear at this temperature, then it can provide feedback on whether what the user is wearing right now is too warm or too cold based on computer vision analysis of their current cloths. 
+
+The reason why switching between different information displayed on the screen is using hand gestures instead of touching is that this device is attached to, or even as a part of a mirror. When it's turned off, it should be look like just a mirror itself. People are natually more resistant to touch or lay hand on a mirror, besides, touching requires a close distance with the device, while when people are changing clothes, they are generally at a medium distance with the mirror to get a full picture of oneself.
+
+Some future ideas that can be derived from this device is connected to other part of human life. For example, a mobile app developed associate with the device to provide more personalized cloth suggestion. If the user would like to take a picture of every cloth they have, the device will be able to provide combinations of clothes every morning for users to choose what fits their mood, which makes the hard choice that most people face every morning way easier.
+
+
+### Story Board
+
+### Prototyping process pictures & Videos
+
+### Interaction Video
