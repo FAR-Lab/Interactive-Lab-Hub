@@ -82,7 +82,9 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 \*\***Include a picture of your storyboard here**\*\*
 
-https://drive.google.com/file/d/1Q4HuA_H5aNpeCAJPeeFfpP7AZwnVkdYF/view?usp=sharing
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Capture1.JPG)
+
+Link: https://drive.google.com/file/d/1Q4HuA_H5aNpeCAJPeeFfpP7AZwnVkdYF/view?usp=sharing
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
