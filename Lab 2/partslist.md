@@ -5,6 +5,7 @@
 1 x [Raspberry Pi 4 Computer Kit](https://www.amazon.com/Raspberry-USB-C-Adapters-Vilros-Quickstart/dp/B089ZSGF8M/ref=sr_1_14?dchild=1&keywords=vilros+pi+4+heatsink&qid=1630441198&sr=8-14)
 
 1 x [32GB MicroSD Cards w/ Card Reader](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294)
+
 1 x [Raspberry Pi 4 Case](https://www.adafruit.com/product/4301)
 
 1 x [Raspberry Pi 4 Power Supply with USB C](https://www.adafruit.com/product/4298)
