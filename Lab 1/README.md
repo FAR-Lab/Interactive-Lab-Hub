@@ -192,7 +192,7 @@ Peer Feedback 3: Meyhaa appreciated going with the simpler use case rather than 
 
 Additional Feedback: One group member said this would be very useful because often when doing yoga in a solo/remote setting, it is difficult to do the yoga pose and watch the TV/tablet/phone that has the instructor on it at the same time. The visual cue from the light would help take the focus off worrying about the timing and constantly looking at the instructor. 
 
-Another group member said that an auditory cue would be very useful, but consideration should be given to the specific type of auditory cue. For example, a cue that is commonly used in HIIT (high intensity interval training) workouts is a high pitched series of beeps that is used to convey to the individual that it is time to move to the next station. The nature of this sound is to keep the energy up. However, as yoga is a slower paced, calmer activity, the high pitched series of beeps may not be an appropriate indicator of when to move to the next pose. A calmer sound would be appropriate. 
+Grace, another group member, said that an auditory cue would be very useful, but consideration should be given to the specific type of auditory cue. For example, a cue that is commonly used in HIIT (high intensity interval training) workouts is a high pitched series of beeps that is used to convey to the individual that it is time to move to the next station. The nature of this sound is to keep the energy up. However, as yoga is a slower paced, calmer activity, the high pitched series of beeps may not be an appropriate indicator of when to move to the next pose. A calmer sound would be appropriate. 
 
 ## Make it your own
 
