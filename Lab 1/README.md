@@ -131,7 +131,7 @@ Do last week’s assignment again, but this time:
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 
-### New Idea Description
+## New Idea Description
 
 After evaluating the feedback and act in a series of new interactions, I decided to expand the device in terms of both receiving information and delivering information (also interaction with human users). 
 
@@ -146,12 +146,12 @@ The reason why switching between different information displayed on the screen i
 Some future ideas that can be derived from this device is connected to other part of human life. For example, a mobile app developed associate with the device to provide more personalized cloth suggestion. If the user would like to take a picture of every cloth they have, the device will be able to provide combinations of clothes every morning for users to choose what fits their mood, which makes the hard choice that most people face every morning way easier.
 
 
-### Story Board
+## Story Board
 
 ![image](https://user-images.githubusercontent.com/42874337/133167484-7283519a-7d72-4652-86da-5e1b3a322d12.png)
 
 
-### Prototyping process pictures & Videos
+## Prototyping process pictures & Videos
 
 **Weather interface design process record : (click to see video)**
 
@@ -167,6 +167,6 @@ Some future ideas that can be derived from this device is connected to other par
 [![image](https://user-images.githubusercontent.com/42874337/133180981-314a37eb-5a16-41b3-8b50-d6f8a55f3b70.png)](https://drive.google.com/file/d/1uFpqZ-fgHDRYi-3lzOASHLmWVq_W7iST/view?usp=sharing)
 
 
-### Interaction Video
+## Interaction Video
 
 [![image](https://user-images.githubusercontent.com/42874337/133181272-59a649ab-6fda-4f6a-9d02-690a3aa44832.png)](https://drive.google.com/file/d/1VIysLE_WUkSiQwxLRnOvEPz3Pcj-OgYM/view?usp=sharing)
