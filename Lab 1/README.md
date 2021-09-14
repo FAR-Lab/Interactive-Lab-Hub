@@ -153,4 +153,20 @@ Some future ideas that can be derived from this device is connected to other par
 
 ### Prototyping process pictures & Videos
 
+**Weather interface design process record : (click to see video)**
+
+[![image](https://user-images.githubusercontent.com/42874337/133181167-ff04ee17-0edb-44b4-8c8c-3a6256200cd1.png)](https://drive.google.com/file/d/1XmYd5XIc33TU2WySZKsekaSpghb1rQH9/view?usp=sharing)
+
+
+**Cloth Suggestion design process record : (click to see video)**
+
+[![image](https://user-images.githubusercontent.com/42874337/133180678-28b66ae7-dc0f-4b52-9ace-ce7969eb0cc4.png)](https://drive.google.com/file/d/1hHSNas3xEt6jdhork9qfsVfgCzH_Bppk/view?usp=sharing)
+
+**Prototype Design record : (click to see video)**
+
+[![image](https://user-images.githubusercontent.com/42874337/133180981-314a37eb-5a16-41b3-8b50-d6f8a55f3b70.png)](https://drive.google.com/file/d/1uFpqZ-fgHDRYi-3lzOASHLmWVq_W7iST/view?usp=sharing)
+
+
 ### Interaction Video
+
+[![image](https://user-images.githubusercontent.com/42874337/133181272-59a649ab-6fda-4f6a-9d02-690a3aa44832.png)](https://drive.google.com/file/d/1VIysLE_WUkSiQwxLRnOvEPz3Pcj-OgYM/view?usp=sharing)
