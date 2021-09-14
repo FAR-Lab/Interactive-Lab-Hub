@@ -116,4 +116,7 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\* <br />
-![P3:Storyboard-2](./images/Storyboard-2.jpg)
+![P3:Storyboard-2](./images/Storyboard-2.jpg)<br />
+
+Please see the following video for the prototyped interaction - https://drive.google.com/file/d/1bnHVs0UbBoqC3r_Yvf0ZOLeT6LlHmzU5/view?usp=sharing
+
