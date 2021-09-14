@@ -79,9 +79,6 @@ _Goals:_ Instead of the parent getting a loud noise on the baby monitor, a light
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-
 \*\***Include a picture of your storyboard here**\*\*
 ![Storyboard](https://github.com/nehamanjunath3/Interactive-Lab-Hub/blob/Fall2021/Lab%201/images/Screen%20Shot%202021-09-06%20at%206.01.09%20PM.png)
 
@@ -136,10 +133,6 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
 
-
-
-
-
 https://user-images.githubusercontent.com/64258179/132265393-9427e63a-c3d8-40ee-8fb2-a80e01bb12f2.mov
 
 
@@ -188,6 +181,19 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+\*\***Summarize feedback you got here.**\*\*
+
+_1. Necessity of the system_
+One feedback is that it may be possible to hear directly the baby crying, so it could be unnecessary to use such a device as a notification.
+We previously thought that the babies and the parents were in different rooms, and that the parents could be too engaged in the work, for example when they wore headphones when attending online meetings. To address this feedback, we updated our storyboard by adding a headset for the main character.
+
+_2. Sending notifications in different ways_
+One feedback suggested that this device would be more useful if the signalling device is not stationary. The parent could be moving around the house ex: kitchen, washroom. So we decided to include another non intrusive signalling device like a smartwatch that vibrates when the baby is crying.
+
+_3. Expand the features_
+The previous system could only tell whether the baby was crying or not. One of our peers suggested using more colors to indicate the baby was asleep, awake, or crying. Also, the system should allow users to customize on which device/s they would prefer receiving the notifications like the lamp or smartwatch or both.
+We address this feedback in our storyboard and the video. Specifically, the status of the baby and the device in which they receive the notification in both our story board and the video.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -196,3 +202,103 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+## Part A. Plan 
+
+_Setting:_ Two different rooms in a house
+
+_Players:_ Parent who is working from home and a baby
+
+_Activity:_ The baby is crying in a room and the parent is on a zoom meeting in a different room.
+
+_Goals:_ Instead of the parent getting a loud noise on the baby monitor, a light source flashes along with an alert on the smartwatch alerting the parents of the child awake or crying. This can help parents who are working from home to monitor their babies in a non-intrusive way using light.
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+<img width="625" alt="Screen Shot 2021-09-13 at 9 52 04 PM" src="https://user-images.githubusercontent.com/64258179/133181704-728738be-5e1e-4938-9eb6-2978fe73c91d.png">
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+
+The initial plan involved using the room light as the alerting light. But the intensity of that is very low especially during the day. So we shifted towards a table/bedside lamp.
+It’s hard to act out and record scenes happening in separate rooms at the same time, which is easy to deliver on paper.
+The parent receiving notification through multiple channels can be annoying. Hence we came up with the option of customizing the notification for the parent’s choice.
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+We decided to place the mobile phone controlled using tinkerbelle inside the table lamp instead of using the light bulb in the lamp itself as a lightsource.
+The light source should be placed somewhere more visible.
+Changing the intensity of the light based on the baby’s volume could be done using other light sources like smart lighting.
+Also continuous flashing of the light when the parent is working can be annoying.
+
+## Part C. Prototype the device
+
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+
+Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+
+We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+
+Tinkerbelle works great with colour changing and the interaction is seamless. We hope it can include features such as blinking and gradual variation of intensity too. 
+
+
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+
+
+https://user-images.githubusercontent.com/64258179/132265393-9427e63a-c3d8-40ee-8fb2-a80e01bb12f2.mov
+
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+
+
+
+
+## Part E. Costume the device
+
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+\*\***Include sketches of what your device might look like here.**\*\*
+<img width="614" alt="Screen Shot 2021-09-13 at 9 52 37 PM" src="https://user-images.githubusercontent.com/64258179/133182303-2505a8cf-46a4-4245-a62f-c2305be46c1f.png">
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+As we understood from the acting out step, the communication has to be equally effective both during the day and at night. So we decided to use the bedside lamp and smartwatch. Also a better alternative to the device would be a smart lamp controlled again by the sound of the baby’s noise. We also think including options ona mobile phone to customize the notification type and frequency based on the users choices would be more effective.
+
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+
+
+https://user-images.githubusercontent.com/64258179/133182918-809fb75f-e1e3-4cda-85e7-dc2254dc9260.mov
+
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Tianyun Zou, Zhengxing Xue and Yehao Zhang.
+
+
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+
+
+
+
+
+
+
