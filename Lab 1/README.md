@@ -184,5 +184,5 @@ Much of my feedback came from aesthetic concerns. Although I used the original d
 
 ## Part F. Record
 
-**Much of my original design's functionality has not changed so I've used this recording just to show some function changes.**
-**ADD VIDEO**
+**My design didn't change much so I didn't record a video, but here's a gif of the LED light line in action.**
+![gif](plantGif.gif)
