@@ -180,7 +180,7 @@ See above for my recording for the previous part of the Lab.
 
 Much of my feedback came from aesthetic concerns. Although I used the original design for my storyboard, here are some potential new designs:
 
-**NEW DESIGNS HERE**
+![designs](https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Lab1bDesigns.png?raw=true)
 
 ## Part F. Record
 
