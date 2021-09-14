@@ -162,7 +162,7 @@ _Goals:_ The goal of the plant owner is to take care of the plant so it looks he
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-**NEW STORYBOARD HERE**
+![storyboard](https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Lab1bStoryboard.png?raw=true)
 
 ## Part B. Act out the Interaction
 
