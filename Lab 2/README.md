@@ -172,6 +172,8 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
+**We strongly discourage and will reject the results of literal digital or analog clock display.**
+
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
