@@ -26,7 +26,12 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Spring2021
+  Interactive-Lab-Hub $ git pull upstream Fall2021
+  ```
+  
+  The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
+  
+  ```
   Interactive-Lab-Hub $ git add .
   Interactive-Lab-Hub $ git commit -m'merge'
   Interactive-Lab-Hub $ git push
@@ -171,6 +176,8 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+
+**We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
