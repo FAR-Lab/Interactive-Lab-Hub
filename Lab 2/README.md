@@ -26,7 +26,7 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Spring2021
+  Interactive-Lab-Hub $ git pull upstream Fall2021
   Interactive-Lab-Hub $ git add .
   Interactive-Lab-Hub $ git commit -m'merge'
   Interactive-Lab-Hub $ git push
