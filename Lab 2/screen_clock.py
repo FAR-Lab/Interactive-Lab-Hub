@@ -67,10 +67,9 @@ while True:
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
     from time import strftime, sleep
-    while True:
-        print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
-        print("\r", end="", flush=True)
-        sleep(1)
+    cur_time = time.strftime("%m/%d/%Y %H:%M:%S") 
+    y = top
+    draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
