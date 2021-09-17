@@ -68,7 +68,7 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
     from time import strftime, sleep
     cur_time = time.strftime("%m/%d/%Y %H:%M:%S") 
-    y = top
+    y = (top+bottom)/2
     draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
 
     # Display image.
