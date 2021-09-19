@@ -130,7 +130,7 @@ Video: https://drive.google.com/file/d/1USkp8Tc9PRqcqepnwEbqRUxKPRlJ5pll/view?us
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
 ### How to Edit Scripts on Pi
-By adding the following python scripts on my pi in the #TODO section, I was able to make the display to show the current date/time.
+By adding the following python scripts in the #TODO section of ```screen_clock.py```, I was able to edit scripts on the pi and make the display to show the current date/time.
 ```
 now = time.strftime("%m/%d/%Y %H:%M:%S")
 y = top
