@@ -130,21 +130,13 @@ Video: https://drive.google.com/file/d/1USkp8Tc9PRqcqepnwEbqRUxKPRlJ5pll/view?us
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
 ### How to Edit Scripts on Pi
-Option 1. One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
+By adding the following python scripts on my pi in the #TODO section, I was able to make the display to show the current date/time.
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ nano screen_clock.py
+now = time.strftime("%m/%d/%Y %H:%M:%S")
+y = top
+draw.text((x, y), now, font=font, fill="#FFFFFF")           
 ```
-You can make changes to the script this way, remember to save the changes by pressing `ctrl-o` and press enter again. You can press `ctrl-x` to exit the nano mode. There are more options listed down in the terminal you can use in nano.
-
-Option 2. Another way for you to edit scripts is to use VNC on your laptop to remotely connect your Pi. Try to open the files directly like what you will do with your laptop and edit them. Since the default OS we have for you does not come up a python programmer, you will have to install one yourself otherwise you will have to edit the codes with text editor. [Thonny IDE](https://thonny.org/) is a good option for you to install, try run the following command lines in your Pi's ternimal:
-
-  ```
-  pi@ixe00:~ $ sudo apt install thonny
-  pi@ixe00:~ $ sudo apt update && sudo apt upgrade -y
-  ```
-
-Now you should be able to edit python scripts with Thonny on your Pi.
-
+![P3:Setup](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Setup.JPG)
 
 ## Part E.
 ### Modify the barebones clock to make it your own
