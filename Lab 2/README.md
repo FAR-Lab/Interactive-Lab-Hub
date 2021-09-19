@@ -72,26 +72,19 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 
 ## Part B. 
 ### Try out the Command Line Clock
-Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
+I cloned my own lab-hub to the pi and changed the directory to Lab 2 via the following commands:
 
 ```
-(circuitpython) pi@ixe00:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
-(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
+(circuitpython) pi@ixe00:~ $ git clone https://github.com/kchen1009/Interactive-Lab-Hub.git
+(circuitpython) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 2/
 ```
-Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
 
-
-Install the packages from the requirements.txt and run the example script `cli_clock.py`:
-
+I then installed the packages and ran ```cli_clock.py```:
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
-02/24/2021 11:20:49
+09/19/2021 15:32:15
 ```
-
-The terminal should show the time, you can press `ctrl-c` to exit the script.
-If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you are still concerned, please reach out to the teaching staff!
-
 
 ## Part C. 
 ### Set up your RGB Display
