@@ -111,16 +111,10 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 
 ### Testing your Screen
 
-The display uses a communication protocol called [SPI](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/) to speak with the raspberry pi. We won't go in depth in this course over how SPI works. The port on the bottom of the display connects to the SDA and SCL pins used for the I2C communication protocol which we will cover later. GPIO (General Purpose Input/Output) pins 23 and 24 are connected to the two buttons on the left. GPIO 22 controls the display backlight.
-
-We can test it by typing 
+By running the following command and inputting 'yellow', I was able to see a yellow background on the display. < /br>
+Video: 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python screen_test.py
-```
-
-You can type the name of a color then press either of the buttons on the MiniPiTFT to see what happens on the display! You can press `ctrl-c` to exit the script. Take a look at the code with
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ cat screen_test.py
 ```
 
 #### Displaying Info with Texts
