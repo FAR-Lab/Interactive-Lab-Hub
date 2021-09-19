@@ -118,11 +118,10 @@ Video: https://drive.google.com/file/d/1USkp8Tc9PRqcqepnwEbqRUxKPRlJ5pll/view?us
 ```
 
 #### Displaying Info with Texts
-
+![P1:Testing1](./images/Testing1.jpg)
 
 #### Displaying an image
-
-You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
+![P2:Testing2](./images/Testing2.jpg)
 
 
 
