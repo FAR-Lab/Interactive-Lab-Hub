@@ -111,7 +111,7 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 
 ### Testing your Screen
 
-By running the following command and inputting 'yellow', I was able to see a yellow background on the display. < /br>
+By running the following command and inputting 'yellow', I was able to see a yellow background on the display. < \br>
 Video: 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python screen_test.py
