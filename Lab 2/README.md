@@ -60,15 +60,14 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. 
 ### Connect to your Pi
-I connected the pi and further synced my lab-hub with my pi using the following commands: 
+I connected the pi and set up a python environment using the following commands: 
 
 ```
 (base) kristychen@Kristys-MBP ~ % ssh pi@192.168.1.76
 ...
-pi@ixe00:~ $ git clone https://github.com/kchen1009/Interactive-Lab-Hub.git
-pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 2/
-pi@ixe00:~ $ 
-
+pi@ixe00:~ $ virtualenv circuitpython
+pi@ixe00:~ $ source circuitpython/bin/activate
+(circuitpython) pi@ixe00:~ $ 
 ```
 
 ## Part B. 
