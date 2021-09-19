@@ -121,7 +121,7 @@ Video: https://drive.google.com/file/d/1USkp8Tc9PRqcqepnwEbqRUxKPRlJ5pll/view?us
 ![P1:Testing2](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Testing2.JPG)
 
 #### Displaying an image
-![P2:Testing3](./Lab 2/images/Testing3.jpg)
+![P2:Testing3](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Testing3.JPG)
 
 
 
