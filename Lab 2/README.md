@@ -143,7 +143,7 @@ draw.text((x, y), now, font=font, fill="#FFFFFF")
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.** <br />
 The code can be found in ```screen_clock.py``` where I designed an interaction to tell people how much water they need to drink at the current time. If it's 5 in the afternoon, the clock would show users that the curren time is 1416 milliliters of water (2L / 24 hours a day * 17). The number is rounded to the nearest ineger.
-\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*<br />
 ```
 import datetime
 import time
