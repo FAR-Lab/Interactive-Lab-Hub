@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 23:23:47
+LastEditTime: 2021-09-20 16:31:26
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -103,6 +103,8 @@ while True:
     n = 1
     t = 0
     interval = 1
+    SHOW = False
+
     while True:
 
         # Create blank image for drawing.
@@ -111,29 +113,42 @@ while True:
         if n >= 8:
             n = 1
             t = 0
-        if disp.rotation % 180 == 90:
-            height = disp.width  # we swap height/width to rotate it to landscape!
-            width = disp.height
 
+        if buttonA.value and not buttonB.value:
+            SHOW = True
+
+        elif buttonB.value and not buttonA.value:
+            n = 1
+            t = 0
+            SHOW = False
+
+        if SHOW == False:
+            REMIND = "Press Button A to start Timing"
+            draw.text((0, -2), REMIND, font=font, fill="#FFFFFF")
+            break
         else:
-            width = disp.width  # we swap height/width to rotate it to landscape!
-            height = disp.height
+            if disp.rotation % 180 == 90:
+                height = disp.width  # we swap height/width to rotate it to landscape!
+                width = disp.height
 
-        image = Image.new("RGB", (width, height))
+            else:
+                width = disp.width  # we swap height/width to rotate it to landscape!
+                height = disp.height
 
-        # Get drawing object to draw on image.
-        draw = ImageDraw.Draw(image)
-        pictureName = 'images/'+"test"+str(n)+".jpg"
-        image = Image.open(pictureName)
-        n = n+1
+            image = Image.new("RGB", (width, height))
 
-        image_2 = image.transpose(Image.ROTATE_90)
-        image = image_2.resize((135, 240))
-        disp.image(image)
-        time.sleep(interval)
-        t += interval
-        print("time pass", str(t), "second")
+            # Get drawing object to draw on image.
+            draw = ImageDraw.Draw(image)
+            pictureName = 'images/'+"test"+str(n)+".jpg"
+            image = Image.open(pictureName)
+            n = n+1
 
+            image_2 = image.transpose(Image.ROTATE_90)
+            image = image_2.resize((135, 240))
+            disp.image(image)
+            time.sleep(interval)
+            t += interval
+            print("time pass", str(t), "second")
         # backlight = digitalio.DigitalInOut(board.D22)
         # backlight.switch_to_output()
         # backlight.value = True
