@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-20 16:35:53
+LastEditTime: 2021-09-20 16:37:27
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -113,6 +113,7 @@ while True:
     if n >= 8:
         n = 1
         t = 0
+        SHOW = False
 
     if buttonA.value and not buttonB.value:
         SHOW = True
