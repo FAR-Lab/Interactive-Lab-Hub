@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-20 16:42:03
+LastEditTime: 2021-09-20 16:49:31
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -118,7 +118,7 @@ while True:
     if buttonA.value and not buttonB.value:
         SHOW = True
 
-    elif buttonB.value and not buttonA.value:
+    if buttonB.value and not buttonA.value:
         n = 1
         t = 0
         SHOW = False
@@ -126,7 +126,10 @@ while True:
     if SHOW == False:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         REMIND = "Press Button A to start Timing"
-        draw.text((0, 10), REMIND, font=smallfont, fill="#FFFFFF")
+        x = 0
+        y = (top+bottom)/2
+        draw.text((x, y), REMIND, font=smallfont, fill="#FFFFFF")
+        disp.image(image, rotation)
         time.sleep(0.1)
 
     else:
@@ -138,17 +141,17 @@ while True:
             width = disp.width  # we swap height/width to rotate it to landscape!
             height = disp.height
 
-        image = Image.new("RGB", (width, height))
+        image_cus = Image.new("RGB", (width, height))
 
         # Get drawing object to draw on image.
-        draw = ImageDraw.Draw(image)
+        draw = ImageDraw.Draw(image_cus)
         pictureName = 'images/'+"test"+str(n)+".jpg"
-        image = Image.open(pictureName)
+        image_cus = Image.open(pictureName)
         n = n+1
 
-        image_2 = image.transpose(Image.ROTATE_90)
-        image = image_2.resize((135, 240))
-        disp.image(image)
+        image_2 = image_cus.transpose(Image.ROTATE_90)
+        image_cus = image_2.resize((135, 240))
+        disp.image(image_cus)
         time.sleep(interval)
         t += interval
         print("time pass", str(t), "second")
