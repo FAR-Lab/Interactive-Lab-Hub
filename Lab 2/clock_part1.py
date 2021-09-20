@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 22:37:35
+LastEditTime: 2021-09-19 22:42:13
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -49,8 +49,8 @@ disp = st7789.ST7789(
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
-height = disp.width  # we swap height/width to rotate it to landscape!
-width = disp.height
+width = disp.width  # we swap height/width to rotate it to landscape!
+height = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 
