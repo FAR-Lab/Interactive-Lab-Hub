@@ -192,6 +192,12 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+The idea is to track daylight based on the position of the sun throughout the day. Below is a very rough first iteration, which shows the sun moving throughout the "day". For future iterations, I want to add more positions of the sun to get a more finely grained estimate of the time throughout the day. I also want to add a moon cycle after the sun sets to track the time throughout the night. Finally, I want to add a graphic indicator to track days/weeks/months but I'm still brainstorming this part. 
+
+Link:https://youtu.be/glh2irr3c50
+
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
