@@ -33,11 +33,12 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 
 ```
 
-Navigate to your interactive lab hub, pull changes from upstream, and install new packages. If you have [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts), you need to resolve them. If you've never done this before ask people in your group for help. Otherwise ask yout TA!
+On the pi, Navigate to your interactive lab hub, pull changes from upstream, and install new packages. If you have [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts), you need to resolve them. If you've never done this before ask people in your group for help.
 
 ```
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Spring2021
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git add .
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git commit -m'merge'
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ cd Lab\ 2/
@@ -55,13 +56,13 @@ Try running `python library_example.py`.
 Some important things to note from the code:
 
  * We create an I2C device to handle communication with the pi.
- * We then scan for devices on the bus
+ * We then scan for devices on the bus.
  * We check if `default_addr = 0x6f` is listed in the found devices. This is the address your button comes programmed with, you can also change this and have it store the update on the button.
  * Once we initialize the I2C_Button object the rest of the code shows us some of the builtin capabilities.
 
 ## Connecting a Sensor
 
-Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, We love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
+Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, we love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
 
 We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595). You can leave the button plugged in and daisy-chain the sensor, this is part of the magic of I2C.
 
