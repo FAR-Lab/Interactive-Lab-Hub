@@ -64,8 +64,26 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+    
+    y = top
+    #draw.text((x, y), time.strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#FFFFFF")
+    shape = [(0.8*width,0.9*height), (width, height+0.33*height)]
+    shape1 = [(0.6*width,0.33*height), (0.8*width, 0.67*height)]
+    shape2 = [(0.4*width,0), (0.6*width, 0.33*height)]
+    shape3 = [(0.2*width,0.33*height), (0.4*width, 0.67*height)]
+    shape4 = [(0,(0.9*height)), (0.2*width, height+0.33*height)]
+    
+    if int(time.strftime("%S")) <= 12:
+        draw.ellipse(shape, fill='#ffff33')
+    elif int(time.strftime("%S")) <= 24:
+        draw.ellipse(shape1, fill='#ffff33')
+    elif int(time.strftime("%S")) <= 36:
+        draw.ellipse(shape2, fill='#ffff33')
+    elif int(time.strftime("%S")) <= 48:
+        draw.ellipse(shape3, fill='#ffff33')
+    else:
+        draw.ellipse(shape4, fill='#ffff33')
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
