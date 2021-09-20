@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 22:59:49
+LastEditTime: 2021-09-19 23:01:57
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -122,6 +122,8 @@ while True:
         pictureName = 'images/'+"test"+str(n)+".jpg"
         image = Image.open(pictureName)
         n = n+1
+        image = image.rotate(90)
+
         backlight = digitalio.DigitalInOut(board.D22)
         backlight.switch_to_output()
         backlight.value = True
@@ -142,7 +144,6 @@ while True:
         x = scaled_width // 2 - width // 2
         y = scaled_height // 2 - height // 2
         image = image.crop((x, y, x + width, y + height))
-
         # Display image.
         disp.image(image)
         time.sleep(4)
