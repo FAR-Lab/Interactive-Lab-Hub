@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 23:18:04
+LastEditTime: 2021-09-19 23:20:41
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -101,7 +101,8 @@ while True:
     # TODO: fill in here. You should be able to look in cli_clock.py and stats.py
 
     n = 1
-    t = 30
+    t = 0
+    interval = 1
     while n < 8:
 
         # Create blank image for drawing.
@@ -122,38 +123,37 @@ while True:
         pictureName = 'images/'+"test"+str(n)+".jpg"
         image = Image.open(pictureName)
         n = n+1
-        print(image.size)
 
         image_2 = image.transpose(Image.ROTATE_90)
-        print(image_2.size)
         image = image_2.resize((135, 240))
-        print(image.size)
         disp.image(image)
-        time.sleep(4)
+        time.sleep(interval)
+        t += interval
+        print("time pass", str(t), "second")
 
-        backlight = digitalio.DigitalInOut(board.D22)
-        backlight.switch_to_output()
-        backlight.value = True
+        # backlight = digitalio.DigitalInOut(board.D22)
+        # backlight.switch_to_output()
+        # backlight.value = True
 
-        # Scale the image to the smaller screen dimension
-        image_ratio = image.width / image.height
-        screen_ratio = width / height
+        # # Scale the image to the smaller screen dimension
+        # image_ratio = image.width / image.height
+        # screen_ratio = width / height
 
-        if screen_ratio < image_ratio:
-            scaled_width = image.width * height // image.height
-            scaled_height = height
-        else:
-            scaled_width = width
-            scaled_height = image.height * width // image.width
-        image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+        # if screen_ratio < image_ratio:
+        #     scaled_width = image.width * height // image.height
+        #     scaled_height = height
+        # else:
+        #     scaled_width = width
+        #     scaled_height = image.height * width // image.width
+        # image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
 
-        # Crop and center the image
-        x = scaled_width // 2 - width // 2
-        y = scaled_height // 2 - height // 2
-        image = image.crop((x, y, x + width, y + height))
-        # Display image.
-        disp.image(image)
-        time.sleep(4)
+        # # Crop and center the image
+        # x = scaled_width // 2 - width // 2
+        # y = scaled_height // 2 - height // 2
+        # image = image.crop((x, y, x + width, y + height))
+        # # Display image.
+        # disp.image(image)
+        # time.sleep(4)
 
     # Display image.
     #disp.image(image, rotation)
