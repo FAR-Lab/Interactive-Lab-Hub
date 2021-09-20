@@ -122,7 +122,7 @@ while True:
         pictureName = 'images/'+"test"+str(n)+".jpg"
         image = Image.open(pictureName)
         n = n+1
-        image = image.rotate(90)
+        image = image.rotate(270)
 
         backlight = digitalio.DigitalInOut(board.D22)
         backlight.switch_to_output()
