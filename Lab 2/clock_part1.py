@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-20 16:31:26
+LastEditTime: 2021-09-20 16:35:53
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -125,7 +125,7 @@ while True:
     if SHOW == False:
         REMIND = "Press Button A to start Timing"
         draw.text((0, -2), REMIND, font=font, fill="#FFFFFF")
-        break
+
     else:
         if disp.rotation % 180 == 90:
             height = disp.width  # we swap height/width to rotate it to landscape!
