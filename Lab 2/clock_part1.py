@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 23:16:36
+LastEditTime: 2021-09-19 23:18:04
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -124,7 +124,7 @@ while True:
         n = n+1
         print(image.size)
 
-        image_2 = image.rotate(90)
+        image_2 = image.transpose(Image.ROTATE_90)
         print(image_2.size)
         image = image.resize((240, 135))
         print(image.size)
