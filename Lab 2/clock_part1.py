@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-20 16:49:31
+LastEditTime: 2021-09-20 16:52:46
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -115,10 +115,10 @@ while True:
         t = 0
         SHOW = False
 
-    if buttonA.value and not buttonB.value:
+    if buttonB.value and not buttonA.value:
         SHOW = True
 
-    if buttonB.value and not buttonA.value:
+    if buttonA.value and not buttonB.value:
         n = 1
         t = 0
         SHOW = False
@@ -126,9 +126,11 @@ while True:
     if SHOW == False:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         REMIND = "Press Button A to start Timing"
+        REMIND_2 = "Press Button B to reset"
         x = 0
         y = (top+bottom)/2
         draw.text((x, y), REMIND, font=smallfont, fill="#FFFFFF")
+        draw.text((x, y+10), REMIND_2, font=smallfont, fill="#FFFFFF")
         disp.image(image, rotation)
         time.sleep(0.1)
 
