@@ -126,7 +126,7 @@ while True:
 
         image_2 = image.transpose(Image.ROTATE_90)
         print(image_2.size)
-        image = image.resize((240, 135))
+        image = image_2.resize((135, 240))
         print(image.size)
         disp.image(image)
         time.sleep(4)
