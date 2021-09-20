@@ -60,17 +60,6 @@ Some important things to note from the code:
  * We check if `default_addr = 0x6f` is listed in the found devices. This is the address your button comes programmed with, you can also change this and have it store the update on the button.
  * Once we initialize the I2C_Button object the rest of the code shows us some of the builtin capabilities.
 
-## Connecting a Sensor
-
-Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, we love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
-
-We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595). You can leave the button plugged in and daisy-chain the sensor, this is part of the magic of I2C.
-
-<img src="https://cdn-shop.adafruit.com/1200x900/3595-03.jpg" height="200" />
-
-
-Now run `python proximity.py`.
-
  
 ## Under the I2C curtain (optional: complete only after working on your projects in groups)
 
@@ -101,3 +90,14 @@ Use a higher level device interface can make reading and writing registers for I
 ```
 56               write_register(device, STATUS, 0)
 ```
+
+## Connecting a Sensor
+
+Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, we love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
+
+We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595). You can leave the button plugged in and daisy-chain the sensor, this is part of the magic of I2C.
+
+<img src="https://cdn-shop.adafruit.com/1200x900/3595-03.jpg" height="200" />
+
+
+Now run `python proximity.py`. What did you see?
