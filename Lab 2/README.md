@@ -6,8 +6,7 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
-**Please indicate anyone you collaborated with on this Lab here.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+**Worked on this one independently.**
 
 ## Prep
 
@@ -62,6 +61,8 @@ G) [Sketch and brainstorm further interactions and features you would like for y
 This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the \*\*\***stars**\*\*\*. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
+
+**Decided to keep the sections intact as I still refer to some of them to remember the python commands. Will consider deleting as I work on part 2**
 
 ## Part A. 
 ### Connect to your Pi
