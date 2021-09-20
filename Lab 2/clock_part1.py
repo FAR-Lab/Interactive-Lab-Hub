@@ -127,7 +127,6 @@ while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         REMIND = "Press Button A to start Timing"
         draw.text((0, 10), REMIND, font=smallfont, fill="#FFFFFF")
-        disp.image(image, rotation)
         time.sleep(0.1)
 
     else:
