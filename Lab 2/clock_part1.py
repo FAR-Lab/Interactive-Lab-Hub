@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 23:20:41
+LastEditTime: 2021-09-19 23:23:47
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -103,11 +103,14 @@ while True:
     n = 1
     t = 0
     interval = 1
-    while n < 8:
+    while True:
 
         # Create blank image for drawing.
         # Make sure to create image with mode 'RGB' for full color.
 
+        if n >= 8:
+            n = 1
+            t = 0
         if disp.rotation % 180 == 90:
             height = disp.width  # we swap height/width to rotate it to landscape!
             width = disp.height
