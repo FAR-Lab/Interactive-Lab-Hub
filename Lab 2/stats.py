@@ -68,6 +68,7 @@ while True:
 
     # Shell scripts for system monitoring from here:
     # https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-USD-usage-and-WTTR-load
+    title = 'standard Pi'
     cmd = "hostname -I | cut -d' ' -f1"
     IP = "IP: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
     cmd = "curl -s wttr.in/?format=2"
@@ -79,6 +80,8 @@ while True:
 
     # Write four lines of text.
     y = top
+    draw.text((x, y), title, font=font, fill="#F333FF")
+    y += font.getsize(title)[1]
     draw.text((x, y), IP, font=font, fill="#FFFFFF")
     y += font.getsize(IP)[1]
     draw.text((x, y), WTTR, font=font, fill="#FFFF00")
