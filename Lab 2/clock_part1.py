@@ -1,7 +1,7 @@
 '''
 Author: Wenlan Wei
 Date: 2021-09-19 21:18:28
-LastEditTime: 2021-09-19 21:43:35
+LastEditTime: 2021-09-19 22:37:35
 LastEditors: Please set LastEditors
 Description: Part1 Homework Lab2 A simple Customize Clock
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part1.py
@@ -107,13 +107,13 @@ while True:
         # Create blank image for drawing.
         # Make sure to create image with mode 'RGB' for full color.
 
-        if disp.rotation % 180 == 90:
-            height = disp.width  # we swap height/width to rotate it to landscape!
-            width = disp.height
+        # if disp.rotation % 180 == 90:
+        #     height = disp.width  # we swap height/width to rotate it to landscape!
+        #     width = disp.height
 
-        else:
-            width = disp.width  # we swap height/width to rotate it to landscape!
-            height = disp.height
+        # else:
+        #     width = disp.width  # we swap height/width to rotate it to landscape!
+        #     height = disp.height
 
         image = Image.new("RGB", (width, height))
 
