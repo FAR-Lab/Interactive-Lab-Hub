@@ -201,6 +201,9 @@ The interaction I designed is related to button's position. The upside button wi
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+[![image](https://user-images.githubusercontent.com/42874337/134100917-6621c56c-6453-4576-81cf-6ab83e42ed06.png)](https://drive.google.com/file/d/12Af0Er_XnjjHDnK-HLhMqPCxmMhwnGjN/view?usp=sharing)
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
