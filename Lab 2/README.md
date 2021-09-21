@@ -16,12 +16,12 @@ Be generous in acknowledging their contributions! And also recognizing any other
 ### Get your kit
 If you are remote but in the US, let the teaching team know you need the parts mailed.
 
+
 If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
 
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-  
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
@@ -80,6 +80,7 @@ The support for password authentication of GitHub was removed on August 13, 2021
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
 
+
 ## Part B. 
 ### Try out the Command Line Clock
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
@@ -89,7 +90,6 @@ Clone your own lab-hub repo for this assignment to your Pi and change the direct
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
-
 
 Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
