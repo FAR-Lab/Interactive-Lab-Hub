@@ -60,7 +60,7 @@ pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
  * Debugger is active!
  * Debugger PIN: 162-573-883
 ```
-From a remote browser on the same network, check to make sure your webserver is working by going to [http://<YouPiIPAddress>:5000](). You should be able to see "Hello World" on the webpage.
+From a remote browser on the same network, check to make sure your webserver is working by going to `http://<YouPiIPAddress>:5000`. You should be able to see "Hello World" on the webpage.
 
 
 ## Demo
