@@ -4,7 +4,7 @@
 
 In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on **audio** as the main modality for interaction but there is no reason these general techniques can't extend to **video**, **haptics** or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design!
 
-## Prep for Lab 3: Get the Latest Content
+## Prep for Part 1: Get the Latest Content
 As always, pull updates from the class lab-hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
 
 **\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the personal access token for this.
@@ -60,16 +60,16 @@ pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
  * Debugger is active!
  * Debugger PIN: 162-573-883
 ```
-From a remote browser on the same network, check to make sure your webserver is working by going to [http://ixe00.local:5000]()
+From a remote browser on the same network, check to make sure your webserver is working by going to [http://<YouPiIPAddress>:5000](). You should be able to see "Hello World" on the webpage.
 
 
 ## Demo
 
-In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** feel free to get creative. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser. You can control what system says from the controller as well.
+In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** use it, feel free to get creative!! In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser. You can control what system says from the controller as well.
 
-## Optional
+## Optional Exercise
 
-There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out we suggest you create a seperarate virutalenv. 
+There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it: 
 
 
 
