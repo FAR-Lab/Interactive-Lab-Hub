@@ -4,7 +4,7 @@
 
 In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on **audio** as the main modality for interaction but there is no reason these general techniques can't extend to **video**, **haptics** or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design!
 
-## Get the Latest Lab 3 Content
+## Prep for Lab 3: Get the Latest Content
 As always, pull updates from the class lab-hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
 
 **\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the personal access token for this.
@@ -40,7 +40,7 @@ echo "Just what do you think you're doing, Dave?" | festival --tts
 
 Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a shell script which you can execute in a terminal. The example files we offer here are for you to figure out the ways to play with audio on your Pi!
 
-You can also play audio files directly with `aplay filename`. Trying typing `aplay lookdave.wav`.
+You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
 After looking through this folder, do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
 
