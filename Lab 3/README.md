@@ -2,38 +2,35 @@
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
-In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on audio as the main modality for interaction but there is no reason these general techniques can't extend to video, haptics or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design.
+In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on **audio** as the main modality for interaction but there is no reason these general techniques can't extend to **video**, **haptics** or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design!
 
 
 ## Text to Speech and Speech to Text
 
-In the home directory of your Pi there is a folder called `text2speech` containing some shell scripts.
+In the home directory of your Pi there is a folder called `text2speech` containing some shell scripts. `cd` to the folder and list out all the files by:
 
 ```
 pi@ixe00:~/text2speech $ ls
 Download        festival_demo.sh  GoogleTTS_demo.sh  pico2text_demo.sh
 espeak_demo.sh  flite_demo.sh     lookdave.wav
-
 ```
 
-you can run these examples by typing 
-`./espeakdeom.sh`. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`
+you can run these examples by typing `./espeakdeom.sh`. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`
 
 ```
 pi@ixe00:~/text2speech $ cat festival_demo.sh 
 #from: https://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)#Festival_Text_to_Speech
 
 echo "Just what do you think you're doing, Dave?" | festival --tts
-
 ```
 
 You can also play audio files directly with `aplay filename`.
 
-After looking through this folder do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
+After looking through this folder, do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
 
 ## Serving Pages
 
-In Lab 1 we served a webpage with flask. In this lab you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
+In Lab 1 we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
 
 ```
 pi@ixe00:~/$ python server.py
