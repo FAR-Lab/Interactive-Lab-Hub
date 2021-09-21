@@ -146,12 +146,12 @@ You can type the name of a color then press either of the buttons on the MiniPiT
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ cat screen_test.py
 
-
+```
 
 https://user-images.githubusercontent.com/64258179/134098669-359810c2-e5e4-4cbc-85bd-fe3f80c992f0.mp4
 
 
-```
+
 
 #### Displaying Info with Texts
 You can look in `stats.py` for how to display text on the screen!
@@ -215,6 +215,10 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+
+https://user-images.githubusercontent.com/64258179/134103740-85561ebf-908b-405e-af53-36b3f1b4db83.mp4
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
