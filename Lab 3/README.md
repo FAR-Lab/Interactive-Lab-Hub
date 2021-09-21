@@ -46,10 +46,10 @@ After looking through this folder, do the same for the `speech2text` folder. In 
 
 ## Serving Pages
 
-In Lab 1 we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
+In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
 
 ```
-pi@ixe00:~/$ python server.py
+pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
  * Serving Flask app "server" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
