@@ -4,7 +4,7 @@
 
 In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on **audio** as the main modality for interaction but there is no reason these general techniques can't extend to **video**, **haptics** or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design!
 
-##
+## Get the Latest Lab 3 Content
 As always, pull updates from class lab-hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
 
 \[recommended\]Option 1: On the pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (calss lab-hub) and push the updates back to your own GitHub repo. You will need the perconal access token for this.
