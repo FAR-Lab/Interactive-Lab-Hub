@@ -41,6 +41,7 @@ On the pi, Navigate to your interactive lab hub, pull changes from upstream, and
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git add .
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "merge"
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git push
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ cd Lab\ 2/
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
 ```
