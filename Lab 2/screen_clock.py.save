@@ -70,37 +70,20 @@ while True:
     now = datetime.now()
     now_str = now.strftime("%m/%d/%Y %H:%M:%S")
 
-    winter = datetime(2021, 12, 1, 0, 0, 0)
-    inter = winter - now
-
-    spring = datetime(2022, 3, 23, 0, 0, 0)
-    inter_spr = spring - now
-
     line1 = now_str
-    line2 = "GOOD MORNING!!"
-    line3 =  "We have " +str(inter.seconds)+ "seconds til "
-    line4 = "winter to we celebrate"
-    line5= "Christmas!!"
-    line6 = "We have "  +str(inter_spr.seconds)+ "seconds til"
-    line7 = "spring!!! WOOOO"
- 
+    line2 = "hello world"
+
+    linelineline
+
     y = top
-    draw.text((x,y), line1, font=font, fill='#58815b')
+    draw.text((x,y), line1, font=font, fill='#FFFFFF')
     y += font.getsize(line1)[1]
-    draw.text((x,y), line2, font=font, fill='#d1414a')
+    draw.text((x,y), line2, font=font, fill='#FFFFFF')
     y += font.getsize(line2)[1]
-    draw.text((x,y), line3, font=font, fill='#5c76bc')
-    y += font.getsize(line3)[1]
-    draw.text((x,y), line4, font=font, fill='#5c74bc')
-    y += font.getsize(line4)[1]
-    draw.text((x,y), line5, font=font, fill='#5c74bc')
-    y += font.getsize(line5)[1]
-    draw.text((x,y), line6, font=font, fill='#FFFFFF')
-    y += font.getsize(line6)[1]
-    draw.text((x,y), line7, font=font, fill='#FFFFFF')
-    y += font.getsize(line7)[1]
+
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
+
 
 
