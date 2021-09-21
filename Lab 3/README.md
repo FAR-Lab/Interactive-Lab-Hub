@@ -4,6 +4,20 @@
 
 In this lab, we want you to practice wizarding an interactive device as discussed in class. We will focus on **audio** as the main modality for interaction but there is no reason these general techniques can't extend to **video**, **haptics** or other interactive mechanisms. In fact, you are welcome to add those to your project if they enhance your design!
 
+##
+As always, pull updates from class lab-hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
+
+\[recommended\]Option 1: On the pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (calss lab-hub) and push the updates back to your own GitHub repo. You will need the perconal access token for this.
+
+```
+pi@ixe00:~$ cd Interactive-Lab-Hub
+pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
+pi@ixe00:~/Interactive-Lab-Hub $ git add .
+pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
+pi@ixe00:~/Interactive-Lab-Hub $ git push
+```
+
+Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md) to get updates from class lab-hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
 
 ## Text to Speech and Speech to Text
 
