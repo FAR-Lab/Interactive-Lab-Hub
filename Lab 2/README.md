@@ -33,7 +33,7 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
   
   ```
   Interactive-Lab-Hub $ git add .
-  Interactive-Lab-Hub $ git commit -m'merge'
+  Interactive-Lab-Hub $ git commit -m "message"
   Interactive-Lab-Hub $ git push
   ```
   Your local and remote should now be up to date with the most recent files.
