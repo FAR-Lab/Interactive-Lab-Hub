@@ -7,7 +7,7 @@ In this lab, we want you to practice wizarding an interactive device as discusse
 
 ## Text to Speech and Speech to Text
 
-In the home directory of your Pi there is a folder called `text2speech` containing some shell scripts. `cd` to the folder and list out all the files by:
+In this part, we are going to start peaking into the world of audio on your Pi! Connect the both the USB and aux cables of your webcam to your Pi to act as a speaker and a microphone. In the home directory of your Pi, there is a folder called `text2speech` containing some shell scripts. `cd` to the folder and list out all the files by `ls`:
 
 ```
 pi@ixe00:~/text2speech $ ls
@@ -15,7 +15,7 @@ Download        festival_demo.sh  GoogleTTS_demo.sh  pico2text_demo.sh
 espeak_demo.sh  flite_demo.sh     lookdave.wav
 ```
 
-you can run these examples by typing `./espeakdeom.sh`. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`
+You can run these files by typing `./filename`, for example, typing `./espeak_demo.sh` and see what happens. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`. For instance:
 
 ```
 pi@ixe00:~/text2speech $ cat festival_demo.sh 
@@ -24,7 +24,9 @@ pi@ixe00:~/text2speech $ cat festival_demo.sh
 echo "Just what do you think you're doing, Dave?" | festival --tts
 ```
 
-You can also play audio files directly with `aplay filename`.
+Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a shell script which you can execute in a terminal. The example files we offer here are for you to figure out the ways to play with audio on your Pi!
+
+You can also play audio files directly with `aplay filename`. Trying typing `aplay lookdave.wav`.
 
 After looking through this folder, do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
 
