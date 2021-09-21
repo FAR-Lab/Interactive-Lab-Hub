@@ -207,6 +207,14 @@ The interaction I designed is related to button's position. The upside button wi
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+I have thought of a couple of ways this can be improved, not only the interface, but also its interaction ways. For example, I can implement a new button combination to signal the device to change its album selection to measure time, or maybe even a pool that can let user to select from.
+
+![image](https://user-images.githubusercontent.com/42874337/134107567-c0f7d10b-ac6b-48c2-9212-5c4d6b844daf.png)
+
+Another idea is that I can attach a sound unit to it and when the user want to hear the song that currently suggesting the time, they can press both buttons to play the music. Or even include an alarm system that would allow user to set up alarm to wake up, not according to time, but according to songs or albums length, then when the time arrives, the device automatically plays the current song's current clip associated with the exact time.
+
+![image](https://user-images.githubusercontent.com/42874337/134107584-4814d79b-1aae-4273-9e67-4d6704007c68.png)
+
 
 # Prep for Part 2
 
