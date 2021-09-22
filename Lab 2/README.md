@@ -201,6 +201,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+I didn't have much time to work on this lab so I'd like to do a lot more in part 2. I definitely want to add some interactivity with the buttons. I was originally going to try to connect the clock to my Outlook calendar but couldn't figure out how to do that so I'll try that again in part 2.
 
 # Prep for Part 2
 
