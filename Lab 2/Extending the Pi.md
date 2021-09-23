@@ -30,7 +30,6 @@ As before, connect to your Pi and activate your virtual environment.
 ssh pi@ixe00
 pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
-
 ```
 
 On the pi, Navigate to your interactive lab hub, pull changes from upstream, and install new packages. If you have [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts), you need to resolve them. If you've never done this before ask people in your group for help.
@@ -70,7 +69,6 @@ Run the file `I2C_scan.py` and the output should look like:
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python I2C_scan.py 
 I2C ok!
 I2C addresses found: []
-
 ```
 
 Now plug the other end of the cable into the ports on the right of the button board. The pwr LED should turn on. Run the file again and you should see the device ID. You can also try daisy chaining multiple devices and sensors and running again.
