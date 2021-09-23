@@ -96,7 +96,7 @@ The more buttons the merrier! ...but how do you control them individually when t
 
 Option 1 - Software: Look into the [list of registers](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/Qwiic_Button_I2C_Register_Map.pdf) of the buttons again, is it possible to change the I2C address through software progrmming? 
 
-Option 2 - Hardware: Look at the right bottom corner of the back of your button, you should be able to local a sign of ADR with A0 - A3 jumpers. By solding these I2C address jumpers, you can actually check the address directly! Check [here](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all) to see how the I2C address change!
+Option 2 - Hardware: Look at the bottom right corner of the back of the button, you should be able to local a sign of ADR with A0 - A3 jumpers. By solding these I2C address jumpers, you can actually change the address directly! Check [here](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all) to see how the I2C address change!
 
 ## Connecting a Sensor
 
