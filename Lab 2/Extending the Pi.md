@@ -101,4 +101,4 @@ We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gestur
 <img src="https://cdn-shop.adafruit.com/1200x900/3595-03.jpg" height="200" />
 
 
-Now run `python proximity.py`. What did you see?
+Now run `python proximity.py`. What did you see? Check out [here](https://learn.adafruit.com/adafruit-apds9960-breakout/circuitpython) to learn more about the sensor and think about how you might be able to apply it in the future projects!
