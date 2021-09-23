@@ -98,6 +98,8 @@ Option 1 - Software: Look into the [list of registers](https://cdn.sparkfun.com/
 
 Option 2 - Hardware: Look at the bottom right corner of the back of the button, you should be able to local a sign of ADR with A0 - A3 jumpers. By solding these I2C address jumpers, you can actually change the address directly! Check [here](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all) to see how the I2C address change!
 
+<img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/SparkFun_Qwiic_Button_ADR_Jumpers.jpg" height="200" />
+
 ## Connecting a Sensor
 
 Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, we love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
