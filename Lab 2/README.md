@@ -237,13 +237,10 @@ Video: https://drive.google.com/file/d/1L8v0-awETzKBZa9sKYQwTQRkRqNWqmSq/view?us
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+- Add images to make the interaction more fun and engaging
+- Add real time to explain how the number of milliliters is calculated
 
 # Prep for Part 2
-
-1. Pick up remaining parts for kit.
-
-2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
 
