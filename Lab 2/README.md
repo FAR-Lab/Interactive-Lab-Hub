@@ -241,6 +241,10 @@ Video: https://drive.google.com/file/d/1L8v0-awETzKBZa9sKYQwTQRkRqNWqmSq/view?us
 - Add real time to explain how the number of milliliters is calculated
 
 # Prep for Part 2
+Feedback from Neha Manjunath
+```
+This is a really useful idea. I also think it would be really cool if you could make it more interactive like using the button to reset the water levels and make the clock have a theme relate to water consumption.
+```
 
 # Lab 2 Part 2
 
