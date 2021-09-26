@@ -109,8 +109,8 @@ while True:
     time.sleep(1)    
                                                                                       
     
- """ 
- def new_event():
+""" 
+def new_event():
     print("Please enter your new calendar event below:")
     event_name=input("What is the name of the event?")
     if event_name='': return input_mode=0
@@ -120,11 +120,11 @@ while True:
     if time_start='': return input_mode=0
     time_end=input("Enter an end time (HH:MM): ")
     if time_end='': return input_mode=0
-   
- input_mode=0
- 
-    if input_mode=1:
- """
+
+input_mode=0
+
+if input_mode=1:
+"""
                        
                        
                        
