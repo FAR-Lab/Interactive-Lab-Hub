@@ -103,7 +103,7 @@ while True:
         if next_event!="":
             next_time = str(int(time.strftime(_event["start"],"%M"))+60*int(time.strftime(_event["start"],"%H"))-_time)+" minutes until\n"+next_event["name"]
             draw.text((x,y),next_time,font=font,fill='#A033FF')
-        else if next_event=="":
+        else:
             draw.text((x,y),no_events,font=font,fill='#A033FF')
     disp.image(image, rotation)
     time.sleep(1)    
