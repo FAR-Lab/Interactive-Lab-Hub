@@ -79,6 +79,7 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     _time=datetime.datetime.now()
+    y=top
     print("Checkpoint 3")
    # while input_mode=0:
         #if buttonA.value and buttonB.value: #both buttons pressed
@@ -106,7 +107,6 @@ while True:
                         next_event=_event
         # Draw text
         print("Checkpoint 5")
-        y=top
         if current_event !="":
             time_left= str((current_event["end_m"]+current_event["end_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H"))))
             current_words=time_left+" minutes left in\n"+current_event["name"]
