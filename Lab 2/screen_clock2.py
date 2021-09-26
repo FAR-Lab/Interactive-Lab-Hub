@@ -73,14 +73,14 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     _time=int(time.strftime("%M"))+60*int(time.strftime("%H"))
    # while input_mode=0:
-        if buttonA.value and buttonB.value: #both buttons pressed
+        #if buttonA.value and buttonB.value: #both buttons pressed
             #backlight.value = False  # turn off backlight
-        else if buttonB.value and not buttonA.value:  # just button B pressed
+        #else if buttonB.value and not buttonA.value:  # just button B pressed
             #display.fill(screenColor) # set the screen to the users color
-        else if buttonA.value and not buttonB.value:  # just button A pressed
+        #else if buttonA.value and not buttonB.value:  # just button A pressed
             # input_mode=1
             #display.fill(color565(255, 255, 255))  # set the screen to white
-        else if not buttonA.value and not buttonB.value:  # none pressed
+        if not buttonA.value and not buttonB.value:  # none pressed
             current_event=""
             next_event=""
             # Determine which event is current and which event is next:
