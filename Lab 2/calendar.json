@@ -1,5 +1,5 @@
 [
-      {"start":"19:00","end":"20:00","name":"Dinner Meeting"},
-      {"start":"20:00","end":"20:30","name":"Gym Class"},
-      {"start":"21:00","end":"23:59","name":"Ice Cream Time"}
+      {"start_h":19,"start_m":0,"end_h":20,"end_m":0,"name":"Dinner Meeting"},
+      {"start_h":20,,"name":"Gym Class"},
+      {"start_h":21,"start_m":0,"end_h":23,"end_m":59,"name":"Ice Cream Time"}
 ]
