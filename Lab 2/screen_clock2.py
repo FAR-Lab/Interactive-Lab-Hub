@@ -71,13 +71,15 @@ backlight.value = True
 
 _cal={}
 no_events="No more events today."
+print("Checkpoint 1")
 with open("calendar.json") as f:
     _cal=json.load(f)
-   
+print("Checkpoint 2")
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     _time=datetime.datetime.now()
+    print("Checkpoint 3")
    # while input_mode=0:
         #if buttonA.value and buttonB.value: #both buttons pressed
             #backlight.value = False  # turn off backlight
@@ -87,6 +89,7 @@ while True:
             # input_mode=1
             #display.fill(color565(255, 255, 255))  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
+        print("Checkpoint 4")
         draw.text((x,y),"Does this work",font=font,fill='#A033FF')
         current_event=""
         next_event=""
@@ -102,6 +105,7 @@ while True:
                     if _time < _start:
                         next_event=_event
         # Draw text
+        print("Checkpoint 5")
         y=top
         if current_event !="":
             time_left= str((current_event["end_m"]+current_event["end_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H"))))
@@ -114,29 +118,9 @@ while True:
             draw.text((x,y),next_words,font=font,fill='#A033FF')
         else:
             draw.text((x,y),no_events,font=font,fill='#A033FF')
+    print("Checkpoint 6")
     display.image(image, rotation)
-    time.sleep(1)
-        
- 
-                                                                                      
-    
-""" 
-def new_event():
-    print("Please enter your new calendar event below:")
-    event_name=input("What is the name of the event?")
-    if event_name='': return input_mode=0
-    new_date=input("Enter a date (MM/DD/YYYY): ")
-    if new_date='': return input_mode=0
-    time_start=input("Enter a start time (HH:MM): ")
-    if time_start='': return input_mode=0
-    time_end=input("Enter an end time (HH:MM): ")
-    if time_end='': return input_mode=0
-
-input_mode=0
-
-if input_mode=1:
-"""
-                       
+    time.sleep(1)              
                        
                        
                        
