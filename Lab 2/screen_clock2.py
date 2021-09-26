@@ -114,8 +114,8 @@ while True:
             draw.text((x,y),next_words,font=font,fill='#A033FF')
         else:
             draw.text((x,y),no_events,font=font,fill='#A033FF')
-        disp.image(image, rotation)
-        time.sleep(1)
+    display.image(image, rotation)
+    time.sleep(1)
         
  
                                                                                       
