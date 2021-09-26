@@ -38,8 +38,8 @@ buttonB.switch_to_input()
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
-height = disp.width  # we swap height/width to rotate it to landscape!
-width = disp.height
+height = display.width  # we swap height/width to rotate it to landscape!
+width = display.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 
@@ -48,7 +48,7 @@ draw = ImageDraw.Draw(image)
 
 # Draw a black filled box to clear the image.
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
-disp.image(image, rotation)
+display.image(image, rotation)
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
 padding = -2
