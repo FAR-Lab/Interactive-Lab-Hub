@@ -105,7 +105,7 @@ while True:
         # Draw text
         y=top
         if current_event !="":
-            time_left= str((current_event["end_m"]+current_event["end_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H")))
+            time_left= str((current_event["end_m"]+current_event["end_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H"))))
             current_words=time_left+" minutes left in\n"+current_event["name"]
             draw.text((x,y),current_words,font=font,fill='#A033FF')
             y += 2*font.getsize(current_words)[1]
