@@ -95,13 +95,12 @@ while True:
             _event=_cal[i]
             _start=datetime.time(hour=_event["start_h"], minute=_event["start_m"])
             _end=datetime.time(hour=_event["end_h"], minute=_event["end_m"])
-            if _time < _end: # if current time is before event's end time
-                if _time >= _start: # if current time is after event's start time
-                    current_event=_event
-                if _time < _start:
-                    next_event=_event
-                if next_event!="":
-                    break
+            if next_event=="":
+                if _time < _end: # if current time is before event's end time
+                    if _time >= _start: # if current time is after event's start time
+                        current_event=_event
+                    if _time < _start:
+                        next_event=_event
         # Draw text
         y=top
         if current_event !="":
