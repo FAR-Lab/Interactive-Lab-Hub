@@ -84,6 +84,7 @@ while True:
             # input_mode=1
             #display.fill(color565(255, 255, 255))  # set the screen to white
     if not buttonA.value and not buttonB.value:  # none pressed
+        draw.text((x,y),"Does this work",font=font,fill='#A033FF')
         current_event=""
         next_event=""
         # Determine which event is current and which event is next:
