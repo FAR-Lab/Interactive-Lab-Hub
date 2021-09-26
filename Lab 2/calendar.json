@@ -1,7 +1,5 @@
-{"2021-09-26":
-    [
-          {"start":"12:00","end":"13:00","name":"Lunch Meeting"},
-          {"start":"14:30","end":"15:00","name":"Gym Class"},
-          {"start":"15:00","end":"16:00","name":"Doctor Appt"}
-    ]
-}
+[
+      {"start":"19:00","end":"20:00","name":"Dinner Meeting"},
+      {"start":"20:00","end":"20:30","name":"Gym Class"},
+      {"start":"21:00","end":"23:59","name":"Ice Cream Time"}
+]
