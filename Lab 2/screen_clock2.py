@@ -95,15 +95,15 @@ while True:
                             next_event=_event
                     if next_event!="": break
          # Write out default text
-         if current_event!="":
+        if current_event!="":
             current_time = str(int(time.strftime(_event["end"],"%M"))+60*int(time.strftime(_event["end"],"%H"))-_time)+" minutes left in\n"+current_event["name"]
             y=top
             draw.text((x,y),current_time,font=font,fill='#A033FF')
             y += 2*font.getsize(current_time)[1]
-         if next_event!="":
+        if next_event!="":
             next_time = str(int(time.strftime(_event["start"],"%M"))+60*int(time.strftime(_event["start"],"%H"))-_time)+" minutes until\n"+next_event["name"]
             draw.text((x,y),next_time,font=font,fill='#A033FF')
-         else if next_event=="":
+        else if next_event=="":
             draw.text((x,y),no_events,font=font,fill='#A033FF')
     disp.image(image, rotation)
     time.sleep(1)    
