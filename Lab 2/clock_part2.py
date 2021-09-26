@@ -1,7 +1,7 @@
 '''
 Author: your name
 Date: 2021-09-26 18:38:59
-LastEditTime: 2021-09-26 18:40:44
+LastEditTime: 2021-09-26 18:47:24
 LastEditors: Please set LastEditors
 Description: In User Settings Edit
 FilePath: /Interactive-Lab-Hub/Lab 2/clock_part2.py
@@ -110,7 +110,7 @@ while True:
     # Create blank image for drawing.
     # Make sure to create image with mode 'RGB' for full color.
 
-    if n >= 12:
+    if n >= 13:
         n = 1
         t = 0
         SHOW = False
