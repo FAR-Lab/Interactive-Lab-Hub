@@ -179,6 +179,12 @@ After that, git will ask you to login to your github account to upload.
 
 ## Part F.
 
+```python
+
+python clock_part1.py
+
+```
+
 ## Make a short video of your modified barebones PiClock
 
 ![clock](clock1.png)
@@ -187,6 +193,8 @@ After that, git will ask you to login to your github account to upload.
 https://www.youtube.com/watch?v=IsdP8hGvZ7c
 
 ## Part G.
+
+![Simple Sketch](./sketch.jpeg)
 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
@@ -197,6 +205,22 @@ https://www.youtube.com/watch?v=IsdP8hGvZ7c
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
+
+## Peer Review
+
+1. It will be better to have a sound feedback once you have finished your focusing time.
+2. The device could be better if the focusing time could be modified by buttons.
+3. If the screen could also show the time you have focused, this would be more intuitive.
+
+```python
+
+python clock_part2.py
+
+```
+
+![part2 clock](./PART2.png)
+
+Youtube: https://www.youtube.com/watch?v=40Qe-WR0yTo
 
 Pull Interactive Lab Hub updates to your repo.
 
