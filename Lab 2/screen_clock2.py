@@ -7,20 +7,16 @@ import json
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
-# Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
+# The display uses a communication protocol called SPI.
+# SPI will not be covered in depth in this course. 
+# you can read more https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
-
-# Config for display baudrate (default max is 24mhz):
-BAUDRATE = 64000000
-
-# Setup SPI bus using hardware SPI:
-spi = board.SPI()
-
+BAUDRATE = 64000000  # the rate  the screen talks to the pi
 # Create the ST7789 display:
-disp = st7789.ST7789(
-    spi,
+display = st7789.ST7789(
+    board.SPI(),
     cs=cs_pin,
     dc=dc_pin,
     rst=reset_pin,
@@ -30,6 +26,15 @@ disp = st7789.ST7789(
     x_offset=53,
     y_offset=40,
 )
+
+# these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
@@ -52,19 +57,17 @@ bottom = height - padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = 0
 
+
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
 
-# these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
+# Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
-buttonA = digitalio.DigitalInOut(board.D23)
-buttonB = digitalio.DigitalInOut(board.D24)
-buttonA.switch_to_input()
-buttonB.switch_to_input()
+
 
 _cal={}
 no_events="No more events today."
@@ -74,7 +77,7 @@ with open("calendar.json") as f:
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    _time=int(time.strftime("%M"))+60*int(time.strftime("%H"))
+    _time=datetime.datetime.now()
    # while input_mode=0:
         #if buttonA.value and buttonB.value: #both buttons pressed
             #backlight.value = False  # turn off backlight
@@ -88,29 +91,34 @@ while True:
         current_event=""
         next_event=""
         # Determine which event is current and which event is next:
-        for date in _cal:
-            if date==datetime.today():
-                for event in _cal[date]:
-                    _event=_cal[date][event]
-                    if _time < int(time.strftime(_event["end"],"%M"))+60*int(time.strftime(_event["end"],"%H")):                # if current time is before event's end time
-                        if _time>= int(time.strftime(_event["start"],"%M"))+60*int(time.strftime(_event["start"],"%H")):        # if current time is after event's start time
-                            current_event=_event
-                        if _time < int(time.strftime(_event["start"],"%M"))+60*int(time.strftime(_event["start"],"%H")):        # if current time is before event's start time
-                            next_event=_event
-                    if next_event!="": break
-         # Write out default text
-        if current_event!="":
-            current_time = str(int(time.strftime(_event["end"],"%M"))+60*int(time.strftime(_event["end"],"%H"))-_time)+" minutes left in\n"+current_event["name"]
-            y=top
-            draw.text((x,y),current_time,font=font,fill='#A033FF')
-            y += 2*font.getsize(current_time)[1]
+        for i in range(len(_cal)):
+            _event=_cal[i]
+            _start=datetime.time(hour=_event["start_h"], minute=_event["start_m"])
+            _end=datetime.time(hour=_event["end_h"], minute=_event["end_m"])
+            if _time < _end: # if current time is before event's end time
+                if _time >= _start: # if current time is after event's start time
+                    current_event=_event
+                if _time < _start:
+                    next_event=_event
+                if next_event!="":
+                    break
+        # Draw text
+        y=top
+        if current_event !="":
+            time_left= str((current_event["end_m"]+current_event["end_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H")))
+            current_words=time_left+" minutes left in\n"+current_event["name"]
+            draw.text((x,y),current_words,font=font,fill='#A033FF')
+            y += 2*font.getsize(current_words)[1]
         if next_event!="":
-            next_time = str(int(time.strftime(_event["start"],"%M"))+60*int(time.strftime(_event["start"],"%H"))-_time)+" minutes until\n"+next_event["name"]
-            draw.text((x,y),next_time,font=font,fill='#A033FF')
+            time_until= str((int(time.strftime("%M"))+60*int(time.strftime("%H")))-(next_event["end_m"]+next_event["end_h"]*60))
+            next_words=time_until+" minutes left in\n"+next_event["name"]
+            draw.text((x,y),next_words,font=font,fill='#A033FF')
         else:
             draw.text((x,y),no_events,font=font,fill='#A033FF')
-    disp.image(image, rotation)
-    time.sleep(1)    
+        disp.image(image, rotation)
+        time.sleep(1)
+        
+ 
                                                                                       
     
 """ 
