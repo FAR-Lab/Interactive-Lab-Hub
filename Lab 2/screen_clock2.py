@@ -71,9 +71,9 @@ backlight.value = True
 
 _cal={}
 no_events="No more events today."
-_year=int(time.strftime("%y")
-_month=int(time.strftime("%m")
-_day=int(time.strftime("%d")
+_year=int(time.strftime("%y"))
+_month=int(time.strftime("%m"))
+_day=int(time.strftime("%d"))
 print("Checkpoint 1")
 with open("calendar.json") as f:
     _cal=json.load(f)
