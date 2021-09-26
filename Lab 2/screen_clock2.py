@@ -78,7 +78,7 @@ print("Checkpoint 2")
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    _time=datetime.datetime.now()
+    _time=datetime.time.now()
     y=top
     print("Checkpoint 3")
    # while input_mode=0:
