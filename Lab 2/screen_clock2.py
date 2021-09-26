@@ -88,7 +88,7 @@ while True:
         #else if buttonA.value and not buttonB.value:  # just button A pressed
             # input_mode=1
             #display.fill(color565(255, 255, 255))  # set the screen to white
-    if not buttonA.value and not buttonB.value:  # none pressed
+    if buttonA.value and buttonB.value:  # none pressed
         print("Checkpoint 4")
         draw.text((x,y),"Does this work",font=font,fill='#A033FF')
         current_event=""
