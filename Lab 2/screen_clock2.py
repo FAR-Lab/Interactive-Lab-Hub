@@ -78,7 +78,7 @@ print("Checkpoint 2")
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    _time=datetime.time.now()
+    _time=datetime.datetime.now()
     y=top
     print("Checkpoint 3")
    # while input_mode=0:
@@ -97,8 +97,8 @@ while True:
         # Determine which event is current and which event is next:
         for i in range(len(_cal)):
             _event=_cal[i]
-            _start=datetime.time(hour=_event["start_h"], minute=_event["start_m"])
-            _end=datetime.time(hour=_event["end_h"], minute=_event["end_m"])
+            _start=datetime.datetime(hour=_event["start_h"], minute=_event["start_m"])
+            _end=datetime.datetime(hour=_event["end_h"], minute=_event["end_m"])
             if next_event=="":
                 if _time < _end: # if current time is before event's end time
                     if _time >= _start: # if current time is after event's start time
