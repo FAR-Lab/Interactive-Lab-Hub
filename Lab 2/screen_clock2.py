@@ -111,15 +111,15 @@ while True:
         y=top
         if current_event !="":
             time_left= str((current_event["end_m"]+current_event["end_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H"))))
-            current_words=time_left+" minutes left in\n"+current_event["name"]
-            draw.text((x,y),current_words,font=font,fill='#A033FF')
+            current_words=time_left+" minutes left in\n"+current_event["name"]+"."
+            draw.text((x,y),current_words,font=font,fill='#FF33F8')
             y += 2*font.getsize(current_words)[1]
         if next_event!="":
             time_until= str((next_event["start_m"]+next_event["start_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H"))))
-            next_words=time_until+" minutes until\n"+next_event["name"]
-            draw.text((x,y),next_words,font=font,fill='#A033FF')
+            next_words=time_until+" minutes until\n"+next_event["name"]+"."
+            draw.text((x,y),next_words,font=font,fill='#33F7FF')
         else:
-            draw.text((x,y),no_events,font=font,fill='#A033FF')
+            draw.text((x,y),no_events,font=font,fill='#33FF38')
     display.image(image, rotation)
     time.sleep(1)              
                        
