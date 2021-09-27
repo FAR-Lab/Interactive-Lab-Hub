@@ -223,6 +223,8 @@ https://user-images.githubusercontent.com/37049175/134952344-6254c0ba-1987-4b64-
 
 # Lab 2 Part 2
 
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+
 Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
