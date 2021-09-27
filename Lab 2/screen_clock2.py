@@ -70,7 +70,7 @@ backlight.value = True
 
 
 _cal={}
-no_events="No more events today."
+no_events="No more events\ntoday."
 _year=int(time.strftime("%y"))
 _month=int(time.strftime("%m"))
 _day=int(time.strftime("%d"))
@@ -96,6 +96,7 @@ while True:
         # Determine which event is current and which event is next:
         for i in range(len(_cal)):
             _event=_cal[i]
+            print(str(_event))
             _start=datetime.datetime(_year,_month,_day,hour=_event["start_h"], minute=_event["start_m"])
             _end=datetime.datetime(_year,_month,_day,hour=_event["end_h"], minute=_event["end_m"])
             if next_event=="":
