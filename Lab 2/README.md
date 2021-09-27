@@ -218,10 +218,13 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 \*\*\***I received some good feedback from Bella Baidak, who suggested using the clock as a reminder for assignment submission deadlines.**\*\*\*
 
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto.jpg?raw=true" height="200" />
+
 **My goal was to connect the pi to my Outlook calendar and show how much time is remaining in a current calendar event and how long until the next calendar event. Incorporating Outlook was unfortunately way beyond my skill level, but I still decided to construct the functionality and use a .json file in place of an actual calendar. The program goes through the dictionary in the .json and uses the current time to determine whether any events are currently happening and what the next event is. It then compares those events end and start times, respectively, to the actual time to compute the remaining minutes in between. Finally, it prints two statements to the Pi's display communicating the information in fun colors.**
 
-<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto.jpg?raw=true" height="200" />
+![gif](Lab2bgif1.gif)
 
 **This ended up, like many projects, to be more challenging than I expected. I hoped to add some interactivity with the buttons--perhaps listing the full schedule for the day by holding one down or asking the user to input a new event by pressing another--but I spent most of my time debugging. That said, I was very happy to be able to get the program working at all.**
 
-![gif](Lab2bgif1.gif)
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto2.jpg?raw=true" height="200" />
+
