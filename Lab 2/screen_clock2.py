@@ -71,7 +71,7 @@ backlight.value = True
 
 _cal={}
 no_events="No more events\ntoday."
-_year=int(time.strftime("%y"))
+_year=int(time.strftime("%Y"))
 _month=int(time.strftime("%m"))
 _day=int(time.strftime("%d"))
 
