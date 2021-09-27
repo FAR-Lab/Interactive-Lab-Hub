@@ -96,11 +96,8 @@ while True:
         # Determine which event is current and which event is next:
         for i in range(len(_cal)):
             _event=_cal[i]
-            print(str(_time))
             _start=datetime.datetime(_year,_month,_day,hour=_event["start_h"], minute=_event["start_m"])
-            print(str(_start))
             _end=datetime.datetime(_year,_month,_day,hour=_event["end_h"], minute=_event["end_m"])
-            print(str(_end))
             if next_event=="":
                 if _time < _end: # if current time is before event's end time
                     if _time >= _start: # if current time is after event's start time
