@@ -81,6 +81,10 @@ The support for password authentication of GitHub was removed on August 13, 2021
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
 
 ## Part B. 
+
+
+
+
 ### Try out the Command Line Clock
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
@@ -197,11 +201,24 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+https://user-images.githubusercontent.com/37049175/134951994-2ed092e6-477a-46d3-8ef7-afe95f82c8f3.MOV
+
+
+
+
+
+
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 
-# Prep for Part 2
+
+# Prep for Part 2![lab2-sketch]
+
+(https://user-images.githubusercontent.com/37049175/134952198-3771a90b-2b0b-40dd-82d3-8c204de5212c.png)
+
 
 1. Pick up remaining parts for kit.
 
