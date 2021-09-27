@@ -215,9 +215,10 @@ I didn't have much time to work on this lab so I'd like to do a lot more in part
 Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+\*\*\***I received some good feedback from Bella Baidak, who suggested using the clock as a reminder for assignment submission deadlines.**\*\*\*
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+\*\*\***My goal was to connect the pi to my Outlook calendar and show how much time is remaining in a current calendar event and how long until the next calendar event. Incorporating Outlook was unfortunately way beyond my skill level, but I still decided to construct the functionality and use a .json file in place of an actual calendar. The program goes through the dictionary in the .json and uses the current time to determine whether any events are currently happening and what the next event is. It then compares those events end and start times, respectively, to the actual time to compute the remaining minutes in between. Finally, it prints two statements to the Pi's display communicating the information in fun colors. **\*\*\*
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto.jpg?raw=true" height="200" />
 
-
+\*\*\***This ended up, like many projects, to be more challenging than I expected. I hoped to add some interactivity with the buttons--perhaps listing the full schedule for the day by holding one down or asking the user to input a new event by pressing another--but I spent most of my time debugging. That said, I was very happy to be able to get the program working at all.**\*\*\*
