@@ -115,8 +115,8 @@ while True:
             draw.text((x,y),current_words,font=font,fill='#A033FF')
             y += 2*font.getsize(current_words)[1]
         if next_event!="":
-            time_until= str((int(time.strftime("%M"))+60*int(time.strftime("%H")))-(next_event["end_m"]+next_event["end_h"]*60))
-            next_words=time_until+" minutes left in\n"+next_event["name"]
+            time_until= str((next_event["start_m"]+next_event["start_h"]*60)-(int(time.strftime("%M"))+60*int(time.strftime("%H"))))
+            next_words=time_until+" minutes until\n"+next_event["name"]
             draw.text((x,y),next_words,font=font,fill='#A033FF')
         else:
             draw.text((x,y),no_events,font=font,fill='#A033FF')
