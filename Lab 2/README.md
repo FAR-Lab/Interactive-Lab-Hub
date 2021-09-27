@@ -223,3 +223,5 @@ Modify the code from last week's lab to make a new visual interface for your new
 <img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto.jpg?raw=true" height="200" />
 
 **This ended up, like many projects, to be more challenging than I expected. I hoped to add some interactivity with the buttons--perhaps listing the full schedule for the day by holding one down or asking the user to input a new event by pressing another--but I spent most of my time debugging. That said, I was very happy to be able to get the program working at all.**
+
+![gif](Lab2gif1.gif)
