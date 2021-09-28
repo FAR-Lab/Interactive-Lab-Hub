@@ -87,18 +87,25 @@ Another idea is that I can attach a sound unit to it and when the user want to h
 
 **Feedback from classmates and TAs:**
 
+1. Your design is very relatable for people who have driving experience or enjoy music, maybe you can consider more on how can you connect the idea of music and time, and maybe put the interaction in it. For example, the album design reminds me of record, which once have A-side and B-side, once you finished the A-side, you have to flip the record manually to the B-side, which is also very related. (Thanks, Alexandra!)
 
+2. Your design is always related to the driving scenario while playing music, maybe you can connect it to other information and interaction scenarios during driving. For example, distance drove, weather/temperature outside, how far away from final destination. (This has not been applied due to lack of GPS add-on to Pi, tried using acceleration sensor but did not work well)
 
 
 # Lab 2 Part 2
 
-**Sensor Added:
-**
+**Sensor Added:**
 
 Adafruit CircuitPython MPU 6050 - Gyro, Acceleration, and Temperature Sensor
 
-**Description:
-**
+**Description:**
+
+For Part II in this lab, I have included a new function of this clock along with new visual interface that align with previous idea in connecting music with time (often happened in driving scenario). This time I designed an alarm, appears as a vinyl record shape in the visual interface. As there used to be A and B side of a record, each captures half of the record, indicated a great way of measuring time during that period -- half-a-record. Thus, I utilized the gyro sensor, which captures user's interaction of "flipping". Then I set the alarm to be half an album long (in the interaction video, it appears as 10 seconds, which is easier for illustration). When this side of the album time has passed, the alarm notice "Time's up" will appears on the screen. In an optimal situation, not only the length of this one-side-of-the-record alarm will vary according to the current album that being used to measure time chose by users, but also the device will automatically play the current song as the clock suggests after the alarm reaches its time.
+
+In my design, the record alarm can be interact by flipping, just like an actual clock. When you flip the sensor, the alarm will be reset to half-a-record length. When it runs out, the time out signal will appears on the screen. When the sensor being flipped again, the alarm will reset to default.
+
+
+**Interactionn Video:**
 
 [![image](https://user-images.githubusercontent.com/42874337/135004460-2b4c486b-dc89-4630-981b-acc550671419.png)](https://drive.google.com/file/d/12edV-qaVkllJe7w_ayZOtPTRJnxt7PWb/view?usp=sharing)
 
