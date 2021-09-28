@@ -65,7 +65,7 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ## Demo
 
-In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** use it, feel free to get creative!! In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser. You can control what system says from the controller as well.
+In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** use it, feel free to get creative!! In that project, you can see how audio and sensor data ([Adafruit MPU-6050 6-DoF Accel and Gyro Sensor](https://www.adafruit.com/product/3886)) is streamed from the Pi to a wizard controller that runs in the browser. You can control what the system says from the controller as well.
 
 ## Optional Exercise
 
