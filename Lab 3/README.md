@@ -60,8 +60,13 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 
 ### Optional Exercise
 
-There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it: 
+There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it . Create a new Python virtual environment by typing the following commands.
 
+```
+pi@ixe00:~ $ virtualenv dspeechexercise
+pi@ixe00:~ $ source dspeechexercise/bin/activate
+(dspeechexercise) pi@ixe00:~ $ 
+```
 
 
 ### Serving Pages
