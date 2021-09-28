@@ -225,4 +225,9 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+Thank you to Sara, Marissa, and Wendy for the great feedback on my first iteration of the clock. The feedback helped transform my initial idea. Please see the video below for the second iteration. Additionally, thank you to the users on Stackoverflow that helped me figure out how to draw the sun rays/stars around an ellipse using PIL: https://stackoverflow.com/questions/26747587/python-pil-to-draw-a-circle-segment-of-sunshine
+
+Link: https://youtu.be/eVGQdAfRY5g
+
+
 
