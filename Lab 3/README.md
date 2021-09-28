@@ -21,7 +21,7 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 
 ## Text to Speech and Speech to Text
 
-In part of lab, we are going to start peeking into the world of audio on your Pi! Connect the both the USB and aux cables of your webcam to your Pi to act as a speaker and a microphone. (UPDATE: The microphone on the webcam does not seem to work on the Pi, so please use the USB mic we are now distributing.) In the home directory of your Pi, there is a folder called `text2speech` containing some shell scripts. `cd` to the folder and list out all the files by `ls`:
+In part of lab, we are going to start peeking into the world of audio on your Pi! Connect the aux cables of your webcam to your Pi to act as a speaker and a microphone. (UPDATE: The microphone on the webcam does not seem to work on the Pi, so please use the USB mic we are now distributing.) In the home directory of your Pi, there is a folder called `text2speech` containing some shell scripts. `cd` to the folder and list out all the files by `ls`:
 
 ```
 pi@ixe00:~/text2speech $ ls
