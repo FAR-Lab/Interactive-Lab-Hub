@@ -59,9 +59,13 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 
 ### Optional Exercise
 
-There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it: 
+There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it . Create a new Python virtual environment by typing the following commands.
 
-
+```
+pi@ixe00:~ $ virtualenv dspeechexercise
+pi@ixe00:~ $ source dspeechexercise/bin/activate
+(dspeechexercise) pi@ixe00:~ $ 
+```
 
 ### Serving Pages
 
@@ -94,7 +98,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 **Describe if the dialogue seemed different than what you imagined when it was acted out, and how. **
 
 ### Wizarding with the Pi (optional)
-In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. You can control what system says from the controller as well.
+In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 **Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how. **
 
