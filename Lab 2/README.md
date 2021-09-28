@@ -192,15 +192,28 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+The idea is to track daylight based on the position of the sun throughout the day. Below is a very rough first iteration, which shows the sun moving throughout the "day". For future iterations, I want to add more positions of the sun to get a more finely grained estimate of the time throughout the day. I also want to add a moon cycle after the sun sets to track the time throughout the night. Finally, I want to add a graphic indicator to track days/weeks/months but I'm still brainstorming this part. 
+
+Link:https://youtu.be/glh2irr3c50
+
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+There definitely need to be more positions for the sun, since the previous iteration only shows the sun's position at 3 hour intervals, which is not very useful. Additionally, it would be nice to distinguish the time between the day and night. During the day time, the clock can show the sun's position over the course of the day on a blue sky, while at night, the clock can show the changing position of the moon which would correspond to the time. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%202/clock1.JPG)
 
 # Prep for Part 2
 
 1. Pick up remaining parts for kit.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+After receiving feedback on part 3, I decided to scrap the original plans of trying to add motion. The screen size is simply too small to properly account for the 12 positions of the sun as it moves across the "sky" where each position corresponds to an hour. I encountered a similar issue with trying to account for the changing position of the moon for every hour. Instead, I received great feedback on alternative ways to show the changing time without relying so much on motion or animation (I realized PIL is mostly for displaying static images and is not great for the type of animation I was envisioning for my clock). Rather than showing the sun and moon changing, I will be displaying a sun or moon on the center of the screen. The hour will be shown by the position of sun rays or stars that will roughly correspond to the position of numbers on an analog clock. As the hours go up, the number of sun rays/stars will go up. Additionally, I will add button functionality based on the time of day. For example, during the day a button press could reveal a daytime quote while pressing the button at night will reveal a nighttime quoute. Additionally, another press of the button will bring up the digital time, which is always useful to have. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%202/clock2.JPG)
 
 # Lab 2 Part 2
 
@@ -211,5 +224,10 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+Thank you to Sara, Marissa, and Wendy for the great feedback on my first iteration of the clock. The feedback helped transform my initial idea. Please see the video below for the second iteration. Additionally, thank you to the users on Stackoverflow that helped me figure out how to draw the sun rays/stars around an ellipse using PIL: https://stackoverflow.com/questions/26747587/python-pil-to-draw-a-circle-segment-of-sunshine
+
+Link: https://youtu.be/eVGQdAfRY5g
+
 
 
