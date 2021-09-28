@@ -5,13 +5,17 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
-
+import adafruit_mpu6050
+import board
 from adafruit_rgb_display.rgb import color565
 import webcolors
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
+i2c = board.I2C()
+mpu = adafruit_mpu6050.MPU6050(i2c)
+
 
 # Config for display baudrate (default max is 24mhz):
 BAUDRATE = 64000000
@@ -68,7 +72,11 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+record = 10
+
 while True:
+    if record >= 0:
+        record -= 0.1
         # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
@@ -177,6 +185,11 @@ while True:
     downpage4 = "And " + str(13-int(songnum)) +" songs"
     downpage5 = "till end of the day."
     
+    
+    gyroX, gyroY, gyroZ = mpu.gyro
+    #sensordata = "Gyro x:"+ str(int(gyroX)) + ", Y:"+ str(int(gyroY)) +",Z: " + str(int(gyroZ))
+    if(gyroX <= -3 or gyroY <= -3 or gyroZ <= -3):
+        record = 10
         
         #Song  = "[>>>>>>>>>>>>>>]"
     if buttonA.value and buttonB.value:
@@ -190,12 +203,26 @@ while True:
         draw.text((x, y), songname, font=font, fill="#0000FF")
         y += font.getsize(songname)[1]
         draw.text((x, y), bar, font=font, fill="#FF00FF")
+                    
     
     if buttonB.value and not buttonA.value:  # just button A pressed
         y = top
         draw.text((x, y), uppage1, font=font, fill="#FFFFFF")
         y += font.getsize(uppage1)[1]
         draw.text((x, y), uppage2, font=font, fill="#FFFF00")
+             
+        y += font.getsize(uppage1)[1]
+        
+        draw.ellipse((20,40,110,130), fill = "#FFFFFF")
+        draw.ellipse((50,70,80,100), fill = "#000000")
+        prog = (130-35)*((10-record)/10)
+        draw.rectangle((0, y, 140, 35+int(prog)), outline=0, fill="#000000")
+        #35 - 130
+        y += font.getsize(uppage1)[1]
+
+        if record <= 0.1:
+            draw.text((x+130, y), "Time's Up!", font=font, fill="#FFFF00")
+        
     if buttonA.value and not buttonB.value:  # just button B pressed
         y = top
         draw.text((x, y), downpage1, font=font, fill="#FFFFFF")
