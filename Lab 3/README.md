@@ -42,7 +42,7 @@ Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a
 
 You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
-After looking through this folder, do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
+After looking through this folder, do the same for the `speech2text` folder. In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`.
 
 ## Serving Pages
 
@@ -65,7 +65,7 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ## Demo
 
-In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** use it, feel free to get creative!! In that project, you can see how audio and sensor data ([Adafruit MPU-6050 6-DoF Accel and Gyro Sensor](https://www.adafruit.com/product/3886)) is streamed from the Pi to a wizard controller that runs in the browser. You can control what the system says from the controller as well.
+In the [demo directory](./demo), you will find an example wizard of oz project you may use as a template. **You do not have to** use it, feel free to get creative!! By running the `app.py` script, you can see how audio and sensor data ([Adafruit MPU-6050 6-DoF Accel and Gyro Sensor](https://www.adafruit.com/product/3886)) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well.
 
 ## Optional Exercise
 
