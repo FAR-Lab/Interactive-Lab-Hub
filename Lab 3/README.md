@@ -1,6 +1,5 @@
 # Chatterboxes
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q8FWzLMobx0?start=19" title="YouTube video player" frameborder="0"></iframe>
+[![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
 
@@ -60,13 +59,8 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 
 ### Optional Exercise
 
-There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it . Create a new Python virtual environment by typing the following commands.
+There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it: 
 
-```
-pi@ixe00:~ $ virtualenv dspeechexercise
-pi@ixe00:~ $ source dspeechexercise/bin/activate
-(dspeechexercise) pi@ixe00:~ $ 
-```
 
 
 ### Serving Pages
