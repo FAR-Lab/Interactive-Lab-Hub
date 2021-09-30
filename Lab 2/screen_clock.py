@@ -1,10 +1,18 @@
+'''
+Author: your name
+Date: 2021-09-30 09:49:40
+LastEditTime: 2021-09-30 09:52:28
+LastEditors: your name
+Description: In User Settings Edit
+FilePath: /undefined/Users/wwl/Documents/GitHub/Interactive-Lab-Hub/Lab 2/screen_clock.py
+'''
+from time import strftime, sleep
 import time
 import subprocess
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
-
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -54,7 +62,8 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype(
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -65,12 +74,12 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    from time import strftime, sleep
-    cur_time = time.strftime("%m/%d/%Y %H:%M:%S") 
-    y = (top+bottom)/2
-    draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
 
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+# TODO: fill in here. You should be able to look in cli_clock.py and stats.py
+cur_time = time.strftime("%m/%d/%Y %H:%M:%S")
+y = (top+bottom)/2
+draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
+
+# Display image.
+disp.image(image, rotation)
+time.sleep(1)
