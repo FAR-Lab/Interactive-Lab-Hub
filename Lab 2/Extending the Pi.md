@@ -1,6 +1,6 @@
 # Extending the Pi
 
-To extend the Pi, we are using breakout boards that connect to the PI using a standard communication bus (I2C)(https://learn.sparkfun.com/tutorials/i2c/all). [StemmaQT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [Qwiic](https://www.sparkfun.com/qwiic#overview) use a standardized 4-pin connector to connect devices using the I2C protocol. 
+To extend the Pi, we are using breakout boards that connect to the PI using a standard communication bus [I2C](https://learn.sparkfun.com/tutorials/i2c/all). [StemmaQT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) and [Qwiic](https://www.sparkfun.com/qwiic#overview) use a standardized 4-pin connector to connect devices using the I2C protocol. 
 
 The StemmaQT and I2C parts often have a fixed I2C address; to differentiate between similar parts, the devices often have pads that allow additional bits to be pulled high or low. The addresses are in [hexidecimal](https://learn.sparkfun.com/tutorials/hexadecimal/introduction) format, things like `0x6f`. This is the hexadecimal (or hex) representation for the decimal number `111` which is represented as `1101111` in binary. You are not expected to make any kinds of conversions but should have some conceptual grasp that a hex value is just a number shown another way. [This Python library](https://towardsdatascience.com/binary-hex-and-octal-in-python-20222488cee1) will assist you if you need help manipulating hexidecimal numbers.
 
@@ -30,16 +30,17 @@ As before, connect to your Pi and activate your virtual environment.
 ssh pi@ixe00
 pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
-
 ```
 
-Navigate to your interactive lab hub, pull changes from upstream, and install new packages. If you have [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts), you need to resolve them. If you've never done this before ask people in your group for help. Otherwise ask yout TA!
+On the pi, Navigate to your interactive lab hub, pull changes from upstream, and install new packages. If you have [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts), you need to resolve them. If you've never done this before ask people in your group for help.
 
 ```
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Spring2021
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git add .
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git commit -m'merge'
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "merge"
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git push
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ cd Lab\ 2/
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
 ```
@@ -55,20 +56,9 @@ Try running `python library_example.py`.
 Some important things to note from the code:
 
  * We create an I2C device to handle communication with the pi.
- * We then scan for devices on the bus
+ * We then scan for devices on the bus.
  * We check if `default_addr = 0x6f` is listed in the found devices. This is the address your button comes programmed with, you can also change this and have it store the update on the button.
  * Once we initialize the I2C_Button object the rest of the code shows us some of the builtin capabilities.
-
-## Connecting a Sensor
-
-Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, We love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
-
-We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595). You can leave the button plugged in and daisy-chain the sensor, this is part of the magic of I2C.
-
-<img src="https://cdn-shop.adafruit.com/1200x900/3595-03.jpg" height="200" />
-
-
-Now run `python proximity.py`.
 
  
 ## Under the I2C curtain (optional: complete only after working on your projects in groups)
@@ -79,7 +69,6 @@ Run the file `I2C_scan.py` and the output should look like:
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python I2C_scan.py 
 I2C ok!
 I2C addresses found: []
-
 ```
 
 Now plug the other end of the cable into the ports on the right of the button board. The pwr LED should turn on. Run the file again and you should see the device ID. You can also try daisy chaining multiple devices and sensors and running again.
@@ -100,3 +89,24 @@ Use a higher level device interface can make reading and writing registers for I
 ```
 56               write_register(device, STATUS, 0)
 ```
+
+#### Connecting more that one button
+
+The more buttons the merrier! ...but how do you control them individually when they are come with the same default I2C address `0x6f`?
+
+Option 1 - Software: Look into the [list of registers](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/Qwiic_Button_I2C_Register_Map.pdf) of the buttons again, is it possible to change the I2C address through software progrmming? 
+
+Option 2 - Hardware: Look at the bottom right corner of the back of the button, you should be able to local a sign of ADR with A0 - A3 jumpers. By solding these I2C address jumpers, you can actually change the address directly! Check [here](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all) to see how the I2C address change!
+
+<img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/SparkFun_Qwiic_Button_ADR_Jumpers.jpg" height="200" />
+
+## Connecting a Sensor
+
+Your kit is full of sensors! Look up what they can do and feel free to ask your TAs, we love to talk sensors. We will go further in depth into sensors in the coming weeks, but we put this small sample here to demonstrate how you can get sensor data if you want to use it for your project this week.
+
+We are going to connect the [Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595). You can leave the button plugged in and daisy-chain the sensor, this is part of the magic of I2C.
+
+<img src="https://cdn-shop.adafruit.com/1200x900/3595-03.jpg" height="200" />
+
+
+Now run `python proximity.py`. What did you see? Check out [here](https://learn.adafruit.com/adafruit-apds9960-breakout/circuitpython) to learn more about the sensor and think about how you might be able to apply it in the future projects!
