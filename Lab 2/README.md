@@ -6,7 +6,8 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
-**Worked on this one independently.**
+**Please indicate anyone you collaborated with on this Lab here.**
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 ## Prep
 
@@ -18,9 +19,11 @@ If you are remote but in the US, let the teaching team know you need the parts m
 
 If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
 
+
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
+  
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
@@ -62,8 +65,6 @@ This readme.md page in your own repository should be edited to include the work 
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
-**Decided to keep the sections intact as I still refer to some of them to remember the python commands. Will consider deleting as I work on part 2**
-
 ## Part A. 
 ### Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
@@ -91,6 +92,7 @@ Clone your own lab-hub repo for this assignment to your Pi and change the direct
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
+
 
 Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
@@ -171,6 +173,7 @@ Option 2. Another way for you to edit scripts is to use VNC on your laptop to re
 Now you should be able to edit python scripts with Thonny on your Pi.
 
 
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -180,7 +183,8 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
-\*\*\***I decided to convey time in terms of the number of IDD classes that have elapsed since midnight. The code updates every second and returns a value up to four decimal places.**\*\*\*
+
+\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -196,12 +200,11 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-[Link to Download Video](https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/IDD%20Clock.mp4)
+\*\*\***Take a video of your PiClock.**\*\*\*
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-I didn't have much time to work on this lab so I'd like to do a lot more in part 2. I definitely want to add some interactivity with the buttons. I was originally going to try to connect the clock to my Outlook calendar but couldn't figure out how to do that so I'll try that again in part 2.
 
 # Prep for Part 2
 
@@ -216,15 +219,8 @@ Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
-\*\*\***I received some good feedback from Bella Baidak, who suggested using the clock as a reminder for assignment submission deadlines.**\*\*\*
+As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
-<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto.jpg?raw=true" height="200" />
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
-**My goal was to connect the pi to my Outlook calendar and show how much time is remaining in a current calendar event and how long until the next calendar event. Incorporating Outlook was unfortunately way beyond my skill level, but I still decided to construct the functionality and use a .json file in place of an actual calendar. The program goes through the dictionary in the .json and uses the current time to determine whether any events are currently happening and what the next event is. It then compares those events end and start times, respectively, to the actual time to compute the remaining minutes in between. Finally, it prints two statements to the Pi's display communicating the information in fun colors.**
-
-![gif](Lab2bgif1.gif)
-
-**This ended up, like many projects, to be more challenging than I expected. I hoped to add some interactivity with the buttons--perhaps listing the full schedule for the day by holding one down or asking the user to input a new event by pressing another--but I spent most of my time debugging. That said, I was very happy to be able to get the program working at all.**
-
-<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%202/Lab2bphoto2.jpg?raw=true" height="200" />
 
