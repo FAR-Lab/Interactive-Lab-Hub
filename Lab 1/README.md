@@ -28,7 +28,11 @@ I planned out the initial video and acted out the interaction with the sunlight 
 
 _Are there things that seemed better on paper than acted out?_ 
 
+The waking up process seemed quite intuitive when acted out. Alarm clocks are generally pretty familiar to users so it seemed best to keep the storyboard and interaction simple to get the main point across. 
+
 _Are there new ideas that occur to you or your collaborators that come up from the acting?_
+
+During the acting, I decided to remove the scripting and focus soley on the contrast of a noise generated versus a light generated alarm. Thus, the video attempts to highlight how waking up with the sunlight alarm clock is a much softer and more gentle nudge to wake up. I also acknowledged that this approach may not be best for everyone but that its okay to design this product to appeal to the market of people that prefer this type of alarm clock 
 
 
 ## Part C. Prototype the device
