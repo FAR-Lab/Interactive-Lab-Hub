@@ -11,7 +11,7 @@
 
 #### Storyboard:
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/IMG_1850-3.JPG.png)
 
 #### Peer Feedback: 
 
