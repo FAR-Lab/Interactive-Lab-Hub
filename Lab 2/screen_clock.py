@@ -38,7 +38,6 @@ height = disp.width  # we swap height/width to rotate it to landscape!
 width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
-
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
 
@@ -59,9 +58,13 @@ x = 0
 size1 = 18
 size2 = 24
 size3 = 40
-font1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size1)
-font2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size2)
-font3 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size3)
+font1 = ImageFont.truetype(
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size1)
+font2 = ImageFont.truetype(
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size2)
+font3 = ImageFont.truetype(
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size3)
+
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
@@ -70,11 +73,31 @@ buttonA = digitalio.DigitalInOut(board.D23)
 buttonA.switch_to_input()
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonB.switch_to_input()
+
+
+def image_resize(image):
+    image_ratio = image.width / image.height
+    screen_ratio = width / height
+    if screen_ratio < image_ratio:
+        scaled_width = image.width * height // image.height
+        scaled_height = height
+    else:
+        scaled_width = width
+        scaled_height = image.height * width // image.width
+    image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+
+    # Crop and center the image
+    x = scaled_width // 2 - width // 2
+    y = scaled_height // 2 - height // 2
+    image = image.crop((x, y, x + width, y + height))
+    return image
+
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    # TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
     y = top
     draw.text((x, y), "You need to consume", font=font1, fill="#FFFFFF")
     y += size1
@@ -90,9 +113,14 @@ while True:
         y = top
         draw.text((x, y), "Current time:  ", font=font1, fill="#FFFFFF")
         y += size1
-        draw.text((x, y), str(hour) + ":" + str(min), font=font2, fill="#FFC0CB")
+        draw.text((x, y), str(hour) + ":" + str(min),
+                  font=font2, fill="#FFC0CB")
         y += size2
         draw.text((x, y), "You should consume", font=font1, fill="#FFFFFF")
         y += size1
         draw.text((x, y), str(now) + "mL", font=font3, fill="#0000FF")
+    if not buttonB.value:
+        image = Image.open("water.jpg")
+        image = image_resize(image)
+        draw = ImageDraw.Draw(image)
     disp.image(image, rotation)

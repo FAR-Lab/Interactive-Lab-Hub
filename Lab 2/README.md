@@ -60,43 +60,31 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. 
 ### Connect to your Pi
-Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
+I connected the pi and set up a python environment using the following commands: 
 
 ```
-ssh pi@<your Pi's IP address>
+(base) kristychen@Kristys-MBP ~ % ssh pi@192.168.1.76
 ...
 pi@ixe00:~ $ virtualenv circuitpython
 pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
-
 ```
-### Setup Personal Access Tokens on GitHub
-The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
-
-Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
 
 ## Part B. 
 ### Try out the Command Line Clock
-Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
+I cloned my own lab-hub to the pi and changed the directory to Lab 2 via the following commands:
 
 ```
-(circuitpython) pi@ixe00:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
-(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
+(circuitpython) pi@ixe00:~ $ git clone https://github.com/kchen1009/Interactive-Lab-Hub.git
+(circuitpython) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 2/
 ```
-Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
 
-
-Install the packages from the requirements.txt and run the example script `cli_clock.py`:
-
+I then installed the packages and ran ```cli_clock.py```:
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
-02/24/2021 11:20:49
+09/19/2021 15:32:15
 ```
-
-The terminal should show the time, you can press `ctrl-c` to exit the script.
-If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you are still concerned, please reach out to the teaching staff!
-
 
 ## Part C. 
 ### Set up your RGB Display
@@ -123,24 +111,17 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 
 ### Testing your Screen
 
-The display uses a communication protocol called [SPI](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/) to speak with the raspberry pi. We won't go in depth in this course over how SPI works. The port on the bottom of the display connects to the SDA and SCL pins used for the I2C communication protocol which we will cover later. GPIO (General Purpose Input/Output) pins 23 and 24 are connected to the two buttons on the left. GPIO 22 controls the display backlight.
-
-We can test it by typing 
+By running the following command and inputting 'yellow', I was able to see a yellow background on the display. <br />
+Video: https://drive.google.com/file/d/1USkp8Tc9PRqcqepnwEbqRUxKPRlJ5pll/view?usp=sharing
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python screen_test.py
 ```
 
-You can type the name of a color then press either of the buttons on the MiniPiTFT to see what happens on the display! You can press `ctrl-c` to exit the script. Take a look at the code with
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ cat screen_test.py
-```
-
 #### Displaying Info with Texts
-You can look in `stats.py` for how to display text on the screen!
+![P1:Testing2](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Testing2.JPG)
 
 #### Displaying an image
-
-You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
+![P2:Testing3](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Testing3.JPG)
 
 
 
@@ -149,58 +130,123 @@ You can look in `image.py` for an example of how to display an image on the scre
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
 ### How to Edit Scripts on Pi
-Option 1. One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
+By adding the following python scripts in the #TODO section of ```screen_clock.py```, I was able to edit scripts on the pi and make the display to show the current date/time.
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ nano screen_clock.py
+now = time.strftime("%m/%d/%Y %H:%M:%S")
+y = top
+draw.text((x, y), now, font=font, fill="#FFFFFF")           
 ```
-You can make changes to the script this way, remember to save the changes by pressing `ctrl-o` and press enter again. You can press `ctrl-x` to exit the nano mode. There are more options listed down in the terminal you can use in nano.
-
-Option 2. Another way for you to edit scripts is to use VNC on your laptop to remotely connect your Pi. Try to open the files directly like what you will do with your laptop and edit them. Since the default OS we have for you does not come up a python programmer, you will have to install one yourself otherwise you will have to edit the codes with text editor. [Thonny IDE](https://thonny.org/) is a good option for you to install, try run the following command lines in your Pi's ternimal:
-
-  ```
-  pi@ixe00:~ $ sudo apt install thonny
-  pi@ixe00:~ $ sudo apt update && sudo apt upgrade -y
-  ```
-
-Now you should be able to edit python scripts with Thonny on your Pi.
-
+![P3:Setup](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Setup.JPG)
 
 ## Part E.
 ### Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
-
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
-
-**We strongly discourage and will reject the results of literal digital or analog clock display.**
-
+**We strongly discourage and will reject the results of literal digital or analog clock display.** <br />
+The code can be found in ```screen_clock.py``` where I designed an interaction to tell people how much water they need to drink at the current time. If it's 5 in the afternoon, the clock would show users that the curren time is 1416 milliliters of water (2L / 24 hours a day * 17). The number is rounded to the nearest ineger.<br />
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
-
-After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
-
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
+import datetime
+import time
+import subprocess
+import digitalio
+import board
+from PIL import Image, ImageDraw, ImageFont
+import adafruit_rgb_display.st7789 as st7789
+from adafruit_rgb_display.rgb import color565
+
+# Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
+cs_pin = digitalio.DigitalInOut(board.CE0)
+dc_pin = digitalio.DigitalInOut(board.D25)
+reset_pin = None
+
+# Config for display baudrate (default max is 24mhz):
+BAUDRATE = 64000000
+
+# Setup SPI bus using hardware SPI:
+spi = board.SPI()
+
+# Create the ST7789 display:
+disp = st7789.ST7789(
+    spi,
+    cs=cs_pin,
+    dc=dc_pin,
+    rst=reset_pin,
+    baudrate=BAUDRATE,
+    width=135,
+    height=240,
+    x_offset=53,
+    y_offset=40,
+)
+
+# Create blank image for drawing.
+# Make sure to create image with mode 'RGB' for full color.
+height = disp.width  # we swap height/width to rotate it to landscape!
+width = disp.height
+image = Image.new("RGB", (width, height))
+rotation = 90
+
+# Get drawing object to draw on image.
+draw = ImageDraw.Draw(image)
+
+# Draw a black filled box to clear the image.
+draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+disp.image(image, rotation)
+# Draw some shapes.
+# First define some constants to allow easy resizing of shapes.
+padding = -2
+top = padding
+bottom = height - padding
+# Move left to right keeping track of the current x position for drawing shapes.
+x = 0
+
+# Alternatively load a TTF font.  Make sure the .ttf font file is in the
+# same directory as the python script!
+# Some other nice fonts to try: http://www.dafont.com/bitmap.php
+font1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+
+# Turn on the backlight
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonA.switch_to_input()
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonB.switch_to_input()
+while True:
+    # Draw a black filled box to clear the image.
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    y = top
+    draw.text((x, y), "You need to drink 2L water daily", font=font1, fill="#FFFFFF")
+    time = datetime.datetime.now()
+    hour = time.hour
+    now = int(2000/24*hour)
+    if not buttonA.value:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), "Current time: " + str(now) + " milliliters", font=font1, fill="#FFFFFF")
+    disp.image(image, rotation)
 ```
-
-After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
-
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+\*\*\***Take a video of your PiClock.**\*\*\* <br />
+Video: https://drive.google.com/file/d/1L8v0-awETzKBZa9sKYQwTQRkRqNWqmSq/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+- Add images to make the interaction more fun and engaging
+- Add real time to explain how the number of milliliters is calculated
 
 # Prep for Part 2
-
-1. Pick up remaining parts for kit.
-
-2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+Feedback from Neha Manjunath
+```
+This is a really useful idea. I also think it would be really cool 
+if you could make it more interactive like using the button to 
+reset the water levels and make the clock have a theme relate to water consumption.
+```
 
 # Lab 2 Part 2
 
