@@ -16,7 +16,9 @@ Be generous in acknowledging their contributions! And also recognizing any other
 ### Get your kit
 If you are remote but in the US, let the teaching team know you need the parts mailed.
 
+
 If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
+
 
 ### Set up your Lab 2
 
@@ -27,8 +29,13 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
   Interactive-Lab-Hub $ git pull upstream Fall2021
+  ```
+  
+  The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
+  
+  ```
   Interactive-Lab-Hub $ git add .
-  Interactive-Lab-Hub $ git commit -m'merge'
+  Interactive-Lab-Hub $ git commit -m "message"
   Interactive-Lab-Hub $ git push
   ```
   Your local and remote should now be up to date with the most recent files.
@@ -69,6 +76,7 @@ pi@ixe00:~ $ virtualenv circuitpython
 pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 ```
+
 
 ## Part B. 
 ### Try out the Command Line Clock
@@ -138,11 +146,19 @@ draw.text((x, y), now, font=font, fill="#FFFFFF")
 ```
 ![P3:Setup](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%202/images/Setup.JPG)
 
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.** <br />
 The code can be found in ```screen_clock.py``` where I designed an interaction to tell people how much water they need to drink at the current time. If it's 5 in the afternoon, the clock would show users that the curren time is 1416 milliliters of water (2L / 24 hours a day * 17). The number is rounded to the nearest ineger.<br />
+Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+
+Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+
+**We strongly discourage and will reject the results of literal digital or analog clock display.**
+
+
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 ```
 import datetime
@@ -241,12 +257,20 @@ Video: https://drive.google.com/file/d/1L8v0-awETzKBZa9sKYQwTQRkRqNWqmSq/view?us
 - Add real time to explain how the number of milliliters is calculated
 
 # Prep for Part 2
+<<<<<<< HEAD
 Feedback from Neha Manjunath
 ```
 This is a really useful idea. I also think it would be really cool 
 if you could make it more interactive like using the button to 
 reset the water levels and make the clock have a theme relate to water consumption.
 ```
+=======
+
+1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
+  
+
+2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 
 # Lab 2 Part 2
 
