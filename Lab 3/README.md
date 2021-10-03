@@ -58,6 +58,19 @@ Running ```./vosk_demo_mic.sh``` and saying ```one, two, three``` generated us t
 
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+I wrote a shell file ```zipcode.sh``` to ask for zipcode. The answer respondent provides would be recorded and printed out in the terminal. ```zipcode.sh```is in the ```speech2text``` folder, and it looks like this:
+```
+#adapted from https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/speak-easier-flite
+
+#arecord -f cd -r 16000 -d 5 -t wav recorded.wav && sox recorded.wav recorded_mono.wav remix 1,2
+
+flite -voice slt -t "What is your zipcode?"
+
+arecord -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav recorded_mono.wav
+python3 test_words.py recorded_mono.wav
+```
+The result from answering ```11101``` is shown in the image.
+![P1:speech2text-2](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/speech2text-2.png)
 
 Bonus Activity:
 
