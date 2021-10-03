@@ -30,7 +30,7 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 ## Part 1.
 ### Text to Speech 
 
-\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\* <\ br>
+\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\* <br />
 I followed the instruction I found on adafruit (https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/speak-easier-flite) to install the synthesis engine on my pi. By using the commands below, I was able to build my own Flite.
 ```
 cd ~/Downloads
