@@ -54,7 +54,7 @@ flite -f greet.sh
 ### Speech to Text
 
 Running ```./vosk_demo_mic.sh``` and saying ```one, two, three``` generated us the following result.
-![P1:speech2text-1](./images/speech2text-1.JPG)
+![P1:speech2text-1](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/speech2text-1.png)
 
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
