@@ -30,33 +30,26 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 ## Part 1.
 ### Text to Speech 
 
-In this part of lab, we are going to start peeking into the world of audio on your Pi! 
-
-We will be using a USB microphone, and the speaker on your webcamera. (Originally we intended to use the microphone on the web camera, but it does not seem to work on Linux.) In the home directory of your Pi, there is a folder called `text2speech` containing several shell scripts. `cd` to the folder and list out all the files by `ls`:
-
-```
-pi@ixe00:~/text2speech $ ls
-Download        festival_demo.sh  GoogleTTS_demo.sh  pico2text_demo.sh
-espeak_demo.sh  flite_demo.sh     lookdave.wav
-```
-
-You can run these shell files by typing `./filename`, for example, typing `./espeak_demo.sh` and see what happens. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`. For instance:
-
-```
-pi@ixe00:~/text2speech $ cat festival_demo.sh 
-#from: https://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)#Festival_Text_to_Speech
-
-echo "Just what do you think you're doing, Dave?" | festival --tts
-```
-
-Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a shell script which you can execute in a terminal. The example files we offer here are for you to figure out the ways to play with audio on your Pi!
-
-You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
-
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
-(This shell file should be saved to your own repo for this lab.)
+I followed the instruction I found on adafruit (https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/speak-easier-flite) to install the synthesis engine on my pi. By using the commands below, I was able to build my own Flite.
+```
+cd ~/Downloads
+sudo apt-get install libasound2-dev
 
-Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
+wget http://www.festvox.org/flite/packed/flite-2.1/flite-2.1-release.tar.bz2
+
+tar -xvf flite-2.1-release.tar.bz2
+cd flite-2.1-release
+./configure --with-audio=alsa --with-vox=awb
+
+make
+
+sudo make install
+```
+After successfully installing the flite, I created another file ```greet.sh``` which can be found in the Lab 3 repo. I then had the flite to speak the content of the file, "How are you doing, Kristy", using the following command line.
+```
+flite -f greet.sh
+```
 
 ### Speech to Text
 
