@@ -16,7 +16,9 @@ Be generous in acknowledging their contributions! And also recognizing any other
 ### Get your kit
 If you are remote but in the US, let the teaching team know you need the parts mailed.
 
+
 If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
+
 
 ### Set up your Lab 2
 
@@ -33,7 +35,7 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
   
   ```
   Interactive-Lab-Hub $ git add .
-  Interactive-Lab-Hub $ git commit -m'merge'
+  Interactive-Lab-Hub $ git commit -m "message"
   Interactive-Lab-Hub $ git push
   ```
   Your local and remote should now be up to date with the most recent files.
@@ -79,6 +81,7 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
+
 
 ## Part B. 
 
@@ -174,6 +177,7 @@ Option 2. Another way for you to edit scripts is to use VNC on your laptop to re
 Now you should be able to edit python scripts with Thonny on your Pi.
 
 
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -182,6 +186,7 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
+
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -217,7 +222,8 @@ https://user-images.githubusercontent.com/37049175/134952344-6254c0ba-1987-4b64-
 (https://user-images.githubusercontent.com/37049175/134952198-3771a90b-2b0b-40dd-82d3-8c204de5212c.png)
 
 
-1. Pick up remaining parts for kit.
+1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
+  
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
