@@ -70,7 +70,7 @@ arecord -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav recorded_mono.wav
 python3 test_words.py recorded_mono.wav
 ```
 The result from answering ```11101``` is shown in the image. <br />
-![P1:speech2text-2](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/speech2text-2.png)
+![P2:speech2text-2](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/speech2text-2.png)
 
 Bonus Activity:
 
@@ -103,9 +103,8 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ### Storyboard
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
-
 \*\***Post your storyboard and diagram here.**\*\*
+![P3:storyboard](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/storyboard.JPG)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
