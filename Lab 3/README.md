@@ -109,6 +109,20 @@ From a remote browser on the same network, check to make sure your webserver is 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+[P4:dialogue](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/dialogue.jpg) <br />
+The scenario I depicted in my storyboard above is that a cat walks to the door to welcome her owner and asks for dinner. The speech-enabled device bascially is a translator in this case, bridging the conversation between the owner and the cat so they are able to understand and communicate with each other with ease. The dialogue that I imagined would occur in this scenario is as described below. I use post-its notes to help me generate ideas.
+```
+"Hey I am back!"
+"Why are you so late today? I am starving!!"
+"But how's school today?"
+"Hey, thank you for asking! It was okay, and I am super exhausted right now."
+"I'm gonna fix myself something for dinner"
+"But how about MY dinner? I am starving I told you! I didn't even have treats for toady's afternoon tea"
+"Sorry, my poor pal. What do you want for tonight? Fish or chicken?"
+"Fish is fine!"
+"Then tuna or salmon?"
+"SALMON PLEASE!!! It's my fav <3"
+111
 
 ### Acting out the dialogue
 
