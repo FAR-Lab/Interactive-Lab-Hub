@@ -104,6 +104,15 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 \*\***Post your storyboard and diagram here.**\*\*
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+![243869232_294403785505139_3124224948589346557_n](https://user-images.githubusercontent.com/37049175/135782668-7ab4ed33-694c-4767-968b-649440788787.jpg)
+
+
+![243870722_453327252659633_8673334709173697308_n](https://user-images.githubusercontent.com/37049175/135782674-3c546e54-3609-4a73-8724-f5d9305497c8.jpg)
+
+![243679550_1126708478100911_5977681122327633173_n](https://user-images.githubusercontent.com/37049175/135782679-c7437aed-b1fd-446f-9d55-a7a244b8f111.jpg)
+
+![243796102_4309863332442844_6832019000802186657_n](https://user-images.githubusercontent.com/37049175/135782681-45d4364f-e982-4174-8e0f-5702f4a06b1c.jpg)
+
 
 \*\***Please describe and document your process.**\*\*
 
