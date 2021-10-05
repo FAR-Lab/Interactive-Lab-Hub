@@ -92,7 +92,7 @@ Painting - nothing special (0) triggered (1)
 
 book/bookshelf - Voice: ”Ok, I’ll check the book …… oh! There’s a book that looks strange, let me check… Oh my god, the book is carved hollow inside and there’s a key in it!” ->
 
-Player response:
+**Player response:**
 
 Door - “Oh it’s the key for the door, I’m out, let me see...” ->
 
@@ -130,7 +130,7 @@ Kitchen - “ahh, there’s a keyhole, let me try… Ok, the door's open, let me
 
 **Male Voice:** “So… Here's the kitchen, some bowls … some bread, the stove is still on, and something is boiling in the pot, dang, that smells so good, Wonder what’s in it… should I go check the pot?”
 
-**Player Responses: **
+**Player Responses:**
 
 Yes / pot/ check/ why not / what/ inside - “it’s soup! I need to have some…(tasting soup) Ok, it tastes like heaven, my lord, I think there’s tomatoes, chicken, onions, and chilies, I wish you could be here to taste it.” ->
 
@@ -138,7 +138,7 @@ Others - “Oh I’m too hungry, I need to know what smells that good” - then 
 
 **Male Voice:** “Ok, enough soup, what should I do now? Should I go Bathroom, study, or bedroom?”
 
-**Player Responses: **
+**Player Responses:**
 
 Study - “still the same old study, maybe I should check out other rooms?”
 
@@ -177,9 +177,9 @@ Kitchen - “No soup there anymore, maybe somewhere else?”
 
 The connection has been lost. After an hour or so, you received another call suddenly, “Is this 911, hi, I need help, please! Can you help me?” ”I lost my memory and I’m now trapped in a room! There’s no one with me, and I don’t remember anything!”
 
-// If no keyword is recognized: What, what are you saying? I don’t understand.
+***// If no keyword is recognized: What, what are you saying? I don’t understand.***
 
-// If “repeat” - repeat male voice
+***// If “repeat” - repeat male voice***
 
 
 ### Acting out the dialogue
