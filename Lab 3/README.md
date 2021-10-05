@@ -188,7 +188,11 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-
+1. The dialogue sometimes does not predict what the player would be talking about, which causes confusions, sometimes players will just don't know how to act and then lost track of the game.
+2. Sometimes if the player is not paying attention, might lost track of the game flow and forgot about the context, added repeat/say it again function for the player to hear it again.
+3. When responding, bathroom and bedroom sounds too familiar, which might causes trouble in real interaction with the device
+4. Although it's tried to be human like in terms of conversation, text to speech might not have a emotional tone to describe such a situation.
+5. When player is not familiar with the game at first, they might try to say irrelavant words, which brings trouble to continue the game, should have a easier start that smoothly goes into the storyline.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
