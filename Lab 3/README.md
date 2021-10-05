@@ -125,7 +125,11 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-Video will be uploaded by EOD
+Video link: https://youtu.be/_s3BVtuhlvw
+
+Special thanks to Marissa for allowing me to test out the script with her!
+
+The dialogue was a lot different from what I imagined. Some of the questions were answered with a straightforward yes or no, but for many of the symptom questions, there was a tendency to describe the symptom in further detail. For instance, when I asked Marissa if she had a fever, she responded with "a little". Also, when asked about multiple symptoms, there was a tendency to choose the symptom that was experienced. It will be difficult to anticipate all of the nuances of the answers to these questions, so I might try to structure them to try and elicit a straightforward yes or no response.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
