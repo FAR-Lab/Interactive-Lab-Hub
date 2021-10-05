@@ -103,6 +103,12 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+The idea is to have the Pi act as an auditory checklist for various covid-19 related precautions and symptom checks. For example, as Cornell Tech students, we have to get tested for covid weekly but I frequently find myself forgetting to go and end up rushing to get tested at the last possible minute. The first question the Pi could ask is "Have you been tested for covid this week" and accept a simple yes or no response. The Pi could then go through a standard list of covid-19 related symptoms, asking "Do you have a fever or chills", "Do you have a headache", "Do you have a cough", etc. and listen for responses from the user. I anticipate that most responses will be in yes or no form. The Pi can then provide responses/guidance when all questions have been asked (or provide questions by question responses). For example, if the answer to "Have you been tested this week?" is "No", the Pi could remind the user of the testing schedule for the week. 
+
+Finally, the Pi could assess the answers to the symptom questions and provide a summary of the users responses. It could end with recommending the user to quarantine, see their physician, or go about their day.
+
+These questions have been adapted from the OSHA employee COVID-19 screening questionnaire: https://www.osha.gov/sites/default/files/publications/OSHA4132.pdf
+
 ![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/storyboard.JPG)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
@@ -111,11 +117,15 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 ![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/checklist.JPG)
 
+I initially anticipated that most responses would be yes or no answers. However, many of the questions are in either-or format. For example, "Do you have fever or chills". While the standard yes or no responses would work here, some people would answer "fever" or "chills". Additionally, people might provide even more information such as their temperature value. There are many different answers to anticipate, and it might be simplest to structure the questions to purely accept yes or no answers.
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+Video will be uploaded by EOD
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
