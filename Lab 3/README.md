@@ -120,6 +120,9 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+
+https://user-images.githubusercontent.com/37049175/135949958-03c3d9cf-2f50-4402-bf5f-2c31fd703e4b.mov
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 ### Wizarding with the Pi (optional)
