@@ -30,41 +30,15 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 ## Part 1.
 ### Text to Speech 
 
-In this part of lab, we are going to start peeking into the world of audio on your Pi! 
 
-We will be using a USB microphone, and the speaker on your webcamera. (Originally we intended to use the microphone on the web camera, but it does not seem to work on Linux.) In the home directory of your Pi, there is a folder called `text2speech` containing several shell scripts. `cd` to the folder and list out all the files by `ls`:
-
-```
-pi@ixe00:~/text2speech $ ls
-Download        festival_demo.sh  GoogleTTS_demo.sh  pico2text_demo.sh
-espeak_demo.sh  flite_demo.sh     lookdave.wav
-```
-
-You can run these shell files by typing `./filename`, for example, typing `./espeak_demo.sh` and see what happens. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`. For instance:
-
-```
-pi@ixe00:~/text2speech $ cat festival_demo.sh 
-#from: https://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)#Festival_Text_to_Speech
-
-echo "Just what do you think you're doing, Dave?" | festival --tts
-```
-
-Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a shell script which you can execute in a terminal. The example files we offer here are for you to figure out the ways to play with audio on your Pi!
-
-You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
-
-Now examine the `speech2text` folder. We are using a speech recognition engine, [Vosk](https://alphacephei.com/vosk/), which is made by researchers at Carnegie Mellon University. Vosk is amazing because it is an offline speech recognition engine; that is, all the processing for the speech recognition is happening onboard the Raspberry Pi. 
-
-In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
-
-One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
@@ -81,37 +55,140 @@ pi@ixe00:~ $ source dspeechexercise/bin/activate
 
 ### Serving Pages
 
-In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
-
-```
-pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
- * Serving Flask app "server" (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: on
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 162-573-883
-```
-From a remote browser on the same network, check to make sure your webserver is working by going to `http://<YourPiIPAddress>:5000`. You should be able to see "Hello World" on the webpage.
 
 ### Storyboard
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
+Our device is a voice interaction game. The player plays the role of a 911 operator who receives an emergency call asking for help. The other end of the phone call is a man who claims that he is trapped in a locked apartment and has lost all his memories. He asks for the player’s help to escape from the apartment. The man describes what he sees and lists out possible actions; the player instructs the man to conduct these actions by speech to move forward with the game. This game is suitable to be designed as a voice interaction game because it simulates a phone call in which the player does not have vision.
 
 \*\***Post your storyboard and diagram here.**\*\*
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+![image](https://user-images.githubusercontent.com/42874337/135953990-cac7ddab-a51b-4716-b446-30f18f9c01f3.png)
+
+![image](https://user-images.githubusercontent.com/42874337/135954019-b6289976-4be1-47ed-8cf3-c4a5bcdd0c40.png)
 
 \*\***Please describe and document your process.**\*\*
+
+Script:
+
+**Narrator:** *Welcome to Hotline, a voice interaction game. You are now a 9-1-1 hotline operator, you will help a person in need over the phone,  and the only way you can do so is to talk to him and tell him what to do. Here comes your call...*
+
+*beep beep beep*
+
+**Male voice:** “Is this 911, hi, I need help, please! Can you help me?”
+
+**Player response:** “yes”/“Hi”/“what happened” / “where are you” / “who are you” …
+
+**Male voice:** ”I lost my memory and I’m now trapped in a room! There’s no one with me, and I don’t remember anything!”
+
+**Player response:** “What is the room like” / “What’s in the room”/”What can you see” …
+
+**Male voice:** “Ok, ok, I’m in a study I guess, there’s a door, let me see … it’s locked, there are many books on a bookshelf, there's a painting on the wall… and it’s just like a regular study...”
+
+**Player response:**
+
+door - still locked
+
+Painting - nothing special (0) triggered (1)
+
+book/bookshelf - Voice: ”Ok, I’ll check the book …… oh! There’s a book that looks strange, let me check… Oh my god, the book is carved hollow inside and there’s a key in it!” ->
+
+Player response:
+
+Door - “Oh it’s the key for the door, I’m out, let me see...” ->
+
+Others - “what do you want me to do with the key?”
+
+Male voice: “Ok, now I’m out, I’m in a … hallway I think, quite a simple house, there’s no window though, let me see … (walking around) … are you still there? I see three rooms, other than the study, one to my left, it says, bathroom, one to my right,I think is the kitchen, and one ahead, should be the bedroom?”
+
+**Player response:**
+
+Bathroom / left- “The door is open, god bless, it seems to be… a normal bathroom, quite small.” ->
+
+Kitchen / Right - “I can smell something, it smells so good in it, the door is locked, I can’t go in, my god, I’m so hungry, how long has it been! Maybe I should try somewhere else?”
+
+Bedroom / Ahead - “it’s weird, there’s not even a grip on the door, wait a minute, there’s something written on the door … *What's in the soup today?* what? What does that mean? Maybe I should try somewhere else?”
+
+**Male voice:** “Now I’m in the bathroom, there’s the bathtub, nothing unusual, the toilet, and a mirror ...”
+
+**Player response:**
+
+Bathtub - “It’s … just a regular bathtub I think...”
+
+mirror - “ok, you are right, I should probably see what I look like, maybe I could remember something? Let me see … Oh My God!! Who am I, what’s wrong with this terrible face! I’m not looking at it anymore!”
+
+Toilet - “Ok, It’s really dirty, but got to do whatever gets me out of this shithole .... Wait, it’s not flushing, maybe something is clogged, let me check... who would have thought that! Are you like a detective or something? It’s a key! Probably opens the door to the kitchen!” ->
+
+**Male voice:** “Now that I have the key, where should I go? Bedroom, Kitchen, or study?”
+
+**Player response:**
+
+Bedroom - “Ok, let me see, there’s no key hole on the door, really weird, just something written on the door … *What’s in the soup today?* what does that mean?”
+
+Study - “Just like before, I don’t see anything useful, maybe I should do something with the key?”
+
+Kitchen - “ahh, there’s a keyhole, let me try… Ok, the door's open, let me see what’s inside, man, it smells so good!” ->
+
+**Male Voice:** “So… Here's the kitchen, some bowls … some bread, the stove is still on, and something is boiling in the pot, dang, that smells so good, Wonder what’s in it… should I go check the pot?”
+
+**Player Responses: **
+
+Yes / pot/ check/ why not / what/ inside - “it’s soup! I need to have some…(tasting soup) Ok, it tastes like heaven, my lord, I think there’s tomatoes, chicken, onions, and chilies, I wish you could be here to taste it.” ->
+
+Others - “Oh I’m too hungry, I need to know what smells that good” - then go to yes
+
+**Male Voice:** “Ok, enough soup, what should I do now? Should I go Bathroom, study, or bedroom?”
+
+**Player Responses: **
+
+Study - “still the same old study, maybe I should check out other rooms?”
+
+Bathroom - “eww, it’s dirty, not going back again”
+
+Bedroom - “Yes! The soup! Maybe that will solve the puzzle!” ->
+
+**Male Voice:** “Ok, now I’m at the bedroom door, it’s hardly a door, no grip or anything, a question on it though, *What’s in the soup today?* , oh man, I shouldn’t have finished it all, do you still remember what’s in it?”
+
+**Player Responses:**
+
+Tomato / chicken / onion / chilli / s  - “Yes, yes, I still remember that taste! You are right!” ->
+
+**Male Voice:** “So… should I just say the word? *INPUT* *INPUT* holy shit, it’s opening! The door opened automatically, is someone listening to me? …. OK, this is the bedroom, still no exit in it, how can this house have no exit! Ok, there’s the bed, of course, queen size I guess, looking cozy, a computer on the desk, and a book on the nightstand… What should I do?”
+
+**Player Responses:**
+
+Bed - “I’m not going to sleep at this time, maybe something else?”
+
+Desk / computer - “you are right, maybe I can connect to the internet … ok it’s totally dead, just a decoration I guess…, maybe something else?”
+
+Book / nightstand - “Sure, it’s never late to read, here’s a bookmarked page *reading* Painting is always a good place for many private people to hide their secrets in their home, many indoor designs leave a secret space on the wall that is covered by paintings and decorations … wait, that sounds real familiar... ”  ->
+
+**Male Voice:** “I think that’s it for the bedroom, where should I go next, I don’t see another new door… should I go back to the kitchen, or bathroom, or study?”
+
+**Player Responses:**
+
+Study - “Wait, you are right, there’s a painting there! Maybe something hidden!” ->
+
+Bathroom - “eww, it’s dirty, not going back again!”
+
+Kitchen - “No soup there anymore, maybe somewhere else?”
+
+
+**Male Voice:** “Ok, study, the painting, let’s see what’s behind it… My god, there is actually something! Can you imagine that? There’s a half-full vile of some greenish fluid … and a note … *drink it and you will be free*, what does that mean? Should I drink it? Shoot… the phone is going to die … hey, hey can you still hear me... should I drink … ”
+
+The connection has been lost. After an hour or so, you received another call suddenly, “Is this 911, hi, I need help, please! Can you help me?” ”I lost my memory and I’m now trapped in a room! There’s no one with me, and I don’t remember anything!”
+
+// If no keyword is recognized: What, what are you saying? I don’t understand.
+
+// If “repeat” - repeat male voice
+
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
