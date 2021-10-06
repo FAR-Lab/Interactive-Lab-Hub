@@ -111,24 +111,36 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 \*\***Please describe and document your process.**\*\* <br />
 ![P4:dialogue](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/dialogue.jpg) <br />
 The scenario I depicted in my storyboard above is that a cat walks to the door to welcome her owner and asks for dinner. The speech-enabled device bascially is a translator in this case, bridging the conversation between the owner and the cat so they are able to understand and communicate with each other with ease. The dialogue that I imagined would occur in this scenario is as described below. I use post-its notes to help me generate ideas.
+
 ```
-"Hey I am back!"
-"Why are you so late today? I am starving!!"
-"But how's school today?"
-"Hey, thank you for asking! It was okay, and I am super exhausted right now."
-"I'm gonna fix myself something for dinner"
-"But how about MY dinner? I am starving I told you! I didn't even have treats for toady's afternoon tea"
-"Sorry, my poor pal. What do you want for tonight? Fish or chicken?"
-"Fish is fine!"
-"Then tuna or salmon?"
-"SALMON PLEASE!!! It's my fav <3"
+Cat owner
+   "Hey I am back!"
+Device (cat)
+   "Why are you so late today? I am starving!!"
+   "But how's school today?"
+Cat owner
+   "Hey, thank you for asking! It was okay, and I am super exhausted right now."
+   "I'm gonna fix myself something for dinner"
+Device (cat)
+   "But how about MY dinner? I am starving I told you! I didn't even have treats for toady's afternoon tea"
+Cat owner
+   "Sorry, my poor pal. What do you want for tonight? Fish or chicken?"
+Device (cat)
+   "Fish is fine!"
+Cat owner
+   "Then tuna or salmon?"
+Device (cat)
+   "SALMON PLEASE!!! It's my fav <3"
 ```
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+The interaction can be found here: https://drive.google.com/file/d/1GiDDY7BRCE8N_lmsjGV4FVUA1_LPkBzw/view?usp=sharing. I acted as the device that helped Nunu (the cat featured in the video) translate her conversation with her owner. 
+
+\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\* <br />
+The dialogue was every different - without giving my partner guidance and content of the sciprt, the conversation flew freely. Even though I was trying my best to swing the convo back to what I initially designed, it was fairly difficult as I wasn't the cat owner himself. Frankly speaking, I wasn't even sure if I was doing the assignment correctly. For the next part, I think I would need to narrow down the scope of the scenario to make the dialogue more focused and interactive.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
