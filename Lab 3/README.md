@@ -143,7 +143,8 @@ The interaction can be found here: https://drive.google.com/file/d/1GiDDY7BRCE8N
 The dialogue was every different - without giving my partner guidance and content of the sciprt, the conversation flew freely. Even though I was trying my best to swing the convo back to what I initially designed, it was fairly difficult as I wasn't the cat owner himself. Frankly speaking, I wasn't even sure if I was doing the assignment correctly. For the next part, I think I would need to narrow down the scope of the scenario to make the dialogue more focused and interactive.
 
 ### Wizarding with the Pi (optional)
-In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
+Running ```app.py```, I was able to open the controller interface, having the Pi to stream audio and even speak.
+![P4:wizardinterface](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/wizardinterface.PNG)
 
 
 # Lab 3 Part 2
