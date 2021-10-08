@@ -153,8 +153,12 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings... <br />
+I would focus on the scenario of meal selection in part 2 so as to have a more concrete theme and limit the length of the conversation. In this way, the purpose of the device can be more clearly communicated, allowing users to intuitively perceive what it does and how to interact with it. Also, the initial language design was fairly casual since I imagined a friendly dialogue between an owner and his cat. However, in the new design of the device, I decided to pivot a little bit; instead of making a cat translator, I'd like to design an interactive device that helps pick meal items for a cat. The device should speak more like a robot and faciliate the selection process.
+
+2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact? <br />
+Since it's about meal selection, I'd like to add joystick to make the interaciton beyond speech and text, which is more fun and engaging. Users could the joystick as a controller to pick either "salmon" or "tune" for the cat's dinner meal.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
