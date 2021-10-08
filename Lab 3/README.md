@@ -191,6 +191,5 @@ Answer the following:
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
+I could use the system to record the participation rate of the game - how many people say yes vs no? I could also use the system to record how users speak to the device to indicate their willingness based on their tone (happy vs upset), pitch (high vs low), langugage (Yes vs Yeah!), etc. I think it'd also be interesting to capture users' facial expressions and body languages of when playing with the joystick.
 
