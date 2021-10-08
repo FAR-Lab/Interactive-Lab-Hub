@@ -144,7 +144,7 @@ The dialogue was every different - without giving my partner guidance and conten
 
 ### Wizarding with the Pi (optional)
 Running ```app.py```, I was able to open the controller interface, having the Pi to stream audio and even speak.
-![P4:wizardinterface](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/wizardinterface.PNG)
+![P4:wizardinterface](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/wizardinterface.png)
 
 
 # Lab 3 Part 2
