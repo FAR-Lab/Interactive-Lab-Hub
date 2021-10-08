@@ -186,8 +186,7 @@ Answer the following:
 \*\**your answer here*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
+The reaction time of the device is fairly important in such an interactive game. If the system takes a while to repsond, users might lose interest in it or think the device is broken. Therefore, to deliver a better UX and make the game more engaging, it is critical to ensure that the system respond to users' selections and speech right away. Also, when having the system talk, it is imperative to use an easy-to-understand voice and make sure that the system communicates clearly to prevent confusions.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
