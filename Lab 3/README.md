@@ -160,7 +160,7 @@ I would focus on the scenario of meal selection in part 2 so as to have a more c
 Since it's about meal selection, I'd like to add joystick to make the interaciton beyond speech and text, which is more fun and engaging. Users could the joystick as a controller to pick either "salmon" or "tune" for the cat's dinner meal.
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
-![P5:diagram](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/diagram.jpg)
+![P5:diagram](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%203/images/diagram.JPG)
 
 ## Prototype your system
 
