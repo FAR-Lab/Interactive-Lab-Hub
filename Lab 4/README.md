@@ -95,7 +95,7 @@ Twizzler 6 touched!
 ```
 
 ### Part B
-### More sensors (Accelerometer, Light/Position/Gesture sensor, Distance sensor, Encoder)
+### More sensors (Accelerometer, Light/Position/Gesture sensor, Encoder, Joystick,(optional)Distance sensor)
 
 [PLEASE ADD]
 
