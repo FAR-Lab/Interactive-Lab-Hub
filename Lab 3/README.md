@@ -125,8 +125,13 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+I only received one feedback note from David O. He suggested I expand to "something like language study, where the machine listens to your conjugations and pronunciations and assists you." His idea got me thinking of other ways the system could help an actor prepare for a role. I particularly liked his thought that "perhaps the device could be trained to do improv." Unfortunately this is beyond my skill level, but still definitely cool to think about.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+A visual of the device moving through a script could certainly help. Or some kind of virtual manifestation of the line-reading partner. Alternatively, physical buttons with arrows that help the user move back or forward through the script.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+As all of my ideas are too challenging for me to implement, I'll be working with the same ideas from part 1.
 
 ## Prototype your system
 
