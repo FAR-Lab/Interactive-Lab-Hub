@@ -142,6 +142,10 @@ The system should:
 
 *Document how the system works*
 
+My first step was figuring out how to get the Pi to speak at all, which I was able to do through the steps given above. I knew I wanted to do a two-person scene as scenes with more than one role might be more complicated to implement, so I went with the balcony scene from Romeo and Juliet. That said, some of the longer lines still take a while to format.
+
+**First Video Here**
+
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
