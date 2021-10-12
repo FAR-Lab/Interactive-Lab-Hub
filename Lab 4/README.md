@@ -120,7 +120,7 @@ Here is another prototype for a paper display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
 
-It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
+It holds a Pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
 
 This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
 
