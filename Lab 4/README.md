@@ -89,12 +89,12 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
-#### If you don't have Twissler: Let's Use Banana!
-<img src="https://wallpaperaccess.com/full/3258247.jpg" width=200>
+#### If you don't have Twissler: Let's use banana!
 
-Again, don't limit yourself, let's use (go?) bananas!
+Again, don't limit ourselves, if you don't have Twissler, let's use (go?) bananas!
 
 <p float="left">
+<img src="https://wallpaperaccess.com/full/3258247.jpg" width=200>
 <img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
 </p>
 
