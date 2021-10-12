@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. Start collecting cardboard, if possible!
+For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
 
 ## Part 1 Lab Preparation
 
@@ -100,7 +100,16 @@ Twizzler 6 touched!
 [PLEASE ADD]
 
 ### Part C
-### Paper Display
+### Physical considerations for sensing
+
+Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
+
+**Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.**
+
+**What are some things these sketches raise as questions? What do you need to do to understand how to anwer those questions?**
+
+
+Display
 
 
 
