@@ -78,7 +78,11 @@ We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com
 <img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
 </p>
 
-Plug in the capacitive sensor board with the qwiic connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`.
+Plug in the capacitive sensor board with the qwiic connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). In this lab, we will continue to use the `circuitpython` virtual environment we created before. Activate `circuitpython` and `cd` to your Lab 4 folder to install the requirements by:
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ pip3 install -r requirements.txt
+```
 
 <img src="https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg" width=400>
 These Twizzler's are connected to pads 6 and 10. When you run the code and touch a twizzler the terminal will print out the following
