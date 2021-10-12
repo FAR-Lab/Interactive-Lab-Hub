@@ -89,18 +89,16 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
-#### Optional but Encouraged: Let's Use Banana!
+#### If you don't have Twissler: Let's Use Banana!
 <img src="https://wallpaperaccess.com/full/3258247.jpg" width=200>
 
 Again, don't limit yourself, let's use (go?) bananas!
 
 <p float="left">
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
-<img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
 <img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
 </p>
 
-*\*Some students might have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
+*\*Some students might have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative.*
 
 ### Part B
 ### OLED screen
