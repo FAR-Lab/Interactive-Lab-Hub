@@ -107,7 +107,7 @@ Again, don't limit ourselves, if you don't have Twissler, let's use (go?) banana
 ### Part B
 ### OLED screen
 
-Your kit includes these SparkFun Qwiic OLED screens. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
+Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
 <p float="left">
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
@@ -145,11 +145,11 @@ Here is an example:
 
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
-**a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
+\*\*\***a. Document the design for your paper display.**\*\*\* (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
-**b. Make a video of your paper display in action.**
+\*\*\***b. Make a video of your paper display in action.**\*\*\*
 
-**c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+\*\*\***c. Explain the rationale for the design.**\*\*\* (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 
 ### Part D
