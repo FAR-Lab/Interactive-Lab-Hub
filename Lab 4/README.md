@@ -1,13 +1,25 @@
-
-
 # Ph-UI!!!
 
-For lab this week, we focus on prototyping and the physical look and feel of the device. 
+For lab this week, we focus on prototyping and the physical look and feel of the device. Start collecting cardboards if possible!
 
-## Lab Preparation
+## Part 1 Lab Preparation
 
-1. Pull the new Github Repo.
-2. To help think of ideas, read: 
+### Get the latest content:
+As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
+
+**\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the personal access token for this.
+
+```
+pi@ixe00:~$ cd Interactive-Lab-Hub
+pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
+pi@ixe00:~/Interactive-Lab-Hub $ git add .
+pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab4 content"
+pi@ixe00:~/Interactive-Lab-Hub $ git push
+```
+
+Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
+
+### Start brasinstorming ideas by reading: 
 * [What do prototypes prototype?](https://www.semanticscholar.org/paper/What-do-Prototypes-Prototype-Houde-Hill/30bc6125fab9d9b2d5854223aeea7900a218f149)
 * [Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
 * [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
@@ -16,7 +28,7 @@ For lab this week, we focus on prototyping and the physical look and feel of the
 * [Dyson Vacuum Cardboard Prototypes](http://media.dyson.com/downloads/JDF/JDF_Prim_poster05.pdf)
 <p align="center"><img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > </p>
 
-3. In addition to your lab kit, it will help to gather:
+### Gathering materials for this lab:
 
 * Cardboard (start collecting those shipping boxes!)
 * Found objects and materials--like bananas and twigs.
@@ -24,17 +36,21 @@ For lab this week, we focus on prototyping and the physical look and feel of the
 * Cutting tools
 * Markers
 
-4. Finally, the deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+(We do offer shared cutting board, cutting tools, and markers on the class cart during the lab, so do not worry if you don't have them!)
 
-5. Submission
-* The readme.md page for this lab should be edited to include the work you have done. 
-* Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.
-* Link your lab 4 readme in your main Interactive-Lab-Hub readme.md. 
+## Deliverables \& Submission for Lab 4
+
+the deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
+* "Looks like": shows how the device should look, feel, sit, weigh, etc.
+* "Works like": shows what the device can do.
+* "Acts like": shows how a person would interact with the device.
+
+For submission, the readme.md page for this lab should be edited to include the work you have done:
+* Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
+* Link your lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
 * Each group member should post their own copy of the work to their own repository, even if some of the work is the same for each person in the group.
 * Labs are due on Mondays, make sure to submit your lab 4 readme.md to Canvas.
+
 
 ## Lab Overview
 
@@ -44,14 +60,13 @@ B) [OLED screen](#part-b)
 
 C) [Paper Display](#part-c)
 
-D) [Servo Control](#part-d)
+D) [Materiality](#part-d)
 
-E) [Materiality](#part-e)
+E) [Servo Control](#part-e)
 
 F) [Record the interaction](#part-f)
 
-## The Report
-
+## The Report (Part 1: A-D, Part 2: E-F)
 
 ### Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction
@@ -121,24 +136,32 @@ Make a paper display for your project that communicates the state of the Pi and 
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+
 ### Part D
-### Servo Control
+### Materiality
 
-By using the Qwiic OLED screen instead of the LED hat, you should have more GPIO pins opened up. With extra GPIO pins, we'll connect the 9-gram SG90 mini-servo using the jumper wires, both included in your kit.
+**Open Ended**: We are putting very few constraints on this part and we want you to get creative.
 
-<p align="center"><img src="wires.png"  width="200" > <img src="servo.png"  width="200" ></p>
+Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently? Document what material you are prototyping with, include candidates that were considered even if they were set aside later, and explain your selection(s).
 
-Use the wires to attach the 5V, Ground, and GPIO. 5V and Ground can go next to each other on the outer row, pins 4 and 6, and GPIO should go in the inner row, at pin 11. This is shown in the diagram below.
 
-<p align="center"><img src="diagram.png"  width="200" ></p>
+## Part 2 
 
-Then, in this lab you can find a script named ```servo_control.py```, you can use this to control the servo. In the directory you have this script in, you can run ```python servo_control.py```, it is specifically looking for connection to pin 11, so if you find it isn't connecting, try checking the GPIO diagram above, and making sure that on [line 6](https://github.com/vbartle/idd-drafting/blob/7edfa05097f88f35b00dc84ff932f4a371be6dc7/servo_control.py#L6), the same pin is being called, i.e. ```GPIO.setup(*PIN NUMBER*, GPIO.out)``` and ```servo = GPIO.PWM(*PIN NUMBER*, 50)```.
+Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
+
+### Part E (tentatively included for now 10/12/2021)
+### Servo Control (w/ Joystick if wanted)
+
+In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). In the part 2 of this lab, we would like you try adding movement to your device and see how the physical look and feel change along with the added movement!
+
+()
+
 
 This script will ask you for an input degree for it to rotate, so you can wizard your device as we learned in the last lab. It is also possible to control the servo using the capacitive sensing as in part A, and/or from some of the buttons or controls, like the Joystick, included in your kit, the simplest way might be to chain Qwiic buttons to the other end of the Qwiic OLED. Like this:
 
 <p align="center"> <img src="chaining.png"  width="200" ></p>
 
-You can then call whichever control you like, within the ```servo_control.py``` file, rather than having it ask for a value. For more information on controlling Qwiic, Sparkfun has several python examples, such as [this](https://learn.sparkfun.com/tutorials/qwiic-joystick-hookup-guide/all#python-examples), which for the joystick boils down to something like: 
+You can then call whichever control you like rather than having it ask for a value. For more information on controlling Qwiic, Sparkfun has several python examples, such as [this](https://learn.sparkfun.com/tutorials/qwiic-joystick-hookup-guide/all#python-examples), which for the joystick boils down to something like: 
 
 ```
 import qwiic_joystick
@@ -148,23 +171,10 @@ joystick.begin()
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
-### Part E
-### Materiality
-
-**Open Ended**: We are putting very few constraints on this part and we want you to get creative.
-
-Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently? Document what material you are prototyping with, include candidates that were considered even if they were set aside later, and explain your selection(s).
-
-
-### Part 2.
-
-Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
-
 ### Part F
 ### Record
 
-### Reiterating: 
-Deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
