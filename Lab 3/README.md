@@ -140,6 +140,10 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+- when user doesn't respond, have a timer for 5 min and ask if the user is there. then, repeat the message
+- accelerometer 
+
+
 ## Prototype your system
 
 The system should:
