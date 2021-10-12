@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-For lab this week, we focus on prototyping and the physical look and feel of the device. Start collecting cardboard, if possible!
+For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. Start collecting cardboard, if possible!
 
 ## Part 1 Lab Preparation
 
@@ -94,20 +94,15 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
-
 ### Part B
-### OLED screen
+### More sensors (Accelerometer, Light/Position/Gesture sensor, Distance sensor, Encoder)
 
-Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibily be mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
-</p>
-
+[PLEASE ADD]
 
 ### Part C
 ### Paper Display
+
+
 
 Here is an Pi with a paper faceplate on it to turn it into a display interface:
 
@@ -119,6 +114,14 @@ This is fine, but the mounting of the display constrains the display location an
 Here is another prototype for a paper display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
+
+Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibily be mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
+
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
+<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
+</p>
+
 
 It holds a Pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
 
@@ -151,7 +154,7 @@ Make a paper display for your project that communicates the state of the Pi and 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently? Document what material you are prototyping with, include candidates that were considered even if they were set aside later, and explain your selection(s).
 
 
-## Part 2 
+
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
