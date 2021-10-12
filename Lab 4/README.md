@@ -69,7 +69,7 @@ F) [Record the interaction](#part-f)
 ## The Report (Part 1: A-D, Part 2: E-F)
 
 ### Part A
-### Capacitive Sensing, a.k.a. Human-Twizzler Interaction
+### Capacitive Sensing, a.k.a. Human-Twizzler Interaction (orrr Human-Banana Interaction)
 
 We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use Twizzlers!
 
@@ -78,7 +78,7 @@ We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com
 <img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
 </p>
 
-Plug in the capacitive sensor board with the qwiic connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`
+Plug in the capacitive sensor board with the qwiic connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`.
 
 <img src="https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg" width=400>
 These Twizzler's are connected to pads 6 and 10. When you run the code and touch a twizzler the terminal will print out the following
@@ -88,6 +88,19 @@ These Twizzler's are connected to pads 6 and 10. When you run the code and touch
 Twizzler 10 touched!
 Twizzler 6 touched!
 ```
+
+#### Optional but Encouraged: Let's Use Banana!
+<img src="https://wallpaperaccess.com/full/3258247.jpg" width=200>
+
+Again, don't limit yourself, let's use (go?) bananas!
+
+<p float="left">
+<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
+<img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
+<img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
+</p>
+
+*\*Some students might have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
 
 ### Part B
 ### OLED screen
