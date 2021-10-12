@@ -168,12 +168,10 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
-### Part E (tentatively included for now 10/12/2021)
-### Servo Control (w/ Joystick if wanted)
+### Part E (Optional)
+### Servo Control with Joystick
 
 In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). In the part 2 of this lab, we would like you try adding movement to your device and see how the physical look and feel change along with the added movement!
-
-()
 
 
 This script will ask you for an input degree for it to rotate, so you can wizard your device as we learned in the last lab. It is also possible to control the servo using the capacitive sensing as in part A, and/or from some of the buttons or controls, like the Joystick, included in your kit, the simplest way might be to chain Qwiic buttons to the other end of the Qwiic OLED. Like this:
