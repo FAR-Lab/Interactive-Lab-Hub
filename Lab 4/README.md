@@ -106,11 +106,13 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.**
 
-**What are some things these sketches raise as questions? What do you need to do to understand how to anwer those questions?**
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
+
+**Pick one of these designs to prototype.**
 
 
-Display
-
+### Part D
+### Physical considerations for displaying information and housing parts
 
 
 Here is an Pi with a paper faceplate on it to turn it into a display interface:
@@ -145,24 +147,23 @@ Here is an example:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
-
-Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
-\*\*\***a. Document the design for your paper display.**\*\*\* (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
+**Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.**
 
-\*\*\***b. Make a video of your paper display in action.**\*\*\*
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
 
-\*\*\***c. Explain the rationale for the design.**\*\*\* (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+**Pick one of these display designs to integrate into your prototype.**
 
+**Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-### Part D
-### Materiality
+Build a cardbord prototype of your design.
 
-**Open Ended**: We are putting very few constraints on this part and we want you to get creative.
+**Document your rough prototype.**
 
-Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently? Document what material you are prototyping with, include candidates that were considered even if they were set aside later, and explain your selection(s).
+LAB PART 2
 
-
+### Part 2
 
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
