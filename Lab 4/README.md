@@ -98,7 +98,7 @@ Twizzler 6 touched!
 Again, don't limit ourselves, if you don't have Twissler, let's use (go?) bananas!
 
 <p float="left">
-<img src="https://wallpaperaccess.com/full/3258247.jpg" width=200>
+<img src="https://wallpaperaccess.com/full/3258247.jpg" height="150">
 <img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
 </p>
 
