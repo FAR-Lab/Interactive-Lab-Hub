@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-For lab this week, we focus on prototyping and the physical look and feel of the device. Start collecting cardboards if possible!
+For lab this week, we focus on prototyping and the physical look and feel of the device. Start collecting cardboard, if possible!
 
 ## Part 1 Lab Preparation
 
@@ -40,16 +40,16 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 
 ## Deliverables \& Submission for Lab 4
 
-the deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
+The deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do.
 * "Acts like": shows how a person would interact with the device.
 
 For submission, the readme.md page for this lab should be edited to include the work you have done:
 * Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
-* Link your lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
-* Each group member should post their own copy of the work to their own repository, even if some of the work is the same for each person in the group.
-* Labs are due on Mondays, make sure to submit your lab 4 readme.md to Canvas.
+* Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
+* Group members can turn in one repository, but make sure your Hub readme.md links to the shared repository.
+* Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
 
 
 ## Lab Overview
@@ -69,33 +69,30 @@ F) [Record the interaction](#part-f)
 ## The Report (Part 1: A-D, Part 2: E-F)
 
 ### Part A
-### Capacitive Sensing, a.k.a. Human-Twizzler Interaction (orrr Human-Banana Interaction)
+### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
 
-We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use Twizzlers!
+We want to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we are able to provide. At boot, it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes, it considers it a user touch. You can attach any conductive material. In your kit, you have copper tape that will work well, but don't limit yourself! In the example below, we use Twizzlers--you should pick your own objects.
+
 
 <p float="left">
 <img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
 <img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
 </p>
 
-Plug in the capacitive sensor board with the qwiic connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). In this lab, we will continue to use the `circuitpython` virtual environment we created before. Activate `circuitpython` and `cd` to your Lab 4 folder to install the requirements by:
+Plug in the capacitive sensor board with the QWIIC connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). In this lab, we will continue to use the `circuitpython` virtual environment we created before. Activate `circuitpython` and `cd` to your Lab 4 folder to install the requirements by:
 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ pip3 install -r requirements.txt
 ```
 
 <img src="https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg" width=400>
-These Twizzler's are connected to pads 6 and 10. When you run the code and touch a twizzler the terminal will print out the following
+These Twizzlers are connected to pads 6 and 10. When you run the code and touch a Twizzler, the terminal will print out the following
 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
 Twizzler 10 touched!
 Twizzler 6 touched!
 ```
-
-#### If you don't have Twissler: Let's use banana!
-
-Again, don't limit ourselves, if you don't have Twissler, let's use (go?) bananas!
 
 <p float="left">
 <img src="https://wallpaperaccess.com/full/3258247.jpg" height="150">
@@ -107,7 +104,7 @@ Again, don't limit ourselves, if you don't have Twissler, let's use (go?) banana
 ### Part B
 ### OLED screen
 
-Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
+Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibily be mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
 <p float="left">
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
@@ -118,12 +115,12 @@ Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/p
 ### Part C
 ### Paper Display
 
-Here is an Pi with a paper faceplate on it to turn it into a display:
+Here is an Pi with a paper faceplate on it to turn it into a display interface:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
 
 
-This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
+This is fine, but the mounting of the display constrains the display location and orientation a lot. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
 
 Here is another prototype for a paper display:
 
