@@ -94,12 +94,6 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
-<p float="left">
-<img src="https://wallpaperaccess.com/full/3258247.jpg" height="150">
-<img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
-</p>
-
-*\*Some students might have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative.*
 
 ### Part B
 ### OLED screen
