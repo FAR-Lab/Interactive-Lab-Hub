@@ -157,7 +157,9 @@ As with the previous lab, I used a .json file (script.json) to simulate uploadin
 
 Because of the complications of combining Speech-to-Text and Text-to-Speech as specified by the original design, I decided to focus entirely on Text-to-Speech and simply Wizard the device's choice of response. After running the program in the command line it asks for a line number. Pressing Ctrl+C ends the line early and allows you to enter another line number.
 
-*Include videos or screencaptures of both the system and the controller.*
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pgmV2.JPG?raw=true" />
+
+Next I added an opening line that has the device ask the user which part they are going to play. The response is, again, Wizard of Oz. The operator types in the part the computer is playing and the device asks "Would you like to begin or should I?" After another operator input, the device says an initiation message and waits for the user to either say their first line or tell the device which line to start with. I decided to exclude asking which play the user wants to read as I was only working with Romeo and Juliet.
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
