@@ -176,15 +176,14 @@ The system asks users
 Video of the system and the controller - https://drive.google.com/file/d/1wNLddb-PDr8UdG7cTVkvyaWnUybSGPxH/view?usp=sharing
 
 ## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+I tested the system with 2 friends, and I informed them the system was controlled through wizarding afterwards.
 
-Answer the following:
 
 ### What worked well about the system and what didn't?
-The system worked well with 
+The system worked well with taking both voice and joystick inputs. Both testing partcipants thought it's a successful interactive systems as they could communicate well with the system and the system was able to understand what they chose. Though using the joystick for picking meal selections was rather more interesting and fun than purely saying choices out loud, participants still didn't quite grasp the purpose of the system. I think part of the reason is that Flite voice didn't properly pronounce Nunu, and therefore, it took my friends for a while what it said.
 
 ### What worked well about the controller and what didn't?
-
+Even though the controller was able to understand user inputs and output corresponding responses, it took the controller quite a while to process users' inputs. This latency didn't provide a good UX. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 The reaction time of the device is fairly important in such an interactive game. If the system takes a while to repsond, users might lose interest in it or think the device is broken. Therefore, to deliver a better UX and make the game more engaging, it is critical to ensure that the system respond to users' selections and speech right away. Also, when having the system talk, it is imperative to use an easy-to-understand voice and make sure that the system communicates clearly to prevent confusions.
