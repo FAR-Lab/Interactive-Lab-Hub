@@ -223,10 +223,23 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 ### Part E (Optional)
 ### Servo Control with Joystick
 
-In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). In the part 2 of this lab, we would like you try adding movement to your device and see how the physical look and feel change along with the added movement!
+In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). The Qwiic Servo Controller will need external power supply to drive, which we will be distributing the battery packs in the class. Connect the servo controller to the miniPiTFT through qwiic connector and connect the external battery to the 2-Pin JST port (ower port) on the servo controller. Connect your servo to channel 2 on the controller, make sure the brown is connected to GND and orange is connected to PWM.
 
+In this exercise, we will be using the nice [ServoKit library](https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython) developed by Adafruit! We will continue to use the `circuitpython` virtual environment we created. Activate the virtual environment and make sure to install the latest required libraries by running:
 
-This script will ask you for an input degree for it to rotate, so you can wizard your device as we learned in the last lab. It is also possible to control the servo using the capacitive sensing as in part A, and/or from some of the buttons or controls, like the Joystick, included in your kit, the simplest way might be to chain Qwiic buttons to the other end of the Qwiic OLED. Like this:
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ pip3 install -r requirements.txt
+```
+
+A servo motor is a rotary actuator or linear actuator that allows for precise control of angular or linear position. The position of a servo motor is set by the width of an electrical pulse, that is, we can use PWM (pulse-width modulation) to set and control the servo motor position. You can read [this](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn a bit more about how exactly does a servo motor work.
+
+Now that you have a basic idea of what is a servo motor, look into the script `qwiic_servo_example.py` we provide. In line 14, you should see that we set up the min_pulse and max_pulse corresponding to the servo turning 0 - 180 degree. Try run the example code now and see what happens:
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python servo_test.py
+```
+
+It is also possible to control the servo using the capacitive sensing as in part A, and/or from some of the buttons or controls, like the Joystick, included in your kit, the simplest way might be to chain Qwiic buttons to the other end of the Qwiic OLED. Like this:
 
 <p align="center"> <img src="chaining.png"  width="200" ></p>
 
