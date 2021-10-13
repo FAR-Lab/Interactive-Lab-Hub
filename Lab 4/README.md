@@ -95,7 +95,53 @@ Twizzler 6 touched!
 ```
 
 ### Part B
-### More sensors (Accelerometer, Light/Position/Gesture sensor, Encoder, Joystick,(optional)Distance sensor)
+### More sensors
+
+#### Light/Proximity/Gesture sensor (APDS-9960)
+
+We here want you to get to know this awesome sensor [Adafruit APDS-9960](https://www.adafruit.com/product/3595). It is capable of sensing proximity, light (also RGB), and gesture! 
+
+<img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" width=200>
+
+Connect it to your pi with Qwiic connector and try running the 3 example scripts we provide here to see what the sensor is capable of doing!
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python light_test.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python proximity_test.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python gesture_test.py 
+```
+
+#### Rotary Encoder
+
+A rotary encoder is an electro-mechanical device that converts the angular position to analog or digital output signals. The [Adafruit rotary encoder](https://www.adafruit.com/product/4991#technical-details) we ordered for you come separatedly with the breakout board and encoder itself, that is, they will require soldering if you have not yet done so! We will be bring soldering station to the lab class for you to use!
+
+<p float="left">
+<img src="https://cdn-shop.adafruit.com/970x728/4991-01.jpg" height="200" />
+<img src="https://cdn-shop.adafruit.com/970x728/377-02.jpg" height="200">
+</p>
+
+Connect it to your pi with Qwiic connector and try running the example script, it comes with an additional button which might be useful for your design!
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python encoder_test.py
+```
+
+#### Joystick
+
+A [joystick](https://www.sparkfun.com/products/15168) can be used to sense and report the input of the stick for it pivoting angle or direction. It also comes with a button input!
+
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/3/5/5/8/15168-SparkFun_Qwiic_Joystick-01.jpg" height="200" />
+</p>
+
+Connect it to your pi with Qwiic connector and try running the example script to see what it can do!
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python joystick_test.py
+```
+
+#### (Optional) Distance Sensor
+
 
 [PLEASE ADD]
 
