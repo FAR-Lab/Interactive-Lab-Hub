@@ -1,12 +1,8 @@
 import json
 import os
 
-
 with open("script.json") as f:
   _script=json.load(f)
-  
-
-
 
 while True:
   num=int(input("Line: "))
