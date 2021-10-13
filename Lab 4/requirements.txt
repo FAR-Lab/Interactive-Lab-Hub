@@ -7,6 +7,7 @@ adafruit-circuitpython-pca9685==3.3.8
 adafruit-circuitpython-servokit==1.3.5
 adafruit-circuitpython-apds9960==2.2.5
 adafruit-circuitpython-seesaw==1.10.0
+sparkfun-qwiic==1.1.5
 sparkfun-qwiic-joystick==0.9.0
 sparkfun-qwiic-vl53l1x==1.0.1
 Adafruit-GPIO==1.0.3
