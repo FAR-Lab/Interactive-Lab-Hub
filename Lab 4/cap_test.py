@@ -11,5 +11,5 @@ mpr121 = adafruit_mpr121.MPR121(i2c)
 while True:
     for i in range(12):
         if mpr121[i].value:
-            print(f"Twizzler(Banana) {i} touched!")
+            print(f"Twizzler {i} touched!")
     time.sleep(0.25)  # Small delay to keep from spamming output messages.
