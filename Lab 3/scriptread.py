@@ -9,6 +9,6 @@ with open("script.json") as f:
 
 
 while True:
-  num=input("Line: ")
+  num=int(input("Line: "))
   line=_script["Romeo"][num]
   os.system("flite -voice slt -v "+line)
