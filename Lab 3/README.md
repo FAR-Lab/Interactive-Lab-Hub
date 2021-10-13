@@ -171,13 +171,24 @@ Find a partner, and *without sharing the script with your partner* try out the d
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
 **Feedback Collection:**
-1. It reminds me of Jake Gyllenhall's new film, *The Guilty*, where he plays an 911 operator who assist someone over the phone
+
+1. It reminds me of Jake Gyllenhall's new film, *The Guilty*, where he plays an 911 operator who assist someone over the phone. One thing you might want to try out is to add some other objects as "clues" in the game. For example, the male voice enters a kitchen and the player can ask "what do you see in the kitchen?" or "try open the oven, what do you see in there?" I feel like that's gonna add up the flexibility for players to explore and imagine the scene like they're actually there.
+2. This is a really interesting idea, 1) does the player get to see the map of the house or any video of where the person is in the house (no, the point of this game is to use only limited voice interaction way to give out instructions to machine, and receive feedback to complete a task). 2) Is there a time limit on the game - for example if you don't make it out in 20 minutes does the game automatically end? (No, the game design is rather simple, and very much linear, player won't be able to stuck)
+3. The idea of creating a game is super interesting and movel! It definitely makes for a much more complex dialogue, more similar to real conversation,perhaps to help with player's input, the device could give specific options that player could respond with insteaed to help facilitate the interaction.(Useful opinion, in order to keep our design of audio interaction, we provided specific options not through a visual way, but through audio suggestion.)
+4. Since only certain words are accepted during the game by the player, it would be a better idea to print acceptable words on the screen to avoid confusion (Nice point, designed already key word detection in phrases, so that participants can just talk as normal conversation.)
+
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+**1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...**
+
+
+
+**2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?**
+
+
+
+**3. Make a new storyboard, diagram and/or script based on these reflections.**
 
 ## Prototype your system
 
@@ -210,4 +221,10 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
+
+
+Special Thanks to people who helped us on testing the device: Donger Pan, Katherine Lv, Sylvia Dong, Wenhe Li, Zixiong Feng, Zhenghe Wang.
+Thank you all!
+![5f6aa9df04e26c41757ae3a5cdb01c0](https://user-images.githubusercontent.com/42874337/137217223-8418415a-6fcd-497b-a37c-0b120c7f48f9.jpg)
 
