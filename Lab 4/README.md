@@ -149,7 +149,21 @@ You can go the the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joys
 
 #### (Optional) Distance Sensor
 
+Note: We did not distribute this sensor to you, so if you are interested in playing with it, please come pick it up from the TA!
 
+Earlier we have asked you to play with the proximity sensor, which is able to sense object within a short distance. Here, we offer [Qwiic Multi Distance Sensor](https://www.sparkfun.com/products/17072), which has a field of view of about 25° and is able to detect objects up to 3 meters away! 
+
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/0/3/4/17072-Qwiic_Multi_Distance_Sensor_-_VL53L3CX-01.jpg" height="200" />
+</p>
+
+Connect it to your pi with Qwiic connector and try running the example script to see how it works!
+
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python distance_test.py
+```
+
+You can go the the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
 ### Part C
 ### Physical considerations for sensing
