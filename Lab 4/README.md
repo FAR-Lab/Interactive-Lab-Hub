@@ -103,12 +103,15 @@ We here want you to get to know this awesome sensor [Adafruit APDS-9960](https:/
 
 <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" width=200>
 
-Connect it to your pi with Qwiic connector and try running the 3 example scripts we provide here to see what the sensor is capable of doing!
+Connect it to your pi with Qwiic connector and try running the 3 example scripts individually to see what the sensor is capable of doing!
 
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python light_test.py 
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python proximity_test.py 
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python gesture_test.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python light_test.py
+...
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python proximity_test.py
+...
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python gesture_test.py
+...
 ```
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
@@ -129,7 +132,7 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python encoder_test.py
 ```
 
-You can go the the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually also comes with an LED (neo pixel): Can you try lighting it up? 
+You can go to the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually comes with an LED (neo pixel): Can you try lighting it up? 
 
 #### Joystick
 
@@ -145,7 +148,7 @@ Connect it to your pi with Qwiic connector and try running the example script to
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python joystick_test.py
 ```
 
-You can go the the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joystick_Py) to learn more about the sensor!
+You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joystick_Py) to learn more about the sensor!
 
 #### (Optional) Distance Sensor
 
@@ -163,7 +166,7 @@ Connect it to your pi with Qwiic connector and try running the example script to
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python distance_test.py
 ```
 
-You can go the the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
+You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
 ### Part C
 ### Physical considerations for sensing
