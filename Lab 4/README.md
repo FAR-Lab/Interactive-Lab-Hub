@@ -150,7 +150,6 @@ You can go the the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joys
 #### (Optional) Distance Sensor
 
 
-[PLEASE ADD]
 
 ### Part C
 ### Physical considerations for sensing
