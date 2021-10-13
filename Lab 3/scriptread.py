@@ -1,4 +1,5 @@
 import json
+import subprocess
 
 
 with open(script.json) as f:
@@ -6,4 +7,4 @@ with open(script.json) as f:
   
 line=_script["Romeo"][0]
 
-return line
+subprocess.run("flite -voice slt -v "+line)
