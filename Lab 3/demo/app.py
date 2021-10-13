@@ -28,7 +28,7 @@ socketio = SocketIO(app)
 audio_stream = Popen("/usr/bin/cvlc alsa://"+hardware+" --sout='#transcode{vcodec=none,acodec=mp3,ab=256,channels=2,samplerate=44100,scodec=none}:http{mux=mp3,dst=:8080/}' --no-sout-all --sout-keep", shell=True)
 
 @socketio.on('speak')
-def handel_speak(val):
+def handle_speak(val):
     call(f"espeak '{val}'", shell=True)
 
 @socketio.on('connect')
