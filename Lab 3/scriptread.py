@@ -7,4 +7,4 @@ with open("script.json") as f:
   
 line=_script["Romeo"][0]
 
-os.system("flite -voice slt -v '"+line+"'")
+os.system("flite -voice slt -v "+line)
