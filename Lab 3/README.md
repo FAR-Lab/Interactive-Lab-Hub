@@ -125,12 +125,15 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
 I only received one feedback note from David O. He suggested I expand to "something like language study, where the machine listens to your conjugations and pronunciations and assists you." His idea got me thinking of other ways the system could help an actor prepare for a role. I particularly liked his thought that "perhaps the device could be trained to do improv." Unfortunately this is beyond my skill level, but still definitely cool to think about.
 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
 A visual of the device moving through a script could certainly help. Or some kind of virtual manifestation of the line-reading partner. Alternatively, physical buttons with arrows that help the user move back or forward through the script.
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
 As all of my ideas are too challenging for me to implement, I'll be working with the same ideas from part 1.
 
 ## Prototype your system
@@ -145,6 +148,14 @@ The system should:
 My first step was figuring out how to get the Pi to speak at all, which I was able to do through the steps given above. I knew I wanted to do a two-person scene as scenes with more than one role might be more complicated to implement, so I went with the balcony scene from Romeo and Juliet. That said, some of the longer lines still take a while to format.
 
 **First Video Here**
+
+Once I got through a bunch of github issues and understood how to do text to speech from the command line, I had to figure out how to do the same thing within Python. Unfortunately there were no instructions here or in class about how to call terminal commands from a Python program. After a lot of Googling and some help from James Parsons, I found the OS module which I use in my scriptread.py file to make the Pi speak.
+
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pgmV1.JPG?raw=true" />
+
+As with the previous lab, I used a .json file (script.json) to simulate uploading a real script. The file contains a dictionary pairing each character's name with an array containing their lines in order.
+
+Because of the complications of combining Speech-to-Text and Text-to-Speech as specified by the original design, I decided to focus entirely on Text-to-Speech and simply Wizard the device's choice of response. After running the program in the command line it asks for a line number. Pressing Ctrl+C ends the line early and allows you to enter another line number.
 
 *Include videos or screencaptures of both the system and the controller.*
 
