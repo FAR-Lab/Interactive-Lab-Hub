@@ -111,13 +111,16 @@ Connect it to your pi with Qwiic connector and try running the 3 example scripts
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python gesture_test.py 
 ```
 
+You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
+
 #### Rotary Encoder
 
 A rotary encoder is an electro-mechanical device that converts the angular position to analog or digital output signals. The [Adafruit rotary encoder](https://www.adafruit.com/product/4991#technical-details) we ordered for you come separatedly with the breakout board and encoder itself, that is, they will require soldering if you have not yet done so! We will be bring soldering station to the lab class for you to use!
 
 <p float="left">
 <img src="https://cdn-shop.adafruit.com/970x728/4991-01.jpg" height="200" />
-<img src="https://cdn-shop.adafruit.com/970x728/377-02.jpg" height="200">
+<img src="https://cdn-shop.adafruit.com/970x728/377-02.jpg" height="200" />
+<img src="https://cdn-shop.adafruit.com/970x728/4991-09.jpg" height="200">
 </p>
 
 Connect it to your pi with Qwiic connector and try running the example script, it comes with an additional button which might be useful for your design!
@@ -125,6 +128,8 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python encoder_test.py
 ```
+
+You can go the the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually also comes with an LED (neo pixel): Can you try lighting it up? 
 
 #### Joystick
 
@@ -139,6 +144,8 @@ Connect it to your pi with Qwiic connector and try running the example script to
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python joystick_test.py
 ```
+
+You can go the the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joystick_Py) to learn more about the sensor!
 
 #### (Optional) Distance Sensor
 
