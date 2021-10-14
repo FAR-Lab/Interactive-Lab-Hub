@@ -158,6 +158,14 @@ The connection has been lost. After an hour or so, you received another call sud
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+
+### Wizarding with the Pi (optional)
+
+
+**Designer Beta Test of Full Script**
+
+[![image](https://user-images.githubusercontent.com/42874337/137243103-6beb508e-7e84-49a7-9567-558ae039c69b.png)](https://drive.google.com/file/d/1HTalyqZ_k71L_fTSfw79f9N0Rv87wib7/view?usp=sharing)
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 1. The dialogue sometimes does not predict what the player would be talking about, which causes confusions, sometimes players will just don't know how to act and then lost track of the game.
@@ -207,6 +215,7 @@ Other than speech to text and text to speech, we also implemented many other fea
 The new scripts are implemented with the button rotery tasks of tuning the signal to reconnect, we have also edited the scripts to give more human like responses, more emotional rhetorics, and much clearer choices display through audio feedbacks.
 
 **Story Board:**
+
 ![image](https://user-images.githubusercontent.com/42874337/137239070-8f76887f-c5d4-48b4-90f4-fe182d28570b.png)
 
 
@@ -229,6 +238,7 @@ Instead of just wizarding the device through a controller, we started with that 
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 **Early Access**
+
 [![image](https://user-images.githubusercontent.com/42874337/137230354-15de47bf-be8a-4a92-ae75-9f67c0b69fed.png)](https://drive.google.com/file/d/12rMf6i4VK2de9EC8s3IVHLHOWCheCnh_/view?usp=sharing)
 
 **Version 1.0**
