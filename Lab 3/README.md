@@ -217,6 +217,8 @@ The system should:
 
 *Document how the system works*
 
+[Part 2 Code Link](https://github.com/xuanyufang/Interactive-Lab-Hub/blob/Fall2021/Lab%203/app.py)
+
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
