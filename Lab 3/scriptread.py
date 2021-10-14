@@ -16,3 +16,4 @@ while True:
   num=int(input("Line: "))
   line=_script[comp_part][num]
   os.system("flite -voice slt -v "+line)
+  print("Reading line "+str(num))
