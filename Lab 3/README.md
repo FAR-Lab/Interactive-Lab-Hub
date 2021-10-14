@@ -252,39 +252,60 @@ Since our System ends up as a fully autonomous device, here's a screen capture o
 
 
 ## Test the system
+
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-Our device is not just a wizard, but a fully autonomous device that allows players to interact in their own ways. Thus, our participants are totally unaware what they going to see or experience, and we expect our device to be able to cope with most of the situations by its own designs.
+Our device is not just a wizard, but a fully autonomous device that allows players to interact in their own ways. Thus, our participants are totally unaware what they going to see or experience, and we expect our device to be able to cope with most of the situations by its own designs. We make minor changes to our game everytime we tested with a participant.
 
 **Version 1.0**
+
+*Fixed: Included more responsive wording, provided more organized choices for the participants*
 
 [![image](https://user-images.githubusercontent.com/42874337/137230354-15de47bf-be8a-4a92-ae75-9f67c0b69fed.png)](https://drive.google.com/file/d/12rMf6i4VK2de9EC8s3IVHLHOWCheCnh_/view?usp=sharing)
 
 **Version 1.5**
 
+*Removed logical error in storylines*
+
 [![image](https://user-images.githubusercontent.com/42874337/137246490-63c8d22b-875e-4749-8175-a761f2b3b25e.png)](https://drive.google.com/file/d/12qXtF3bYcFKQqV81BgVRbvT9BM4kFTIe/view?usp=sharing)
 
 **Version 2.0**
+
+*Now will repeat what player said at the door to the bedroom, and other minor fixs.*
 
 [![image](https://user-images.githubusercontent.com/42874337/137246641-cf7e19d7-4270-4249-8a9a-36a4c26e8146.png)](https://drive.google.com/file/d/12wwaELIaDZgxDmtOMZ4ZYTjvGABInEZq/view?usp=sharing)
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+***What worked well:***
+
+- The speech recognition was more sensitive than we imagined, so the interaction was pretty smooth. We were afraid that the speech-2-text model wouldn't recognize complex sentences, so we only set up the model to recognize keywords such as "bedroom", "study", and "kitchen". It ended up working pretty well. The device could recognize the keyword in a sentence.
+- The flow of the game was designed well. The players said that the script was interesting and fun, and the ending was thought-provoking. They had fun playing the game.
+- The game gave pretty clear instructions on what options players had, so the process usually went smoothly. There wasn't any case where the player didn't know what to do or how to continue.
+
+***What didn't work well:***
+
+- The interactions with rotery sensor could be confusing due to delayed feedback. There are two ways users interact with the rotery sensor: 1) to "pick up" the call, player needs to keep pressing the button until the "ring" ends; 2) to stay connected on the line, player needs to rotate the sensor to a specific value. In both cases, player needs to do it slowly because feedback can only be provided after the audio ends. 
+- A player commented that she felt like she was guided by the caller for help rather than guiding him. The interaction should be designed to give players more freedom in giving directions and suggestions to the caller. However, due to technical obstacles, this is quite hard to achieve. 
+
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+Instead of using a controller to wizard the device, we decided to build a fully autonomous one. This is due to the size of our script and the challenge of continuous conversation without delay. It would be too slow for a human to keep track of user response and find the correct next instrution to give to the user. This was clearly shown in our "Wizarding the device" video we did for Part 1.
+
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+We have already implemented an autonomous system due to the reasons described above. We found human responce towards human compare to machine is completely different. Thus, we designed a more intuitive interaction experience for our autonomous version.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+We could add a controller to allow players to move around with the left, right, up, down options. In the meantime, we could display a real-time updating map on the website to give the player a more intuitive view of his/her location.
+
+Also We have already implemented a rotery sensor as a novel modality in this game. This actually can be data that collected from users to see how much time they would take to complete a spatial task, and how patient they are in terms of solving a puzzle.
 
 
 
