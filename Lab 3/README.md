@@ -167,16 +167,18 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+I had to delete and re-add my entire github repo to the Pi because of github issues that I couldn't diagnose. Because some lines were longer than others, I learned the system needed more time between the command input and beginning speech for longer lines. That could definitely be an issue in a product that needs to keep up with a human's pace.
+
+Once I got rid of any apostrophes in the script which affected how the python script interpreted the strings, text to speech worked very well. The controller worked entirely as intended.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+I didn't account for input errors so typing in something wrong could crash the program. Assuming the operator was careful, they would still have to keep track of which line the user was up to. I added a line to the python script to print the previously read line's number to the command line to make it easier for the operator.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+I need to account for a wider variety of responses, especially to the simpler commands like "repeat" and "go back X lines." My original plan was for a speech-to-text platform to listen to the user's spoken line and figure out which line to read next, but if the user makes a mistake or improvises then the device may not know what to do. A more autonomous version of the system will need to be more flexible, perhaps only needing to recognize part of the line and some synonyms. It will also need to know to wait until the user is finished speaking before it continues on to the next line.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
