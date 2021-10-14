@@ -186,12 +186,30 @@ The wording itself can definitely help us in terms of improving the design and t
 
 **2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?**
 
-
+Other than speech to text and text to speech, we also implemented many other features to make our project more game like and more fun for our players. First of all, we included actual phone ringing sound and busy sound effect to indicate which phase the players are at and claraify the interaction of phone calls. Another implementation is the rotery sensor freshly distributed this week. We have included it as part of the gaming experience -- like using a transponder in old time. Occationally during the game, our players will face a situation that their connections are going to be unstable and they will have to rotate the rotery sensor to find the right place to connect back, as similar to transponder in old times in emergency assistance. Players also need to click on the rotery button to answer the call, which is simimlar to the interaction experience of an actual 911 agent when answering a phone call on the telephone. The new modes of interactions are all aiming for bringing our players a more immersive phone call experience, and more align with our initial design.
 
 **3. Make a new storyboard, diagram and/or script based on these reflections.**
 
-## Prototype your system
+**New Script：**
 
+"Wait... the connection is kinda unstable..."
+
+"Oh! thank god I have got you back"
+
+"So… should I just say the word?" + result + result
+
+"Wait... the connection is lost again... hold on"
+
+"Wow you are a genius! How did you fix that?"
+
+**Description:**
+
+The new scripts are implemented with the button rotery tasks of tuning the signal to reconnect, we have also edited the scripts to give more human like responses, more emotional rhetorics, and much clearer choices display through audio feedbacks.
+
+**Story Board**
+
+## Prototype your system
+ 
 The system should:
 * use the Raspberry Pi 
 * use one or more sensors
