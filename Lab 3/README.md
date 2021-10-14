@@ -246,6 +246,11 @@ Instead of just wizarding the device through a controller, we started with that 
 
 *Include videos or screencaptures of both the system and the controller.*
 
+Since our System ends up as a fully autonomous device, here's a screen capture of our code to show our system hidden behind the autonomous interaction.
+
+![image](https://user-images.githubusercontent.com/42874337/137247557-52413add-5a20-4b0d-80fb-7d2f017b7885.png)
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
@@ -257,7 +262,7 @@ Our device is not just a wizard, but a fully autonomous device that allows playe
 
 **Version 1.5**
 
-[![image](https://user-images.githubusercontent.com/42874337/137246490-63c8d22b-875e-4749-8175-a761f2b3b25e.png)](https://drive.google.com/file/d/12rMf6i4VK2de9EC8s3IVHLHOWCheCnh_/view?usp=sharing)
+[![image](https://user-images.githubusercontent.com/42874337/137246490-63c8d22b-875e-4749-8175-a761f2b3b25e.png)](https://drive.google.com/file/d/12qXtF3bYcFKQqV81BgVRbvT9BM4kFTIe/view?usp=sharing)
 
 **Version 2.0**
 
