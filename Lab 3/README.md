@@ -147,7 +147,7 @@ The system should:
 
 My first step was figuring out how to get the Pi to speak at all, which I was able to do through the steps given above. I knew I wanted to do a two-person scene as scenes with more than one role might be more complicated to implement, so I went with the balcony scene from Romeo and Juliet. That said, some of the longer lines still take a while to format.
 
-[![First Video: the Pi does a Romeo Monologue](https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%203/vid1.mp4)
+![First Video: the Pi does a Romeo Monologue](https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%203/vid1.mp4)
 
 Once I got through a bunch of github issues and understood how to do text to speech from the command line, I had to figure out how to do the same thing within Python. Unfortunately there were no instructions here or in class about how to call terminal commands from a Python program. After a lot of Googling and some help from James Parsons, I found the OS module which I use in my scriptread.py file to make the Pi speak.
 
@@ -160,6 +160,8 @@ Because of the complications of combining Speech-to-Text and Text-to-Speech as s
 <img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pgmV2.JPG?raw=true" />
 
 Next I added an opening line that has the device ask the user which part they are going to play. The response is, again, Wizard of Oz. The operator types in the part the computer is playing and the device asks "Would you like to begin or should I?" After another operator input, the device says an initiation message and waits for the user to either say their first line or tell the device which line to start with. I decided to exclude asking which play the user wants to read as I was only working with Romeo and Juliet.
+
+![Line-Reader Demo Video](https://youtu.be/aYpIQY9AVt0)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -182,5 +184,4 @@ I need to account for a wider variety of responses, especially to the simpler co
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+Staying in the realm of audio and in line with some of David's feedback, the device could actively listen to not just your words but your pronunciation and enunciation and then provide suggestions. It could also use a camera to measure the user's emotional expressions to adjust its own tone or to provide feedback on an actor's physical performance. Some kind of health sensor for heart rate and breathing may also enable improved functionality in the device.
