@@ -136,12 +136,17 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-*** Video ***
+*** Responses ***
 
+Team responses:
 https://docs.google.com/document/d/13te2bYmrv20mQIsHGpzNyAyvMewzI6RiqODtk2XfpIs/edit
 
+My videos:
 https://drive.google.com/file/d/1J9OIEMUWw3SibTjrf1Oj39MsC51vG69K/view?usp=sharing
 https://drive.google.com/file/d/1rRDxFKlpa9gvly078D8ZGse1MY1XhiEg/view?usp=sharing
+
+Team videos:
+https://drive.google.com/drive/folders/1CAFjDt5w0y3TMAC5VZmKHeQ8Ef_V9a5p?usp=sharing
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
