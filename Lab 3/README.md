@@ -56,6 +56,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+The script 'name.sh' can be found in the scripts folder of this repo: https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/scripts/name.sh 
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -67,6 +69,8 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+The shell file zipcode_test.sh can be found in the scripts folder of this repo: https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/scripts/name.sh 
 
 Bonus Activity:
 
@@ -143,8 +147,24 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+From acting out the dialogue, I found that some of the questions were structured to be too complicated. For example, some questions were in either-or format (i.e. do you have a fever or chills?). These types of questions confused the participant, as they were not sure to answer with a yes or no or to identify the symptom that they have been experiencing. Structuring the questions to accept yes or no answers would be much clearer for participants.
+
+The timing of the dialogue felt a bit rushed. Adding a pause in between questions and responses would be useful to give participants time to think about their responses and give a well thought out answer to the question.
+
+One other point of feedback was that it was a bit jarring for participants to immediately jump in to answering questions about medical information. Some introductory statements from the Pi would be useful to prep participants on what they should expect.
+
+Additionally, I received good feedback from the peer critiques. One person mentioned that I should consider the setting further. Therefore, I have decided to design the pi as a digital medical assistant that is used in doctors offices. There is usually downtime when a patient is in the examining room but still waiting for the doctor. This represents a moment where a digital medical assistant can collect important information from the patient and send the patient's responses directly to the EMR. Therefore, when the doctor arrives, they do not need to waste time asking the patient basic questions and can see the responses to the questions they would have asked. 
+
+Some other feedback I received is that there should be some follow up to questions that participants answer yes to. For example, if a participant answers yes to having a cough, a follow up question could be "On a scale of 1-10, how bad is the cough?". Follow up questions would provide the doctor with more information about the patient's experience of the symptom. 
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+
+I received some feedback that participants may not be comfortable speaking about sensitive medical information verbally outloud where this information could possibly be overheard by others. Therefore, I will be adding 2 led buttons that participants can use to indicate whether they are experiencing the symptom (green LED) or not (red LED). These two buttons also indicate to the participants that the answer to the questions should be binary (yes or no). 
+
+Additionally, as the device is now a digital medical assistant, it needs to display a modicum of professionalism appropriate for a physician's office. An accelerometer will be incorporated with the device that will allow for patients to "shake the hand" of the assistant when it first introduces itself. This should allow patients to become more comfortable with the assistant and better answer questions about their symptoms. It will also indicate to the system (and the wizard) that the participant is ready to interact. 
+
+5. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 
