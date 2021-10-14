@@ -158,14 +158,6 @@ The connection has been lost. After an hour or so, you received another call sud
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-
-### Wizarding with the Pi (optional)
-
-
-**Designer Beta Test of Full Script**
-
-[![image](https://user-images.githubusercontent.com/42874337/137243103-6beb508e-7e84-49a7-9567-558ae039c69b.png)](https://drive.google.com/file/d/1HTalyqZ_k71L_fTSfw79f9N0Rv87wib7/view?usp=sharing)
-
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 1. The dialogue sometimes does not predict what the player would be talking about, which causes confusions, sometimes players will just don't know how to act and then lost track of the game.
@@ -173,6 +165,26 @@ Find a partner, and *without sharing the script with your partner* try out the d
 3. When responding, bathroom and bedroom sounds too familiar, which might causes trouble in real interaction with the device
 4. Although it's tried to be human like in terms of conversation, text to speech might not have a emotional tone to describe such a situation.
 5. When player is not familiar with the game at first, they might try to say irrelavant words, which brings trouble to continue the game, should have a easier start that smoothly goes into the storyline.
+
+**Recording of Acting**
+
+[![image](https://user-images.githubusercontent.com/42874337/137243870-bdbb2226-e76a-4e6c-b25e-cf8096b71880.png)](https://drive.google.com/file/d/13G31O49YIGqYho0mpnuVIs2emSeCyw7Z/view?usp=sharing)
+
+### Wizarding with the Pi (optional)
+
+**Recording of Wizarding**
+
+[![image](https://user-images.githubusercontent.com/42874337/137244045-4ff1e1da-1112-4642-83da-26f242a1c7e9.png)](https://drive.google.com/file/d/13DMY7OZAOmPFqzAin08qX3pPGObybJPk/view?usp=sharing)
+
+\*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+We have found that the wizarding dialogue is somewhat slow and not responsive, and not seem like an ideal gaming experience. The dialogue is not continuous, and the player is not fully aware of what they should be doing. The script is not clear in terms of instructing the players ways to continue playing. Thus, we decide to not use the Wizard of Oz controller, nor build a interface, but making it a fully autonomous audio game without visual interfaces so it would feel exactly like answering a call. 
+**Since we decide not to include any visual interface through controller, but to make the interaction fully autonomous with audio, we will include more modality, ways of interaction, and put in extra amount of time to build our device. We hope that we won't receive any points deducted due to the lack of visual interface, since we have managed to make the whole device working autonomously and completely without visual, and that's even the theme of this game. We hope you like it. We have firstly tested by ourselves when we finished designing whole system. This is the beta version before we ask real participants to interact with the device.**
+
+**Designer Beta Test of Full Script**
+
+[![image](https://user-images.githubusercontent.com/42874337/137243103-6beb508e-7e84-49a7-9567-558ae039c69b.png)](https://drive.google.com/file/d/1HTalyqZ_k71L_fTSfw79f9N0Rv87wib7/view?usp=sharing)
+
 
 # Lab 3 Part 2
 
