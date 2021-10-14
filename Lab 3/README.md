@@ -162,6 +162,7 @@ Because of the complications of combining Speech-to-Text and Text-to-Speech as s
 Next I added an opening line that has the device ask the user which part they are going to play. The response is, again, Wizard of Oz. The operator types in the part the computer is playing and the device asks "Would you like to begin or should I?" After another operator input, the device says an initiation message and waits for the user to either say their first line or tell the device which line to start with. I decided to exclude asking which play the user wants to read as I was only working with Romeo and Juliet.
 
 <a href="https://www.youtube.com/watch?v=aYpIQY9AVt0">Line-Reader Demo Video</a>
+Click for a performance of Romeo and Juliet starring me and my Pi. Apologies for the shoddy camerawork but I think it's audible and the point comes across. Not ideal having one person be operator, user, and cameraman but I didn't have anyone around to help out.
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -184,4 +185,4 @@ I need to account for a wider variety of responses, especially to the simpler co
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-Staying in the realm of audio and in line with some of David's feedback, the device could actively listen to not just your words but your pronunciation and enunciation and then provide suggestions. It could also use a camera to measure the user's emotional expressions to adjust its own tone or to provide feedback on an actor's physical performance. Some kind of health sensor for heart rate and breathing may also enable improved functionality in the device.
+Staying in the realm of audio and in line with some of David's feedback, the device could actively listen to not just your words but your pronunciation and enunciation and then provide suggestions. It could also use a camera to measure the user's emotional expressions to adjust its own tone or to provide feedback on an actor's physical performance. Some kind of health sensor for heart rate and breathing may also enable improved functionality in the device. With a screen and the ability to create a virtual image of a performer, it may be able to enhance the experience further and experiment with varied interpretations of lines to let the actor try different approaches or reactions.
