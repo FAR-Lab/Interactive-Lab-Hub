@@ -206,10 +206,12 @@ Other than speech to text and text to speech, we also implemented many other fea
 
 The new scripts are implemented with the button rotery tasks of tuning the signal to reconnect, we have also edited the scripts to give more human like responses, more emotional rhetorics, and much clearer choices display through audio feedbacks.
 
-**Story Board**
+**Story Board:**
+![image](https://user-images.githubusercontent.com/42874337/137239070-8f76887f-c5d4-48b4-90f4-fe182d28570b.png)
+
 
 ## Prototype your system
- 
+
 The system should:
 * use the Raspberry Pi 
 * use one or more sensors
@@ -218,6 +220,8 @@ The system should:
 *Document how the system works*
 
 [Part 2 Code Link](https://github.com/xuanyufang/Interactive-Lab-Hub/blob/Fall2021/Lab%203/app.py)
+
+Instead of just wizarding the device through a controller, we started with that in part 1 and then actually make the whole device fully autonomous, with text to speech and speech to text and make actual interaction with players in part 2. We believe that would be able to show that this is enough work for a team of 2, even beyond. Our device included S2T, T2S, a new modality of rotery sensor, and interactive dialogues that would be able to respond based on what the player is saying. It has been a fully autonomous device instead of just a system prototype in the end, and we hope you like it. Please let us know if you are interested in playing! 
 
 *Include videos or screencaptures of both the system and the controller.*
 
