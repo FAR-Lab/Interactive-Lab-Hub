@@ -179,24 +179,57 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+Device/system documentation: https://youtu.be/2-GUip1HOnY
+
+Wizarding/controller explanation: https://youtu.be/Hgsxb_vn20w
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+
+Wizarding Trial 1: https://youtu.be/dD9-2lZwmKw
+
+Wizarding Trial 2: https://youtu.be/V7UdLEAHlcw
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
+What worked well:
+
+The system worked well for conveying the questions to the participant. The device introduction as a digital medical assistant and its purpose of asking the participant questions about their systems helped participants understand what was to be expected with the interaction. The structure of questions as yes/no was clear and was conveyed further by the presence of the privacy preserving answer buttons. The answer buttons delivered feedback to the participant in the form of visual LED light, where a "yes" is indicated by a green LED light while a "no" is indicated by the red LED light. Use of the accelerometer to "shake" the assistant's hand was reported to be enjoyable and made the interaction feel more humanistic. 
+
+What didn't work well:
+
+Even with the introduction, the digital assistant surprised participants and almost made them feel uncomfortable because they were not expecting the device to speak to them. Additionally, after answering a series of questions in binary yes/no format, participants were surprised when given a follow up question of how to rate the severity of their symptom on a scale of 1-10, and were uncertain how to answer due to only giving yes/no answers up until that point.
+
+The voice of the text2speech interaction was very robotic sounding with unnatural intonation that was certainly offputting. AT times, was difficult for participants to understand what the device was asking. A more natural sounding voice would go a long way by adding more comprehensibility.
+
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+What worked well:
+
+THe controller was surprisingly effective. Two separate scripts were run (these can be found in the demo folder). The first (app.py) brought up a Wizard of Oz setup that allowed for both text2speech capability, as well as eavesdropping that allowed for the controller to pick up the user's responses. The eavesdrop feature was very useful, as it allowed for the device to remain flexible to the participants' responses. For example, whenever a participant answered yes to a symptom question, it was simple for the controller to ask follow up questions. The second script was a button script (buttons.py) that let the controller know when a particular button was pressed if the participant chose to answer the question discreetly.
+
+What didn't work well:
+
+As mentioned previously, the text2speech voice was very unnatural and robotic. This was offputting to the participants, and they frequently needed to move closer to the speaker as if to try to understand what the assistant was saying. While the eavesdrop feature was excellent, the microphone was not. In order for the controller to clearly hear participant responses, audio needed to be turned up to max volume or participants needed to be speaking as closesly to the microphone as possible. For future work, it would be useful to increase the gain of the microphone. Additionally, there was too much of a pause between questions and participants became confused as to whether the interaction was still going on or whether it had ended. Speeding up the questions a bit would help in this respect.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+A more autonomous version of the system should have excellent comprehension abilities. The system should pick out key words from the participants responses using speech2text, and use these key words to ask clarifying or follow up questions. As the setting is in a doctor's office, the follow up questions should be those that would extract the most relevant medical information from the participant for the physician. 
 
+The autonomous system should also have a sense of timing of natural conversation. The pauses in between questions and answers should be just right - just enough time for participants to collect their thoughts and answer to the best of their ability but not so long as to make participants uncomfortable.
+
+The system could also incoporate other sensing modalities that would allow for picking up more cues from the participant. For example, if a participant becomes impatient with the structure of the language of the questions or the pace that the questions are being asked, these could be adjusted by the assistant in response. 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+This system would be useful for collecting data about participants answering medical questions. The structure of the questions such as length, language used, etc. can be varied to see the effect on the structure of participant responses in order to determine the optimal structure of the questions that extracts the most relevant information. 
+
+Other sensing modalities that could be incorporated could be video. The participants' expressions, posture, and gestures can be analyzed from video to determine additional information regarding affect and emotion. This can better inform the structure of the interaction and help determine whether certain questions evoke reactions from participants. For example, it would be useful to know whether certain structuring of questions make patients uncomfortable; these could then be restructured to maximize patient comfort and thereby enable patients to respond to the questions optimally.
+
+As far as sensing modalities directly related to the interaction, the digital medical assistant could be be upgraded to include sensors that capture various physiologic data such as heart rate, skin conductance, respiratory rate, etc. This would not only be useful for the doctor to have, but certain autonomic signals can be used to infer patient affect and arousal in response to interaction with the digital assistant. For example, a question that evokes unpleasantness would be accomponied by a pattern of autonomous nervous system activity that could be picked up and used by the digital assistant; the digital assistant could respond to this by attempting to soothe the patient or guide them to a place of comfort with clarifying or re-worded questions or statements. 
+
+Special thanks to Meyhaa and Sara for being willing to act as participants in the wizarding trials. Also, sparkfun has an excellent and easy to digest GitHub repo about their qwiic buttons that made it very easy to integrate the sensors into the overall project. Reference here: https://github.com/sparkfun/Qwiic_Button_Py
 
