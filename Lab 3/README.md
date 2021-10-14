@@ -249,17 +249,19 @@ Instead of just wizarding the device through a controller, we started with that 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-**Early Access**
-
-[![image](https://user-images.githubusercontent.com/42874337/137230354-15de47bf-be8a-4a92-ae75-9f67c0b69fed.png)](https://drive.google.com/file/d/12rMf6i4VK2de9EC8s3IVHLHOWCheCnh_/view?usp=sharing)
+Our device is not just a wizard, but a fully autonomous device that allows players to interact in their own ways. Thus, our participants are totally unaware what they going to see or experience, and we expect our device to be able to cope with most of the situations by its own designs.
 
 **Version 1.0**
 
+[![image](https://user-images.githubusercontent.com/42874337/137230354-15de47bf-be8a-4a92-ae75-9f67c0b69fed.png)](https://drive.google.com/file/d/12rMf6i4VK2de9EC8s3IVHLHOWCheCnh_/view?usp=sharing)
 
+**Version 1.5**
+
+[![image](https://user-images.githubusercontent.com/42874337/137246490-63c8d22b-875e-4749-8175-a761f2b3b25e.png)](https://drive.google.com/file/d/12rMf6i4VK2de9EC8s3IVHLHOWCheCnh_/view?usp=sharing)
 
 **Version 2.0**
 
-
+[![image](https://user-images.githubusercontent.com/42874337/137246641-cf7e19d7-4270-4249-8a9a-36a4c26e8146.png)](https://drive.google.com/file/d/12wwaELIaDZgxDmtOMZ4ZYTjvGABInEZq/view?usp=sharing)
 
 Answer the following:
 
@@ -281,7 +283,7 @@ Answer the following:
 
 
 
-Special Thanks to people who helped us on testing the device: Donger Pan, Katherine Lv, Sylvia Dong, Wenhe Li, Zixiong Feng, Zhenghe Wang.
+Special Thanks to people who helped us on testing the device: Ruby Pan, Katherine Lv, Sylvia Ding, Wenhe Li, Zixiong Feng, Zhenghe Wang.
 Thank you all!
 ![5f6aa9df04e26c41757ae3a5cdb01c0](https://user-images.githubusercontent.com/42874337/137217223-8418415a-6fcd-497b-a37c-0b120c7f48f9.jpg)
 
