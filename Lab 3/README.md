@@ -166,6 +166,8 @@ Additionally, as the device is now a digital medical assistant, it needs to disp
 
 5. Make a new storyboard, diagram and/or script based on these reflections.
 
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/Capture.PNG)
+
 ## Prototype your system
 
 The system should:
