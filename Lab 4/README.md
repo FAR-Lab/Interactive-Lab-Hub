@@ -176,7 +176,7 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 ![P1:sketch](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Sketch1.jpg)
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
+For most of the designs, it's critical to ensure that the sensor is properly connected to the device. Only when the sensor is properly connected, the output of the sensor can be read and triggers the device to further produce corresponding responses. Another question is how to make the sensor and the entire product intuitive and understandable. The look and location of the sensor/controls need to be prototyped to understand the user experience. 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
