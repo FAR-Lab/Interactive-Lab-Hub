@@ -88,6 +88,12 @@ Gestures are shown below:
 
 ![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
 
+
+| UP                                         | DOWN                                               | LEFT      | RIGHT          |
+|--------------------------------------------|----------------------------------------------------|-----------|----------------|
+| Switch between letter and number keyboards | Select the next word in the possible outputs' list | Backspace | Confirm output |
+
+
 The Finite Gauntlet as a typing tool introduces a typing method that’s not only new and fun, but could also be helpful for people facing special conditions:
 
 - For people in medical conditions where delicate gestures could help improve brain functions, using the Finite Gauntlet would be a way to conduct daily exercises;
