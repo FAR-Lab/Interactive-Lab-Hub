@@ -165,8 +165,6 @@ There is ambiguity between design #1 and design #5, because while we think it ma
 And the fact that it’s detachable gives great flexibility to the user on where to actually place it.
 
 
-Build a cardbord prototype of your design.
-
 **\*\*\*Document your rough prototype.\*\*\***
 
 **Gesture Designs**
@@ -183,7 +181,8 @@ Build a cardbord prototype of your design.
 
 **Hands On Video**
 
-![image](https://user-images.githubusercontent.com/42874337/137840739-74681d46-8337-4f07-ac0a-729264e0d2cf.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840739-74681d46-8337-4f07-ac0a-729264e0d2cf.png)[https://drive.google.com/file/d/1_8C4dAzmo2JtW54vDXacyz8srLmTZD2P/view?usp=sharing]
 
 LAB PART 2
 
