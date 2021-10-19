@@ -173,12 +173,37 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
+For the purposes of this lab, I will be using the proximity sensor in a prototype "Interactive Maze Game", where the objective is to hold and turn the maze in such a way as to move a ball from the start position to the end position while avoiding obstacles. 
+
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/1A.JPG)
+
+The idea behind Figure 1A is to put the proximity sensor on the bottom floor inside of the prototype. Then, when the ball falls through the hole in the endzone, it will land on the proximity sensor which can increment a score or stop a timer indicating to the player that they have won. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/1B.JPG)
+
+The idea behind Figure 1B is to put the proximity sensor on a panel of a ledge that catches the ball when it falls through the endzone.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/1C.JPG)
+
+Figure 1C involves placing the proximity sensor along the inner boundary (wall) of the endzone. When the ball rolls into the endzone, it will hit the proximity sensor based on momentum and prompt an action.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/1D.JPG)
+
+Figure 1D involves placing the proximity sensor on the floor of the panel. When the ball rolls into the endzone, it will roll over the proximity sensor, prompting an action.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/1E.JPG)
+
+Figure 1E involves placing the proximity sensor on a flap that covers the endzone. When the ball rolls under the proximity sensor, an action will be prompted
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+These sketches raise several important questions regarding the ideal placement of the proximity sensor. This placement depends on the proximity sensor's sensitivity (how close or far and object needs to be for it to register). For example, in Figure 1C where the proximity sensor is placed along the inner wall of the endzone, the proximity sensor may register the opposing wall as within its proximity range. Other questions raised involve the functionality and design of the game. One possible consideration is to have holes in the endzone and the deadzones (marked as X in the sketches above) so that the ball falls through when it reaches these spots. Figure 1A involves placing the proximity sensor inside of the prototype under the endzone on the floor. However, the ball may not fall exactly on the proximity sensor since the distance between the top of the maze and the floor may be quite far. Additionally, if the ball falls through any of the deadzone holes and lands on the proximity sensor by chance, it would register as a win.
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+Of all of the designs, Figure 1D or 1E seemed the most feasible. Placing the proximity sensor on the inner wall or floor of the endzone seems the most feasible. Placement will ideally depend on the range of the proximity sensor; if the proximity sensor can safely be placed on the inner wall without picking up the opposing wall, this would be the ideal design to go with. 
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
