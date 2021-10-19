@@ -44,7 +44,7 @@ F) [Record the interaction](#part-f)
 
 For this section, we focused on capacitive sensors as our main sensor. We think touch is an interaction form holding a wide range of potentials, and the 12 contacts on the sensor, when selected and combined in different ways, are capable of encoding a great number of different inputs.
 
-To make the most out of our 3-member team work, we decided to each come up with different ideas that utilized capacitance sensors, and more. In each idea, sensors should grab information from the user in a meaningful way and further transmit that information. When necessary, we fit in multiple sensors where we see fit. We then bring all of our ideas together in a discussion. This way, we would each become a fresh set of eyes examining each other’s ideas. We will see what sparks this will trigger, and bring that into our brainstorming session.
+To make the most out of our 3-member team work, we decided to each come up with different ideas that utilized capacitance sensors, and more. All ideas we presented below invloves in potentials and designs with multiple sensors, and requires at least 3 times of single person workload to completing prototype. In each idea, sensors should grab information from the user in a meaningful way and further transmit that information. When necessary, we fit in multiple sensors where we see fit. We then bring all of our ideas together in a discussion. This way, we would each become a fresh set of eyes examining each other’s ideas. We will see what sparks this will trigger, and bring that into our brainstorming session.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
@@ -77,12 +77,16 @@ To make the most out of our 3-member team work, we decided to each come up with 
 
 3. A common question that raises from these sketches is that how to actually matches the size of our pi and sensors to the purpose that we are designing the device for. Sometimes the larger the devices gets means the longer the wires are and the more accurate the sensors are, it might not able to achieve through our current kit.
 
+We have realized the need to physically prototype the devices to know how the actual display of wires and sensors might be able to fit in ergonomic designs that best suits users, also how the idea is applicable or not through real interactions. The physical prototyping can also show the sensitivity of the sensors, and the precision of its data. All of which cannot be acquired by just sketching the designs. Also, some of our device designs like the finite gauntlet requires a certain learning curve or behaviral training. We would not be able to know how this device works when human interacting with them unless a real physical prototype could be wear and tested by a human user.
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
-The design we choose to proceed with is “the Finite Gauntlet”, that is, the typing glove, with a name inspired by the Infinity Gauntlet.
+The design we choose to proceed with is “the Finite Gauntlet”, that is, the typing glove.
 
-This glove embodied a new invention of how people can type, by bringing the classic 9-key English keyboard to one hand. The 9-key keyboard takes 9 binary inputs (and a 10th input as the space), which in a classic setting would be 9 buttons,  and is capable of outputting English words composed by any combination of the English 26 letters.
+This glove embodied a new invention of how people can type, by bringing the classic 9-key (T9) English keyboard to one hand. The 9-key keyboard takes 9 binary inputs (and a 10th input as the space), which in a classic setting would be 9 buttons,  and is capable of outputting English words composed by any combination of the English 26 letters.
+
+The Finite Gauntlet allows users to use touching fingertips using thumbs to fastly input words and sentences like keyboard utilizing a capacitive sensor, a gesture sensor to recognize input commands like backspaces and flush to speech, a OLED screen that shows the inputed words, and a output speaker that would be able to do the text to speech based on what's inputed to the device. A total of 4 sensors/units have been implemented in this device. 
 
 ![image](https://user-images.githubusercontent.com/42874337/137842948-086207d7-5e6f-4038-97b2-ae3556f10faf.png)
 
@@ -95,6 +99,14 @@ Gestures are shown below:
 ![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
 
 ![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
+
+The Finite Gauntlet we designed have multiple use in modern context:
+
+- First of all, it can be a modern one handed input device paired with modern technologies, for example: AR googles (apple glasses).
+- Another widely used scenario that we can think of is a easier way to type in for smart watches, respond to text messages and searching things, which complement the shortage of small screens of smart watches.
+- We also planned to include a text-to-speech unit to our device which allows users to directly output what they type in as voices in this lab, this has some common implications to the healthcare and accessibility world:
+-- Portable and accessible single hand device for speech replacement for people who lost voices
+-- minimal movement required t2s device for patients of diseases like Parkinson's
 
 The Finite Gauntlet as a typing tool introduces a typing method that’s not only new and fun, but could also be helpful for people facing special conditions:
 
@@ -133,7 +145,7 @@ The Finite Gauntlet as a typing tool introduces a typing method that’s not onl
 
 As shown in the sketch notes above, there were three main decisions we needed to make while considering the physical layout of our design:
 
-1. Positioning of capacitance sensors
+1. Positioning of capacitive sensors
 2. Positioning of gesture sensors
 3. Positioning of display
 
@@ -173,7 +185,7 @@ We discussed the pros and cons of different positioning choices, and came up wit
 
 - After sketching out our designs, we re-examined them as typing tools, and realized that in order for this product to be a well-functioning 9-key typing tool, it needs to have a output selection function, just as a standard 9-key keyboard would have.
 
-- In our original design, we wanted to use the UP and DOWN direction to switch between letter and number keyboards. When this question came up, we needed to re-think the encoding, with experience and insights from the prototype.
+- In our original design, we wanted to use the UP and DOWN direction to switch between letter and number keyboards. When this question came up, we needed to re-think the encoding. We later realized that the previous UP/DOWN encoding was redundant and unnecessary, since this task could be done with one single gesture. The spared gesture can be used for output selection. 
 
 | UP                                         | DOWN                                               | LEFT      | RIGHT          |
 |--------------------------------------------|----------------------------------------------------|-----------|----------------|
@@ -192,7 +204,7 @@ Our final choice of design is sketch **#5(/1)**.
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-The design is a glove, in terms of the 3 previously staged design choices, it has 4 capacitance sensors on four of its fingertips (all fingers except the thumb), a gesture sensor (APDS-9960) placed on the outer-side of the index finger, and a display showing typing results as a detachable module.
+The design is a glove, in terms of the 3 previously staged design choices, it has 4 capacitance sensors on four of its fingertips (all fingers except the thumb), a gesture sensor (APDS-9960) placed on the outer-side of the index finger, and a display showing typing results as a detachable module. The speaker designed previously will be placed on the waist as either a part of the whole device or an extra unit, after the input device has been tested to be reliable.
 
 There is ambiguity between design #1 and design #5, because while we think it makes sense to have the display as a detachable module, the best physical placement choice for it is still on the inner wrist, for the following reasons:
 
@@ -200,6 +212,8 @@ There is ambiguity between design #1 and design #5, because while we think it ma
 - It does not take up the usual space of a watch
 
 And the fact that it’s detachable gives great flexibility to the user on where to actually place it.
+
+As we focused on designing this new way of inputing text to be as accessible and as portable as possible, we are aiming at a thin glove that attached to smart watches as the final product. The current design of the thickness and the size of our glove is aligned with our purpose. The small OLED screen to display text is at a fair distance just like smart watches that when people type, they would be able to see what they are tying in.  The form of the glove as an input device also align with ergonomic idea that hand muscles are the most delicate and sensible ones on human body.
 
 
 **\*\*\*Document your rough prototype.\*\*\***
@@ -214,7 +228,7 @@ And the fact that it’s detachable gives great flexibility to the user on where
 
 [![image](https://user-images.githubusercontent.com/42874337/137840739-74681d46-8337-4f07-ac0a-729264e0d2cf.png)](https://drive.google.com/file/d/1_8C4dAzmo2JtW54vDXacyz8srLmTZD2P/view?usp=sharing)
 
-
+As shown in the video, we have saved holes for plugging in the pi and actually run the device in part 2, and places for the speech to text speaker to be on waist.  
 
 ### Part 2
 
