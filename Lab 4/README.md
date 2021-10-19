@@ -54,9 +54,17 @@ To make the most out of our 3-member team work, we decided to each come up with 
 
 **Design 2**
 
-![image](https://user-images.githubusercontent.com/42874337/137838962-6ef27de4-a2b3-4681-b7c9-f5acdcece9ba.png)
+![image](https://user-images.githubusercontent.com/42874337/137847010-4a04a417-266e-4c13-8b7a-5ae1a2f812a0.png)
 
 **Design 3**
+
+![image](https://user-images.githubusercontent.com/42874337/137847042-dd96c3b7-ce52-4fb4-9fe2-7d8efedaa925.png)
+
+**Design 4**
+
+![image](https://user-images.githubusercontent.com/42874337/137838962-6ef27de4-a2b3-4681-b7c9-f5acdcece9ba.png)
+
+**Design 5**
 
 ![image](https://user-images.githubusercontent.com/42874337/137839129-efeb0660-bb07-4a72-973c-f251f1f1ebc0.png)
 
