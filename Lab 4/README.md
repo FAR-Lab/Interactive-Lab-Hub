@@ -74,6 +74,12 @@ To make the most out of our 3-member team work, we decided to each come up with 
 
 #### Prototype Process
 
+**Gesture Designs**
+
+![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
+
 **Cardboard Prototyping**
 
 ![image](https://user-images.githubusercontent.com/42874337/137840439-c492609e-6728-4fbb-843e-b3162efbc4e0.png)
@@ -166,12 +172,6 @@ And the fact that it’s detachable gives great flexibility to the user on where
 
 
 **\*\*\*Document your rough prototype.\*\*\***
-
-**Gesture Designs**
-
-![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
-
-![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
 
 **Cardboard Prototyping**
 
