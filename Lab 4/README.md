@@ -67,15 +67,31 @@ To make the most out of our 3-member team work, we decided to each come up with 
 
 2. For the Typing Glove (Finite Gauntlet) - How natural/well-functioning/effective will it be? We’re trying to invent a new way of typing input. Can this be learned and become an actual way of typing?
 
-3. A common question that raises from these sketches is that
+3. A common question that raises from these sketches is that how to actually matches the size of our pi and sensors to the purpose that we are designing the device for. Sometimes the larger the devices gets means the longer the wires are and the more accurate the sensors are, it might not able to achieve through our current kit.
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+#### Prototype Process
 
+**Cardboard Prototyping**
 
-![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
+![image](https://user-images.githubusercontent.com/42874337/137840439-c492609e-6728-4fbb-843e-b3162efbc4e0.png)
 
-![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
+![image](https://user-images.githubusercontent.com/42874337/137840447-39d17c90-ccf0-44f9-af8f-ec8acc631bfd.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840462-ca956d76-ab56-4351-89a9-ee434db3b6ab.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840473-39e89e38-288e-4259-9280-3162d2ae98b1.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840500-3d4b3969-9de9-451a-b70d-f29dce17fd7a.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840545-1ff46f57-1bfd-4af4-bddf-d848b1d49599.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840580-3b925c33-a1da-48f4-96e1-2cd15eaaa7b5.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840613-a600bf72-25f1-4359-9317-41da4ef594bf.png)
+
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -83,23 +99,75 @@ To make the most out of our 3-member team work, we decided to each come up with 
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 
+As shown in the sketch notes above, there were three main decisions we needed to make while considering the physical layout of our design:
+
+1. Positioning of capacitance sensors
+2. Positioning of gesture sensors
+3. Positioning of display
+
+We discussed the pros and cons of different positioning choices, and came up with the 5 different designs, embodying different combinations of choices we saw as reasonable.
+
+**NOTE:** “Knuckles” in this context refers to the space between two fingle knuckles on the palm-side of fingers.
+
+
+
+**Pros & Cons of the original 9-knuckles design**
+
+**PROS:** keys can be quite graphically and straight-forwardly placed the same as how a standard 9-key keyboard would appear on screen. Keys can be printed on the glove in their respective positions, and users do not need to memorize touch-combinations for keys.
+
+**CONS:** 9 capacitance sensors needed instead of 4, higher cost and more risk of technical glitches, reduces robustness of the product. Glove with sensors placed on knuckles won’t be as comfortable as one with sensors only on fingertips.
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+1. Do we need to consider output selection for our glove？What kind of interaction would function the best as a output selection? 
 
+- After sketching out our designs, we re-examined them as typing tools, and realized that in order for this product to be a well-functioning 9-key typing tool, it needs to have a output selection function, just as a standard 9-key keyboard would have.
+
+- In our original design, the four direction inputs to the gesture sensor are encoded as follows. In order to solve this problem, we will need to re-design the encoding, with experience and insights from the prototype..
+
+2. When actually typing with the thumb touching 2 or 3 fingers at once, it’s highly possible that one finger (capacitance sensor) will be detected first and the other second, despite the very subtle difference. In this case, how does the system tell the difference between a “finger A + finger B” and a “finger A then finger B” ?
+
+- We need a threshold of Xms in the program to counter the subtle detection time difference between different capacitance sensors in a multi-finger input.
+
+- This will need to be tested and refined later in the software prototyping stage.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-
+We have picked the one with 4 display 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+Our final choice of design is sketch **#5(/1)**.
+
+The design is a glove, in terms of the 3 previously staged design choices, it has 4 capacitance sensors on four of its fingertips (all fingers except the thumb), a gesture sensor (APDS-9960) placed on the outer-side of the index finger, and a display showing typing results as a detachable module.
+
+There is ambiguity between design #1 and design #5, because while we think it makes sense to have the display as a detachable module, the best physical placement choice for it is still on the inner wrist, for the following reasons:
+
+- It is a natural place for one’s eyesight to be landing on while finger-typing;
+- It does not take up the usual space of a watch
+
+And the fact that it’s detachable gives great flexibility to the user on where to actually place it.
 
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+**Gesture Designs**
+
+![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
+
+**Cardboard Prototyping**
+
+![image](https://user-images.githubusercontent.com/42874337/137840654-7c2ecb54-3653-42b4-bbe8-3c1690898123.png)
+
+![image](https://user-images.githubusercontent.com/42874337/137840663-4d54a117-0c64-40fe-aff3-b89c4f14e71e.png)
+
+**Hands On Video**
+
+![image](https://user-images.githubusercontent.com/42874337/137840739-74681d46-8337-4f07-ac0a-729264e0d2cf.png)
 
 LAB PART 2
 
