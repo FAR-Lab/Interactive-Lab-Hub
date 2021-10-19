@@ -199,7 +199,9 @@ Figure 1E involves placing the proximity sensor on a flap that covers the endzon
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-These sketches raise several important questions regarding the ideal placement of the proximity sensor. This placement depends on the proximity sensor's sensitivity (how close or far and object needs to be for it to register). For example, in Figure 1C where the proximity sensor is placed along the inner wall of the endzone, the proximity sensor may register the opposing wall as within its proximity range. Other questions raised involve the functionality and design of the game. One possible consideration is to have holes in the endzone and the deadzones (marked as X in the sketches above) so that the ball falls through when it reaches these spots. Figure 1A involves placing the proximity sensor inside of the prototype under the endzone on the floor. However, the ball may not fall exactly on the proximity sensor since the distance between the top of the maze and the floor may be quite far. Additionally, if the ball falls through any of the deadzone holes and lands on the proximity sensor by chance, it would register as a win.
+These sketches raise several important questions regarding the ideal placement of the proximity sensor. This placement depends on the proximity sensor's sensitivity (how close or far and object needs to be for it to register). For example, in Figure 1C where the proximity sensor is placed along the inner wall of the endzone, the proximity sensor may register the opposing wall as within its proximity range. Other questions raised involve the functionality and design of the game. One possible consideration is to have holes in the endzone and the deadzones (marked as X in the sketches above) so that the ball falls through when it reaches these spots. Figure 1A involves placing the proximity sensor inside of the prototype under the endzone on the floor. However, the ball may not fall exactly on the proximity sensor since the distance between the top of the maze and the floor may be quite far. Additionally, if the ball falls through any of the deadzone holes and lands on the proximity sensor by chance, it would register as a win. 
+
+I need to physically prototype a three dimensional hollow box to experiment with the various proximity sensor locations to determine which is the most ideal based on sensing capability and least amount of interference with gameplay.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
@@ -245,11 +247,43 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/2A.JPG)
+
+Figure 2A involves placing the OLED screen on the lower panel of the prototype right in front of the user.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/2B.JPG)
+
+Figure 2B involves placing both the OLED screen and an LED start button on the lower panel of the prototype, which is right in front of the user.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/2C.JPG)
+
+Figure 2C involves keeping the LED start button on the lower panel in front of the user, but placing the OLED screen on a back panel flap that rises up vertically.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/2D.JPG)
+
+Figure 2D involves placing both the LED start button and the OLED screen on a back panel flap that rises up vertically.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/2E.JPG)
+
+Figure 2E involves placing the OLED screen on the back panel vertical flap, but places the LED button on the side of the prototype where the user holds the prototype while playing the game. 
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+I never realized the effect placement of the screen and LED button could have on players playing the game. In figures 2A and 2B, the screen and LED button are placed on the lower panel closest to the user. I initally thought this would be a good place to put these, but realized that based on the way the game is played with the user holding the prototype, the screen had minimal visibility. Additionally, since the game is meant to be played with the user holding the prototype by the two sides of the box, having a button on the lower panel in front of the user would require the user to put down the box in order to press the start button, which interrupts game flow. 
+
+In order to determine ideal placement of the screen and the LED button to maximize user engagement, I will need to physically prototype a three dimensional box and experiment with the various positinos for the screen and the button while simulating gameplay. 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+Of all of the designs, Figure 2E is the most promising. The OLED screen on the back panel is perfect for visibility for the user to keep track of their score or time as they are playing the game. Additionally, the side panel is perfect for the LED button because it is right where the user holds the prototype while playing. Therefore they would be able to press the start button without actually putting the prototype down.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The idea for this application is an "Interactive Maze Game", where the objective is to hold and rotate the prototype in such a way as to move a ball from the start position to the end position while avoiding obstacles. The prototype design involves a three dimensional box, where the maze sits on a panel towards the top of the box. Keeping the maze on a panel in this way allows for the borders of the box to act as outer walls of the maze. Additionally, obstacles include holes in the floor of the maze that the ball can fall through. Keeping the maze panel towards the top of the box allows for the ball to fall through the holes and allows for the user to easily retrieve the ball when this happens. 
+
+As the game is designed to be played with the user holding the box and rotating it to direct the ball through the maze, the prototype needs to be light enough to comfortably hold and rotate. The OLED screen would be on a vertical back flap of the prototype such that the user can easily visualize their progress (in the form of score or time taken to navigate through the maze) and the LED start button would be on the side of the prototype where the user holds the box. 
+
+A hollow three dimensional cardboard box has the perfect form factor and will be useful to prototype with.  
 
 Build a cardbord prototype of your design.
 
