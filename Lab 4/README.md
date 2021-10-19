@@ -182,7 +182,8 @@ And the fact that it’s detachable gives great flexibility to the user on where
 **Hands On Video**
 
 [![image](https://user-images.githubusercontent.com/42874337/137840739-74681d46-8337-4f07-ac0a-729264e0d2cf.png)](https://drive.google.com/file/d/1_8C4dAzmo2JtW54vDXacyz8srLmTZD2P/view?usp=sharing)
-LAB PART 2
+
+
 
 ### Part 2
 
