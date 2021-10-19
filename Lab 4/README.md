@@ -175,10 +175,15 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/Sketches1.jpg?raw=true"  width="200" >
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+The sketches made me realize how constrained we can be with our designs around physical hardware. In several drawings I accidentally put elements in positions that don't make sense based on the position of the Pi. I have to question whether some shapes will be too difficult to construct and whether certain features will function as intended. I need to prototype the actual functions and then check that the physical designs actually make sense in the hands of a real person.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+I'm going to prototype the Real-Life Color Picker. The idea is to use teh APDS-9960 and a light to record whatever color it is pointing at and display that color with its RGB information on a screen.
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
