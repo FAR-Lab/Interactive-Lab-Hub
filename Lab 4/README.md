@@ -72,13 +72,31 @@ To make the most out of our 3-member team work, we decided to each come up with 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
-#### Prototype Process
+The design we choose to proceed with is “the Finite Gauntlet”, that is, the typing glove, with a name inspired by the Infinity Gauntlet.
 
-**Gesture Designs**
+This glove embodied a new invention of how people can type, by bringing the classic 9-key English keyboard to one hand. The 9-key keyboard takes 9 binary inputs (and a 10th input as the space), which in a classic setting would be 9 buttons,  and is capable of outputting English words composed by any combination of the English 26 letters.
+
+![image](https://user-images.githubusercontent.com/42874337/137842948-086207d7-5e6f-4038-97b2-ae3556f10faf.png)
+
+We take the core idea in the classic 9-key keyboard system: 9 binary inputs mapped to any combination of 26 English letters, and migrate that to a hand-wearable device. 
+
+The Finite Gauntlet has 4 capacitive sensors, one on each fingertip of every finger except the thumb. Each capacitive sensor provides a binary input, and 4 capacitive sensors provide 24 different combination possibilities. Out of the 24 combinations, we picked 9 combinations that’s easy to compose by hand. A gesture is made when the thumb touches one, two, or three of the other fingertips (capacitive sensors). The glove recognizes 9 different hand gestures, and runs a program that maps these 9 inputs to a 9-key keyboard output.
+
+Gestures are shown below:
 
 ![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
 
 ![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
+
+The Finite Gauntlet as a typing tool introduces a typing method that’s not only new and fun, but could also be helpful for people facing special conditions:
+
+- For people in medical conditions where delicate gestures could help improve brain functions, using the Finite Gauntlet would be a way to conduct daily exercises;
+- In emergency situations where phones aren’t a good idea, for example, when it’s too shaky, or when a person needs to remain unseen in the dark, the Finite Glove could be used to type & send emergency messages;
+
+
+
+#### Prototype Process
+
 
 **Cardboard Prototyping**
 
