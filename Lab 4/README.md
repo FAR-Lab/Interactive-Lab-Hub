@@ -88,12 +88,6 @@ Gestures are shown below:
 
 ![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
 
-
-| UP                                         | DOWN                                               | LEFT      | RIGHT          |
-|--------------------------------------------|----------------------------------------------------|-----------|----------------|
-| Switch between letter and number keyboards | Select the next word in the possible outputs' list | Backspace | Confirm output |
-
-
 The Finite Gauntlet as a typing tool introduces a typing method that’s not only new and fun, but could also be helpful for people facing special conditions:
 
 - For people in medical conditions where delicate gestures could help improve brain functions, using the Finite Gauntlet would be a way to conduct daily exercises;
@@ -171,7 +165,12 @@ We discussed the pros and cons of different positioning choices, and came up wit
 
 - After sketching out our designs, we re-examined them as typing tools, and realized that in order for this product to be a well-functioning 9-key typing tool, it needs to have a output selection function, just as a standard 9-key keyboard would have.
 
-- In our original design, the four direction inputs to the gesture sensor are encoded as follows. In order to solve this problem, we will need to re-design the encoding, with experience and insights from the prototype..
+- In our original design, we wanted to use the UP and DOWN direction to switch between letter and number keyboards. When this question came up, we needed to re-think the encoding, with experience and insights from the prototype.
+
+| UP                                         | DOWN                                               | LEFT      | RIGHT          |
+|--------------------------------------------|----------------------------------------------------|-----------|----------------|
+| Switch between letter and number keyboards | Select the next word in the possible outputs' list | Backspace | Confirm output |
+
 
 2. When actually typing with the thumb touching 2 or 3 fingers at once, it’s highly possible that one finger (capacitance sensor) will be detected first and the other second, despite the very subtle difference. In this case, how does the system tell the difference between a “finger A + finger B” and a “finger A then finger B” ?
 
