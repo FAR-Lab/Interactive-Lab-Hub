@@ -225,7 +225,11 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/Sketches2.jpg?raw=true">
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+The sketches definitely make me question how I'm going to wire the display to make it easy to work with if I need to open up the device to get to the electronics. I also need to think about the order in which I put things inside and whether I can actually get them out. I'll need to prototype wiring, putting everything inside, and taking everything out.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
@@ -235,6 +239,7 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+I didn't have time to do this part so I'll complete it during lab part 2.
 
 LAB PART 2
 
