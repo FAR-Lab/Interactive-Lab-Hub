@@ -1,12 +1,13 @@
 # Ph-UI!!!
+# Project Finite Gauntlet
 
-Team:
+**Team:**
 
-Xy Fang (xf48)
+**Xy Fang (xf48)**
 
-Casey Pan (yp432)
+**Casey Pan (yp432)**
 
-Anpu Li (al2487)
+**Anpu Li (al2487)**
 
 
 For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -43,64 +44,57 @@ F) [Record the interaction](#part-f)
 
 For this section, we focused on capacitive sensors as our main sensor. We think touch is an interaction form holding a wide range of potentials, and the 12 contacts on the sensor, when selected and combined in different ways, are capable of encoding a great number of different inputs.
 
+To make the most out of our 3-member team work, we decided to each come up with different ideas that utilized capacitance sensors, and more. In each idea, sensors should grab information from the user in a meaningful way and further transmit that information. When necessary, we fit in multiple sensors where we see fit. We then bring all of our ideas together in a discussion. This way, we would each become a fresh set of eyes examining each other’s ideas. We will see what sparks this will trigger, and bring that into our brainstorming session.
+
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+
+**Design 1**
+
+![image](https://user-images.githubusercontent.com/42874337/137838941-c8b0a71c-e760-44b7-b1aa-9e7c0fbcb779.png)
+
+**Design 2**
+
+![image](https://user-images.githubusercontent.com/42874337/137838962-6ef27de4-a2b3-4681-b7c9-f5acdcece9ba.png)
+
+**Design 3**
+
+![image](https://user-images.githubusercontent.com/42874337/137839129-efeb0660-bb07-4a72-973c-f251f1f1ebc0.png)
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+1. For small, condensed devices like “The ‘’Bite Me’ Alarm”, where sensors are placed rather closely to each other on the surface, and delicate order-specific interactions are needed, will it be too much of a burden for the user to get it right?
 
+2. For the Typing Glove (Finite Gauntlet) - How natural/well-functioning/effective will it be? We’re trying to invent a new way of typing input. Can this be learned and become an actual way of typing?
+
+3. A common question that raises from these sketches is that
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+
 
 ![image](https://user-images.githubusercontent.com/42874337/137819115-a648012d-5683-45d1-ba05-a71ae8c9fd92.png)
 
 ![image](https://user-images.githubusercontent.com/42874337/137819138-cac0b262-49bc-4c0d-9712-9c06cc7f6c60.png)
 
-
 ### Part D
 ### Physical considerations for displaying information and housing parts
-
-
-Here is an Pi with a paper faceplate on it to turn it into a display interface:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
-
-
-This is fine, but the mounting of the display constrains the display location and orientation a lot. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
-
-Here is another prototype for a paper display:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
-
-Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibily be mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
-</p>
-
-
-It holds a Pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
-
-This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
-
-| Y height of box <br> <sub><sup>- thickness of cardboard</sup></sub> | Z  depth of box <br><sub><sup>- thickness of cardboard</sup></sub> | Y height of box  | Z  depth of box | H height of faceplate <br><sub><sup>* * * * * (don't make this too short) * * * * *</sup></sub>|
-| --- | --- | --- | --- | --- | 
-
-Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
-
-Here is an example:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
-
-Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+
 
 Build a cardbord prototype of your design.
 
