@@ -109,7 +109,25 @@ We discussed the pros and cons of different positioning choices, and came up wit
 
 **NOTE:** “Knuckles” in this context refers to the space between two fingle knuckles on the palm-side of fingers.
 
+1.
 
+![image](https://user-images.githubusercontent.com/42874337/137841612-b7a83af6-5dc3-4598-af9e-f4f5ddb4571b.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/42874337/137841623-ff21e7aa-e8a5-4d1d-a497-57f51fee53a5.png)
+
+3.
+
+![image](https://user-images.githubusercontent.com/42874337/137841635-e7f5a8c1-4b99-41f3-b420-0936d13e6f3a.png)
+
+4.
+
+![image](https://user-images.githubusercontent.com/42874337/137841647-9e42ccb9-5bd4-466f-8c91-d453a3e674fa.png)
+
+5.
+
+![image](https://user-images.githubusercontent.com/42874337/137841656-86b4bf90-c290-4d65-9bf1-48681465bd65.png)
 
 **Pros & Cons of the original 9-knuckles design**
 
@@ -133,11 +151,9 @@ We discussed the pros and cons of different positioning choices, and came up wit
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-We have picked the one with 4 display 
+Our final choice of design is sketch **#5(/1)**.
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-
-Our final choice of design is sketch **#5(/1)**.
 
 The design is a glove, in terms of the 3 previously staged design choices, it has 4 capacitance sensors on four of its fingertips (all fingers except the thumb), a gesture sensor (APDS-9960) placed on the outer-side of the index finger, and a display showing typing results as a detachable module.
 
