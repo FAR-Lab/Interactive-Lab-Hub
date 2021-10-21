@@ -232,6 +232,10 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 
 ### Part 2
 
+**I glove you, do you glove me?  ---  Ilan **
+
+(Thank you Ilan, for gloving us.)
+
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
 ### Part E (Optional)
