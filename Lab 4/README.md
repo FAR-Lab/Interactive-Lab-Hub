@@ -232,7 +232,7 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 
 ### Part 2
 
-**I glove you, do you glove me?  ---  Ilan **
+**I glove you, do you glove me?  ---  Ilan**
 
 (Thank you Ilan, for gloving us.)
 
