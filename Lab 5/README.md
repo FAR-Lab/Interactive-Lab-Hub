@@ -9,8 +9,9 @@ This lab will help you think through the design of observant systems, particular
 ## Prep
 
 1.  Pull the new Github Repo.
-2.  Read about [OpenCV](https://opencv.org/about/), [MediaPipe](https://mediapipe.dev/), and [TeachableMachines](https://teachablemachine.withgoogle.com/)
-3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
+2.  Install VNC on your laptop if you have not yet done so. This lab will actually require you to run script on your Pi through VNC so that you can see the video stream. Please refer to the [prep for Lab 2](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Fall2021/Lab%202/prep.md), we offered the instruction at the bottom.
+3.  Read about [OpenCV](https://opencv.org/about/), [MediaPipe](https://mediapipe.dev/), and [TeachableMachines](https://teachablemachine.withgoogle.com/)
+4.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
 ### For the lab, you will need:
 
@@ -80,7 +81,8 @@ pi@ixe00:~/openCV-examples $ tree -l
 
 The flow detection might seem random, but consider [this recent research](https://cseweb.ucsd.edu/~lriek/papers/taylor-icra-2021.pdf) that uses optical flow to determine busy-ness in hospital settings to facilitate robot navigation. Note the velocity parameter on page 3 and the mentions of optical flow.
 
-\*\*\***Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.**\*\*\*
+Now, use **VNC to access to your Pi** and open the terminal. Use the following command lines to try each of the examples we provided:
+(***it will not work if you use ssh from your laptop***)
 
 ```
 pi@ixe00:~$ cd ~/openCV-examples/contours-detection
@@ -95,6 +97,8 @@ pi@ixe00:~/openCV-examples/flow-detection $ python optical_flow.py 0 window
 pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
+
+\*\*\***Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.**\*\*\*
 
 #### MediaPipe
 
