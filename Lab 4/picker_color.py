@@ -81,6 +81,9 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     # get the data and print the different channels
     r, g, b, c = apds.color_data
+    if r>255: r=255
+    if g>255: g=255
+    if b>255: b=255
     _hex=rgb2hex(r,g,b)
     _red="Red: "+str(r)
     _green="Green: "+str(g)
