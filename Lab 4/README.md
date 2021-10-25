@@ -175,9 +175,17 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+![IMG_0103](https://user-images.githubusercontent.com/37049175/138764078-98e652c5-0cae-4358-9472-683bf4798fd5.jpg)
+
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+I will choose the prototype the music reader.
 
 
 ### Part D
@@ -220,15 +228,34 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+![IMG_0104](https://user-images.githubusercontent.com/37049175/138764197-f1f0e692-8508-4abf-93fb-8ecaf7a46954.jpg)
+
+***5 Designs***
+
+![image](https://user-images.githubusercontent.com/37049175/138765666-2bbfdea7-46c8-4ebc-b480-315df689474a.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+Some questions are whether I should position the rotary encoder on the top right or top left. Should I use a button to change the mode of volume and pitch instead of using the rotary encoder? That would be easier for users to press on and change mode. Another question is should I use the rotary encoder to change volume instead of a joy stick.
+
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+Based on these concerns, here is my new sketch:
+
+![image](https://user-images.githubusercontent.com/37049175/138764900-59f7b5cd-2df8-492b-9924-150681433cd9.png)
+
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-Build a cardbord prototype of your design.
+We need to make sure the screen is large enough to read from the user's point of view when the user is playing the piano. Usually, the user wouldn't sit too far from the keyboard since they need to reach the keyboard, so a screen must be relatively big compared to the capacity sensor. I chose design #1 because majority of people are right handed, so it's easier for them to change the volume of the reader and pitch of the reader when the button and rotary encoder are on the right. 
+
+Build a cardboard prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+
 
 
 LAB PART 2
