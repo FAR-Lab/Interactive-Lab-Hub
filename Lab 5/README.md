@@ -144,8 +144,10 @@ pi@ixe00:~ $ source tmachine/bin/activate
 
 After activating the virtual environment, install the requisite TensorFlow libraries by running the following lines:
 ```
-(tmachine) pi@ixe00:~ $ sudo chmod +x ./teachable_machines.sh
-(tmachine) pi@ixe00:~ $ ./teachable_machines.sh
+(tmachine) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
+(tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ 
+(tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ sudo chmod +x ./teachable_machines.sh
+(tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ ./teachable_machines.sh
 ``` 
 
 This might take a while to get fully installed. After installation, run the example script:
