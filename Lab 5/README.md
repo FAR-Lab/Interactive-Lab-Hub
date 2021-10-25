@@ -123,7 +123,7 @@ and install the following.
 (mpipe) pi@ixe00:~ $ sudo pip3 install mediapipe-rpi4 pyalsaaudio
 ```
 
-After successfully installing mediapipe, go to Lab 5 folder and run the hand pose detection script we provide:
+Each fo the installs will take a while, please be patient. After successfully installing mediapipe, go to Lab 5 folder and run the hand pose detection script we provide:
 
 ```
 (mpipe) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
