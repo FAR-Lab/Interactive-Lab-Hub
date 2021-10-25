@@ -87,7 +87,7 @@ while True:
     y = top
     draw.text((x, y), _red, font=font, fill="#FF0000")
     y += font.getsize(_red)[1]
-    draw.text((x, y), _green, font=font, fill="#1E300")
+    draw.text((x, y), _green, font=font, fill="#1EF300")
     y += font.getsize(_red)[1]
     draw.text((x, y), _blue, font=font, fill="#0050FF")
     y += font.getsize(_blue)[1]
