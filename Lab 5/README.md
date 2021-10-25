@@ -81,7 +81,7 @@ pi@ixe00:~/openCV-examples $ tree -l
 
 The flow detection might seem random, but consider [this recent research](https://cseweb.ucsd.edu/~lriek/papers/taylor-icra-2021.pdf) that uses optical flow to determine busy-ness in hospital settings to facilitate robot navigation. Note the velocity parameter on page 3 and the mentions of optical flow.
 
-Now, use **VNC to access to your Pi** and open the terminal. Use the following command lines to try each of the examples we provided:
+Now, connect your webcam to your Pi and use **VNC to access to your Pi** and open the terminal. Use the following command lines to try each of the examples we provided:
 (***it will not work if you use ssh from your laptop***)
 
 ```
