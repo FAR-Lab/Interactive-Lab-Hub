@@ -190,12 +190,12 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
-\*\*\***Describe and detail the interaction, as well as your experimentation.**\*\*\*
+\*\*\***Describe and detail the interaction, as well as your experimentation here.**\*\*\*
 
 ### Part C
 ### Test the interaction prototype
 
-Now flight test your interactive prototype and **note your observations**:
+Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
