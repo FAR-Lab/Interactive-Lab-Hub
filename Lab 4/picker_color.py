@@ -77,7 +77,8 @@ while True:
     # wait for color data to be ready
     while not apds.color_data_ready:
         time.sleep(0.005)
-
+    # Draw a black filled box to clear the image.
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
     # get the data and print the different channels
     r, g, b, c = apds.color_data
     _hex=rgb2hex(r,g,b)
