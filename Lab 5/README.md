@@ -120,7 +120,7 @@ and install the following.
 ...
 (mpipe) pi@ixe00:~ $ sudo apt install ffmpeg python3-opencv
 (mpipe) pi@ixe00:~ $ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr23
-(mpipe) pi@ixe00:~ $ sudo pip3 install mediapipe-rpi4 pyalsaaudio
+(mpipe) pi@ixe00:~ $ pip3 install mediapipe-rpi4 pyalsaaudio
 ```
 
 Each fo the installs will take a while, please be patient. After successfully installing mediapipe, go to Lab 5 folder and run the hand pose detection script we provide:
