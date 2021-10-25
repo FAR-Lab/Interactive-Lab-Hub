@@ -106,28 +106,19 @@ A more recent open source and efficient method of extracting information from vi
 
 ![Alt Text](mp.gif)
 
-To get started, create a new virtual environment,
+To get started, install the following:
 
 ```
-pi@ixe00:~ $ virtualenv mpipe
-pi@ixe00:~ $ source mpipe/bin/activate
-(mpipe) pi@ixe00:~ $ 
-```
-
-and install the following.
-
-```
-...
-(mpipe) pi@ixe00:~ $ sudo apt install ffmpeg python3-opencv
-(mpipe) pi@ixe00:~ $ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr23
-(mpipe) pi@ixe00:~ $ pip3 install mediapipe-rpi4 pyalsaaudio
+pi@ixe00:~ $ sudo apt install ffmpeg python3-opencv
+pi@ixe00:~ $ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr23
+pi@ixe00:~ $ sudo pip3 install mediapipe-rpi4 pyalsaaudio
 ```
 
 Each fo the installs will take a while, please be patient. After successfully installing mediapipe, go to Lab 5 folder and run the hand pose detection script we provide:
 
 ```
-(mpipe) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
-(mpipe) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
+pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
+pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
 ```
 
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
@@ -136,8 +127,6 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
-
-*Don't forget to run ```deactivate``` to end the MediaPipe demo, and to reactivate with ```source mpipe/bin/activate``` when you want to use it again.*
 
 
 #### Teachable Machines
