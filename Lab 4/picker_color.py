@@ -81,9 +81,9 @@ while True:
     # get the data and print the different channels
     r, g, b, c = apds.color_data
     _hex=rgb2hex(r,g,b)
-    _red="Red: "+r
-    _green="Green: "+g
-    _blue="Blue: "+b
+    _red="Red: "+str(r)
+    _green="Green: "+str(g)
+    _blue="Blue: "+str(b)
     y = top
     draw.text((x, y), _red, font=font, fill="#FF0000")
     y += font.getsize(_red)[1]
