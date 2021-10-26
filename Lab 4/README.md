@@ -255,23 +255,20 @@ Build a cardboard prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
-/Users/gracele/Downloads/IMG_8415.HEIC 
+![IMG_0114](https://user-images.githubusercontent.com/37049175/138803298-adf10dcb-91a8-48a9-9157-6366966a51b1.PNG)
 
-/Users/gracele/Downloads/IMG_8416.HEIC 
-
+![IMG_0115](https://user-images.githubusercontent.com/37049175/138803305-0948b5f9-9835-410f-a082-cb03e73fd57e.PNG)
 LAB PART 2
 
 ### Part 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
-/Users/gracele/Downloads/IMG_8415.HEIC 
 
-/Users/gracele/Downloads/IMG_8416.HEIC 
+![IMG_0116](https://user-images.githubusercontent.com/37049175/138803317-13a07ee6-7fa1-4d9f-b904-28eef7c0a5de.PNG)
 
-/Users/gracele/Downloads/IMG_8417.HEIC 
+![IMG_0117](https://user-images.githubusercontent.com/37049175/138803329-023965ff-fda6-4cdb-b2a7-fb251597a428.PNG)
 
-/Users/gracele/Downloads/IMG_8420.HEIC 
 
 
 ***Video of design***
