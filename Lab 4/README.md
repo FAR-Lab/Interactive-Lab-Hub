@@ -234,8 +234,8 @@ I decided to position the display at the front to make it more obvious to users.
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-![P5:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype3.jpg)
-![P6:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype4.jpg)
+![P5:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype3.JPG)
+![P6:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype4.JPG)
 
 LAB PART 2
 
