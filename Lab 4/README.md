@@ -237,7 +237,7 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 
 ### Record
 
-**Prototype Feedback Documentation:**
+#### Prototype Feedback Documentation:
 
 1. The gauntlet you have created is very creative, but the cardboard glove is kind of hard to bend, which leads to the inconvenience of typing.
 - Our Solution: We have borrowed a glove from the lab (Thank you again, Ilan) in cotton fabrics, which leads to a way better typing experience with finger gestures. It now feels softer, very light on hand, and also a better look. Very Cyberpunk now. 
@@ -245,18 +245,127 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 2. It seems like a very hard thing to learn, not very intuitive.
 - Our Solution: Yes that's true, it does requires a certain learning curve at first use, however, it's a common path of using all type of using all keyboards, and as we have tried to train ourselves over this week on doing that, we found it's not particularly harder than traditional T9 keyboard, somewhat even easier. 
 - With that being said, we did change a few things about our device set up. We now associate number 1 with the last gesture for two reasons:
--- First of all, 1 in T9 typing is the least significant, and does not associate with any letters, so it’s less frequent in terms of being used, should not be occupying the easiest to reach finger
+-- First of all, 1 in T9 typing is the least significant, as shown in the image above, and does not associate with any letters, so it’s less frequent in terms of being used, should not be occupying the easiest to reach finger
 -- Secondly, it is also reasonable to place 1 in a way that resembles how people show number 1 to others, with the index finger isolated from other fingers. The new gestures are encoded to numbers as the following:
 
-3. 
+![image](https://user-images.githubusercontent.com/42874337/138805709-d49510af-6a32-4832-95db-e457afe60ffc.png)
 
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+3. How will the speaker be placed? Will it be too heavy for people to wear?
+- The speaker will be placed on the arm for this prototype. However, depending on the user, it might be better placed near the neck if it’s used as a voice replacement for medical and accessible purposes. The whole device is not too heavy even for this prototype, it is easily lifted by arms and does not influence people’s daily lives. If it’s being integrated into smart watches, or being mass produced into a smaller size, it can be even more portable and easier to carry.
+
+
+#### Re-Prototype:
+
+Based on the feedback we received and attempts we made to test and redesign the prototype, we have made a new version of it with a lot of updates on setup and materials. Aside from what we talked about before about the fabric of the gloves, we have also rewired the inside of this device prototype and added the speaker to it as a new way of output. We have also made minor changes like adding more conductive tapes to fingertips and added clips to enhance the connection (also very cyberpunk, we like it a lot). Here’s our record of the process and the final design of the gauntlet:
+
+![image](https://user-images.githubusercontent.com/42874337/138805781-b5c23176-62db-4f79-8456-d16990c3e64f.png)
+
+![image](https://user-images.githubusercontent.com/42874337/138805796-a5ce61b2-565a-4835-b3ae-c24cf82d88b9.png)
+
+![image](https://user-images.githubusercontent.com/42874337/138805812-ce117847-759f-4288-b092-f5318e8fa29e.png)
+
+![image](https://user-images.githubusercontent.com/42874337/138805841-dd3a98d5-6a58-4756-b63c-1693f9400b5c.png)
+
+[![image](https://user-images.githubusercontent.com/42874337/138805841-dd3a98d5-6a58-4756-b63c-1693f9400b5c.png)](https://drive.google.com/file/d/1432WFbeaX180M1sPeYsPxpgQvese5w3z/view?usp=sharing)
+
+#### Works Like:
+
+In order to make the device actually work as we designed it to be, we have conquered multiple barriers from programming to physical layout of the device. Some major issues we have conquered are: T9 typing predictive algorithm, sensor accuracy, input presentation (visual interface), and how to backspace and output using the gesture sensor. Along the way another major problem we have solved is how to create multithreaded programs (input-output concurrency) that allows as authenticate and as realistic typing experience as possible. 
 
 Code of this device: [Code Repo](https://github.com/CaseyPYZ/Interactive-Lab-Hub/tree/Fall2021/Lab%204/finite_gauntlet)
 
 (Including multiple versions from single thread to multithread)
+
+##### T9 Input Imitation
+
+We wanted the prototype to be able to provide the full experience of a well-functioning “keyboard”, so we implemented a simple version of T9 input.
+
+***Reference: https://stackoverflow.com/questions/12074963/t9-system-to-numpad***
+
+We built off of method #2 given in the reference shown above, which is a brute force T9 input system imitator. It had a weighting factor to determine in what order it should show the user the detected possible word inputs. The original post used Project Gutenberg's The Adventures of Sherlock Holmes as its weighting reference material. We later found out that this source was not ideal because of its artistic nature as a literature work, and the fact that it is missing some common words such as “hi”. Therefore, we replaced the weighting reference with a database that contains a massive amount of conversation text of humans with chatbots that many researchers have built before, which resembles the environment we expected our users to be in (normal daily conversations).
+
+***Reference: http://convai.io/data/***
+
+After these tweaks, the imitator worked great, and the predictive algorithm provided a very good typing experience just like the everyday input method we use in modern mobile devices settings. It will predict the possible words based on frequencies of the words in daily conversation, and display the words with highest frequencies just like modern input methods. 
+
+##### Visual Presentation
+
+The visual output of our device takes the form of three lines of text.
+
+* **1st line:** Currently imputed characters;
+* **2nd line:** List of words predicted by the T9 system;
+* **3rd line:** Words being imputed already, waiting to be outputted as a sentence
+
+At every confirmed output with a RIGHT gesture, the input buffers are cleared, so is the screen.
+
+Here’s an example of how it works with every input:
+
+- Input: 4
+
+![image](https://user-images.githubusercontent.com/42874337/138806019-6edd1ebe-25a0-471d-8d3d-67922dc6521a.png)
+
+- Input: 3
+
+![image](https://user-images.githubusercontent.com/42874337/138806042-2b98c398-e95f-4bb9-8dd8-8274eb0d18f0.png)
+
+- Input: 5
+
+![image](https://user-images.githubusercontent.com/42874337/138806059-992d7d75-2854-4d89-b89c-d2571d91b954.png)
+
+- Input: 5
+
+![image](https://user-images.githubusercontent.com/42874337/138806074-f26cd95a-dee6-48a3-8527-a8fdfa535580.png)
+
+- Input: 6
+
+![image](https://user-images.githubusercontent.com/42874337/138806084-059f1ce5-1b3e-42a3-8a94-3a20dae74358.png)
+
+##### Sensor Concurrency
+
+One of the major problems we tackled in the development of this prototype was sensor concurrency. In our design, there are two major sensors: capacitive sensors for typing and gesture sensor for backspace/confirming output; in addition, there’s a OLED screen as our visual output method.
+
+At first, we have our program running a main *while loop* that looped every *0.5 seconds*. This timing threshold is set in favor of the capacitive sensors, so that it recognizes an input once at every touch. However, this looping rate made our gesture sensor very insensitive to gestures. In order for the gesture sensor to work properly, it needs to be constantly watching for gestures instead of checking once every 0.5 second.
+
+To fix this problem, we refactored our code into a multi-thread program, in which the gesture sensor runs on its only thread that runs a regular while loop with no sleeping time, while the capacitive sensors stay on the main 0.5-second-sleeping-time loop.
+
+The OLED screen is also handled on the main thread, as it only needed to update display contents whenever the capacitive sensor inputs change.
+
+##### Backspace and Output
+
+As previously mentioned, backspace and output confirmation (device speaks out the sentence) is controlled by a gesture sensor that runs concurrently in its own thread.
+
+The gesture sensor thread runs a while loop and constantly checks for gestures. It rests on an IDLE state, and has two triggering states:
+
+**When there’s a RIGHT gesture and the input buffer is not empty:** triggers a output confirmation, the program opens up a subprocess and speaks out the sentence with GoogleTTS;
+**When there’s a LEFT gesture and the input numbers (1-9, stored in the NUM buffer) for the current word is not empty:** triggers a backspace, and the last number in the current NUM buffer is popped, carrying out a backspace.
+
+**An example of how backspace works**
+
+![image](https://user-images.githubusercontent.com/42874337/138806175-6b9291ba-e530-4fe4-9702-550202c22fc1.png)
+
+It’s worth noticing that we changed the placement of the gesture sensor in our final device prototype based on on-site feedback. At first we had the gesture sensor taped to the side of the glove’s index finger as originally designed, but later in testing we found out that the material of the glove is very hard for tape to stay on, and didn’t allow very stable attachments.
+
+The attachment method that made the most sense would be sewing the sensor onto the glove, but we did not want to damage the glove (It was very generous of Ilan to lend it to us). So for the sake of user testing, we moved the sensor to the upper side of the wrist.
+
+Despite this change, our original index-finger-side design is still solid, and worked well when we tested it on bare hands. With a more suitable glove, it can be properly implemented to carry the device’s spirit of single-hand operation.
+
+**Final Device Test by Designer:**
+
+[![image](https://user-images.githubusercontent.com/42874337/138806260-64475984-de9d-44d9-8b25-c73acc4f7bb7.png)](https://drive.google.com/file/d/13Tzd2pMfzkxl-mV37OJtgb4bQ9B1ijnf/view?usp=sharing)
+
+##### User Test
+
+We invited a participant from outside the class to experience our prototype.
+
+[![image](https://user-images.githubusercontent.com/42874337/138806337-edf0497f-833c-4434-a4e2-8dc232f5e78e.png)](https://drive.google.com/file/d/13OhOeQ8sqMVtkOxja7GMKASgozzr4kq3/view?usp=sharing)
+
+In general, the device worked well and functioned as intended. The participant was able to type in some words after getting familiar with the 9-key input methods and learning which gesture meant which number.
+
+#### Future Improvements
+
+We should use softer and more flexible fabric for **glove material**. User tests showed that the current material is lacking flexibility and is somewhat heavy.
+**Conductive material for capacitive sensors** should be switched to something softer, more resilient, elastic and flexible. The conductive tape we used in this prototype worked great in transmitting capacitance, but it had no elasticity, so it broke very easily. For this device, **conductive thread** would be a great choice.
+If the device design is connected to smaller computer units, like smart watches, and using more accurate sensors, it can be very useful and portable for many modern scenarios. For example: solving small screen problems for smartwatch text input, accessible devices that are built for people who are in need of voice replacement, pair with AR headsets like smart glasses to text without looking down. 
 
 
 
