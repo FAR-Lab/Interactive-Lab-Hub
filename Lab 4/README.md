@@ -233,7 +233,8 @@ I decided to position the display at the front to make it more obvious to users.
 
 Build a cardbord prototype of your design.
 
-**\*\*\*Document your rough prototype.\*\*\***
+**\*\*\*Document your rough prototype.\*\*\*** <br />
+This is the rough prototype of the "hand wash station"! I connected the display and one button to the station and will continue to connect the second button for hand sanitizer in part 2. The prototype will be more well-rounded once I connect every interactive part and complete the look of the station.
 ![P5:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype3.JPG)
 ![P6:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype4.JPG)
 
