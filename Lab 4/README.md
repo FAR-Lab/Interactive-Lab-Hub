@@ -353,7 +353,9 @@ We invited a participant from outside the class to experience our prototype.
 
 [![image](https://user-images.githubusercontent.com/42874337/138806337-edf0497f-833c-4434-a4e2-8dc232f5e78e.png)](https://drive.google.com/file/d/13OhOeQ8sqMVtkOxja7GMKASgozzr4kq3/view?usp=sharing)
 
-In general, the device worked well and functioned as intended. The participant was able to type in some words after getting familiar with the 9-key input methods and learning which gesture meant which number.
+In general, the device worked well and functioned as intended. The participant was able to type in some words after getting familiar with the 9-key input methods and learning which gesture meant which number. 
+
+There are certain feedback from real user that suggests our device is still at a primary stage that the interaction is not as convenient as a mature product. It does type slowly, inaccurate from time to time, and definitely not looks like what you'd wear outside. However, it does perform at a inspiring level of its purpose, typing in and speaking out. 
 
 #### Future Improvements
 
