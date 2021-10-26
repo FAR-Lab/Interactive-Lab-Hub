@@ -283,7 +283,7 @@ The station is a light weight box consisting of a bottle of hand soap and a bott
 ![P7:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look1.JPG)
 ![P8:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look2.JPG)
 * "Works like": shows what the device can do
-
+The device woule dispense soap or sanitizer once users make a selection and click the corresponding button. With the display, users can be informed on the number of times they've cleaned their hands (see cap_test.py). The 
 ![P9:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work1.JPG)
 ![P10:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work2.JPG)
 * "Acts like": shows how a person would interact with the device
