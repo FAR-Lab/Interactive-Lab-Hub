@@ -278,12 +278,12 @@ We encourage you to try using these controls, **while** paying particular attent
 For this lab, I made a hygiene station that seeks to help people build a routine to clean their hands either with hand soap or sanitizer.
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
+* "Looks like": shows how the device should look, feel, sit, weigh, etc. <br />
 The station is a light weight box consisting of a bottle of hand soap and a bottle of hand sanitizer. It doesn't take up too much space and is encouraged to be placed on the entryway cabinets. Users can clean their hands the first thing when they return home at the hygiene station. The options are clearly labeled as SANITIZER and SOAP to inform users what are contained inside the box. 
 ![P7:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look1.JPG)
 ![P8:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look2.JPG)
-* "Works like": shows what the device can do
-The device woule dispense soap or sanitizer once users make a selection and click the corresponding button. With the display, users can be informed on the number of times they've cleaned their hands (see cap_test.py). The 
+* "Works like": shows what the device can do <br />
+The device woule dispense soap or sanitizer once users make a selection and click the corresponding button. With the display, users can be informed on the number of times they've cleaned their hands (see cap_test.py). Essentially, the rasperry pi is the brain of the device that reads users' inputs from the buttons and further deliver the corresponding outputs (a pump of soap/sanitizer and message on the display). 
 ![P9:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work1.JPG)
 ![P10:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work2.JPG)
 * "Acts like": shows how a person would interact with the device
