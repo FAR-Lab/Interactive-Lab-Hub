@@ -239,11 +239,18 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 
 **Prototype Feedback Documentation:**
 
-1. The gauntlet you have created is very creative, but the cardboard glove is kind of hard to bend, which leads to inconvenience of typing.
-- Our Solution: We have borrowed a glove from the lab (Thank you again, Ilan) in cotton fabrics, which leads to a way better typing experience with finger gestures. It now feels softer, very light on hand, also a better look. Very Cyberpunk now. 
+**Prototype Feedback Documentation:**
+
+1. The gauntlet you have created is very creative, but the cardboard glove is kind of hard to bend, which leads to the inconvenience of typing.
+- Our Solution: We have borrowed a glove from the lab (Thank you again, Ilan) in cotton fabrics, which leads to a way better typing experience with finger gestures. It now feels softer, very light on hand, and also a better look. Very Cyberpunk now. 
+
 2. It seems like a very hard thing to learn, not very intuitive.
 - Our Solution: Yes that's true, it does requires a certain learning curve at first use, however, it's a common path of using all type of using all keyboards, and as we have tried to train ourselves over this week on doing that, we found it's not particularly harder than traditional T9 keyboard, somewhat even easier. 
-- With that being said, we did change a few things, 
+- With that being said, we did change a few things about our device set up. We now associate number 1 with the last gesture for two reasons:
+-- First of all, 1 in T9 typing is the least significant, and does not associate with any letters, so it’s less frequent in terms of being used, should not be occupying the easiest to reach finger
+-- Secondly, it is also reasonable to place 1 in a way that resembles how people show number 1 to others, with the index finger isolated from other fingers. The new gestures are encoded to numbers as the following:
+
+3. 
 
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
