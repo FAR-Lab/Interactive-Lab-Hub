@@ -96,9 +96,9 @@ while True:
     draw.text((x, y), _blue, font=font, fill="#0050FF")
     y += font.getsize(_blue)[1]
     draw.text((x, y), "Final Color: \n"+_hex, font=font, fill=_hex)
-    disp.image(image, rotation)
     
     draw.rectangle([(2*width/3, 0), (width, height)], outline=0, fill=_hex)
+    disp.image(image, rotation)
 
     #print("color temp {}".format(colorutility.calculate_color_temperature(r, g, b)))
     #print("light lux {}".format(colorutility.calculate_lux(r, g, b)))
