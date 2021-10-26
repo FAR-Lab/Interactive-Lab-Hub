@@ -363,9 +363,9 @@ In general, the device worked well and functioned as intended. The participant w
 
 #### Future Improvements
 
-We should use softer and more flexible fabric for **glove material**. User tests showed that the current material is lacking flexibility and is somewhat heavy.
-**Conductive material for capacitive sensors** should be switched to something softer, more resilient, elastic and flexible. The conductive tape we used in this prototype worked great in transmitting capacitance, but it had no elasticity, so it broke very easily. For this device, **conductive thread** would be a great choice.
-If the device design is connected to smaller computer units, like smart watches, and using more accurate sensors, it can be very useful and portable for many modern scenarios. For example: solving small screen problems for smartwatch text input, accessible devices that are built for people who are in need of voice replacement, pair with AR headsets like smart glasses to text without looking down. 
+1. We should use softer and more flexible fabric for **glove material**. User tests showed that the current material is lacking flexibility and is somewhat heavy.
+2. **Conductive material for capacitive sensors** should be switched to something softer, more resilient, elastic and flexible. The conductive tape we used in this prototype worked great in transmitting capacitance, but it had no elasticity, so it broke very easily. For this device, **conductive thread** would be a great choice.
+3. If the device design is connected to smaller computer units, like smart watches, and using more accurate sensors, it can be very useful and portable for many modern scenarios. For example: solving small screen problems for smartwatch text input, accessible devices that are built for people who are in need of voice replacement, pair with AR headsets like smart glasses to text without looking down. 
 
 
 
