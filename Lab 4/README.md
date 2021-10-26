@@ -25,16 +25,6 @@ For submission, the readme.md page for this lab should be edited to include the 
 * Group members can turn in one repository, but make sure your Hub readme.md links to the shared repository.
 * Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
 
-## Lab Overview
-
-C) [Paper Display](#part-c)
-
-D) [Materiality](#part-d)
-
-E) [Servo Control](#part-e)
-
-F) [Record the interaction](#part-f)
-
 ## The Report (Part 1: A-D, Part 2: E-F)
 
 ### Part C
