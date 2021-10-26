@@ -239,8 +239,6 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 
 **Prototype Feedback Documentation:**
 
-**Prototype Feedback Documentation:**
-
 1. The gauntlet you have created is very creative, but the cardboard glove is kind of hard to bend, which leads to the inconvenience of typing.
 - Our Solution: We have borrowed a glove from the lab (Thank you again, Ilan) in cotton fabrics, which leads to a way better typing experience with finger gestures. It now feels softer, very light on hand, and also a better look. Very Cyberpunk now. 
 
@@ -255,4 +253,10 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
+
+Code of this device: 
+
+(Including multiple versions from single thread to multithread)
+
+[Code Folder](https://github.com/CaseyPYZ/Interactive-Lab-Hub/tree/Fall2021/Lab%204/finite_gauntlet)
 
