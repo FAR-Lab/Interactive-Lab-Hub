@@ -337,3 +337,31 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+Maze Runner is intended to be an interactive version of the traditional maze game. The game is designed to be held by the user, who has an objective to turn/rotate the prototype in such a way as to move the ball through the maze to the endpoint in the center all while navigating obstacles and avoiding pitfalls.
+
+Pictures of the finalized prototype are included below. Changes from the previous iteration include the addition of holes through which the ball can fall through, and cutouts for the OLED screen as well as the LED button. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/IMG-0255.jpg)
+
+The 3-D nature of the box allows for the raspberry pi to be discreetly housed within the unit. An important piece of feedback that I received was that I would have to be conscious of where the computing components are located within the unit. Since the game involves a ball falling through some of the holes, computing components and wires would have to be placed in such a way as to allow the ball to freely fall through without interference, as well as to allow the user to safely retrieve the ball with minimal hassle. In order for to achieve this design goal, I decided to open up the bottom of the prototype and place the raspberry pi on the inner back panel of the box. This allows for the ball to safely fall through the open bottom and for the user to be able to easily retrieve it. Additionally, placing the Pi on the center of the inner back panel was the optimal position that resulted in a relatively even weight distribution. This was an important design consideration, since the game is meant to be held by users - placement of the pi on the other inner panels of the prototype did not have the right feel.
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/IMG-0256.jpg)
+
+Another change that I incorporated based on user feedback was to actually put the LED button on the front lower panel of the prototype in order to increase its visibility. A tendency for users during user testing was to immediately pick up the game and start playing without pressing the start button. Therefore, I also decided to add a pre-initialization state to the game where the game awaits user input. Please see the short video below.
+
+https://youtu.be/2uPztmmkKnI
+
+In the pre-initialization state, the OLED screen clearly shows a "Press Start!" prompt that indicates to the user that they should press the start button. Additionally, I added blinking green light functionality to the button so as to catch the user's attention and make them aware of the location of the start button.
+
+When the button is pressed, the LED light on the button turns on and stays green (ie it stops blinking), giving users visual feedback that the game has started. Additionally, a stopwatch is displayed on the OLED screen that counts upwards in seconds, giving users an indication of the time it is taking for them to navigate through the maze. As users navigate obstacles and avoid the holes in the maze that the ball can fall through, they can easily gauge their time on the OLED screen that is placed on an adjustable flap which can be repositioned for optimal visibility. 
+
+When the user finally navigates the maze and reaches the endpoint, the ball will roll over a proximity sensor. When the sensor senses the presence of the ball, the timer stops and the user can check to see how their time was. Afterwards, the prototype once again enters the pre-initialization state, and the user can press start in order to try again and beat their previous time. Please also see the video explanation below of how the prototype is designed to be used. 
+
+https://youtu.be/HHl5aDZcoD4
+
+Lastly, please see the video below on how a person would interact with the device. Note that the perspective is flipped (the box is held backwards in the video) for better visibility of how the game works live. This perspective has the added advantage of allowing viewers of the video to feel as if they are holding the game and playing themselves. The video quality is a little blurry due to limitations with the webcam, but please note the the change in the OLED screen to the display of the stopwatch when the start button is pressed, as well as the pausing of the time when the ball reaches the proximity sensor. 
+
+https://youtu.be/2INAGaeZQfo
+
+As the user navigates the maze, they successfully take the first turn and traverse the obstacle "walls". However, they overshoot the next turn after passing the final obstacle wall and the ball ends up falling through the hole. The user was easily able to retrieve the ball and place it back on the starting position with minimal hassle. When the user is finally able to reach the endpoint in the middle of the maze, the ball triggers the proximity sensor to stop the time and the user is able to see the time that it took for them to navigate the maze on this attempt. The game then enters the pre-initialization state, indicating to the user that they can press start in order to try to navigate the maze again. 
+
