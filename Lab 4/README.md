@@ -286,5 +286,7 @@ The station is a light weight box consisting of a bottle of hand soap and a bott
 The device woule dispense soap or sanitizer once users make a selection and click the corresponding button. With the display, users can be informed on the number of times they've cleaned their hands (see cap_test.py). Essentially, the rasperry pi is the brain of the device that reads users' inputs from the buttons and further deliver the corresponding outputs (a pump of soap/sanitizer and message on the display). 
 ![P9:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work1.JPG)
 ![P10:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work2.JPG)
-* "Acts like": shows how a person would interact with the device
+* "Acts like": shows how a person would interact with the device <br />
+The following video protrays a use case - <br />
+A user returns home, and while she walking pass the entryway, she sees the hygiene station and decides to wash hands before entering the living room to cuddle with her cat. She clicks the 'sanitize' button to get a pump of hand sanitizer. As she rubs her hands together, she is satisfied to see that she has washed her hands for a few times today already. <br />
 Video of interaction - https://drive.google.com/file/d/1yT1pCPW55wxOwEhagmMtXeSODkK560iL/view?usp=sharing
