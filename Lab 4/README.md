@@ -321,4 +321,9 @@ Video of design
 
 https://drive.google.com/file/d/1lIo_XPdRyEbJDkr1j8dZnyB9NltPcDic/view?usp=sharing
 
+***Video explaining the screen and keyboard:***
+
+https://drive.google.com/file/d/1MnFvzi-QiZ9qf7FWoieuDBMMA6s8dy8u/view?usp=sharing
+
+
 
