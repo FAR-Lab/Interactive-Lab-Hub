@@ -254,7 +254,7 @@ Based on the feedback we received and attempts we made to test and redesign the 
 
 ![image](https://user-images.githubusercontent.com/42874337/138805812-ce117847-759f-4288-b092-f5318e8fa29e.png)
 
-![image](https://user-images.githubusercontent.com/42874337/138805841-dd3a98d5-6a58-4756-b63c-1693f9400b5c.png)
+(Video:)
 
 [![image](https://user-images.githubusercontent.com/42874337/138805841-dd3a98d5-6a58-4756-b63c-1693f9400b5c.png)](https://drive.google.com/file/d/1432WFbeaX180M1sPeYsPxpgQvese5w3z/view?usp=sharing)
 
@@ -341,11 +341,15 @@ Despite this change, our original index-finger-side design is still solid, and w
 
 **Final Device Test by Designer:**
 
+(Video:)
+
 [![image](https://user-images.githubusercontent.com/42874337/138806260-64475984-de9d-44d9-8b25-c73acc4f7bb7.png)](https://drive.google.com/file/d/13Tzd2pMfzkxl-mV37OJtgb4bQ9B1ijnf/view?usp=sharing)
 
 ##### User Test
 
 We invited a participant from outside the class to experience our prototype.
+
+(Video:)
 
 [![image](https://user-images.githubusercontent.com/42874337/138806337-edf0497f-833c-4434-a4e2-8dc232f5e78e.png)](https://drive.google.com/file/d/13OhOeQ8sqMVtkOxja7GMKASgozzr4kq3/view?usp=sharing)
 
