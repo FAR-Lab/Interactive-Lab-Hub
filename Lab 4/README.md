@@ -254,7 +254,7 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
-Code of this device: [Code Folder](https://github.com/CaseyPYZ/Interactive-Lab-Hub/tree/Fall2021/Lab%204/finite_gauntlet)
+Code of this device: [Code Repo](https://github.com/CaseyPYZ/Interactive-Lab-Hub/tree/Fall2021/Lab%204/finite_gauntlet)
 
 (Including multiple versions from single thread to multithread)
 
