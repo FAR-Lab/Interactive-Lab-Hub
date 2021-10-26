@@ -255,14 +255,33 @@ Build a cardboard prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+/Users/gracele/Downloads/IMG_8415.HEIC 
 
-
+/Users/gracele/Downloads/IMG_8416.HEIC 
 
 LAB PART 2
 
 ### Part 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
+
+/Users/gracele/Downloads/IMG_8415.HEIC 
+
+/Users/gracele/Downloads/IMG_8416.HEIC 
+
+/Users/gracele/Downloads/IMG_8417.HEIC 
+
+/Users/gracele/Downloads/IMG_8420.HEIC 
+
+
+***Video of design***
+
+https://drive.google.com/file/d/1lIo_XPdRyEbJDkr1j8dZnyB9NltPcDic/view?usp=sharing
+
+
+
+
+
 
 ### Part E (Optional)
 ### Servo Control with Joystick
