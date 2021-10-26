@@ -255,10 +255,10 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 I wasn't able to get the smaller display working so I was limited as to how I could position the Pi in order to use the old display. Future versions would hide the Pi better and use the smaller display. I would also prefer to use a ring light than the flashlight I had access to. Unfortunately the flashlight was very powerful and its intensity sometimes overpowers the sensor. I would also like the light to be wired into the Pi so that the button could both turn off the light and freeze the image.
 
-Here's a video of the device in action.
+![Here's a video of the device in action.](https://photos.app.goo.gl/9YnwK5oQwDWbUx8q6)
 
 Photos of the device:
 
-<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_1.jpg?raw=true"  width="250"/>
-<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_2.jpg?raw=true"  width="250"/>
-<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_3.jpg?raw=true"  width="250"/>
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_1.jpg?raw=true"  width="500"/>
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_2.jpg?raw=true"  width="500"/>
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_3.jpg?raw=true"  width="500"/>
