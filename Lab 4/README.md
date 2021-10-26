@@ -281,7 +281,7 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 ![P7:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look1.JPG)
 ![P8:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look2.JPG)
 * "Works like": shows what the device can do
-![P9:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look1.JPG)
-![P10:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look2.JPG)
+![P9:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work1.JPG)
+![P10:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work2.JPG)
 * "Acts like": shows how a person would interact with the device
 Video of interaction - https://drive.google.com/file/d/1yT1pCPW55wxOwEhagmMtXeSODkK560iL/view?usp=sharing
