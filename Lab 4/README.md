@@ -279,7 +279,7 @@ For this lab, I made a hygiene station that seeks to help people build a routine
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
-
+The station is a light weight box consisting of a bottle of hand soap and a bottle of hand sanitizer. It doesn't take up too much space and is encouraged to be placed on the entryway cabinets. Users can clean their hands the first thing when they return home at the hygiene station. The options are clearly labeled as SANITIZER and SOAP to inform users what are contained inside the box. 
 ![P7:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look1.JPG)
 ![P8:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look2.JPG)
 * "Works like": shows what the device can do
