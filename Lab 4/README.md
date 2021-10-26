@@ -227,8 +227,9 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\*** <br />
 Through sketching, I noticed a few questions. The first one is how to place the buttons - detach or attach them on the bottle, if attached, should they be on the side or at the front of the bottles? Another question is how to ensure that users understand the relationship between the bottles and the display. It seems to work better if the display is placed near the bottles so that users can readily know that they are related. Also, to convey to users that their interactions with "both" bottles are connected to the display, I need to prototype the display being positioned in between the buttons. <br />
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\*** <br />
-I decided to integrate the third display design which has a display on top of both buttons to clearly di
+I decided to integrate the third display design - both buttons and display are at the front, with the display being positioned above the buttons. <br />
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+I decided to position the display at the front to make it more obvious to users. The display would deliver important message to encourage users to wash/sanitize hands. Therefore, the display itself should be found and seen easily, and the text on it should be in a readable size. I also chose to attach the buttons at the front the bottles to make them easy to click, considering all the possible interactions with the buttons. There might be 3 ways to interact with the buttons - using fingers to tap, using the plam of the hand to tap, and lastly using the back of the hand (this is more likely now due to the pandemic). These 3 kinds of interaction are more likely to be achieved with the third design where the buttons are at the bottom front of the bottles.
 
 Build a cardbord prototype of your design.
 
