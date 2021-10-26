@@ -308,6 +308,13 @@ Here’s an example of how it works with every input:
 
 ![image](https://user-images.githubusercontent.com/42874337/138806084-059f1ce5-1b3e-42a3-8a94-3a20dae74358.png)
 
+**Beta Test**
+
+[![image](https://user-images.githubusercontent.com/42874337/138808672-f384f5df-eb1f-42c7-a513-b9e02b4dc3fa.png)](https://drive.google.com/file/d/13v4Ig_wAF3ywqK01b9tZsAOjzq598B7c/view?usp=sharing)
+
+With the beta test, we have encountered the concurrency problem of detecting input and output simutaneously.
+
+
 #### Sensor Concurrency
 
 One of the major problems we tackled in the development of this prototype was sensor concurrency. In our design, there are two major sensors: capacitive sensors for typing and gesture sensor for backspace/confirming output; in addition, there’s a OLED screen as our visual output method.
