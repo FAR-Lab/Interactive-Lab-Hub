@@ -233,7 +233,9 @@ The sketches definitely make me question how I'm going to wire the display to ma
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+**\*\*\*Explain the rationale for the design.\*\*\*** 
+
+Out of necessity I went with a combination of designs 1 and 2 (I could not get the small display to work). I also think the flashlight style is the most intuitive for a user.
 
 Build a cardbord prototype of your design.
 
@@ -257,3 +259,6 @@ Here's a video of the device in action.
 
 Photos of the device:
 
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_1.jpg?raw=true"  width="250"/>
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_2.jpg?raw=true"  width="250"/>
+<img src="https://github.com/standardnormal/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lab4_3.jpg?raw=true"  width="250"/>
