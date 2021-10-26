@@ -225,9 +225,7 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 (Thank you Ilan, for gloving us.)
 (and thank you for the tape as well)
 
-### Record
-
-#### Prototype Feedback Documentation:
+### Prototype Feedback Documentation:
 
 1. The gauntlet you have created is very creative, but the cardboard glove is kind of hard to bend, which leads to the inconvenience of typing.
 - Our Solution: We have borrowed a glove from the lab (Thank you again, Ilan) in cotton fabrics, which leads to a way better typing experience with finger gestures. It now feels softer, very light on hand, and also a better look. Very Cyberpunk now. 
@@ -244,7 +242,7 @@ As shown in the video, we have saved holes for plugging in the pi and actually r
 - The speaker will be placed on the arm for this prototype. However, depending on the user, it might be better placed near the neck if it’s used as a voice replacement for medical and accessible purposes. The whole device is not too heavy even for this prototype, it is easily lifted by arms and does not influence people’s daily lives. If it’s being integrated into smart watches, or being mass produced into a smaller size, it can be even more portable and easier to carry.
 
 
-#### Re-Prototype:
+### Re-Prototype:
 
 Based on the feedback we received and attempts we made to test and redesign the prototype, we have made a new version of it with a lot of updates on setup and materials. Aside from what we talked about before about the fabric of the gloves, we have also rewired the inside of this device prototype and added the speaker to it as a new way of output. We have also made minor changes like adding more conductive tapes to fingertips and added clips to enhance the connection (also very cyberpunk, we like it a lot). Here’s our record of the process and the final design of the gauntlet:
 
@@ -258,7 +256,7 @@ Based on the feedback we received and attempts we made to test and redesign the 
 
 [![image](https://user-images.githubusercontent.com/42874337/138805841-dd3a98d5-6a58-4756-b63c-1693f9400b5c.png)](https://drive.google.com/file/d/1432WFbeaX180M1sPeYsPxpgQvese5w3z/view?usp=sharing)
 
-#### Works Like:
+### Works Like:
 
 In order to make the device actually work as we designed it to be, we have conquered multiple barriers from programming to physical layout of the device. Some major issues we have conquered are: T9 typing predictive algorithm, sensor accuracy, input presentation (visual interface), and how to backspace and output using the gesture sensor. Along the way another major problem we have solved is how to create multithreaded programs (input-output concurrency) that allows as authenticate and as realistic typing experience as possible. 
 
@@ -266,7 +264,7 @@ Code of this device: [Code Repo](https://github.com/CaseyPYZ/Interactive-Lab-Hub
 
 (Including multiple versions from single thread to multithread)
 
-##### T9 Input Imitation
+#### T9 Input Imitation
 
 We wanted the prototype to be able to provide the full experience of a well-functioning “keyboard”, so we implemented a simple version of T9 input.
 
@@ -278,7 +276,7 @@ We built off of method #2 given in the reference shown above, which is a brute f
 
 After these tweaks, the imitator worked great, and the predictive algorithm provided a very good typing experience just like the everyday input method we use in modern mobile devices settings. It will predict the possible words based on frequencies of the words in daily conversation, and display the words with highest frequencies just like modern input methods. 
 
-##### Visual Presentation
+#### Visual Presentation
 
 The visual output of our device takes the form of three lines of text.
 
@@ -310,7 +308,7 @@ Here’s an example of how it works with every input:
 
 ![image](https://user-images.githubusercontent.com/42874337/138806084-059f1ce5-1b3e-42a3-8a94-3a20dae74358.png)
 
-##### Sensor Concurrency
+#### Sensor Concurrency
 
 One of the major problems we tackled in the development of this prototype was sensor concurrency. In our design, there are two major sensors: capacitive sensors for typing and gesture sensor for backspace/confirming output; in addition, there’s a OLED screen as our visual output method.
 
@@ -320,7 +318,7 @@ To fix this problem, we refactored our code into a multi-thread program, in whic
 
 The OLED screen is also handled on the main thread, as it only needed to update display contents whenever the capacitive sensor inputs change.
 
-##### Backspace and Output
+#### Backspace and Output
 
 As previously mentioned, backspace and output confirmation (device speaks out the sentence) is controlled by a gesture sensor that runs concurrently in its own thread.
 
@@ -345,7 +343,7 @@ Despite this change, our original index-finger-side design is still solid, and w
 
 [![image](https://user-images.githubusercontent.com/42874337/138806260-64475984-de9d-44d9-8b25-c73acc4f7bb7.png)](https://drive.google.com/file/d/13Tzd2pMfzkxl-mV37OJtgb4bQ9B1ijnf/view?usp=sharing)
 
-##### User Test
+#### User Test
 
 We invited a participant from outside the class to experience our prototype.
 
@@ -357,7 +355,7 @@ In general, the device worked well and functioned as intended. The participant w
 
 There are certain feedback from real user that suggests our device is still at a primary stage that the interaction is not as convenient as a mature product. It does type slowly, inaccurate from time to time, and definitely not looks like what you'd wear outside. However, it does perform at a inspiring level of its purpose, typing in and speaking out. 
 
-#### Future Improvements
+### Future Improvements
 
 1. We should use softer and more flexible fabric for **glove material**. User tests showed that the current material is lacking flexibility and is somewhat heavy.
 2. **Conductive material for capacitive sensors** should be switched to something softer, more resilient, elastic and flexible. The conductive tape we used in this prototype worked great in transmitting capacitance, but it had no elasticity, so it broke very easily. For this device, **conductive thread** would be a great choice.
