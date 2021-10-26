@@ -173,13 +173,15 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\*** <br />
 I picked Capacitive Sensing to sketch 5 different applications.
 ![P1:sketch](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Sketch1.jpg)
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\*** <br />
 For most of the designs, it's critical to ensure that the sensor is properly connected to the device. Only when the sensor is properly connected, the output of the sensor can be read and triggers the device to further produce corresponding responses. Another question is how to make the sensor and the entire product intuitive and understandable. The look and location of the sensor/controls need to be prototyped to understand the user experience. <br />
 **\*\*\*Pick one of these designs to prototype.\*\*\*** <br />
-Music Player - ![P2:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype1.JPG)
+I decided to prototype the soap dispenser design. As shown in the pictures, I also added a hand sanitizer to provide a second option for users. In an ideal scenario, when users tap a button on the bottle, soap or sanitizer would be dispensed. 
+![P2:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype1.JPG)
+![P3:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype2.JPG)
 
 
 ### Part D
