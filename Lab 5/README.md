@@ -17,7 +17,7 @@ This lab will help you think through the design of observant systems, particular
 
 1. Raspberry Pi
 1. Webcam 
-1. Microphone (if you want speech or sound input)
+1. Microphone (if you want to have speech or sound input for your design)
 
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
