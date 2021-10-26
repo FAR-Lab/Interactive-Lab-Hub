@@ -223,7 +223,7 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-![P4:sketch](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Sketch2.JPG)
+![P4:sketch](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Sketch2.jpg)
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\*** <br />
 Through the sketch, I noticed a few questions. The first one is where to place the buttons - attach or detach from the bottle, if attached, on the side or at the front? Another question is how to ensure users understand the relationship between the bottles and the display. That being said, the display needs to be placed near the bottles so users can readily know that they are related. Also, to convey to users that their interactions with "both" bottles are connected to the display, I need to prototype the display being placed in between the buttons. <br />
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\*** <br />
