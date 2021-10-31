@@ -103,14 +103,14 @@ We here want you to get to know this awesome sensor [Adafruit APDS-9960](https:/
 
 <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" width=200>
 
-Connect it to your pi with Qwiic connector and try running the 3 example scripts individually to see what the sensor is capable of doing!
+Connect it to your pi with Qwiic connector and try running the three example scripts individually to see what the sensor is capable of doing!
 
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python light_test.py
-...
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python proximity_test.py
 ...
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python gesture_test.py
+...
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python color_test.py
 ...
 ```
 
@@ -173,11 +173,15 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
-
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\*** <br />
+I picked Capacitive Sensing to sketch 5 different applications.
+![P1:sketch](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Sketch1.jpg)
+**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\*** <br />
+For most of the designs, it's critical to ensure that the sensor is properly connected to the device. Only when the sensor is properly connected, the output of the sensor can be read and triggers the device to further produce corresponding responses. Another question is how to make the sensor and the entire product intuitive and understandable. The look and location of the sensor/controls need to be prototyped to understand the user experience. <br />
+**\*\*\*Pick one of these designs to prototype.\*\*\*** <br />
+I decided to prototype the soap dispenser design. As shown in the pictures, I also added a hand sanitizer to provide a second option for users. In an ideal scenario, when users tap a button on the bottle, soap or sanitizer would be dispensed. 
+![P2:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype1.JPG)
+![P3:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype2.JPG)
 
 
 ### Part D
@@ -219,17 +223,20 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
-
+![P4:sketch](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Sketch2.jpg)
+**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\*** <br />
+Through sketching, I noticed a few questions. The first one is how to place the buttons - detach or attach them on the bottle, if attached, should they be on the side or at the front of the bottles? Another question is how to ensure that users understand the relationship between the bottles and the display. It seems to work better if the display is placed near the bottles so that users can readily know that they are related. Also, to convey to users that their interactions with "both" bottles are connected to the display, I need to prototype the display being positioned in between the buttons. <br />
+**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\*** <br />
+I decided to integrate the third display design - both buttons and display are at the front, with the display being positioned above the buttons. <br />
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+I decided to position the display at the front to make it more obvious to users. The display is utilized to deliver important messages to encourage users to wash/sanitize hands. Therefore, the display itself should be found and seen easily, and the text on it should be in a readable size. I also chose to attach the buttons at the front of the bottles to make them easy to click. After carefully considering all the possible interactions with the buttons, I thought there might be 3 ways to interact with the buttons - using fingers to tap, using the plam of the hand to tap, and lastly using the back of the hand (this is more likely now due to the pandemic). These 3 kinds of interaction are more likely to be achieved with the third design where the buttons are at the bottom front of the bottles.
 
 Build a cardbord prototype of your design.
 
-**\*\*\*Document your rough prototype.\*\*\***
-
+**\*\*\*Document your rough prototype.\*\*\*** <br />
+This is the rough prototype of the "hand wash station"! I connected the display and one button to the station and will continue to connect the second button for hand sanitizer in part 2. The prototype will be more well-rounded once I connect every interactive part and complete the look of the station.
+![P5:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype3.JPG)
+![P6:prototype](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Prototype4.JPG)
 
 LAB PART 2
 
@@ -268,9 +275,18 @@ We encourage you to try using these controls, **while** paying particular attent
 
 ### Part F
 ### Record
+For this lab, I made a hygiene station that seeks to help people build a routine to clean their hands either with hand soap or sanitizer.
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
-
+* "Looks like": shows how the device should look, feel, sit, weigh, etc. <br />
+The station is a light weight box consisting of a bottle of hand soap and a bottle of hand sanitizer. It doesn't take up too much space and is encouraged to be placed on the entryway cabinets. Users can clean their hands the first thing when they return home at the hygiene station. The options are clearly labeled as SANITIZER and SOAP to inform users what are contained inside the box. 
+![P7:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look1.JPG)
+![P8:Look](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Look2.JPG)
+* "Works like": shows what the device can do <br />
+The device woule dispense soap or sanitizer once users make a selection and click the corresponding button. With the display, users can be informed on the number of times they've cleaned their hands (see cap_test.py). Essentially, the rasperry pi is the brain of the device that reads users' inputs from the buttons and further deliver the corresponding outputs (a pump of soap/sanitizer and message on the display). 
+![P9:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work1.JPG)
+![P10:Work](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/Work2.JPG)
+* "Acts like": shows how a person would interact with the device <br />
+The following video protrays a use case - <br />
+A user returns home, and while she walking pass the entryway, she sees the hygiene station and decides to wash hands before entering the living room to cuddle with her cat. She clicks the 'sanitize' button to get a pump of hand sanitizer. As she rubs her hands together, she is satisfied to see that she has washed her hands for a few times today already. <br />
+Video of interaction - https://drive.google.com/file/d/1yT1pCPW55wxOwEhagmMtXeSODkK560iL/view?usp=sharing
