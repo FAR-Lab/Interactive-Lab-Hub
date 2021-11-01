@@ -98,7 +98,15 @@ pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
-**\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
+**\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\*** <br />
+![P1:example](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Example1.png)
+Contour Deetection can be used integrated within license plate reader to capture license plate number. This kind of plate reader design would be particularly useful at parking lots as it could prevent manual input of plate number at a kiosk. The integrated system could simply detect whether there is a license plate on a car and what the number is.
+![P2:example](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Example2.png)
+Facial Detection can be implemented to identify if there is a human face present. A design I think of is to integrate facial detection algorithm into a smart mirror, so when a human face is identified, the mirror could start displaying weather or calendar information.
+![P3:example](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Example3.png)
+Flow Detection can be used to determine how heavy the traffic is by detecting flow points and tracking motion of cars on a freeway.
+![P4:example](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Example4.png)
+Object Detection can be applied widely. I think it'd be cool to integrate object detection within a pet camera. The purpose of the design is to notify users when their pets are at the front of the camera, so users wouldn't need to constantly check whether their pets have come nearby or not.
 
 #### MediaPipe
 
