@@ -214,7 +214,13 @@ Initially I sought to extend the idea of outputting weather information when use
 <br /><br />
 However, I later decided to try out the Teachable Machines and create my own model to make the interaction more interesting. As mentioned earlier, I am interested in designing a system to detect users' energy level. A use case of this piece of data could be something as follows - a customer walks to the self-order kiosk in a coffee shop; while the customer is looking at the menu, the kiosk integrated with an energy detector would determine the customer's energy level and make suggestions on what items/how many shots of espresso to order. In my design, a user's body energy is characterized into 3 levels: energetic, half-charged, and drained. Feedack provided to users would be based on these 3 energy levels.
 ![P8:training](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Training.png)
-The screenshot above shows the training process based of the image samples collected. 
+The screenshot above shows the training process based of the image samples collected. The following screenshots are 3 different energy levels detected. <br />
+Energetic
+![P9:energetic](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Energetic.png)
+Half-charged <br />
+![P10:half-charged](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Half-charged.png)
+Drained <br />
+![P11:drained](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/drained.png)
 ### Part C
 ### Test the interaction prototype
 
