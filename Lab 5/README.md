@@ -237,7 +237,7 @@ The model works well when the testing participants have obvious facial expressio
 1. Are they aware of the uncertainties in the system?
 2. How bad would they be impacted by a miss classification?
 3. How could change your interactive system to address this?
-4. Are there optimizations you can try to do on your sense-making algorithm.
+4. Are there optimizations you can try to do on your sense-making algorithm. <br />
 I believe most people are aware that there could be uncertainties when it comes to detecing facial expressions, especially when the system is about determining energy level. It would not be 100% accurate, and the accuracy would even decreases in some cases such as people faking a smile when they are actually drained. Even though people might be aware of the existence of uncertainties, they could be unfamiliar with fluctuating factors like lighting, hair styles, and accessories wore (as mentioned above). A miss classification might be a serious issue since people are already aware of the uncertainties. If the system is applied to a self-order kiosk like my design, users might even just use the detection system for fun. However, even if it is applied for casual use, something I could change to address a miss classification is to add a disclaimer to inform users that there might be some edge cases and that they should take the suggestions with a grain of salt. I could even add additional sensors to the system to have more thorough and complete detection of facial expressions and body poses. A possible optimization I can try to do on the algorithm would be training the model with more diverse set of data including different races or ethnicities to further eliminate uncertainties based on these concerns.
 
 ### Part D
