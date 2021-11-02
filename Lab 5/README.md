@@ -208,7 +208,9 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
-**\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+**\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\*** <br />
+Initially I sought to extend the idea of outputting weather information when users stand in front of the mirror, and therefore, I tried to prototype the interaction using the facial detection method provided by OpenCV to experiment with the idea.
+
 
 ### Part C
 ### Test the interaction prototype
