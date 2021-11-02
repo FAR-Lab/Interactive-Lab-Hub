@@ -83,5 +83,4 @@ Here are final projects from last term:
 
 
 
-[Here is a list of final projects from previous versions of this class.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
-This version of the class is very different, but it may be useful to see these.
+Also, this is a list of final projects from [previous versions of this class.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects) The previous class had more emphasis on electronics and less on design, but still these can be useful to see.
