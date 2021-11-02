@@ -100,6 +100,23 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/contours.png)
+
+Contours was a cool example that allows for detection of edges. This could be useful in an walking assitant. It is quite common for people to be on their phones while walking, and so having an extra pair of eyes to detect edges of potential obstacles could be useful by alerting users when they get too close to an edge. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/face_detection.png)
+
+The face detection example was able to detect the overall face as well as features such as the eyes, nose, and mouth. An example design that would work well with face detection could be a mask detector that reminds people to keep their masks on when indoors. If the algorithm detects facial features such as the nose or mouth, it could prompt the user to adjust their face covering. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/flow.png)
+
+Flow was really interesting in its ability to detect the change in position and velocity of certain keypoints over time. This could be very useful in an application that monitors the velocity with which vehicles travel across the Queensboro bridge. By placing a camera level with the bridge and running this algorithm, the velocities of cars over time could be detected an analyzed. 
+
+![alt text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/object.png)
+
+Object detection was interesting as well, with detected objects having a bounding box around them. This could be useful in an application that attempts to find an object in a cluttered room. The algorithm can first be shown an object and be instructed to "remember" the object based on the dimensions of the bounding box that the algorithm uses when identifying the object. Then, when placed somewhere that offers a view of the entire room, the algorithm can identify the object quickly and alert the user to where it is. 
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
