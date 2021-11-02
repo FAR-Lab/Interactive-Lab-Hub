@@ -153,6 +153,8 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
+This is a really interesting example. One application that uses the position based approach of hand tracking could be a sign language detector. The algorithm can detect positions of the hands and fingers used in sign language to translate the sign into words.
+
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
 
