@@ -220,7 +220,7 @@ Energetic
 Half-charged <br />
 ![P10:half-charged](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Half-charged.png)
 Drained <br />
-![P11:drained](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/drained.png)
+![P11:drained](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Drained.png)
 ### Part C
 ### Test the interaction prototype
 
