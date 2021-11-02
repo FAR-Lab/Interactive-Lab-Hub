@@ -214,7 +214,7 @@ Initially I sought to extend the idea of outputting weather information when use
 <br /><br />
 However, I later decided to try out the Teachable Machines and create my own model to make the interaction more interesting. As mentioned earlier, I am interested in designing a system to detect users' energy level. A use case of this piece of data could be something as follows - a customer walks to the self-order kiosk in a coffee shop; while the customer is looking at the menu, the kiosk integrated with an energy detector would determine the customer's energy level and make suggestions on what items/how many shots of espresso to order. In my design, a user's body energy is characterized into 3 levels: energetic, half-charged, and drained. Feedack provided to users would be based on these 3 energy levels.
 ![P8:training](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Training.png)
-The screenshot above shows the training process based of the image samples collected.
+The screenshot above shows the training process based of the image samples collected. Please see the following video for the prototyped interaction: https://drive.google.com/file/d/1JFQM8l3c1d5JoZb472wVaWy3R5z9G3hE/view?usp=sharing
 
 ### Part C
 ### Test the interaction prototype
@@ -222,9 +222,11 @@ The screenshot above shows the training process based of the image samples colle
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+2. When does it fail?
+3. When it fails, why does it fail?
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The model works well when the testing participants have obvious facial expressions and body poses; for instance, sitting with a round-shouldered slouch and almost closed eyes when users are drained. I also tested the protoype myself, and it worked perfectly well for me. This is mainly due to the fact that the model was trained with the image samples of my face and poses. The system failed when the testing participants remained neutral and didn't reveal too much emotion. The model were having hard time understanding how the users felt and distinguishing energy levels. Some other scenarios that I believe could also cause problems are when users have glasses or hats on. These accessiories might hinder the system's ability to detect users' energy levels.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
