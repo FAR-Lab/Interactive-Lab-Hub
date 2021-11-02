@@ -221,21 +221,51 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I would like to use Teachable Machines and train it on the American Sign Language hand sign for each letter of the alphabet. I would like to explore how well the model is able to detect each letter, as well as if it would be able to piece together different letters made by hand signs into words and even sentences. 
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The system seems to do what it is supposed to do when the hand making the sign is close to the webcam.
+
+2. When does it fail?
+
+It seems to fail when other objects are in the same frame as the hand making the sign. It also is unable to recognize multiple hand signs that are executed in succesion.
+
+4. When it fails, why does it fail?
+
+It might be failing because the model was trained on images that only contain the hand making signs. Other objects present in the frame are interfering with the ability to detect the hand sign. 
+
+It also seems to fail with multiple hand signs that are done very quickly. This might be a limitation with processing the frames of the webcam. Slowing the hand signs down seems to help with detection.
+
+6. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The scenario that could be most problematic is when an actual user who is fluent in ASL (american sign language) uses the system. Fluent users usually are comfortable with the signs and will have a certain speed that they make their signs with. I am certain that the speed will be too much for the camera to pick up all the signs effectively.
+
+Additionally, there are signs that ASL users use that do not directly translate to letters. For example, there are specific signs that correspond to emotions ie "I am hungry" would be a specific sign. The system would definitely not be able to pick these up because it was only trained on the signs that correspond to letters of the alphabet. 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+Users fluent in ASL will definitely not be aware of the uncertainties in the system. They may expect the system to completely understand any and all signs that they present. The users will have to be instructed to slow their signs down, and to limit their signs to english alphabets and use those to spell out words and sentences they would like to convey.
+
+2. How bad would they be impacted by a miss classification?
+
+Mis-classification would result in a complete breakdown of the communication between the user and the machine. This may have additional consequences, such as user frustration at being misunderstood as well as a breakdown in trust between the user and the machine.
+
+5. How could change your interactive system to address this?
+
+It would be good to be upfront about the capabilities of the system. Users can be explicitly told that the system only accepts certain signs at a certain speed. This can allow users to change their behavior in order to best be understood by the system. 
+
+7. Are there optimizations you can try to do on your sense-making algorithm.
+
+In order to improve classification accuracy, it may be useful to train the classifier on larger sample sizes for each class, which in this case would be the ASL version of each letter of the alphabet. Luckily, there is a Kaggle Dataset: https://www.kaggle.com/grassknoted/asl-alphabet 
+
+This dataset contains 3000 images of each class (hand signs of each letter). The sample size and diversity of images in the dataset (hands of different sizes, ethnicities, positions, lighting conditions, etc.) should improve classification accuracy greatly.
 
 ### Part D
 ### Characterize your own Observant system
@@ -251,6 +281,8 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+I was unable to make the video for part 1 but please see parts B and C for a description of my idea. Thanks!
 
 ### Part 2.
 
