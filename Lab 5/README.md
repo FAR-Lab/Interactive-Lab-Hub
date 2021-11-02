@@ -199,34 +199,36 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I used the object detection model. The model is used to detect a pill bottle. If the user picks up the pill bottle, it will come into frame, and the camera can detect it. Once the user puts down the bottle, it'll be out of frame, and the camera won't be able to detect it.
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do? When the user picks up the pill bottle to take a pill it, the camera will detect it.
+1. When does it fail? It fails when the background is the same color as the bottle.
+1. When it fails, why does it fail? It fails because color is an important indicator for object recognition, especially for edge detection.
+1. Based on the behavior you have seen, what other scenarios could cause problems? When the user picks up the pill bottle too fast, or if the user is wearing the same colored shirt as the bottle.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? They would be unware of the uncertainties unless there is documentation informing them.
+1. How bad would they be impacted by a miss classification? It would be pretty bad if the algorithm falsely detected when the user is taking their pill. This is under the assumption that everytime the user picks up the pill bottle, they will take a pill, or the required dosage. If it misses once, that means it underestimates how many times the patient is taking the pill. If it detects something else as the bottle (misclassifies), then it overshoots the number of times the patient takes the pill.
+1. How could change your interactive system to address this? Make sure that the background color is different from the pill bottle's color. Also, make sure that the background is clear, has no objects.
+1. Are there optimizations you can try to do on your sense-making algorithm. We can make the object recognition algorithm to an object classification algorithm where the camera can classify other objects from pill bottle. 
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use X for? We can use this system to classify cars for autonomous vehicles. 
+* What is a good environment for X? A good environment is a blank and simple background with good light so that the camera can easily detect the objects.
+* What is a bad environment for X? A bad environment would be a foggy, dark environment with many objects of the same color in the background.
+* When will X break? It breaks when the environment is dark, foggy, has too many objects in the background.
+* When it breaks how will X break? It will be confused and either misclassifies objects or cannot detect the object.
+* What are other properties/behaviors of X? It can only detect objects.
+* How does X feel? It can feel like someone is always watching the patient (privacy issues).
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
