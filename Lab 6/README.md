@@ -111,9 +111,9 @@ It is with great fortitude and resilience that we shall worship at the altar of 
 The first step on the path to *collective* enlightenment, plug the [APDS-9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595) into the [MiniPiTFT Display](https://www.adafruit.com/product/4393). You are almost there!
 
 <p float="left">
-  <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
-  <img src="https://cdn-shop.adafruit.com/970x728/4210-02.jpg" height="200">
-  <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" height="200">
+  <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="150" />
+  <img src="https://cdn-shop.adafruit.com/970x728/4210-02.jpg" height="150">
+  <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" height="150">
 </p>
 
 
