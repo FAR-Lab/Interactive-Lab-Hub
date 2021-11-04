@@ -71,6 +71,11 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 * Run `sender.py`, fill in a topic name (should start with `IDD/`), then start sending messages. You should be able to see them on MQTT Explorer.
   ```
   (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python sender.py
+  pi@ReiIDDPi:~/Interactive-Lab-Hub/Lab 6 $ python sender.py
+  >> topic: IDD/ReiTesting
+  now writing to topic IDD/ReiTesting
+  type new-topic to swich topics
+  >> message: testtesttest
   ...
   ```
 * Run `reader.py`, and you should see any messages being published to `IDD/` subtopics.
