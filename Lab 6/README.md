@@ -9,15 +9,28 @@
    * [The Presence Table](https://dl.acm.org/doi/10.1145/1935701.1935800) and [video](https://vimeo.com/15932020)
 
 
-## Introduction
+## Overview
 
-The point of this lab is to introduce you to distributed interaction. We have included some Natural Language Processing (NLP) and Generation (NLG) but those are not really the emphasis. Feel free to dig into the examples and play around the code which you can integrate into your projects if wanted. However, we want to emphasize that the grading will focus on your ability to develop interesting uses for messaging across distributed devices. 
+The point of this lab is to introduce you to distributed interaction. We have included some Natural Language Processing (NLP) and Generation (NLG) but those are not really the emphasis. Feel free to dig into the examples and play around the code which you can integrate into your projects if wanted. However, we want to emphasize that the grading will focus on your ability to develop interesting uses for messaging across distributed devices. Here are the four sections of the lab activity:
 
-## MQTT
+A) [MQTT](#part-a)
+
+B) [Send and Receive on your Pi](#part-b)
+
+C) [Streaming a Sensor](#part-c)
+
+D) [The One True ColorNet](#part-d)
+
+E) [Make It Your Own](#part-)
+
+## Part 1.
+
+### Part A
+### MQTT
 
 MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networks. It was later adopted as a defacto standard for a variety of [Internet of Things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things) devices. 
 
-### The Bits
+#### The Bits
 
 * **Broker** - The central server node that receives all messages and sends them out to the interested clients. Our broker is hosted on the far lab server (Thanks David!) at `farlab.infosci.cornell.edu/8883`. Imagine that the Broker is the messaging center!
 * **Client** - A device that subscribes or publishes information to/on the network.
@@ -29,7 +42,7 @@ MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networ
 **Important note:** With the broker we set up for the class, you are limited to subtopics of `IDD`. That is, to publish or subcribe, the topics will start with `IDD/`. Also, setting up a broker is not much work, but for the purposes of this class, you should all use the broker we have set up for you!
 
 
-### Useful Tooling
+#### Useful Tooling
 
 Debugging and visualizing what's happening on your MQTT broker can be helpful. We like [MQTT Explorer](http://mqtt-explorer.com/). You can connect by putting in the settings from the image below.
 
@@ -42,8 +55,8 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 ![publish settings](imgs/mqtt_explorer_2.png?raw=true)
 
 
-
-## Send and Receive on your Pi
+### Part B
+### Send and Receive on your Pi
 
 [sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python. Let's spend a few minutes running these and seeing how messages are transferred and shown up. Before working on your Pi, keep the connection of `farlab.infosci.cornell.edu/8883` with MQTT Explorer running on your laptop.
 
@@ -68,17 +81,18 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
-
-## Streaming a Sensor
+### Part C
+### Streaming a Sensor
 
 We have included an updated example from [lab 4](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Fall2021/Lab%204) that streams the [capacitor sensor](https://learn.adafruit.com/adafruit-mpr121-gator) inputs over MQTT. We will also be running this example under `circuitpython` virtual environment.
 
 Plug in the capacitive sensor board with the QWIIC connector. Use the alligator clips to connect a Twizzlers (or any other things you used back in Lab 4) and run the example script:
 
 <p float="left">
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="200" />
-<img src="https://cdn-shop.adafruit.com/970x728/4210-02.jpg" height="200">
-<img src="https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg" height=200>
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="150" />
+<img src="https://cdn-shop.adafruit.com/970x728/4210-02.jpg" height="150">
+<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150"/>
+<img src="https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg" height="150">
 </p>
 
  ```
@@ -89,7 +103,8 @@ Plug in the capacitive sensor board with the QWIIC connector. Use the alligator 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT EXplorer?\*\*\***
 
 
-## The One True ColorNet
+### Part D
+### The One True ColorNet
 
 It is with great fortitude and resilience that we shall worship at the altar of the *OneColor*. Through unity of the collective RGB, we too can find unity in our heart, minds and souls. With the help of machines, we can overthrow the bourgeoisie, get on the same wavelength (this was also a color pun) and establish [Fully Automated Luxury Communism](https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism).
 
@@ -120,7 +135,8 @@ Of course not! You can got to [https://one-true-colornet.glitch.me/](https://one
 **\*\*\*Can you set up the script that can read the color other students publish and display on your screen?\*\*\***
 
 
-## Make it your own
+### Part E
+### Make it your own
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
@@ -136,3 +152,7 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 
 ## Part 2. What more can you achieve?
+
+Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+***Include a short video demonstrating the finished result.***
