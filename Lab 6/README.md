@@ -33,7 +33,7 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 
 
 
-![input settings](Lab%206/imgs/mqtt_explorer.png?raw=true)
+![input settings](/imgs/mqtt_explorer.png?raw=true)
 
 
 
