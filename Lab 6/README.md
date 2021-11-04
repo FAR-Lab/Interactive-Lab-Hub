@@ -86,7 +86,7 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 We have included an updated example from [lab 4](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Fall2021/Lab%204) that streams the [capacitor sensor](https://learn.adafruit.com/adafruit-mpr121-gator) inputs over MQTT. We will also be running this example under `circuitpython` virtual environment.
 
-Plug in the capacitive sensor board with the QWIIC connector. Use the alligator clips to connect a Twizzlers (or any other things you used back in Lab 4) and run the example script:
+Plug in the capacitive sensor board with the Qwiic connector. Use the alligator clips to connect a Twizzler (or any other things you used back in Lab 4) and run the example script:
 
 <p float="left">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="150" />
