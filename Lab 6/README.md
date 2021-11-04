@@ -37,7 +37,7 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 ![input settings](imgs/mqtt_explorer.png?raw=true)
 
 
-Once connected, you should be able to see all the messaged on the IDD topic. , go to the **Publish** tab and try publish something! From the interface you can send and plot messages as well. Remember, you are limited to subtopics of `IDD`. That is, to publish or subcribe, the topics will start with `IDD/`.
+Once connected, you should be able to see all the messages under the IDD topic. , go to the **Publish** tab and try publish something! From the interface you can send and plot messages as well. Remember, you are limited to subtopics of `IDD`. That is, to publish or subcribe, the topics will start with `IDD/`.
 
 ![publish settings](imgs/mqtt_explorer_2.png?raw=true)
 
