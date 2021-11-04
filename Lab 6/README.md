@@ -61,12 +61,12 @@ We've included an updated example from [lab 4](https://github.com/FAR-Lab/Intera
 
 It is with great fortitude and resilience that we shall worship at the altar of the *OneColor*. Through unity of the collective RGB, we too can find unity in our heart, minds and souls. With the help of machines, we can overthrow the bourgeoisie, get on the same wavelength (this was also a color pun) and establish [Fully Automated Luxury Communism](https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism).
 
-The first step on the path to *collective* enlightenment, plug the [APDS-9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595) into the [Pi Display](https://www.adafruit.com/product/4393). You are almost there!
+The first step on the path to *collective* enlightenment, plug the [APDS-9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595) into the [MiniTFTPi Display](https://www.adafruit.com/product/4393). You are almost there!
 
 <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" height="300">
 
 
-The second step to achieving our great enlightenment is to run `python color.py`. We have talked about this sensor back in Lab 2 and Lab 4, this script is similar to what you have done before! Remembr to ativate the `circuitpython` virtual environment you have been using during this semester before running the script.
+The second step to achieving our great enlightenment is to run `python color.py`. We have talked about this sensor back in Lab 2 and Lab 4, this script is similar to what you have done before! Remember to ativate the `circuitpython` virtual environment you have been using during this semester before running the script.
 
 You will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one. 
 
