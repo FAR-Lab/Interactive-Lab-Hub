@@ -100,7 +100,9 @@ Plug in the capacitive sensor board with the QWIIC connector. Use the alligator 
  ...
  ```
 
-**\*\*\*Include a picture of your setup here: what did you see on MQTT EXplorer?\*\*\***
+**\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+
+**\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
 
 ### Part D
@@ -132,7 +134,7 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 
 Of course not! You can got to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
-**\*\*\*Can you set up the script that can read the color other students publish and display on your screen?\*\*\***
+**\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
 
 ### Part E
@@ -155,4 +157,4 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-***Include a short video demonstrating the finished result.***
+**\*\*\*Include a short video demonstrating the finished result.\*\*\***
