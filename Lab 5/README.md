@@ -201,14 +201,26 @@ Try out different interaction outputs and inputs.
 
 I used the object detection model. The model is used to detect a pill bottle. If the user picks up the pill bottle, it will come into frame, and the camera can detect it. Once the user puts down the bottle, it'll be out of frame, and the camera won't be able to detect it.
 
+Without pill bottle
+![image](https://user-images.githubusercontent.com/37049175/140774285-2fb57175-4f87-43f5-a8f9-bf3ed24dadf2.png)
+
+With coffee
+![image](https://user-images.githubusercontent.com/37049175/140774213-e9fb8661-3b37-419d-a5ee-3629ebd4070d.png)
+
+With pill bottle (taking pills)
+![image](https://user-images.githubusercontent.com/37049175/140774113-48ed4aa5-9d3f-4321-9e57-bca18aed55cf.png)
+
+Test out the model:
+https://teachablemachine.withgoogle.com/models/3xwDdW6vr/
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it do what it is supposed to do? When the user picks up the pill bottle to take a pill it, the camera will detect it.
-1. When does it fail? It fails when the background is the same color as the bottle.
-1. When it fails, why does it fail? It fails because color is an important indicator for object recognition, especially for edge detection.
+1. When does it fail? It fails when the background is the same color as the bottle, when there are more photos in one class than in another, or when another object looks like the pill bottle
+1. When it fails, why does it fail? It fails because color is an important indicator for object recognition, especially for edge detection. When there are more photos in one class than another, that introduces bias because there is more data, so the model will be trained based on that bias. 
 1. Based on the behavior you have seen, what other scenarios could cause problems? When the user picks up the pill bottle too fast, or if the user is wearing the same colored shirt as the bottle.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
