@@ -201,6 +201,8 @@ Try out different interaction outputs and inputs.
 
 I used the object detection model. The model is used to detect a pill bottle. If the user picks up the pill bottle, it will come into frame, and the camera can detect it. Once the user puts down the bottle, it'll be out of frame, and the camera won't be able to detect it.
 
+I first started with installing the pi camera and trying out opencv examples and demos. I was able to capture faces and indentify the contour of each human face. Then I experimented Teachable Machines.
+
 Without pill bottle
 ![image](https://user-images.githubusercontent.com/37049175/140774285-2fb57175-4f87-43f5-a8f9-bf3ed24dadf2.png)
 
@@ -253,7 +255,7 @@ Some feedbacks I got from friends include:
 - Include water bottle so we know how often the patient is drinking water too
 - Patients usually drink water after pills, so having that would be more useful than coffee
 
-Based on these feedbacks, I added another class which is "drinking water", where the model can detect whether the patient is dirnking water and how often. This can be used as a water tracker too.
+Based on these feedbacks, I added another class which is "drinking water", where the model can detect whether the patient is dirnking water and how often. This also falls under "without pill", so when the patient is drinking water, the model should identify "without pill" class and also "drinking water" class. This can be used as a water tracker too.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
-https://drive.google.com/file/d/11f94nebN6ZDiarqHoQXAbZSSRipGbOMv/view?usp=sharing
+https://drive.google.com/file/d/19hK_sOG3XEsEboWwfZZYxVG52fu_dfft/view?usp=sharing
