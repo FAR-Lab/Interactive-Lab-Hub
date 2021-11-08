@@ -212,8 +212,6 @@ With coffee
 With pill bottle (taking pills)
 ![image](https://user-images.githubusercontent.com/37049175/140774113-48ed4aa5-9d3f-4321-9e57-bca18aed55cf.png)
 
-Test out the model:
-https://teachablemachine.withgoogle.com/models/3xwDdW6vr/
 
 ### Part C
 ### Test the interaction prototype
