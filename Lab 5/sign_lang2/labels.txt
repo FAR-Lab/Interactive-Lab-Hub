@@ -1,0 +1,12 @@
+0 Background
+1 H
+2 I
+3 O
+4 W
+5 A
+6 R
+7 E
+8 Y
+9 U
+10 Space
+11 Fin
