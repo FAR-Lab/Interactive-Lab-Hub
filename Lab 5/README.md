@@ -282,7 +282,15 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
-I was unable to make the video for part 1 but please see parts B and C for a description of my idea. Thanks!
+Video demo: https://youtu.be/LmsVb3n0-D4
+
+This is intended to be an autotranslator of ASL hand signs to English. The idea is that a person can make a hand sign, which would translate into its English counterpart based on the label that the ML model assigns to the hand sign.
+
+A good environment for the model is one which exactly matches the conditions of the training images that were given to the model. Unfortunately, if the position of the webcam or the lighting conditions differ even slightly, this throws the model off completely. Additionally, hand position matters for the model. The distance at which the hand was placed in the images given to the model during training must be almost exactly the same as the hand position during real-time execution. This was something I did not consider, and varying the hand position even slightly resulted in the model completely misclassifying the letter that the hand sign was intended to represent
+
+In this demonstration, the model was only able to get a single letter correct ('N'), and varying the position even slightly resulted in the model classifying 'N' as 'U'. 
+
+Overall, the model is very frustrating to use due to high rate of misclassification. I will explore adding additional training examples to make the model more robust, but the reality is that a 28-class classifier may be too complex for the teachable machine to accurately classify different hand signs. I may have to simplify the model to include common hand signs that look completely different from each other in order to reduce rate of misclassification. 
 
 ### Part 2.
 
