@@ -249,6 +249,11 @@ https://drive.google.com/file/d/1oyn85UHADWnKX44axnNQzVOVDDDoTTSJ/view?usp=shari
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+Some feedbacks I got from friends include:
+- Include water bottle so we know how often the patient is drinking water too
+- Patients usually drink water after pills, so having that would be more useful than coffee
 
+Based on these feedbacks, I added another class which is "drinking water", where the model can detect whether the patient is dirnking water and how often. This can be used as a water tracker too.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+https://drive.google.com/file/d/11f94nebN6ZDiarqHoQXAbZSSRipGbOMv/view?usp=sharing
