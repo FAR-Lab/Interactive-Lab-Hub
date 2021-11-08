@@ -243,9 +243,12 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel? It can feel like someone is always watching the patient (privacy issues).
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+https://drive.google.com/file/d/1oyn85UHADWnKX44axnNQzVOVDDDoTTSJ/view?usp=sharing
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
