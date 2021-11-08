@@ -190,8 +190,7 @@ Using the accelerometer, try the following:
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
-**\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
-
+I honestly have no idea what this section is asking to do. Seems way too advanced to teach myself since I have no prior experience with computer vision. Will move on with just the other model.
 
 ### Part B
 ### Construct a simple interaction.
