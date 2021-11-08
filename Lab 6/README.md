@@ -165,3 +165,6 @@ Find at least one class (more are okay) partner, and design a distributed applic
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+**\*\*\*Further reflection: do you foresee any of the exercises in this lab might be or will be incorporated in your [final project](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/FinalProject.md)? Include sketches of your ideas here.\*\*\***
+
