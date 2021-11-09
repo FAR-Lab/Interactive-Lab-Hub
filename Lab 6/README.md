@@ -157,14 +157,3 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
-
-## Part 2. What more can you achieve?
-
-**\*\*\*Summarize feedback you got from other students on Canvas. How do you incorporate the feedback and further improve your design?\*\*\***
-
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
-
-**\*\*\*Further reflection: do you foresee any of the exercises in this lab might be or will be incorporated in your [final project](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/FinalProject.md)? Include sketches of your ideas here.\*\*\***
-
