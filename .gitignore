@@ -1,4 +1,7 @@
 .DS_Store
 *.tflite
 *.scorer
+<<<<<<< HEAD
 Lab\ 5/tensorflow-2.4.0-cp37-none-linux_armv7l.whl
+=======
+>>>>>>> 789c595b87657f9e64487e52308787e6349b44ad
