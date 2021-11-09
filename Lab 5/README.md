@@ -296,13 +296,28 @@ Overall, the model is very frustrating to use due to high rate of misclassificat
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-My idea was to implement an American Sign Langauge auto-translator, that would be able to to recognize ASL hand signs, translate them to English letter by letter, piece together the words in the sentence, and finally, speak the sentence outloud using text-to-speech. This would allow people who communicate primarily through hand signs to be able to communicate to individuals who are not fluent in ASL. Such a product would be very helpful for people with hearing disabilities, as it would give them the ability to "speak" outloud through the use of technology. For reference, please see the ASL chart of hand signs below.
+My idea was to implement an American Sign Langauge auto-translator, that would be able to to recognize ASL hand signs, translate them to English letter by letter, piece together the letters into words and words into a sentence, and finally, speak the sentence outloud using text-to-speech. This would allow people who communicate primarily through hand signs to be able to communicate to individuals who are not fluent in ASL. Such a product would be very helpful for people with hearing disabilities, as it would give them the ability to "speak" outloud through the use of technology. 
+
+For reference, please see the ASL chart of hand signs below.
 
 ![Alt Text](https://github.com/rohangreddy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/asl-abc.png)
 
 I ran into a lot of issues with trying to train an accurate 28-class classifier (to classify every letter of the alphabet as the corresponding ASL hand sign) using teachable machines. I tried many different ways to make the 28 class classifier work, including giving each class as much training data as I could (~200 images for each hand sign corresponding to a letter of the alphabet), varying the position and angle of my hand in the images given to train the model, etc. I even tried using a Kaggle dataset of ASL hand signs which had roughly 3000 images per hand sign, but this did not work well likely because the training images differed significantly from the images obtained from my webcam feed.
 
-Some very helpful feedback that I received was that a 28 class classifier simply may be beyond the capabilities of the model that teachable machines uses. One suggestion was to try and cut down the number of classes to a few letters of the alphabet (rather than every single letter), and to choose those letters that contained hand signs that differed from each other the most. This was very helpful feedback because the initial 28-class model (found in the sign_lang1 folder) seemed to misclassify hand signs that differed slightly in position the most. 
+Some very helpful feedback that I received was that a 28 class classifier simply may be beyond the capabilities of the model that teachable machines uses. One suggestion was to try and cut down the number of classes to a few letters of the alphabet (rather than every single letter), and to choose those letters that contained hand signs that differed from each other the most. This was very helpful feedback because the initial 28-class model (found in the sign_lang1 folder) seemed to misclassify hand signs that differed slightly in position the most (for example, letters 's' and 'a' have similar signs that the model confused a lot).
 
+I decided to demonstrate this proof of concept by training a teachable machines image classifier on 9 classes, one class for each unique letter in the phrase "How are you" and an additional class to detect the background. Additional helpful feedback that I received was to try and use the background class as a substitute for an empty space that could denote the end of a word. This was very clever piece of advice and was not too difficult to implement. 
+
+The finalized model and corresponding class labels can be found in the sign_lang3 folder. The python script sign_language.py initializes the webcam and two buttons. The user presses the green button in order to begin recording with the webcam. This feature was added to preserve user privacy by giving the user control of when the camera is recording. Once the green button is pressed, the user makes a hand sign corresponding to a specific letter which is then captured by the system. The user receives a real time update of the most likely class that the model thinks the hand sign corresponds to. The transparency of what class the model thinks the user is presenting allows the user to reposition their hand if necessary to get a better or more accurate classification.
+
+When the user is confident that the model has the correct hand sign, they can press the red button to save the letter to the system. In this way, the user repeatedly presents letters in the form of hand signs and saves them to the system. When the user is done with a word, they let the model record the background (ie no hand signs), which the system interprets as a "space" character. 
+
+When the complete sentence has been signed, the script sends the letters it collected during the recording to a Google text-to-speech file (tts.sh) which allows the system to vocalize the sentence that the user had signed. The sound is loud enough for a user to communicate freely with individuals in a nearby vicinity.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+Please play the two videos below side by side starting at the same time. One video presents the point of view of a user signing to the system, while the other video shows the real-time POV of the system as it responds to the user. At the end of the video, you can hear the vocalization of the sentence that the user signed.
+
+User POV: https://youtu.be/lTHzDhX0o2s
+
+System POV: https://youtu.be/apqdGo0VXaA
