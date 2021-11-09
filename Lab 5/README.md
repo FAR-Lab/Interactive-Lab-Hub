@@ -284,7 +284,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 Video demo: https://youtu.be/LmsVb3n0-D4
 
-This is intended to be an autotranslator of ASL hand signs to English. The idea is that a person can make a hand sign, which would translate into its English counterpart based on the label that the ML model assigns to the hand sign.
+This is intended to be an autotranslator of American Sign Language hand signs to English. The idea is that a person can make a hand sign, which would translate into its English counterpart based on the label that the ML model assigns to the hand sign.
 
 A good environment for the model is one which exactly matches the conditions of the training images that were given to the model. Unfortunately, if the position of the webcam or the lighting conditions differ even slightly, this throws the model off completely. Additionally, hand position matters for the model. The distance at which the hand was placed in the images given to the model during training must be almost exactly the same as the hand position during real-time execution. This was something I did not consider, and varying the hand position even slightly resulted in the model completely misclassifying the letter that the hand sign was intended to represent
 
@@ -295,5 +295,12 @@ Overall, the model is very frustrating to use due to high rate of misclassificat
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+My idea was to implement an American Sign Langauge auto-translator, that would be able to to recognize ASL hand signs, translate them to English letter by letter, piece together the words in the sentence, and finally, speak the sentence outloud using text-to-speech. This would allow people who communicate primarily through hand signs to be able to communicate to individuals who are not fluent in ASL. Such a product would be very helpful for people with hearing disabilities, as it would give them the ability to "speak" outloud through the use of technology.
+
+I ran into a lot of issues with trying to train an accurate 28-class classifier (to classify every letter of the alphabet as the corresponding ASL hand sign) using teachable machines. I tried many different ways to make the 28 class classifier work, including giving each class as much training data as I could (~200 images for each hand sign corresponding to a letter of the alphabet), varying the position and angle of my hand in the images given to train the model, etc. I even tried using a Kaggle dataset of ASL hand signs which had roughly 3000 images per hand sign, but this did not work well likely because the training images differed significantly from the images obtained from my webcam feed.
+
+Some very helpful feedback that I received was that a 28 class classifier simply may be beyond the capabilities of the model that teachable machines uses. One suggestion was to try and cut down the number of classes to a few letters of the alphabet (rather than every single letter), and to choose those letters that contained hand signs that differed from each other the most. This was very helpful feedback because the initial 28-class model (found in the sign_lang1 folder) seemed to misclassify hand signs that differed slightly in position the most. 
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
