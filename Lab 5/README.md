@@ -247,9 +247,12 @@ Now that you have experimented with one or more of these sense-making systems **
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for? <br />
 As mentioned earlier, this observant system to detect user's energy level can be integrated into a self-order kiosk to provide users with product recommendations. Energy-level detection could also be widely applied to workspaces such as fulfillment centers where associates have to work long hour. The detection resuls could be utilized to suggest workers take a break when there is a need. 
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
+* What is a good environment for X? <br />
+A good environment would be a location where the lighting and background conditions are great, without distraction that would hinder the system capturing images and facial expressions. On the other hand, the network connection would also need to be stable, so high-resolution videos can be uploaded and processed.
+* What is a bad environment for X? <br />
+On the other hand, a bad environment would be somewhere that comes with noisy data. For instance, if there are many people in the background, the system would be challenged and had hard time recognizing the primary user and his/her facial and posture expressions. Bad lighting and poor video quality would also affect the interaction and end results.
+* When will X break? <br />
+The system will break if being placed in a bad environment as described above as the system cannot properly identify the primary user, resulting in the system processing meaningless data.
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
