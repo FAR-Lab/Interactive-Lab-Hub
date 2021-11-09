@@ -245,7 +245,7 @@ I believe most people are aware that there could be uncertainties when it comes 
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
+* What can you use X for? <br />
 As mentioned earlier, this observant system to detect user's energy level can be integrated into a self-order kiosk to provide users with product recommendations. Energy-level detection could also be widely applied to workspaces such as fulfillment centers where associates have to work long hour. The detection resuls could be utilized to suggest workers take a break when there is a need. 
 * What is a good environment for X?
 * What is a bad environment for X?
