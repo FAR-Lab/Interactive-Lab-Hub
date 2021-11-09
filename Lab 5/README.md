@@ -253,9 +253,12 @@ A good environment would be a location where the lighting and background conditi
 On the other hand, a bad environment would be somewhere that comes with noisy data. For instance, if there are many people in the background, the system would be challenged and had hard time recognizing the primary user and his/her facial and posture expressions. Bad lighting and poor video quality would also affect the interaction and end results.
 * When will X break? <br />
 The system will break if being placed in a bad environment as described above as the system cannot properly identify the primary user, resulting in the system processing meaningless data.
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* When it breaks how will X break? <br />
+When the system processes noisy or meaningless data, it will still try its best to determine and classify the user's energy level; however, the end result is not not entirely accurate and trustworthy. 
+* What are other properties/behaviors of X? <br />
+The system on the other hand is able to detect users' mood besides energy level. This would be another piece of valuable data that could add more insights into the results and make the recommendations more reliable.
+* How does X feel? <br />
+I intend to make the system feel like a friend of users - it understnads what you currently feel and what your goals are to further deliver heartfelt solutions.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 https://drive.google.com/file/d/1iahINsv6EO3J_uoOTkQo_MtdD14tThdc/view?usp=sharing
