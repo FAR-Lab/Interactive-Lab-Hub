@@ -258,7 +258,7 @@ Goal: To create an rock paper scissor gaming interaction.
 
 * What can you use X for?
   
-  This interaction can be used to improve your rock paper siscor skills.
+  This interaction can be used to improve your rock paper scissor skills.
   
 
 * What is a good environment for X?
@@ -319,10 +319,12 @@ In the white background scenario, we tested for different gestures and the rock 
 
 __User Testing__
  
-We also tested with different users. The users enkoyed the game but had complaints about playing the game witha white background. They also suggested that the game interface would have been better we maintained a score for the entire session. But all the classes were correctly being classified except for rock.
-
+We also tested with different users. The users enjoyed the game. They tested the system with all the input classes. The users were playing against the computer's random inputs. The users were asked to test the system in different backgrounds. The system did not work well for dark and busy backgrounds. So the system was mostly tested for white background.
  
  [User Testing Video(click here)](https://youtu.be/v4-ee65sOHc)
+ 
+They had complaints about playing the game with a white background. They also suggested that the game interface would have been better we maintained a score for the entire session. But all the classes were correctly being classified except for rock.
+
  
 
 
