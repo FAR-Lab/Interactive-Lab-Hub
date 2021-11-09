@@ -218,19 +218,19 @@ Also the accuracy of the classification reduced when the lighting was changed.
 <img width="544" alt="Screen Shot 2021-11-01 at 11 10 06 PM" src="https://user-images.githubusercontent.com/64258179/139783459-f7023bb4-7cc6-4971-9890-b82a3a94ed72.png">
 
 We extended this idea towards the game of rock paper scisscors. The game was experimeted on both mediapipe and teachable machines and teachable machines was better at classifying the images discretely unlike media pipe which proved to be a better model for varying parameters and using image/video for controlling different parameters. As suggested above we also included a background class which made the entire interaction more realistic.
+
 <img width="303" alt="Screen Shot 2021-11-01 at 11 32 44 PM" src="https://user-images.githubusercontent.com/64258179/139783488-46b013e6-fdb8-4e23-ae0d-f9cf3143bc59.png">
 <img width="303" alt="Screen Shot 2021-11-01 at 11 33 04 PM" src="https://user-images.githubusercontent.com/64258179/139783520-0beb6d58-1bde-4773-a4d3-7607661e57a8.png">
 <img width="303" alt="Screen Shot 2021-11-01 at 11 33 14 PM" src="https://user-images.githubusercontent.com/64258179/139783525-68d08f42-8aaf-4893-a2dc-5cba8828b805.png">
 <img width="303" alt="Screen Shot 2021-11-01 at 11 33 23 PM" src="https://user-images.githubusercontent.com/64258179/139783534-31b4b045-290d-4e4e-b6d0-402ac64fff28.png">
 
 ### Part C
-### Test the inte
-raction prototype
+### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-   The model behaves is it sis supposed to when the image to be predicted shares most of its characteristics from the training dataset
+   The model behaves is it supposed to when the image to be predicted shares most of its characteristics from the training dataset
 2. When does it fail?
    The model prediction fails due to change in the extermal surroundings such as background and lighting. It also fails when the orientation and position of the object to be predicted is varied.
 3. When it fails, why does it fail?
@@ -254,7 +254,7 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 
-Goal: To create an rock paper sisscor gaming interaction. 
+Goal: To create an rock paper scissor gaming interaction. 
 
 * What can you use X for?
   
@@ -299,4 +299,30 @@ Goal: To create an rock paper sisscor gaming interaction.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+__Feedback Received__
+This is a fun, interesting system, and is actually kind of related to how ML models translate sign language into English. How will you improve the accuracy of the model? Moving forward, you should train it with more hands, in various positions, in different levels of lighting. Cool first steps though.
+
+__Changes Implemented__
+
+![12936216f0230830ae462c37f55b54f7](https://user-images.githubusercontent.com/64258179/140861768-615a0031-fcb6-455a-b214-63f947468983.jpg)
+
+We took inspiration from Big Bang Theory and decided to turn the simple rock paper scissor game to rock paper scissors lizard spock. So we added two more classes to train the teachable machines model. Lizard class is similar to rock and Spock case is similar to scissors.
+
+We trained our teachable machines model with multiple images with different orientations, hand positions, hand postions for right and left hand along with front and back hand postions for different lighting conditions.
+We also tried to implement different background to simulate a real world scenario of using crowded backgrounds and bckgrounds of different colours. But the accuracy of our model prediction reduced drastically in this case due to which we stuck to white background.
+In the white background scenario, we tested for different gestures and the rock was being misclassified as paper comsistently.
+
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+[Pilot Testing Video](https://youtu.be/IdWirVVsv70)
+
+
+__User Testing__
+ 
+We also tested with different users. The users enkoyed the game but had complaints about playing the game witha white background. They also suggested that the game interface would have been better we maintained a score for the entire session. But all the classes were correctly being classified except for rock.
+
+ 
+ [User Testing Video(click here)](https://youtu.be/v4-ee65sOHc)
+ 
+
+
