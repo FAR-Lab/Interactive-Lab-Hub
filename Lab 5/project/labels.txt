@@ -1,0 +1,6 @@
+0 Blank
+1 Rock
+2 Scissor
+3 Lizard
+4 Spock
+5 Paper
