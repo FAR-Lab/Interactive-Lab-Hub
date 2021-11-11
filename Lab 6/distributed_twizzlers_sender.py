@@ -25,5 +25,5 @@ while True:
         if mpr121[i].value:
         	val = f"Twizzler {i} touched!"
         	print(val)
-            client.publish(topic, val)
+        	client.publish(topic, val)
     time.sleep(0.25)
