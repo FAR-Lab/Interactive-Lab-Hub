@@ -155,5 +155,7 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+https://docs.google.com/document/d/11P_h2BXTNP6O-gys4mTMWgyUoY77mmYQumQQOnBNFUs/edit?usp=sharing
+
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
