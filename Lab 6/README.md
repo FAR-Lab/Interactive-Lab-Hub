@@ -113,7 +113,9 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 ![P4:Setup](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Sensor2.JPG)
 I connected two candies to the pi, and I found that when the candies are touched, the message of "Twizzler x" would show up not only on the terminal but also on MQTT Explorer under my topic.(shown in the second image above) <br />
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
-
+![P5:Data](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Data1.JPG)
+![P6:Data](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Data2.JPG)
+I further connected the APDS-9960 sensor to sense gesture and streamed the data to the messaging system. Please refer to data.py for my code.
 
 ### Part D
 ### The One True ColorNet
