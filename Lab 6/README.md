@@ -86,7 +86,8 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\*** <br />
 After running the examples provided, I believe it would be useful to install this messaging system on devices to support communications. Here are my 5 ideas: <br />
-1. 
+![P1:Idea1](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Idea1.jpg) 
+![P2:Idea2](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Idea2.jpg) 
 
 ### Part C
 ### Streaming a Sensor
