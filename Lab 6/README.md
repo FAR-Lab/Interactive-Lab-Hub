@@ -156,8 +156,10 @@ Here is an image of that I attempted to read the color published and display on 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab. <br />
 I partnered up with Ling Zhong (lz555) to complete this part of the lab. <br />
 
-**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing. <br />
-
+**\*\*\*1. Explain your design\*\*\*** <br />
+For example, if you made a remote controlled banana piano, explain why anyone would want such a thing. <br />
+We were inspired by the color blind test and decided to design a similar game for reflex test. The detailed structure of the system can be found in the diagram below, but in essence, the messaging system would facilitate the game and interaction between the user and control. Each game consists of 4 rounds, and in each round, the control will display an image with two color blocks, red and green, and ask users where the red block is. Of course the position of color blocks will be randomly placed in each round since it's test! Users will deliver their answers through waving hands at the gesture sensor (APDS-9960). The system will then further display real answers along with score results. <br />
+We believe the game could function as a simple, initial diagonisis to help people check if they are affected by color-blindness, specifically red and green.  This game could also help people train their reflex and reaction through a series of color tests. 
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
