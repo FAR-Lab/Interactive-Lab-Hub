@@ -153,9 +153,11 @@ Here is an image of that I attempted to read the color published and display on 
 ### Part E
 ### Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
+Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab. <br />
+I partnered up with Ling Zhong (lz555) to complete this part of the lab. <br />
 
-**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing. <br />
+
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
