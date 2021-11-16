@@ -109,7 +109,9 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
-
+![P3:Setup](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Sensor1.JPG)
+![P4:Setup](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Sensor2.JPG)
+I connected two candies to the pi, and I found that when the candies are touched, the message of "Twizzler x" would show up not only on the terminal but also on MQTT Explorer under my topic.(shown in the second image above)
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
 
