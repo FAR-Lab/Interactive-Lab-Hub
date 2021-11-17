@@ -162,9 +162,10 @@ We were inspired by the color blind test and decided to design a similar game fo
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 ![P8:Diagram](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%206/images/Structure.png)
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect? <br />
+I think user would be able to know how to interact with the system if the rule of the game is explained. The messaging system is also another primary tool to communicate with users, so they should be no problem understanding what actions to perform with the messages delivered. However, I do think it might take some time for users to adjust gestures so that the sensor could properly capture the intended gesture. When I was testing myself, I did find the sensor too sensitive and therefore misread my gesture.
 
-**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location. 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
