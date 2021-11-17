@@ -165,7 +165,8 @@ We were inspired by the color blind test and decided to design a similar game fo
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect? <br />
 I think user would be able to know how to interact with the system if the rule of the game is explained. The messaging system is also another primary tool to communicate with users, so they should be no problem understanding what actions to perform with the messages delivered. However, I do think it might take some time for users to adjust gestures so that the sensor could properly capture the intended gesture. When I was testing myself, I did find the sensor too sensitive and therefore misread my gesture.
 
-**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location. 
+**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location. <br />
+Please see the vifeo interaction here: https://drive.google.com/file/d/1elXkJiBoBAGp4j7F8-Od1VcgkTSB0O1F/view?usp=sharing
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
