@@ -41,6 +41,9 @@ Your backup plan seems very doable with CV though, and interesting.
 2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
 
 3. Documentation of design process
+The idea and interaction is illustrated in the storyboard below.
+![P1:Storyboard](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Example1.png)
+
 4. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
 5. Video of someone using your project
 6. Reflections on process (What have you learned or wish you knew at the start?)
