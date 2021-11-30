@@ -42,7 +42,7 @@ Your backup plan seems very doable with CV though, and interesting.
 
 3. Documentation of design process
 The idea and interaction is illustrated in the storyboard below.
-![P1:Storyboard](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Lab%205/images/Example1.png)
+![P1:Storyboard](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Storyboard.JPG)
 
 4. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
 5. Video of someone using your project
