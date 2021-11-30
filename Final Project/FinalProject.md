@@ -24,15 +24,19 @@ Introducing FallSafe, a wearable device to detect falls and share the informatio
 
 ## Deliverables
 
-1. Project plan: Big idea, timeline, parts needed, fall-back plan.
-https://docs.google.com/document/d/1Diftxmh99L5KeCyj5gd5Jx9XdbtfqpxcKQgLYkQG350/edit?usp=sharing
+1. Project plan: Big idea, timeline, parts needed, fall-back plan. <br />
+https://docs.google.com/document/d/1Diftxmh99L5KeCyj5gd5Jx9XdbtfqpxcKQgLYkQG350/edit?usp=sharing <br />
 Feedback on the project plan -
 ```
-Really useful idea that could really help people. How would the device be worn? Consider working this out as well: is it watertight to also be used in the shower? Does it need charging? Does it show what its state is? Seems like a good amount of work for two people.
+Really useful idea that could really help people. How would the device be worn? 
+Consider working this out as well: is it watertight to also be used in the shower? 
+Does it need charging? Does it show what its state is? Seems like a good amount of work for two people.
 ```
-"""
-From a feasibility perspective, it may be hard to differentiate a fall from a fast movement using just the accelerator, unless there is a clear pattern present. Your backup plan seems very doable with CV though, and interesting.
-"""
+```
+From a feasibility perspective, it may be hard to differentiate a fall 
+from a fast movement using just the accelerator, unless there is a clear pattern present. 
+Your backup plan seems very doable with CV though, and interesting.
+```
 
 2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
 
