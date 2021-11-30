@@ -18,6 +18,8 @@ The goal of this final project is for you to have a fully functioning and well-d
  
 ## Description
 
+According to CDC, there are about 36 million older adults fall each year, which results in more than 32,000 deaths. Inspired by this shocking fact, we decide to build a device to potentially address this issue.
+
 Introducing FallSafe, a wearable device to detect falls and share the information with emergency contact. Using accelerometer, the device would be able to determine whether a person is falling by sensing motion and measuring the rate of change of the velocity. The device is also integrated with a communication system via MQTT which we explored in Lab 6. Transmitting the information immediately with emergency contact would allow people to respond promptly to prevent severe consequences.
 
 ## Deliverables
