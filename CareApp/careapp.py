@@ -7,6 +7,7 @@ from flask_bootstrap import Bootstrap
 import uuid
 import certifi
 import ssl
+from time import strftime
 
 eventlet.monkey_patch()
 
@@ -39,6 +40,7 @@ def index():
 @socketio.on('publish')
 def handle_publish(json_str):
     data = json.loads(json_str)
+    print(data)
     mqtt.publish(data['topic'], data['message'])
 
 
@@ -47,19 +49,42 @@ def handle_subscribe(json_str):
     data = json.loads(json_str)
     mqtt.subscribe(data['topic'])
 
+@mqtt.on_message()
+def handle_mqtt_message(client, userdata, message):
+    msg = message.payload.decode()
+    if message.topic == 'IDD/syw/cap':
+        if '0' in message.payload.decode('UTF-8'):
+            msg = 'PATIENT SOS'
+        elif '2' in message.payload.decode('UTF-8'):
+            msg = 'Patient requests to be moved'
+        elif '11' in message.payload.decode('UTF-8'):
+            msg = 'Patient requests food'
+        elif '4' in message.payload.decode('UTF-8'):
+            msg = 'Patient has taken medication'
+        elif '8' in message.payload.decode('UTF-8'):
+            msg = 'Patient requests assistance with the bathroom'
+        elif '5' in message.payload.decode('UTF-8'):
+            msg = 'Patient requests water'
+        elif '6' in message.payload.decode('UTF-8'):
+            msg = 'Patient requests general assistance'
+    elif message.topic == 'IDD/syw/multi-distance':
+        if 'Out of bed' in message.payload.decode('UTF-8'):
+            msg = 'Patient is out of bed'
+        else:
+            msg = 'Patient is in bed'
+    data = dict(
+        topic=message.topic,
+        time = strftime("%m/%d/%Y %I:%M %p"),
+        payload=msg
+    )
+    print(data['time'], data['topic'], data['payload'])
+    socketio.emit('mqtt_message', data=data)
+
 @mqtt.on_connect()
 def handle_connect(client, userdata, flags, rc):
     print(f"connected with result code {rc}")
     mqtt.subscribe('IDD/syw/cap')
-
-@mqtt.on_message()
-def handle_mqtt_message(client, userdata, message):
-    data = dict(
-        topic=message.topic,
-        payload=message.payload.decode()
-    )
-    print(data['topic'], data['payload'])
-    socketio.emit('mqtt_message', data=data)
+    mqtt.subscribe('IDD/syw/multi-distance')
 
 
 @mqtt.on_log()
