@@ -1,6 +1,7 @@
 .DS_Store
 *.tflite
 *.scorer
+CareApp/projectenv
 <<<<<<< HEAD
 Lab\ 5/tensorflow-2.4.0-cp37-none-linux_armv7l.whl
 =======
