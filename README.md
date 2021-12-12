@@ -7,7 +7,7 @@ for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Design
 
 [Lab 3. Chatterboxes](Lab%203/)
 
-Lab 4. Ph-UI!!!<!--[](Lab%204/)-->
+[Lab 4. Ph-UI!!!](Lab%204/)
 
 Lab 5. Observant Systems<!--[](Lab%205/)-->
 
