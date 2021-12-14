@@ -38,7 +38,10 @@ from a fast movement using just the accelerator, unless there is a clear pattern
 Your backup plan seems very doable with CV though, and interesting.
 ```
 
-2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
+2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with. <br />
+![P2:Functioning](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Project1.jpeg)
+![P3:Functioning](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Project2.JPG)
+
 
 3. Documentation of design process <br />
 The idea and interaction is illustrated in the storyboard below.
