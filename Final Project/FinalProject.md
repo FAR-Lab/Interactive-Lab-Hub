@@ -40,7 +40,10 @@ Your backup plan seems very doable with CV though, and interesting.
 
 2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with. <br />
 ![P2:Functioning](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Project1.jpeg)
-![P3:Functioning](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Project2.JPG)
+![P3:Functioning](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Project2-1.jpg)
+![P4:Functioning](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Project3.png)
+The finished product is a wearable device to detect one's falling. By wearing the device, elderly people could ensure their safety if some unfortunate events happen. Besides having a sensor to detect a user's motion, the device is also equipped with a camera and speaker. These components allow the device to amplify the alert and further send the alert along with a recording of the incident to emergency contact. We are also aware that there might be false alarm since the sensor is sensitive and likely to be triggered unintentionally. If that's the case, there is a button next to the display, allowing users to cancel the alert.
+
 
 
 3. Documentation of design process <br />
