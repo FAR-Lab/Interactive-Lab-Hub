@@ -50,8 +50,10 @@ The finished product is a wearable device to detect one's falling. By wearing th
 The idea and interaction is illustrated in the storyboard below.
 ![P1:Storyboard](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Storyboard.JPG)
 We sought to use the story board as a foundation to design the entire system. After a few rounds of discussion and iteration, we decided that the system need to fulfill the following essential requirements - <br />
-A. Sensor to detect falling 
-B. 
+A. Sensor to detect falling <br />
+B. Allow user to cancel an alert (as we consider the risk of false trigger might produce unnecessary confusion and burden) <br />
+C. Send the alert and communicate with an emergency contact <br />
+
 
 4. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
 5. Video of someone using your project <br />
