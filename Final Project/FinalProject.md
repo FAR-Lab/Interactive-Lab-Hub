@@ -73,8 +73,7 @@ It is fine to change your project goals, but please resubmit the project plan fo
 
 
 ## Teams
-
-You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
+We are a team of two - Kristy Chen (sc3248) and Ling Zhong (lz555). We designed the interaction together, with Ling further working on the remote communication and the integration of camera and email. Kristy worked on the assembly of the system, scenario testing, and the production of the demo video.
 
 ## Examples
 
