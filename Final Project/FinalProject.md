@@ -56,7 +56,7 @@ C. Send the alert and communicate with an emergency contact <br />
 The following is the color scheme employed to communicate clearly about different states of the system. We are aware that color could be a fantastic facillitator in communication especially in our case when the display is not in a readable size; therefore, we want to use colors to convey and emphasize different meanings.
 ![P5:Alert](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Alert.png)
 4. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.) <br />
-/a. Components
+##### a. Components
 Below is all the components we used to build our prototype.
 
 Two Raspberry Pi 4+miniPiTFT:
@@ -71,7 +71,7 @@ Speaker (on Sender):
 Play alert audio if a fall is detected
 Portable Charger: A charger that outputs 5V 3.0A. Although we found out that 5V 2.0A would also work.
 
-/ b. Fall Detection Algorithm
+##### b. Fall Detection Algorithm
 The flow of the algorithm is shown as below:
 ![P5:Alert](https://github.com/lingz18/IDD-Final/blob/master/img/algorithm.jpg)
 As you can see, our fall detection algorithm is rule-based. It's based on threshold and time windows summarized in the work of the following paper:
