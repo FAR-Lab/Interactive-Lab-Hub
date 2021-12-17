@@ -56,7 +56,20 @@ C. Send the alert and communicate with an emergency contact <br />
 The following is the color scheme employed to communicate clearly about different states of the system. We are aware that color could be a fantastic facillitator in communication especially in our case when the display is not in a readable size; therefore, we want to use colors to convey and emphasize different meanings.
 ![P5:Alert](https://github.com/kchen1009/Interactive-Lab-Hub/blob/Fall2021/Final%20Project/Alert.png)
 4. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.) <br />
-See code in the final project directory
+a. Components
+Below is all the components we used to build our prototype.
+
+Two Raspberry Pi 4+miniPiTFT:
+Receiver & Sender(wearable device), both with Adafruit miniPiTFT 240x135 LED screen. And two of them will communicate via MQTT
+MPU6050 Accelerometer (on Sender):
+The 6-DoF accelerometer and Gyro will be used to detect whether a user has fallen by capturing the change in acceleration and angular speed.
+SparkFun Qwiic LED Button (on Sender):
+The LED button on the Sender Pi will blink to remind the user to cancel it in the event of a false alarm
+WebCamera (on Receiver):
+We deployed the Provision 720P webcam on the receiver Pi to record footage of the fall accident.
+Speaker (on Sender):
+Play alert audio if a fall is detected
+Portable Charger: A charger that outputs 5V 3.0A. Although we found out that 5V 2.0A would also work.
 
 
 5. Video of someone using your project <br />
