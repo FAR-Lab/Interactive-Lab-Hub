@@ -99,7 +99,9 @@ toEmail = 'lz555@cornell.edu'
 You can change the emergency contact email. This email module sends an emergency alert named "Fall is Detected" with fall video attached using the gmail SMTP server. <br />
 
 Then, before running the program, make sure we set up the two PIs and have MQTT server up and running. For the first pi, connect accelerometer and red QWIIC LED button. For the second pi, connect webcam and speaker. Clone the code directory to both Pis, and on the first Pi, run:
-```python test.py```
+```
+python test.py
+```
 And on the second run:
 ```
 python alertcam.py
