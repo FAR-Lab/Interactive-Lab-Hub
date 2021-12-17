@@ -75,9 +75,9 @@ Portable Charger: A charger that outputs 5V 3.0A. Although we found out that 5V 
 The flow of the algorithm is shown as below:
 ![P5:Alert](https://github.com/lingz18/IDD-Final/blob/master/img/algorithm.jpg)
 As you can see, our fall detection algorithm is rule-based. It's based on threshold and time windows summarized in the work of the following paper:
-A.K. Bourke, G.M. Lyons, A threshold-based fall-detection algorithm using a bi-axial gyroscope sensor, in Medical Engineering & Physics, 2008, https://www.sciencedirect.com/science/article/pii/S1350453306002657
-Pierleoni, et al., "A High Reliability Wearable Device for Elderly Fall Detection," in IEEE Sensors Journal, 2015, https://ieeexplore.ieee.org/document/7087338
-Tan and Tinh, Reliable Fall Detection System Using an 3-DOF Accelerometer and Cascade Posture Recognitions, Signal and Information Processing Association Annual Summit and Conference (APSIPA), 2014, https://ieeexplore.ieee.org/document/7041539
+- A.K. Bourke, G.M. Lyons, A threshold-based fall-detection algorithm using a bi-axial gyroscope sensor, in Medical Engineering & Physics, 2008, https://www.sciencedirect.com/science/article/pii/S1350453306002657
+- Pierleoni, et al., "A High Reliability Wearable Device for Elderly Fall Detection," in IEEE Sensors Journal, 2015, https://ieeexplore.ieee.org/document/7087338
+- Tan and Tinh, Reliable Fall Detection System Using an 3-DOF Accelerometer and Cascade Posture Recognitions, Signal and Information Processing Association Annual Summit and Conference (APSIPA), 2014, https://ieeexplore.ieee.org/document/7041539
 
 
 5. Video of someone using your project <br />
