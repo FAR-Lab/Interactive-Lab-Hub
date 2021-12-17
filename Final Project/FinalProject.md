@@ -91,6 +91,19 @@ Next, to get the email alerts with video, edit the 'tomail' in mail.py file.
 ```
 nano main.py
 ```
+And in the mail.py file, locate toEmail, which is currently set to be Ling's email:
+```
+# Email of emergency contact
+toEmail = 'lz555@cornell.edu' 
+```
+You can change the emergency contact email. This email module sends an emergency alert named "Fall is Detected" with fall video attached using the gmail SMTP server. <br />
+
+Then, before running the program, make sure we set up the two PIs and have MQTT server up and running. For the first pi, connect accelerometer and red QWIIC LED button. For the second pi, connect webcam and speaker. Clone the code directory to both Pis, and on the first Pi, run:
+```python test.py```
+And on the second run:
+```
+python alertcam.py
+```
 
 5. Video of someone using your project <br />
 Video - https://drive.google.com/file/d/1mxeScjrWFT1AI0EFFzXBPnWg3Pgqlleq/view?usp=sharing
