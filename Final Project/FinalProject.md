@@ -84,9 +84,13 @@ As you can see, our fall detection algorithm is rule-based. It's based on thresh
 
 #### d. Setup
 First, we enter the code directory and install all the dependencies
-'''
+```
 pip3 install -r requirements.txt 
-'''
+```
+Next, to get the email alerts with video, edit the 'tomail' in mail.py file.
+```
+nano main.py
+```
 
 5. Video of someone using your project <br />
 Video - https://drive.google.com/file/d/1mxeScjrWFT1AI0EFFzXBPnWg3Pgqlleq/view?usp=sharing
