@@ -113,6 +113,8 @@ Video - https://drive.google.com/file/d/1mxeScjrWFT1AI0EFFzXBPnWg3Pgqlleq/view?u
 
 One thing we wish we could spend more time doing research on is the user behavior. If we have more time, we'd like to learn more about where/when and all kinds falling situations for elderly people so we could adjust our design accordingly. For instance, if we find out that most falls occur in the bathroom, we would have made the exterior of the device waterproof. For now, since it's still a rough prototype, we decided to go with cardboards because they are affordable and effective. We did tons of experiments and found out that cardboards are pretty durable - we dropped the device to imitate falling, and surprisingly the cardboard itself did not rip at all while holding the pi together. <br />
 
+Exploring our fall detection algorithm took quite some time and experiments. First, we naturally thought machine learning is the way to go. There are vision-based method and accelerometer-based. The vision-based works well, but it's harder to handle exeptions like visual obstruction, low light or partial view. The accelerometer-based method is more robust in that regard. However, in our implementation, rule-based model works more robustly and efficiently than machine learning models. It handles exceptions well, and introducing the false alert button really helped too.
+
 7. Group work distribution questionnaire
 
 ## Change of Design
