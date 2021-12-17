@@ -79,6 +79,14 @@ As you can see, our fall detection algorithm is rule-based. It's based on thresh
 - Pierleoni, et al., "A High Reliability Wearable Device for Elderly Fall Detection," in IEEE Sensors Journal, 2015, https://ieeexplore.ieee.org/document/7087338
 - Tan and Tinh, Reliable Fall Detection System Using an 3-DOF Accelerometer and Cascade Posture Recognitions, Signal and Information Processing Association Annual Summit and Conference (APSIPA), 2014, https://ieeexplore.ieee.org/document/7041539
 
+#### c. State Diagram
+![P5:Alert](https://github.com/lingz18/IDD-Final/blob/master/img/diagram.jpg)
+
+#### d. Setup
+First, we enter the code directory and install all the dependencies
+'''
+pip3 install -r requirements.txt 
+'''
 
 5. Video of someone using your project <br />
 Video - https://drive.google.com/file/d/1mxeScjrWFT1AI0EFFzXBPnWg3Pgqlleq/view?usp=sharing
