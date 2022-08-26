@@ -69,9 +69,9 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 Setting: Study area where people are doing work either together or apart
-Players: Students
-Activity: getting work/school work done
-Goals: to be reminded to take consistent breaks when working to increase productivity
+_Players: Students
+_Activity: getting work/school work done
+_Goals: to be reminded to take consistent breaks when working to increase productivity
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
