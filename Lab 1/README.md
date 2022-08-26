@@ -74,11 +74,12 @@ Players: Students
 
 Activity: getting work/school work done
 
-Goals: to be reminded to take consistent breaks when working to increase productivity
+Goals: to be reminded to take consistent breaks every 30 minutes when working to increase productivity
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 ![interactive device lab 1 storyboard](https://user-images.githubusercontent.com/112091818/186923295-9a5bc749-7211-4da3-929c-d367725f44e1.jpg)
+*The final device does not need to be in the shape of a dino. I just thought it would be cute for the storyboard
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -89,9 +90,9 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+Simply having the light wasn't enough when I wasn't actively paying attention to the light.
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+Adding a sound/buzzing component so I don't miss the change would be good to do
 
 
 ## Part C. Prototype the device
@@ -104,8 +105,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
-
+Tinkerbelle worked great for me :)
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
