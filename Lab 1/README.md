@@ -79,12 +79,19 @@ All of the players in this interaction are myself, an emotional fridge, a decori
 
 there are different goals for each of the scenarios that have been planned out.In scenario 1 the fridge is trying to get the user pick a healthy food rather then a unhealthy food. In scenario 2 the fridge is letting the user know what food should be refridgerated and what food should not be. For scenario 3 the goal is for the user to pick out an outfit without taking 4 of the same type of clothing item. Scenario two is similar but has the added on factor of needing to color coordinating your clothes or else the drawer will be upset with you and let you know by emmiting a red light. For scenario 5, the goal is to get the highest amount of points by pinning a bullseye nearest to the inside of the dartboard. In scenario 6, the goal is to juggle a soccerball with your feet more then 15 times. In scenario 7, the goal is to get the most points by throwing a dart closest to the center of the dartboard.
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on ![Image 8-26-22 at 6 17 PM](https://user-images.githubusercontent.com/112049036/187048220-e4f94401-1cb5-409a-9fd3-e2a92b7a7c81.jpg)
+Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on 
 a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
-![Image 8-26-22 at 6 17 PM](https://user-images.githubusercontent.com/112049036/187048224-dae7a06d-242d-4d08-92e8-17aeacf623ff.jpg)
+<img width="400" alt="Screen Shot 2022-08-27 at 5 16 39 PM" src="https://user-images.githubusercontent.com/112049036/187048348-0b1983f1-3125-471c-bc1b-521d55901acf.png">
+<img width="426" alt="Screen Shot 2022-08-27 at 5 16 54 PM" src="https://user-images.githubusercontent.com/112049036/187048357-8be8c4ac-08a3-4db3-a8fc-cffedf6f9b7f.png">
 
+<img width="433" alt="Screen Shot 2022-08-27 at 5 17 05 PM" src="https://user-images.githubusercontent.com/112049036/187048360-e1df34d6-44b2-4d21-a929-0f72b88a64b6.png">
+
+<img width="437" alt="Screen Shot 2022-08-27 at 5 17 17 PM" src="https://user-images.githubusercontent.com/112049036/187048363-e1244007-b601-4b32-915e-5222b102fc7d.png">
+<img width="422" alt="Screen Shot 2022-08-27 at 5 17 29 PM" src="https://user-images.githubusercontent.com/112049036/187048365-eea1d5f2-43ff-44d3-900b-880f28b8f986.png">
+<img width="434" alt="Screen Shot 2022-08-27 at 5 17 41 PM" src="https://user-images.githubusercontent.com/112049036/187048376-c841d79f-3d18-4ad7-b023-5b42c32d5431.png">
+<img width="536" alt="Screen Shot 2022-08-27 at 5 17 57 PM" src="https://user-images.githubusercontent.com/112049036/187048379-018ab1ab-5731-4435-8cb6-5e8827b77fd7.png">
 
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
