@@ -71,9 +71,21 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+Each of the three interactions that have been planned out all take place in my apartment. This includes appliances such as my drawer, fridge, and makeshift dartboard & scoreboard.
+
+In my first two scenarios I am taking food from my fridge with diffferent interactions happening based on wht food is taken out. My next two are with my drawer where I am taking clothes out of my drawer and that will determine what color of light emerges from the drawer. My last three have to do with a scoreboard dictating a points system based on colors that are emmited. In the three games I play with the scoreboard I juggle a soccerball with my feet, throw darts at a board, and play spin the tail on the Donkey.
+
+All of the players in this interaction are myself, an emotional fridge, a decoritive drawer, a dartboard, scoreboard, and a soccer ball. It is also worth mentioning that the ideo recording is done by labmate Rahul. 
+
+there are different goals for each of the scenarios that have been planned out.In scenario 1 the fridge is trying to get the user pick a healthy food rather then a unhealthy food. In scenario 2 the fridge is letting the user know what food should be refridgerated and what food should not be. For scenario 3 the goal is for the user to pick out an outfit without taking 4 of the same type of clothing item. Scenario two is similar but has the added on factor of needing to color coordinating your clothes or else the drawer will be upset with you and let you know by emmiting a red light. For scenario 5, the goal is to get the highest amount of points by pinning a bullseye nearest to the inside of the dartboard. In scenario 6, the goal is to juggle a soccerball with your feet more then 15 times. In scenario 7, the goal is to get the most points by throwing a dart closest to the center of the dartboard.
+
+Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on ![Image 8-26-22 at 6 17 PM](https://user-images.githubusercontent.com/112049036/187048220-e4f94401-1cb5-409a-9fd3-e2a92b7a7c81.jpg)
+a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+![Image 8-26-22 at 6 17 PM](https://user-images.githubusercontent.com/112049036/187048224-dae7a06d-242d-4d08-92e8-17aeacf623ff.jpg)
+
+
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
