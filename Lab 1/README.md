@@ -71,20 +71,87 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+**Setting:** Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+	• The interaction is happening outside at night on a farm.  A lone farmer is having a series of different interactions with what he perceives to be an alien space ship.  It is in fact a government secret project designed to test how human might react if the government secret that there are in fact aliens was accidentally let out.
+**Players:** Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+Involved in the interaction is a farm boy and the secret alien ship.  The alien device is designed to test out on everyday people their reactions to meeting aliens.  It is not meant to be overly frightening but instead based on the real designs the government is hiding in area 51.
+**Activity:** What is happening between the actors?
+	• The actors are the farmer and the 'alien space ship'.  The Space ship is doing a multitude of activities to test how the farmer will react.  See below for detailed Activities and goals
+**Goals:** What are the goals of each player? (e.g., jumping to a tree, opening the fridge)
+
+**Storyboard goals and activities**
+	- 1. Landing
+		- The alien space ship lands near the farmer as he is scared and he goes to check it out, the space ship doesn't want him to be close
+		- Goals
+			- Farmer - check out the spaceship
+			- Spaceship - land but don't let the farmer touch it
+	- 2. Stop and Go
+		- The ship uses red and green to communicate the person where to go
+		- Goals
+			- Farmer - Ask the spaceship for direction
+			- Spaceship - communicate where to go
+			
+	- 3. Orange to say be careful?
+		- The space ship warns of dangerous beasts nearby through flashing orange
+		- Goals
+			- Farmer - go across the hall
+			- Spaceship - warn the person of dangerous beasts nearby by flashing orange
+	- 4. Morse code
+		- The space ship trys to communicate to the person using morse code using flashing white light
+		- Goals
+			- Farmer - Understand the spaceship
+			- Spaceship - Communicate in Morse code
+	- 5. Zapping up 
+		- It flys over the person and trys to "beam" them up as they run and try to avoid the white tractor beam
+		- Goals
+			- Farmer - Avoid the tractor beam
+			- Spaceship - Beam up the farmer
+	- 6. Remember the colors
+		- It flashes colors to test the memory and intelligence of our primitive species
+		- Goals
+			- Farmer - Remember the colors
+			- Spaceship - Flash different colors
+	- 7. Alot then nothing 
+		- The alien space ship shows a variety of colors to dazzle the farmer and see how he will react?
+		- Goals
+			- Farmer - React to the terrifying spaceship
+			- Spaceship - Dazzle the farmer
+      
+![image](https://user-images.githubusercontent.com/112022260/187096762-7e6a53b1-d3b4-4020-9f50-b339d61e9d71.png)
+
+![image](https://user-images.githubusercontent.com/112022260/187096722-82a53655-1817-4ffe-9ad5-5d1461a9a59c.png)
+
+
+
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
+![image](
+![image](
+![image](
+![image](
+![image](
+![image](
+![image](
+
 \*\***Summarize feedback you got here.**\*\*
 
+STILL TO DOOOOO
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+	- Staging genuine reaction like what you would want to test for in an experiment like this is difficult without a sufficiently awe inspiring prototype
+	- Doing the zapping up was much harder given the low ceilings
+  - Getting my dogs to cooperate as dangerous beasts was also very difficult
+
+I did encounter difficult that the light underneath the saucer could not be seen in a well-lit room.  This required filming in a dark basement which would not be indicative of all potential human, alien interactions.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
@@ -119,10 +186,15 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+![image](
+![image](
+![image](
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+	- I was most concerned with how I could securely attach my device to a string / pull system to imitate a flying saucer.  I thought the design of the flying saucer as a great opportunity to hide the phone beneath while flashing the colors below
 
+  - When designing the device I also wanted to make sure the look of the device looked sufficiently alien.  If it was too close to something we typically associate with humans, the targets interactions and reactions would not be helpful as this would likely change how they approach the foreign object
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
