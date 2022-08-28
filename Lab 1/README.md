@@ -71,18 +71,19 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-The interaction happens wherever you have your interactive device: HydrateMug, and it happens while you haven't taken water for 2 hours. An individual would be involved in the interaction with his or her HydrateMug. HydrateMug would remind an individual to drink water with light. The users’ goals are to get enough hydration everyday.
+**The interaction happens wherever you have your interactive device: HydrateMug, and it happens while you haven't taken water for 2 hours. An individual would be involved in the interaction with his or her HydrateMug. HydrateMug would remind an individual to drink water with light. The users’ goals are to get enough hydration everyday.**
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
-[Storyboards](https://drive.google.com/file/d/187-SuuzeMyOX9wfGhemPujjvUv8Du5AD/view)
+[**Storyboards**](https://drive.google.com/file/d/187-SuuzeMyOX9wfGhemPujjvUv8Du5AD/view)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+**Originally, HydrateMug reminded users to drink water every two hours. The group pointed out that we could let users customize the time/period to drink water via mobile phone APP.**
 
 ## Part B. Act out the Interaction
 
@@ -90,8 +91,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+**Ideally, HydrateMug could notify users via light. In reality, the light sometimes is not sufficient to get the user's attention.**
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+**We could not only use light, but also sound to notify users.**
 
 ## Part C. Prototype the device
 
@@ -105,16 +109,20 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+**Overall, it is easy to use and helpful in prototyping interactive devices.**
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+[**Set-up video**](https://drive.google.com/file/d/10IsyAy2Agh4BEF9PEdHjrmeZ5y3VCCRi/view?usp=sharing)
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+[**Follow-up video**](https://drive.google.com/file/d/12N4CwaENvlnxamysCkXR35Un1XpS7Ocd/view?usp=sharing)
 
 ## Part E. Costume the device
 
@@ -124,16 +132,25 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+[**Sketch**](https://drive.google.com/file/d/186zwI-RwEK0sQWPxxYn12BETnfMSksme/view?usp=sharing)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+**HydrateMug must be waterproof since users may flush it. Besides, I hope the electronic part of HydrateMug to be small and cheap.**
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[**Prototyped interaction**](https://drive.google.com/file/d/1vBFWHEZyNau-swNL5Ij_4K9sfghe9NWt/view?usp=sharing)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+**Alan: Giving me feedback on HydrateMug**
+
+**Professor/TAs: Providing Tinkerbelle to us**
 
 
 # Staging Interaction, Part 2 
