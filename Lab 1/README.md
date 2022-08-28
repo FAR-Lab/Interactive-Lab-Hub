@@ -132,11 +132,15 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-[**Sketch**](https://drive.google.com/file/d/186zwI-RwEK0sQWPxxYn12BETnfMSksme/view?usp=sharing)
-
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-**HydrateMug must be waterproof since users may flush it. Besides, I hope the electronic part of HydrateMug to be small and cheap, so that everyone can afford HydrateMug.**
+**[Sketch 1](https://drive.google.com/file/d/186zwI-RwEK0sQWPxxYn12BETnfMSksme/view?usp=sharing): HydrateMug must be waterproof since users may flush it. Besides, I hope the electronic part of HydrateMug to be small and cheap, so that everyone can afford HydrateMug.**
+
+
+**[Sketch 2](https://drive.google.com/file/d/18AjxOHB9GcoT5BA4P4raAS6SZ48xGnOd/view?usp=sharing): The clock can let users know the exact time for hydration. However, HydrateMug would be costly. (Since the clock needs to be waterproof)**
+
+**[Sketch 3](https://drive.google.com/file/d/18Ax8WGBaOcPuQODSbxJCoHjb1GdSS9fw/view?usp=sharing): I thought that appearance is also important. Hence, I added a surrounding light effect to the design (like eSport style). I hoped HydrateMug would be appealing to younger generations.**
+
 
 
 ## Part F. Record
