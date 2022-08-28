@@ -81,10 +81,44 @@ Involved in the interaction is a farm boy and the secret alien ship.  The alien 
 
 **Storyboard goals and activities**
 
-      
-![image](https://user-images.githubusercontent.com/112022260/187096762-7e6a53b1-d3b4-4020-9f50-b339d61e9d71.png)
+    1. Landing
+		- The alien space ship lands near the farmer as he is scared and he goes to check it out, the space ship doesn't want him to be close
+		- Goals
+			- Farmer - check out the spaceship
+			- Spaceship - land but don't let the farmer touch it
+	2. Stop and Go
+		- The ship uses red and green to communicate the person where to go
+		- Goals
+			- Farmer - Ask the spaceship for direction
+			- Spaceship - communicate where to go
+	3. Orange to say be careful?
+		- The space ship warns of dangerous beasts nearby through flashing orange
+		- Goals
+			- Farmer - go across the hall
+			- Spaceship - warn the person of dangerous beasts nearby by flashing orange
+	4. Morse code
+		- The space ship trys to communicate to the person using morse code using flashing white light
+		- Goals
+			- Farmer - Understand the spaceship
+			- Spaceship - Communicate in Morse code
+	5. Zapping up 
+		- It flys over the person and trys to "beam" them up as they run and try to avoid the white tractor beam
+		- Goals
+			- Farmer - Avoid the tractor beam
+			- Spaceship - Beam up the farmer
+	6. Remember the colors
+		- It flashes colors to test the memory and intelligence of our primitive species
+		- Goals
+			- Farmer - Remember the colors
+			- Spaceship - Flash different colors
+	7. Alot then nothing 
+		- The alien space ship shows a variety of colors to dazzle the farmer and see how he will react?
+		- Goals
+			- Farmer - React to the terrifying spaceship
+			- Spaceship - Dazzle the farmer
+![image](https://user-images.githubusercontent.com/112022260/187097132-ab029505-aa2b-4336-bc39-d1ec24e112a6.png)
+  
 
-![image](https://user-images.githubusercontent.com/112022260/187096722-82a53655-1817-4ffe-9ad5-5d1461a9a59c.png)
 
 
 
