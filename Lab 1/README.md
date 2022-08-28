@@ -70,13 +70,14 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+
 The interaction happens wherever you have your interactive device: HydrateMug, and it happens while you haven't taken water for 2 hours. An individual would be involved in the interaction with his or her HydrateMug. HydrateMug would remind an individual to drink water with light. The users’ goals are to get enough hydration everyday.
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![Storyboards](https://drive.google.com/file/d/187-SuuzeMyOX9wfGhemPujjvUv8Du5AD/view?usp=sharing)
+![Storyboards](https://drive.google.com/file/d/187-SuuzeMyOX9wfGhemPujjvUv8Du5AD/view)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
