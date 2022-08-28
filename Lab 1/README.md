@@ -72,49 +72,51 @@ The interactive device can be anything *except* a computer, a tablet computer or
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
 **Setting:** Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-	•
-	-The interaction is happening outside at night on a farm.  A lone farmer is having a series of different interactions with what he perceives to be an alien space ship.  It is in fact a government secret project designed to test how human might react if the government secret that there are in fact aliens was accidentally let out.
+	
+-The interaction is happening outside at night on a farm.  A lone farmer is having a series of different interactions with what he perceives to be an alien space ship.  It is in fact a government secret project designed to test how human might react if the government secret that there are in fact aliens was accidentally let out.
 **Players:** Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
 - Involved in the interaction is a farm boy and the secret alien ship.  The alien device is designed to test out on everyday people their reactions to meeting aliens.  It is not meant to be overly frightening but instead based on the real designs the government is hiding in area 51.
+
 **Activity:** What is happening between the actors?
 	
-	- The actors are the farmer and the 'alien space ship'.  The Space ship is doing a multitude of activities to test how the farmer will react.  See below for detailed Activities and goals
+- The actors are the farmer and the 'alien space ship'.  The Space ship is doing a multitude of activities to test how the farmer will react.  See below for detailed Activities and goals
+	
 **Goals:** What are the goals of each player? (e.g., jumping to a tree, opening the fridge)
 
 **Storyboard goals and activities**
 
-    1. Landing
+1. Landing
 		- The alien space ship lands near the farmer as he is scared and he goes to check it out, the space ship doesn't want him to be close
 		- Goals
 			- Farmer - check out the spaceship
 			- Spaceship - land but don't let the farmer touch it
-	2. Stop and Go
+2. Stop and Go
 		- The ship uses red and green to communicate the person where to go
 		- Goals
 			- Farmer - Ask the spaceship for direction
 			- Spaceship - communicate where to go
-	3. Orange to say be careful?
+3. Orange to say be careful?
 		- The space ship warns of dangerous beasts nearby through flashing orange
 		- Goals
 			- Farmer - go across the hall
 			- Spaceship - warn the person of dangerous beasts nearby by flashing orange
-	4. Morse code
+4. Morse code
 		- The space ship trys to communicate to the person using morse code using flashing white light
 		- Goals
 			- Farmer - Understand the spaceship
 			- Spaceship - Communicate in Morse code
-	5. Zapping up 
+5. Zapping up 
 		- It flys over the person and trys to "beam" them up as they run and try to avoid the white tractor beam
 		- Goals
 			- Farmer - Avoid the tractor beam
 			- Spaceship - Beam up the farmer
-	6. Remember the colors
+6. Remember the colors
 		- It flashes colors to test the memory and intelligence of our primitive species
 		- Goals
 			- Farmer - Remember the colors
 			- Spaceship - Flash different colors
-	7. Alot then nothing 
+7. Alot then nothing 
 		- The alien space ship shows a variety of colors to dazzle the farmer and see how he will react?
 		- Goals
 			- Farmer - React to the terrifying spaceship
