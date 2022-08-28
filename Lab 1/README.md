@@ -83,7 +83,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
-**Originally, HydrateMug reminded users to drink water every two hours. The group pointed out that we could let users customize the time/period to drink water via mobile phone APP.**
+**Originally, HydrateMug reminded users to drink water every two hours. Alan pointed out that we could let users customize the time/period to drink water via mobile phone APP.**
 
 ## Part B. Act out the Interaction
 
@@ -95,7 +95,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
-**We could not only use light, but also sound to notify users.**
+**We could not only use light, but also sound effect to notify users.**
 
 ## Part C. Prototype the device
 
@@ -136,7 +136,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-**HydrateMug must be waterproof since users may flush it. Besides, I hope the electronic part of HydrateMug to be small and cheap.**
+**HydrateMug must be waterproof since users may flush it. Besides, I hope the electronic part of HydrateMug to be small and cheap, so that everyone can afford HydrateMug.**
 
 
 ## Part F. Record
