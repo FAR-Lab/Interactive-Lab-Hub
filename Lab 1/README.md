@@ -71,7 +71,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-**According to the U.S. National Academies of Sciences, Engineering, and Medicine, a man is suggested to drink about 15.5 cups (3.7 liters) of fluids a day. However, due to the busy modern lifestyle, many people do not drink sufficient amounts of water. The interactive device: HydrateMug aims to help users drink enough water.**
+**According to the U.S. National Academies of Sciences, Engineering, and Medicine, a man is suggested to drink about 15.5 cups (3.7 liters) of fluids a day. However, due to the busy modern lifestyle, many people do not drink sufficient amounts of water. The interactive device: HydrateMug aims to help users get enough hydration.**
 
 **The interaction happens wherever you have HydrateMug, and it happens while you haven't taken water for 2 hours. An individual would be involved in the interaction with his or her HydrateMug. HydrateMug would remind an individual to drink water with light. The users’ goals are to get enough hydration everyday.**
 
