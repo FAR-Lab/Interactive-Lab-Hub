@@ -167,6 +167,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Thought the overall software was intuitive to use once setup. I did have difficult building and running the packages at first due to running an older version of C++ on my laptop.  May be an issue for other students in the future.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
