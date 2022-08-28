@@ -71,7 +71,9 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-**The interaction happens wherever you have your interactive device: HydrateMug, and it happens while you haven't taken water for 2 hours. An individual would be involved in the interaction with his or her HydrateMug. HydrateMug would remind an individual to drink water with light. The users’ goals are to get enough hydration everyday.**
+**According to the U.S. National Academies of Sciences, Engineering, and Medicine, a man is suggested to drink about 15.5 cups (3.7 liters) of fluids a day. However, due to the busy modern lifestyle, many people do not drink sufficient amounts of water. The interactive device: HydrateMug aims to help users drink enough water.**
+
+**The interaction happens wherever you have HydrateMug, and it happens while you haven't taken water for 2 hours. An individual would be involved in the interaction with his or her HydrateMug. HydrateMug would remind an individual to drink water with light. The users’ goals are to get enough hydration everyday.**
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
