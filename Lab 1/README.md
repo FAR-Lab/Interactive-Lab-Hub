@@ -129,13 +129,13 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
-![image](
-![image](
-![image](
-![image](
-![image](
-![image](
-![image](
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%201.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%202.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%203.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%204.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%205.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%206.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%207.jpg)
 
 \*\***Summarize feedback you got here.**\*\*
 
@@ -186,9 +186,9 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
-![image](
-![image](
-![image](
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%208.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%209.jpg)
+![image](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Aug%2027%2C%20Doc%201%2010.jpg)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
