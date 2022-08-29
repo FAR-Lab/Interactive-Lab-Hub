@@ -70,18 +70,18 @@ _Activity:_ Users hold up the device to a wall that needs to be repainted. They 
 _Goals:_ Improving the color selection process during painting. To acquire the true color of a wall or natural objects.
 
 
-![images](./images/storyboard.jpg)
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include pictures of your storyboards here**\*\*
+![images](./images/storyboard.jpg)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+The size of the device will make it diffucult to take outside of a home
 
 ## Part B. Act out the Interaction
 
@@ -89,8 +89,12 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+The shape of the device: when holding up the device to a wall there was nothing to make the device ergonomic. The handle needs to be slightly angled to allow the device to sit flush against a wall.
+
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+A folder of saved colors can be helpful for remembering your past scans.
 
 ## Part C. Prototype the device
 
@@ -103,6 +107,8 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
+The Tinkerbelle tool was very convenient for my device. Because my device's main feature is color selection, having the entire color wheel at my disposal was very helpful. This will make it easier to incorporate a joystick into the device for fine tuning of color selection.
 
 
 ## Part D. Wizard the device
