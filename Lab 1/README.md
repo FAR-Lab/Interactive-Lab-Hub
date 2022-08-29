@@ -72,6 +72,9 @@ _Device:_ The interactive device is a desk lamp with speakers. The interaction w
 
 **Storyboards**
 
+![Alt text](Lab 1/IMG_0083.jpg?raw=true "test")
+
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 
