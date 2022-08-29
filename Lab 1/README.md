@@ -85,7 +85,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
-**Originally, HydrateMug reminded users to drink water every two hours. Alan pointed out that we could let users customize the time/period to drink water via mobile phone APP.**
+**Originally, HydrateMug reminded users to drink water every two hours. Sally pointed out that we could let users customize the time/period to drink water via mobile phone APP.**
 
 ## Part B. Act out the Interaction
 
@@ -154,7 +154,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-**Alan: Giving me feedback on HydrateMug**
+**Sally (my sister): Giving me feedback on HydrateMug**
 
 **Professor/TAs: Providing Tinkerbelle to us**
 
