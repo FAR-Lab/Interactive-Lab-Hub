@@ -157,7 +157,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
-STILL TO DOOOOO
+- Things that come ot collaborator
+	- Flashing strobe light
+	- Asking questions - are you hear to hurt me
+		- Two blinks yes, two blinks
+
 
 ## Part C. Prototype the device
 
@@ -178,12 +182,15 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-STILL TO DOOOOO
+
+![video](
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+
+![video](
 
 ## Part E. Costume the device
 
@@ -198,13 +205,16 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-	- I was most concerned with how I could securely attach my device to a string / pull system to imitate a flying saucer.  I thought the design of the flying saucer as a great opportunity to hide the phone beneath while flashing the colors below
+- I was most concerned with how I could securely attach my device to a string / pull system to imitate a flying saucer.  I thought the design of the flying saucer as a great opportunity to hide the phone beneath while flashing the colors below
 
-  - When designing the device I also wanted to make sure the look of the device looked sufficiently alien.  If it was too close to something we typically associate with humans, the targets interactions and reactions would not be helpful as this would likely change how they approach the foreign object
+- When designing the device I also wanted to make sure the look of the device looked sufficiently alien.  If it was too close to something we typically associate with humans, the targets interactions and reactions would not be helpful as this would likely change how they approach the foreign object
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+![video](
+![video](
+![video](
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
