@@ -71,7 +71,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 TEST
 
-![images](./images/download.jpg)
+![images](./images/storyboard.jpg)
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
