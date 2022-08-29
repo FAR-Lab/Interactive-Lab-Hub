@@ -170,6 +170,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/lanIwuJpK9Q/sddefault.jpg)](https://www.youtube.com/watch?v=lanIwuJpK9Q "Journey 3 - Clear Weather")
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/vRuk2Ol33-Y/sddefault.jpg)](https://www.youtube.com/watch?v=vRuk2Ol33-Y "Journey 3 - Rainy Weather")
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/mtp5oyOLN98/sddefault.jpg)](https://www.youtube.com/watch?v=mtp5oyOLN98 "Journey 4")
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/IOVXgxvC9tQ/sddefault.jpg)](https://www.youtube.com/watch?v=IOVXgxvC9tQ "Journey 6")
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
