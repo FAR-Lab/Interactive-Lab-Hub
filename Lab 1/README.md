@@ -69,7 +69,9 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-![images](./images/vax card.jpg)
+TEST
+
+![images](./images/download.jpg)
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
