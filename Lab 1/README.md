@@ -183,14 +183,14 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
 
-![video](
+[![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9083.MOV)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
 
-![video](
+[![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9084.MOV)
 
 ## Part E. Costume the device
 
@@ -212,9 +212,9 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-![video](
-![video](
-![video](
+[![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9087.MOV)
+[![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9088.MOV)
+[![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9089%20(1).MOV)
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
