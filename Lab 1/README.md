@@ -71,6 +71,14 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+_Setting:_ The interactions are happening primarily in the bedroom or on a home working desk
+
+_Players:_ In most cases, the primary player is the owner of the device. There may be instances where there are multiple users such as roommates, children, or any other person that may be present in the room.
+
+_Activity:_ The user will interact with the device either via an app or a sensor to get information about astronomical events i.e. weather, moon phases, space objects passing, and even meteor showers.
+
+_Goals:_ The goal of the user is to (1) receive notification of astronomical events and (2) get useful and timely information about weather events
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
