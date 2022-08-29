@@ -89,15 +89,21 @@ Timely medicines and pill consumption.
 
 ### Storyboard
 
-![plot]()
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.1.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.2.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.3.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.4.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.5.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.6.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.7.png)
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+The interaction with the device was acted out. At times, multiple different coloured containers might need to be consumed. In this case, the device will display the first colour and only after the first colour has been responded to with a button press will the next colour be displayed.
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+Although with more time and proper development of a prototype close to a production model, it may yield new ideas and improvements with regards to functionality and reliability.
 
 
 ## Part C. Prototype the device
@@ -110,7 +116,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
+There were some issues with installing specific versions of the Flask-Sockets and gevent modules. So the most updated versions were installed with 'pip3 install *module name*'
 
 
 ## Part D. Wizard the device
