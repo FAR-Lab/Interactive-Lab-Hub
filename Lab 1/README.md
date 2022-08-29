@@ -57,9 +57,11 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
+Scenario: While this 
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+
+It is happening in a room indoors (home/apartment, care facilities, etc.) throughout the day after the player wakes up in the morning and until they go to sleep.
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
