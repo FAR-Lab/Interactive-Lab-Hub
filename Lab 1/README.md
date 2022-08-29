@@ -71,14 +71,26 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+_Setting:_ A student's dorm. When the student is doing his assignment.
+
+_Players:_ The student. Probably his roommate. 
+
+_Activity:_ The student is doing his assignment to finish it before deadline.
+
+_Goals:_ The student want to finsh the assignment before deadline and hit the kicker to make it green.
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+![IMG_7754](https://user-images.githubusercontent.com/58859231/187045527-2f877688-6a3c-47ee-aaec-cdfa27b8c03a.JPG)
+
+
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+Interesting and funny. Should be very decompressing when the button is pressed
 
 ## Part B. Act out the Interaction
 
@@ -86,8 +98,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+NO.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+Make the devide strong and solid enough because user might kick it HARD!
 
 ## Part C. Prototype the device
 
@@ -101,6 +116,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+It would be better if it allow users to change the preset color.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -119,13 +135,18 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+![IMG_0026](https://user-images.githubusercontent.com/58859231/187045992-14c28e64-0e2f-4239-ba9c-a4c357bfdb2a.jpg)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+I want this device to be big and paddy so it make people feel satisfied when they kick the button. The device also have to be solid and strong since people are very likely to kick it very hard.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
+
+https://user-images.githubusercontent.com/58859231/187247291-eaedcd56-bc3a-4cd9-8c60-0882a0aabcae.mp4
+
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
