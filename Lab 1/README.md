@@ -123,9 +123,17 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+
+https://user-images.githubusercontent.com/58859231/187248981-c3614afb-46f7-4b3c-9bd2-a79f1a23bc5b.MOV
+
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
+
+https://user-images.githubusercontent.com/58859231/187249353-2848949a-68f9-48bd-9036-a09241339008.mp4
+
 
 
 ## Part E. Costume the device
@@ -135,7 +143,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
-![IMG_0026](https://user-images.githubusercontent.com/58859231/187045992-14c28e64-0e2f-4239-ba9c-a4c357bfdb2a.jpg)
+![IMG_0035](https://user-images.githubusercontent.com/58859231/187249015-488e06aa-d94e-4f7a-9ab1-a9ac8b022fc6.jpg)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 I want this device to be big and paddy so it make people feel satisfied when they kick the button. The device also have to be solid and strong since people are very likely to kick it very hard.
