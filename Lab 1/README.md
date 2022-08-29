@@ -57,29 +57,25 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-Scenario: While this 
+_Scenario_: This interactive device was designed with individuals with cognitive deficits, especially older adults with cognitive deficits such as dementia, in mind. These users are often confused about the state of the world (i.e. where they are, what time of day it is, what they were about to do or what was happening previously) and need to be constantly reoriented through the help of their caregivers. They are have other conditions, such as experiencing agitation and anixiety throughout the day, waking up and attempting to walk in the middle of the night, and not able to move from one place to another as easily to experience other settings. So this device aims to reorient users through light and sound to show what time of day it is with additional interactions to help these potential users. 
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ A indoors room  (home/apartment, care facilities, etc.) throughout the day after the player wakes up in the morning and until they go to sleep.
 
-It is happening in a room indoors (home/apartment, care facilities, etc.) throughout the day after the player wakes up in the morning and until they go to sleep.
+_Players:_ 1) Individuals, especially older adults, with cognitive deficits, 2) caretakers (paid aids or family members), 3) possibly other patients if the setting is a larger facility, rather than a private room at home. The main player is the older adult with cognitive deficits.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Activity:_ The older adult is most likely sitting/lying down on a chair or couch, sitting there and intermittently falling asleep and waking up, or watching television, listening to music, reading a book, etc. The caretaker is in the room occupied with other tasks but monitoring the older adult in case they need to move. 
 
-_Activity:_ What is happening between the actors?
+_Goals:_ 1) Reorienting themselves in the time of day (knowing what time of day it is), 2) experiencing other places without physically moving, 3) calming anxieties that might occur.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Device:_ The interactive device is a desk lamp with speakers. The interaction will occur through light and sound. 
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
-
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
-
-\*\***Include pictures of your storyboards here**\*\*
+**Storyboards**
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
-\*\***Summarize feedback you got here.**\*\*
+
+**Storyboard Feedback**
 
 
 ## Part B. Act out the Interaction
@@ -87,6 +83,8 @@ Present your ideas to the other people in your breakout room (or in small groups
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+
+
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
