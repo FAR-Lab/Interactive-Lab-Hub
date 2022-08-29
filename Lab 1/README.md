@@ -83,14 +83,20 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+
+
 <img width="400" alt="Screen Shot 2022-08-27 at 5 16 39 PM" src="https://user-images.githubusercontent.com/112049036/187048348-0b1983f1-3125-471c-bc1b-521d55901acf.png">
+
 <img width="426" alt="Screen Shot 2022-08-27 at 5 16 54 PM" src="https://user-images.githubusercontent.com/112049036/187048357-8be8c4ac-08a3-4db3-a8fc-cffedf6f9b7f.png">
 
 <img width="433" alt="Screen Shot 2022-08-27 at 5 17 05 PM" src="https://user-images.githubusercontent.com/112049036/187048360-e1df34d6-44b2-4d21-a929-0f72b88a64b6.png">
 
 <img width="437" alt="Screen Shot 2022-08-27 at 5 17 17 PM" src="https://user-images.githubusercontent.com/112049036/187048363-e1244007-b601-4b32-915e-5222b102fc7d.png">
+
 <img width="422" alt="Screen Shot 2022-08-27 at 5 17 29 PM" src="https://user-images.githubusercontent.com/112049036/187048365-eea1d5f2-43ff-44d3-900b-880f28b8f986.png">
+
 <img width="434" alt="Screen Shot 2022-08-27 at 5 17 41 PM" src="https://user-images.githubusercontent.com/112049036/187048376-c841d79f-3d18-4ad7-b023-5b42c32d5431.png">
+
 <img width="536" alt="Screen Shot 2022-08-27 at 5 17 57 PM" src="https://user-images.githubusercontent.com/112049036/187048379-018ab1ab-5731-4435-8cb6-5e8827b77fd7.png">
 
 
