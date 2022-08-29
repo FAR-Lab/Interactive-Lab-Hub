@@ -59,17 +59,14 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage an interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ In any building: bedroom, kitchen, office space, etc.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ Residents of apertment buildings, houses, and office spaces
 
-_Activity:_ What is happening between the actors?
+_Activity:_ Users hold up the device to a wall that needs to be repainted. They use the paint matching device to either match the current paint color of a wall for touch ups, or to save a color of someting natural for inspiration to repaint an entire wall.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ Improving the color selection process during painting. To acquire the true color of a wall or natural objects.
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
-TEST
 
 ![images](./images/storyboard.jpg)
 
