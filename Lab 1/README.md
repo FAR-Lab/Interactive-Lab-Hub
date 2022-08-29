@@ -152,6 +152,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+https://www.youtube.com/watch?v=FKkdGttzomU
+
+https://www.youtube.com/watch?v=uTz8KLh0FJg
+
+https://www.youtube.com/watch?v=e0PuqKOHlI0
+
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
