@@ -86,24 +86,31 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 **Tentative name of product: Eve**
 
 ![image](https://user-images.githubusercontent.com/6238480/187310066-8980baab-8308-4e67-b135-11e11970c276.png)
+
 Eve gives yellow light at sunrise and shows yellow-red gradient during sunset.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310093-1ec0328f-31d8-4b89-8a39-9bc5d3dc8550.png)
+
 At night, Eve shows the moon phase on stand-by.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310111-47890d41-513c-486d-84cc-609a40e8da1b.png)
+
 Ask Eve about the rain forecast for the day and she'll show you.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310132-25365a37-3114-40ad-a865-1957143d15de.png)
+
 Eve beeps when interesting astronomical events are happening.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310151-a36d84ef-07c9-4d77-94bb-9955945af78e.png)
+
 ISS rotates the Earth every 90 minutes; Eve will remind you of that.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310188-3b7c7fb6-4cb5-41e4-b54d-351fc679859c.png)
+
 Not only the ISS, any celestial objects can be programmed for Eve.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310208-ace0eb26-5770-4b56-b45b-453ee03a64dc.png)
+
 Eve shows you the cloud coverage at night for you night-sky photographers!
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
