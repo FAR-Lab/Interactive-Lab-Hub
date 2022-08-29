@@ -57,6 +57,8 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
+My interactive device is a tool for close color matching of walls and natural objects. It can be a frustrating process to go to a store to buy paint only to come back home and realize your color is slightly off. When taking a picture of the color of a wall, cameras can slightly distort the shade of a color. There is nothing you can do to change the shade even if you realize it is slightly off. With this device a user can hold up the device directly to the wall, and make sure the color they see is the actual color of the wall. The device will include a camera, LCD screen, and joystick. The camera will detect a rough estimate for the RBG value of the color in question. The LCD will display this color. The joystick will allow the user to finely tune the color to their liking. 
+
 To stage an interaction with your interactive device, think about:
 
 _Setting:_ In any building: bedroom, kitchen, office space, etc.
