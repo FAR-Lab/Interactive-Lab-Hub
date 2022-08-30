@@ -17,7 +17,7 @@
 ![IMG_8873 Large](https://user-images.githubusercontent.com/112089774/187347717-c3ad8f26-9cda-4411-9508-bde1983c95c4.jpeg)
 
 \*\***Summarize feedback you got here.**\*\*
-
+I love the concept! I would love though to have some more intractability maybe from an app or similar where I can add music for example or configure the lights in a different way when waking up. 
 
 
 ## Part B. Act out the Interaction
