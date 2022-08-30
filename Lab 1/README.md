@@ -73,11 +73,11 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 Each of the three interactions that have been planned out all take place in my apartment. This includes appliances such as my drawer, fridge, and makeshift dartboard & scoreboard.
 
-In my first two scenarios I am taking food from my fridge with diffferent interactions happening based on wht food is taken out. My next two are with my drawer where I am taking clothes out of my drawer and that will determine what color of light emerges from the drawer. My last three have to do with a scoreboard dictating a points system based on colors that are emmited. In the three games I play with the scoreboard I juggle a soccerball with my feet, throw darts at a board, and play spin the tail on the Donkey.
+In my first two scenarios, I am taking food from my fridge with diffferent interactions happening based on what food is taken out. My next two are with my drawer where I am taking clothes out of my drawer which in turn will determine what color of light emerges. My last three have to do with a scoreboard dictating a points system based on colors that are emmited. The three games I play with the scoreboard I juggle a soccerball with my feet, throw darts at a board, and play spin the tail on the Donkey.
 
-All of the players in this interaction are myself, an emotional fridge, a decoritive drawer, a dartboard, scoreboard, and a soccer ball. It is also worth mentioning that the ideo recording is done by labmate Rahul. 
+All of the players in this interaction are myself, an emotional fridge, a decoritive drawer, a dartboard, a scoreboard, and a soccer ball. It is also worth mentioning that the video recording was done by labmate Rahul. 
 
-there are different goals for each of the scenarios that have been planned out.In scenario 1 the fridge is trying to get the user pick a healthy food rather then a unhealthy food. In scenario 2 the fridge is letting the user know what food should be refridgerated and what food should not be. For scenario 3 the goal is for the user to pick out an outfit without taking 4 of the same type of clothing item. Scenario two is similar but has the added on factor of needing to color coordinating your clothes or else the drawer will be upset with you and let you know by emmiting a red light. For scenario 5, the goal is to get the highest amount of points by pinning a bullseye nearest to the inside of the dartboard. In scenario 6, the goal is to juggle a soccerball with your feet more then 15 times. In scenario 7, the goal is to get the most points by throwing a dart closest to the center of the dartboard.
+There are different goals for each of the scenarios that have been planned out. In scenario 1 the fridge is trying to get the user pick a healthy food rather then a unhealthy food. In scenario 2 the fridge is letting the user know what food should be refridgerated and what food should not be. For scenario 3, the goal is for the user to pick out an outfit without taking 2 of the same type of clothing item. Scenario 4 is similar but has the added on factor of needing to color coordinating your clothes or else the drawer will be upset with you and let you know by emmiting a red light. For scenario 5, the goal is to get the highest amount of points by pinning a bullseye nearest to the inside of the dartboard. In scenario 6, the goal is to juggle a soccerball with your feet more then 15 times. In scenario 7, the goal is to get the most points by throwing a dart closest to the center of the dartboard.
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on 
 a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
@@ -111,8 +111,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+The ideas that I had all translated well into the real life acting scene. 
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+Not with my project. The only new idea that came up was when I was recording my labmate Rahul. In this scenario we were using a hockey goal light and we thought it would be cool if he was changing the channels in real time. This was incorperated into his video which took many tries to film due to the fact that I only have two hands and it was most likly a job for a film crew of two rather then one.
 
 ## Part C. Prototype the device
 
@@ -126,7 +129,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
-Tinkerbelle is a cool application because it is a creative way to interact with the enviorment around you. I also like the original inspiration of Peter Pan. I enjoyed the original movie which inspired my creative design of my prototypes. 
+Tinkerbelle is a cool application because it is a creative way to interact with the enviorment around you. I also like the original inspiration of Peter Pan. I enjoyed the original movie which inspired my creative design of my prototypes. It is very nastolgic memory that served my imagonation well.
 
 
 ## Part D. Wizard the device
@@ -149,7 +152,16 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![IMG_5266](https://user-images.githubusercontent.com/112049036/187331513-1fc2b878-bca1-4e7e-83ed-d8667b2074dc.jpeg)
+
+![IMG_5267](https://user-images.githubusercontent.com/112049036/187331532-898e6571-3ca4-495b-9bcd-2b588eebfa26.jpeg)
+
+![Image 8-29-22 at 9 43 PM](https://user-images.githubusercontent.com/112049036/187331593-c4f7bafb-e274-4a1f-b004-0dd0c9b4ff90.jpg)
+
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+My concerns with designing how I want to disguise my device is in regards to how much light will be emitted and if it will be sufficent to tell a story. That is why I shut off all of the lights in my surronding area and turned the brighness on the interactive device all the way up.
 
 The main aspect that influenced my decision was my daily activities I do in my apartment everyday and fun games I always used to play as a child. I use my fridge and drawer everyday and when I think about interactive games I always think of pin the tail on the donkey, darts, and my personal favorite juggling a soccerball.
 
@@ -165,6 +177,9 @@ https://www.youtube.com/watch?v=e0PuqKOHlI0
 
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+
+Rahul was my lab partner in which we recorded each others videos.
+
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
