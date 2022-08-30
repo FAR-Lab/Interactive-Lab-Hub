@@ -126,6 +126,8 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Tinkerbelle is a cool application because it is a creative way to interact with the enviorment around you. I also like the original inspiration of Peter Pan. I enjoyed the original movie which inspired my creative design of my prototypes. 
+
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
