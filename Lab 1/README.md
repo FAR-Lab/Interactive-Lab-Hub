@@ -154,7 +154,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 - Staging genuine reaction like what you would want to test for in an experiment like this is difficult without a sufficiently awe inspiring prototype
 - Doing the zapping up was much harder given the low ceilings
 - Getting my dogs to cooperate as dangerous beasts was also very difficult
-- I did encounter difficult that the light underneath the saucer could not be seen in a well-lit room.  This required filming in a dark basement which would not be indicative of all potential human, alien interactions.
+- I did encounter difficultly that the light underneath the saucer could not be seen in a well-lit room.  This required filming in a dark basement which would not be indicative of all potential human, alien interactions.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
