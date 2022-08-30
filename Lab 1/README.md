@@ -133,6 +133,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 ![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1.8.png)
 
+The video file is large so Google Drive may not be able to play it on the browser. For this, the video must be downloaded.
+
 All of the technology needed for this device is available in the consumer market. The shape of the LED screen is different to standard LED displays hence a regular rectangular LED display may be used.
 
 
