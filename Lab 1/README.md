@@ -83,7 +83,8 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
-\*\***Summarize feedback you got here.**\*\*
+Interesting idea, not sure if it will create the desired affect especially because it doesn't force students to study
+Said my dino was cute
 
 
 ## Part B. Act out the Interaction
