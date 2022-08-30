@@ -197,18 +197,19 @@ My little brother Coel and friend William were in dispensable in helping to oper
 
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+\*\***Reflections.**\*\*
 
+I found the longer I went through the lab, it became more clear the value in having the prototyped interaction to save you time building a product (in my case a space ship could take long time!).  I also appreciated storyboarding organizing your thoughts so when you have limited from someone else for a trial, interview or to get their help, it help to smooth that interaction.  My one complaint was it felt those same lessons could have been imparted with less time spent drawing (e.g., reducing required story boards), finding materials(e.g., splitting out the costume requirements over labs), getting help to film (more time in class with peers) etc.. which added siginificant time and effort to the assignment without clear purpose.
 
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
 
-
 ## Prep (to be done before Lab on Wednesday)
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+\*\***Summarize feedback from your partners here.**\*\
 
 ## Make it your own
 
