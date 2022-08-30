@@ -120,6 +120,10 @@ https://user-images.githubusercontent.com/54602750/187322706-6b468924-b7a7-4829-
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
+
+https://user-images.githubusercontent.com/54602750/187330335-6ed623a9-e227-4d05-a48c-7ea4a9d505cb.mp4
+
+
 \*\***Show the follow-up work here.**\*\*
 
 
