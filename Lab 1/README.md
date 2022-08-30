@@ -81,11 +81,13 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 [**Storyboards**](https://drive.google.com/file/d/187-SuuzeMyOX9wfGhemPujjvUv8Du5AD/view)
 
+[**Storyboards after recieving feedback**](https://drive.google.com/file/d/18Qrj3VJFBwHoT3JGB42KJcRSNa5ehIrw/view?usp=sharing)
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
-**Originally, HydrateMug reminded users to drink water every two hours. Sally pointed out that we could let users customize the time/period to drink water via mobile phone APP.**
+**Originally, HydrateMug reminded users to drink water every two hours. Sally pointed out that we could let users customize the time/period to drink water via control panel on the Mug.**
 
 ## Part B. Act out the Interaction
 
