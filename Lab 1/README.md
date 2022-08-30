@@ -96,6 +96,8 @@ The shape of the device: when holding up the device to a wall there was nothing 
 
 A folder of saved colors can be helpful for remembering your past scans.
 
+I realized that my initial prototype was not very interactive, it required the use of a computer to fine tune the colors. My next design incorporated a joystick, though it is not connected yet, so the user can use the device as a standalone object and not have to interface with a computer to use the product.
+
 ## Part C. Prototype the device
 
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
@@ -138,14 +140,21 @@ Think about the setting of the device: is the environment a place where the devi
 First Iteration:
 ![images](./images/proto1.jpg)
 
+This design was a good jumping off point, but it uses a suction cup which I realized was not the best method for comparing the LCD screen to a wall.
+
 Second Iteration:
 ![images](./images/proto2.jpg)
+
+This design improved on my first design however there are still flaws. I added a handle for easier usage, but I realized that the handle needs to be set at an angle so that the user can put the device flush against the wall.
 
 Third Iteration:
 ![images](./images/proto3.jpg)
 
+This design is my best iteration. It incorporates a tilted handle as well as a button. This button can be programmed to have a different function depending on length of button presses, and can be used for saving color templates and sending saved colors to an email address.
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+I have decided to design the device to look like a paintbrush to remind the user what the device is actually used for. However I do have concerns about the size of the device, to be truly useful it has to be small enough to be convenient to use.
 
 ## Part F. Record
 
