@@ -143,7 +143,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
-STILL TO DOOOOO
+The feedback recieved was around two main points 1) The purpose of the reaction between the alien and farmers could be more clear (e.g., are we trying to experiment based on just there reaction or elciting interaction between the two 2) While easily understood, if going to a broader audience it may help to more thoroughly draw out the storyboards.
 
 ## Part B. Act out the Interaction
 
