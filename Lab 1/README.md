@@ -117,11 +117,13 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
-I have shared my storyboards with both Michael Choie and Calvin Tyrell.
+I have shared my storyboards with both Michael Choie and Calvin Tirell.
 
-_Michael:_ Love your art, very clear use cases! Would love to see how you set it up to accommodate the different use cases. My favorite is journey 3!
+Michael:
+> Love your art, very clear use cases! Would love to see how you set it up to accommodate the different use cases. My favorite is journey 3!
 
-_Calvin:_ These are awesome, good job! 👏 I like the ISS tracker!
+Calvin:
+> These are awesome, good job! 👏 I like the ISS tracker!
 
 ## Part B. Act out the Interaction
 
@@ -129,8 +131,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+Initially, the storyboard interaction seems to be simple. However, in practice, I have to carefully think about the appropriate color scheme to use to represent the interaction. Furthermore, I have to think about how a user will set up all the interaction as well before using the product.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+The color schemes generally occur when acting out the interaction. For example, initially I thought that I will use the color blue to represent rainy weather. However, my collaborators suggested a better color scheme to use: blue for clear skies and grey for rainy clouds.
 
 ## Part C. Prototype the device
 
@@ -144,15 +149,24 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+No feedback needed for Tinkerbelle. The code works great, responsive, and easy-to-use.
+
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/yKQD96sj-Do/sddefault.jpg)](https://www.youtube.com/watch?v=yKQD96sj-Do "IDD - Initial Setup")
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
+Each of the interaction will be differentiated by the color scheme of the prototype:
+- Journey 3: color will change from blue (clear skies) to grey (rainy skies)
+- Journey 4: color will blink from yellow to black repeatedly to alert of upcoming meteor shower
+- Journey 6: color will fade in different colors everytime a planet passes by the location of the device
 
 
 ## Part E. Costume the device
@@ -181,7 +195,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-
+Thank you for the help and feedback in creating this project: Maria Veronica, [Michael Choie](https://github.com/michaelchoie), and [Calvin Tirell](https://github.com/calvintirrell).
 
 # Staging Interaction, Part 2 
 
