@@ -116,6 +116,8 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+https://user-images.githubusercontent.com/54602750/187322706-6b468924-b7a7-4829-ac78-d8a8e2b285e4.MOV
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
@@ -146,7 +148,15 @@ Third Iteration:
 \*\***Take a video of your prototyped interaction.**\*\*
 
 
-https://user-images.githubusercontent.com/54602750/187322706-6b468924-b7a7-4829-ac78-d8a8e2b285e4.MOV
+
+
+
+https://user-images.githubusercontent.com/54602750/187329744-b08ed758-ce1c-475a-8833-556d581013d7.mov
+
+
+
+
+
 
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
