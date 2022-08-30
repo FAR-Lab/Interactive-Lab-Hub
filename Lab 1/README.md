@@ -113,20 +113,19 @@ I experimented with different ways to use the phone as the light sources on a la
 
 **Here are the first attemps of the set up video.**
 
-Goal: give the illusion that the user is at a pool. (lights of blue hues, pool sounds)
+_Goal:_ give the illusion that the user is at a pool. (lights of blue hues, pool sounds)
 ![prototype_Goal_1](https://github.com/hjkim63/Interactive-Lab-Hub/blob/4596a8ec8afb5d04c027927b3c66a5846fd63f65/Lab%201/prototype_1.MOV)
 
 Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
-Goal: reorient user to time of day --morning/sunrise. (yellow and orange lights)
-
+_Goal:_ reorient user to time of day --morning/sunrise. (yellow and orange lights)
 ![prototype_Goal_2](https://github.com/hjkim63/Interactive-Lab-Hub/blob/4596a8ec8afb5d04c027927b3c66a5846fd63f65/Lab%201/protoype2.MOV)
 
 
 ## Part E. Costume the device
 
 _Costume idea sketches:_
-![costumes]()
+![costumes](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8e7234508cd892af355a9a6c11a08bb02a80279f/Lab%201/costume.jpg)
 
 _Setting of the device:_ The device would be either placed on a side table/desk or standing/propped up on the floor (possibly hanging but would be more difficult to install). There is few external factors that would make the device vulnerable to heat or water. In the case the light has an alarm functionality, there would need to be brighter lights that gets the attention of the main user and others (caretakers) within the room as well. 
 
