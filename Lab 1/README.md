@@ -123,9 +123,19 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-\*\***Include sketches of what your devices might look like here.**\*\*
+![image](https://user-images.githubusercontent.com/112091818/187319913-c9a41574-5072-4bb2-9db7-e7bb4df16d90.png)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+My device shouldn't be too big as too not take up too much space. 
+
+
+The first is the sleek design to keep the device low key. 
+
+The second was made to be cute as to entice people to interact with the device more openly. 
+
+The third was to meet some middle ground where it is 3D like the second design but less loud similar to the first design. 
 
 
 ## Part F. Record
