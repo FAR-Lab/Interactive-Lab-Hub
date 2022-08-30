@@ -199,7 +199,7 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 \*\***Reflections.**\*\*
 
-I found the longer I went through the lab, it became more clear the value in having the prototyped interaction to save you time building a product (in my case a space ship could take long time!).  I also appreciated storyboarding organizing your thoughts so when you have limited from someone else for a trial, interview or to get their help, it help to smooth that interaction.  My one complaint was it felt those same lessons could have been imparted with less time spent drawing (e.g., reducing required story boards), finding materials(e.g., splitting out the costume requirements over labs), getting help to film (more time in class with peers) etc.. which added siginificant time and effort to the assignment without clear purpose.
+I found the longer I went through the lab, it became more clear the value in having the prototyped interaction to save you time building a product (in my case a space ship could take long time!).  I also appreciated storyboarding help to organize your thoughts so when you have limited from someone else for a trial, interview or to get their help, it helped smooth that interaction.  My one complaint was it felt those same lessons could have been imparted with less time spent drawing (e.g., reducing required story boards), finding materials(e.g., splitting out the costume requirements over labs), getting help to film (more time in class with peers) etc.. which added siginificant time and effort to the assignment.
 
 # Staging Interaction, Part 2 
 
