@@ -55,6 +55,7 @@ The original prototype and the follow up prototype are shown. Chonky cat for sca
 ![prototype sketch](https://user-images.githubusercontent.com/112089774/187350592-de84ea1b-836b-47d4-aa6c-ab47a01f93cf.jpeg)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
 I needed to find something that would hold an iphone - the solo cup didn't work because it was too small, and there was no way to cleanly obscure the light coming from the phone (via cotton 'cloud' medium) as there would be an open space on the top of the light with light shining through, making it less useful. 
 
 ## Part F. Record
