@@ -62,7 +62,7 @@ I needed to find something that would hold an iphone - the solo cup didn't work 
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-[Interactive Device Design - Lab 1 - ob234's video on YT]([https://youtu.be/YrcTHVjylYI](https://youtu.be/g_xjQyyPv1A))
+['Interactive Device Design - Lab 1 - ob234's video on YT'](https://youtu.be/g_xjQyyPv1A)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Elyse Toder :D !
