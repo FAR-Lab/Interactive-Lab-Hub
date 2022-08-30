@@ -74,6 +74,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 **Setting:** Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 	
 - The interaction is happening outside at night on a farm.  A lone farmer is having a series of different interactions with what he perceives to be an alien space ship.  It is in fact a government secret project designed to test how human might react if the government secret that there are in fact aliens was accidentally let out.
+
 **Players:** Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
 - Involved in the interaction is a farm boy and the secret alien ship.  The alien device is designed to test out on everyday people their reactions to meeting aliens.  It is not meant to be overly frightening but instead based on the real designs the government is hiding in area 51.
