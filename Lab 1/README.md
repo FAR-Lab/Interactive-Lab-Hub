@@ -134,6 +134,8 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+My first attempts at recording the video were the ones I used which are attached in this lab in part F.
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
@@ -149,6 +151,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+The main aspect that influenced my decision was my daily activities I do in my apartment everyday and fun games I always used to play as a child. I use my fridge and drawer everyday and when I think about interactive games I always think of pin the tail on the donkey, darts, and my personal favorite juggling a soccerball.
 
 ## Part F. Record
 
