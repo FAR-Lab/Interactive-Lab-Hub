@@ -50,7 +50,7 @@
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
-[Interactive Device Design - Lab 1 - ob234's video on YT](https://youtu.be/YrcTHVjylYI)
+[Interactive Device Design - Lab 1 - ob234's video on YT]([https://youtu.be/YrcTHVjylYI](https://youtu.be/g_xjQyyPv1A))
 
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
