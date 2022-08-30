@@ -140,10 +140,7 @@ All of the technology needed for this device is available in the consumer market
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
-
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+[![Wizard Device Video](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1D-1.png)](https://drive.google.com/file/d/1NQik8na50WWj2xoMifEuwCESmvzxExme/view?usp=sharing)
 
 
 
