@@ -110,11 +110,9 @@ Tinkerbelle worked great for me :)
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
+[\*\***Include your first attempts at recording the set-up video here.**\*\*](https://cornell.zoom.us/rec/share/JVh665V_ipHyQARxO8kyWotXBf9Q8nO4Vy6-DFOmkPlWdRFaM-nSez53g_GdRsGU.onefTW7i3pzXJNBa?startTime=1661818884000)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
 
 
 ## Part E. Costume the device
@@ -140,9 +138,9 @@ The third was to meet some middle ground where it is 3D like the second design b
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+[\*\***Take a video of your prototyped interaction.**\*\*](https://cornell.zoom.us/rec/share/JVh665V_ipHyQARxO8kyWotXBf9Q8nO4Vy6-DFOmkPlWdRFaM-nSez53g_GdRsGU.onefTW7i3pzXJNBa?startTime=1661818884000)
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+I got some design inspiration from my night lamp which looks like a little creature. 
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
