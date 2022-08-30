@@ -177,8 +177,11 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![image](https://user-images.githubusercontent.com/6238480/187332485-c6f982b6-22c2-4dd2-bb74-04f8312d3667.png)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+The device should be a decorative yet functional piece that can be placed easily on top of a desk or on a bedside table. The design should be unique and space-inspired. Another point to ponder is whether the device should have control dials or whether it functions via an app downloaded to a mobile phone.
 
 ## Part F. Record
 
