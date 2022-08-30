@@ -1,9 +1,9 @@
-# [Your name here]'s-Lab-Hub
+# ob234's-Lab-Hub
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
 Please place links here to the README.md's for each of your labs here:
 
-[Lab 1. Staging Interaction](Lab%201/)
+[Lab 1. Staging Interaction](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/ef89326004a51a5d517c04f4c4049e4aba3b9283/Lab%201/ob234README.md)
 
 [Lab 2. Interactive Prototyping: The Clock of Pi](Lab%202/)
 
