@@ -145,6 +145,10 @@ Third Iteration:
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+
+https://user-images.githubusercontent.com/54602750/187322706-6b468924-b7a7-4829-ac78-d8a8e2b285e4.MOV
+
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
