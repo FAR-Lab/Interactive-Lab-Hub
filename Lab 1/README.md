@@ -192,6 +192,9 @@ Think about the setting of the device: is the environment a place where the devi
 [![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9088.MOV)
 [![Watch the video](https://github.com/tmo17/Interactive-Lab-Hub/blob/Fall2022/Lab%201/IMG-9089%20(1).MOV)
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+
+My little brother Coel and friend William were in dispensable in helping to operate the prototyped interactions.
+
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
