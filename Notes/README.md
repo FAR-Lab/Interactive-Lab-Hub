@@ -11,3 +11,4 @@ This are the notes for the IDD class
 7. Task
 8. Control
 
+[Link to page](https://ccrma.stanford.edu/wiki/Interaction_Design_Framework)
