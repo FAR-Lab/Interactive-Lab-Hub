@@ -172,6 +172,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+**Christy gave me 2 feedback. The first one was showing the period of notification on the prototyping video for clarity. The second one was adding more creative idea to the design.**
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -180,3 +182,9 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+**[Storyboards(video)](https://drive.google.com/file/d/1eq_EfEuqDXrdFCj2OooApC43-otiOLvm/view?usp=sharing)**
+
+**[Storyboards(image)](https://drive.google.com/file/d/18fUYzO4_KHNj-b28ReYxHGovIrUU_q29/view?usp=sharing)**
+
+**[Video link](https://vimeo.com/745586523)**
