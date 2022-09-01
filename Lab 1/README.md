@@ -71,6 +71,9 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Fish detector rod. If fish bite feed and hook, the rod will lights red.**\*\*
 ![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)say something
+https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
+
+
 
 \*\***IF you bleath well, lights turn o**\*\*
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
