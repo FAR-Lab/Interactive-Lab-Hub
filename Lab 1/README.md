@@ -172,8 +172,11 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
 Could make the device larger and more bouncy so that will make the action more satisfiable.
+
 Could have more functinalities with the device. For example, when user kick the device it could automatically help you submit your homework to GradeScope or Canvas.
+
 Could apply the device to e-mail replying. Every time you punch the device it help you delete or archive or auto-reply the email. This will make the simple process more enjoyable.
 
 ## Make it your own
