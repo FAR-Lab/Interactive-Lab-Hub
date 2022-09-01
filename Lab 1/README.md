@@ -196,7 +196,7 @@ The device should be a decorative yet functional piece that can be placed easily
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/IOVXgxvC9tQ/sddefault.jpg)](https://www.youtube.com/watch?v=IOVXgxvC9tQ "Journey 6")
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 
 Thank you for the help and feedback in creating this project: Maria Veronica, [Michael Choie](https://github.com/michaelchoie), and [Calvin Tirell](https://github.com/calvintirrell).
 
@@ -211,6 +211,17 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+Feedback from peers:
+
+Peggy Pei
+> I love your work!! The storyboards are so cute and clear. Also, the idea you proposed is practical and useful in daily life. : )
+
+Michael Choie
+> You can try to incorporate video feed to it so that people can see the livestream of the astronomical events!
+
+Jason Kwan
+> Maybe the device can be in the form of a wall clock so that it doesn't take any desk space
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -219,3 +230,16 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+_Setting:_ The interaction could take place in the bedroom, living room, or even in the room for a school's astronomy club.
+
+_Players:_ The potential users are astronomy aficionados or light hobbyist. A particular niche users can also be the night-sky photographers.
+
+_Activity:_ The user will use the device in a more passive way. The device will indicate if there is an upcoming astronomical events nearby.
+
+_Goals:_ The user should be able to manage the device to be informed on what kind of astronomical events that they want to follow.
+
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+The idea is to make it in the form of a wall clock. A wall clock is the right balance of being mundance and essential in a room. Wall clock is usually placed in a very visible part of the room. Furthermore, the wall clock has not been disrupted in a while.
