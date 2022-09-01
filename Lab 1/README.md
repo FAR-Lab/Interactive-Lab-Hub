@@ -75,8 +75,9 @@ The interactive device can be anything *except* a computer, a tablet computer or
 \*\***IF you bleath well, lights turn o**\*\*
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 
-\*\***Detector of oxygen for fishing buckets.**\*\*
+\*\***Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue **\*\*
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
+
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 ![20220829_220909](https://user-images.githubusercontent.com/112519146/187916231-b089df5d-0b03-4890-b5f7-5c62dda57b57.jpg)
