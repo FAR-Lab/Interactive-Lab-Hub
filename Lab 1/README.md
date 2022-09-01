@@ -79,8 +79,10 @@ The interactive device can be anything *except* a computer, a tablet computer or
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
 https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+\*\***Showing which part of new shoese will hurt **\*\*
 ![20220829_220909](https://user-images.githubusercontent.com/112519146/187916231-b089df5d-0b03-4890-b5f7-5c62dda57b57.jpg)
+
+\*\***Showing which part of new shoese will hurt **\*\*
 ![20220829_220929](https://user-images.githubusercontent.com/112519146/187916236-a5f15ff8-f45b-4fd1-8f2d-4177e0ea664d.jpg)
 ![20220829_220952](https://user-images.githubusercontent.com/112519146/187916237-ac48a6ea-1884-4a0b-a92c-a6d4370b0214.jpg)
 
