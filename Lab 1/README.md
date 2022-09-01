@@ -57,6 +57,8 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
+**Describe your setting, players, activity and goals here.**
+
 _Setting:_ house, classroom, or any place where you use your phone when you're not supposed to
 
 _Players:_ students, workers, or people who do not want to get distracted by phones
@@ -70,38 +72,29 @@ _Goals:_ Concentrate on acheiving your goal and not get distracted by your phone
 ![image](https://user-images.githubusercontent.com/60685289/187900797-3e3a220a-0cd8-4d66-9217-67c6b37e3ec8.png)
 
 \*\***Summarize feedback you got here.**\*\*
+This could be annoying to other people in the room who are not using their phone (did not make a mistake)
 
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+Having several lights change seemed to give better attention than showing one light that does not change.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+Have several lights change randomlyto better get the attention of the user.
 
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
+Cool! I would prefer to see some comments of what each function does.
 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
+I will need a camera and 2 phones to show the prototype. I'm gonna use the laptop as the camera.
 
 
 ## Part E. Costume the device
@@ -111,18 +104,22 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+![image](https://user-images.githubusercontent.com/60685289/187903773-521884e5-36bf-40e7-ac20-532f42adce61.png)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+It might be annoying to have more than one. So only one of the sown in the sketches should be used.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+https://user-images.githubusercontent.com/60685289/187908297-01625e78-9bdd-4f22-966c-16d97c3d9afa.mp4
+
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
-
+Laith Siam.
 
 # Staging Interaction, Part 2 
 
