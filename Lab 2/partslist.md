@@ -2,7 +2,7 @@
 
 ## Parts in the kit by Thursday class Sep. 8th
 
-1 x [Raspberry Pi 3 Model B+ Board](https://www.amazon.com/ELEMENT-Element14-Raspberry-Pi-Motherboard/dp/B07P4LSDYV)
+1 x [Raspberry Pi 3 Model B+ Board](https://www.adafruit.com/product/3775)
 
 1 x [32GB MicroSD Cards w/ Card Reader](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294)
 
