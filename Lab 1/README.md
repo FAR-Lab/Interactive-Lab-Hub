@@ -69,9 +69,11 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
-
+\*\***Fish detector rod. If fish bite feed and hook, the rod will lights red.**\*\*
 ![20220829_220633](https://user-images.githubusercontent.com/112519146/187916220-8d0d6f54-f286-4b87-af73-f4118b15b02b.jpg)
+say something
+
+\*\***Describe your setting, players, activity and goals here.**\*\*
 ![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
