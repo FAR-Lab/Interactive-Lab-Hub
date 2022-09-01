@@ -71,16 +71,13 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Fish detector rod. If fish bite feed and hook, the rod will lights red.**\*\*
 ![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)say something
-https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
 
-
-
-\*\***IF you bleath well, lights turn o**\*\*
+\*\***If you bleath well, lights will be off. If bleath less, the lights will be gradualy on and lights sloly brighting. If you bleath for long time, the lights will be shining and will try to wake you up. if you won't wake up, the lights turn off suddenly.  **\*\*
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 
 \*\***Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue **\*\*
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
-
+https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 ![20220829_220909](https://user-images.githubusercontent.com/112519146/187916231-b089df5d-0b03-4890-b5f7-5c62dda57b57.jpg)
