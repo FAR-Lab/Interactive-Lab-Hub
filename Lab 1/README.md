@@ -72,10 +72,10 @@ The interactive device can be anything *except* a computer, a tablet computer or
 \*\***Fish detector rod. If fish bite feed and hook, the rod will lights red.**\*\*
 ![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)say something
 
-\*\***Detector of oxygen for fishing buckets.**\*\*
+\*\***IF you bleath well, lights turn o**\*\*
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 
-\*\***Fishing buckets.**\*\*
+\*\***Detector of oxygen for fishing buckets.**\*\*
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
