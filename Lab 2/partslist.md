@@ -33,7 +33,7 @@
 1 x [SparkFun Qwiic Button - Green LED](https://www.sparkfun.com/products/16842)
 
 
-## Parts in the kit by Thursday class Sep. 22th
+## Parts handed out in Thursday class Sep. 8th
 
 1 x [SparkFun Qwiic Cable Kit](https://www.sparkfun.com/products/15081)
 
