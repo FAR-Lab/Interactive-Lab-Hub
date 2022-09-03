@@ -90,9 +90,6 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
-
-
-
 ![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
@@ -101,8 +98,11 @@ Present your ideas to the other people in your breakout room (or in small groups
 ![20220829_220929](https://user-images.githubusercontent.com/112519146/187916236-a5f15ff8-f45b-4fd1-8f2d-4177e0ea664d.jpg)
 ![20220829_220952](https://user-images.githubusercontent.com/112519146/187916237-ac48a6ea-1884-4a0b-a92c-a6d4370b0214.jpg)
 
-
+3.Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue.
 https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
+
+4.Showing which part of new shoese will hurt your foot.
+https://user-images.githubusercontent.com/112519146/188286528-4a417c29-558d-4501-bb9f-7d4066428bd6.mp4
 
 \*\***Summarize feedback you got here.**\*\*
 Scan the fish feature color and tell users the name. 
