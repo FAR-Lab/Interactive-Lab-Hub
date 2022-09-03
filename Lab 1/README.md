@@ -70,21 +70,20 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Fish detector rod. If fish bite feed and hook, the rod will lights red.**\*\*
-![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)say something
 
 \*\***If you bleath well, lights will be off. If bleath less, the lights will be gradualy on and lights sloly brighting. If you bleath for long time, the lights will be shining and will try to wake you up. if you won't wake up, the lights turn off suddenly.  **\*\*
-![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 
 \*\***Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue **\*\*
-![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
-https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
 
-\*\***Showing which part of new shoese will hurt **\*\*
-![20220829_220909](https://user-images.githubusercontent.com/112519146/187916231-b089df5d-0b03-4890-b5f7-5c62dda57b57.jpg)
+\*\***Detector of how much people breath **\*\*
 
-\*\***Showing which part of new shoese will hurt **\*\*
-![20220829_220929](https://user-images.githubusercontent.com/112519146/187916236-a5f15ff8-f45b-4fd1-8f2d-4177e0ea664d.jpg)
-![20220829_220952](https://user-images.githubusercontent.com/112519146/187916237-ac48a6ea-1884-4a0b-a92c-a6d4370b0214.jpg)
+\*\***Showing which part of new shoese will hurt your foot **\*\*
+
+\*\***Color scaner of plants. You can see the leaves color of the plants in fall or the color of flowers in spring**\*\*
+
+\*\***Water detector of soil on pots**\*\*
+
+\*\***Detector of which mussle is working when you are hiking **\*\*
 
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
@@ -93,7 +92,22 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
+
+
+
+![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)say something
+![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
+![20220829_220929](https://user-images.githubusercontent.com/112519146/187916236-a5f15ff8-f45b-4fd1-8f2d-4177e0ea664d.jpg)
+![20220829_220952](https://user-images.githubusercontent.com/112519146/187916237-ac48a6ea-1884-4a0b-a92c-a6d4370b0214.jpg)
+![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
+![20220829_220909](https://user-images.githubusercontent.com/112519146/187916231-b089df5d-0b03-4890-b5f7-5c62dda57b57.jpg)
+
+
+https://user-images.githubusercontent.com/112519146/187920966-f2e15feb-297e-4541-b37a-b0a07a1188fe.mp4
+
 \*\***Summarize feedback you got here.**\*\*
+Scan the fish feature color and tell users the name. 
+Show how people interact with the device.
 
 
 ## Part B. Act out the Interaction
