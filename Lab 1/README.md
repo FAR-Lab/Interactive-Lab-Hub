@@ -69,21 +69,19 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Fish detector rod. If fish bite feed and hook, the rod will lights red.**\*\*
+1.Fish detector rod. If fish bite feed and hook, the rod will lights red.
 
-\*\***If you bleath well, lights will be off. If bleath less, the lights will be gradualy on and lights sloly brighting. If you bleath for long time, the lights will be shining and will try to wake you up. if you won't wake up, the lights turn off suddenly.  **\*\*
+2.If you bleath well, lights will be off. If bleath less, the lights will be gradualy on and lights sloly brighting. If you bleath for long time, the lights will be shining and will try to wake you up. if you won't wake up, the lights turn off suddenly.
 
-\*\***Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue **\*\*
+3.Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue.
 
-\*\***Detector of how much people breath **\*\*
+4.Showing which part of new shoese will hurt your foot.
 
-\*\***Showing which part of new shoese will hurt your foot **\*\*
+5.Color scaner of plants. You can see the leaves color of the plants in fall or the color of flowers in spring.
 
-\*\***Color scaner of plants. You can see the leaves color of the plants in fall or the color of flowers in spring**\*\*
+6.Water detector of soil on pots
 
-\*\***Water detector of soil on pots**\*\*
-
-\*\***Detector of which mussle is working when you are hiking **\*\*
+7.Detector of which mussle is working when you are hiking
 
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
@@ -95,7 +93,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 
 
-![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)say something
+![20220829_220727](https://user-images.githubusercontent.com/112519146/187916226-ef59cdec-0f13-404e-a7dc-b6913366797c.jpg)
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 ![20220829_220929](https://user-images.githubusercontent.com/112519146/187916236-a5f15ff8-f45b-4fd1-8f2d-4177e0ea664d.jpg)
 ![20220829_220952](https://user-images.githubusercontent.com/112519146/187916237-ac48a6ea-1884-4a0b-a92c-a6d4370b0214.jpg)
