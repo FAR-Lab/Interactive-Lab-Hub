@@ -73,16 +73,22 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 2.If you bleath well, lights will be off. If bleath less, the lights will be gradualy on and lights sloly brighting. If you bleath for long time, the lights will be shining and will try to wake you up. if you won't wake up, the lights turn off suddenly.
 
-3.Detector of oxygen for fishing buckets. If the person see the bucket the color turns blue.
+3.Detector of oxygen for fishing buckets. 
+If the amount of oxigen is enough for fish and the fishe are alive in the buckets, the color of the bucket turns blue.
+If the amount of oxigen goes less, the color turns to yellow.
+If the amount of oxigen goes less, the color turns to yellow and make sounds of dying.
+If the amount of oxigen is less enough that fish cannot survive, the color turns to black.
 
 4.Showing which part of new shoese will hurt your foot.
+When you want to buy new shoes, wear the socks before try out. 
+The socks show which place will hurts on your foot. not tight : blue, tight : green - yellow, will bleed : red
 
 5.Color scaner of plants. You can see the leaves color of the plants in fall or the color of flowers in spring.
 
-6.Water detector of soil on pots
+6.Telling the amount of water and neutrision of the nutrision soil on pots
 
 7.Detector of which mussle is working when you are hiking
-
+Show which massle are you using now. if it will be mussle eche the next day, the place of the cloth will be black. 
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
