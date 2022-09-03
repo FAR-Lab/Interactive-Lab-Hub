@@ -97,6 +97,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 ![20220829_220758](https://user-images.githubusercontent.com/112519146/187916228-3438d931-d9db-4924-82bb-69d565afc4f6.jpg)
 ![20220829_220822](https://user-images.githubusercontent.com/112519146/187916229-760bac67-89bc-4830-a5a3-126cb0313945.jpg)
 ![20220829_220909](https://user-images.githubusercontent.com/112519146/187916231-b089df5d-0b03-4890-b5f7-5c62dda57b57.jpg)
+![20220829_220846](https://user-images.githubusercontent.com/112519146/188286408-e2f052b4-09fe-4347-9599-57c3b5b3e1f9.jpg)
 ![20220829_220929](https://user-images.githubusercontent.com/112519146/187916236-a5f15ff8-f45b-4fd1-8f2d-4177e0ea664d.jpg)
 ![20220829_220952](https://user-images.githubusercontent.com/112519146/187916237-ac48a6ea-1884-4a0b-a92c-a6d4370b0214.jpg)
 
