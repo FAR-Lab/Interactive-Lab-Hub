@@ -7,8 +7,8 @@ Prior to the lab session on Thursday, taken inventory of the kit parts that you 
 
 ### To finish this prelab, you will need:
 
-- [Raspberry Pi 4](https://www.adafruit.com/product/4296)
-- [Power Supply](https://www.adafruit.com/product/4298)
+- [Raspberry Pi 3 Model B+](https://www.adafruit.com/product/3775)
+- [Power Supply](https://www.adafruit.com/product/1995?gclid=CjwKCAjwsMGYBhAEEiwAGUXJaRS6xBHTIB8hwFMjAqyRN_WXwSqd_Pp4JQCHI_IARTlKnsx84jXbchoCdxUQAvD_BwE)
 - [SD card + Reader](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294)
 - [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393)
 
@@ -55,7 +55,7 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 	    key_mgmt=NONE
 	}
 	````
-    The listed network information will be searched by your Raspberry Pi in sequence when it boots up and tryies to connect to available network. If the network you are planning to use is not listed, make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk``` or just add an additional one. Make sure your laptop is on the same network you are planning to use so that later you can access to your Raspberry Pi.
+    The listed network information will be searched by your Raspberry Pi in sequence when it boots up and tries to connect to available network. If the network you are planning to use is not listed, make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk``` or just add an additional one. Make sure your laptop is on the same network you are planning to use so that later you can access to your Raspberry Pi.
 
 3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
 
