@@ -205,7 +205,29 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-[Storyboard #2.pdf](https://github.com/patrickMazza/Interactive-Lab-Hub/files/9484033/Storyboard.2.pdf)
+Storyboards:
+![0](https://user-images.githubusercontent.com/112049036/188297812-8419f436-f660-4e2b-a481-f224041fbc01.jpeg)
+![0-1](https://user-images.githubusercontent.com/112049036/188297815-fae2249a-edbe-43a7-a0a1-4cd1277f9d17.jpeg)
+![0-2](https://user-images.githubusercontent.com/112049036/188297818-8b849a63-8977-430f-8152-767579753b40.jpeg)
+![0-3](https://user-images.githubusercontent.com/112049036/188297820-8b4dc12c-0d7a-42ff-9077-574f1a0519a8.jpeg)
+![0-4](https://user-images.githubusercontent.com/112049036/188297824-acffc7a7-55ce-4c8a-97b7-92a216915706.jpeg)
+![0-5](https://user-images.githubusercontent.com/112049036/188297825-6f8ccf6c-3f80-4ad0-8586-f408404111cf.jpeg)
+![0-6](https://user-images.githubusercontent.com/112049036/188297826-0db8ad4e-44b6-4a7b-b6bd-4326d1bd1a59.jpeg)
+
+Prototype images:
+
+![IMG_5266](https://user-images.githubusercontent.com/112049036/188297856-8bdbd663-a0a0-4be7-b05a-a651da34e5f8.jpeg)
+![IMG_5447](https://user-images.githubusercontent.com/112049036/188297862-dce48335-d7ed-49ed-ba3a-0fff2d960e0f.jpeg)
+![Image 8-29-22 at 9 43 PM](https://user-images.githubusercontent.com/112049036/188297863-8fddab9a-7477-4030-8898-9d655f7768bb.jpg)
+
+Video Demostrations:
+
+https://youtu.be/c1o3U1PrB34
+
+https://youtu.be/gJh27T5r1b0
+
+https://youtu.be/-RoZu6tiTWg
+
 
 
 
