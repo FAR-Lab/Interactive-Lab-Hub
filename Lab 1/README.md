@@ -195,6 +195,7 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+The feedback I got from this lab was that people liked the idea of the smart fridge but they wanted to see a different modality of interaction with the fridge. I also got great feedback from my friends where they claimed that they thought the emotion I put behind my reactions to the appliances I was using helped the interactions overall.
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -203,3 +204,8 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+[Storyboard #2.pdf](https://github.com/patrickMazza/Interactive-Lab-Hub/files/9484033/Storyboard.2.pdf)
+
+
+
