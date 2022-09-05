@@ -187,3 +187,14 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+\*\***Include pictures of your storyboards here**\*\*
+![Deadline Kicker-2 2](https://user-images.githubusercontent.com/58859231/188514530-5698218c-c961-4d38-b019-b60ec9ba556d.jpg)
+
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+https://user-images.githubusercontent.com/58859231/188514853-4aef0ad7-324d-42bc-9251-60ec74ef382a.mp4
+
+
+
