@@ -175,6 +175,9 @@ Do last week’s assignment again, but this time:
 
 ## Part A. Plan 
 
+_Concept Idea_
+![concept_sketch](https://github.com/hjkim63/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lab1.2_conceptidea.jpg)
+
 _Scenario_: This interactive device is designed for individuals with cognitive deficits, especially older adults with cognitive deficits such as dementia. These users are 1)not very familiar with technology and 2) often confused about the state of the world which presents a need for these users to be constantly reoriented by more analog methods, such as to-do lists, pictures/diagrams, or even caregivers. In reattemping Part 1 of this assignment, I focused on the interaction of the device as a "clock for older adults with dementia" that could help users tell what time of day, what day of week, what month of the year, and what season without necessarily telling time through the traditional way of reading a clock. 
 
 The design of this device was inspired by a speech therapy whiteboard of an interview participant (male in their 80's) with moderate stage dementia. Personal information and real images were ommitted for privacy reasons.
@@ -192,13 +195,11 @@ _Device:_ The interactive device is a desk lamp with speakers. The interaction w
 
 **Storyboards**
 
-_Overview_
-![overview](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_overview.jpg)
-
-_Individual sketches_
-![A](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_A.jpg)
-![B](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_B.jpg)
-![C](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_C.jpg)
+_Storyboard sketches_
+![Storboard 1](https://github.com/hjkim63/Interactive-Lab-Hub/blob/1d20fd11ac3ad5142335453636bab1029a67b3de/Lab%201/lab1.2_storyboard1.jpg)
+![Storboard 2~3](https://github.com/hjkim63/Interactive-Lab-Hub/blob/1d20fd11ac3ad5142335453636bab1029a67b3de/Lab%201/lab1.2_storyboard2.jpg)
+![Storboard 4~5](https://github.com/hjkim63/Interactive-Lab-Hub/blob/1d20fd11ac3ad5142335453636bab1029a67b3de/Lab%201/lab1.2_storyboard3.jpg)
+![Storboard 6~7](https://github.com/hjkim63/Interactive-Lab-Hub/blob/1d20fd11ac3ad5142335453636bab1029a67b3de/Lab%201/lab1.2_storyboard4.jpg)
 
 
 _Storyboard Feedback_
