@@ -180,3 +180,5 @@ The PillBot keeps track of time to display the right colours, representing the c
 
 ### Goal
 Timely medicines and pill consumption.
+
+### Storyboard
