@@ -151,11 +151,14 @@ Be generous in acknowledging their contributions! And also recognizing any other
 This describes the second week's work for this lab activity.
 
 
-## Prep (to be done before Lab on Wednesday)
+## Feedback
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
-\*\***Summarize feedback from your partners here.**\*\*
+The following feedback points are summarized from 1) Canvas peer review, 2) in-person lab activity (Sylvia Ding
+Sylvia Ding, Michael Kelleher, Elizabeth Pysher, Sidarth Wadhwa), and 3) TA review :
+- Promising idea as "clock for older adults with cognitive deficits"
+- Focusing on other experiences and activites that are less touch-sensory based (swimming in pools) and more sound-sensory based (i.e. reading in cafe, walking in park, watching movies) might be easier to have intended effect
+- Could experiment more with intensity and gradient of light to give different effects
+- Try thinking about different modalities and devices with other interactions, other than lights from devices that are already intended for light, such as a lamp
 
 ## Make it your own
 
