@@ -186,8 +186,12 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
+
 \*\***Summarize feedback from your partners here.**\*\*
 
+When my partners Tyler, Jackson, and Rahul watched my vidoes and heard me describe my product, they thought it was a promising idea. All of them were familiar with and had personally experienced the problem of taking a picture of something, such as the sky, or a wall, only to have the color of the picture look slightly different than the real object you're imaging. They gave me a few ideas on how I can improve my product as well. One piece of feedback was that the implementation of a joystick seemed unnecessary for the device. Another idea was rather than having the color change gradually, it could cycle through immidiate color changes.
+
+This feedback made me realize that the joystick's biggest downside is that it makes the device much less mobile, and the immobility of the device is largely due to it's size. If I could cut down on the size of the device, it would actually be feasible for someone to use it. The joystick can be removed by instead implementing touchscreen commands. Thinking on how to reduce the size of the device led to me ultimately deciding to make the device a watch, so that it is extremely portable and always on your person in case there is a color you come across that you'd like to scan. Thinking of how to implement instant color changes rather than gradual changes made me think of having the device output 4 different color options pop up as a grid on the screen. Because I still believed gradual color changes could be useful for fine tuning a color, I've decided to reimplement the functionality of the joystick into the crown of the watch. One of my partners did not understand how the joystick would work so I've now added that into my storyboard.
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
