@@ -220,6 +220,8 @@ Prototype images:
 ![IMG_5447](https://user-images.githubusercontent.com/112049036/188297862-dce48335-d7ed-49ed-ba3a-0fff2d960e0f.jpeg)
 ![Image 8-29-22 at 9 43 PM](https://user-images.githubusercontent.com/112049036/188297863-8fddab9a-7477-4030-8898-9d655f7768bb.jpg)
 
+Thank you to my labmate Rahul, for helping me film my Video Demostrations. Also another thank you to Rahul and Elyse Toder for giving me reccomendations with my smart fridge interactions.  
+
 Video Demostrations:
 
 https://youtu.be/c1o3U1PrB34
