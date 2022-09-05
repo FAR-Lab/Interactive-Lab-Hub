@@ -158,7 +158,11 @@ Sylvia Ding, Michael Kelleher, Elizabeth Pysher, Sidarth Wadhwa), and 3) TA revi
 - Promising idea as "clock for older adults with cognitive deficits"
 - Focusing on other experiences and activites that are less touch-sensory based (swimming in pools) and more sound-sensory based (i.e. reading in cafe, walking in park, watching movies) might be easier to have intended effect
 - Could experiment more with intensity and gradient of light to give different effects
-- Try thinking about different modalities and devices with other interactions, other than lights from devices that are already intended for light, such as a lamp
+- Try thinking about different modalities and devices while focusing on other interactions, other than lights from devices that are already intended for light, such as a lamp
+
+## Reflections
+
+
 
 ## Make it your own
 
@@ -168,3 +172,88 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+## Part A. Plan 
+
+_Scenario_: This interactive device is designed for individuals with cognitive deficits, especially older adults with cognitive deficits such as dementia. These users are 1)not very familiar with technology and 2) often confused about the state of the world which presents a need for these users to be constantly reoriented by more analog methods, such as to-do lists, pictures/diagrams, or even caregivers. In reattemping Part 1 of this assignment, I focused on the interaction of the device as a "clock for older adults with dementia" that could help users tell what time of day, what day of week, what month of the year, and what season without necessarily telling time through the traditional way of reading a clock. 
+
+The design of this device was inspired by a speech therapy whiteboard of an interview participant (male in their 80's) with moderate stage dementia. Personal information and real images were ommitted for privacy reasons.
+
+_Setting:_ A indoors room (home/apartment, care facilities, etc.).
+
+_Players:_ 1) Individuals, especially older adults, with cognitive deficits, 2) caretakers (paid aids or family members), 3) possibly other patients if the setting is a larger facility, rather than a private room at home. The main player is a single older adult with cognitive deficits (disregard settings with multiple older adults at the moment).
+
+_Activity:_ The older adult is most likely sitting/lying down on a chair or couch, intermittently falling asleep and waking up. The older adult might look arond the room (at the television if it is playing), reading, listening to music, etc., but mostly engaging in sedentary activities. The caretaker is in the room occupied with other tasks but monitoring the older adult in case they need to move. 
+
+_Goals:_ 1) Reorienting themselves in the time of day (knowing what time of day it is), 2) experiencing other places without physically moving, 3) calming anxieties that might occur.
+
+_Device:_ The interactive device is a desk lamp with speakers. The interaction will occur through light and sound. 
+
+
+**Storyboards**
+
+_Overview_
+![overview](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_overview.jpg)
+
+_Individual sketches_
+![A](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_A.jpg)
+![B](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_B.jpg)
+![C](https://github.com/hjkim63/Interactive-Lab-Hub/blob/b488bbc3e1e960b6c929db4272ad90b5136d58bb/Lab%201/storyboard_C.jpg)
+
+
+_Storyboard Feedback_
+- Light and colors alone might be difficult for the user to understand what is intended
+- Light might confused the user, in the case they are in later stages of dementia or simply forget such lights exist
+
+
+
+## Part B. Act out the Interaction
+
+**Are there things that seemed better on paper than acted out?**
+- Noticing the light seemed straightforward on paper, but when acted out, the user needs more signals of where to look or the light needs to be noticeable 
+- Colors of the light alone might be difficult to convey the time of day --might need the help of more indictive sounds that are associated with specific times of day (crickets at night, birds chirping in the morning, etc.) 
+
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+- Some element of personalization to the user would be nice for the sounds and lights to have the intended effect
+- 
+
+## Part C. Prototype the device
+
+Using the browser of a smart phone, the screen and audio speakers acted as the source of light and sound. I used my laptop computer as the service remotely control the light (change in hues, speed in changes of color to act as blinking, etc.) and sound on the device. Ideally, this device would be able to identify what time of day it is through a clock/timer function. The device should also be able to detect if the light from the device is causing more anxiety in the main player, in which case the light should subside.
+
+I used the code for the "Tinkerbelle" tool provided from the course [here](https://github.com/FAR-Lab/tinkerbelle). I experimented with the sounds to fit the keywods (pool, waves, leaves rustling) and how to control the light to mimic different lighting effects (gradient, changing colors, blinking, etc.)
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+Tinkerbelle was extremely easy to implement and run, but I wish there were opportunities and guidance to modify the code, such as to implement the varying lighting effects. The sounds auto-suggested from the input keywords were helpful and provided creative sounds that weren't initally planned. For example, I had initially input "leaves rustling" to convey a park setting, but rather the "server" generated sounds of walking in fall leaves, which converyed more "active sounds" that the user could interact with.
+
+
+## Part D. Wizard the device
+
+I experimented with different ways to use the phone as the light sources on a lamp-like device. Tying the smart phone to inside a table lamp was not successful as the lamp was too small to amplify the light source large enough for a user to notice. Instead, I changed the initial design to a floor lamp, and staged it by putting the smart phone (at full brightness and full audio) in a lamp with a large cone. 
+
+**Here are the first attemps of the set up video.**
+
+_Goal:_ give the illusion that the user is at a pool. (lights of blue hues, pool sounds)
+![prototype_Goal_1](https://github.com/hjkim63/Interactive-Lab-Hub/blob/4596a8ec8afb5d04c027927b3c66a5846fd63f65/Lab%201/prototype_1.MOV)
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+
+_Goal:_ reorient user to time of day --morning/sunrise. (yellow and orange lights)
+![prototype_Goal_2](https://github.com/hjkim63/Interactive-Lab-Hub/blob/4596a8ec8afb5d04c027927b3c66a5846fd63f65/Lab%201/protoype2.MOV)
+
+
+## Part E. Costume the device
+
+_Costume idea sketches:_
+![costumes](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8e7234508cd892af355a9a6c11a08bb02a80279f/Lab%201/costume.jpg)
+
+_Setting of the device:_ The device would be either placed on a side table/desk or standing/propped up on the floor (possibly hanging but would be more difficult to install). There is few external factors that would make the device vulnerable to heat or water. In the case the light has an alarm functionality, there would need to be brighter lights that gets the attention of the main user and others (caretakers) within the room as well. 
+
+_Considerations & concerns:_ While the floor lamp with a large, upward looking cone helps to distribute the light in the room to give am ambience effect, the source of light is slightly too far for the user to notice right away.
+
+
+## Part F. Record
+
+_Video of prototyped interactions:_
+
+Walking in park: ![--](https:)
