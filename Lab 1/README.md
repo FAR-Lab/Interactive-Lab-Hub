@@ -162,4 +162,21 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
 3) We will be grading with an emphasis on creativity. 
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+## Solution to Staging Interaction, Part 2
+### The Problem
+Many individuals, including older population and medically suffering individuals, around the world require to take medications on a regular basis at particular time intervals of the day. However, sometimes they may tend to forget to take their daily medication. Sometimes these medications need to be consumed at the correct time to avoid any negative effects of the underlying medical condition.
+
+### Scenario
+The PillBot is a light based visual device that reminds patients to take the correct medicines from a coloured box split into different containers that contain the necessary medicines and pills to be consumed at the correct time. When the light display displays a colour, the corresponding coloured container must be taken by the patient. This will help patients to easily keep track of medications and in a hospital setting, allow nurses and doctors to seamlessly administer the right pills at the right time. The PillBot will also emit an audible ping to improve its notification system while also catering to users with hearing aids and disabilities. The PillBot will also send a notification via SMS to the user’s phone based on APIs programmed on the device. This way, the user can also be notified of timely consumption in the case the user is outside of their home.
+
+### Setting
+A person’s bedroom or a hospital room housing a single patient.
+
+### Players
+Patients and individuals taking regular medicines and pills.
+
+### Activity
+The PillBot keeps track of time to display the right colours, representing the coloured container with pills, at the correct time with its light display. The PillBot will also emit an audible ping to improve its notification system while also catering to users with hearing aids and disabilities. The PillBot will also send a notification via SMS to the user’s phone based on APIs programmed on the device. This way, the user can also be notified of timely consumption in the case the user is outside of their home. The patient or individual must respond by undertaking the required action of consuming the pills and confirming the consumption by pressing a button on the PillBot or responding via the notification received on the phone.
+
+### Goal
+Timely medicines and pill consumption.
