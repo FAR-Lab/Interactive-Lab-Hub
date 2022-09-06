@@ -237,8 +237,6 @@ Do last week’s assignment again, but this time:
 
 ## Updated settings
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
-
 _Setting:_ The interaction could take place in the bedroom, living room, or even in the room for a school's astronomy club.
 
 _Players:_ The potential users are astronomy aficionados or light hobbyist. A particular niche users can also be the night-sky photographers.
@@ -283,6 +281,6 @@ If a meteor shower is going to happen soon, Astro will light up and send you a n
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/C3WD0WveKJY/sddefault.jpg)](https://www.youtube.com/watch?v=C3WD0WveKJY "Journey 6 - Mars Incoming")
 
-For the astronomy aficionados, Astro will chime and let you know if the cellestial object that you are monitoring has appeared in the horizon.
+For the astronomy aficionados, Astro will chime and let you know if the cellestial object that you are monitoring has appeared in the horizon (i.e. a Mars-rise)
 
 Thank you again for the help, Maria Veronica!
