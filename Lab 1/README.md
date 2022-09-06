@@ -200,3 +200,20 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+## Part A. Plan 
+
+My interactive device is a tool for close color matching of walls and natural objects. It can be a frustrating process to go to a store to buy paint only to come back home and realize your color is slightly off. When taking a picture of the color of a wall, cameras can slightly distort the shade of a color. There is nothing you can do to change the shade even if you realize it is slightly off. 
+
+I have altered my design for this iteration. The device is now housed in a watch instead of a handheld device. The inspiration for this was to cut down on the size and make the device portable. This way users can scan objects they come upon in their day to day lives instead of just at home. The watch crown is taking the place of the joystick, allowing the user to apply red/blue tint to the selected color. User can rotate the crown clockwise/counter clockwise to apply blue/red tint. The user can swap between blue/red tint by pressing and holding down the crown for either 2 seconds, or 4 seconds. Once a user takes a camera scan of a color, the watch will display 4 color palettes to choose from. The user will use the touchscreen to select their favorite color which will make the selection go full screen. After applying tints the user can double tap the crown to receive 4 new palettes to choose from. User repeats this process until satisfied. Once satisfied, tap the crown once to save the color to a menu (which you can navigate to by triple tapping the crown). The watch will vibrate letting the user know that the color has been successfully saved.
+
+To stage an interaction with your interactive device, think about:
+
+_Setting:_ In any building: bedroom, kitchen, office space, etc.
+
+_Players:_ Residents of apertment buildings, houses, and office spaces
+
+_Activity:_ Users hold up the device to a wall that needs to be repainted. They use the paint matching device to either match the current paint color of a wall for touch ups, or to save a color of someting natural for inspiration to repaint an entire wall.
+
+_Goals:_ Improving the color selection process during painting. To acquire the true color of a wall or natural objects.
