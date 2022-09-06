@@ -209,7 +209,18 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\
+
+## Make it your own
+
+Do last week’s assignment again, but this time: 
+1) It doesn’t have to (just) use light, 
+2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
+3) We will be grading with an emphasis on creativity. 
+
+\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+**Summarize feedback from your partners here.**
 
  1) Feedback from my partners were centered around 2 key themes.  1) The video itself as a standalone was quite confusing and not enough to fully explain the interaction 2) The interactions themselves felt vague and did not capture a clear process
  
@@ -225,15 +236,6 @@ You will be assigned three partners from another group. Go to their github pages
      c) Use a call and contact name / picture to come up with an error messages
      d) Add features to value add over a regular safe such as reminders and mood colors!
 
-
-## Make it your own
-
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 
 **Setting:** Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
