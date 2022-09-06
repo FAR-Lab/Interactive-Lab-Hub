@@ -11,13 +11,19 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 ## Prep
 
-[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
+Lab Prep is extra long this week. Make sure to start this early for lab on Thursday.
 
+### Get Kit and Inventory Parts
+Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing:
 
+***Update your [parts list inventory](partslist.md)***
 
-### Set up your Lab 2
+### [Prepare your Pi](prep.md) for lab this week! 
+You'll need to download and burn the image for your Raspberry Pi before lab Thursday.
 
-1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
+### Set up your Lab 2 Github
+
+[Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
   
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
@@ -35,7 +41,6 @@ Be generous in acknowledging their contributions! And also recognizing any other
   ```
   Your local and remote should now be up to date with the most recent files.
 
-2. Go to the [lab prep page](prep.md) to inventory your parts and set up your Pi before the lab session on Thursday.
 
 
 ## Overview
