@@ -211,6 +211,21 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\
 
+ 1) Feedback from my partners were centered around 2 key themes.  1) The video itself as a standalone was quite confusing and not enough to fully explain the interaction 2) The interactions themselves felt vague and did not capture a clear process
+ 
+ In order to address this feedback, I have updated my idea to one that can more clearly convey a coherent story for the viewer.  I want to explore the more aesthetic and creative design elements of my first idea in later labs, but wanted to make sure I understood and captured the key lessons of creating a realistic interactice device for a user in this lab. 
+ 
+ 
+
+\*\* Revised idea*\*\
+
+ 1) A person unlocking a lock
+     a) They could mime twisting through the color wheel to find the right color - Flash green when correct
+     b) The lock is based on 5 memories of the person and the mood they felt - connecting it to a color wheel
+     c) Use a call and contact name / picture to come up with an error messages
+     d) Add features to value add over a regular safe such as reminders and mood colors!
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -219,3 +234,56 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+**Setting:** Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+	1) The interaction is happening at a hotel while two traveler are preparing to leave on vacation.  The hotel is in New York City 
+			
+**Players:** Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+	2) Involved in the interaction is a woman and hotel safe designed to make sure she does not leave any belongings.  Staying in the room with the woman is her companion, whom is very forgetful and thus the woman was entrusted with the belongings.
+			
+**Activity:** What is happening between the actors?
+	1) The woman first puts her belongings in the safe, locking with its innovative color design meant to be difficult to recreate or ever hack in 
+	2) The safe is taking her items and remind her of them before she is about to leave.  In the in between, the safe acts as a mood light to improve their vacation
+			
+**Goals:** What are the goals of each player? (e.g., jumping to a tree, opening the fridge)
+	1) The goal of the woman is to keep her passport safe while not forgetting it in the hotel room
+	2) The safe's goal is but wants to make sure she remembers they are there to check it.
+
+
+\*\***Story boards**\*\*
+Preview attachment IMG-0010.jpg
+![IMG-0010](https://user-images.githubusercontent.com/112022260/188541411-5![IMG-0011](https://user-images.githubusercontent.com/112022260/188541423-fce6c717-27db-469b-8cd7-5682f5b3fbd4.jpg)
+77af830-42d5-49cc-a8d6-8f0a0cebe053.jpg)
+![IMG-0012](https://user-images.githubusercontent.com/112022260/188541431-bce5f8a2-36b4-40ad-b65e-887e6420a73a.jpg)
+![IMG-0013](https://user-images.githubusercontent.com/112022260/188541437-503eaee8-e09d-4648-941e-3705bc07341d.jpg)
+![IMG-0014](https://user-images.githubusercontent.com/112022260/188541449-9032cf1d-5cfa-4389-b253-8a79c6935efe.jpg)
+![IMG-0015](https://user-images.githubusercontent.com/112022260/188541454-515fd50b-c122-4d1e-a584-2fbd2069a42f.jpg)
+![IMG-0016](https://user-images.githubusercontent.com/112022260/188541472-49bceb51-f182-44d0-af53-7941a10590fa.jpg)
+
+**Summarize feedback you got here.**
+		The feedback recieved was around two main points 1) You need to make the actual interaction more clear.  In the current iteration it felt like it was just a person using a safe rather than real interaction between parties.
+		
+**Are there things that seemed better on paper than acted out?**
+		
+Actually locking the lock was better on paper given the tinkerbelle UI. 
+		
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+		
+ A new idea that occurred to us was the idea for having the scene take place in the hotel  rather than at home.  This made the purpose of reminding more important as well as emphasis on aesthetics (adding a cool color screen) and how it could be used to serve as furniture and impact the room rather than be a stationary boring object
+
+\*\***Prototype**\*\*
+
+
+		
+ 
+ **What concerns or opportunities are influencing the way you've designed the device to look?**
+		
+A few concerns I had during building the device would be how the late impacts whatever activities a person is doing.  In the past I have had a light up mouse and keyboard in my room.  While good in theory they ended up keeping me awake with the changing colors and I had to get rid of them.![image](https://user-images.githubusercontent.com/112022260/188541644-cebdd143-44d3-4290-a2ad-ec880c4f7674.png)
+
+
+![IMG-0017](https://user-images.githubusercontent.com/112022260/188541481-7ac09718-a67d-488d-9d59-7b2090cc02ad.jpg)
+![IMG-0018](https://user-images.githubusercontent.com/112022260/188541487-d8d1cc60-bf9c-4362-add5-6ef1d0def797.jpg)
+![IMG-0019](https://user-images.githubusercontent.com/112022260/188541508-28e9128a-d6a6-4760-a61a-3951a5c0cb17.jpg)
+
+\*\***Video**\*\*
