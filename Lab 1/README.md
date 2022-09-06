@@ -255,6 +255,19 @@ If you run into technical issues with this tool, you can also use a light switch
 
 Tinkerbelle will work very well when housed in a watch. The touchscreen can be easily programmed to take the place of the mouse input from the computer. I will also be able to implement 4 palettes by selecting colors closer/further away from black. The red/blue tint will also be convenient for the same reasons.
 
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+
+https://user-images.githubusercontent.com/54602750/187322706-6b468924-b7a7-4829-ac78-d8a8e2b285e4.MOV
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+
+https://user-images.githubusercontent.com/54602750/187330335-6ed623a9-e227-4d05-a48c-7ea4a9d505cb.mp4
+
+
 ## Part E. Costume the device
 
 Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
