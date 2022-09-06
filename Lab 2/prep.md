@@ -13,7 +13,7 @@
 ### Burn your Pi image to your SD card
 #### On your computer 
 - Download the [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
-- Download the our copy of Raspbian at [this Google Drive link](https://drive.google.com/file/d/1BUOSrdHh6IT74UEZrZ3aS74RDv6d8Ux6/view?usp=sharing).
+- Download the our copy of Raspbian at [this Google Drive link](https://drive.google.com/file/d/1gPjAT3f9wx_zDGMp-tRjsLZzMrqa2LZ2/view?usp=sharing).
 Download and use the ``.img`` file in the Raspberry Pi Imager.
 
 - If using windows: [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh) or [PuTTY](https://www.putty.org/)
@@ -21,7 +21,7 @@ Download and use the ``.img`` file in the Raspberry Pi Imager.
 ### Setting up your OS for the Pi
 1. Plug the SD card into your computer using the card reader
 
-2. Go download and install the [Raspberry Pi Imager](https://www.raspberrypi.org/software/) on your laptop, download the the customed [image file](https://drive.google.com/file/d/1BUOSrdHh6IT74UEZrZ3aS74RDv6d8Ux6/view?usp=sharing) we made for the class. Open the Raspberry Pi Imager and choose the downloaded image file from "Choose OS" and the SD card from "Choose SD card".
+2. Go download and install the [Raspberry Pi Imager](https://www.raspberrypi.org/software/) on your laptop, download the the customed [image file](https://drive.google.com/file/d/1gPjAT3f9wx_zDGMp-tRjsLZzMrqa2LZ2/view?usp=sharing) we made for the class. Open the Raspberry Pi Imager and choose the downloaded image file from "Choose OS" and the SD card from "Choose SD card".
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />
 
