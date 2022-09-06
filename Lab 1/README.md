@@ -30,9 +30,7 @@ For the light alarm, the cloud light is sitting on the nightstand beside the bed
 Lighting was a significant factor which impeded the process as I needed to find a balance between showing the cloud while also conveying to the audience that the room is dark. Using basic recording tools (e.g. webcam on laptop) presented a challenge as it was difficult to strike a balance between the appropriate amount of lighting and grainy footage. 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-Being able to best represent the alarm and convey it to the viewer was definitely a point of focus. The original idea was to have the actor interact with settings manually, however that seemed to be the less streamlined choice. Setup was shown for the first option only to condense time, although the tradeoff would be that the instructions for the Alexa command would be made explicit in the video.  
-
-
+Being able to best represent the alarm and convey it to the viewer was definitely a point of focus. The original idea was to have the actor interact with settings manually, however that seemed to be the less streamlined choice. Setup was shown for the first option only to condense time, although the tradeoff would be that the instructions for the Alexa command would be made explicit in the video. Another thing that was challenging was coordinating the sound effect with the light. 
 ## Part C. Prototype the device
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
