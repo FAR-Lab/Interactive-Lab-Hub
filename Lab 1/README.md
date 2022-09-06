@@ -189,4 +189,4 @@ Timely medicines and pill consumption.
 ![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/2.6.png)
 ![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/2.7.png)
 ![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/2.8.png)
-![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/2.9.png)
+![plot](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/2.9_2.png)
