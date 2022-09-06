@@ -289,3 +289,6 @@ A few concerns I had during building the device would be how the late impacts wh
 \*\***Video**\*\*
 
 **Please use sound**
+https://drive.google.com/file/d/1HZQRUs_KcRBXh4u2V0FaIOiM0i6BbZZV/view?usp=sharing
+
+1) Due to the file size I could not upload directly to github.  If it is acceptable I will link a youtube video for easier accessability post deadline.
