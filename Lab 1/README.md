@@ -83,35 +83,35 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-**Tentative name of product: Eve**
+**Tentative name of product: Astro**
 
 ![image](https://user-images.githubusercontent.com/6238480/187310066-8980baab-8308-4e67-b135-11e11970c276.png)
 
-Eve gives yellow light at sunrise and shows yellow-red gradient during sunset.
+Astro gives yellow light at sunrise and shows yellow-red gradient during sunset.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310093-1ec0328f-31d8-4b89-8a39-9bc5d3dc8550.png)
 
-At night, Eve shows the moon phase on stand-by.
+At night, Astro shows the moon phase on stand-by.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310111-47890d41-513c-486d-84cc-609a40e8da1b.png)
 
-Ask Eve about the rain forecast for the day and she'll show you.
+Ask Astro about the rain forecast for the day and she'll show you.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310132-25365a37-3114-40ad-a865-1957143d15de.png)
 
-Eve beeps when interesting astronomical events are happening.
+Astro beeps when interesting astronomical events are happening.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310151-a36d84ef-07c9-4d77-94bb-9955945af78e.png)
 
-ISS rotates the Earth every 90 minutes; Eve will remind you of that.
+ISS rotates the Earth every 90 minutes; Astro will remind you of that.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310188-3b7c7fb6-4cb5-41e4-b54d-351fc679859c.png)
 
-Not only the ISS, any celestial objects can be programmed for Eve.
+Not only the ISS, any celestial objects can be programmed for Astro.
 
 ![image](https://user-images.githubusercontent.com/6238480/187310208-ace0eb26-5770-4b56-b45b-453ee03a64dc.png)
 
-Eve shows you the cloud coverage at night for you night-sky photographers!
+Astro shows you the cloud coverage at night for you night-sky photographers!
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -222,6 +222,12 @@ Michael Choie
 Jason Kwan
 > Maybe the device can be in the form of a wall clock so that it doesn't take any desk space
 
+Aashika Perunkolam
+> Love how clearly you've depicted the idea! You could add a sound clip with facts about each event or just a sound to alert the user about the event.
+
+Xy Fang
+> Very cute storyboard Brian! It's very clearly illustrated and creative as well. I like how you covered a lot of aspects and potential of one single device. You clearly put deep thoughts into this device design. The documentation is very clear as well. The sketch is also wonderful! For the next part of the lab, you can think of ways this device would be able to interact with human, how it could have been placed in people's daily lives, where to put it, how large should it be, and in what shape.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -239,7 +245,29 @@ _Activity:_ The user will use the device in a more passive way. The device will 
 
 _Goals:_ The user should be able to manage the device to be informed on what kind of astronomical events that they want to follow.
 
-
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-The idea is to make it in the form of a wall clock. A wall clock is the right balance of being mundance and essential in a room. Wall clock is usually placed in a very visible part of the room. Furthermore, the wall clock has not been disrupted in a while.
+The idea is to make it in the form of a wall accessories so that it does not take any extra desk space. It can also be a decorative item that can act as an accent piece in the room.
+
+\*\***Finding ways to prototype the device**\*\*
+
+The idea is to find a circular item that can resemble the form of the device.
+
+Trying to find every circular object in the room.
+
+Mounting putty can be useful to attach the item to the wall without damaging it.
+
+Final form of the prototype. It's a pretty cool addition to the room.
+
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+Here are the updated interactions using the new prototype:
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/XBogpszF4Io/sddefault.jpg)](https://www.youtube.com/watch?v=XBogpszF4Io "Journey 3 - Rain Incoming")
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/0s4_DQiFHSo/sddefault.jpg)](https://www.youtube.com/watch?v=0s4_DQiFHSo "Journey 4 - Meteor Shower Incoming")
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/C3WD0WveKJY/sddefault.jpg)](https://www.youtube.com/watch?v=C3WD0WveKJY "Journey 6 - Mars Incoming")
+
+Thank you again for the help, Maria Veronica!
