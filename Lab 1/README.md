@@ -57,7 +57,9 @@ The original prototype and the follow up design is shown. Chonky cat for scale.
 \*\***Include sketches of what your devices might look like here.**\*\*
 
 For part 2 of the lab i've included additional design options: 
+
 ![Prototype Designs](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/7bc9ba4e75ecd817c19e21efa0dab1b93995ff32/Lab%201/Prototype%20Designs.jpeg)
+
 
 ![prototype sketch](https://user-images.githubusercontent.com/112089774/187350592-de84ea1b-836b-47d4-aa6c-ab47a01f93cf.jpeg)
 
