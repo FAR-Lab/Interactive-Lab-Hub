@@ -283,4 +283,4 @@ If a meteor shower is going to happen soon, Astro will light up and send you a n
 
 For the astronomy aficionados, Astro will chime and let you know if the cellestial object that you are monitoring has appeared in the horizon (i.e. a Mars-rise)
 
-Thank you again for the help, Maria Veronica!
+_Thank you to my wife for lending me her diffuser and controlling it from the distance._
