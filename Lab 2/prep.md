@@ -9,11 +9,11 @@
 - [SD card + Reader](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294)
 - [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393)
 
-<!--Done this part for all the students already so no needs (Fall2021)
+
 ### Burn your Pi image to your SD card
-#### On your computer download
-- [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
-- Our Copy of Raspbian at [this dropbox link](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0), or use our ftp server here: ftp://farlab.infosci.cornell.edu/IXE_20210224.img.xz .
+#### On your computer 
+- Download the [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
+- Download the our copy of Raspbian at [this dropbox link](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0), or use our ftp server here: ftp://farlab.infosci.cornell.edu/IXE_20210224.img.xz .
 Download and use the ``.xz`` file in the Raspberry Pi Imager.
 
 - If using windows: [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh) or [PuTTY](https://www.putty.org/)
