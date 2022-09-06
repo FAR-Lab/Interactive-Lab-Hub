@@ -25,44 +25,16 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 
 ### Setting up your OS for the Pi
 1. Go download and install the [Raspberry Pi Imager](https://www.raspberrypi.org/software/) on your laptop, download the the customed [image file](https://www.dropbox.com/sh/2jt06jka7lg5z70/AAB6XnRWWais0wP5bOZ93upSa?dl=0) we made for the class. Open the Raspberry Pi Imager and choose the downloaded image file from "Choose OS" and the SD card from "Choose SD card" then hit write.
-2. When plugging the SD card reader (with SD card loaded) into your computer, you should be able to see a disk named "boot".
-3. Locate the file ```wpa_supplicant.conf``` in the "boot" disk, you should be able to open it with any text editing programs. This file is meant for setting up the Pi to <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>headless mode</a>.
-4. The file contents should have the following text:
 
-	````
-	update_config=1
-	country=US
-
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-	network={
-	    ssid="The House"
-	    key_mgmt=NONE
-	}
-	
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-	network={
-	    ssid="DeviceFarm"
-	    psk="device@theFarm"
-	    key_mgmt=WPA-PSK
-	}
-	
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-	network={
-	    ssid="RedRover"
-	    key_mgmt=NONE
-	}
-	````
-    The listed network information will be searched by your Raspberry Pi in sequence when it boots up and tries to connect to available network. If the network you are planning to use is not listed, make sure to update the above contents with your own network information, that is, you should change the contents of ```ssid``` and ```psk``` or just add an additional one. Make sure your laptop is on the same network you are planning to use so that later you can access to your Raspberry Pi.
-
-3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
+2. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
 
 <img src="https://cdn-shop.adafruit.com/1200x900/4296-12.jpg" alt="Pi bottom side" height="200" />
 
-4. Take and connect the Adafruit MiniPiTFT to your pi with the configuration shown below, the MiniPiTFT should be on the top left corner of your Pi.
+3. Take and connect the Adafruit MiniPiTFT to your pi with the configuration shown below, the MiniPiTFT should be on the top left corner of your Pi.
 
 <img src="PlacingMiniPiTFTonPi.jpg" alt="MiniPiTFTonPi" height="200" />
 
-5. Boot the Pi by connecting it to a power source with USB-C connector.
+4. Boot the Pi by connecting it to a power source with USB-C connector.
 
 ### Setting up your Pi to run in headless mode
 
