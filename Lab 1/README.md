@@ -16,10 +16,10 @@ For the light alarm, the cloud light is sitting on the nightstand beside the bed
 *Goals:* For the sunrise alarm, goal is to ensure the subject is awake at the correct time. The other options are designed to create a user-defined ambience. 
 
 \*\***Include pictures of your storyboards here**\*\*
-![IMG_8873 Large](https://user-images.githubusercontent.com/112089774/187347717-c3ad8f26-9cda-4411-9508-bde1983c95c4.jpeg)
+![IMG_8873 Large](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/7bc9ba4e75ecd817c19e21efa0dab1b93995ff32/Lab%201/Storyboard.jpeg)
 
 \*\***Summarize feedback you got here.**\*\*
-I love the concept! I would love though to have some more intractability maybe from an app or similar where I can add music for example or configure the lights in a different way when waking up. 
+(I love the concept! I would love though to have some more intractability maybe from an app or similar where I can add music for example or configure the lights in a different way when waking up. 
 
 
 ## Part B. Act out the Interaction
@@ -28,7 +28,7 @@ I love the concept! I would love though to have some more intractability maybe f
 Lighting was a significant factor which impeded the process as I needed to find a balance between showing the cloud while also conveying to the audience that the room is dark. Using basic recording tools (e.g. webcam on laptop) presented a challenge as it was difficult to strike a balance between the appropriate amount of lighting and grainy footage. 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-Being able to best represent the alarm and convey it to the viewer was definitely a point of focus for the team. The original idea was to have the actor interact with settings manually, however that seemed to be the less streamlined choice. 
+Being able to best represent the alarm and convey it to the viewer was definitely a point of focus. The original idea was to have the actor interact with settings manually, however that seemed to be the less streamlined choice. Setup was shown for the first option only to condense time, although the tradeoff would be that the instructions for the Alexa command would be made explicit in the video.  
 
 
 ## Part C. Prototype the device
@@ -43,6 +43,8 @@ This is included at the end of the youtube video!
 
 \*\***Show the follow-up work here.**\*\*
 The original prototype and the follow up prototype are shown. Chonky cat for scale. 
+
+![Prototype Designs](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/7bc9ba4e75ecd817c19e21efa0dab1b93995ff32/Lab%201/Prototype%20Designs.jpeg)
 
 ![IMG_8816 Small](https://user-images.githubusercontent.com/112089774/187350023-b51aa511-b3d2-43af-941a-8ea4ff7158b9.jpeg)
 ![IMG_8817 Small](https://user-images.githubusercontent.com/112089774/187350024-023890ad-5be8-493f-bf7b-e197adb665b0.jpeg)
