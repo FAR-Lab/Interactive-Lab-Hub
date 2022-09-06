@@ -71,7 +71,7 @@ I needed to find something that would hold an iphone - the solo cup didn't work 
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-['Interactive Device Design - Lab 1 Part 2 - ob234's video on YT'][(https://youtu.be/g_xjQyyPv1A)](https://youtu.be/znK4aILHDoU)
+['Interactive Device Design - Lab 1 Part 2 - ob234's video on YT'](https://youtu.be/g_xjQyyPv1A)](https://youtu.be/znK4aILHDoU)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 I worked with Elyse on the first part of the lab :D (e.g. coming up with design ideas, initial video prototype, etc.) 
