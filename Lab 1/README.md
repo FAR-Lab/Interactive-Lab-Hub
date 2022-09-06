@@ -155,7 +155,11 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+Good job Sara! I think this project is a good reminder for people to take a breath and get up to walk around. My suggestions to take it further are:
+
+1. Maybe add a feature or two to it to make it a little more robust? For instance, maybe it could play relaxing music to help people de-stress when they are working from within the confines of a private place. 
+
+2. You could make it so that it can serve as a table light, and/or work with smart home devices so it can help you keep at your work no matter what part of your house needs adjusting.
 
 ## Make it your own
 
