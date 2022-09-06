@@ -251,6 +251,8 @@ _Goals:_ The user should be able to manage the device to be informed on what kin
 
 The idea is to make it in the form of a wall accessories so that it does not take any extra desk space. It can also be a decorative item that can act as an accent piece in the room.
 
+![image](https://user-images.githubusercontent.com/6238480/188545156-3c9b44a3-3105-4421-8ed2-fe1d1cd5ecf1.png)
+
 \*\***Finding ways to prototype the device**\*\*
 
 The idea is to find a circular item that can resemble the form of the device.
