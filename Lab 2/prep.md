@@ -25,10 +25,9 @@ Download and use the ``.img`` file in the Raspberry Pi Imager.
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />
 
-3. Click the gear icon on the bottom right to open Advanced Settings. In here, you need to make three changes:
+3. Click the gear icon on the bottom right to open Advanced Settings. In here, you need to make two changes:
 - change the "hostname" to something unique
 - set the password for user "pi" to something unique to you that you can remember
-- configure wireless LAN with your home WiFi SSID and password
 
 4. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
 
@@ -39,6 +38,8 @@ Download and use the ``.img`` file in the Raspberry Pi Imager.
 <img src="PlacingMiniPiTFTonPi.jpg" alt="MiniPiTFTonPi" height="200" />
 
 6. Boot the Pi by connecting it to a power source with USB-C connector.
+
+7. (Optional: if you are not living in The House and want to connect to a WiFi network that isn't Red Rover or The House. After booting the Pi with your newly written SD card, turn the Pi off, take the SD card again and put it in the reader and into your computer. You should see a file called "/etc/wpa_supplicant/wpa_supplicant.conf". Open this file with a text editor, such as Vim, TextEdit or SublimeText. You see that there is a list of WiFi login details in this file. Under "The House" and "Red Rover", add your home WiFi name and password to the bottom of the file. Save and reboot your Pi with your SD card in it.
 
 ### Setting up your Pi to run in headless mode
 
