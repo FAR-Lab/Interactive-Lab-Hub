@@ -13,11 +13,6 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 [Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
 
-### Get your kit
-If you are remote but in the US, let the teaching team know you need the parts mailed.
-
-
-If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
 
 
 ### Set up your Lab 2
