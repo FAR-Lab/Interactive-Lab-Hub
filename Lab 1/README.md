@@ -179,6 +179,6 @@ Do last week’s assignment again, but this time:
 ![image](https://user-images.githubusercontent.com/112091818/188542027-93851323-b9b8-4c49-9bda-a3829041a03c.png)
 ![image](https://user-images.githubusercontent.com/112091818/188542089-5f9729e4-854b-4c5e-b4c5-c347bea79481.png)
 
+Some of the louder devices may be distracting for workers nearby. In addition, may be a little scary to work with (watch video to understand)
 
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+Video of interaction: https://cornell.zoom.us/rec/share/mRhlYsLm1XbWxau1_cOgUXyG1IM6AjBbOaKvQ8sJ1YUGuUpTO_QccqWOERcukQEs.tUoJZ1OJxlb9r4Np?startTime=1662435187000
