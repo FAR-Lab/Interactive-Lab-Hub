@@ -195,3 +195,6 @@ Timely medicines and pill consumption.
 
 ## Video Demonstration
 [![Wizard Device Video](https://github.com/abhisheknair10/Interactive-Lab-Hub/blob/Fall2022/Lab%201/1D-1.png)](https://drive.google.com/file/d/1geZ6A5jyUu5XrGTDbQFAEh22L8GS0lp4/view?usp=sharing)
+
+## Some Reflections
+With regards to technical specifications, the device will consist of a WiFi module which will enable internet connectivity. This means, a server hosted on the cloud will communicate which colour needs to be displayed at what time. These settings can be changed via a mobile application that will connect to the very same server. SMS messages can be sent via 3rd party services such as Twilio SMS which can send the necessary notifications to the user's phone. Links sent on the same message will enable the user to confirm via the notification on the phone whether their medicines have been consumed as needed. In this way, the PillBot can work along with the user's phone to streamline the process of creating and editing medicine routines conveniently.
