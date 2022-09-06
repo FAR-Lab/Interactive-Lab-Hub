@@ -279,7 +279,7 @@ Actually locking the lock was better on paper given the tinkerbelle UI.
  
  **What concerns or opportunities are influencing the way you've designed the device to look?**
 		
-A few concerns I had during building the device would be how the late impacts whatever activities a person is doing.  In the past I have had a light up mouse and keyboard in my room.  While good in theory they ended up keeping me awake with the changing colors and I had to get rid of them.![image](https://user-images.githubusercontent.com/112022260/188541644-cebdd143-44d3-4290-a2ad-ec880c4f7674.png)
+A few concerns I had during building the device would be how the late impacts whatever activities a person is doing.  In the past I have had a light up mouse and keyboard in my room.  While good in theory they ended up keeping me awake with the changing colors and I had to get rid of them.
 
 
 ![IMG-0017](https://user-images.githubusercontent.com/112022260/188541481-7ac09718-a67d-488d-9d59-7b2090cc02ad.jpg)
