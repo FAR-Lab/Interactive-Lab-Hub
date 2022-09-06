@@ -217,7 +217,7 @@ You will be assigned three partners from another group. Go to their github pages
  
  
 
-\*\* Revised idea*\*\
+**Revised idea**
 
  1) A person unlocking a lock
      a) They could mime twisting through the color wheel to find the right color - Flash green when correct
