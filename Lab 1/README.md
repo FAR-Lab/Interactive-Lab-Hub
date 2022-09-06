@@ -168,4 +168,17 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
 3) We will be grading with an emphasis on creativity. 
 
+1. Device that changes color and plays soothing music to keep the user focused
+2. Device that changes color and says to "start", "get ready to stop" and "take a break"
+3. A light source that decreases in brightness to encourage a break periodically
+4. Device that wakes up a sleeping user by buzzing and ringing, plays peaceful music once awake
+5. Device that keeps the user seated and working by yelling and turning pink until user comes back
+6. Device that shows time and lets the user know when they should be getting to bed using color and commands
+7. Same device as #1 however during break time, plays awesome music to encourage user to dance
+
+![image](https://user-images.githubusercontent.com/112091818/188542027-93851323-b9b8-4c49-9bda-a3829041a03c.png)
+![image](https://user-images.githubusercontent.com/112091818/188542089-5f9729e4-854b-4c5e-b4c5-c347bea79481.png)
+
+
+
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
