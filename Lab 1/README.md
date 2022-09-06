@@ -224,7 +224,8 @@ _Goals:_ Improving the color selection process during painting. To acquire the t
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-![storyboard](https://user-images.githubusercontent.com/54602750/188564297-af3f7ba3-73b4-4643-a39f-76e02914b4e7.jpg)
+
+![storyNEW](https://user-images.githubusercontent.com/54602750/188566837-99f10bda-1da5-4024-9845-746476951ca7.jpg)
 
 
 
