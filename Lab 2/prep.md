@@ -14,7 +14,7 @@
 #### On your computer 
 - Download the [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 - Download the our copy of Raspbian at [this Google Drive link](https://drive.google.com/file/d/1BUOSrdHh6IT74UEZrZ3aS74RDv6d8Ux6/view?usp=sharing).
-Download and use the ``.xz`` file in the Raspberry Pi Imager.
+Download and use the ``.img`` file in the Raspberry Pi Imager.
 
 - If using windows: [Windows 10 SSH Client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh) or [PuTTY](https://www.putty.org/)
 
