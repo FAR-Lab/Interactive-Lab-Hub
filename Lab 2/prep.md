@@ -1,11 +1,8 @@
-# Lab 2 Prep
+# Prep your Pi
 
-### Get Kit and Inventory Parts
-Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing:
 
-***Update your [parts list inventory](partslist.md)***
 
-### To finish this prelab, you will need:
+### To prepare your Pi, you will need:
 
 - [Raspberry Pi 3 Model B+](https://www.adafruit.com/product/3775)
 - [Power Supply](https://www.adafruit.com/product/1995?gclid=CjwKCAjwsMGYBhAEEiwAGUXJaRS6xBHTIB8hwFMjAqyRN_WXwSqd_Pp4JQCHI_IARTlKnsx84jXbchoCdxUQAvD_BwE)
