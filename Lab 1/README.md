@@ -235,6 +235,8 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
 3) We will be grading with an emphasis on creativity. 
 
+## Updated settings
+
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 _Setting:_ The interaction could take place in the bedroom, living room, or even in the room for a school's astronomy club.
@@ -244,6 +246,8 @@ _Players:_ The potential users are astronomy aficionados or light hobbyist. A pa
 _Activity:_ The user will use the device in a more passive way. The device will indicate if there is an upcoming astronomical events nearby.
 
 _Goals:_ The user should be able to manage the device to be informed on what kind of astronomical events that they want to follow.
+
+## Finding the new form of the device
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
@@ -255,10 +259,15 @@ The idea is to find a circular item that can resemble the form of the device.
 
 Trying to find every circular object in the room.
 
+![20220905_231306](https://user-images.githubusercontent.com/6238480/188540914-6c7d270c-7e81-42d3-8638-84f3cf0f5b5c.jpg)
+
 Mounting putty can be useful to attach the item to the wall without damaging it.
+
+![20220905_231239](https://user-images.githubusercontent.com/6238480/188540931-b931ea18-030b-4fad-98bc-ef20309be88c.jpg)
 
 Final form of the prototype. It's a pretty cool addition to the room.
 
+![20220905_231442](https://user-images.githubusercontent.com/6238480/188540940-11e2a19f-064e-4e44-9492-563372f175c8.jpg)
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
@@ -266,8 +275,14 @@ Here are the updated interactions using the new prototype:
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/XBogpszF4Io/sddefault.jpg)](https://www.youtube.com/watch?v=XBogpszF4Io "Journey 3 - Rain Incoming")
 
+When Astro turns blue and chimes, it means it is going to rain soon.
+
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/0s4_DQiFHSo/sddefault.jpg)](https://www.youtube.com/watch?v=0s4_DQiFHSo "Journey 4 - Meteor Shower Incoming")
 
+If a meteor shower is going to happen soon, Astro will light up and send you a notification that there will be an incoming meteor shower in your area.
+
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/C3WD0WveKJY/sddefault.jpg)](https://www.youtube.com/watch?v=C3WD0WveKJY "Journey 6 - Mars Incoming")
+
+For the astronomy aficionados, Astro will chime and let you know if the cellestial object that you are monitoring has appeared in the horizon.
 
 Thank you again for the help, Maria Veronica!
