@@ -25,15 +25,20 @@ Download and use the ``.xz`` file in the Raspberry Pi Imager.
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/pi_imager_os_select.png" alt="choose os" height="200" />-->
 
-3. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
+3. Click the gear icon on the bottom right to open Advanced Settings. In here, you need to make three changes:
+- change the "hostname" to something unique
+- set the password for user "pi" to something unique to you that you can remember
+- configure wireless LAN with your home WiFi SSID and password
+
+4. Eject or unmount the microSD card reader, and then remove the SD card from the reader and reinsert it into SD card slot on the Pi: it is located on the bottom (silver rectangle on the right).
 
 <img src="https://cdn-shop.adafruit.com/1200x900/4296-12.jpg" alt="Pi bottom side" height="200" />
 
-4. Take and connect the Adafruit MiniPiTFT to your pi with the configuration shown below, the MiniPiTFT should be on the top left corner of your Pi.
+5. Take and connect the Adafruit MiniPiTFT to your pi with the configuration shown below, the MiniPiTFT should be on the top left corner of your Pi.
 
 <img src="PlacingMiniPiTFTonPi.jpg" alt="MiniPiTFTonPi" height="200" />
 
-5. Boot the Pi by connecting it to a power source with USB-C connector.
+6. Boot the Pi by connecting it to a power source with USB-C connector.
 
 ### Setting up your Pi to run in headless mode
 
