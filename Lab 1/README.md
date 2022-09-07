@@ -132,6 +132,11 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+- the light might not be effective in the morning for a person to dismess their phone
+- you might just turn the light off and continue being distracted by your phone
+- adding some explanation in the video might be better
+- this could also be used in the classroom
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
