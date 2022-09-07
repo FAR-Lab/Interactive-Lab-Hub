@@ -222,9 +222,11 @@ I set up the "picture frame" on a table and had the user sit on a stool next to 
 _Costume :_
 I used cardboard to cut out a "frame" that could resemble a picture frame familiar to older adults. The main device is the browser of the tablet, while the mobile phone screen acts more like a mirror that could possibly be replaced with an inactive, fixed picture of the user. This "picture frame" would be placed on a table by the user, usually in close proximity throughout the day. Below are images of the costume. 
 
-![costume1](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8d4c73775e5452638cb8b7c816c0e59bdee6a115/Lab%201/lab1.2_costume1.png)
-![costume2](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8d4c73775e5452638cb8b7c816c0e59bdee6a115/Lab%201/lab1.2_costume2.png)
-![costume3](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8d4c73775e5452638cb8b7c816c0e59bdee6a115/Lab%201/lab1.2_costume3.png)
+Raw costume:
+![costumeraw](https://github.com/hjkim63/Interactive-Lab-Hub/blob/9e412a19dfdc0d12103ae10dccf2f94b1b74eda4/Lab%201/lab1.2_costumeraw.png)
+
+Costume with device
+![costumedevice](https://github.com/hjkim63/Interactive-Lab-Hub/blob/1ff629a5166344fc9c5862c2d17f65a864a4afc3/Lab%201/lab1.2_costumedevice.png)
 
 
 
@@ -236,9 +238,16 @@ _Video of prototyped interactions:_
 - Recording: ![noticing](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8d4c73775e5452638cb8b7c816c0e59bdee6a115/Lab%201/lab1.2_interaction_noticing.MOV)
 
 2. "Waking up":
-- As older adults with cognitive deficits often fall asleep much throughout the way and have difficultly sleeping, this imbalance leads to increased loneliness through the night as well. This interaction notices when the user is dozing off and nudges them to stay alert and awake to keep their biorhythem in check
+- As older adults with cognitive deficits often fall asleep much throughout the way and have difficultly sleeping, this imbalance leads to increased loneliness through the night as well. This interaction notices when the user is dozing off (could be through computer vision or motion sensors) and nudges them to stay alert and awake to keep their biorhythem in check. The interaction is created through light (slow flickering of yellow light in the background of the picture) and sound (twinkle sounds)
 - Recording:![noticing](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8d4c73775e5452638cb8b7c816c0e59bdee6a115/Lab%201/lab1.2_interaction_wakeup.mov)
 
 3. Active remembering:
 - As physical, outdoors activites are harder to relive and experience, this interaction aims to bring some of these activities, such as walking through leaves in a park, through light and sound.
 - Recording: ![on_a_walk](https://github.com/hjkim63/Interactive-Lab-Hub/blob/8d4c73775e5452638cb8b7c816c0e59bdee6a115/Lab%201/lab1.2_interaction_walk.mov)
+
+## Final Reflections
+- The interactions became much less confusing when thinking about the context (before, during and even after) in which the user would be interacting with the light as well as when multiple sensory interactions (light + sound) could be used simultaneously.
+- Just because the main user (older adults with cognitive deficits) are less active/dynamic users does not mean other players within the space can't initiate the interaction. Injecting caretakers into the picture would have allowed broader explaination of interactions
+- Feedback from the interactions should be explored further --i.e. how does the device make sure the user is understanding what they are supposed to be understanding? There weren't many mechanisms that could help the user if they were confused or wanted to stop the interaction. 
+- Thinking about what the colors mean to the users in general would be helpful in making sure users are understanding the signals and experiencing the intended interactions.
+- Costumes that are designed and made for the concept idea, even if they are extremely rough, still help the user to pretend what the device could be, rather than "preteninding in our minds" or sticking it a device on an already exisitng object.
