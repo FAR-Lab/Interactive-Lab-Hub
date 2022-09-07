@@ -140,7 +140,24 @@ This is for if you are not living in The House and want to connect to a WiFi net
 In the terminal on your Pi, type in 
 ```$ nano /etc/wpa_supplicant/wpa_supplicant.conf ```
 
-You see that there is a list of WiFi login details in this file. Under "The House" and "Red Rover", add your home WiFi name and password to the bottom of the file. 
+You should see a list of WiFi login details in this file:
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+
+network={
+        ssid="RedRover"
+        key_mgmt=NONE
+}
+
+network={
+        ssid="The House"
+        key_mgmt=NONE
+}
+```
+
+Under "The House" and "RedRover", add your home WiFi name and password to the bottom of the file. 
 
 ### Refresh your knowledge of command line interfaces: 
 
