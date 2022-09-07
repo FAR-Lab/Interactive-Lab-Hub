@@ -39,8 +39,6 @@ Download and use the ``.img`` file in the Raspberry Pi Imager.
 
 6. Boot the Pi by connecting it to a power source with USB-C connector.
 
-7. (Optional: if you are not living in The House and want to connect to a WiFi network that isn't Red Rover or The House. After booting the Pi with your newly written SD card, turn the Pi off, take the SD card again and put it in the reader and into your computer. You should see a file called "/etc/wpa_supplicant/wpa_supplicant.conf". Open this file with a text editor, such as Vim, TextEdit or SublimeText. You see that there is a list of WiFi login details in this file. Under "The House" and "Red Rover", add your home WiFi name and password to the bottom of the file. Save and reboot your Pi with your SD card in it.)
-
 ### Setting up your Pi to run in headless mode
 
 #### Connecting to your Pi remotely
@@ -136,6 +134,13 @@ Because the Pi asked you to! Also to keep your Pi from getting hacked. Write it 
 
 Choose '1. System Options' and 'S3 Password', they terminal will then ask you to enter your new password. Again, the terminal will not show what you type for security so do not worry about it and just make sure you type the correct new password twice. After you change the password successfully, you will have to use the new password next time you SSH to your Pi.
 
+### (Optional) Add additional WiFi networks
+
+This is for if you are not living in The House and want to connect to a WiFi network that isn't Red Rover or The House. 
+In the terminal on your Pi, type in 
+```$ nano /etc/wpa_supplicant/wpa_supplicant.conf ```
+
+You see that there is a list of WiFi login details in this file. Under "The House" and "Red Rover", add your home WiFi name and password to the bottom of the file. 
 
 ### Refresh your knowledge of command line interfaces: 
 
