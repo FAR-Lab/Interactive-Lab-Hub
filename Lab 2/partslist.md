@@ -43,3 +43,5 @@
 
 ## Missing Parts here
 \*\*\***List down parts you did not get from the kit here**\*\*\*
+
+1 x [SparkFun Qwiic Button - Red LED](https://www.sparkfun.com/products/15932)
