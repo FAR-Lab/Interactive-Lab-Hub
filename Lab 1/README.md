@@ -145,3 +145,14 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+- 7 Storyboards
+![image](https://user-images.githubusercontent.com/60685289/188866351-c6c79fad-3a5c-4abd-b118-ec92c5bedece.png)
+
+- Image of the prototype:
+![image](https://user-images.githubusercontent.com/60685289/188866531-39ccc66e-cca5-4d74-a97b-167a31ae985a.png)
+
+- Video of the interaction:
+https://user-images.githubusercontent.com/60685289/188866660-66048814-7ee2-4172-8fdd-c356cc10c874.mp4
+
+
+
