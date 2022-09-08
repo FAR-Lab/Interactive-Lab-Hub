@@ -43,3 +43,5 @@
 
 ## Missing Parts here
 \*\*\***List down parts you did not get from the kit here**\*\*\*
+1 x [Adafruit APDS9960 Proximity, Light, RBG, Gesture Sensor](https://www.adafruit.com/product/3595)
+1 x [HD Webcam](https://www.amazon.com/Webcam-Speakers-2021-Microphone-Compatible/dp/B08QRGCW6K/ref=pd_lpo_147_t_0/134-8136290-7363941?_encoding=UTF8&pd_rd_i=B08QRGCW6K&pd_rd_r=a70c666b-ee4f-43c8-ae23-0be491319204&pd_rd_w=AEVHh&pd_rd_wg=iHZYM&pf_rd_p=fb1e266d-b690-4b4f-b71c-bd35e5395976&pf_rd_r=0CZ6ZZZ0XRRVRAGSGHDK&psc=1&refRID=0CZ6ZZZ0XRRVRAGSGHDK#customerReviews)
