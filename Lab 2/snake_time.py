@@ -69,7 +69,7 @@ while True:
     draw.rectangle((0, 0, width, 40), outline=0, fill="#ED4242")
     y = top
 
-    draw.text((x, y), "Height: " + height + ", Width: " + width, font=font, fill="#FFFFFF")
+    draw.text((x, y), "Height: " + str(height) + ", Width: " + str(width), font=font, fill="#FFFFFF")
 
     # create starting point
 
