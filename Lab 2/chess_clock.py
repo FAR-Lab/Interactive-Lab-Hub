@@ -78,7 +78,7 @@ while True:
     # draw.text((x, y), "Height: " + str(height) + ", Width: " + str(width), font=font, fill="#875AFF")
 
     if buttonB.value and not buttonA.value:  # just button A pressed
-        draw.text((x, y), "HELLO", font=font, fill="#875AFF") # set the screen to the users color
+        draw.text((x, y), buttonB.value, font=font, fill="#875AFF") # set the screen to the users color
 
     # create starting point
 
