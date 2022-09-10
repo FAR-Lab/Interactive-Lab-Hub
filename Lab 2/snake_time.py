@@ -68,6 +68,8 @@ while True:
     # create a grid
     draw.rectangle((0, 0, width, 40), outline=0, fill="#ED4242")
 
+    draw.text((x, y), "Height: " + height + ", Width: " + width, font=font, fill="#FFFFFF")
+
     # create starting point
 
     # make line
@@ -79,7 +81,7 @@ while True:
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     y = top
     IP = "Time: " + strftime("%m/%d/%Y %H:%M:%S")
-    draw.text((x, y), IP, font=font, fill="#FFFFFF")
+    # draw.text((x, y), IP, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
