@@ -61,6 +61,12 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# Add button inputs
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill="#191919")
@@ -70,6 +76,9 @@ while True:
     
     y = top
     draw.text((x, y), "Height: " + str(height) + ", Width: " + str(width), font=font, fill="#875AFF")
+
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        draw.text((x, y), str(buttonB.value), font=font, fill="#875AFF") # set the screen to the users color
 
     # create starting point
 
