@@ -2,6 +2,7 @@ import time
 import subprocess
 import digitalio
 import board
+from datetime import datetime as dt
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
@@ -61,17 +62,20 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+h = 0
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     time2 = (strftime("%m/%d/%Y %H:%M:%S"))
     y = top
+
+    #h = dt.now().hour
+    #h = 16
     
-  
-
-
-
+    h = h % 24 + 1
+    
+    
     #draw.text((x, y), pokemon, font=font, fill="#FFFFFF")
     draw.line((120 , 64.5, 208, 22.5 ), fill="#FFFFFF", width=1)
     draw.line((120 , 70.5, 208, 108.5 ), fill="#FFFFFF", width=1)
@@ -86,7 +90,26 @@ while True:
     draw.line((32, 108.5, 16, 108.5), fill="#FFFFFF", width=1)
     draw.line((16, 22.5, 16, 108.5), fill="#FFFFFF", width=1)
 
-   # draw.polygon([(224, 22.5), (224, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (108, 22.5)], fill="#FFFFFF")
+    # 24h
+    if h == 24:
+        draw.polygon([(224, 22.5), (224, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
+
+    # 1h
+    elif h == 1:
+        draw.polygon([(216, 22.5), (216, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
+        draw.polygon([(24, 22.5), (24, 108.5), (16, 108.5), (16, 22.5)], fill="#FFFFFF")
+
+    # 2 h
+    elif h == 2:
+        draw.polygon([(208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
+        draw.polygon([(32, 22.5), (32, 108.5), (16, 108.5), (16, 22.5)], fill="#FFFFFF")
+
+    # 3 h to 23 h
+    else:
+        #h = h - 3 
+        draw.polygon([(204-(h-3)*4, 24.5+(h-3)*2), (204-(h-3)*4, 106.5-(h-3)*2), (120, 70.5), (120, 64.5)], fill="#FFFFFF")
+        draw.polygon([(16, 22.5), (32, 22.5), (36+(h-3)*4, 24.5+(h-3)*2), (36+(h-3)*4, 106.5-(h-3)*2), (32, 108.5), (16, 108.5)], fill="#FFFFFF")
+
     y += font.getsize(time2)[1]
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
 
