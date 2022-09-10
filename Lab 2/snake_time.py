@@ -65,6 +65,17 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill="#CCA701")
 
+    # create a grid
+    draw.rectangle((0, 0, width, 40), outline=0, fill="#ED4242")
+
+    # create starting point
+
+    # make line
+
+    # insert controls
+
+    # restart if crash
+
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     y = top
     IP = "Time: " + strftime("%m/%d/%Y %H:%M:%S")
