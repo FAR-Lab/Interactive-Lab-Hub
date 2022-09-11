@@ -73,8 +73,8 @@ state = True
 
 # Add initial time variables
 now = time.time()
-time_a = 10
-time_b = 10
+time_a = 5
+time_b = 5
 future_a = now + time_a
 future_b = now + time_b
 future_a_updated = time_a
@@ -93,7 +93,7 @@ while True:
             msg = "Game Over!"
             msg_2 = "Player B wins"
             w, h = draw.textsize(msg)
-            draw.text(((width-w)/2, 30), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2, 50), msg, font=small_font, fill="#FFFFFF")
             draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
@@ -105,7 +105,7 @@ while True:
             msg = "Game Over!"
             msg_2 = "Player A wins"
             w, h = draw.textsize(msg)
-            draw.text(((width-w)/2, 30), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2, 50), msg, font=small_font, fill="#FFFFFF")
             draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
 
     # Create button triggers to adjust state
