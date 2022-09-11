@@ -70,20 +70,19 @@ while True:
     time2 = (strftime("%m/%d/%Y %H:%M:%S"))
     y = top
 
-    #h = dt.now().hour
-    #h = 16
+    h = dt.now().hour
     
-    h = h % 24 + 1
+    # Simulation of 24h
+    #h = h % 24 + 1
     
-    
-    #draw.text((x, y), pokemon, font=font, fill="#FFFFFF")
+    # Draw hourglass top
     draw.line((120 , 64.5, 208, 22.5 ), fill="#FFFFFF", width=1)
     draw.line((120 , 70.5, 208, 108.5 ), fill="#FFFFFF", width=1)
     draw.line((208, 22.5, 224, 22.5 ), fill="#FFFFFF", width=1)
     draw.line((208, 108.5, 224, 108.5 ), fill="#FFFFFF", width=1)
     draw.line((224, 108.5, 224, 22.5 ), fill="#FFFFFF", width=1)
 
-
+    # Draw hourglas bottom
     draw.line((32 , 22.5, 120, 64.5 ), fill="#FFFFFF", width=1)
     draw.line((32 , 108.5, 120, 70.5 ), fill="#FFFFFF", width=1)
     draw.line((32 , 22.5, 16, 22.5 ), fill="#FFFFFF", width=1)
@@ -112,7 +111,6 @@ while True:
 
     y += font.getsize(time2)[1]
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
-
 
     # Display image.
     disp.image(image, rotation)
