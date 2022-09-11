@@ -72,8 +72,8 @@ state = True
 
 # Add initial time variables
 now = time.time()
-time_a = 120
-time_b = 120
+time_a = 10
+time_b = 10
 future_a = now + time_a
 future_b = now + time_b
 future_a_updated = time_a
@@ -102,7 +102,11 @@ while True:
         state = True
         future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
         future_a = future_a_updated + time.time()  # update new future time
-        
+    
+    if round(future_a - time.time()) < 0 or round(future_b - time.time()) < 0:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        draw.text((width/2, height/2), "GAME OVER", font=font, fill="#FFFFFF")
+
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
 
