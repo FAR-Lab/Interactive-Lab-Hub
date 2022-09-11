@@ -55,8 +55,8 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
-small_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
+font = ImageFont.truetype("/usr/share/fonts/truetype/roboto/RobotoMono.ttf", 32)
+small_font = ImageFont.truetype("/usr/share/fonts/truetype/roboto/RobotoMono.ttf", 16)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -93,8 +93,9 @@ while True:
             msg = "Game Over!"
             msg_2 = "Player B wins"
             w, h = draw.textsize(msg)
-            draw.text(((width-w)/2 - 10, 45), msg, font=small_font, fill="#FFFFFF")
-            draw.text(((width-w)/2 - 10, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+            w2, h2 = draw.textsize(msg_2)
+            draw.text(((width-w)/2 - 15, 45), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w2)/2 - 15, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#875AFF")
@@ -105,8 +106,9 @@ while True:
             msg = "Game Over!"
             msg_2 = "Player A wins"
             w, h = draw.textsize(msg)
-            draw.text(((width-w)/2 - 10, 45), msg, font=small_font, fill="#FFFFFF")
-            draw.text(((width-w)/2 - 10, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+            w2, h2 = draw.textsize(msg_2)
+            draw.text(((width-w)/2 - 15, 45), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w2)/2 - 15, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
