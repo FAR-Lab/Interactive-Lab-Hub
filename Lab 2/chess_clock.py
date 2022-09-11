@@ -76,7 +76,7 @@ while True:
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((50,70), minute, font=font, fill="#FFFFFF")
+        draw.text((50,70), str(minute), font=font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
