@@ -220,9 +220,10 @@ https://youtube.com/shorts/SFoKBtYJd6g?feature=share
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+For future interactions I want the display to be more asthetically pleasing with the sand dripping down and have the sun and moon present. For button A I would like the Pi to say the hour of the day it is currently. For button B   I would like to show a moon or sun depending on the time of day. 
 
+![Image 9-11-22 at 3 55 PM](https://user-images.githubusercontent.com/112049036/189546582-fedf4034-fda9-4deb-ade5-0c422e9ee593.jpg)
 
-![Image 9-11-22 at 3 05 PM](https://user-images.githubusercontent.com/112049036/189544742-a8e8c6db-1866-4411-a15e-7503bba32a8f.jpg)
 
 
 # Prep for Part 2
