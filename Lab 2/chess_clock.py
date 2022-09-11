@@ -73,8 +73,8 @@ state = True
 
 # Add initial time variables
 now = time.time()
-time_a = 5
-time_b = 5
+time_a = 15
+time_b = 15
 future_a = now + time_a
 future_b = now + time_b
 future_a_updated = time_a
@@ -89,7 +89,7 @@ while True:
         draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
         draw.text((160,50), str(future_b_updated), font=font, fill="#FFFFFF")
         if round(future_a - time.time()) < 0:
-            draw.rectangle((0, 0, width, height), outline=0, fill="D2011B")
+            draw.rectangle((0, 0, width, height), outline=0, fill="#D2011B")
             msg = "Game Over!"
             msg_2 = "Player B wins"
             w, h = draw.textsize(msg)
@@ -101,7 +101,7 @@ while True:
         draw.text((40,50), str(future_a_updated), font=font, fill="#FFFFFF")
         draw.text((160,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
         if round(future_b - time.time()) < 0:
-            draw.rectangle((0, 0, width, height), outline=0, fill="D2011B")
+            draw.rectangle((0, 0, width, height), outline=0, fill="#D2011B")
             msg = "Game Over!"
             msg_2 = "Player A wins"
             w, h = draw.textsize(msg)
