@@ -93,8 +93,8 @@ while True:
             msg = "Game Over!"
             msg_2 = "Player B wins"
             w, h = draw.textsize(msg)
-            draw.text(((width-w)/2, 50), msg, font=small_font, fill="#FFFFFF")
-            draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2 - 10, 45), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2 - 10, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
@@ -105,8 +105,8 @@ while True:
             msg = "Game Over!"
             msg_2 = "Player A wins"
             w, h = draw.textsize(msg)
-            draw.text(((width-w)/2, 50), msg, font=small_font, fill="#FFFFFF")
-            draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2 - 10, 45), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2 - 10, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
