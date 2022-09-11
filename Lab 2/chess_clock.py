@@ -95,13 +95,13 @@ while True:
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
-        state = True
-        future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
-        future_a = future_a_updated + time.time()  # update new future time
-    if buttonA.value and not buttonB.value:  # just button B pressed
         state = False
         future_a_updated = round(future_a - time.time())
         future_b = future_b_updated + time.time()
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        state = True
+        future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
+        future_a = future_a_updated + time.time()  # update new future time
         
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
