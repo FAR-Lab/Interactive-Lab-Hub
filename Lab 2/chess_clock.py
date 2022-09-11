@@ -73,14 +73,8 @@ state = True
 
 # Ask time input
 
-time_limit = None
-while not time_limit:
-    try:
-        # get a color from the user and convert it to RGB
-        screenColor = input('Input time in seconds')
-    except ValueError:
-        # catch colors we don't recognize and go again
-        print("Please enter a number")
+
+time_limit = input('Input time in seconds: ')
 
 # Add initial time variables
 now = time.time()
