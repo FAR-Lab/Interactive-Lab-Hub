@@ -74,7 +74,7 @@ state = True
 # Ask time input
 
 
-time_limit = input('Input time in seconds: ')
+time_limit = int(input('Input time in seconds: '))
 
 # Add initial time variables
 now = time.time()
