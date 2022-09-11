@@ -64,16 +64,25 @@ backlight.value = True
 
 h = 0
 
+#new
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+#new
+
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     time2 = (strftime("%m/%d/%Y %H:%M:%S"))
     y = top
 
+    buttonA.switch_to_input(h)
+    buttonB.switch_to_input(h1)
+    
     h = dt.now().hour
     
-    # Simulation of 24h
-    #h = h % 24 + 1
+    #Simulation of 24h
+    h1 = h % 24 + 1
     
     # Draw hourglass top
     draw.line((120 , 64.5, 208, 22.5 ), fill="#FFFFFF", width=1)
