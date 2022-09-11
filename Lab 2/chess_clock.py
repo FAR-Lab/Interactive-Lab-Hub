@@ -67,6 +67,8 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+state = True
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
@@ -75,7 +77,6 @@ while True:
     # create 2 panels
     # draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
     
-    state = True
     y = top
     draw.text((x, y), str(state), font=font, fill="#875AFF")
 
