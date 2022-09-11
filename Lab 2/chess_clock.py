@@ -69,14 +69,17 @@ buttonB.switch_to_input()
 
 state = True
 time_a = 60
+time_b = 60
 
 
 while True:
     # Draw starting position
+    draw.text((50,50), str(time_a), font=font, fill="#FFFFFF")
+    draw.text((150,50), str(time_b), font=font, fill="#FFFFFF")
+    
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((70,50), str(time_a), font=font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
@@ -84,11 +87,10 @@ while True:
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
         state = False
+        time_a = time_a - 1
     if buttonA.value and not buttonB.value:  # just button B pressed
         state = True
-
-    # reduce time
-    time_a = time_a - 1
+        time_b = time_b - 1
 
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
