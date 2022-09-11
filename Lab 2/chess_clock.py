@@ -74,8 +74,7 @@ time_b = 60
 
 while True:
     # Draw starting position
-    draw.text((50,50), str(time_a), font=font, fill="#FFFFFF")
-    draw.text((150,50), str(time_b), font=font, fill="#FFFFFF")
+    
     
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
@@ -91,6 +90,9 @@ while True:
     if buttonA.value and not buttonB.value:  # just button B pressed
         state = True
         time_b = time_b - 1
+
+    draw.text((50,50), str(time_a), font=font, fill="#FFFFFF")
+    draw.text((150,50), str(time_b), font=font, fill="#FFFFFF")
 
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
