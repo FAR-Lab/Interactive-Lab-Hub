@@ -186,9 +186,12 @@ The timing I have on my hourglass clock can be simulated through a loop or equiv
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
-The time can be interactive by switching between simulated mode and the real time mode that is present within the clock. 
+The time can be interactive by switching between simulated mode and the real time mode.  
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+
+![Image 9-11-22 at 2 53 PM](https://user-images.githubusercontent.com/112049036/189544325-6fd48f90-9b31-4906-95f4-849f7d875a95.jpg)
+
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
@@ -216,6 +219,10 @@ https://youtube.com/shorts/SFoKBtYJd6g?feature=share
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+
+
+![Image 9-11-22 at 3 05 PM](https://user-images.githubusercontent.com/112049036/189544742-a8e8c6db-1866-4411-a15e-7503bba32a8f.jpg)
 
 
 # Prep for Part 2
