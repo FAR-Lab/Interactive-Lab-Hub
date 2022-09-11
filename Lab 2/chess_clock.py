@@ -103,9 +103,16 @@ while True:
         future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
         future_a = future_a_updated + time.time()  # update new future time
     
-    if round(future_a - time.time()) < 0 or round(future_b - time.time()) < 0:
+    if round(future_a - time.time()) < 0:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
-        draw.text((width/2, height/2), "GAME OVER", font=font, fill="#FFFFFF")
+        msg = "Game Over, Player A Wins!"
+        w, h = draw.textsize(msg)
+        draw.text(((width-w)/2, (height-h)/2), msg, font=font, fill="#FFFFFF")
+    if round(future_b - time.time()) < 0:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        msg = "Game Over, Player B Wins!"
+        w, h = draw.textsize(msg)
+        draw.text(((width-w)/2, (height-h)/2), msg, font=font, fill="#FFFFFF")
 
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
