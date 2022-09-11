@@ -69,16 +69,15 @@ buttonA.switch_to_input()
 buttonB.switch_to_input()
 
 state = True
+
+# Add initial time variables
 now = time.time()
-
-time_a = 60
-time_b = 60
-
+time_a = 120
+time_b = 120
 future_a = now + time_a
 future_b = now + time_b
-
-future_a_updated = 60
-future_b_updated = 60
+future_a_updated = time_a
+future_b_updated = time_b
 
 while True:
     # Draw starting position
@@ -86,21 +85,19 @@ while True:
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((50,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
-        draw.text((150,50), str(future_b_updated), font=font, fill="#FFFFFF")
-        # time_a = time_a - 1
+        draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
+        draw.text((160,50), str(future_b_updated), font=font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
-        draw.text((50,50), str(future_a_updated), font=font, fill="#FFFFFF")
-        draw.text((150,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
-        # time_b = time_b - 1
+        draw.text((40,50), str(future_a_updated), font=font, fill="#FFFFFF")
+        draw.text((160,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
         state = True
-        future_b_updated = round(future_b - time.time())
-        future_a = future_a_updated + time.time()
+        future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
+        future_a = future_a_updated + time.time()  # update new future time
     if buttonA.value and not buttonB.value:  # just button B pressed
         state = False
         future_a_updated = round(future_a - time.time())
