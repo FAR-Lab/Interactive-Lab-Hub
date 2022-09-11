@@ -88,11 +88,25 @@ while True:
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
         draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
         draw.text((160,50), str(future_b_updated), font=font, fill="#FFFFFF")
+        if round(future_a - time.time()) < 0:
+            draw.rectangle((0, 0, width, height), outline=0, fill=0)
+            msg = "Game Over!"
+            msg_2 = "Player B wins"
+            w, h = draw.textsize(msg)
+            draw.text(((width-w)/2, 30), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
         draw.text((40,50), str(future_a_updated), font=font, fill="#FFFFFF")
         draw.text((160,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
+        if round(future_b - time.time()) < 0:
+            draw.rectangle((0, 0, width, height), outline=0, fill=0)
+            msg = "Game Over!"
+            msg_2 = "Player A wins"
+            w, h = draw.textsize(msg)
+            draw.text(((width-w)/2, 30), msg, font=small_font, fill="#FFFFFF")
+            draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
@@ -104,20 +118,8 @@ while True:
         future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
         future_a = future_a_updated + time.time()  # update new future time
     
-    if round(future_a - time.time()) < 0 and round(future_b - time.time()) > 0:
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
-        msg = "Game Over!"
-        msg_2 = "Player B wins"
-        w, h = draw.textsize(msg)
-        draw.text(((width-w)/2, 30), msg, font=small_font, fill="#FFFFFF")
-        draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
-    if round(future_b - time.time()) < 0 and round(future_a - time.time()) > 0:
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
-        msg = "Game Over!"
-        msg_2 = "Player A wins"
-        w, h = draw.textsize(msg)
-        draw.text(((width-w)/2, 30), msg, font=small_font, fill="#FFFFFF")
-        draw.text(((width-w)/2, 35 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+    
+
 
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
