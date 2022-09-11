@@ -65,9 +65,7 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    timeNow = time.strftime("%m/%d/%Y %H:%M:%S")
-    y = top
-    draw.text((x, y), timeNow, font=font, fill="#FFFFFF")
+
 
     #adding image to be displayed
     image = Image.open("testPic.jpg")
@@ -85,6 +83,11 @@ while True:
     x = scaled_width // 2 - width // 2
     y = scaled_height // 2 - height // 2
     image = image.crop((x, y, x + width, y + height))
+
+    #add text over image
+    timeNow = time.strftime("%m/%d/%Y %H:%M:%S")
+    y = top
+    draw.text((x, y), timeNow, font=font, fill="#FFFFFF")
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
