@@ -182,7 +182,11 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
+The timing I have on my hourglass clock can be simulated through a loop or equivilent with real time because there are 24 different iterations. The time is linear regarless of if you want to set it to real time or to simulated time. It is helpful if you view the clock in military time. For example when the sand is all at the top and there is no sand in the bottom it is 0:00. When the sand is droping and there is half of the sand at the top and the other half in the bottom, it is 12:00. When all the sand is at the bottom it is 24:00.
+
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+
+The time can be interactive by switching between simulated mode and the real time mode that is present within the clock. 
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
 
@@ -206,6 +210,9 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+https://youtube.com/shorts/SFoKBtYJd6g?feature=share
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
