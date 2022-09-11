@@ -69,34 +69,27 @@ buttonB.switch_to_input()
 
 while True:
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
+    draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
 
     # create 2 panels
     # draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
     
+    state = True
     y = top
-    # draw.text((x, y), "Height: " + str(height) + ", Width: " + str(width), font=font, fill="#875AFF")
+    draw.text((x, y), str(state), font=font, fill="#875AFF")
 
     if buttonB.value and not buttonA.value:  # just button A pressed
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
+        state = False
 
     if buttonA.value and not buttonB.value:  # just button B pressed
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
+        state = True
 
-    # create starting point
 
-    # make line
-
-    # insert controls
-
-    # restart if crash
-
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    y = top
-    IP = "Time: " + strftime("%m/%d/%Y %H:%M:%S")
-    # draw.text((x, y), IP, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
