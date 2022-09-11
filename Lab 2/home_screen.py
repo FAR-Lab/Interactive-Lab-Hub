@@ -68,7 +68,7 @@ while True:
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     y = top
     IP = "Time: " + strftime("%m/%d/%Y %H:%M:%S")
-    draw.text((700, 50), "Chess Clock", font=font, fill="#FFFFFF")
+    draw.text((70, 50), "Chess Clock", font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
