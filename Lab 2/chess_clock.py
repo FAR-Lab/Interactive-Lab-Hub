@@ -54,7 +54,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -68,29 +68,27 @@ buttonA.switch_to_input()
 buttonB.switch_to_input()
 
 state = True
+minute = 5
+second = 0
 
 while True:
-    # Draw a black filled box to clear the image.
+    # Draw starting position
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
+        draw.text((50,70), minute, font=font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
 
-    # create 2 panels
-    # draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
-    
-    y = top
-    draw.text((x, y), str(state), font=font, fill="#875AFF")
-
+    # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
         state = False
-
     if buttonA.value and not buttonB.value:  # just button B pressed
         state = True
 
-
+    y = top
+    draw.text((x, y), str(state), font=font, fill="#875AFF")
 
     # Display image.
     disp.image(image, rotation)
