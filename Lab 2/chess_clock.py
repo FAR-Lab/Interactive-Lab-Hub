@@ -71,10 +71,21 @@ buttonB.switch_to_input()
 
 state = True
 
+# Ask time input
+
+time_limit = None
+while not time_limit:
+    try:
+        # get a color from the user and convert it to RGB
+        screenColor = input('Input time in seconds')
+    except ValueError:
+        # catch colors we don't recognize and go again
+        print("Please enter a number")
+
 # Add initial time variables
 now = time.time()
-time_a = 15
-time_b = 15
+time_a = time_limit
+time_b = time_limit
 future_a = now + time_a
 future_b = now + time_b
 future_a_updated = time_a
@@ -86,7 +97,7 @@ while True:
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#875AFF")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF").rotate(180)
+        draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
         draw.text((160,50), str(future_b_updated), font=font, fill="#FFFFFF")
         if round(future_a - time.time()) < 0:
             draw.rectangle((0, 0, width, height), outline=0, fill="#D2011B")
