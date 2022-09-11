@@ -77,6 +77,8 @@ time_b = 60
 future_a = now + time_a
 future_b = now + time_b
 
+future_a_updated = 60
+future_b_updated = 60
 
 while True:
     # Draw starting position
@@ -85,20 +87,24 @@ while True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
         draw.text((50,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
-        draw.text((150,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
+        draw.text((150,50), str(future_b_updated), font=font, fill="#FFFFFF")
         # time_a = time_a - 1
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
-        draw.text((50,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
+        draw.text((50,50), str(future_a_updated), font=font, fill="#FFFFFF")
         draw.text((150,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
         # time_b = time_b - 1
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
-        state = False
-    if buttonA.value and not buttonB.value:  # just button B pressed
         state = True
+        future_b_updated = round(future_b - time.time())
+        future_a = future_a_updated + time.time()
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        state = False
+        future_a_updated = round(future_a - time.time())
+        future_b = future_b_updated + time.time()
         
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
