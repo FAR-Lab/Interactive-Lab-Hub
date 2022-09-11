@@ -205,7 +205,13 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
+After some brainstorming, I decided to create my own version of chess clock. If you are not familiar with chess clock, it consists of two countdown timers to track the amount of time left for each player to make a move. Every time a player makes a move, they will press the button to pause their time and resume the opponent's time. Once your time is up, you lose the game!
+
+Some code inspirations coming from [Panda Xu](https://github.com/30PandaX/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.py) and [Joshua Schmidt](https://github.com/jschmidtnj/Interactive-Lab-Hub/blob/Fall2021/Lab%202/colorbar_clock.py)
+
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/X03mD1Qu0Hs/sddefault.jpg)](https://www.youtube.com/watch?v=X03mD1Qu0Hs "Chess Clock")
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
