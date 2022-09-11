@@ -56,7 +56,7 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 font = ImageFont.truetype("/usr/share/fonts/truetype/roboto/RobotoMono.ttf", 32)
-small_font = ImageFont.truetype("/usr/share/fonts/truetype/roboto/RobotoMono.ttf", 16)
+small_font = ImageFont.truetype("/usr/share/fonts/truetype/roboto/RobotoMono.ttf", 20)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -86,7 +86,7 @@ while True:
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#875AFF")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
+        draw.text((40,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF").rotate(180)
         draw.text((160,50), str(future_b_updated), font=font, fill="#FFFFFF")
         if round(future_a - time.time()) < 0:
             draw.rectangle((0, 0, width, height), outline=0, fill="#D2011B")
