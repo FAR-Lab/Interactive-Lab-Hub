@@ -56,6 +56,7 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
+small_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 12)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -107,12 +108,12 @@ while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         msg = "Game Over, Player A Wins!"
         w, h = draw.textsize(msg)
-        draw.text(((width-w)/2, (height-h)/2), msg, font=font, fill="#FFFFFF")
+        draw.text(((width-w)/2, (height-h)/2), msg, font=small_font, fill="#FFFFFF")
     if round(future_b - time.time()) < 0:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         msg = "Game Over, Player B Wins!"
         w, h = draw.textsize(msg)
-        draw.text(((width-w)/2, (height-h)/2), msg, font=font, fill="#FFFFFF")
+        draw.text(((width-w)/2, (height-h)/2), msg, font=small_font, fill="#FFFFFF")
 
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
