@@ -84,14 +84,14 @@ while True:
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((50,50), str(future_a - time.time()), font=font, fill="#FFFFFF")
-        draw.text((150,50), str(future_b - time.time()), font=font, fill="#FFFFFF")
+        draw.text((50,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
+        draw.text((150,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
         # time_a = time_a - 1
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
-        draw.text((50,50), str(future_a - time.time()), font=font, fill="#FFFFFF")
-        draw.text((150,50), str(future_b - time.time()), font=font, fill="#FFFFFF")
+        draw.text((50,50), str(round(future_a - time.time())), font=font, fill="#FFFFFF")
+        draw.text((150,50), str(round(future_b - time.time())), font=font, fill="#FFFFFF")
         # time_b = time_b - 1
 
     # Create button triggers to adjust state
