@@ -80,17 +80,13 @@ while True:
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
         draw.text((50,50), str(time_a), font=font, fill="#FFFFFF")
         draw.text((150,50), str(time_b), font=font, fill="#FFFFFF")
-        while time_a > 0:
-            time_a = time_a - 1
-            time.sleep(1)
+        time_a = time_a - 1
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
         draw.text((50,50), str(time_a), font=font, fill="#FFFFFF")
         draw.text((150,50), str(time_b), font=font, fill="#FFFFFF")
-        while time_b > 0:
-            time_b = time_b - 1
-            time.sleep(1)
+        time_b = time_b - 1
 
     # Create button triggers to adjust state
     if buttonB.value and not buttonA.value:  # just button A pressed
@@ -103,4 +99,4 @@ while True:
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(0.5)
+    time.sleep(1)
