@@ -68,15 +68,15 @@ buttonA.switch_to_input()
 buttonB.switch_to_input()
 
 state = True
-minute = 5
-second = 0
+time_a = 60
+
 
 while True:
     # Draw starting position
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#ED4242")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
-        draw.text((50,70), str(minute), font=font, fill="#FFFFFF")
+        draw.text((70,50), str(time_a), font=font, fill="#FFFFFF")
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#ED4242")
@@ -87,9 +87,12 @@ while True:
     if buttonA.value and not buttonB.value:  # just button B pressed
         state = True
 
-    y = top
-    draw.text((x, y), str(state), font=font, fill="#875AFF")
+    # reduce time
+    time_a = time_a - 1
+
+    # y = top
+    # draw.text((x, y), str(state), font=font, fill="#875AFF")
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(0.1)
+    time.sleep(1)
