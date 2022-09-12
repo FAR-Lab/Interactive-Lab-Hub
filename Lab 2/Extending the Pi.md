@@ -37,7 +37,7 @@ On the pi, Navigate to your interactive lab hub, pull changes from upstream, and
 ```
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2022
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git add .
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "merge"
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ git push
