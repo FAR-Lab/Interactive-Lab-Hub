@@ -2,9 +2,9 @@
 
 ## Prep
 
-***Update your [parts list inventory](partslist.md)***
+***Update your [parts list inventory](partslist.md)*** <-- missing webcam 
 
-3. ### Prepare your Pi for lab this week
+✅ ### Prepare your Pi for lab this week
 [Follow these instructions](prep.md) to download and burn the image for your Raspberry Pi before lab Thursday.
 
 
