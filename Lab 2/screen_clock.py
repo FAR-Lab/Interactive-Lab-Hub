@@ -66,7 +66,17 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    draw.text(strftime("%m/%d/%Y %H:%M:%S"))
+    now = datetime.now()
+    now_str = now.strftime("%m/%d/%Y %H:%M:%S")
+    
+    line1 = now_str
+    line2 = "GOOD MORNING!!"
+    
+    y = top
+    draw.text((x,y), line1, font=font, fill='#58815b')
+    y += font.getsize(line1)[1]
+    draw.text((x,y), line2, font=font, fill='#d1414a')
+    y += font.getsize(line2)[1]
 
     # Display image.
     disp.image(image, rotation)
