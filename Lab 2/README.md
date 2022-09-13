@@ -190,21 +190,20 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
  **Idea**
   - Running clock that lets you hit the button and it will show your lap time
   
-After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
+  ![Sep 12, Doc 1 2](https://user-images.githubusercontent.com/112022260/189791146-34a49da0-00a5-4dd8-8476-1e3381745855.jpg)
 
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
-```
-
-After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
+
+
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+Please view the video at:
+
+https://drive.google.com/file/d/1LBKLh8RVxWAbp8cGqDGNSfZ7c33SwGW-/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
