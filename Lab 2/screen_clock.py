@@ -75,7 +75,7 @@ while True:
     y = top
     draw.text((x,y), line1, font=font, fill='#58815b')
     y += font.getsize(line1)[1]
-    draw.text((x,y), line2, font=font, fill='#d1414a')
+    draw.text((x,y), line2, font=font, fill='#f5cb42')
     y += font.getsize(line2)[1]
 
     # Display image.
