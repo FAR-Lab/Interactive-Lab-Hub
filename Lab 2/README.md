@@ -208,6 +208,9 @@ https://drive.google.com/file/d/1LBKLh8RVxWAbp8cGqDGNSfZ7c33SwGW-/view?usp=shari
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+ For part 2, I would like to look and see how I might be able to potentially a few avenues. 1) incorporate motion sensor to automatically lap the time when someone passes 2) Add logic to show what your best lap was on  another screen 3) Increase the graphics of how it is recorded 4)Incorporate functionality for having heats within multiple laps that are a part of it 5) Add calculations and stats on how fast you have been going 6) Incorporate LEDs to give countdown of when it is starting
+![IMG-0024](https://user-images.githubusercontent.com/112022260/189792438-d13e5348-83c4-4f97-a7e1-7ed827025adf.jpg)
+![IMG-0025](https://user-images.githubusercontent.com/112022260/189792441-1a7f9a97-5443-41b8-82bf-2cf26c8e6834.jpg)
 
 # Prep for Part 2
 
