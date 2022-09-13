@@ -209,6 +209,14 @@ After some brainstorming, I decided to create my own version of chess clock. If 
 
 Some code inspirations coming from [Panda Xu](https://github.com/30PandaX/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.py) and [Joshua Schmidt](https://github.com/jschmidtnj/Interactive-Lab-Hub/blob/Fall2021/Lab%202/colorbar_clock.py)
 
+Finding out the screen size to make sure the texts are aligned in the right position
+
+![20220910_192335](https://user-images.githubusercontent.com/6238480/189806104-cef3cf7b-eb91-4002-ae39-a8768a20a1f4.jpg)
+
+Trying to change the font and color combinations to improve legibility. I picked [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono) for this specific project.
+
+![20220910_211826](https://user-images.githubusercontent.com/6238480/189806509-f8d15938-f003-467c-bd38-35d9d9ee7a5e.jpg)
+
 \*\*\***Take a video of your PiClock.**\*\*\*
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/X03mD1Qu0Hs/sddefault.jpg)](https://www.youtube.com/watch?v=X03mD1Qu0Hs "Chess Clock")
@@ -216,6 +224,7 @@ Some code inspirations coming from [Panda Xu](https://github.com/30PandaX/Intera
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+For Part 2, I plan to add more functionalities and clearer instructions on how to use the product.
 
 # Prep for Part 2
 
