@@ -71,13 +71,19 @@ while True:
     
     line1 = now_str
     line2 = "GOOD MORNING!!"
-    
+    line3 = "Wake up!!!"
     y = top
-    draw.text((x,y), line1, font=font, fill='#58815b')
-    y += font.getsize(line1)[1]
-    draw.text((x,y), line2, font=font, fill='#f5cb42')
-    y += font.getsize(line2)[1]
-
+    
+    if buttonA.value and buttonB.value:
+        draw.text((x,y), line3, font=font, fill='#58815b')
+        y += font.getsize(line3)[1]
+    
+    if buttonB.value and not buttonA.value: #just button A pressed
+        draw.text((x,y), line1, font=font, fill='#58815b')
+        y += font.getsize(line1)[1]
+        draw.text((x,y), line2, font=font, fill='#f5cb42')
+        y += font.getsize(line2)[1]
+        
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
