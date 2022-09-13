@@ -207,6 +207,13 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 After some brainstorming, I decided to create my own version of chess clock. If you are not familiar with chess clock, it consists of two countdown timers to track the amount of time left for each player to make a move. Every time a player makes a move, they will press the button to pause their time and resume the opponent's time. Once your time is up, you lose the game!
 
+The requirements for this product:
+- It has to show two countdown timers
+- The user can set the time before starting the timer
+- Player A's timer starts when the program is run
+- When Player A's button is pressed, the countdown timer for A stops and countdown timer for B starts at the same time. The color of the boxes also has to be swapped.
+- When one player's timer reach 0, show "Game Over" message
+
 Some code inspirations coming from [Panda Xu](https://github.com/30PandaX/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cli_clock.py) and [Joshua Schmidt](https://github.com/jschmidtnj/Interactive-Lab-Hub/blob/Fall2021/Lab%202/colorbar_clock.py)
 
 Finding out the screen size to make sure the texts are aligned in the right position
