@@ -16,7 +16,7 @@ From your kit, take out the [mini-PiTFT](https://learn.adafruit.com/adafruit-min
   <img src="https://cdn.sparkfun.com//assets/parts/1/5/7/6/7/16842-SparkFun_Qwiic_Button_-_Green_LED-01.jpg" height="200">
 </p>
 
-Connect the one side of cable to the StemmaQT port on the underside of the PiTFT screen. It will only fit in one way, it should not require much force.
+Connect the one side of cable to the StemmaQT port on the underside of the PiTFT screen. It will only fit in one way, it should not require much force. Connect the other side to your button.
 
 <p float="left">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/087/539/medium640/adafruit_products_4393_quarter_ORIG_2019_10.jpg?1579991932" height="200" />
