@@ -84,8 +84,8 @@ while True:
 
     # TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     y = top
-    proximity = sensor.proximity()
-    IP = "Proximity: " + str(proximity)
+    test = sensor.proximity()
+    IP = "Proximity: " + str(test)
     draw.text((x, y), IP, font=font, fill="#FFFFFF")
 
     # Display image.
