@@ -230,6 +230,7 @@ https://user-images.githubusercontent.com/112603386/189817296-048ba211-72c2-4471
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+  Vikram, James, Jackson Feedback: Vik: make the text more readable - possibly display the text on different pages. Make it bigger and separated. James: truncate the values so it is more easily readable. JAckson create a limit of youve drinken too much.
 
 # Lab 2 Part 2
 
