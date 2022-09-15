@@ -9,8 +9,10 @@ from time import strftime, sleep
 
 import busio
 import adafruit_apds9960.apds9960
-i2c = busio.I2C(board.SCL, board.SDA)
-sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
+from adafruit_apds9960.apds9960 import APDS9960
+i2c = board.I2C()
+apds = APDS9960(i2c)
+apds.enable_proximity = True
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -74,9 +76,6 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
-# add sensor
-sensor.enable_proximity = True
-
 while True:
     # Draw starting position
     
@@ -84,10 +83,9 @@ while True:
 
     # TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     y = top
-    print(sensor.proximity())
-    IP = "Proximity: "
+    IP = "Proximity: " + str(apds.proximity)
     draw.text((x, y), IP, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.2)
