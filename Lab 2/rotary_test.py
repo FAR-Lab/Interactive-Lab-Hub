@@ -1,5 +1,12 @@
 import time
+from datetime import datetime
+import subprocess
+import digitalio
 import board
+from PIL import Image, ImageDraw, ImageFont
+import adafruit_rgb_display.st7789 as st7789
+from time import strftime, sleep
+
 import busio
 import adafruit_apds9960.apds9960
 from adafruit_apds9960.apds9960 import APDS9960
