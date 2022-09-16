@@ -7,6 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
 
+
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -62,13 +63,13 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-h = 0
+h=0
 
 #new
 #buttonA = digitalio.DigitalInOut(board.D23)
 #buttonB = digitalio.DigitalInOut(board.D24)
-#buttonA.switch_to_input(h)
-#buttonB.switch_to_input(h)
+#buttonA.switch_to_input()
+#buttonB.switch_to_input()
 #new
 
 
@@ -77,11 +78,11 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     time2 = (strftime("%m/%d/%Y %H:%M:%S"))
     y = top
-    
-    h = dt.now().hour
+
+    #h = dt.now().hour
     
     #Simulation of 24h
-    #h = h % 24 + 1
+    h = h % 24 + 1
     
     # Draw hourglass top
     draw.line((120 , 64.5, 208, 22.5 ), fill="#FFFFFF", width=1)
@@ -99,23 +100,23 @@ while True:
 
     # 24h
     if h == 24:
-        draw.polygon([(224, 22.5), (224, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
+        draw.polygon([(224, 22.5), (224, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill=(255,200,50)) #"#0000ff"
 
     # 1h
     elif h == 1:
         draw.polygon([(216, 22.5), (216, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
-        draw.polygon([(24, 22.5), (24, 108.5), (16, 108.5), (16, 22.5)], fill="#FFFFFF")
+        draw.polygon([(24, 22.5), (24, 108.5), (16, 108.5), (16, 22.5)], fill=(255,0,0))
 
     # 2 h
     elif h == 2:
         draw.polygon([(208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
-        draw.polygon([(32, 22.5), (32, 108.5), (16, 108.5), (16, 22.5)], fill="#FFFFFF")
+        draw.polygon([(32, 22.5), (32, 108.5), (16, 108.5), (16, 22.5)], fill=(255,0,0))
 
     # 3 h to 23 h
     else:
-        #h = h - 3 
+       #h = h - 3 
         draw.polygon([(204-(h-3)*4, 24.5+(h-3)*2), (204-(h-3)*4, 106.5-(h-3)*2), (120, 70.5), (120, 64.5)], fill="#FFFFFF")
-        draw.polygon([(16, 22.5), (32, 22.5), (36+(h-3)*4, 24.5+(h-3)*2), (36+(h-3)*4, 106.5-(h-3)*2), (32, 108.5), (16, 108.5)], fill="#FFFFFF")
+        draw.polygon([(16, 22.5), (32, 22.5), (36+(h-3)*4, 24.5+(h-3)*2), (36+(h-3)*4, 106.5-(h-3)*2), (32, 108.5), (16, 108.5)], fill=(255,0,0))
 
     y += font.getsize(time2)[1]
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
