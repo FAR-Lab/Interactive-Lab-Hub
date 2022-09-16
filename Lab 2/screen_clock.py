@@ -56,7 +56,10 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 40)
+white = "#ffffff"
+color = (255,0,0)
+color2 = (255,20,147)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -66,11 +69,10 @@ backlight.value = True
 h=0
 
 #new
-#buttonA = digitalio.DigitalInOut(board.D23)
-#buttonB = digitalio.DigitalInOut(board.D24)
-#buttonA.switch_to_input()
-#buttonB.switch_to_input()
-#new
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 
 while True:
@@ -80,9 +82,22 @@ while True:
     y = top
 
     #h = dt.now().hour
+    #h = 6
     
     #Simulation of 24h
     h = h % 24 + 1
+
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        if 12 >= h:   
+            draw.text((width/2-20, height/2+10), "☼", font=font, fill="#FFFFFF")
+        else:
+            draw.text((width/2-20, height/2+10), "☽", font=font, fill="#FFFFFF")
+
+
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        temp = color
+        color = color2
+        color2 = temp
     
     # Draw hourglass top
     draw.line((120 , 64.5, 208, 22.5 ), fill="#FFFFFF", width=1)
@@ -98,29 +113,32 @@ while True:
     draw.line((32, 108.5, 16, 108.5), fill="#FFFFFF", width=1)
     draw.line((16, 22.5, 16, 108.5), fill="#FFFFFF", width=1)
 
+
     # 24h
+    
     if h == 24:
         draw.polygon([(224, 22.5), (224, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill=(255,200,50)) #"#0000ff"
 
     # 1h
     elif h == 1:
-        draw.polygon([(216, 22.5), (216, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
-        draw.polygon([(24, 22.5), (24, 108.5), (16, 108.5), (16, 22.5)], fill=(255,0,0))
+        draw.polygon([(216, 22.5), (216, 108.5), (208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill=white)
+        draw.polygon([(24, 22.5), (24, 108.5), (16, 108.5), (16, 22.5)], fill=color)
 
     # 2 h
     elif h == 2:
-        draw.polygon([(208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill="#FFFFFF")
-        draw.polygon([(32, 22.5), (32, 108.5), (16, 108.5), (16, 22.5)], fill=(255,0,0))
+        draw.polygon([(208, 108.5), (120, 70.5), (120, 64.5), (208, 22.5)], fill=white)
+        draw.polygon([(32, 22.5), (32, 108.5), (16, 108.5), (16, 22.5)], fill=color)
 
     # 3 h to 23 h
     else:
        #h = h - 3 
-        draw.polygon([(204-(h-3)*4, 24.5+(h-3)*2), (204-(h-3)*4, 106.5-(h-3)*2), (120, 70.5), (120, 64.5)], fill="#FFFFFF")
-        draw.polygon([(16, 22.5), (32, 22.5), (36+(h-3)*4, 24.5+(h-3)*2), (36+(h-3)*4, 106.5-(h-3)*2), (32, 108.5), (16, 108.5)], fill=(255,0,0))
+        draw.polygon([(204-(h-3)*4, 24.5+(h-3)*2), (204-(h-3)*4, 106.5-(h-3)*2), (120, 70.5), (120, 64.5)], fill=white)
+        draw.polygon([(16, 22.5), (32, 22.5), (36+(h-3)*4, 24.5+(h-3)*2), (36+(h-3)*4, 106.5-(h-3)*2), (32, 108.5), (16, 108.5)], fill=color)
 
     y += font.getsize(time2)[1]
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.1)
+    
