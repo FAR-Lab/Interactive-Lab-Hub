@@ -182,7 +182,7 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
-The timing I have on my hourglass clock can be simulated through a loop or equivilent with real time because there are 24 different iterations. The time is linear regarless of if you want to set it to real time or to simulated time. It is helpful if you view the clock in military time. For example when the sand is all at the top and there is no sand in the bottom it is 0:00. When the sand is droping and there is half of the sand at the top and the other half in the bottom, it is 12:00. When all the sand is at the bottom it is 24:00.
+The timing I have on my hourglass clock can be simulated through a loop or equivilent with real time because there are 24 different iterations. The time is linear regarless of if you want to set it to real time or to simulated time. It is helpful if you view the clock in military time. For example, when the sand is all at the top and there is no sand in the bottom it is 0:00. When the sand is droping and there is half of the sand at the top and the other half in the bottom, it is 12:00. When all the sand is at the bottom it is 24:00.
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
@@ -235,11 +235,28 @@ For future interactions I want the display to be more asthetically pleasing with
 
 # Lab 2 Part 2
 
+The Love Hourglass:
+
+The timing I have on my hourglass clock can be simulated through a loop or equivilent with real time because there are 24 different iterations. The time is linear regarless of if you want to set it to real time or to simulated time. It is helpful if you view the clock in military time. For example, when the sand is all at the top and there is no sand in the bottom it is 0:00. When the sand is droping and there is half of the sand at the top and the other half in the bottom, it is 12:00. When all the sand is at the bottom it is 24:00. 
+
+Now, with the addition of colors whenever the hourhlass resets it turns the color gold which signifies it is the top of the hourglass. When the sand falls down the hourglass, the color will either be red or pink on the bottom half. These colors can be changed by pressing A. When you press B you will seee either the sun or the moon. If it is the first 12 hours of the day (AM), you will see the sun. If it is the last 12 hours of the day (PM), you will see the moon. 
+
+<img width="481" alt="Screen Shot 2022-09-17 at 11 50 23 AM" src="https://user-images.githubusercontent.com/112049036/190865785-065c3817-2ce7-4d8a-aaf3-99532650074b.png">
+
+<img width="482" alt="Screen Shot 2022-09-17 at 11 50 36 AM" src="https://user-images.githubusercontent.com/112049036/190865787-cb21ad66-58f8-4a2f-804f-29bc539b4c29.png">
+
+
+https://user-images.githubusercontent.com/112049036/190865807-a9253b10-9506-4450-9190-d009f7070104.MOV
+
+
+
 Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+My friend MArtin that is in idd suggested for me to switch the time of the hourglass to instead of 24 hours, do 1 minuite or 1 hour. I did not decide to go with this design.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
