@@ -256,7 +256,7 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
-My friend MArtin that is in idd suggested for me to switch the time of the hourglass to instead of 24 hours, do 1 minuite or 1 hour. I did not decide to go with this design.
+My friend Martin whom is in idd suggested for me to switch the time of the hourglass to instead of 24 hours, do 1 minuite or 1 hour. I did not decide to go with this design.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
