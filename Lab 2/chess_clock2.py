@@ -106,7 +106,7 @@ while True:
     
     # Reset button
     if my_button.is_button_pressed() == True:
-        my_button.LED_config(brightness, cycle_time, off_time)
+        my_button.LED_off()
 
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#875AFF")
@@ -139,13 +139,13 @@ while True:
 
     # Create button triggers to adjust state
     if apds.proximity > 0 and state == True:  # just button A pressed
-        my_button.LED_on(brightness)
+        my_button.LED_config(brightness, cycle_time, off_time)
         state = False
         future_a_updated = round(future_a - time.time())
         future_b = future_b_updated + time.time()
         time.sleep(0.5)
     if apds.proximity > 0 and state == False:  # just button B pressed
-        my_button.LED_on(brightness)
+        my_button.LED_config(brightness, cycle_time, off_time)
         state = True
         future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
         future_a = future_a_updated + time.time()  # update new future time
