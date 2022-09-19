@@ -78,6 +78,7 @@ buttonA.switch_to_input()
 buttonB.switch_to_input()
 
 my_button = qwiic_button.QwiicButton()
+brightness = 100
 
 while True:
     # Draw starting position
@@ -89,9 +90,9 @@ while True:
     IP = "Proximity: " + str(apds.proximity)
     draw.text((x, y), IP, font=font, fill="#FFFFFF")
 
-    if my_button.is_button_pressed() == True:
-        draw.text((x, y), "Button", font=font, fill="#FFFFFF")
+    if apds.proximity > 0:
+        my_button.LED_on(brightness)
 
-    # Display image.
+    # Display image
     disp.image(image, rotation)
     time.sleep(0.2)
