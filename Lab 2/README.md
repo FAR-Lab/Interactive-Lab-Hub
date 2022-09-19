@@ -228,6 +228,6 @@ A particular challenge I encountered when developing the datasets was the mismat
 
 ## Refined video
 
-
-
+Please view the video here!
+https://drive.google.com/file/d/1g4r7jNF1ItadjyQB2_xIt-xYgTiD0bS-/view?usp=sharing
 
