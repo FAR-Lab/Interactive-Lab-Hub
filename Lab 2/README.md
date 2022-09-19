@@ -206,13 +206,20 @@ Other feedback:
 
 
 ## Initial updates incorporated
-  * Best lap on another screen
-  * Add the times in reverse order
+  - Best lap on another screen
+  - Add the times in reverse order
 
 ## Further reflection and updates
-* Add a on start method that delays the start based on when you are ready
+  - Add a on start method that delays the start based on when you are ready.  This was combined with a light in order to give a visual signal to the user that the timer is about to start.
 
-Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly
+Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly.
+
+![IMG-0027](https://user-images.githubusercontent.com/112022260/191132010-c55035ba-96ee-49ef-b6c2-b40d6d1f0639.jpg)
+![IMG-0026](https://user-images.githubusercontent.com/112022260/191132020-b50a41a0-a464-4ff7-b64b-9d834e1c507f.jpg)
+
+## Challenges
+
+A particular challenge I encountered when developing the datasets was the mismatch between when you hit start and timer clock.  Due to the time between when I initially set the time variable vs. when it displays, there is mismatch that causes the appear the timer to start a few seconds in.  Despite multiple code refactors, I was not able to figure out the exact cause and it is an area I would like to explore in the future for more precise timing.
 
 ## Refined video
 
