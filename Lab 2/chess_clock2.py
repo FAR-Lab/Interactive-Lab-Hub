@@ -148,10 +148,11 @@ while True:
     
     if my_button.is_button_pressed() == True:
         my_button.LED_on(brightness)
+        now2 = time.time()
         time_a = time_limit
         time_b = time_limit
-        future_a = now + time_a
-        future_b = now + time_b
+        future_a = now2 + time_a
+        future_b = now2 + time_b
         future_a_updated = time_a
         future_b_updated = time_b   
 
