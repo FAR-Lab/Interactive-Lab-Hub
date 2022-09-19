@@ -6,6 +6,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
+import qwiic_button
 
 import busio
 import adafruit_apds9960.apds9960
@@ -76,6 +77,8 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+my_button = qwiic_button.QwiicButton()
+
 while True:
     # Draw starting position
     
@@ -85,6 +88,9 @@ while True:
     y = top
     IP = "Proximity: " + str(apds.proximity)
     draw.text((x, y), IP, font=font, fill="#FFFFFF")
+
+    if my_button.is_button_pressed() == True:
+        draw.text((x, y), "Button", font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
