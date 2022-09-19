@@ -92,6 +92,8 @@ while True:
 
     if apds.proximity > 0:
         my_button.LED_on(brightness)
+    else:
+        my_button.LED_off()
 
     # Display image
     disp.image(image, rotation)
