@@ -99,10 +99,15 @@ future_b_updated = time_b
 # Add Qwiic button
 my_button = qwiic_button.QwiicButton()
 brightness = 100
+cycle_time = 1000
+off_time = 200
 
 while True:
-    # Draw starting position
     
+    # Reset button
+    if my_button.is_button_pressed() == True:
+        my_button.LED_off()
+
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#875AFF")
         draw.rectangle((120, 0, width, height), outline=0, fill="#191919")
@@ -116,6 +121,7 @@ while True:
             w2, h2 = draw.textsize(msg_2)
             draw.text(((width-w)/2 - 25, 45), msg, font=small_font, fill="#FFFFFF")
             draw.text(((width-w2)/2 - 25, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+            my_button.LED_config(brightness, cycle_time, off_time)
     else:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#191919")
         draw.rectangle((120, 0, width, height), outline=0, fill="#875AFF")
@@ -129,6 +135,7 @@ while True:
             w2, h2 = draw.textsize(msg_2)
             draw.text(((width-w)/2 - 25, 45), msg, font=small_font, fill="#FFFFFF")
             draw.text(((width-w2)/2 - 25, 40 + font.getsize(msg)[1]), msg_2, font=small_font, fill="#FFFFFF")
+            my_button.LED_config(brightness, cycle_time, off_time)
 
     # Create button triggers to adjust state
     if apds.proximity > 0 and state == True:  # just button A pressed
@@ -146,17 +153,6 @@ while True:
     else:
         my_button.LED_off()
     
-    # Reset button
-    if my_button.is_button_pressed() == True:
-        my_button.LED_on(brightness)
-        now2 = time.time()
-        time_a = time_limit
-        time_b = time_limit
-        future_a = now2 + time_a
-        future_b = now2 + time_b
-        future_a_updated = time_a
-        future_b_updated = time_b   
-
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
 
