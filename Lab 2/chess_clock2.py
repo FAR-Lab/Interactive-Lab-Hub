@@ -137,7 +137,7 @@ while True:
         future_a_updated = round(future_a - time.time())
         future_b = future_b_updated + time.time()
     if apds.proximity > 0 and state == False:  # just button B pressed
-        my_button.LED_on(brightness)
+        my_button.LED_on(50)
         state = True
         future_b_updated = round(future_b - time.time())  # create snapshot of time remaining
         future_a = future_a_updated + time.time()  # update new future time
