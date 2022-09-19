@@ -39,7 +39,7 @@
 
 1 x [HD Webcam](https://www.amazon.com/Webcam-Speakers-2021-Microphone-Compatible/dp/B08QRGCW6K/ref=pd_lpo_147_t_0/134-8136290-7363941?_encoding=UTF8&pd_rd_i=B08QRGCW6K&pd_rd_r=a70c666b-ee4f-43c8-ae23-0be491319204&pd_rd_w=AEVHh&pd_rd_wg=iHZYM&pf_rd_p=fb1e266d-b690-4b4f-b71c-bd35e5395976&pf_rd_r=0CZ6ZZZ0XRRVRAGSGHDK&psc=1&refRID=0CZ6ZZZ0XRRVRAGSGHDK#customerReviews)
 
-1 x [Raspberry Pi 4 Power Supply with USB C](https://www.adafruit.com/product/4298) 
+1 x [5V 2.5A Switching Power Supply with 20AWG MicroUSB Cable](https://www.adafruit.com/product/1995) 
 
 ## Missing Parts here
 \*\*\***List down parts you did not get from the kit here**\*\*\*
