@@ -146,6 +146,7 @@ while True:
     else:
         my_button.LED_off()
     
+    # Reset button
     if my_button.is_button_pressed() == True:
         my_button.LED_on(brightness)
         now2 = time.time()
