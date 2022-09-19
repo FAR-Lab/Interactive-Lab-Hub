@@ -106,7 +106,7 @@ while True:
     
     # Reset button
     if my_button.is_button_pressed() == True:
-        my_button.LED_off()
+        my_button.LED_config(brightness, cycle_time, off_time)
 
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#875AFF")
