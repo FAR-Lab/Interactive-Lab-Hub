@@ -184,21 +184,23 @@ Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
+As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
 ## Summarized feedback
 Feedback recieved from: Joseph Iovine, Kenneth Alvarez, William Klinegberg(outside of class)
 
-Potential ideas
-* Camera for motion sensor to lap you when you ran by
+Potential ideas surfaced in feedback
+* Camera for motion sensor to lap you when you ran by (it feels unrealistic you would hit it yourself in an intense situation unless easily wearable)
 * Best lap on another screen
-* add a guy walking 
-Red dot going around an ellpse based on how far you have gone
+* Add a guy walking 
+* Red dot going around an ellpse based on how far you have gone
 
 
 Other feedback:
-  *o really be used in real life, it would require you to have a more obust case so you could hold on to it and track distance
-   * Add the times in reverse order
-
-
+   * To really be used in real life, it would require you to have a more obust case so you could hold on to it and track distance
+   * It would be helpful to see the times in reverse order
 
 
 
@@ -208,23 +210,24 @@ Other feedback:
 ## Initial updates incorporated
   - Best lap on another screen
   - Add the times in reverse order
+ 
 
 ## Further reflection and updates
   - Add a on start method that delays the start based on when you are ready.  This was combined with a light in order to give a visual signal to the user that the timer is about to start.
 
-Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly.
+Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly.  While thinking on this, I realized they would also need to see the exact start time.  This is is similar to many models used in different racing games.
 
 ![IMG-0027](https://user-images.githubusercontent.com/112022260/191132010-c55035ba-96ee-49ef-b6c2-b40d6d1f0639.jpg)
 ![IMG-0026](https://user-images.githubusercontent.com/112022260/191132020-b50a41a0-a464-4ff7-b64b-9d834e1c507f.jpg)
 
+## Additional updates
+ - Added green light to extend the raspberry pi and give the user a visual aid in when the lap time is about to begin 
+ - Add logic such that the first time you reset, it pauses the screen and when you hit reset it begins again given the user a countdown utilizing the green light
 ## Challenges
-
 A particular challenge I encountered when developing the datasets was the mismatch between when you hit start and timer clock.  Due to the time between when I initially set the time variable vs. when it displays, there is mismatch that causes the appear the timer to start a few seconds in.  Despite multiple code refactors, I was not able to figure out the exact cause and it is an area I would like to explore in the future for more precise timing.
 
 ## Refined video
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 
