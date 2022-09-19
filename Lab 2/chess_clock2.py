@@ -146,6 +146,14 @@ while True:
     else:
         my_button.LED_off()
     
+    if my_button.is_button_pressed() == True:
+        time_a = time_limit
+        time_b = time_limit
+        future_a = now + time_a
+        future_b = now + time_b
+        future_a_updated = time_a
+        future_b_updated = time_b   
+
     # y = top
     # draw.text((x, y), str(state), font=font, fill="#875AFF")
 
