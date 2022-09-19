@@ -104,16 +104,7 @@ off_time = 200
 
 while True:
     
-    # Reset button
-    if my_button.is_button_pressed() == True:
-        my_button.LED_on(brightness)
-        now2 = time.time()
-        time_a = time_limit
-        time_b = time_limit
-        future_a = now2 + time_a
-        future_b = now2 + time_b
-        future_a_updated = time_a
-        future_b_updated = time_b   
+    # Reset button  
 
     if state == True:
         draw.rectangle((0, 0, 120, height), outline=0, fill="#875AFF")
