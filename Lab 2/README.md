@@ -1,4 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
+**NAMES OF COLLABORATORS HERE**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -145,6 +146,9 @@ You can type the name of a color then press either of the buttons on the MiniPiT
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ cat screen_test.py
 ```
+![screentest](https://user-images.githubusercontent.com/112603386/189815913-fe28687b-1708-44b0-80fa-dbd141da1e03.jpg)
+
+
 
 #### Displaying Info with Texts
 You can look in `stats.py` for how to display text on the screen!
@@ -188,6 +192,10 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+![verplanck](https://user-images.githubusercontent.com/112603386/189816015-a5ccf8d0-06f1-45ce-b49d-5de828bf393d.jpg)
+
+The idea behind this design is a clock that keeps track of blood alcohol content for someone drinking alcohol. Often times people get carried away during a night out on the town, and this can lead to dangerous drivers. With this device, users will click the bottom button each time they drink 1 drink. The device will show the message "drink logged" to show user that the drink has been successfully logged into the device. This BAC equation is based on a 5% 12 oz beer, so if it is a "double" mixed drink log 2 drinks. At any point even before the users first drink, they can click the lower button on the device to check their current BAC. If it is below 0.08 (the legal driving limit), the device will read you must wait 0min to drive - meaning they are legally safe to drive. If the users BAC is over 0.08 it will display the amount of time they must wait befeore their BAC is below 0.08. Once the required time has been waited, and without adding any more drinks to their system, the user can check the BAC/time until drive variables to ensure they are legally safe to drive!
+
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -207,8 +215,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+
+https://user-images.githubusercontent.com/112603386/189817296-048ba211-72c2-4471-9c19-7f4fd51481be.mov
+
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+![further](https://user-images.githubusercontent.com/112603386/189817325-3aa5165f-c26c-4aa0-b9ae-14dd2647d4c7.jpg)
 
 
 # Prep for Part 2
@@ -217,6 +231,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+  Vikram, James, Jackson Feedback: Vik: make the text more readable - possibly display the text on different pages. Make it bigger and separated. James: truncate the values so it is more easily readable. JAckson create a limit of youve drinken too much.
 
 # Lab 2 Part 2
 
