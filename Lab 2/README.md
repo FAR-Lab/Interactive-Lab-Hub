@@ -251,4 +251,15 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+### Chess clock v 2.0
+
+To extend the functionalities of the chess clock, I plan to incorporate some of the sensors available and connect them to the Raspberry Pi.
+
+I use the [Proximity Sensor](https://www.adafruit.com/product/3595) and the [SparkFun Qwiic Button](https://www.sparkfun.com/products/15932) to build a touchless version of a chess clock.
+
+This is the main setup:
+
+And this is the video showing how it works:
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/HgYfRfWJj0Q/sddefault.jpg)](https://www.youtube.com/watch?v=HgYfRfWJj0Q "Chess Clock")
 
