@@ -237,16 +237,19 @@ After you caught fish you can scan it and collect the data such as the best time
 Storyboard : 
 ![20220919_234759](https://user-images.githubusercontent.com/112519146/191163287-e9fd06f9-0169-4f89-a51a-c6ce81088f4d.jpg)
 
-When it's crescent moon and the water level is low at 10:00
+When it's crescent moon and the water level is low at 10:00 : 
 
 https://user-images.githubusercontent.com/112519146/191165966-d4dbf186-f206-4886-8e98-751fd6514f7b.mp4
 
 
-When it's full moon and the water level is high at 23:30
+When it's full moon and the water level is high at 22:30 : 
 
 https://user-images.githubusercontent.com/112519146/191162418-e097f317-ad5b-47df-b3c8-f4139c147f58.mp4
 
 
+When you caught fish and scan the fish : 
+
+https://user-images.githubusercontent.com/112519146/191166917-dcfaed14-104e-498b-8f94-1b1bc00b0d49.mp4
 
 
 
