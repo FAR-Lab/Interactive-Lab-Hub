@@ -243,4 +243,52 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+Idea:
+
+The idea behind this design is a clock that keeps track of blood alcohol content for someone drinking alcohol. Often times people get carried away during a night out on the town, and this can lead to dangerous drivers. The device will first prompt the user to input their weight starting from 100 lbs. The user can use the right button to raise the weight input, and left button to lower the weight. Once the user weight is accurately depicted, they click both buttons to save the weight. Users will then click the left button each time they drink 1 drink. The device will show the message "drink logged" to show user that the drink has been successfully logged into the device. The user will click the right button to display the current BAC, time, amount of drinks consumed, and wait time until it is safe to drive. This BAC equation is based on a 5% 12 oz beer, so if it is a "double" mixed drink the user will log 2 drinks.  At any point even before the users first drink, they can click the left button on the device to check their current BAC. If it is below 0.08 (the legal driving limit), the device will read you must wait 0min to drive - meaning they are legally safe to drive. If the users BAC is over 0.08 it will display the amount of time they must wait befeore their BAC is below 0.08. If their BAC gets above a certain threshold, the user is prompted to call a cab instead of waiting out the time to sober up. The user is given a number to call for taxi service. If the user has not reached this threshold, once the required time has been waited, and without adding any more drinks to their system, the user can check the BAC/time until drive variables to ensure they are legally safe to drive! My final iteration of the device design has a hole in the housing so the user can either wear this device as a necklace, or attach it to their keychain.
+
+
+Story Board:
+
+![storyboard](https://user-images.githubusercontent.com/112603386/191174122-bea4457e-2a53-4f1c-b588-845414eec552.jpg)
+
+
+
+Device Design Iterations:
+
+Iteration 1
+![iteration1](https://user-images.githubusercontent.com/112603386/191172221-267a6da3-1486-4353-b714-0e2e8435df4a.jpg)
+This is my first iteration of my device. It displays the BAC and can log drinks, but it uses a simple BAC formula that is based on the average male weight of 150 lbs.
+
+
+Iteration 2
+![iteration2](https://user-images.githubusercontent.com/112603386/191173153-6a3b2f3a-73fc-4b52-8084-d7ecc7add542.jpg)
+This is the second iteration of my device. It has now incorporated a first screen to prompt the user to input their correct weight. Once the user has set this input correctly, they press both buttons simultaneously to go to the next screen. The weight is set with knobs that can be turned. The knobs also function as buttons to interact with the second screen phase of the device, which operates the same as the first.
+
+
+Iteration 3
+![iteration3](https://user-images.githubusercontent.com/112603386/191173352-2f6a581d-d75c-4da6-86f7-a86510a52717.jpg)
+This is the final and best iteration of my device. I have gotten rid of the knobs for pure buttons, because that overcomplicates this device. The simplicity of the buttons for weight input is just as effective as the knobs, and makes the device slimmer. The housing now has a hole in the top so the user can put a necklace chain through the hole, or put the device on their keychain for convenience. Because the device is now vertically oriented, the buttons have been moved to the bottom. The screens operate the same as the second iteration.
+
+User Test:
+https://user-images.githubusercontent.com/112603386/191173769-be988722-af38-4294-bb1e-4905e2809a9c.mov
+
+This is a user test for my device. The user can be seen in a simulated scenario of drinking alcohol. After each drink they consume, they log the drink in the device. After each drink they can check their current BAC and wait time until it is safe to drive. The BAC and time can be seen ticking down based on data pulled from the clock. This test was filmed before I added the weight screen so I will show that below. I have included the feedback of spacing out the wait time text to make it easier to read. I have also included a threshold response, where the device prompts the user to call a cab if they have had too much to drink and it will take too long to sober up.
+
+Dev User Test:
+
+https://user-images.githubusercontent.com/112603386/191174167-4541d7a5-c84b-4372-9bfa-de079394f9ef.mov
+
+This is another user test for my device. You can see the device initially prompts the user for a weight input, and once set I press both buttons at the same time to advance to the next screen. Here I use the device in teh same way as the initial user test, except now the BAC calculation is more accurate.
+
+
+Feedback:
+My user tester, Jackson Reimer, gave me some good feedback. The feedback was that I should use pictures because users that are inibriated above the threshold will likely not be able to read as clearly as completely sober people. If I added a taxi image instead of pure text it would be easier to use for the intended user.
+
+I ran into trouble trying to implement this feedback - I was able to display a picture of a taxi but when I tried to add text to this it would not display. For future iterations of this device I would debug the display so I could put a full screen picture of a taxi and display text over this image to give the user a phone number of the taxi service. 
+
+
+
+
+
 
