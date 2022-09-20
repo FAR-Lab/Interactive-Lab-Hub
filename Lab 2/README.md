@@ -257,7 +257,11 @@ To extend the functionalities of the chess clock, I plan to incorporate some of 
 
 I use the [Proximity Sensor](https://www.adafruit.com/product/3595) and the [SparkFun Qwiic Button](https://www.sparkfun.com/products/15932) to build a touchless version of a chess clock.
 
+![image](https://user-images.githubusercontent.com/6238480/191149513-4011da9c-8f82-4eda-838c-c1f2205f4757.png)
+
 This is the main setup:
+
+![20220919_193445](https://user-images.githubusercontent.com/6238480/191149411-9477264d-2342-4eb1-acc3-6ffdb331d3bc.jpg)
 
 And this is the video showing how it works:
 
