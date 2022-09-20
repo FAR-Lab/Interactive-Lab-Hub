@@ -10,7 +10,7 @@ We will focus on **audio** as the main modality for interaction to start; these 
 
 ### Pick up Additional Parts
 
-As mentioned during the class, we ordered additional mini microphone for Lab 3. Also, a new part that has finally arrived is encoder! Please remember to pick them up from the TA.
+If you didn't receive a webcam already, you will get a new webcam during the lab on Thursday.
 
 ### Get the Latest Content
 
