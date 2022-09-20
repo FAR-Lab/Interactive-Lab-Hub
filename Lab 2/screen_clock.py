@@ -2,8 +2,14 @@ import time
 import subprocess
 import digitalio
 import board
+import glob
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+from time import strftime, sleep
+
+# remove warnings 
+import warnings 
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -33,15 +39,15 @@ disp = st7789.ST7789(
 # Make sure to create image with mode 'RGB' for full color.
 height = disp.width  # we swap height/width to rotate it to landscape!
 width = disp.height
-image = Image.new("RGB", (width, height))
+image_fill = Image.new("RGB", (height, width))
 rotation = 90
 
 # Get drawing object to draw on image.
-draw = ImageDraw.Draw(image)
+#draw = ImageDraw.Draw(image)
 
 # Draw a black filled box to clear the image.
-draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
-disp.image(image, rotation)
+#draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+#disp.image(image, rotation)
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
 padding = -2
@@ -58,14 +64,42 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
-backlight.value = True
+backlight.value = True 
 
+# Draw a black filled box to clear the image.
+#draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+# Image size 
+normal_size = 135, 240
+
+# Image resize 
+images = []
+images = glob.glob("./vine/*.png")
+print(images)
+images = sorted(images)
+print(images)
+for image_file in images:
+    #DEBUG
+    #print(image_file)
+    with open(image_file, 'rb') as image_file_open:
+        img = Image.open(image_file_open)
+        imgResize = img.resize((240, 135), Image.ANTIALIAS)
+        imgResize.save(image_file, 'PNG')
+
+#TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.p 
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
-
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+    for image_file in images:
+        print(image_file)
+        with open(image_file, 'rb') as image_file_open:
+            img = Image.open(image_file_open)
+            disp.image(img, rotation)
+        #if rotation >= 270:
+            #rotation = 0
+        #else: 
+            #rotation = rotation + 90
+        time.sleep(1)
+        #disp.image(image_fill)
+    break
+# Display image.\
+#disp.image(image, rotation)
+#time.sleep(1)
