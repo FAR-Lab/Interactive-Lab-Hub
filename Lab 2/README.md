@@ -289,7 +289,7 @@ SOUND ON TO HEAR NARRATION
 
 https://user-images.githubusercontent.com/112603386/191174167-4541d7a5-c84b-4372-9bfa-de079394f9ef.mov
 
-This is another user test for my device. You can see the device initially prompts the user for a weight input, and once set I press both buttons at the same time to advance to the next screen. Here I use the device in teh same way as the initial user test, except now the BAC calculation is more accurate.
+This is another user test for my device. You can see the device initially prompts the user for a weight input, and once set I press both buttons at the same time to advance to the next screen. Here I use the device in the same way as the initial user test, except now the BAC calculation is more accurate.
 
 
 Feedback:
