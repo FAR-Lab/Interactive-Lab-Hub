@@ -174,7 +174,7 @@ while True:
             else:
                 if BAC > .12:
                     y += font.getsize(BACText)[1]
-                    draw.text((x, y), "You've had one too many...", font=font, fill="#FFFFFF") #display Time of Last Beer
+                    draw.text((x, y), "You've had too many...", font=font, fill="#FFFFFF") #display Time of Last Beer
                     y += font.getsize(BACText)[1]
                     draw.text((x, y), "Just call #8294 for a cab", font=font, fill="#FFFFFF") #display Time of Last Beer
 
