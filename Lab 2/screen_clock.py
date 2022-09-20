@@ -4,6 +4,7 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+import math
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -94,20 +95,46 @@ while True:
     buttonB.switch_to_input()
 
     #add logic to buttons
-    weight = 150 
+    weight = 100
+    weightStr = str(weight)
     AlcPercent = .05
     drinkCount = 0
 
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image)
     x = 0
+    exitBool = 0
+    while exitBool < 1:
+        if buttonA.value and buttonB.value:
+            backlight.value = False  # turn off backlight
+        else:
+            backlight.value = True  # turn on backlight
+        draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+        y = top
+        draw.text((x, y), "Please Input your weight: ", font=font, fill="#FFFFFF") #display BAC
+        y += font.getsize(weightStr)[1]
+        draw.text((x, y), "Weight: " + str(weight),font_size = 5, font=font, fill="#FFFFFF") #display Time of Last Beer
+
+        if buttonB.value and not buttonA.value:  # just button A pressed          
+            weight += 1
+
+
+        if buttonA.value and not buttonB.value:  # just button B pressed
+            weight -= 1
+            
+        while buttonA.value and not buttonB.value:  # just button A pressed          
+            if not buttonB.value and not buttonA.value:
+                exitBool += 1
+            
+        disp.image(image, rotation)
+        
+
 
     while True:
         cmd = "hostname -I | cut -d' ' -f1"
         beerTimes = []
         if buttonA.value and buttonB.value:
             backlight.value = False  # turn off backlight
-
         else:
             backlight.value = True  # turn on backlight
 
@@ -116,17 +143,22 @@ while True:
  #           rotation = 90
             draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
             timeLastBeer = time.strftime("%m/%d/%Y %H:%M:%S") # log time of last beer
-            clock = time.strftime("%H:%M:%S") # log time of last beer
+            BACmetabolize = 0.015 #* int(time.strftime("%H")) #account for metabolism           
+            BACmodifier =  round(round((BACmetabolize/(60 * 60)) *  int(time.strftime("%S")), 6), 6)
+            clock = time.strftime("%H:%M:%S") #get current time
             beerTimes.append(timeLastBeer) #start list of prev beers
             timeTilDrive = 0
-            BAC = (150/weight)*(AlcPercent)*(drinkCount)*(0.25) #dupdate BAC
-            BACmetabolize = 0.015 #* int(time.strftime("%H")) #account for metabolism
+
+            BAC = round((150/weight)*(AlcPercent)*(drinkCount)*(0.25) * 2 , 6)  #update BAC
             if BAC < 0.08:
                 timeTilDrive == 0
             else:
-                timeTilDrive = ((BAC - 0.08) / BACmetabolize)*60
+                timeTilDrive = round(((BAC - 0.08) / BACmetabolize)*60, 2)
             
-            BACText = "BAC: " + str(BAC)
+            if BAC == 0:
+                BACText = "BAC: " + str(BAC)
+            else:
+                BACText = "BAC: " + str(round(BAC - BACmodifier * 1.5, 5))
           #  timeTilDrive -= int(time.strftime("%S"))//60
             y = top
             draw.text((x, y), BACText, font=font, fill="#FFFFFF") #display BAC
@@ -140,9 +172,18 @@ while True:
             if timeTilDrive <= 0:
                 draw.text((x, y), '0'  + "min", font=font, fill="#FFFFFF") #display Time of Last Beer
             else:
-                draw.text((x, y), str(timeTilDrive - int(time.strftime("%S"))/60)  + "min", font=font, fill="#FFFFFF") #display Time of Last Beer
-            timeUntilNextBeer = abs(.08 - BAC)
+                if BAC > .12:
+                    y += font.getsize(BACText)[1]
+                    draw.text((x, y), "You've had one too many...", font=font, fill="#FFFFFF") #display Time of Last Beer
+                    y += font.getsize(BACText)[1]
+                    draw.text((x, y), "Just call #8294 for a cab", font=font, fill="#FFFFFF") #display Time of Last Beer
 
+                else: 
+                    timeTil = round(timeTilDrive - int(time.strftime("%S"))/60, 2)
+                    draw.text((x, y), str( timeTil)  + "min", font=font, fill="#FFFFFF") #display Time of Last Beer
+            
+            
+      #     timeUntilNextBeer = abs(.08 - BAC)    #this is not necessary anymore
         if buttonA.value and not buttonB.value:  # just button B pressed
             draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 
