@@ -30,15 +30,6 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 
 ## Part 1.
 
-### Replace your ```vosk_demo_mic.sh``` file
-We changed some scripts so that they would be compatible with your respective web cameras. Make sure you've pulled the updates from the class GitHub! We will be replacing the ```vosk_demo_mic.sh``` file in the speech2text folders in your pis.
-
-If you have the ***[IMISES Web Camera](https://www.amazon.com/Microphone-Speaker-Balance-Conference-Streaming/dp/B0B7B7SYSY/ref=sr_1_3?keywords=webcam%2Bwith%2Bmicrophone%2Band%2Bspeaker&qid=1663090960&s=electronics&sprefix=webcam%2Bwith%2Bmicrophone%2Band%2Bsp%2Celectronics%2C123&sr=1-3&th=1)***, run this command from your terminal:
-
-```
-cp -f ~/Interactive-Lab-Hub/Lab\ 3/IMISES-replacement.sh ~/speech2text/vosk_demo_mic.sh 
-```
-
 ### Text to Speech 
 
 In this part of lab, we are going to start peeking into the world of audio on your Pi! 
