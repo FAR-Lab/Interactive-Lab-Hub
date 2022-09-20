@@ -8,13 +8,13 @@ We will focus on **audio** as the main modality for interaction to start; these 
 
 ## Prep for Part 1: Get the Latest Content and Pick up Additional Parts 
 
-### Pick up Additional Parts
+### Pick up Web Camera If You Don't Have One
 
-If you didn't receive a webcam already, you will get a new webcam during the lab on Thursday.
+Students who have not already received a web camera will receive their [IMISES web cameras](https://www.amazon.com/Microphone-Speaker-Balance-Conference-Streaming/dp/B0B7B7SYSY/ref=sr_1_3?keywords=webcam%2Bwith%2Bmicrophone%2Band%2Bspeaker&qid=1663090960&s=electronics&sprefix=webcam%2Bwith%2Bmicrophone%2Band%2Bsp%2Celectronics%2C123&sr=1-3&th=1) on Thursday at the beginning of lab. If you cannot make it to class on Thursday, please contact the TAs to ensure you get your web camera. 
 
 ### Get the Latest Content
 
-As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
+As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. There are 2 ways you can do so:
 
 **\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the *personal access token* for this.
 
@@ -29,6 +29,16 @@ pi@ixe00:~/Interactive-Lab-Hub $ git push
 Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2022Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
 
 ## Part 1.
+
+### Replace your ```vosk_demo_mic.sh``` file
+We changed some scripts so that they would be compatible with your respective web cameras. Make sure you've pulled the updates from the class GitHub! We will be replacing the ```vosk_demo_mic.sh``` file in the speech2text folders in your pis.
+
+If you have the ***[IMISES Web Camera](https://www.amazon.com/Microphone-Speaker-Balance-Conference-Streaming/dp/B0B7B7SYSY/ref=sr_1_3?keywords=webcam%2Bwith%2Bmicrophone%2Band%2Bspeaker&qid=1663090960&s=electronics&sprefix=webcam%2Bwith%2Bmicrophone%2Band%2Bsp%2Celectronics%2C123&sr=1-3&th=1)***, run this command from your terminal:
+
+```
+cp -f ~/Interactive-Lab-Hub/Lab\ 3/IMISES-replacement.sh ~/speech2text/vosk_demo_mic.sh 
+```
+
 ### Text to Speech 
 
 In this part of lab, we are going to start peeking into the world of audio on your Pi! 
@@ -74,7 +84,7 @@ card 1: Device [Usb Audio Device], device 0: USB Audio [USB Audio]
 ```
 The example above shows a scenario where the audio device is at card 1, device 0. Now, use `nano vosk_demo_mic.sh` and change the `hw` parameter. In the case as shown above, change it to `hw:1,0`, which stands for card 1, device 0.  
 
-Now, look at which camera you have. Do you have the cylinder camera (likely the case if you received it when we first handed out kits) or do you have the round corner camera? If you have a cylinder camera, change the `-r 16000` parameter to `-r 44100`. If you have the rounded corner camera, check if your rate parameter says `-r 16000`. Save the file using Write Out and press enter.
+Now, look at which camera you have. Do you have the cylinder camera (likely the case if you received it when we first handed out kits), change the `-r 16000` parameter to `-r 44100`. If you have the IMISES camera, check if your rate parameter says `-r 16000`. Save the file using Write Out and press enter.
 
 Then try `./vosk_demo_mic.sh`
 
