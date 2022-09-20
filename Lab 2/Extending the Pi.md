@@ -60,6 +60,17 @@ Some important things to note from the code:
  * We check if `default_addr = 0x6f` is listed in the found devices. This is the address your button comes programmed with, you can also change this and have it store the update on the button.
  * Once we initialize the I2C_Button object the rest of the code shows us some of the builtin capabilities.
 
+## If it doesn't work
+
+The chances are that running `python library_example.py` works for a few seconds, before it returns 'OSError: [Errno 121] Remote I/O error'. This problem has to do with the I2C baudrate setting. If you run into this problem, you need to edit the /boot/config.txt file by typing:
+
+`sudo nano /boot/config.txt`
+
+- Search for where it says `dtparam=i2c_arm=on`, add a line beneath that that says `dtparam=i2c_arm_baudrate=10000`. 
+- If your `dtparam=i2c_arm=on` is commented out with a `#`, remove the `#` in front of `dtparam=i2c_arm=on`. 
+- Save the file and reboot your Pi with `sudo shutdown -r now`. 
+
+After rebooting, `python library_example.py` should work. If it seems to glitch the first time, exit the script with Ctrl+C and run the same command again.
  
 ## Under the I2C curtain (optional: complete only after working on your projects in groups)
 
@@ -74,7 +85,7 @@ I2C addresses found: []
 Now plug the other end of the cable into the ports on the right of the button board. The pwr LED should turn on. Run the file again and you should see the device ID. You can also try daisy chaining multiple devices and sensors and running again.
 
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python I2CTest.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python I2C_scan.py 
 I2C ok!
 I2C addresses found: ['0x6f']
 ```
