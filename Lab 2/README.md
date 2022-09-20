@@ -285,6 +285,7 @@ I have implemented my initial feedback before the user test. I have made the wai
 I have also improved my calculations, including weight for a more accurate BAC. I also made the BAC display an updated amount so the user can see how quickly their BAC falls back to 0.
 
 Dev User Test:
+SOUND ON TO HEAR NARRATION
 
 https://user-images.githubusercontent.com/112603386/191174167-4541d7a5-c84b-4372-9bfa-de079394f9ef.mov
 
@@ -295,6 +296,8 @@ Feedback:
 My user tester, Jackson Reimer, gave me some good feedback. The feedback was that I should use pictures because users that are inibriated above the threshold will likely not be able to read as clearly as completely sober people. If I added a taxi image instead of pure text it would be easier to use for the intended user.
 
 I ran into trouble trying to implement this feedback - I was able to display a picture of a taxi but when I tried to add text to this it would not display. For future iterations of this device I would debug the display so I could put a full screen picture of a taxi and display text over this image to give the user a phone number of the taxi service. 
+
+*All code can be found in screen_clock.py
 
 
 
