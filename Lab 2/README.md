@@ -230,3 +230,21 @@ As always, make sure you document contributions and ideas from others explicitly
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 
+# Fishing Clock
+The idea of this clock is showing real time how full is the moon and the water level of the ocean. Also, the best color of the lure depends on how dark it is so this clock recommends which color of lure is good for fishing now depends on the current time and how dark it is. 
+After you caught fish you can scan it and collect the data such as the best time or which color of the lure did you used beced on time.
+
+Storyboard : 
+![20220919_234759](https://user-images.githubusercontent.com/112519146/191163287-e9fd06f9-0169-4f89-a51a-c6ce81088f4d.jpg)
+
+
+When it's full moon and the water level is high at 23:30
+https://user-images.githubusercontent.com/112519146/191162418-e097f317-ad5b-47df-b3c8-f4139c147f58.mp4
+
+
+https://user-images.githubusercontent.com/112519146/191159472-e807769f-82cd-44fd-b270-c8cfa400b710.mp4
+
+
+
+
+
