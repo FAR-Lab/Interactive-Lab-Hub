@@ -74,6 +74,8 @@ card 1: Device [Usb Audio Device], device 0: USB Audio [USB Audio]
 ```
 The example above shows a scenario where the audio device is at card 1, device 0. Now, use `nano vosk_demo_mic.sh` and change the `hw` parameter. In the case as shown above, change it to `hw:1,0`, which stands for card 1, device 0.  
 
+Now, look at which camera you have. Do you have the cylinder camera (likely the case if you received it when we first handed out kits) or do you have the round corner camera? If you have a cylinder camera, change the `-r 16000` parameter to `-r 44100`. If you have the rounded corner camera, check if your rate parameter says `-r 16000`. Save the file using Write Out and press enter.
+
 Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
