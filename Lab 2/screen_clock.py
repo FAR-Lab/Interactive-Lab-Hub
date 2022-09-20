@@ -97,7 +97,7 @@ while True:
             #rotation = 0
         #else: 
             #rotation = rotation + 90
-        time.sleep(1)
+        time.sleep(0.5)
         #disp.image(image_fill)
     break
 # Display image.\
