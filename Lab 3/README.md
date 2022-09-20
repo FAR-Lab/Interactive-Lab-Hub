@@ -20,7 +20,7 @@ As always, pull updates from the class Interactive-Lab-Hub to both your Pi and y
 
 ```
 pi@ixe00:~$ cd Interactive-Lab-Hub
-pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
+pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2022
 pi@ixe00:~/Interactive-Lab-Hub $ git add .
 pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
 pi@ixe00:~/Interactive-Lab-Hub $ git push
