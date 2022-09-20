@@ -199,7 +199,7 @@ Potential ideas surfaced in feedback
 
 
 Other feedback:
-   * To really be used in real life, it would require you to have a more obust case so you could hold on to it and track distance
+   * To really be used in real life, it would require you to have a more robust case so you could hold on to it and track distance
    * It would be helpful to see the times in reverse order
 
 
@@ -215,7 +215,7 @@ Other feedback:
 ## Further reflection and updates
   - Add a on start method that delays the start based on when you are ready.  This was combined with a light in order to give a visual signal to the user that the timer is about to start.
 
-Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly.  While thinking on this, I realized they would also need to see the exact start time.  This is is similar to many models used in different racing games.
+Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly.  Additionally, it had surfaced in feedback that it would beneficial to have a visual cue of the start time similar those used in different racing games.
 
 ![IMG-0027](https://user-images.githubusercontent.com/112022260/191132010-c55035ba-96ee-49ef-b6c2-b40d6d1f0639.jpg)
 ![IMG-0026](https://user-images.githubusercontent.com/112022260/191132020-b50a41a0-a464-4ff7-b64b-9d834e1c507f.jpg)
