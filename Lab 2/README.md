@@ -242,7 +242,7 @@ When it's full moon and the water level is high at 23:30
 
 https://user-images.githubusercontent.com/112519146/191165966-d4dbf186-f206-4886-8e98-751fd6514f7b.mp4
 
-
+When it's crescent moon and the water level is low at 10:00
 https://user-images.githubusercontent.com/112519146/191162418-e097f317-ad5b-47df-b3c8-f4139c147f58.mp4
 
 
