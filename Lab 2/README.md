@@ -231,7 +231,12 @@ https://user-images.githubusercontent.com/112603386/189817296-048ba211-72c2-4471
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
-  Vikram, James, Jackson Feedback: Vik: make the text more readable - possibly display the text on different pages. Make it bigger and separated. James: truncate the values so it is more easily readable. JAckson create a limit of youve drinken too much.
+
+Feedback:
+ Vikram, James, Jackson Feedback: 
+ Vik: make the text more readable - possibly display the text on different pages. Make it bigger and separated. 
+ James: Truncate the values so it is more easily readable. 
+ Jackson: create a limit of when you've drinken too much.
 
 # Lab 2 Part 2
 
@@ -274,6 +279,10 @@ User Test:
 https://user-images.githubusercontent.com/112603386/191173769-be988722-af38-4294-bb1e-4905e2809a9c.mov
 
 This is a user test for my device. The user can be seen in a simulated scenario of drinking alcohol. After each drink they consume, they log the drink in the device. After each drink they can check their current BAC and wait time until it is safe to drive. The BAC and time can be seen ticking down based on data pulled from the clock. This test was filmed before I added the weight screen so I will show that below. I have included the feedback of spacing out the wait time text to make it easier to read. I have also included a threshold response, where the device prompts the user to call a cab if they have had too much to drink and it will take too long to sober up.
+
+I have implemented my initial feedback before the user test. I have made the wait time until safe driving text separated from the data, so it is easier to read. I had difficulty making the text bigger. I have truncated the data so there were not so many trailing decimal places. I have added a threshold so the user can call a cab instead of knowing they have to wait 3 hours which is not feasible.
+
+I have also improved my calculations, including weight for a more accurate BAC. I also made the BAC display an updated amount so the user can see how quickly their BAC falls back to 0.
 
 Dev User Test:
 
