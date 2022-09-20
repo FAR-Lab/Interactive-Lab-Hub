@@ -218,7 +218,6 @@ Other feedback:
 Additionally, on further reflection, I realized the need for the reset button to actually pause the application and start again in such a manner that the user would have time to prepare accordingly.  Additionally, it had surfaced in feedback that it would beneficial to have a visual cue of the start time similar those used in different racing games.
 
 ![IMG-0027](https://user-images.githubusercontent.com/112022260/191132010-c55035ba-96ee-49ef-b6c2-b40d6d1f0639.jpg)
-![IMG-0026](https://user-images.githubusercontent.com/112022260/191132020-b50a41a0-a464-4ff7-b64b-9d834e1c507f.jpg)
 
 ## Additional updates
  - Added green light to extend the raspberry pi and give the user a visual aid in when the lap time is about to begin 
