@@ -1,4 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
+**NAMES OF COLLABORATORS HERE**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -11,24 +12,18 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 ## Prep
 
-[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
+Lab Prep is extra long this week. Make sure to start this early for lab on Thursday.
 
-### Get your kit
-If you are remote but in the US, let the teaching team know you need the parts mailed.
+1. ### Set up your Lab 2 Github
 
-
-If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
+Before the start of lab Thursday, [pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub.
 
 
-### Set up your Lab 2
-
-1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-  
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Fall2021
+  Interactive-Lab-Hub $ git pull upstream Fall2022
   ```
   
   The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
@@ -40,7 +35,16 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
   ```
   Your local and remote should now be up to date with the most recent files.
 
-2. Go to the [lab prep page](prep.md) to inventory your parts and set up your Pi before the lab session on Thursday.
+
+2. ### Get Kit and Inventory Parts
+Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing:
+
+***Update your [parts list inventory](partslist.md)***
+
+3. ### Prepare your Pi for lab this week
+[Follow these instructions](prep.md) to download and burn the image for your Raspberry Pi before lab Thursday.
+
+
 
 
 ## Overview
@@ -108,9 +112,25 @@ If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [th
 
 ## Part C. 
 ### Set up your RGB Display
+<<<<<<< HEAD
 
 ### Hardware (you have done this in the prep)
 
+=======
+We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) on your Pi in the Lab 2 prep already. Here, we will introduce you to the MiniPiTFT and Python scripts on the Pi with more details.
+
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
+
+The Raspberry Pi 3 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
+
+<img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
+
+To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. Some terms may be unfamiliar but we will go over the relevant ones as they come up.
+
+### Hardware (you have done this in the prep)
+
+From your kit take out the display and the [Raspberry Pi 3](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
+>>>>>>> 7134d6993950a43e0c39ea3e5be268f4d1ae4a76
 
 
 ### Testing your Screen
@@ -139,6 +159,8 @@ Work on `screen_clock.py`, try to show the time by filling in the while loop (at
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+
+Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
