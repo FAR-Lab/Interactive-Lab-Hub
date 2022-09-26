@@ -85,6 +85,17 @@ Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+```
+# Speak the question prompt
+espeak -ven+f2 -k5 -s150 --stdout "How much was that coffee?" | aplay
+
+# Record the response
+arecord -D hw:2,0 -f cd -c1 -r 44100 -d 5 -t wav recorded_mono.wav
+
+# Analyze using test_words.py
+python3 test_words.py recorded_mono.wav
+```
+
 ### Serving Pages
 
 In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
