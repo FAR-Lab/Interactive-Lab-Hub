@@ -142,9 +142,9 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-The dialogue was slightly different than imagined though largely held up to the situation.  One of the things I did not anticpate in the dialogue is...
+The dialogue was slightly different than imagined though largely held up to the situation.  One of the things I did not anticpate in the dialogue is timing and quick feedback was very important.  If you did not respond right away, people had moved on to another note or assumed they were playing correctly.  Additionally feedback was recieved there is often limited time to practice and it is frustrating to be waiting on the device to play.
 
-Something else I didn't anticpate was..
+Something else I didn't anticpate was misunderstanding around note e.g., are we talking about the high or low E string?  It would be important for the machine to sense this and clarify what the person is trying to play in case it is the wrong note or they are truly out of tune.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
