@@ -8,7 +8,8 @@ from subprocess import Popen, call
 import time
 import board
 import busio
-import adafruit_mpu6050
+#import adafruit_mpu6050
+from adafruit_msa3xx import MSA311
 import json
 import socket
 
@@ -18,7 +19,8 @@ from queue import Queue
 
  
 i2c = busio.I2C(board.SCL, board.SDA)
-mpu = adafruit_mpu6050.MPU6050(i2c)
+#mpu = adafruit_mpu6050.MPU6050(i2c)
+msa = MSA311(i2c)
 
 hostname = socket.gethostname()
 hardware = 'plughw:2,0'
@@ -39,7 +41,7 @@ def test_connect():
 @socketio.on('ping-gps')
 def handle_message(val):
     # print(mpu.acceleration)
-    emit('pong-gps', mpu.acceleration) 
+    emit('pong-gps', msa.acceleration) 
 
 
 
