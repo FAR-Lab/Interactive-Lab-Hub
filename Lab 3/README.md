@@ -121,20 +121,20 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 3) I then brought my visualized and refined ideas to my group for more feedback. The consensus was that 
 4)  After some iteration, I choose the leading idea and wrote a more thorough script
 
-Person: "Good morning Gary the Guitar"
-Guitar: "Good morning Trevor, start your day off with a tune?:
+* Person: "Good morning Gary the Guitar"
+* Guitar: "Good morning Trevor, start your day off with a tune?:
 
-Person: "You know what Gary I might, let's see if this is in tune"
-Guitar: "You last played 3 weeks ago, I doubt it!" 
+* Person: "You know what Gary I might, let's see if this is in tune"
+* Guitar: "You last played 3 weeks ago, I doubt it!" 
 
-Person: "Yeah yeah, okay checking the E string, how does that sound?"
-Guitar: "Your a little flat try tuning up a step"
+* Person: "Yeah yeah, okay checking the E string, how does that sound?"
+* Guitar: "Your a little flat try tuning up a step"
 
-Person: ** Move it up and playing **
-Guitar:  "That's better! now your ready to play"
+* Person: ** Move it up and playing **
+* Guitar:  "That's better! now your ready to play"
 
-Person: " Great, but I'm blanking on a song, any suggestions from my library?:
-Guitar: "How about, Sweet Home Alabama?"
+* Person: " Great, but I'm blanking on a song, any suggestions from my library?:
+* Guitar: "How about, Sweet Home Alabama?"
  
 ### Acting out the dialogue
 
