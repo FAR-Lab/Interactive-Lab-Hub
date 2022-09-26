@@ -58,6 +58,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+SEE REPO
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -80,6 +82,8 @@ Now, look at which camera you have. Do you have the cylinder camera (likely the 
 Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+SEE REPO
 
 ### Serving Pages
 
@@ -106,14 +110,41 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 \*\***Post your storyboard and diagram here.**\*\*
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+![11717](https://user-images.githubusercontent.com/112022260/192379759-288a754f-243e-4e4d-a4ad-fa5466a01001.jpg)
+![14208](https://user-images.githubusercontent.com/112022260/192379768-55c9ef13-a9b4-4a8a-b0ba-84bd003f11eb.jpg)
+
 
 \*\***Please describe and document your process.**\*\*
 
+1) I first started by discussing with my peers at my tables on our interests and potential thoughts for a design
+2) I then began to ideate on what some of the best ideas that we came up with could look like as seen in the pictures above
+3) I then brought my visualized and refined ideas to my group for more feedback. The consensus was that 
+4)  After some iteration, I choose the leading idea and wrote a more thorough script
+
+Person: "Good morning Gary the Guitar"
+Guitar: "Good morning Trevor, start your day off with a tune?:
+
+Person: "You know what Gary I might, let's see if this is in tune"
+Guitar: "You last played 3 weeks ago, I doubt it!" 
+
+Person: "Yeah yeah, okay checking the E string, how does that sound?"
+Guitar: "Your a little flat try tuning up a step"
+
+Person: ** Move it up and playing **
+Guitar:  "That's better! now your ready to play"
+
+Person: " Great, but I'm blanking on a song, any suggestions from my library?:
+Guitar: "How about, Sweet Home Alabama?"
+ 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+The dialogue was slightly different than imagined though largely held up to the situation.  One of the things I did not anticpate in the dialogue is...
+
+Something else I didn't anticpate was..
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
