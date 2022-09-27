@@ -94,8 +94,10 @@ while True:
     if rec.AcceptWaveform(data):
         res = json.loads(rec.Result())
         print(res['text'])
-        draw.text((x, y), res['text'], font=font, fill="#FFFFFF")
+        draw.text((100, 50), res['text'], font=font, fill="#FFFFFF")
+    else:
+        draw.text((100, 50), res['text'], font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
-    # time.sleep(0.1)
+    time.sleep(0.1)
