@@ -10,6 +10,7 @@ from vosk import Model, KaldiRecognizer
 import sys
 import os
 import wave
+import json
 import pyaudio
 
 if not os.path.exists("model"):
@@ -91,9 +92,9 @@ while True:
 
     data = stream.read(4096)
     if rec.AcceptWaveform(data):
-        text = rec.Result()['text']
-        print(text)
-        draw.text((x, y), text, font=font, fill="#FFFFFF")
+        res = json.loads(rec.Result())
+        print (res)
+        draw.text((x, y), res, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
