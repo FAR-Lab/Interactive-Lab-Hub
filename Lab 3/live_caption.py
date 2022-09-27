@@ -93,8 +93,8 @@ while True:
     data = stream.read(4096)
     if rec.AcceptWaveform(data):
         res = json.loads(rec.Result())
-        print (res)
-        draw.text((x, y), res, font=font, fill="#FFFFFF")
+        print(res['text'])
+        draw.text((x, y), res['text'], font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
