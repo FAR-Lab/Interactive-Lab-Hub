@@ -112,12 +112,14 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 <img src="dialogue.png" width="">
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
-(https://www.youtube.com/watch?v=CLEDTn4YBsM)
+[![video](screen.png)](https://www.youtube.com/watch?v=CLEDTn4YBsM)
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
 I found it difficult nailing down what anyone might say to Tita. It is almost impossible to guess what someone might say to her. 
 Depending on how well they know her they might come up with different things. Since she had recently gone to Florida that came up.
 However I didn't think that would come up. Another thing I noticed was subtle reactions people had. Sometimes people had a little reaction 
