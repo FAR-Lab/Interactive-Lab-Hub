@@ -140,6 +140,10 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+* Please see below for link to the interaction!
+
+https://drive.google.com/file/d/16wYQi18-BngfAFHCukiMX8VnizlBL6be/view?usp=sharing
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 The dialogue was slightly different than imagined though largely held up to the situation.  One of the things I did not anticpate in the dialogue is timing and quick feedback was very important.  If you did not respond right away, people had moved on to another note or assumed they were playing correctly.  Additionally feedback was recieved there is often limited time to practice and it is frustrating to be waiting on the device to play.
