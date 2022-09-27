@@ -126,16 +126,26 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 
+I came up with an idea to use the microphone and speech2text functionality to create a live caption machine. For someone whose hearing is impaired, the device can help to translate the speech to caption in real time, helping both parties to communicate especially if the speaker does not know ASL.
+
+When building the product, the live function of Google Translate comes to mind, which proven to have been very useful to help two different language speakers communicate.
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+In this preliminary product, the speed of translation is very slow and thus hinder the ability to communicate in real time.
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+Here is an example of the Live Caption machine in action:
+
+
 
 # Lab 3 Part 2
 
