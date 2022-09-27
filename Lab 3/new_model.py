@@ -16,7 +16,7 @@ if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getcomptype() != "NONE
 
 model = Model("model")
 # You can also specify the possible word list
-rec = KaldiRecognizer(model, wf.getframerate(), '["oh one two three four five six seven eight nine zero", "[unk]"]')
+rec = KaldiRecognizer(model, wf.getframerate())
 
 while True:
     data = wf.readframes(4000)
