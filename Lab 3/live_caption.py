@@ -91,7 +91,7 @@ while True:
 
     data = stream.read(4096)
     if rec.AcceptWaveform(data):
-        text = str(rec.Result()['text'])
+        text = rec.Result()['text']
         print(text)
         draw.text((x, y), text, font=font, fill="#FFFFFF")
 
