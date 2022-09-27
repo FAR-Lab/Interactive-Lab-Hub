@@ -103,6 +103,8 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+My device is a music recommendation device. It asks the user what mood they are in and then asks the user to specify their preferred genre. Depending on the mood and genre requested, the device will narrow down the possible selection of songs until it is ready to output only songs of a specific genre and mood. Essentially, the device will take some of the work out of picking a song that matches the current mood you are in. This can be a frustrating process, and many of us do not put in the effort to make playlists according to moods. This device will automatically append each song the user listens to for over 1 min into a playlist that is built over time, each time the user uses the device.
+
 \*\***Post your storyboard and diagram here.**\*\*
 
 ![storyboardcropped](https://user-images.githubusercontent.com/112603386/192417637-66b717ff-c6a8-464f-84f6-edae8639381b.png)
@@ -133,6 +135,8 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
 Jackson Reimer was my test user for this device. The dialogue was fairly similar to what I expected. Because I prompted him with the device dialogue at each step, there were only so many responses that could be given. However I realized that when he requested to hear a new Punk song, I didn't have any more Punk songs available in my playlist database ready to go. I had to make a small pivot playing a Metal song instead. Because Jackson is nice, he was fine with the song. However someone who is angry may be even more angered at the mistake in the nuanced genres. This made me realize I need to have more songs in my database so I can have atleast 5 different options for each genre in each mood bucket.
+
+I also realized that my dialogue was a little too wordy. This is because I was trying to account for every possible option and was covering too much ground with my device. It would be better if my device got straight to the point and immidiately played music. If the user wants to listen to their saved playlist they can request that without being prompted. For a similar reason I have made the device automatically add the song to the playlist after the user listens without requesting a new song for 1 minute. This is a more streamlined implementation.
 
 # Lab 3 Part 2
 
