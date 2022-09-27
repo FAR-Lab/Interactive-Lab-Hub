@@ -98,4 +98,4 @@ while True:
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(0.5)
+    # time.sleep(0.1)
