@@ -105,9 +105,15 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![storyboardcropped](https://user-images.githubusercontent.com/112603386/192417637-66b717ff-c6a8-464f-84f6-edae8639381b.png)
+
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+![flowchart](https://user-images.githubusercontent.com/112603386/192417670-4e6931d9-7d3d-4f2a-af8b-06bf935f7b2c.jpg)
+
+
 
 ### Acting out the dialogue
 
@@ -115,10 +121,18 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+
+
+https://user-images.githubusercontent.com/112603386/192417774-df4695bd-ddd5-42ea-9f4f-b219b57a5011.mp4
+
+
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+Jackson Reimer was my test user for this device. The dialogue was fairly similar to what I expected. Because I prompted him with the device dialogue at each step, there were only so many responses that could be given. However I realized that when he requested to hear a new Punk song, I didn't have any more Punk songs available in my playlist database ready to go. I had to make a small pivot playing a Metal song instead. Because Jackson is nice, he was fine with the song. However someone who is angry may be even more angered at the mistake in the nuanced genres. This made me realize I need to have more songs in my database so I can have atleast 5 different options for each genre in each mood bucket.
 
 # Lab 3 Part 2
 
