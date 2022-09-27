@@ -145,7 +145,7 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 Here is an example of the Live Caption machine in action:
 
-
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/3I27OYNadEA/sddefault.jpg)](https://www.youtube.com/watch?v=3I27OYNadEA "Live Caption")
 
 # Lab 3 Part 2
 
