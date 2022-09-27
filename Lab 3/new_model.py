@@ -23,8 +23,4 @@ while True:
     # if len(data) == 0:
         # break
     if rec.AcceptWaveform(data):
-        print(rec.Result()[14:-3]) # remove the dictionary syntax
-    else:
-        print(rec.PartialResult()[14:-3])
-
-print(rec.FinalResult())
+        print(rec.Result()) # remove the dictionary syntax
