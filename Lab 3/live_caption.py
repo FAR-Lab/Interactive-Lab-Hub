@@ -89,6 +89,7 @@ message = ""
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    draw.text((10, 5), "Live caption:", font=font, fill="#FFFFFF")
     y = top
 
     data = stream.read(4096)
@@ -97,9 +98,9 @@ while True:
         res = json.loads(rec.Result())
         message = res['text']
         print(res['text'])
-        draw.text((100, 50), res['text'], font=font, fill="#FFFFFF")
+        draw.text((10, 50), res['text'], font=font, fill="#FFFFFF")
     else:
-        draw.text((100, 50), message, font=font, fill="#FFFFFF")
+        draw.text((10, 50), message, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
