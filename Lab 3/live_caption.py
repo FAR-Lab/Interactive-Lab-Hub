@@ -84,6 +84,7 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+message = ""
 
 while True:
     # Draw a black filled box to clear the image.
@@ -91,8 +92,6 @@ while True:
     y = top
 
     data = stream.read(4096)
-
-    message = ""
 
     if rec.AcceptWaveform(data):
         res = json.loads(rec.Result())
