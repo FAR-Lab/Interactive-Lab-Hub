@@ -81,6 +81,8 @@ Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+My custom shell file is saved on the Pi but I had trouble pushing it to github due to access restrictions. I will have this sorted out after talking to prof/TA.
+
 ### Serving Pages
 
 In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
@@ -103,11 +105,19 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+My device is a music recommendation device. It asks the user what mood they are in and then asks the user to specify their preferred genre. Depending on the mood and genre requested, the device will narrow down the possible selection of songs until it is ready to output only songs of a specific genre and mood. Essentially, the device will take some of the work out of picking a song that matches the current mood you are in. This can be a frustrating process, and many of us do not put in the effort to make playlists according to moods. This device will automatically append each song the user listens to for over 1 min into a playlist that is built over time, each time the user uses the device.
+
 \*\***Post your storyboard and diagram here.**\*\*
+
+![storyboardcropped](https://user-images.githubusercontent.com/112603386/192417637-66b717ff-c6a8-464f-84f6-edae8639381b.png)
+
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+![flowchart](https://user-images.githubusercontent.com/112603386/192417670-4e6931d9-7d3d-4f2a-af8b-06bf935f7b2c.jpg)
+
+
 
 ### Acting out the dialogue
 
@@ -115,10 +125,20 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+
+
+https://user-images.githubusercontent.com/112603386/192417774-df4695bd-ddd5-42ea-9f4f-b219b57a5011.mp4
+
+
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+Jackson Reimer was my test user for this device. The dialogue was fairly similar to what I expected. Because I prompted him with the device dialogue at each step, there were only so many responses that could be given. However I realized that when he requested to hear a new Punk song, I didn't have any more Punk songs available in my playlist database ready to go. I had to make a small pivot playing a Metal song instead. Because Jackson is nice, he was fine with the song. However someone who is angry may be even more angered at the mistake in the nuanced genres. This made me realize I need to have more songs in my database so I can have atleast 5 different options for each genre in each mood bucket.
+
+I also realized that my dialogue was a little too wordy. This is because I was trying to account for every possible option and was covering too much ground with my device. It would be better if my device got straight to the point and immidiately played music. If the user wants to listen to their saved playlist they can request that without being prompted. For a similar reason I have made the device automatically add the song to the playlist after the user listens without requesting a new song for 1 minute. This is a more streamlined implementation.
 
 # Lab 3 Part 2
 
