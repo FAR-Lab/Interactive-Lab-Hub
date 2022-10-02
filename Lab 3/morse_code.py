@@ -28,7 +28,9 @@ if not os.path.exists("model"):
 
 model = Model("model")
 # You can also specify the possible word list
-rec = KaldiRecognizer(model, 16000, '["one two three four five"]')
+rec = KaldiRecognizer(model, 16000)
+
+# add dictionary in this format '["one two three four five"]'
 
 cap = pyaudio.PyAudio()
 stream = cap.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8192)
