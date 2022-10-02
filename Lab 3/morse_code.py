@@ -27,7 +27,7 @@ if not os.path.exists("model"):
 
 model = Model("model")
 # You can also specify the possible word list
-rec = KaldiRecognizer(model, 16000, '["boat ship"]')
+rec = KaldiRecognizer(model, 16000, '["one two three four five"]')
 
 cap = pyaudio.PyAudio()
 stream = cap.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8192)
@@ -112,8 +112,6 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
                     '?':'..--..', '/':'-..-.', '-':'-....-',
                     '(':'-.--.', ')':'-.--.-'}
 
-cipher = ""
-
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -129,20 +127,21 @@ while True:
         res = json.loads(rec.Result())
         message = res['text'].upper()
         print(message)
+        cipher = ""
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
         for letter in message:
             cipher += MORSE_CODE_DICT[letter] + ' '
             for ditdash in MORSE_CODE_DICT[letter]:
                 if ditdash == ".":
                     my_button.LED_on(brightness)
-                    time.sleep(0.5)
+                    time.sleep(0.3)
                     my_button.LED_off()
-                    time.sleep(0.5)
+                    time.sleep(0.3)
                 elif ditdash == "-":
                     my_button.LED_on(brightness)
-                    time.sleep(1.5)
+                    time.sleep(1)
                     my_button.LED_off()
-                    time.sleep(0.5)
+                    time.sleep(0.3)
 
         print(cipher)
 
