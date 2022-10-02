@@ -28,7 +28,7 @@ if not os.path.exists("model"):
 
 model = Model("model")
 # You can also specify the possible word list
-rec = KaldiRecognizer(model, 16000)
+rec = KaldiRecognizer(model, 16000, '["okay danger negative attack retreat"]')
 
 # add dictionary in this format '["one two three four five"]'
 
