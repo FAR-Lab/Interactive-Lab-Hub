@@ -137,6 +137,7 @@ while True:
         
         for letter in message:
             for ditdash in MORSE_CODE_DICT[letter]:
+                print(ditdash, end="")
                 if ditdash == ".":
                     my_button.LED_on(brightness)
                     time.sleep(0.3)
