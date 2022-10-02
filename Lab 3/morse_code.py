@@ -137,10 +137,12 @@ while True:
                     my_button.LED_on(brightness)
                     time.sleep(0.5)
                     my_button.LED_off()
+                    time.sleep(0.5)
                 elif ditdash == "-":
                     my_button.LED_on(brightness)
                     time.sleep(1.5)
                     my_button.LED_off()
+                    time.sleep(0.5)
 
         print(cipher)
 
@@ -149,4 +151,4 @@ while True:
 
     # Display image.
     disp.image(image, rotation)
-    # time.sleep(0.1)
+    time.sleep(0.1)
