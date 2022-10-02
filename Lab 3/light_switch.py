@@ -27,7 +27,7 @@ if not os.path.exists("model"):
 
 model = Model("model")
 # You can also specify the possible word list
-rec = KaldiRecognizer(model, 16000)
+rec = KaldiRecognizer(model, 16000, '["on off"]')
 
 cap = pyaudio.PyAudio()
 stream = cap.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8192)
@@ -113,7 +113,7 @@ while True:
         draw.text((10, 50), res['text'], font=font, fill="#FFFFFF")
         if message == "on":
             my_button.LED_on(brightness)
-        elif message == "stop":
+        elif message == "off":
             my_button.LED_off()
     else:
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
