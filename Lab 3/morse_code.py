@@ -140,14 +140,14 @@ while True:
             for ditdash in MORSE_CODE_DICT[letter]:
                 if ditdash == ".":
                     my_button.LED_on(brightness)
-                    time.sleep(0.3)
+                    time.sleep(0.2)
                     my_button.LED_off()
-                    time.sleep(0.3)
                 elif ditdash == "-":
                     my_button.LED_on(brightness)
-                    time.sleep(1)
+                    time.sleep(0.6)
                     my_button.LED_off()
-                    time.sleep(0.3)
+                time.sleep(0.2)
+            time.sleep(0.6)
 
     else:
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
