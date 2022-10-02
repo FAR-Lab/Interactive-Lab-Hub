@@ -130,9 +130,10 @@ while True:
         print(message)
         cipher = ""
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
+        
         for i in message:
             cipher += MORSE_CODE_DICT[i] + ' '
-        print(cipher)
+        print(cipher, flush=True)
         
         for letter in message:
             for ditdash in MORSE_CODE_DICT[letter]:
