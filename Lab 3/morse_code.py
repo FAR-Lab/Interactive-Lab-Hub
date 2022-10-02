@@ -127,9 +127,9 @@ while True:
 
     if rec.AcceptWaveform(data):
         res = json.loads(rec.Result())
-        message = res['text']
-        print(res['text'])
-        draw.text((10, 50), res['text'], font=font, fill="#FFFFFF")
+        message = res['text'].upper()
+        print(message)
+        draw.text((10, 50), message, font=font, fill="#FFFFFF")
         for letter in message:
             cipher += MORSE_CODE_DICT[letter] + ' '
             for ditdash in MORSE_CODE_DICT[letter]:
