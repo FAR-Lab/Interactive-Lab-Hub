@@ -135,11 +135,11 @@ while True:
             for ditdash in MORSE_CODE_DICT[letter]:
                 if ditdash == ".":
                     my_button.LED_on(brightness)
-                    time.sleep(0.2)
+                    time.sleep(0.5)
                     my_button.LED_off()
                 elif ditdash == "-":
                     my_button.LED_on(brightness)
-                    time.sleep(0.6)
+                    time.sleep(1.5)
                     my_button.LED_off()
 
         print(cipher)
