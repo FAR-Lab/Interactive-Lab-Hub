@@ -127,17 +127,17 @@ while True:
     if rec.AcceptWaveform(data):
         res = json.loads(rec.Result())
         message = res['text'].upper()
-        print(message, flush=True)
         cipher = ""
-        draw.text((10, 50), message, font=font, fill="#FFFFFF")
-
         for i in message:
             cipher += MORSE_CODE_DICT[i] + ' '
         print(cipher, flush=True)
         
+        print(message, flush=True)
+
+        draw.text((10, 50), message, font=font, fill="#FFFFFF")
+        
         for letter in message:
             for ditdash in MORSE_CODE_DICT[letter]:
-                print(ditdash, end="")
                 if ditdash == ".":
                     my_button.LED_on(brightness)
                     time.sleep(0.3)
