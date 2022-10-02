@@ -205,7 +205,7 @@ Word space (the gap between two words): 7 units
 
 *Include videos or screencaptures of both the system and the controller.*
 
-[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/gSjtlO7vZp4/mq1.jpg?sqp=CKC56JkG&rs=AOn4CLDPFiOk6LYQliJ7Zh0YSi7KkV91Pw)](https://www.youtube.com/watch?v=gSjtlO7vZp4 "Morse Code Translator")
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/gSjtlO7vZp4/sddefault.jpg)](https://www.youtube.com/watch?v=gSjtlO7vZp4 "Morse Code Translator")
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
