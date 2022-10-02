@@ -128,11 +128,10 @@ while True:
         res = json.loads(rec.Result())
         message = res['text'].upper()
         cipher = ""
+        print(message, flush=True)
         for i in message:
             cipher += MORSE_CODE_DICT[i] + ' '
         print(cipher, flush=True)
-        
-        print(message, flush=True)
 
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
         
