@@ -1,3 +1,4 @@
+from re import I
 import time
 import subprocess
 import digitalio
@@ -129,9 +130,10 @@ while True:
         print(message)
         cipher = ""
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
-        for letter in message:
-            cipher += MORSE_CODE_DICT[letter] + ' '
+        for i in message:
+            cipher += MORSE_CODE_DICT[i] + ' '
         print(cipher)
+        
         for letter in message:
             for ditdash in MORSE_CODE_DICT[letter]:
                 if ditdash == ".":
