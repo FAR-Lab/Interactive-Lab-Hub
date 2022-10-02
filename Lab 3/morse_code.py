@@ -131,6 +131,8 @@ while True:
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
         for letter in message:
             cipher += MORSE_CODE_DICT[letter] + ' '
+        print(cipher)
+        for letter in message:
             for ditdash in MORSE_CODE_DICT[letter]:
                 if ditdash == ".":
                     my_button.LED_on(brightness)
@@ -142,8 +144,6 @@ while True:
                     time.sleep(1)
                     my_button.LED_off()
                     time.sleep(0.3)
-
-        print(cipher)
 
     else:
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
