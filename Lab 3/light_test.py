@@ -10,14 +10,6 @@ from time import strftime, sleep
 # import qwiic_button library
 import qwiic_button
 
-# Configuration for proximity sensor
-import busio
-import adafruit_apds9960.apds9960
-from adafruit_apds9960.apds9960 import APDS9960
-i2c = board.I2C()
-apds = APDS9960(i2c)
-apds.enable_proximity = True
-
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -79,22 +71,6 @@ buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
-
-state = True
-
-# Ask time input
-
-
-time_limit = int(input('Input time in seconds: '))
-
-# Add initial time variables
-now = time.time()
-time_a = time_limit
-time_b = time_limit
-future_a = now + time_a
-future_b = now + time_b
-future_a_updated = time_a
-future_b_updated = time_b
 
 # Add Qwiic button
 my_button = qwiic_button.QwiicButton()
