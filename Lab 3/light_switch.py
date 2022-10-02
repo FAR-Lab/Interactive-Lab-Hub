@@ -103,6 +103,9 @@ while True:
 
     data = stream.read(4096)
 
+    if my_button.is_button_pressed() == True:
+        my_button.LED_off()
+
     if rec.AcceptWaveform(data):
         res = json.loads(rec.Result())
         message = res['text']
@@ -110,7 +113,7 @@ while True:
         draw.text((10, 50), res['text'], font=font, fill="#FFFFFF")
         if message == "on":
             my_button.LED_on(brightness)
-        elif message == "off":
+        elif message == "stop":
             my_button.LED_off()
     else:
         draw.text((10, 50), message, font=font, fill="#FFFFFF")
