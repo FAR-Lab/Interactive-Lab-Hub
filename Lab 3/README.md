@@ -157,6 +157,11 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+Feedback from Neha Manjunath
+> Really thoughtful Idea! However, the first part of this Lab mainly focuses on using Audio as the user's primary communication modality. Extending it to the video part would be nice for Part 2 of this Lab. It would also be really helpful if you could dig deeper into the barriers of human interactions and map out the flows of how the dialogue would proceed.
+
+Taking the feedback from Part 1, I explored new ways to extend the functionalities of my speech recognizer. Since we have an LED in our toolkit, I thought why not we try to emulate a Morse code translator that converts your speech to Morse code signal.
+
 ## Prototype your system
 
 The system should:
@@ -166,7 +171,23 @@ The system should:
 
 *Document how the system works*
 
+The system works by connecting the microphone, Raspberry Pi, and the LED output. The code then has to run through the following steps:
+1. Recognize the word using Vosk
+2. Decompose each word to letters
+3. Pair the letter with a Morse dictionary
+4. Determine the time interval for dots and dashes
+5. Make the LED blinks according to the Morse code
+
+I found the following [guide](https://morsecode.world/international/timing.html) for Morse code timing:
+Dot: 1 unit
+Dash: 3 units
+Intra-character space (the gap between dots and dashes within a character): 1 unit
+Inter-character space (the gap between the characters of a word): 3 units
+Word space (the gap between two words): 7 units
+
 *Include videos or screencaptures of both the system and the controller.*
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/gSjtlO7vZp4/sddefault.jpg)](https://www.youtube.com/watch?v=gSjtlO7vZp4 "Morse Code Translator")
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -174,18 +195,17 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
 
-### What worked well about the controller and what didn't?
+*The product worked as intended! However, with the Raspberry Pi and Vosk model, sometime there is a significant delay in recognizing the word. The list of words can be predetermined to make the model run quicker, but this limits the number of words recognized by the system.
 
-\*\**your answer here*\*\*
+```rec = KaldiRecognizer(model, 16000, '["list of words here"]')```
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+*Different people have different ways of pronouncing certain words which may affect the accuracy of the system*
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+*The product can be used in may real life cases. For example, ships or military units still use Morse code as modes of communication which can be further improved using better speech recognition technology.*
 
