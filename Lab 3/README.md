@@ -164,7 +164,29 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+*Feedback from Carlos:* 
+Overall the ideas were very creative. They explored areas in which voice assistants aren’t being used. The ideas are very clear and straightforward. 
+I found the plant idea to be extremely useful to people. It is also my favorite. I can also see new plant owners wanting something like this.
+Guitar Tuner is also interesting especially since I’m not too familiar with it. 
+The study buddy seems like a voice enabled reminder. It might not be as cool as the others but maybe the easiest to tackle. 
+Improvements:
+I think the plant idea could be improved if it also talked to you unprompted. Sometimes people can forget about plants, so it’d be nice if it was like “hey ask me how I’m doing.”
+For Guitar tuner I think it’d also be interesting if it was able to tell you how a string should sound. So when it tells you to tune up it plays what the tune should be 
+Study buddy could be sent things to remind you about and when it should remind you about things/ how often. 
+
+
+*Feedback from
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+Other ideas beyond speech include:
+* Metronome for playing
+* Having a variable pitch that get higher as the player gets closer to the correct note (sort of like hot or cold) - this could help clarify to the user how far to go   when they are tuning their instrument
+* Give auditory feedback when they are getting notes right or wrong
+* Playing the accompanying instruments
+* Adding a "Whshhp" when users ask for the next song to imitate folder over the next disk in a record pile to give feedback th
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
@@ -176,6 +198,7 @@ The system should:
 
 *Document how the system works*
 
+* I was never able to fully get the camera to recognize any intelligible voice commands.  Due to this limitation, I instead wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy"  that magically turned on (or was called) was a user picked up the guitar.  I think wizarded the voice interaction from a 
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
@@ -184,18 +207,33 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
+The phone worked well to simulate the wizard without having to be in the room in addition faking the "turning on" fairly well.
+
+However as a researcher I could not see my particpant.   Additionaly as mentioned I had significant troubles trying 
 \*\**your answer here*\*\*
 
-### What worked well about the controller and what didn't?
+### What worked well about the controller and what didn't
+
+*  My voice created echo with the video
+* I was able to say anything I wanted
+
+* Because I could freestyle, you didn't see th frustrating momenbts tga twoud be seen with a more autonomous prototype
 
 \*\**your answer here*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
+* You would need to be able to see the users hands in order to really get a good understanding.
+
 \*\**your answer here*\*\*
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+
+* I could user my system to capture what types of actions different types of guitar players would like to have a partner for.  
+
+* Other sensing modalities would be visual as mentioned so you could give feedback on body posture and hand positioning
+* Otherwise most of what you need for this purpose could be done auditory.  You could include additional analysis on top such as tracking the rythmn of strumming to see if it is on beat.
 
 \*\**your answer here*\*\*
 
