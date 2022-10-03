@@ -155,8 +155,6 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joyst
 
 #### (Optional) Distance Sensor
 
-Note: We did not distribute this sensor to you, so if you are interested in playing with it, please come pick it up from the TA!
-
 Earlier we have asked you to play with the proximity sensor, which is able to sense object within a short distance. Here, we offer [Qwiic Multi Distance Sensor](https://www.sparkfun.com/products/17072), which has a field of view of about 25° and is able to detect objects up to 3 meters away! 
 
 <p float="left">
