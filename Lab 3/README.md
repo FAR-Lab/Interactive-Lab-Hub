@@ -158,6 +158,19 @@ Another improvement form my first iteration of the device is the accessibility o
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+Prototype:
+![prototype](https://user-images.githubusercontent.com/112603386/193738590-6cf2820d-5978-45bd-92c6-686e1d80ec07.png)
+This is the final prototype for my design. It is shaped like a cube and has a smiley face on the front with a camera hidden as the right eye which will capture the user gestures. There is an LCD screen which displays the current song playing. There are speakers on the top, left, and right sides of the cube, and a subwoofer in the back. There are rubber grips on the bottom to prevent the device from sliding. There are also USB and AUX ports on the back so the user has the option of using the device as a regular non interactive speaker if they prefer to play their own music from their phone.
+
+
+Verplank Diagram:
+![verplank](https://user-images.githubusercontent.com/112603386/193738880-70f1d02d-1b11-4d88-8f3a-4a363974b749.png)
+
+
+Storyboard:
+![storyboard](https://user-images.githubusercontent.com/112603386/193738917-ade166c1-34af-43ca-902a-da5da275f759.png)
+
+
 ## Prototype your system
 
 The system should:
