@@ -177,16 +177,15 @@ Study buddy could be sent things to remind you about and when it should remind y
 
 *Feedback from Professor Wu*
 
- * Think more into the detail of the action, after they change it
-		* Did it actually fix it?
-		 * If you just say flat flat and it it's like hot and cold
+* Think more into the detail of the action, after they change it
+	* Did it actually fix it?
+	* If you just say flat flat and it it's like hot and cold
 	 
-   * Could include things like "Tune up half X" or that "that was too much"
-   * What if a user pushes back thinking it's fine
+  	* Could include things like "Tune up half X" or that "that was too much"
+  	* What if a user pushes back thinking it's fine
 
-	• Do you do it when it's plucked, other timing for jumping in
-		○ "Is now a good a time" example
-![image](https://user-images.githubusercontent.com/112022260/193711740-90b980b8-fa3f-4d27-9d2e-e6d4bfed8f43.png)
+	* Do you do it when it's plucked, other timing for jumping in
+		* "Is now a good a time" example
 
 
 
