@@ -176,7 +176,6 @@ For Guitar tuner I think it’d also be interesting if it was able to tell you h
 Study buddy could be sent things to remind you about and when it should remind you about things/ how often. 
 
 
-*Feedback from
 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 
@@ -188,6 +187,7 @@ Other ideas beyond speech include:
 * Adding a "Whshhp" when users ask for the next song to imitate folder over the next disk in a record pile to give feedback th
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
+![IDD HW3](https://user-images.githubusercontent.com/112022260/193709256-16df00b2-0000-41c1-991b-bda6bc22479e.jpg)
 
 ## Prototype your system
 
@@ -198,7 +198,7 @@ The system should:
 
 *Document how the system works*
 
-* I was never able to fully get the camera to recognize any intelligible voice commands. Additionaly, I was not on campus and a commuter student could not access the raspberry pi at home due to network errors (have tried to address with Alexandra). Due to these limitations, I instead wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy"  that magically turned on (or was called) was a user picked up the guitar and was wizarded by me in another room.
+* I was never able to fully get the camera to recognize any intelligible voice commands. Additionaly, I was not on campus and as a commuter student could not access the raspberry pi at home due to network errors (have tried to address with Alexandra to no avail). Due to these limitations, I instead wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy"  that magically turned on (or was called) was a user picked up the guitar and was wizarded by me in another room.
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -213,8 +213,11 @@ Answer the following:
 
 The phone worked well to simulate the wizard without having to be in the room in addition faking the "turning on" fairly well.  It efficiently made the user feel like they were interacting with the audio system with minimal overhead.
 
-A few things that did not work was as a researcher I could not see my particpant which made things difficult. it also lacked any ability to "extend" the functionality by incorporating video of the user like a camera microphone could have done.  Lastly, when trying to achieve voice recognition, my microphone would not correctly pick up audio, especialy if there was any background noise at all.
+*A few things that did not work*
+ 
+ * As a researcherI could not see my particpant which made things difficult. it also lacked any ability to "extend" the functionality by incorporating video of the user like a camera microphone could have done.  Lastly, when trying to achieve voice recognition, my microphone would not correctly pick up audio, especialy if there was any background noise at all.
 
+* My voice created seemed to create and echo with the video due to the system setup
 
 \*\**your answer here*\*\*
 
@@ -228,13 +231,14 @@ A few things that did not work was as a researcher I could not see my particpant
 
 * What did work well:*
 
-* I was able to say anything I wanted
+* The tuning section was much better with significantly more realistic functionality on how that interaction would take 
+* The overal concept worked well as a guitar teacher.  The lack of video made users focus on looking and playing guitar and listening for the vocal cues rather than   focusing on a video 
 
 * What didn't work well:*
 
-*  My voice created echo with the video
+* I couldn't see when they were going to start now did I script to include a countdown of when that was happening.  Would also need to include options like restart, go forward and go back upon further reflection
 
-* Because I could freestyle, you didn't see th frustrating momenbts tga twoud be seen with a more autonomous prototype
+* Because I was wizarding live, you didn't see th frustrating moments that would accompany a more autonomous prototype.  These would likely give valuable insight into where the system needs to be built out further.  However, by wizarding it live, I was able to see far more of the different options people choose and could get much farther down a theoretical "tree" through this type of prototyping.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
@@ -248,14 +252,13 @@ A few things that did not work was as a researcher I could not see my particpant
 
 * You would have to design around background noise and other incidental sounds to give consistent and useful feedback to someone playing guitar
 
-* To make it fully autonomous, the feature set needs to be paired down significantly
+* To make it fully autonomous, the feature set or avenuesneeds to be paired down significantly
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-* I could user my system to capture what types of actions different types of guitar players would like to have a partner for.  
+\*\**your answer here*\*\*
 
+* I could user my system to capture what types of actions different types of guitar players would like to have a partner for or use, what songs they choose, what notes they play, how in tune they normally are, what are the most commons topics asked for help on
 * Other sensing modalities would be visual as mentioned so you could give feedback on body posture and hand positioning
 * Otherwise most of what you need for this purpose could be done auditory.  You could include additional analysis on top such as tracking the rythmn of strumming to see if it is on beat.
-
-\*\**your answer here*\*\*
 
