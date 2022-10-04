@@ -198,8 +198,11 @@ The system should:
 
 *Document how the system works*
 
-* I was never able to fully get the camera to recognize any intelligible voice commands.  Due to this limitation, I instead wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy"  that magically turned on (or was called) was a user picked up the guitar.  I think wizarded the voice interaction from a 
+* I was never able to fully get the camera to recognize any intelligible voice commands. Additionaly, I was not on campus and a commuter student could not access the raspberry pi at home due to network errors (have tried to address with Alexandra). Due to these limitations, I instead wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy"  that magically turned on (or was called) was a user picked up the guitar and was wizarded by me in another room.
+
 *Include videos or screencaptures of both the system and the controller.*
+
+Please see here for video of the system and controller: https://drive.google.com/file/d/1th_JHUxALDwgEcsZGNYAscwIsggoXToh/view?usp=sharing
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -207,26 +210,45 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-The phone worked well to simulate the wizard without having to be in the room in addition faking the "turning on" fairly well.
 
-However as a researcher I could not see my particpant.   Additionaly as mentioned I had significant troubles trying 
+The phone worked well to simulate the wizard without having to be in the room in addition faking the "turning on" fairly well.  It efficiently made the user feel like they were interacting with the audio system with minimal overhead.
+
+A few things that did not work was as a researcher I could not see my particpant which made things difficult. it also lacked any ability to "extend" the functionality by incorporating video of the user like a camera microphone could have done.  Lastly, when trying to achieve voice recognition, my microphone would not correctly pick up audio, especialy if there was any background noise at all.
+
+
 \*\**your answer here*\*\*
 
 ### What worked well about the controller and what didn't
 
-*  My voice created echo with the video
+
+
+
+
+\*\**your answer here*\*\*
+
+* What did work well:*
+
 * I was able to say anything I wanted
+
+* What didn't work well:*
+
+*  My voice created echo with the video
 
 * Because I could freestyle, you didn't see th frustrating momenbts tga twoud be seen with a more autonomous prototype
 
+### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+
+
 \*\**your answer here*\*\*
 
-### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 * You would need to be able to see the users hands in order to really get a good understanding.
 
-\*\**your answer here*\*\*
+* When asking user's a question, you should give them prompts on what are their possible options or actions to choose from
 
+* You would have to design around background noise and other incidental sounds to give consistent and useful feedback to someone playing guitar
+
+* To make it fully autonomous, the feature set needs to be paired down significantly
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
