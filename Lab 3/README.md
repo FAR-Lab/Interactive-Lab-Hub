@@ -203,11 +203,12 @@ The new script
 The device works by the user initially saying "Hello Music Dr." The device will say hello back, using the users name, and ask how they are feeling. Once the user responds they will say a phrase relating to the mood listed, and list a few genres of music that fall into that mood bucket. After this, the user will list which genres they want to hear. The device will automatically start playing music from the users playlist of the specified mood, and once all songs have been played will switch to discovery mode. If the playlist is empty, it will start off in discovery mode. At any point while a song is playing, users can use gestures and voice commands to skip song, and scan forward 30 seconds. The gesture to skip is swiping your hand from left to right, and the gesture to scan forward is to circle your hand in a clockwise motion two times. At any point when the user is finished listening, they can say Goodbye Music Dr. to end the listening session.
 
 *Include videos or screencaptures of both the system and the controller.*
+All scripts and python files can be found under the folder, speechTest
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-User Test 1, user was given verbal version of user manual describing how to use gesture features and voice commands, as well as how to enter discover mode or go straight into playlist.
+User Test 1, user was given verbal version of user manual describing how to use gesture features and voice commands, as well as how to enter discover mode or go straight into playlist. The barebones prototype device system can be seen here - a video camera with a microphone which inputs user commands, video camera speaker which outputs device voice interactions, a JBL speaker (not in frame) outputting music, and the Raspberry Pi which is running the algorithm.
 
 
 
