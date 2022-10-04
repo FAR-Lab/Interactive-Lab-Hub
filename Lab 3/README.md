@@ -175,6 +175,19 @@ I think the plant idea could be improved if it also talked to you unprompted. So
 For Guitar tuner I think it’d also be interesting if it was able to tell you how a string should sound. So when it tells you to tune up it plays what the tune should be 
 Study buddy could be sent things to remind you about and when it should remind you about things/ how often. 
 
+*Feedback from Professor Wu*
+
+ * Think more into the detail of the action, after they change it
+		* Did it actually fix it?
+		 * If you just say flat flat and it it's like hot and cold
+	 
+   * Could include things like "Tune up half X" or that "that was too much"
+   * What if a user pushes back thinking it's fine
+
+	• Do you do it when it's plucked, other timing for jumping in
+		○ "Is now a good a time" example
+![image](https://user-images.githubusercontent.com/112022260/193711740-90b980b8-fa3f-4d27-9d2e-e6d4bfed8f43.png)
+
 
 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
@@ -198,7 +211,9 @@ The system should:
 
 *Document how the system works*
 
-* I was never able to fully get the camera to recognize any intelligible voice commands. Additionaly, I was not on campus and as a commuter student could not access the raspberry pi at home due to network errors (have tried to address with Alexandra to no avail). Due to these limitations, I instead wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy"  that magically turned on (or was called) was a user picked up the guitar and was wizarded by me in another room.
+* I wizarded the device using two seperate phones. One phone acted as the "Guitar Buddy" that magically turned on (or was called) as a user picked up the guitar.  The second, was used by me to wizard the device from another room from the room that called the other to activate GuitarBuddy.
+
+* I adopted this setup rather than using the Pi, as I was never able to fully get the camera to recognize any intelligible voice commands. Additionaly, it was complicated that I could not bring my Dad's guitar on campus and as a commuter student I cannot access the raspberry pi at home due to network errors (have tried to address with Alexandra to no avail). Due to these limitations, I went with the phone wizard setup.
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -211,21 +226,21 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 
-The phone worked well to simulate the wizard without having to be in the room in addition faking the "turning on" fairly well.  It efficiently made the user feel like they were interacting with the audio system with minimal overhead.
+*Worked well*
+
+* The phone worked well to simulate the wizard without having to be in the room in addition faking the "turning on" fairly well.  It efficiently made the user feel like they were interacting with the audio system with minimal overhead.
 
 *A few things that did not work*
  
- * As a researcherI could not see my particpant which made things difficult. it also lacked any ability to "extend" the functionality by incorporating video of the user like a camera microphone could have done.  Lastly, when trying to achieve voice recognition, my microphone would not correctly pick up audio, especialy if there was any background noise at all.
+ * As a researcher I could not see my particpant which made things difficult. it also lacked any ability to "extend" the functionality by incorporating video of the user like a camera microphone could have done.  Lastly, when trying to achieve voice recognition, my microphone would not correctly pick up audio, especialy if there was any background noise at all.
 
-* My voice created seemed to create and echo with the video due to the system setup
+ * My voice was echoed during the video'd simulation.
+ 
+ * In the future, I would also like to explore situations where the tuner is wrong and the user pushes back and answer questions like: How should the GuitarBuddy handle this? What of things would it say?  What if it was calibrated properly?  What if not?  Could we resync up the device using the user? -> would love to explore this in future labs.  Could you sync the pi so when you hit a pan it a makes a sound of your choosing (e.g., percussion) then hitting the table makes a drum.  You could then use anywhere you are as a drumset or other instrument.
 
 \*\**your answer here*\*\*
 
 ### What worked well about the controller and what didn't
-
-
-
-
 
 \*\**your answer here*\*\*
 
@@ -236,9 +251,9 @@ The phone worked well to simulate the wizard without having to be in the room in
 
 * What didn't work well:*
 
-* I couldn't see when they were going to start now did I script to include a countdown of when that was happening.  Would also need to include options like restart, go forward and go back upon further reflection
+* I couldn't see when they were going to start nor did I script to include a countdown of when each action was happening.  in the future I would also need to include options like restart, go forward and go back upon further reflection
 
-* Because I was wizarding live, you didn't see th frustrating moments that would accompany a more autonomous prototype.  These would likely give valuable insight into where the system needs to be built out further.  However, by wizarding it live, I was able to see far more of the different options people choose and could get much farther down a theoretical "tree" through this type of prototyping.
+* Because I was wizarding live, you didn't see the frustrating moments that would accompany a more autonomous prototype.  These would likely give valuable insight into where the system needs to be built out further.  However, by wizarding it live, I was able to see far more of the different options people choose and could get much farther down a theoretical "tree" through this type of prototyping.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
@@ -246,19 +261,19 @@ The phone worked well to simulate the wizard without having to be in the room in
 \*\**your answer here*\*\*
 
 
-* You would need to be able to see the users hands in order to really get a good understanding.
+* It would really help to be able to see user and the users hands in order to get a good understanding of what they are doing or asking about
 
 * When asking user's a question, you should give them prompts on what are their possible options or actions to choose from
 
 * You would have to design around background noise and other incidental sounds to give consistent and useful feedback to someone playing guitar
 
-* To make it fully autonomous, the feature set or avenuesneeds to be paired down significantly
+* To make it fully autonomous, the feature set or avenues needs to be paired down significantly (e.g., GuitarTunerBuddy would be a more realisticand doable product vs. a full GuitarBuddy that encompasses all training) -> This is also a lesson I will look to utilize in future works (e.g., how can I execute thoroughly on a smaller problem space that takes inspiration from larger ones)
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
 
-* I could user my system to capture what types of actions different types of guitar players would like to have a partner for or use, what songs they choose, what notes they play, how in tune they normally are, what are the most commons topics asked for help on
-* Other sensing modalities would be visual as mentioned so you could give feedback on body posture and hand positioning
-* Otherwise most of what you need for this purpose could be done auditory.  You could include additional analysis on top such as tracking the rythmn of strumming to see if it is on beat.
+* I could use my system to capture what the types of actions different guitar players would like to take with a GuitarBuddy (e.g., play together, play metronome, play accompanying instruments, teach me scales, teach me notes etc..) as well as user data like what songs they choose, what notes they play, how in tune they normally are, what are the most commons topics asked for help on. 
+* Other sensing modalities would be visual as mentioned so you could give feedback on body posture, hand positioning and better read their actions
+* You could include additional analysis on topof the audio currently tracked such as the rythmn of strumming to see if it is on beat.
 
