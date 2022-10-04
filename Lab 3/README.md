@@ -152,8 +152,12 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 A major improvement my design needed was a way to regulate speech. Sometimes people can go on longer than the recording would allow. 
 Because of this I wanted to find a way to let them know when to begin and when to stop. Another issue is knowing when to translate what. 
 When i first imagine the device I pictured a conversation bouncing back and forth people. However sometimes this doesnt always happen and something would need to be done. 
+
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 I think making use of the buttons would be great so people can prepare themselves to talk. It also be helpful to see when the device is recoding and when it is not. 
+
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 <img src="3.jpg" width="">
 
