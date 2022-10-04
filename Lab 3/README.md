@@ -179,7 +179,7 @@ User Test 1, user was given verbal version of user manual describing how to use 
 https://user-images.githubusercontent.com/112603386/193732168-2e83cf9e-86c1-4b34-b644-04adfa4d705f.mov
 
 
-
+Note: the last line from the device is hard to hear because I was recording the video close to the speaker playing the output music. After the user listened for a while, the speaker says "adding song to playlist, happy".
 
 Answer the following:
 
