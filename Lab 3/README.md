@@ -200,7 +200,7 @@ New Script:
 The new script
 ![new script flow](https://user-images.githubusercontent.com/112603386/193746685-c9b162a2-934e-4ee6-a836-726fbb8f6c4c.JPG)
 
-The device works by the user initially saying "Hello Music Dr." The device will say hello back, using the users name, and ask how they are feeling. Once the user responds they will say a phrase relating to the mood listed, and list a few genres of music that fall into that mood bucket. After this, the user will list which genres they want to hear. The device will automatically start playing music from the users playlist of the specified mood, and once all songs have been played will switch to discovery mode. If the playlist is empty, it will start off in discovery mode. At any point while a song is playing, users can use gestures and voice commands to skip song, and scan forward 30 seconds. The gesture to skip is swiping your hand from left to right, and the gesture to 
+The device works by the user initially saying "Hello Music Dr." The device will say hello back, using the users name, and ask how they are feeling. Once the user responds they will say a phrase relating to the mood listed, and list a few genres of music that fall into that mood bucket. After this, the user will list which genres they want to hear. The device will automatically start playing music from the users playlist of the specified mood, and once all songs have been played will switch to discovery mode. If the playlist is empty, it will start off in discovery mode. At any point while a song is playing, users can use gestures and voice commands to skip song, and scan forward 30 seconds. The gesture to skip is swiping your hand from left to right, and the gesture to scan forward is to circle your hand in a clockwise motion two times. At any point when the user is finished listening, they can say Goodbye Music Dr. to end the listening session.
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -216,21 +216,39 @@ https://user-images.githubusercontent.com/112603386/193732168-2e83cf9e-86c1-4b34
 
 Note: the last line from the device is hard to hear because I was recording the video close to the speaker playing the output music. After the user listened for a while, the speaker says at 1:03, "adding song to playlist, happy".
 
+User Test 2:
+
+
+https://user-images.githubusercontent.com/112603386/193747340-42d108de-67b7-4850-965f-9ceb5ca610ca.mp4
+
+
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+I thought the tests went pretty well overall. The idea behind the device isn't overly complicated so my users understood the point very quickly. The script being shorter and to the point let the music be the main part of the device, with the voice interactions from the device supporting the overall interaction rather than take away from the user experience by being too lengthy. One part of the script that could be fixed is how to turn on and off the device - it is likely that the user saying hello to someone besides the Music Dr could trigger it's online sequence.
+
+What didn't work well was the fact that I had to manually pick songs for each bucket of mood genres when the device was acting in discovery mode, which took a very long time. It would be much better if I could tap into Spotify's suggestion algorithm to do the work for me. 
 
 ### What worked well about the controller and what didn't?
 
 \*\**your answer here*\*\*
 
+The video camera controller worked well for gestures in theory, but I was wizarding this part of the scene. Once properly implemented I think it would work well, but the user would have to be facing directly at the camera for it to work. Where as the voice commands from the user could be said without looking at the device which is a much more realistic implementaiton.
+
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
+
+I learned that I have to have more cameras in the room so the user doesn't have to look directly at the device when gesturing. Because I can turn my neck and walk around, I can see peoples gestures fine - but a stationary camera has a hard time doing this. A more autonomous interaction needs more cameras or a swiveling camera.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
+I could create one master database of every users mood playlists to create further music suggestions. This will help the device in discovery mode to find relevant songs. Because the device is already adding songs to playlists and notes when users skip other songs, there is a lot of data being generated on user preferences (or dislike) for specific songs which can be used to better discover music. 
+
+Another sensing modality would be analyzing faces of users, to see how their emotions change as each song plays. If they are initially angry but start smiling when a certain song plays, that means the song is really doing its job and should be used for other users as well.
 
