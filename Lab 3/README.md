@@ -147,8 +147,29 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+The wording of the first iteration of my device was good, but almost too comprehensive. To actually start listening to music, the user first had to go through multiple questions. When I listen to music, I want to listen as quickly as possible, so I have cut down on several of my questions such as "Do you want to discover new music or listen to your XXX playlist?" Now the device will immidiately start playing your saved playlist for whatever mood you say you are in; if that playlist is empty it will switching into discovery mode. The user can also prompt the device by saying discover new music at any time.
+
+Because I removed some of the questions, this device will need an instruction manual to get started. I believe this is a better implementation because devices nowadays do not prompt you with how to use the device, but rather expect you to know certain options you have with your device before usage. My device will work like this, and will have a manual that tells users how to interact with the device before they start for the first time. This will include gestures and voice commands that work, as well as how to add different phrases or gestures for commands to perform currently implemented features (for example if they would prefer to swipe their hand up instead of to the right for go to next song command). The manual will also include information on what to expect in terms of when songs are added to user playlists (currently the device adds songs to playlists if the user listens for more than 30 seconds), how to change the threshold of when the songs are added, or change how far into a song the skip forward command actually moves you into a song, for example if you want the default skip ahead feature to skip forward 15 seconds instead of 30 seconds.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+Another improvement form my first iteration of the device is the accessibility of the device. In the first iteration the only option users had to interact with the device was using voice commands, but in this second iteration the user can use gesturing commands with their hands to have more choices of how to interact with the device. The users can now skip to next song, skip back a song, skip forward 30 seconds in a song they are listening to, and skip backwards 30 seconds in a song they are listening to. Of course the voice commands will also still work.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+Prototype:
+![prototype](https://user-images.githubusercontent.com/112603386/193738590-6cf2820d-5978-45bd-92c6-686e1d80ec07.png)
+This is the final prototype for my design. It is shaped like a cube and has a smiley face on the front with a camera hidden as the right eye which will capture the user gestures. There is an LCD screen which displays the current song playing. There are speakers on the top, left, and right sides of the cube, and a subwoofer in the back. There are rubber grips on the bottom to prevent the device from sliding. There are also USB and AUX ports on the back so the user has the option of using the device as a regular non interactive speaker if they prefer to play their own music from their phone.
+
+
+Verplank Diagram:
+![verplank](https://user-images.githubusercontent.com/112603386/193738880-70f1d02d-1b11-4d88-8f3a-4a363974b749.png)
+
+
+Storyboard:
+![storyboard](https://user-images.githubusercontent.com/112603386/193738917-ade166c1-34af-43ca-902a-da5da275f759.png)
+
 
 ## Prototype your system
 
@@ -163,6 +184,15 @@ The system should:
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+
+User Test 1, user was given verbal version of user manual describing how to use gesture features and voice commands, as well as how to enter discover mode or go straight into playlist.
+
+
+
+https://user-images.githubusercontent.com/112603386/193732168-2e83cf9e-86c1-4b34-b644-04adfa4d705f.mov
+
+
+Note: the last line from the device is hard to hear because I was recording the video close to the speaker playing the output music. After the user listened for a while, the speaker says at 1:03, "adding song to playlist, happy".
 
 Answer the following:
 
