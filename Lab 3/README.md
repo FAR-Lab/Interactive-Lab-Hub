@@ -201,11 +201,11 @@ The system works by connecting the microphone, Raspberry Pi, and the LED output.
 5. Make the LED blinks according to the Morse code
 
 I found the following [guide](https://morsecode.world/international/timing.html) for Morse code timing:
-Dot: 1 unit
-Dash: 3 units
-Intra-character space (the gap between dots and dashes within a character): 1 unit
-Inter-character space (the gap between the characters of a word): 3 units
-Word space (the gap between two words): 7 units
+- Dot: 1 unit
+- Dash: 3 units
+- Intra-character space (the gap between dots and dashes within a character): 1 unit
+- Inter-character space (the gap between the characters of a word): 3 units
+- Word space (the gap between two words): 7 units
 
 *Include videos or screencaptures of both the system and the controller.*
 
