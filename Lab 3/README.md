@@ -180,6 +180,10 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
                     '(':'-.--.', ')':'-.--.-'}
 ```
 
+Possible scenario:
+
+![image](https://user-images.githubusercontent.com/6238480/193720424-261a2e6a-328a-4f04-85b3-f1b0340141cc.png)
+
 ## Prototype your system
 
 The system should:
