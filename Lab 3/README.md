@@ -144,13 +144,27 @@ I also realized that my dialogue was a little too wordy. This is because I was t
 
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
+Feedback:
+Jackson: You need more songs in the discovery mode so you don't play metal songs instead of punk.
+
+Ken: This device acts sort of like a therapist, maybe you can have more voice interactions from the device be specific to moods.
+
+Yusef: How do you turn on the device? Is it always on?
+
+
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
 
+My device is now more personable, which is implemented by getting user names once during the first time the device is turned on. Now the device will say hello *username* instead of just asking how they are feeling.
+
 The wording of the first iteration of my device was good, but almost too comprehensive. To actually start listening to music, the user first had to go through multiple questions. When I listen to music, I want to listen as quickly as possible, so I have cut down on several of my questions such as "Do you want to discover new music or listen to your XXX playlist?" Now the device will immidiately start playing your saved playlist for whatever mood you say you are in; if that playlist is empty it will switching into discovery mode. The user can also prompt the device by saying discover new music at any time.
 
 Because I removed some of the questions, this device will need an instruction manual to get started. I believe this is a better implementation because devices nowadays do not prompt you with how to use the device, but rather expect you to know certain options you have with your device before usage. My device will work like this, and will have a manual that tells users how to interact with the device before they start for the first time. This will include gestures and voice commands that work, as well as how to add different phrases or gestures for commands to perform currently implemented features (for example if they would prefer to swipe their hand up instead of to the right for go to next song command). The manual will also include information on what to expect in terms of when songs are added to user playlists (currently the device adds songs to playlists if the user listens for more than 30 seconds), how to change the threshold of when the songs are added, or change how far into a song the skip forward command actually moves you into a song, for example if you want the default skip ahead feature to skip forward 15 seconds instead of 30 seconds.
+
+The device voice interactions now have certain phrases that are only said for current moods. For example if a user is happy it will say, Im glad to hear that! Or if a user is sad it will say, I'm sorry to hear that, I hope some music will make you feel better.
+
+The device also turns on and off by the user saying hello and goodbye to my degvice, Music Dr.
 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 
@@ -171,6 +185,7 @@ Storyboard:
 ![storyboard](https://user-images.githubusercontent.com/112603386/193738917-ade166c1-34af-43ca-902a-da5da275f759.png)
 
 
+
 ## Prototype your system
 
 The system should:
@@ -179,6 +194,13 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
+New Script:
+
+The new script
+![new script flow](https://user-images.githubusercontent.com/112603386/193746685-c9b162a2-934e-4ee6-a836-726fbb8f6c4c.JPG)
+
+The device works by the user initially saying "Hello Music Dr." The device will say hello back, using the users name, and ask how they are feeling. Once the user responds they will say a phrase relating to the mood listed, and list a few genres of music that fall into that mood bucket. After this, the user will list which genres they want to hear. The device will automatically start playing music from the users playlist of the specified mood, and once all songs have been played will switch to discovery mode. If the playlist is empty, it will start off in discovery mode. At any point while a song is playing, users can use gestures and voice commands to skip song, and scan forward 30 seconds. The gesture to skip is swiping your hand from left to right, and the gesture to 
 
 *Include videos or screencaptures of both the system and the controller.*
 
