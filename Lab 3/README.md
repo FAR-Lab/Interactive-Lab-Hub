@@ -235,7 +235,7 @@ Answer the following:
 
  * My voice was echoed during the video'd simulation.
  
- * In the future, I would also like to explore situations where the tuner is wrong and the user pushes back and answer questions like: How should the GuitarBuddy handle this? What of things would it say?  What if it was calibrated properly?  What if not?  Could we resync up the device using the user? -> would love to explore this in future labs.  Could you sync the pi so when you hit a pan it a makes a sound of your choosing (e.g., percussion) then hitting the table makes a drum.  You could then use anywhere you are as a drumset or other instrument.
+ * In the future, I would also like to explore situations where the tuner is wrong and the user pushes back and answer questions like: How should the GuitarBuddy handle this? What kind of things would it say?  What if it was calibrated properly?  What if not?  Could we resync up the device using the user? -> would love to explore this in future labs.  Could you sync the pi so when you hit a pan it a makes a sound of your choosing (e.g., percussion) then hitting the table makes a drum.  You could then use anywhere you are as a drumset or other instrument.
 
 \*\**your answer here*\*\*
 
