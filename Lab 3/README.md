@@ -210,6 +210,14 @@ Word space (the gap between two words): 7 units
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+First test with Michael:
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/SBBszA5ADiE/sddefault.jpg)](https://www.youtube.com/watch?v=SBBszA5ADiE "Morse Code Translator")
+
+Second test with Yongky:
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/p1ObBAnoRz4/sddefault.jpg)](https://www.youtube.com/watch?v=p1ObBAnoRz4 "Morse Code Translator")
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
