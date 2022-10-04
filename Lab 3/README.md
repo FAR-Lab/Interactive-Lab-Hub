@@ -172,6 +172,15 @@ The system should:
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+User Test 1, user was given verbal version of user manual describing how to use gesture features and voice commands, as well as how to enter discover mode or go straight into playlist.
+
+
+
+https://user-images.githubusercontent.com/112603386/193732168-2e83cf9e-86c1-4b34-b644-04adfa4d705f.mov
+
+
+
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
