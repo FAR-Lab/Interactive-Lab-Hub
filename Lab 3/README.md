@@ -155,6 +155,7 @@ When i first imagine the device I pictured a conversation bouncing back and fort
 
 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
 I think making use of the buttons would be great so people can prepare themselves to talk. It also be helpful to see when the device is recoding and when it is not. 
 
 
