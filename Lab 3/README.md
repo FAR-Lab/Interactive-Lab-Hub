@@ -111,7 +111,16 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+
 <img src="dialogue.png" width="">
+
+
+My idea came very quickly to me. My grandma does not speak english but luckily we both speak spanish.
+This lead me to create a device that allows people to communicate to one another regardless of language.
+Ideally the device would detect the language being spoken and then translate. It would make the conversation more seamless and less awkward.
+I really wanted to work on this problem and didn't think about any other type of voice activated devices. 
+
 
 ### Acting out the dialogue
 
@@ -139,8 +148,14 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+A major improvement my design needed was a way to regulate speech. Sometimes people can go on longer than the recording would allow. 
+Because of this I wanted to find a way to let them know when to begin and when to stop. Another issue is knowing when to translate what. 
+When i first imagine the device I pictured a conversation bouncing back and forth people. However sometimes this doesnt always happen and something would need to be done. 
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+I think making use of the buttons would be great so people can prepare themselves to talk. It also be helpful to see when the device is recoding and when it is not. 
 3. Make a new storyboard, diagram and/or script based on these reflections.
+<img src="3.jpg" width="">
 
 ## Prototype your system
 
@@ -153,24 +168,26 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+[![video](screen.png)](https://www.youtube.com/watch?v=4T-vU5wmZLo)
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+\*\**I think it helped having buttons allowing the user to pick the langue they were about to speak in. It solved the issue in which a person can say back to back things. The color changing screen is also very helpful in telling people when to stop talking. However capturing speech was difficult. It didn't give enough people to think as they talked since the recording would just stop. Another issue was the translations themselves. They were not very accurate.*\*\*
+
 
 ### What worked well about the controller and what didn't?
+\*\**I think being able to press an actual button was better than a virtual prompt or typing something into console. I also liked how simple it was to use. It was just click and talk. It makes it very easy for anyone and everyone to use it. I wish I was able to have more support for other languages as well. The next iteration would most likely include this. *\*\*
 
-\*\**your answer here*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+\*\**I think using some of the sensors provided might be a good idea. Using the LEDs instead of screen would've been another option to have considered. Another take away is creating a transcript of what was already said. This would let people quickly go back to what other people said.  *\*\*
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+\*\**I think conversations had while using the device can be saved. The data of both what a person says and what is translated is already there. It just simply needs to be save elsewhere. That is really the only data that makes sense to capture. *\*\*
 
