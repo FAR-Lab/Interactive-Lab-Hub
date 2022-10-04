@@ -147,7 +147,15 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+The wording of the first iteration of my device was good, but almost too comprehensive. To actually start listening to music, the user first had to go through multiple questions. When I listen to music, I want to listen as quickly as possible, so I have cut down on several of my questions such as "Do you want to discover new music or listen to your XXX playlist?" Now the device will immidiately start playing your saved playlist for whatever mood you say you are in; if that playlist is empty it will switching into discovery mode. The user can also prompt the device by saying discover new music at any time.
+
+Because I removed some of the questions, this device will need an instruction manual to get started. I believe this is a better implementation because devices nowadays do not prompt you with how to use the device, but rather expect you to know certain options you have with your device before usage. My device will work like this, and will have a manual that tells users how to interact with the device before they start for the first time. This will include gestures and voice commands that work, as well as how to add different phrases or gestures for commands to perform currently implemented features (for example if they would prefer to swipe their hand up instead of to the right for go to next song command). The manual will also include information on what to expect in terms of when songs are added to user playlists (currently the device adds songs to playlists if the user listens for more than 30 seconds), how to change the threshold of when the songs are added, or change how far into a song the skip forward command actually moves you into a song, for example if you want the default skip ahead feature to skip forward 15 seconds instead of 30 seconds.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+Another improvement form my first iteration of the device is the accessibility of the device. In the first iteration the only option users had to interact with the device was using voice commands, but in this second iteration the user can use gesturing commands with their hands to have more choices of how to interact with the device. The users can now skip to next song, skip back a song, skip forward 30 seconds in a song they are listening to, and skip backwards 30 seconds in a song they are listening to. Of course the voice commands will also still work.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
