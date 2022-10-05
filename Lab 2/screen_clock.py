@@ -74,9 +74,9 @@ normal_size = 135, 240
 
 # Image resize 
 images = []
-images = glob.glob("./vine/*.png")
+images = glob.glob("./vin2/*.png")
 print(images)
-images = sorted(images)
+images = sorted(images) # 01 02 11 12 
 print(images)
 for image_file in images:
     #DEBUG
