@@ -159,6 +159,12 @@ Answer the following:
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+Speaking chopsticks 
 
-\*\**your answer here*\*\*
+
+![20221006_100404](https://user-images.githubusercontent.com/112519146/194337515-bb50aab9-ab59-47e8-be91-270ef3c6fc93.jpg)
+
+
+https://user-images.githubusercontent.com/112519146/194337458-a8861a47-9e3a-45a0-9ca3-4d569ca0d74a.mp4
+
 
