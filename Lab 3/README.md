@@ -159,7 +159,7 @@ Answer the following:
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-Speaking chopsticks 
+The idea is Speakig chopsticks. When you asked how much the food is spicy or not, they will answer "it is not so spicy for you but it might spicy for your friends". Also, it will give the information of the food. 
 
 
 ![20221006_100404](https://user-images.githubusercontent.com/112519146/194337515-bb50aab9-ab59-47e8-be91-270ef3c6fc93.jpg)
