@@ -147,15 +147,14 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+Human have to controll the system to say something.
+The system can say words.
 
-### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+- Need to react fast to human
+- Device cannot see the face reaction so It is defficult to understand what the person actually think
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
@@ -164,7 +163,7 @@ The idea is Speakig chopsticks. When you asked how much the food is spicy or not
 
 ![20221006_100404](https://user-images.githubusercontent.com/112519146/194337515-bb50aab9-ab59-47e8-be91-270ef3c6fc93.jpg)
 
-
+Video of experiment
 https://user-images.githubusercontent.com/112519146/194337458-a8861a47-9e3a-45a0-9ca3-4d569ca0d74a.mp4
 
 
