@@ -164,6 +164,7 @@ The idea is Speakig chopsticks. When you asked how much the food is spicy or not
 ![20221006_100404](https://user-images.githubusercontent.com/112519146/194337515-bb50aab9-ab59-47e8-be91-270ef3c6fc93.jpg)
 
 Video of experiment
+
 https://user-images.githubusercontent.com/112519146/194337458-a8861a47-9e3a-45a0-9ca3-4d569ca0d74a.mp4
 
 
