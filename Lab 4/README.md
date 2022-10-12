@@ -177,7 +177,9 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+A few questions that come to mind are 1) How long could the wires be?  2) How close does the raspberry pi have to be to the sensors? 3) How close do the sensors have to be to whatever they are sensing?  4) How can you make those happen without having a large device, long wires or ugly aestehtic?
 
+In order to understand these, you would need to physically prototype the device and test it to see if it has met your requirements.
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
@@ -223,15 +225,23 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-A few questions that come to mind are 1) How long could the wires be?  2) How close does the raspberry pi have to be to the sensors? 3) How close do the sensors have to be to whatever they are sensing?  4) How can you make those happen without having a large device, long wires or ugly aestehtic?
+A few questions the sketches raised were for leading ideas
 
-In order to understand these, you would need to physically prototype the device and test it to see if it has met your requirements.
+Flexibility tracker 
+1) Would it be uncomfortable for the user to hit the knobs as that would be a stretch?  
+2) Is there too many knobs that would make it infeasible with the Pi?
+3) Is it helpful to see your past scores? What other functioality would the user want?
+
+and Hungry Hippo
+1) Could you get everything to work robustly enough?
+2) WOuld the proximity detector be accurate and measure it in time to react and chomp down?
+3) Is there too many moving parts and wires that would limit it?
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-The rationale from this choice was it was a design that the proximity sensor would always have a consistent easy to read surface that would give good results.  Additionally this allowed the rapsberry pi to be quite close otherwise.
+The rationale from this choice was it was a design that the proximity sensor would always have a consistent easy to read surface that would give good results.  Additionally this allowed the rapsberry pi to be quite close otherwise.  Additionally, it allowed the pi to be near the sensor and user interface despite still being a rather large overall design.  I thought the 3 bottoms gave you enough flexibility to do different exercises so that it might be useful but was sparse enough to be extremely easy to use and work within our design constraints.
 
 Build a cardbord prototype of your design.
 
