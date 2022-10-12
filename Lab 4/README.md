@@ -262,6 +262,8 @@ For now I think putting a screen in the back of the pumpkin would be best. This 
 For our jack-o-lantern, we need it to fit our camera in it. Our camera is not too large so our jack-o-lantern can be on the small to medium size. I also think we won’t do a spherical shape with our prototype. We might be able to 3-D print a spherical shape but because of the size, it might be too time-consuming. So for this, I think a hexagonal prism would work best. It is close enough to a pumpkin and easy to cut out. This would make prototyping quick and easy. Should the size be too small or to large we can quickly make a new one and test it again. It also lets us change parts of the pumpkin out. If we don't like our face or it doesn’t work with our sensor we can cut it out and start again.  Another important note is we need to make it viewable. This is a decoration and people should be able to see it. So it cant be small. 
 
 Build a cardbord prototype of your design.
+<img src="p2.jpg" width="">
+<img src="p2.jpg" width="">
 
 **\*\*\*Document your rough prototype.\*\*\***
 
