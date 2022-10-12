@@ -6,7 +6,15 @@ import pygame
 import time
 mixer.init() #Initialzing pyamge mixer
 
-song_1 = pygame.mixer.Sound('scratch.mp3')
+song_1 = pygame.mixer.Sound('sample_1a.mp3')
+s1 = pygame.mixer.Sound('s1.mp3')
+s2 = pygame.mixer.Sound('s2.mp3')
+s3 = pygame.mixer.Sound('s3.mp3')
+s4 = pygame.mixer.Sound('s4.mp3')
+s5 = pygame.mixer.Sound('s5.mp3')
+s6 = pygame.mixer.Sound('s6.mp3')
+s7 = pygame.mixer.Sound('s7.mp3')
+s8 = pygame.mixer.Sound('s8.mp3')
 
 mixer.music.load('umeda.mp3') #Loading Music File
 
@@ -20,16 +28,32 @@ def on_press(key):
     if key == keyboard.Key.space:
         if paused == True:     # time to play audio
             print ('play pressed')
-            # pygame.mixer.music.unpause()
-            song_1.stop()
+            pygame.mixer.music.unpause()
+            # song_1.stop()
             paused = False
             return False
         elif paused == False:   # time to pause audio
             print ('pause pressed')
-            # pygame.mixer.music.pause()
-            song_1.play(0)
+            pygame.mixer.music.pause()
+            # song_1.play(0)
             paused = True
             return False
+    elif key.char == 'z':
+        s1.play(0)
+    elif key.char == 'x':
+        s2.play(0)
+    elif key.char == 'c':
+        s3.play(0)
+    elif key.char == 'v':
+        s4.play(0)
+    elif key.char == 'b':
+        s5.play(0)
+    elif key.char == 'n':
+        s6.play(0)
+    elif key.char == 'm':
+        s7.play(0)
+    elif key.char == ',':
+        s8.play(0)
     return False
 
 while True:
