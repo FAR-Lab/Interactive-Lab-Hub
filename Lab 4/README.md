@@ -176,9 +176,24 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+<img src="s1.png" width="">
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+How will a person know how to interact with the device?
+
+Ideas like the jewelry box and medicine box display information. How will users input the information they need? Can anyone understand using their terminal for that? Do we need a separate app? Can I use buttons somehow for this? Why use these ideas instead of just writing a note down to remember? 
+
+For the candy dispenser, how many candies should it dispense? How can it be programmed to drop a specific number of candies? How should we handle when there are no candies left? Will this be a good solution to having a bowl of candy out during Halloween? Would this deter kids from taking more than one piece of candy? 
+
+For our jack-o-lantern where do we plan on putting it? If it is outside how can we manage harsh weather? How can it survive a rainfall? Can people interact with it more? What if it also held candy as well? Will people be able to hear the noise it makes? 
+
+For our baby toy, how can we make sure it is safe for babies? Is there a way to avoid the baby from just sticking it into their mouths? Maybe this is only for older babies. Can they learn something from this toy? Can this be a way to introduce babies to science and technology? Will parents want to give this to their baby? How will babies play with this? What do they like and what do they not? 
+
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+I really like the pumpkin idea. It fits perfect with the season and has tons of potential. 
 
 
 ### Part D
@@ -221,16 +236,36 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+<img src="s2.png" width="">
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+One of the major questions most of the designs raise is: why do we need to display information? 
+Is there a way to present relvant information to the user?
+What might a user want to see when interacting with a pumpkin?
+How can I make the pumpkin intresting enough so a person can view the display?
+Can the display get the attention of the user so that they will read it?
+How accurate can the sensors work inside the cardboard prototype? 
+Will they be able to measure the outside of the pumpkin?
+Where can they be located so they can measure correctly?
+Will the sensors still function is harsh weather conditions? 
+How will a person know how to interact with the pumpkin if it has to be touched?
+What is a good distance to determine when to light up?
+ 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+For now I think putting a screen in the back of the pumpkin would be best. This is because people interacting with the pumpkin don’t need it. It would also make the pumpkin look more normal and surprise people when they interact with it. Unless I can brainstorm a better usage for the screen I don't fully need it.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+For our jack-o-lantern, we need it to fit our camera in it. Our camera is not too large so our jack-o-lantern can be on the small to medium size. I also think we won’t do a spherical shape with our prototype. We might be able to 3-D print a spherical shape but because of the size, it might be too time-consuming. So for this, I think a hexagonal prism would work best. It is close enough to a pumpkin and easy to cut out. This would make prototyping quick and easy. Should the size be too small or to large we can quickly make a new one and test it again. It also lets us change parts of the pumpkin out. If we don't like our face or it doesn’t work with our sensor we can cut it out and start again.  Another important note is we need to make it viewable. This is a decoration and people should be able to see it. So it cant be small. 
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+I first began prototyping with a box cutter. I knew I wanted to use cardboard and was confident I could just draw out the shapes and cut them out. Unfourntly this just didn't work well. It took a very long and the pieces came out uneven and ugly. I quickly realized I needed a better solution. I then decided to go to campus and use the laser cutter. Thankfully I went to  lab and learned how to use it. This made cutting incredibly quick. I first did the hexagon and would base my other shapes on it. I did test sizes until I found a size that worked. When I was happy I began cutting out more shapes. Laser cutting was very straightforward and got it done quickly. I didn't think to cut out the face and would have to do it later. When I got home I hot glued all the pieces together. My final piece was the face. Here my sister helped me draw it out since I am not good at drawing. When we had a face that worked we cut it out and glues it on. With that our cardboard prototype was done. Next up is getting functionality on the Pi.
 
 LAB PART 2
 
