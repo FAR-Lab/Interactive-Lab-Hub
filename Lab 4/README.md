@@ -223,9 +223,15 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+A few questions that come to mind are 1) How long could the wires be?  2) How close does the raspberry pi have to be to the sensors? 3) How close do the sensors have to be to whatever they are sensing?  4) How can you make those happen without having a large device, long wires or ugly aestehtic?
+
+In order to understand these, you would need to physically prototype the device and test it to see if it has met your requirements.
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The rationale from this choice was it was a design that the proximity sensor would always have a consistent easy to read surface that would give good results.  Additionally this allowed the rapsberry pi to be quite close otherwise.
 
 Build a cardbord prototype of your design.
 
