@@ -176,10 +176,17 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+In this project, I came up with the idea of having a portable DJ turntable that is no bigger than the palm of your hand to make it a fun instrument to play with. I was inspired when watching DJ sets and thought it will be cool if there is a portable version that I can just plug to my computer give me music mixing ability.
+
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+I plan to incorporate several buttons, a rotary encoder, and a proximity sensor. A few questions came to mind: how sensitive will the buttons be, especially if using the capacitive sensors? how hard will it be to rotate the encoder? how sensitive will the proximity sensor be?
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+I will use the proximity sensor for testing. If it does not work, I will use the rotary encoder instead for the main turntable function.
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -221,11 +228,23 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+Having the limitation of being palm-sized, I came up with a few designs that may work.
+
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195495655-7755090d-af7e-4f50-b9f8-92bb6ef8ac2b.png">
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+During the sketching process, I found that it can be quite difficult to come up with a design that is aesthetically pleasing while at the same time intuitive for people to easily use. I also found it difficult to decide whether to add knobs, touch pads, buttons, rotaries, etc.
+
+I would try several version of prototypes and test them with potential users to find out what works best.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+I will try to create the wooden version to prototype.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+I am picking this design because it has quite a novel feature. What if I can make a turntable without the "turn" object? I believe I can simulate the similar effect using the proximity sensor.
 
 Build a cardbord prototype of your design.
 
