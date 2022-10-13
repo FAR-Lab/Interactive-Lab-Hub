@@ -229,11 +229,31 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+![prototypes 1-3](https://user-images.githubusercontent.com/112603386/195516169-39b2275c-fc73-4e30-b7ec-1b8113175f81.jpg)
+![prototypes 4-5](https://user-images.githubusercontent.com/112603386/195516184-f682230d-893d-4ee5-8e7d-5b565cb7ff70.jpg)
+The foot pad in my last prototype can include a proximity sensor to either be a whammy bar or to slowly ramp on an effect like distortion.
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+Drawing these protoypes makes me realize that I am a little undecided on what I want the true interaction to look like. Is more complicated better (more sensors/pads) or is simple better? Sometimes too many options can overcomplicate a good simple design.
+What do I want the controller to look like? More like a videogame controller (like an Xbox controller) or more like a beat pad? In terms of complication I think the addition of being able to switch between drums/percussion instruments and a piano/melodical instrument adds a nice variety to the device that can be ignored if a user does not like the switching option. Similary, the foot pedal can also not be used if the users do not want that addition. 
+
+How do I want the game to be played? Is it an additive game where each player adds one note at a time, switching off? Or is it in rounds to see who can follow the other user for the longest, then switch once they mess up.
+
+If players can use random objects in their home as pads, ie twizzlers, then this might generate more fun and flexibility.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+The display I will be picking is my 5th prototype, as I think it adds the most options while letting the user not use those additions if they are not wanted.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The design needs to be simple enough and ergonomic for the user. There are many beat pads on the market so this is a natural way for someone to use this device. Users will have the same sounds on each of their controllers. The LCD will show the score, for example - User 1 current streak: 7 notes. 
+
+The 4x4 pad can be unattached to the wires and be individually connected to objects of the users choice, like twizzlers, if desired. The pad is simply the default design for users to start out with.
+
+The AUX input in the back acts as a backing track for users if they would like to make melodies to current songs. If they put in the key of the song the device will automatically make the pads in the correct scale so it sounds good over the user inputted song.
 
 Build a cardbord prototype of your design.
 
