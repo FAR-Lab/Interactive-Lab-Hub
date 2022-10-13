@@ -264,7 +264,7 @@ Placing the proximity sensor in place with a simple mounting putty
 
 Adding other sensors to their rough positions in the final product
 
-![SAM_9984](https://user-images.githubusercontent.com/6238480/195503133-0b230e58-ec34-41fa-9c57-bb27e35ead4c.JPG height="200")
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195503133-0b230e58-ec34-41fa-9c57-bb27e35ead4c.JPG">
 
 LAB PART 2
 
