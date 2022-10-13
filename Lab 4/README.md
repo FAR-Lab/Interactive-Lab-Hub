@@ -175,6 +175,10 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+![image](https://user-images.githubusercontent.com/112022260/195472101-2aa11ecf-49c7-43a1-822a-f63746db80c0.png)
+![image](https://user-images.githubusercontent.com/112022260/195472124-e45d43ac-0afe-4338-a5ca-a6b67aa53dd3.png)
+![image](https://user-images.githubusercontent.com/112022260/195472145-e79cf6ff-0214-4ae2-abc6-d287e3f3e190.png)
+![image](https://user-images.githubusercontent.com/112022260/195472162-9b1aaacd-8a13-4b25-be93-3984dd536783.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 A few questions that come to mind are 1) How long could the wires be?  2) How close does the raspberry pi have to be to the sensors? 3) How close do the sensors have to be to whatever they are sensing?  4) How can you make those happen without having a large device, long wires or ugly aestehtic?
@@ -222,6 +226,12 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![image](https://user-images.githubusercontent.com/112022260/195471934-8d2546f1-c39e-4fa9-990a-6e8854891a66.png)
+![image](https://user-images.githubusercontent.com/112022260/195471953-7623fe56-1339-4b87-beee-3a6aafdd37da.png)
+![image](https://user-images.githubusercontent.com/112022260/195471970-232ad844-bb10-4394-ab6b-9bb510e837dd.png)
+![image](https://user-images.githubusercontent.com/112022260/195471998-af10b7c3-a25c-4cd5-ab3c-60ae9015a5d9.png)
+![image](https://user-images.githubusercontent.com/112022260/195472025-61cfff4f-8091-4b82-bc00-cfc6373c7143.png)
+![image](https://user-images.githubusercontent.com/112022260/195472070-478cdef0-4bea-418e-90e3-c0e8bf7b8c33.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
