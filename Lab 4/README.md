@@ -250,6 +250,21 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+Finding the right box size to house the Raspberry Pi. The Airpods box fits just nicely!
+
+![SAM_9977](https://user-images.githubusercontent.com/6238480/195502984-707825ab-cf59-4d2b-a060-c76d565672e8.JPG)
+
+Adding a wooden coaster on top to simulate the wooden surface finishing
+
+![SAM_9979](https://user-images.githubusercontent.com/6238480/195503031-353d2c37-9bfb-4898-9603-09685febbac0.JPG)
+
+Placing the proximity sensor in place with a simple mounting putty
+
+![SAM_9982](https://user-images.githubusercontent.com/6238480/195503084-ee8585b5-963a-490c-834d-bdb9d4bfc9f3.JPG)
+
+Adding other sensors to their rough positions in the final product
+
+![SAM_9984](https://user-images.githubusercontent.com/6238480/195503133-0b230e58-ec34-41fa-9c57-bb27e35ead4c.JPG)
 
 LAB PART 2
 
