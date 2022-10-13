@@ -252,19 +252,23 @@ Build a cardbord prototype of your design.
 
 Finding the right box size to house the Raspberry Pi. The Airpods box fits just nicely!
 
-![SAM_9977](https://user-images.githubusercontent.com/6238480/195502984-707825ab-cf59-4d2b-a060-c76d565672e8.JPG)
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195502984-707825ab-cf59-4d2b-a060-c76d565672e8.JPG">
 
 Adding a wooden coaster on top to simulate the wooden surface finishing
 
-![SAM_9979](https://user-images.githubusercontent.com/6238480/195503031-353d2c37-9bfb-4898-9603-09685febbac0.JPG)
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195503031-353d2c37-9bfb-4898-9603-09685febbac0.JPG">
 
 Placing the proximity sensor in place with a simple mounting putty
 
-![SAM_9982](https://user-images.githubusercontent.com/6238480/195503084-ee8585b5-963a-490c-834d-bdb9d4bfc9f3.JPG)
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195503084-ee8585b5-963a-490c-834d-bdb9d4bfc9f3.JPG">
 
 Adding other sensors to their rough positions in the final product
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195503133-0b230e58-ec34-41fa-9c57-bb27e35ead4c.JPG">
+
+Voila! it will look something like this. But don't worry, the final product should look much better 😅
+
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/195503707-9762b500-4926-4345-80b6-1d8f66a78d30.JPG">
 
 LAB PART 2
 
