@@ -185,6 +185,8 @@ A few questions that come to mind are 1) How long could the wires be?  2) How cl
 
 In order to understand these, you would need to physically prototype the device and test it to see if it has met your requirements.
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+![IMG-1681](https://user-images.githubusercontent.com/112022260/195472774-88c126ed-f8b2-489a-a50a-25746e272186.jpg)
+![IMG-1682](https://user-images.githubusercontent.com/112022260/195472779-6e55e4e7-cdc1-46b2-b300-f5d348d50db8.jpg)
 
 
 ### Part D
@@ -248,6 +250,9 @@ and Hungry Hippo
 3) Is there too many moving parts and wires that would limit it?
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+![IMG-1677](https://user-images.githubusercontent.com/112022260/195472738-003ff602-1e08-4e95-936c-bd3865844dd0.jpg)
+![IMG-1678](https://user-images.githubusercontent.com/112022260/195472745-4579049d-0c27-4f50-b0c8-e04268373ca5.jpg)
+![IMG-1680](https://user-images.githubusercontent.com/112022260/195472755-a12dcf4b-af81-4b3d-b780-80a47b5d1d00.jpg)
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
