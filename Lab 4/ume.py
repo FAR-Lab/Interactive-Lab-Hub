@@ -71,7 +71,7 @@ def on_press(key):
     return False
 
 while True:
-    if apds.proximity > 50:
+    if apds.proximity > 10:
         s1.play(0)
         print(apds.proximity)
     time.sleep(0.5)
