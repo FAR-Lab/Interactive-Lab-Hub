@@ -6,15 +6,15 @@ import pygame
 import time
 mixer.init() #Initialzing pyamge mixer
 
-# song_1 = pygame.mixer.Sound('sample_1a.mp3')
-s1 = pygame.mixer.Sound('s1.mp3')
-s2 = pygame.mixer.Sound('s2.mp3')
-s3 = pygame.mixer.Sound('s3.mp3')
-s4 = pygame.mixer.Sound('s4.mp3')
-s5 = pygame.mixer.Sound('s5.mp3')
-s6 = pygame.mixer.Sound('s6.mp3')
-s7 = pygame.mixer.Sound('s7.mp3')
-s8 = pygame.mixer.Sound('s8.mp3')
+# song_1 = pygame.mixer.music('sample_1a.mp3')
+s1 = pygame.mixer.music('s1.mp3')
+s3 = pygame.mixer.music('s3.mp3')
+s2 = pygame.mixer.music('s2.mp3')
+s4 = pygame.mixer.music('s4.mp3')
+s5 = pygame.mixer.music('s5.mp3')
+s6 = pygame.mixer.music('s6.mp3')
+s7 = pygame.mixer.music('s7.mp3')
+s8 = pygame.mixer.music('s8.mp3')
 
 mixer.music.load('umeda.mp3') #Loading Music File
 
