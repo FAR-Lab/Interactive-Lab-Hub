@@ -320,12 +320,13 @@ Document all the prototypes and iterations you have designed and worked on! Agai
  *Shows what the device can do
  ![unnamed](https://user-images.githubusercontent.com/112022260/196252915-c73956c4-5649-471c-bf13-90e74dde56a7.jpg)
  
+ #### Video tests
  https://drive.google.com/file/d/1kd75YwVRWrUsLdOt5x7nANr839tY4izO/view?usp=sharing
  https://drive.google.com/file/d/1sBALNfVxAzWcfLsknzRklYshePA9_2rU/view?usp=sharing
  https://drive.google.com/file/d/1bWTWAoasz1yFDlopHbfL3aW43QkA5DQ2/view?usp=sharing
 
 
-* Reflections
+##### Reflections
  * A solid base should be built in to rest the feet on
  * The push area should be extended for taller and more flexible people
  * It would help to have runners to maintain an even push length
