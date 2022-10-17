@@ -73,7 +73,7 @@ def on_press(key):
 while True:
     if apds.proximity > 0:
         s1.play(0)
-        print("sensor")
+        print(apds.proximity)
     time.sleep(0.5)
     
 # mixer.music.stop()
