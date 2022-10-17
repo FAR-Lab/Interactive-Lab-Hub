@@ -4,6 +4,7 @@ from pynput import keyboard
 from pygame import mixer
 import pygame
 import time
+import board
 
 # Configuration for proximity sensor
 import busio
