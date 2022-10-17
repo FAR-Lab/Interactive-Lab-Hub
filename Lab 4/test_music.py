@@ -8,6 +8,9 @@ import time
 pygame.mixer.pre_init(44100, 16, 2, 4096)
 mixer.init() #Initialzing pyamge mixer
 
+DISPLAYSURF = pygame.display.set_mode((400, 300))
+pygame.display.set_caption("Sound!!")
+
 # song_1 = pygame.mixer.Sound('sample_1a.mp3')
 s1 = pygame.mixer.Sound('s1.mp3')
 s2 = pygame.mixer.Sound('s2.mp3')
