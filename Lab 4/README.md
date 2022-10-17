@@ -306,14 +306,14 @@ Document all the prototypes and iterations you have designed and worked on! Agai
  *Shows how the device should look, feel, sit, weigh, etc.
  
  Considerations brainstormed and from feedback
- **Look*
+ ##### Look
   *  It should be approachable by everyone particularly younger people who may be using it in schools and on sports teams
- **Feel*
+ ##### Feel
   * Feel intuitive and clear on what to do right from the start
   * Easily customized to school or tean colors
   * Smaller and easily storyed or put together
   * Not too cold to the touch
- **Material*
+ ##### Material
   * Lightweight but sturdy for tough treatment and long term use
   
 #### "Works like"
