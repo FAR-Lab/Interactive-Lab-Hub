@@ -6,7 +6,7 @@ import pygame
 import time
 mixer.init() #Initialzing pyamge mixer
 
-song_1 = pygame.mixer.Sound('sample_1a.mp3')
+# song_1 = pygame.mixer.Sound('sample_1a.mp3')
 s1 = pygame.mixer.Sound('s1.mp3')
 s2 = pygame.mixer.Sound('s2.mp3')
 s3 = pygame.mixer.Sound('s3.mp3')
