@@ -5,7 +5,15 @@ from pygame import mixer
 import pygame
 import time
 
-pygame.mixer.pre_init(44100, 16, 2, 4096)
+# Configuration for proximity sensor
+import busio
+import adafruit_apds9960.apds9960
+from adafruit_apds9960.apds9960 import APDS9960
+i2c = board.I2C()
+apds = APDS9960(i2c)
+apds.enable_proximity = True
+
+# pygame.mixer.pre_init(44100, 16, 2, 4096)
 mixer.init() #Initialzing pyamge mixer
 
 # DISPLAYSURF = pygame.display.set_mode((400, 300))
@@ -13,7 +21,7 @@ mixer.init() #Initialzing pyamge mixer
 
 # song_1 = pygame.mixer.Sound('sample_1a.mp3')
 s1 = pygame.mixer.Sound('s1.wav')
-# s2 = pygame.mixer.Sound('s2.mp3')
+#s2 = pygame.mixer.Sound('s2.mp3')
 #s3 = pygame.mixer.Sound('s3.mp3')
 #s4 = pygame.mixer.Sound('s4.mp3')
 #s5 = pygame.mixer.Sound('s5.mp3')
@@ -65,6 +73,7 @@ while True:
     with keyboard.Listener(on_press=on_press) as listener:
         listener.join()
     time.sleep(0.1)
-
+    if apds.proximity > 0:
+        s1.play(0)
 # mixer.music.stop()
 
