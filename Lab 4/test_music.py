@@ -4,6 +4,8 @@ from pynput import keyboard
 from pygame import mixer
 import pygame
 import time
+
+pygame.mixer.pre_init(44100, 16, 2, 4096)
 mixer.init() #Initialzing pyamge mixer
 
 # song_1 = pygame.mixer.Sound('sample_1a.mp3')
