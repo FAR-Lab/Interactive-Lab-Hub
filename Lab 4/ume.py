@@ -74,7 +74,7 @@ while True:
     if apds.proximity > 0:
         s1.play(0)
         print("sensor")
-    time.sleep(0.1)
+    time.sleep(0.5)
     
 # mixer.music.stop()
 
