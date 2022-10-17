@@ -302,7 +302,42 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+#### "Looks like"
+ *Shows how the device should look, feel, sit, weigh, etc.
+ 
+ Considerations brainstormed and from feedback
+ * Look
+  *  It should be approachable by everyone particularly younger people who may be using it in schools and on sports teams
+ * Feel
+  * Feel intuitive and clear on what to do right from the start
+  * Easily customized to school or tean colors
+  * Smaller and easily storyed or put together
+  * Not too cold to the touch
+ * Material
+  * Lightweight but sturdy for tough treatment and long term use
+  
+#### "Works like"
+ *Shows what the device can do
+ ![unnamed](https://user-images.githubusercontent.com/112022260/196252915-c73956c4-5649-471c-bf13-90e74dde56a7.jpg)
+ 
+ https://drive.google.com/file/d/1kd75YwVRWrUsLdOt5x7nANr839tY4izO/view?usp=sharing
+ https://drive.google.com/file/d/1sBALNfVxAzWcfLsknzRklYshePA9_2rU/view?usp=sharing
+ https://drive.google.com/file/d/1bWTWAoasz1yFDlopHbfL3aW43QkA5DQ2/view?usp=sharing
+
+
+* Reflections
+ * A solid base should be built in to rest the feet on
+ * The push area should be extended for taller and more flexible people
+ * It would help to have runners to maintain an even push length
+ * A timer should be incorporated for improved functionality
+#### "Acts like"
+ *Shows how a person would interact with the device
+ 
+ 
+ #### Prototyping
+![IMG-0050](https://user-images.githubusercontent.com/112022260/196252819-ff46bcef-e143-4f65-975d-30284cfb228c.jpg)
+
+* Initial cuts we're too smaller
+
+![IMG-1691](https://user-images.githubusercontent.com/112022260/196252870-fc2babae-b1f9-4b64-8d84-041e306dd8ff.jpg)![IMG-0051](https://user-images.githubusercontent.com/112022260/196252883-a80eed8a-5190-4593-a2b6-5ca437fd7a4b.jpg)
 
