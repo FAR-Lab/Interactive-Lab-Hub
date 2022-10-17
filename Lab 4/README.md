@@ -340,5 +340,8 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 * Initial cuts we're too smaller
 
-![IMG-1691](https://user-images.githubusercontent.com/112022260/196252870-fc2babae-b1f9-4b64-8d84-041e306dd8ff.jpg)![IMG-0051](https://user-images.githubusercontent.com/112022260/196252883-a80eed8a-5190-4593-a2b6-5ca437fd7a4b.jpg)
+![IMG-1691](https://user-images.githubusercontent.com/112022260/196252870-fc2babae-b1f9-4b64-8d84-041e306dd8ff.jpg)
+![IMG-0052](https://user-images.githubusercontent.com/112022260/196256067-64a299f0-9f8c-464b-b825-c8e746d6c2de.jpg)
+![IMG-0051](https://user-images.githubusercontent.com/112022260/196252883-a80eed8a-5190-4593-a2b6-5ca437fd7a4b.jpg)
+![IMG-0053](https://user-images.githubusercontent.com/112022260/196256101-2a5f567d-c1fe-401f-a160-40182fd4fb37.jpg)
 
