@@ -315,6 +315,12 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 After a few iterations, I decided the final device should look simple and aesthetically pleasing. I took inspiration from graphic design and used colored acrylic pieces as accent colors. Overall, the equipment should be eye-catching and looks great on the desk.
 
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337704-e5bea839-e261-4633-9648-1ba8773e1db5.JPG">
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337708-ea67b52a-3d4e-48d2-9a08-7a54021cf836.JPG">
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337711-63b945f6-3cd2-4193-80eb-d4b5e73b59d0.JPG">
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337714-50799827-375c-4988-a9c0-ede5f3da9186.JPG">
+
+
 https://user-images.githubusercontent.com/6238480/196336708-c477cd92-0d09-4070-bebf-27b58007911e.mp4
 
 🍠 UME in action:
