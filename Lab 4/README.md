@@ -336,7 +336,9 @@ Behind the scene:
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/3jI9t15awmc/sddefault.jpg)](https://www.youtube.com/watch?v=3jI9t15awmc "UME - Behing the Scene")
 
-Finally, this is UME in action along with the [song](https://www.youtube.com/watch?v=z7ZSVcBCBrU) that has inspired this product, enjoy!
+Finally, this is UME in action along with the [song](https://www.youtube.com/watch?v=z7ZSVcBCBrU) that has inspired this product, enjoy 🙌🏼
+
+Turn sound on!
 
 https://user-images.githubusercontent.com/6238480/196339681-8fde0fb8-a920-4011-b58d-0b146e47c0d6.mp4
 
