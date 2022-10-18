@@ -314,7 +314,11 @@ We encourage you to try using these controls, **while** paying particular attent
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 
+![paperproto](https://user-images.githubusercontent.com/112603386/196349519-ccebe7bc-1667-4006-bdfb-29b6d5224817.jpg)
+The device should be relatively light so it is easily transportable, around 5 pounds. It will have a simple box design because it is a video game essentially. The capacitive touch sensors will be rubber to be comfortable to human touch, especially if people hit the sensors hard. It will sit on a table so there are rubber grips on the bottom of the device. The QWIIC button is to send commands to the next user.
 
+![cardboardLeft](https://user-images.githubusercontent.com/112603386/196349979-eae0f634-c5e2-4832-867b-f76ad04f4435.jpg)
+This is a pic of my cardboard prototype. If the users wish to use their own sensors they can attach any household objects they would like for added fun. However this device would come with rubber sensors by default.
 
 
 * "Works like": shows what the device can do
@@ -325,6 +329,8 @@ Here is me playing around with the device before I did my self-user test. You ca
 
 * "Acts like": shows how a person would interact with the device
 
+![storyboard](https://user-images.githubusercontent.com/112603386/196350240-54b56f52-be5a-4293-8b61-465b289fe128.jpg)
+Here is my storyboard for my final iteration of the device. The usertest will act out a very similar scenario.
 
 https://user-images.githubusercontent.com/112603386/196345376-e603fe47-f311-4f59-8da4-51e84fd3321d.mov
 
