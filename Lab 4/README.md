@@ -258,7 +258,20 @@ The AUX input in the back acts as a backing track for users if they would like t
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+![cardboardFront](https://user-images.githubusercontent.com/112603386/196344817-197bb1de-dcf0-402e-8603-5bff173db179.jpg)
+Here is the front of my rough cardboard prototype. I am using the capacitive sensor and qwiic button
 
+![cardboardback](https://user-images.githubusercontent.com/112603386/196344913-9d61727a-7616-4b17-905d-53b6c5c6c1cf.jpg)
+Here is the back of my rough cardboard prototype
+
+![cardboardLeft](https://user-images.githubusercontent.com/112603386/196344969-f88c3c9c-3ef0-4c1a-adbd-aa5b63ad0bd5.jpg)
+Here is the left side of my rough cardboard prototype, for the User 1 controls
+
+![cardboardRight](https://user-images.githubusercontent.com/112603386/196345023-1c3705cc-a90c-4c9c-af71-99b1270d2c2a.jpg)
+Here is the right side of my rough cardboard prototype, for the User 2 controls
+
+![cardboardInside](https://user-images.githubusercontent.com/112603386/196345124-6f6f16d4-4780-463f-9207-21f9cb670278.jpg)
+Here is the inside of my rough cardboard prototype.
 
 LAB PART 2
 
@@ -300,6 +313,27 @@ We encourage you to try using these controls, **while** paying particular attent
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+
+![paperproto](https://user-images.githubusercontent.com/112603386/196349519-ccebe7bc-1667-4006-bdfb-29b6d5224817.jpg)
+The device should be relatively light so it is easily transportable, around 5 pounds. It will have a simple box design because it is a video game essentially. The capacitive touch sensors will be rubber to be comfortable to human touch, especially if people hit the sensors hard. It will sit on a table so there are rubber grips on the bottom of the device. The QWIIC button is to send commands to the next user.
+
+![cardboardLeft](https://user-images.githubusercontent.com/112603386/196349979-eae0f634-c5e2-4832-867b-f76ad04f4435.jpg)
+This is a pic of my cardboard prototype. If the users wish to use their own sensors they can attach any household objects they would like for added fun. However this device would come with rubber sensors by default.
+
+
 * "Works like": shows what the device can do
+
+https://user-images.githubusercontent.com/112603386/196345228-e81398f6-0cee-4d7e-acfd-bf4c665c623c.MOV
+Here is me playing around with the device before I did my self-user test. You can see both Users are can use whatever objects they like which is why I used spoons and a banana for each player. In the final prototype I would use rubber pads.
+
+
 * "Acts like": shows how a person would interact with the device
+
+![storyboard](https://user-images.githubusercontent.com/112603386/196350240-54b56f52-be5a-4293-8b61-465b289fe128.jpg)
+Here is my storyboard for my final iteration of the device. The usertest will act out a very similar scenario.
+
+https://user-images.githubusercontent.com/112603386/196345376-e603fe47-f311-4f59-8da4-51e84fd3321d.mov
+
+Here is my user test for my device. It is a game similar to Simon, but this time users compete against each other instead of against a computer. Further than that, users will send their inputs by pressing a button, so it is not limited to only 4 notes if the users agree to that format. It starts with User 1, where they are prompted by the device to begin the game. After they have played a certain melody, they click the button to send over their inputs to player 2. The device prompts user 2 to begin. They try to match User 1's inputs, then add more notes for user 1 to match. After clicking the button to send their inputs, User 1 tries to continue this sequence. If there is a mistake noted after the button has been pressed, the device will announce there was a mistake, and claim who won the game.
+
 
