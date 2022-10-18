@@ -169,8 +169,7 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
-### Part C - Physical considerations for sensing
-### and Part D - Physical considerations for displaying information and housing parts
+### Part C - Physical considerations for sensing, and Part D - Physical considerations for displaying information and housing parts
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
@@ -209,7 +208,7 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-[https://cdn.sparkfun.com//assets/parts/1/6/0/3/4/17072-Qwiic_Multi_Distance_Sensor_-_VL53L3CX-01.jpg](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/cb544ed872ebce359caf5726a29a12f9b1184f0f/Lab%204/prototype_5ideas.png)
+![prototype_5ideas](https://user-images.githubusercontent.com/112089774/196399348-9ad34ef2-1216-4060-923c-863534b7ddf9.jpeg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
