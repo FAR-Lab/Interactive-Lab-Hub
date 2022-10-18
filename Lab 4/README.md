@@ -317,7 +317,7 @@ After a few iterations, I decided the final device should look simple and aesthe
 
 Starting from this sketch:
 
-
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/6238480/196344852-f5f00045-f042-401a-b061-427034ab87ec.png">
 
 Final prototype of **UME**🍠
 
