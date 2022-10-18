@@ -16,7 +16,7 @@ def runExample():
     
     #  Before you can start using the OLED, call begin() to init all of the pins and configure the OLED.
     myOLED.begin()
-
+    myOLED.set_font_type(3)
     myOLED.clear(myOLED.PAGE)  #  Clear the display's buffer
 
     myOLED.print("Hello World")  #  Add "Hello World" to buffer
