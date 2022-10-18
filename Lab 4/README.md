@@ -315,10 +315,14 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 
 
+
+
+* "Works like": shows what the device can do
+
 https://user-images.githubusercontent.com/112603386/196345228-e81398f6-0cee-4d7e-acfd-bf4c665c623c.MOV
 Here is me playing around with the device before I did my self-user test. You can see both Users are can use whatever objects they like which is why I used spoons and a banana for each player. In the final prototype I would use rubber pads.
 
-* "Works like": shows what the device can do
+
 * "Acts like": shows how a person would interact with the device
 
 
