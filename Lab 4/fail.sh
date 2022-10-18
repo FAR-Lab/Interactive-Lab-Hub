@@ -1,0 +1,1 @@
+espeak -ven+f2 -k5 -s150 --stdout  "Wrong note. User 2 wins" | aplay

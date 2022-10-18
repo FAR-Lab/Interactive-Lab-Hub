@@ -1,0 +1,1 @@
+espeak -ven+f2 -k5 -s150 --stdout  "The game is about to begin, User 1, play a note to begin the game" | aplay
