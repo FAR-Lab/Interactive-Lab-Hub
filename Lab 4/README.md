@@ -315,5 +315,8 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 After a few iterations, I decided the final device should look simple and aesthetically pleasing. I took inspiration from graphic design and used colored acrylic pieces as accent colors. Overall, the equipment should be eye-catching and looks great on the desk.
 
-![photo_2022-10-17_23-57-53](https://user-images.githubusercontent.com/6238480/196332232-1b2e4fec-6be6-409e-9333-efe81f38404c.jpg)
+https://user-images.githubusercontent.com/6238480/196336708-c477cd92-0d09-4070-bebf-27b58007911e.mp4
+
+
+
 
