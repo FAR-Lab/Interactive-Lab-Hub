@@ -320,8 +320,7 @@ After a few iterations, I decided the final device should look simple and aesthe
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337711-63b945f6-3cd2-4193-80eb-d4b5e73b59d0.JPG">
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337714-50799827-375c-4988-a9c0-ede5f3da9186.JPG">
 
-
-https://user-images.githubusercontent.com/6238480/196336708-c477cd92-0d09-4070-bebf-27b58007911e.mp4
+https://user-images.githubusercontent.com/6238480/196338063-455ea6cd-a102-48a0-a05a-5dbc035bbeb6.mp4
 
 🍠 UME in action:
 
