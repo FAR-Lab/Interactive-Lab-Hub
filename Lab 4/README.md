@@ -209,7 +209,7 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-<img src="[https://cdn.sparkfun.com//assets/parts/1/6/0/3/4/17072-Qwiic_Multi_Distance_Sensor_-_VL53L3CX-01.jpg](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/cb544ed872ebce359caf5726a29a12f9b1184f0f/Lab%204/prototype_5ideas.png)" height="200" />
+[https://cdn.sparkfun.com//assets/parts/1/6/0/3/4/17072-Qwiic_Multi_Distance_Sensor_-_VL53L3CX-01.jpg](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/cb544ed872ebce359caf5726a29a12f9b1184f0f/Lab%204/prototype_5ideas.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
