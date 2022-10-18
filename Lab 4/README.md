@@ -169,36 +169,33 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
-### Part C - Physical considerations for sensing
+### Part C & D - Physical considerations for sensing, displaying information, and housing parts 
 
-**Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.**
+**Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful. Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.**
+![5ideas_sensors_sketch](https://user-images.githubusercontent.com/112089774/196401281-15a9d24a-0f9d-430b-bf96-b7fae5cdd5b9.png)
 
-**Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.**
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
+Sketch 1. Light sensing alarm clock: light sensor would be integrated with a speaker to trigger music that would progressively get louder as the sun rose. This might not work if the weather changes very quickly (e.g. sudden cloud onset), but could be set to turn on once brightness reaches a certain threshold - despite the fact that it would not be perfectly timed with the movement of the sun in that case. 
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+Sketch 2: Motion activated image display. Works best in places where interaction is infrequent. For instance, displays could be timed to refresh once 3-4 movements past it is recorded. In that case, the user would get the chance to see the display & respond to it without worrying about triggering an image refresh. Could be done with things like photo albums (e.g. meme gallery), news snippets, quotes, or anything that could easily be stored in quickly-digestible formats. 
 
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+Sketch 3: Subject waves to change a song. Waves are distinguished from other non-deliberate gestures like people walking in the background. This can get complicated if the sensor points to the person, however, as them moving afterward could also be considered a gesture. Another issue could be that of people walking around in the background, for which a distance sensor could be used as a filter. 
 
+Sketch 4: Reflex reaction game. Randomly generated output on the screen is displayed to test the users reaction, while using a countdown timer to calculate their score. Depending on the design used, the sensor itself can be used or extended with tape. The tape may require a different box design as it would need to weave through either side without interrupting other components. In that case, it may be easier to stack the display and hide the sensor near each other with the tape placed around the perimeter. 
 
-### Part D - Physical considerations for displaying information and housing parts
+Sketch 5: This idea elaborates on the previous one by displaying a musical sequence as a series of taps and recording the response accuracy by comparing the music (score) to the input of the user. In terms of design, a similar approach can be used as with the previous version. 
 
+**Pick one of these designs to prototype.**
+Sketch 4 seems like an interesting idea. Can't wait to test out the truly powerful capabilities of this sweet gaming rig.
 
+**Explain the rationale for the design.** 
+The components are pretty small so the entire device can fit into a small box. The touch sensors can use copper tape or show the sensor itself. This is meant to be a handheld device. 
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+**Document your rough prototype.**
+![selected_prototype_sketch](https://user-images.githubusercontent.com/112089774/196402556-9ebb5034-7470-46be-b3c3-c7b3b29e02d9.jpeg)
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
-
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-
-Build a cardbord prototype of your design.
-
-**\*\*\*Document your rough prototype.\*\*\***
-
-
-LAB PART 2
 
 ### Part 2
-
 ### Part F
 ### Record
 
