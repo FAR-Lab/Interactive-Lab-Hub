@@ -312,3 +312,20 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+Prototype documentation 
+For all my iterations the cardboard remained the same. The difference from version to version was what was inside the cardboard itself. 
+
+Iteration 1 (Ir and led):
+This prototype only used the IR and LED lights. It was very basic and not very interactive. The IR sensor was also very limiting. Since the range was very small it was difficult to make a well functioning system. So this version had to major issues to address: interactivity and limitations. I decided to tackle its distance limitation first. The distance sensor can go way further than the IR. So I would try that out. 
+
+Iteration 2 
+On the second iteration I combined the distance sensor and led light. This was much better. The distance sensor had a larger range which allowed for interactions to happen further away. The way I see it playing out is placing this in your window or front yard. As people walk past the pumpkin it will light up and hopefully they notice it. The main issue with this iteration is that it can be easily missed. The interactivity was still missing. It felt very empty. My idea would be to incorporate the speaker. 
+
+Iteration 3:
+My final iteration I decided to use the camera we had. I originally planned to use the camera to detect people but now I had a different idea. I would use the speakers. This iteration of the prototype I combined the distance sensor, led lights, and camera speaker. I luckily made my pumpkin to fit the camera originally so I didn’t have to make a new one. All the pieces fit snug within the pumpkin. This iteration was able to detect objects further away and react. When something was detected the jack o’lantern light up and the speaker would go off. This iteration worked very well and people found it fun. I do think further work could still be done but for now it works.A next iteration would most likely use a smaller speaker. The camera is to big and takes up to much space. It’d also be interesting to test out how it would look in a 3-D printed pumpkin. Since it would allow it to be fully round.  
+
+This final version can be found in the repo: lantern.py
+
+<img src="des.png" width="">
+
+[![video](screen.png)](https://www.youtube.com/watch?v=oB2i8Nl4S9U)
