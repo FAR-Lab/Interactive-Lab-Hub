@@ -188,19 +188,23 @@ Sketch 5: This idea elaborates on the previous one by displaying a musical seque
 **Pick one of these designs to prototype.**
 Sketch 4 seems like an interesting idea. Can't wait to test out the truly powerful capabilities of this sweet gaming rig.
 
-**Explain the rationale for the design.** 
+### Part 2
+### Part F
+### Record
+Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+
+**Design rationale.** 
 The components are pretty small so the entire device can fit into a small box. The touch sensors can use copper tape or show the sensor itself. This is meant to be a handheld device. 
 
 **Document your rough prototype.**
 ![selected_prototype_sketch](https://user-images.githubusercontent.com/112089774/196402556-9ebb5034-7470-46be-b3c3-c7b3b29e02d9.jpeg)
 
+#### Looks like 
+how the device should look, feel, sit, weigh, etc.
 
-### Part 2
-### Part F
-### Record
+#### Works like 
+what the device can do
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+#### Acts like 
+how a person would interact with the device
 
