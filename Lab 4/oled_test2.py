@@ -18,9 +18,9 @@ def runExample():
     myOLED.begin()
     myOLED.clear(myOLED.PAGE)  #  Clear the display's buffer
     
-    myOLED.print("Hello World")  #  Add "Hello World" to buffer
+    myOLED.print("Welcome to UME.")  #  Add "Hello World" to buffer
     
-    
+
     #  To actually draw anything on the display, you must call the display() function. 
     myOLED.display()
 
