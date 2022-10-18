@@ -205,6 +205,13 @@ how the device should look, feel, sit, weigh, etc.
 #### Works like 
 what the device can do
 
+My initial iteration didn't output much to the screen given that it was tucked away in cases where it's not called on every single loop. However, to make the video game more "complicated" for example showing the timer count down, redrawing the display every single time caused massive input lag. 
+
+Before with a simple implementation, the game worked, displayed when you won, however with more complex implementations the limits of the pi itself are reached in terms of processing, where the input visibly lags behind what's happening.
+
+All in all, I think this was a great way to test the limits of what the pi can run! 
+
 #### Acts like 
 how a person would interact with the device
+![Video](https://youtube.com/shorts/T_jiUn9121M?feature=share)
 
