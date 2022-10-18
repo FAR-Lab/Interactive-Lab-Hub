@@ -22,6 +22,7 @@ This lab will help you think through the design of observant systems, particular
 
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
+1. Show the filledout answers for the Contextual Interaction Design Tool.
 1. Show a video of how you embed one of these algorithms into your observant system.
 1. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
 
@@ -197,9 +198,10 @@ Using the accelerometer, try the following:
 ### Part B
 ### Construct a simple interaction.
 
-Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
-This can be as simple as the boat detector earlier.
+Pick one of the models you have tried, and experiment with prototyping an interaction.
+This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
 Try out different interaction outputs and inputs.
+Fill out the ``Contextual Interaction Design Tool`` sheet.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
