@@ -328,4 +328,6 @@ This final version can be found in the repo: lantern.py
 
 <img src="des.png" width="">
 
+
+Click below for the video
 [![video](screen.png)](https://www.youtube.com/watch?v=oB2i8Nl4S9U)
