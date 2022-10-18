@@ -6,7 +6,7 @@ Ideally, write down the ideas in a table like this
 
 | Sound | Influence on the context | Implications for your behavior |
 | :---: | :---: | :---: |
-| car horn | creates a sense of urgency business | look arround | 
+| car horn | creates a sense of urgency | look arround | 
 | foot steps | ... | ... |
 | ... | ... |... |
 |  ... |  ... |... |
