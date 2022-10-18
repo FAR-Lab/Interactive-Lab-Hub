@@ -198,10 +198,10 @@ Using the accelerometer, try the following:
 ### Part B
 ### Construct a simple interaction.
 
-Pick one of the models you have tried, and experiment with prototyping an interaction.
-This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
-Try out different interaction outputs and inputs.
-Fill out the ``Contextual Interaction Design Tool`` sheet.
+* Pick one of the models you have tried, and experiment with prototyping an interaction.
+* This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
+* Try out different interaction outputs and inputs.
+* Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
