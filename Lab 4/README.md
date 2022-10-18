@@ -317,6 +317,8 @@ After a few iterations, I decided the final device should look simple and aesthe
 
 https://user-images.githubusercontent.com/6238480/196336708-c477cd92-0d09-4070-bebf-27b58007911e.mp4
 
+🍠 UME in action:
+
 
 
 
