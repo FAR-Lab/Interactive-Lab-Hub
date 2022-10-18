@@ -29,7 +29,7 @@ def runExample():
     #  Before you can start using the OLED, call begin() to init all of the pins and configure the OLED.
     myOLED.begin()
     myOLED.clear(myOLED.PAGE)  #  Clear the display's buffer
-    myOLED.print("Umeda Cypher – Umeda Night Fever 19")  #  Add "Hello World" to buffer
+    myOLED.print("Umeda Cypher: Umeda Night Fever 19")  #  Add "Hello World" to buffer
     #  To actually draw anything on the display, you must call the display() function. 
     myOLED.display()
 
