@@ -315,6 +315,12 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 After a few iterations, I decided the final device should look simple and aesthetically pleasing. I took inspiration from graphic design and used colored acrylic pieces as accent colors. Overall, the equipment should be eye-catching and looks great on the desk.
 
+Starting from this sketch:
+
+
+
+Final prototype of **UME**🍠
+
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337704-e5bea839-e261-4633-9648-1ba8773e1db5.JPG">
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337708-ea67b52a-3d4e-48d2-9a08-7a54021cf836.JPG">
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/196337711-63b945f6-3cd2-4193-80eb-d4b5e73b59d0.JPG">
@@ -322,7 +328,16 @@ After a few iterations, I decided the final device should look simple and aesthe
 
 https://user-images.githubusercontent.com/6238480/196338063-455ea6cd-a102-48a0-a05a-5dbc035bbeb6.mp4
 
-🍠 UME in action:
+UME simulates the vinyl scratching mechanic in a DJ turntable set. By combining a proximity sensor just behind a translucent acrylic panel, the hand movement can be registered to trigger a certain function in the music.
+
+I use the [Mixer](https://www.pygame.org/docs/ref/music.html) module from pygame to create the music controls.
+
+Behind the scene:
+
+
+Finally, this is UME in action along with the [song](https://www.youtube.com/watch?v=z7ZSVcBCBrU) that has inspired this product, enjoy!
+
+
 
 
 
