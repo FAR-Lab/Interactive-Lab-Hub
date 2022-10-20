@@ -175,10 +175,18 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+![image](https://user-images.githubusercontent.com/112022260/195472101-2aa11ecf-49c7-43a1-822a-f63746db80c0.png)
+![image](https://user-images.githubusercontent.com/112022260/195472124-e45d43ac-0afe-4338-a5ca-a6b67aa53dd3.png)
+![image](https://user-images.githubusercontent.com/112022260/195472145-e79cf6ff-0214-4ae2-abc6-d287e3f3e190.png)
+![image](https://user-images.githubusercontent.com/112022260/195472162-9b1aaacd-8a13-4b25-be93-3984dd536783.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+A few questions that come to mind are 1) How long could the wires be?  2) How close does the raspberry pi have to be to the sensors? 3) How close do the sensors have to be to whatever they are sensing?  4) How can you make those happen without having a large device, long wires or ugly aestehtic?
 
+In order to understand these, you would need to physically prototype the device and test it to see if it has met your requirements.
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+![IMG-1681](https://user-images.githubusercontent.com/112022260/195472774-88c126ed-f8b2-489a-a50a-25746e272186.jpg)
+![IMG-1682](https://user-images.githubusercontent.com/112022260/195472779-6e55e4e7-cdc1-46b2-b300-f5d348d50db8.jpg)
 
 
 ### Part D
@@ -220,12 +228,35 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![image](https://user-images.githubusercontent.com/112022260/195471934-8d2546f1-c39e-4fa9-990a-6e8854891a66.png)
+![image](https://user-images.githubusercontent.com/112022260/195471953-7623fe56-1339-4b87-beee-3a6aafdd37da.png)
+![image](https://user-images.githubusercontent.com/112022260/195471970-232ad844-bb10-4394-ab6b-9bb510e837dd.png)
+![image](https://user-images.githubusercontent.com/112022260/195471998-af10b7c3-a25c-4cd5-ab3c-60ae9015a5d9.png)
+![image](https://user-images.githubusercontent.com/112022260/195472025-61cfff4f-8091-4b82-bc00-cfc6373c7143.png)
+![image](https://user-images.githubusercontent.com/112022260/195472070-478cdef0-4bea-418e-90e3-c0e8bf7b8c33.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+A few questions the sketches raised were for leading ideas
+
+Flexibility tracker 
+1) Would it be uncomfortable for the user to hit the knobs as that would be a stretch?  
+2) Is there too many knobs that would make it infeasible with the Pi?
+3) Is it helpful to see your past scores? What other functioality would the user want?
+
+and Hungry Hippo
+1) Could you get everything to work robustly enough?
+2) WOuld the proximity detector be accurate and measure it in time to react and chomp down?
+3) Is there too many moving parts and wires that would limit it?
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+![IMG-1677](https://user-images.githubusercontent.com/112022260/195472738-003ff602-1e08-4e95-936c-bd3865844dd0.jpg)
+![IMG-1678](https://user-images.githubusercontent.com/112022260/195472745-4579049d-0c27-4f50-b0c8-e04268373ca5.jpg)
+![IMG-1680](https://user-images.githubusercontent.com/112022260/195472755-a12dcf4b-af81-4b3d-b780-80a47b5d1d00.jpg)
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The rationale from this choice was it was a design that the proximity sensor would always have a consistent easy to read surface that would give good results.  Additionally this allowed the rapsberry pi to be quite close otherwise.  Additionally, it allowed the pi to be near the sensor and user interface despite still being a rather large overall design.  I thought the 3 bottoms gave you enough flexibility to do different exercises so that it might be useful but was sparse enough to be extremely easy to use and work within our design constraints.
 
 Build a cardbord prototype of your design.
 
@@ -271,7 +302,46 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+#### "Looks like"
+ *Shows how the device should look, feel, sit, weigh, etc.
+ 
+ Considerations brainstormed and from feedback
+ ##### Look
+  *  It should be approachable by everyone particularly younger people who may be using it in schools and on sports teams
+ ##### Feel
+  * Feel intuitive and clear on what to do right from the start
+  * Easily customized to school or tean colors
+  * Smaller and easily storyed or put together
+  * Not too cold to the touch
+ ##### Material
+  * Lightweight but sturdy for tough treatment and long term use
+  
+#### "Works like"
+ *Shows what the device can do
+ ![unnamed](https://user-images.githubusercontent.com/112022260/196252915-c73956c4-5649-471c-bf13-90e74dde56a7.jpg)
+ 
+ #### Video tests
+ https://drive.google.com/file/d/1kd75YwVRWrUsLdOt5x7nANr839tY4izO/view?usp=sharing
+ https://drive.google.com/file/d/1sBALNfVxAzWcfLsknzRklYshePA9_2rU/view?usp=sharing
+ https://drive.google.com/file/d/1bWTWAoasz1yFDlopHbfL3aW43QkA5DQ2/view?usp=sharing
+
+
+##### Reflections
+ * A solid base should be built in to rest the feet on
+ * The push area should be extended for taller and more flexible people
+ * It would help to have runners to maintain an even push length
+ * A timer should be incorporated for improved functionality
+#### "Acts like"
+ *Shows how a person would interact with the device
+ 
+ 
+ #### Prototyping
+![IMG-0050](https://user-images.githubusercontent.com/112022260/196252819-ff46bcef-e143-4f65-975d-30284cfb228c.jpg)
+
+* Initial cuts we're too smaller
+
+![IMG-1691](https://user-images.githubusercontent.com/112022260/196252870-fc2babae-b1f9-4b64-8d84-041e306dd8ff.jpg)
+![IMG-0052](https://user-images.githubusercontent.com/112022260/196256067-64a299f0-9f8c-464b-b825-c8e746d6c2de.jpg)
+![IMG-0051](https://user-images.githubusercontent.com/112022260/196252883-a80eed8a-5190-4593-a2b6-5ca437fd7a4b.jpg)
+![IMG-0053](https://user-images.githubusercontent.com/112022260/196256101-2a5f567d-c1fe-401f-a160-40182fd4fb37.jpg)
 
