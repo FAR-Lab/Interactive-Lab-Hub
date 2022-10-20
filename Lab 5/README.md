@@ -114,23 +114,29 @@ SciPy is installed with
 Lastly we need numpy-ringbuffer, to make cintinues data anlysis easier.
 ``pip install numpy-ringbuffer``
 
-trying out audio processing:
+Now try the audio processing example:
 * Find what ID the micrpohone has with `python ListAvalibleAudioDevices.py`
     Look for a device name that includes `USB` im namen.
 * Adjust the variable `DEVICE_INDEX` in the `ExampleAudioFFT.py` file.
     See if you are getting results printed out from the microphone. Try to understand how the code works.
+    Then run the file by typing `python ExampleAudioFFT.py`
 
-Technical explanations:
-    What is a callback function?
-    What is a ringbuffer?
 
-Using the microphone, try the following:
+
+Using the microphone, try one of the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
-**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+**2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
+
+For technical references:
+
+* Volume Calculation with [RootMeanSqare](https://en.wikipedia.org/wiki/Root_mean_square)
+* [RingBuffer](https://en.wikipedia.org/wiki/Circular_buffer)
+* [Frequency Analysis](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
+
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
 
