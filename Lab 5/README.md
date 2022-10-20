@@ -105,18 +105,18 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
-To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1second of audio. 
+To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1 second of audio. 
 Pyaudio needs to be installed with the following comand:
 ``sudo apt install python3-pyaudio``
 SciPy is installed with 
 ``sudo apt install python3-scipy`` 
 
-Lastly we need numpy-ringbuffer, to make cintinues data anlysis easier.
+Lastly we need numpy-ringbuffer, to make continues data anlysis easier.
 ``pip install numpy-ringbuffer``
 
 Now try the audio processing example:
 * Find what ID the micrpohone has with `python ListAvalibleAudioDevices.py`
-    Look for a device name that includes `USB` im namen.
+    Look for a device name that includes `USB` in the name.
 * Adjust the variable `DEVICE_INDEX` in the `ExampleAudioFFT.py` file.
     See if you are getting results printed out from the microphone. Try to understand how the code works.
     Then run the file by typing `python ExampleAudioFFT.py`
