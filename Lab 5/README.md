@@ -102,10 +102,19 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
-#### Filtering, FFTs, and Time Series data. (optional)
-Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
+#### Filtering, FFTs, and Time Series data. 
+Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
-Using the accelerometer, try the following:
+To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1second of audio. 
+Pyaudio needs to be installed with the following comand:
+``sudo apt install python3-pyaudio``
+SciPy is installed with 
+``sudo apt install python3-scipy`` 
+
+Lastly we need numpy-ringbuffer, to make cintinues data anlysis easier.
+``pip install numpy-ringbuffer``
+
+Using the microphone, try the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
