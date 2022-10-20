@@ -23,7 +23,7 @@ while True:
 		distanceInches = distance / 25.4
 		distanceFeet = distanceInches / 12.0
 
-		print("Distance(mm): %s Distance(ft): %s" % (distance, distanceFeet))
+		print("Distance(mm): %s Distance(ft): %s" % (round(distance, 0), round(distanceFeet,0)))
 
 	except Exception as e:
 		print(e)
