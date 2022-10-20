@@ -1,6 +1,7 @@
 import pyaudio
 import numpy as np
-import scipy
+from scipy.fft import rfft, rfftfreq
+from scipy.signal.windows import hann
 from numpy_ringbuffer import RingBuffer
 
 import queue
@@ -31,12 +32,12 @@ def main():
     ###
     nextTimeStamp = time.time()
     stream.start_stream()
-    try:
+    if True:
         while True:
             frames = audioQueue.get()
             if not frames:
                 continue
-            framesData = np.fromstring(frames, dtype=FORMAT)
+            framesData = np.frombuffer(frames, dtype=FORMAT)
             AudioBuffer.extend(framesData[0::1]) ## here we are picking only one of the 6 channels 
             
             if(AudioBuffer.is_full and audioQueue.qsize()<2 and time.time()>nextTimeStamp): ## We want to make sure that the queue of new audio does not get too long.
@@ -46,7 +47,6 @@ def main():
                 VolumeHistory.append(volume)
                 volumneSlow = volume
                 volumechange = 0.0
-                print("Ok more analysis")
                 if VolumeHistory.is_full:
                     length = int(np.round(VolumeHistory.maxlen/2))
                     vnew = np.array(VolumeHistory)[length:].mean()
@@ -54,10 +54,20 @@ def main():
                     volumechange =vnew-vold
                     volumneSlow = np.array(VolumeHistory).mean()
                 
-                print("RMS volume "+ str(volumneSlow)+', Volume Change:'+ str(volumechange))
+
+
+                N = buffer.shape[0]
+                window = hann(N)
+                amplitudes = np.abs(rfft(buffer*window))[2:]
+                frequencies = (rfftfreq(N, 1/SAMPLING_RATE)[:N//2])[2:]
+               
+
+                LoudestFrequency = frequencies[amplitudes.argmax()]
+                print(amplitudes[0:5])
+                print("Loudest Frqeuncy, "+str(LoudestFrequency)+"RMS volume "+ str(volumneSlow)+', Volume Change:'+ str(volumechange))
                 nextTimeStamp = UPDATE_RATE+time.time()
-    except:
-        print("Something happend with the audio example. Stopping!") 
+    #except:
+       # print("Something happend with the audio example. Stopping!") 
 
 if __name__ == '__main__':
     print("Befor Main")
