@@ -254,6 +254,13 @@ This might take a while to get fully installed. After installation, connect your
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 ![chart](https://user-images.githubusercontent.com/112603386/197687997-58acd0ef-450e-457a-bf0c-7ae78d964d44.jpg)
 
+test run:
+
+
+https://user-images.githubusercontent.com/112603386/197688522-39200f8c-956a-4da3-969d-4410af18aa2a.MOV
+
+My mic does not seem to be responding properly to noise, sometimes it works well and others (like this video shows) it does not detect loud sounds. I think this occurs during sleep funcitons if it happens to miss the instance of a loud sound and start detecting during a low point in the input signal.
+
 
 The device I am proposing is called Happy Neighbors. It is a monotoring system that alerts you when you are being too loud. In NYC, apartments are very common. One of the downsides of living in an apartment building is sharing walls with neighbors, which means there is a possibility that one of your neighbors will have a light night causing you a disruption. If it gets past a certain time and you are being too loud, you are being a nuisance. To help curb these bad habits of being too loud, Happy Neighbors will take decibel readings of your environment and alert you when you are being too loud through voice and text alerts. Ideally this will be connected to a speaker that is probably outputting music, and can adjust the volume levels to make sure you stay within the building noise levels for the current time of day.
 
