@@ -137,11 +137,19 @@ Now try the audio processing example:
     See if you are getting results printed out from the microphone. Try to understand how the code works.
     Then run the file by typing `python ExampleAudioFFT.py`
 
+ExampleAudioFFT output:
+![ExampleAudioFFT pyScreenshot](https://user-images.githubusercontent.com/112603386/197678093-0299325c-6a7a-4684-8fb1-ee49135f65e2.png)
 
 
 Using the microphone, try one of the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+threshold code:
+![threshold code](https://user-images.githubusercontent.com/112603386/197678141-af62a508-aa4c-4f64-a02d-6059a5246c07.png)
+
+threshold output:
+![threshold output](https://user-images.githubusercontent.com/112603386/197678159-0f101f85-afa1-4acb-94aa-49ad3f9083d8.png)
+
 
 **2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
