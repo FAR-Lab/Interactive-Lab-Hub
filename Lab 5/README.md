@@ -1,12 +1,6 @@
 # Observant Systems
 
-**NAMES OF COLLABORATORS HERE**
-
-
-For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
-
-This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
+For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room. This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
 
 ## Prep
 
@@ -258,11 +252,16 @@ Now flight test your interactive prototype and **note down your observations**:
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for? Card detection from a set of playing cards. If this could get implemented in some smart glasses it could do some serious damage. 
-* What is a good environment for X? Well lit surface with evenly colored background and spaced apart. 
-* What is a bad environment for X? Poorly lit surface, cluttered, unevenly colored background or anything that might obscure image detection. 
-* When will X break? The system will be unable to detect the correct object when the environmental conditions aren't satisfied. 
-* When it breaks how will X break? Incorrect output will be produced. 
+* What can you use X for? 
+Card detection from a set of playing cards. If this could get implemented in some smart glasses it could do some serious damage. 
+* What is a good environment for X? 
+A well lit surface with evenly colored background where the items do not overlap. 
+* What is a bad environment for X?
+Poorly lit surfaces, cluttered spaces, unevenly colored background or anything that might obscure the cameras ability to read the card (e.g. hand moving over cards) 
+* When will X break? 
+The system will be unable to detect the correct object when the environmental conditions aren't satisfied. 
+* When it breaks how will X break? 
+Incorrect output will be produced. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
