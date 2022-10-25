@@ -137,11 +137,19 @@ Now try the audio processing example:
     See if you are getting results printed out from the microphone. Try to understand how the code works.
     Then run the file by typing `python ExampleAudioFFT.py`
 
+ExampleAudioFFT output:
+![ExampleAudioFFT pyScreenshot](https://user-images.githubusercontent.com/112603386/197678093-0299325c-6a7a-4684-8fb1-ee49135f65e2.png)
 
 
 Using the microphone, try one of the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+threshold code:
+![threshold code](https://user-images.githubusercontent.com/112603386/197678141-af62a508-aa4c-4f64-a02d-6059a5246c07.png)
+
+threshold output:
+![threshold output](https://user-images.githubusercontent.com/112603386/197678159-0f101f85-afa1-4acb-94aa-49ad3f9083d8.png)
+
 
 **2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
@@ -244,22 +252,33 @@ This might take a while to get fully installed. After installation, connect your
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+![chart](https://user-images.githubusercontent.com/112603386/197687997-58acd0ef-450e-457a-bf0c-7ae78d964d44.jpg)
+
+test run:
+
+
+https://user-images.githubusercontent.com/112603386/197688522-39200f8c-956a-4da3-969d-4410af18aa2a.MOV
+
+My mic does not seem to be responding properly to noise, sometimes it works well and others (like this video shows) it does not detect loud sounds. I think this occurs during sleep funcitons if it happens to miss the instance of a loud sound and start detecting during a low point in the input signal.
+
+
+The device I am proposing is called Happy Neighbors. It is a monotoring system that alerts you when you are being too loud. In NYC, apartments are very common. One of the downsides of living in an apartment building is sharing walls with neighbors, which means there is a possibility that one of your neighbors will have a light night causing you a disruption. If it gets past a certain time and you are being too loud, you are being a nuisance. To help curb these bad habits of being too loud, Happy Neighbors will take decibel readings of your environment and alert you when you are being too loud through voice and text alerts. Ideally this will be connected to a speaker that is probably outputting music, and can adjust the volume levels to make sure you stay within the building noise levels for the current time of day.
 
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? It is supposed to alert the user when they are being too loud.
+1. When does it fail? It fails when the microphone is too far away from the noise source, or when it mistakes noises outside of your apartment as your own noises. It is also possible the user fails to see the alert. Sometimes the mic is finicky and does not read sounds appropriately, it seems to be identifying sounds off my phone the most loudly so clearly it reads certain frequencies/outputs better than others.
+1. When it fails, why does it fail? It is too far away from the noise source, or it is misclassifying the source of the noise (noise is not coming from your apartment). Also, the user may forget the system is running and not see the alert. The mic has to take all inputs equally in terms of frequency.
+1. Based on the behavior you have seen, what other scenarios could cause problems? A user is too preoccupied with their party that they are forgetting to check the system to make sure they are not getting alerts.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? If they are a responsible tenant, then yes - they will be aware of the possiblity of the system failing. By buying this product we assume the user is aware of the potential failures.
+1. How bad would they be impacted by a miss classification? Not badly, it would simply mean they quiet everyone down and it is not necessary. However this could put a damper on the mood of the party.
+1. How could change your interactive system to address this? I could connect the device to the audio source of music playing at a party, so that the device takes over the output of the speaker and everyone hears the alert to quiet down.
+1. Are there optimizations you can try to do on your sense-making algorithm. It could detect the distance of users such that the levels thresholds for the noise heard from the device is set that alerts are sent dependent on distance. If someone is close to the microphone the threshold will be greater, if someone is far from the microphone the threshold will be smaller.
 
 ### Part D
 ### Characterize your own Observant system
@@ -279,5 +298,11 @@ During the lecture, we mentioned questions to help characterize a material:
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+
+https://user-images.githubusercontent.com/112603386/197688054-780e8a67-ecc2-484a-8253-53d708c4423c.MOV
+
+
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
