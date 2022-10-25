@@ -260,16 +260,16 @@ The device I am proposing is called Happy Neighbors. It is a monotoring system t
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? It is supposed to alert the user when they are being too loud.
+1. When does it fail? It fails when the microphone is too far away from the noise source, or when it mistakes noises outside of your apartment as your own noises. It is also possible the user fails to see the alert.
+1. When it fails, why does it fail? It is too far away from the noise source, or it is misclassifying the source of the noise (noise is not coming from your apartment). Also, the user may forget the system is running and not see the alert.
+1. Based on the behavior you have seen, what other scenarios could cause problems? A user is too preoccupied with their party that they are forgetting to check the system to make sure they are not getting alerts.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? If they are a responsible tenant, then yes - they will be aware of the possiblity of the system failing. By buying this product we assume the user is aware of the potential failures.
+1. How bad would they be impacted by a miss classification? Not badly, it would simply mean they quiet everyone down and it is not necessary. However this could put a damper on the mood of the party.
+1. How could change your interactive system to address this? I could connect the device to the audio source of music playing at a party, so that the device takes over the output of the speaker and everyone hears the alert to quiet down.
+1. Are there optimizations you can try to do on your sense-making algorithm. It could detect the distance of users such that the levels thresholds for the noise heard from the device is set that alerts are sent dependent on distance. If someone is close to the microphone the threshold will be greater, if someone is far from the microphone the threshold will be smaller.
 
 ### Part D
 ### Characterize your own Observant system
