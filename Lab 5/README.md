@@ -102,6 +102,15 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+Contour detection can detect the borders of objects and localize them as an image. In the example screenshot, a magazine cover is used to illustrate how much granularity is possible when detecting objects from a detailed image. 
+
+Optical flow is used to track moving objects as it detects motion between consecutive frames of the sequence caused by the relative motion between the camera and the object. The face detection algorithm seemed to have a difficult time picking up multiple faces; it is limited by the distance of the subject & the number of faces present in the frame at the same time.
+
+Something like YOLO can be used to detect and identify playing cards. The model predicts bounding boxes and class probabilities within a single network and evaluation, which allows it to be effective at realtime predictions. Input is divided into a grid, each of the bounding boxes are predicted among classes. 
+
+![model comps](https://user-images.githubusercontent.com/112089774/197686970-c76abd24-ae15-467a-a964-8746b31f2a47.png)
+
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
@@ -122,8 +131,7 @@ Now try the audio processing example:
     Then run the file by typing `python ExampleAudioFFT.py`
 
 
-
-Using the microphone, try one of the following:
+Using the microphone, try one of the following: 
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
@@ -139,6 +147,8 @@ For technical references:
 
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
+![Q1, Q2, & Q3 code here](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/694bb78aa29ded567786538edf8b58b911a76465/Lab%205/mic_test.py)
+
 
 ### (Optional Reading) Introducing Additional Concepts
 The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
@@ -222,41 +232,37 @@ This might take a while to get fully installed. After installation, connect your
 ### Part B
 ### Construct a simple interaction.
 
-* Pick one of the models you have tried, and experiment with prototyping an interaction.
+* Pick one of the models you have tried, and experiment with prototyping an interaction. 
 * This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
 * Try out different interaction outputs and inputs.
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+The YOLO model predicts bounding boxes and class probabilities within a single network evaluation, which allows it to be effective at real-time predictions. With other models, the bounding boxes often contained an object inside them. However, the YOLO model predicts a high number of bounding boxes, which is why there are a lot of bounding boxes without any objects. The general idea is to figure out & remember what tyeps of cards show up in the frame when playing a card game.
 
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
-For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
-
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? The user should be aware of the certainty the algorithm has in recognizing & predicting a card as this is essential factor to making a decision, which could be displayed as % accuracy score.  
+
+3. How bad would they be impacted by a miss classification? Misclassification would introduce more uncertainty when playing which would reduce the products usefulness, however it wouldn't negatively impact the players baseline performance. 
+
+5. How could change your interactive system to address this? Are there optimizations you can try to do on your sense-making algorithm.
+6. Training the algorithm to make sure it's as accurate as can be is important, accounting for cases where the text is blurry or temporarily obscured are both improvements that should be made. 
+
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use X for? Card detection from a set of playing cards. If this could get implemented in some smart glasses it could do some serious damage. 
+* What is a good environment for X? Well lit surface with evenly colored background and spaced apart. 
+* What is a bad environment for X? Poorly lit surface, cluttered, unevenly colored background or anything that might obscure image detection. 
+* When will X break? The system will be unable to detect the correct object when the environmental conditions aren't satisfied. 
+* When it breaks how will X break? Incorrect output will be produced. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
