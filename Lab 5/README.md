@@ -102,6 +102,22 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+countours.py:
+![contoursPyScreenShot](https://user-images.githubusercontent.com/112603386/197674728-6639ff65-0191-4bf7-9ac7-56ebdfa03dc6.png)
+This software can be used to make caricatures of people faces by identifying the most noticable features on a face.
+
+face-detection.py:
+![faceDetectionScreenShot](https://user-images.githubusercontent.com/112603386/197675242-3247e001-20fe-40a6-ab64-bbd3e458fdf3.png)
+This software can be used to track user gaze during Zoom meetings, to make sure people are looking at their screens & paying attention
+
+optical_flow.py:
+![opticalFlowScreenshot](https://user-images.githubusercontent.com/112603386/197675503-b671550b-51f8-493f-a00c-78265e833426.png)
+This software can be used in sports, for example in baseball to track the path of a batters swing to see what motions led to the best hit balls.
+
+detect.py:
+![detectedScreenshot](https://user-images.githubusercontent.com/112603386/197675581-edd172f5-1338-4cd2-a438-5a08a5b02e77.png)
+This software can be used in self driving cars to identify objects in the road.
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
