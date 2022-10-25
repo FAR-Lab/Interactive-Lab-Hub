@@ -252,6 +252,8 @@ This might take a while to get fully installed. After installation, connect your
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+![chart](https://user-images.githubusercontent.com/112603386/197687997-58acd0ef-450e-457a-bf0c-7ae78d964d44.jpg)
+
 
 The device I am proposing is called Happy Neighbors. It is a monotoring system that alerts you when you are being too loud. In NYC, apartments are very common. One of the downsides of living in an apartment building is sharing walls with neighbors, which means there is a possibility that one of your neighbors will have a light night causing you a disruption. If it gets past a certain time and you are being too loud, you are being a nuisance. To help curb these bad habits of being too loud, Happy Neighbors will take decibel readings of your environment and alert you when you are being too loud through voice and text alerts. Ideally this will be connected to a speaker that is probably outputting music, and can adjust the volume levels to make sure you stay within the building noise levels for the current time of day.
 
@@ -261,8 +263,8 @@ The device I am proposing is called Happy Neighbors. It is a monotoring system t
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do? It is supposed to alert the user when they are being too loud.
-1. When does it fail? It fails when the microphone is too far away from the noise source, or when it mistakes noises outside of your apartment as your own noises. It is also possible the user fails to see the alert.
-1. When it fails, why does it fail? It is too far away from the noise source, or it is misclassifying the source of the noise (noise is not coming from your apartment). Also, the user may forget the system is running and not see the alert.
+1. When does it fail? It fails when the microphone is too far away from the noise source, or when it mistakes noises outside of your apartment as your own noises. It is also possible the user fails to see the alert. Sometimes the mic is finicky and does not read sounds appropriately, it seems to be identifying sounds off my phone the most loudly so clearly it reads certain frequencies/outputs better than others.
+1. When it fails, why does it fail? It is too far away from the noise source, or it is misclassifying the source of the noise (noise is not coming from your apartment). Also, the user may forget the system is running and not see the alert. The mic has to take all inputs equally in terms of frequency.
 1. Based on the behavior you have seen, what other scenarios could cause problems? A user is too preoccupied with their party that they are forgetting to check the system to make sure they are not getting alerts.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
@@ -289,5 +291,11 @@ During the lecture, we mentioned questions to help characterize a material:
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+
+https://user-images.githubusercontent.com/112603386/197688054-780e8a67-ecc2-484a-8253-53d708c4423c.MOV
+
+
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
