@@ -1,1 +1,1 @@
-espeak -ven+f2 -k5 -s150 --stdout  "User ones turn" | aplay
+espeak -ven+f2 -k5 -s150 --stdout  "User one's turn" | aplay
