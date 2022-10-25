@@ -253,6 +253,8 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+The device I am proposing is called Happy Neighbors. It is a monotoring system that alerts you when you are being too loud. In NYC, apartments are very common. One of the downsides of living in an apartment building is sharing walls with neighbors, which means there is a possibility that one of your neighbors will have a light night causing you a disruption. If it gets past a certain time and you are being too loud, you are being a nuisance. To help curb these bad habits of being too loud, Happy Neighbors will take decibel readings of your environment and alert you when you are being too loud through voice and text alerts. Ideally this will be connected to a speaker that is probably outputting music, and can adjust the volume levels to make sure you stay within the building noise levels for the current time of day.
+
 ### Part C
 ### Test the interaction prototype
 
