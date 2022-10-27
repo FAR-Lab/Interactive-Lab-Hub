@@ -31,13 +31,13 @@ while(True):
     if webCam:
         ret, img = cap.read()
     
-    imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    blurred = cv2.GaussianBlur(imgray, (7,7), 0)
-    ret, thresh = cv2.threshold(blurred,100,255,0)
+        imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        blurred = cv2.GaussianBlur(imgray, (7,7), 0)
+        ret, thresh = cv2.threshold(blurred,100,255,0)
 
-    contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-    img_c = cv2.drawContours(img, contours, -1, (0,255,0), 3)
-    masked = cv2.bitwise_and(img_c, img_c, mask=thresh)
+        contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        img_c = cv2.drawContours(img, contours, -1, (0,255,0), 3)
+        masked = cv2.bitwise_and(img_c, img_c, mask=thresh)
 
     if webCam:
         cv2.imshow('Resized Window', masked)
