@@ -39,8 +39,6 @@ while(True):
     img_c = cv2.drawContours(img, contours, -1, (0,255,0), 3)
     masked = cv2.bitwise_and(img_c, img_c, mask=thresh)
 
-    pint("breakpoint")
-
     if webCam:
         cv2.imshow('Resized Window', masked)
         if cv2.waitKey(1) & 0xFF == ord('q'):
