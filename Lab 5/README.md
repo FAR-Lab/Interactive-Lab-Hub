@@ -99,6 +99,15 @@ pi@ixe00:~/openCV-examples/flow-detection $ python optical_flow.py 0 window
 pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
+Testing contour detection to possibly extract designs in real life i.e. tattoo design.
+![Screen Shot 2022-10-24 at 11 37 48 PM](https://user-images.githubusercontent.com/6238480/198288635-6a1b1ce1-21b6-4105-9040-8e1c38e5f340.png)
+
+Image recognition can be used to verify IDs.
+![Screen Shot 2022-10-24 at 11 46 37 PM](https://user-images.githubusercontent.com/6238480/198288664-60b07600-7583-4a3a-930f-2ee873cb7883.png)
+
+Object detection can be used to check a list of items on the table.
+![Screen Shot 2022-10-24 at 11 56 12 PM](https://user-images.githubusercontent.com/6238480/198288678-b0a196a6-fdc6-4d75-b436-f99337ac1449.png)
+
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
