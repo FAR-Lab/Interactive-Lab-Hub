@@ -54,7 +54,9 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 
 Once connected, you should be able to see all the messages under the IDD topic. , go to the **Publish** tab and try publish something! From the interface you can send and plot messages as well. Remember, you are limited to subtopics of `IDD`. That is, to publish or subcribe, the topics will start with `IDD/`.
 
-![publish settings](imgs/mqtt_explorer_2.png?raw=true)
+
+<img width="1026" alt="Screen Shot 2022-10-30 at 10 40 32 AM" src="https://user-images.githubusercontent.com/24699361/198885090-356f4af0-4706-4fb1-870f-41c15e030aba.png">
+
 
 
 ### Part B
@@ -82,12 +84,15 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   >> message: testtesttest
   ...
   ```
-* Run `reader.py`, and you should see any messages being published to `IDD/` subtopics.
+* Run `reader.py`, and you should see any messages being published to `IDD/` subtopics. Type a message inside MQTT explorer and see if you can receive it with `reader.py`.
 
   ```
   (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
   ...
   ```
+
+<img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
+
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
