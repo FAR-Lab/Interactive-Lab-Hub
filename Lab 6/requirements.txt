@@ -1,6 +1,7 @@
 Adafruit-Blinka==6.4.1
 adafruit-circuitpython-apds9960==2.2.6
 adafruit-circuitpython-busdevice==5.0.6
+adafruit-circuitpython-mpr121==2.1.7
 adafruit-circuitpython-register==1.9.5
 adafruit-circuitpython-rgb-display==3.10.6
 Adafruit-PlatformDetect==3.4.1
