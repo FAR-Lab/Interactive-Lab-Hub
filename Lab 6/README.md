@@ -65,23 +65,27 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 **Running Examples on Pi**
 
 * Install the packages from `requirements.txt` under a virtual environment, we will continue to use the `circuitpython` environment we setup earlier this semester:
+
   ```
-pi@raspberrypi:~/Interactive-Lab-Hub $ source circuitpython/bin/activate
-(circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub $ cd Lab\ 6
-(circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 6 $ pip install -r requirements.txt
+  pi@raspberrypi:~/Interactive-Lab-Hub $ source circuitpython/bin/activate
+  (circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub $ cd Lab\ 6
+  (circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 6 $ pip install -r requirements.txt
+  ...
   ```
 * Run `sender.py`, fill in a topic name (should start with `IDD/`), then start sending messages. You should be able to see them on MQTT Explorer.
+
   ```
-(circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 6 $ python sender.py
->> topic: IDD/AlexandraTesting
-now writing to topic IDD/AlexandraTesting
-type new-topic to swich topics
->> message: testtesttest
+  (circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 6 $ python sender.py
+  >> topic: IDD/AlexandraTesting
+  now writing to topic IDD/AlexandraTesting
+  type new-topic to swich topics
+  >> message: testtesttest
   ...
   ```
 * Run `reader.py`, and you should see any messages being published to `IDD/` subtopics.
+
   ```
-  (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
+  (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
   ...
   ```
 
@@ -102,7 +106,7 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 </p>
 
  ```
- (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python distributed_twizzlers_sender.py
+ (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python distributed_twizzlers_sender.py
  ...
  ```
 
@@ -128,7 +132,7 @@ The first step on the path to *collective* enlightenment, plug the [APDS-9960 Pr
 The second step to achieving our great enlightenment is to run `color.py`. We have talked about this sensor back in Lab 2 and Lab 4, this script is similar to what you have done before! Remember to ativate the `circuitpython` virtual environment you have been using during this semester before running the script:
 
  ```
- (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python color.py
+ (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python color.py
  ...
  ```
 
