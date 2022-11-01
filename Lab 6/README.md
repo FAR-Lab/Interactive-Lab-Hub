@@ -5,7 +5,7 @@
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
-2. Install [MQTT Explorer](http://mqtt-explorer.com/) on your laptop.
+2. Install [MQTT Explorer](http://mqtt-explorer.com/) on your laptop. If you are using Mac, MQTT Explorer only works when installed from the [App Store](https://apps.apple.com/app/apple-store/id1455214828).
 3. Readings before class:
    * [MQTT](#MQTT)
    * [The Presence Table](https://dl.acm.org/doi/10.1145/1935701.1935800) and [video](https://vimeo.com/15932020)
@@ -54,7 +54,9 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 
 Once connected, you should be able to see all the messages under the IDD topic. , go to the **Publish** tab and try publish something! From the interface you can send and plot messages as well. Remember, you are limited to subtopics of `IDD`. That is, to publish or subcribe, the topics will start with `IDD/`.
 
-![publish settings](imgs/mqtt_explorer_2.png?raw=true)
+
+<img width="1026" alt="Screen Shot 2022-10-30 at 10 40 32 AM" src="https://user-images.githubusercontent.com/24699361/198885090-356f4af0-4706-4fb1-870f-41c15e030aba.png">
+
 
 
 ### Part B
@@ -65,26 +67,32 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 **Running Examples on Pi**
 
 * Install the packages from `requirements.txt` under a virtual environment, we will continue to use the `circuitpython` environment we setup earlier this semester:
+
   ```
-  pi@ixe00:~ $ source circuitpython/bin/activate
-  (circuitpython) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 6
-  (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ pip install -r requirements.txt
+  pi@raspberrypi:~/Interactive-Lab-Hub $ source circuitpython/bin/activate
+  (circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub $ cd Lab\ 6
+  (circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 6 $ pip install -r requirements.txt
+  ...
   ```
 * Run `sender.py`, fill in a topic name (should start with `IDD/`), then start sending messages. You should be able to see them on MQTT Explorer.
+
   ```
-  (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python sender.py
-  pi@ReiIDDPi:~/Interactive-Lab-Hub/Lab 6 $ python sender.py
-  >> topic: IDD/ReiTesting
-  now writing to topic IDD/ReiTesting
+  (circuitpython) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 6 $ python sender.py
+  >> topic: IDD/AlexandraTesting
+  now writing to topic IDD/AlexandraTesting
   type new-topic to swich topics
   >> message: testtesttest
   ...
   ```
-* Run `reader.py`, and you should see any messages being published to `IDD/` subtopics.
+* Run `reader.py`, and you should see any messages being published to `IDD/` subtopics. Type a message inside MQTT explorer and see if you can receive it with `reader.py`.
+
   ```
-  (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
+  (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
   ...
   ```
+
+<img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
+
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
@@ -103,7 +111,7 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 </p>
 
  ```
- (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python distributed_twizzlers_sender.py
+ (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python distributed_twizzlers_sender.py
  ...
  ```
 
@@ -126,10 +134,10 @@ The first step on the path to *collective* enlightenment, plug the [APDS-9960 Pr
 </p>
 
 
-The second step to achieving our great enlightenment is to run `color.py`. We have talked about this sensor back in Lab 2 and Lab 4, this script is similar to what you have done before! Remember to ativate the `circuitpython` virtual environment you have been using during this semester before running the script:
+The second step to achieving our great enlightenment is to run `color.py`. We have talked about this sensor back in Lab 2 and Lab 4, this script is similar to what you have done before! Remember to activate the `circuitpython` virtual environment you have been using during this semester before running the script:
 
  ```
- (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python color.py
+ (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python color.py
  ...
  ```
 
