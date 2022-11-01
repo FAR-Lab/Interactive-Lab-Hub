@@ -311,15 +311,19 @@ Video of interaction
 https://user-images.githubusercontent.com/6238480/199162105-ea45ee94-2799-4988-a56f-2ff5445e0cc6.mp4
 
 _When does it what it is supposed to do?_
+
 In a more controlled environment, a room with white walls for instance, the image detection works much better.
 
 _When does it fail?_
+
 When a room is filled with other darker colored items such as carpet or painted walls, the image detection may classify those to be shaded regions.
 
 _When it fails, why does it fail?_
+
 The model needs to be further trained to detect shades, rather than the simple differentiation of light exposures.
 
 _Based on the behavior you have seen, what other scenarios could cause problems?_
+
 Weather can affect the product as well i.e. cloudy day will reduce overall brightness of the room and therefore requiring a more sensitive system to detect the differences.
 
 ### Further application
