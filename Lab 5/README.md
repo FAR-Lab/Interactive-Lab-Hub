@@ -303,8 +303,21 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 
 
+Following reflection from Part 1, I realized that noise from people talking should not be my main focus; the noise source of the music will be significantly louder than the people talking (in my experience) and this is what normally travels through walls and disturbs neighbors. For this reason I have now setup the microphone to be right next to the speaker and changed my decibel thresholds to match according to my testing of the mic right next to the speaker. 
 
-
+I was sick this weekend so I could only test this by myself, but that is OK because the interaction is specific to noise coming out of a speaker now and is placed near the mic. The algorithm also connects to the speaker for warnings, and turns down the music/stops the music after specific amounts of warnings. If it warns you 3 times, it means you ignored the previous warnings. The algorithm will say "SHHH" and turn the music down, but continue playing. If it warns you 10 times, the algorithm will say "SHUT UP!" and turn your music off. This is a fail safe to make sure that even if you are ignoring the warnings, you can still ensure that your neighbors are not disturbed. Of course...users can simply turn off the algorithm, however, if they keep the software running they will be forced to abide by the rules of their apartment building. 
 
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+Final User test:
+
+https://user-images.githubusercontent.com/112603386/199155714-1152ab6a-8f92-46e4-8fa0-4b43ee7bf439.MOV
+
+Next steos for improving my product:
+For some reason I noticed that the playback from my phone made the microphone register higher decibel values than from my speaker which was actually louder. This must be due to the sensitivity of the specific mic. There are 2 ways I could tackle this problem.
+1: I can buy a more sensitive mic that gives more proper amplitude readings of all frequencies.
+2: I can perform an FFT on the noise input the mic is reading, and figure out specific thresholds for different frequencies. This would be the best fix, because ironically lower frequencies were not being picked up very well on the mic, even though those are the frequencies that travel through walls the easiest. If I was to really manufacture this product, I would go down this FFT route to track bass frequencies and prioritize monotoring of these lower end frequencies.
+
+
+
