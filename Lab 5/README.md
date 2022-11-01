@@ -295,12 +295,14 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+https://user-images.githubusercontent.com/112603386/197688054-780e8a67-ecc2-484a-8253-53d708c4423c.MOV
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 
-https://user-images.githubusercontent.com/112603386/197688054-780e8a67-ecc2-484a-8253-53d708c4423c.MOV
+
 
 
 
