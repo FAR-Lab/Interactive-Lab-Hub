@@ -323,7 +323,7 @@ https://user-images.githubusercontent.com/112603386/199157433-68caa50b-0906-425f
 
 
 
-Next steos for improving my product:
+Next steps for improving my product:
 For some reason I noticed that the playback from my phone made the microphone register higher decibel values than from my speaker which was actually louder. This must be due to the sensitivity of the specific mic. There are 2 ways I could tackle this problem.
 1: I can buy a more sensitive mic that gives more proper amplitude readings of all frequencies.
 2: I can perform an FFT on the noise input the mic is reading, and figure out specific thresholds for different frequencies. This would be the best fix, because ironically lower frequencies were not being picked up very well on the mic, even though those are the frequencies that travel through walls the easiest. If I was to really manufacture this product, I would go down this FFT route to track bass frequencies and prioritize monotoring of these lower end frequencies.
