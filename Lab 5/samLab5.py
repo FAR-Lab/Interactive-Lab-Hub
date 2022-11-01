@@ -183,18 +183,27 @@ def main():
                 
                 nextTimeStamp = UPDATE_INTERVAL+time.time() # See `UPDATE_INTERVAL` above
                 
-                if 1750 > LoudestFrequency > 750:
+                if 1250 > LoudestFrequency > 550:
                     print("quiet down a little")
                     print("Loudest Frqeuncy:",LoudestFrequency)
                     warningCount+=1
                     print("you have been warned", warningCount, "times")
-                    
+                    if 4 > warningCount > 2:
+                        print("you really need to stop being so loud!")
+                    elif 8 > warningCount > 6:
+                        print("Ok, youre ignoring me...YOU WILL BE HEARING FROM YOUR LANDLORD IF YOU DON'T QUIET DOWN!!!!")
 
-                elif LoudestFrequency > 1750:
+
+                elif LoudestFrequency > 1250:
                     print("quiet down a lot!!!")
                     print("Loudest Frqeuncy:",LoudestFrequency)
                     warningCount+=1
                     print("you have been warned", warningCount, "times")
+                    if 4 > warningCount > 2:
+                        print("you really need to stop being so loud!")
+                    elif 7 > warningCount > 5:
+                        print("Ok, youre ignoring me...YOU WILL BE HEARING FROM YOUR LANDLORD IF YOU DON'T QUIET DOWN!!!!")
+
 
                   #  y = top
                   #  draw.rectangle((x, y, width, height), outline=0, fill=0)
