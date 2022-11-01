@@ -240,15 +240,44 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+When playing around with the contours detection of the openCV library, I realized that I can adjust the sensitivity of the contour detection to determine the shapes that the system captures.
+
+```
+ret, thresh = cv2.threshold(blurred,100,255,0)
+```
+
+By setting the parameter to 100, the contour lines now will only detect higher contrast difference among objects.
+
+Before threshold increase:
+
+<img width="570" alt="Before" src="https://user-images.githubusercontent.com/6238480/199160492-88f287ad-963b-424f-bf92-9ac199858a8f.png">
+
+After threshold increase:
+
+<img width="569" alt="After" src="https://user-images.githubusercontent.com/6238480/199160527-1db4f58e-ee93-44a1-890c-fa6488f556b2.png">
+
+Tips: use the GaussianBlur function to smoothen the contour edges `blurred = cv2.GaussianBlur(imgray, (7,7), 0)`
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
+
+In a more controlled environment, a room with white walls for instance, the image detection works much better.
+
 1. When does it fail?
+
+When a room is filled with other darker colored items such as carpet or painted walls, the image detection may classify those to be shaded regions.
+
 1. When it fails, why does it fail?
+
+The model needs to be further trained to detect shades, rather than the simple differentiation of light exposures.
+
 1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Weather can affect the product as well i.e. cloudy day will reduce overall brightness of the room and therefore requiring a more sensitive system to detect the differences.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
@@ -276,3 +305,27 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+In this project, my equipment is designed to be used by interior designers to measure how "well-lit" a room is. The model uses openCV contour detection function with adjusted threshold to identify the shaded portion of a room and overlay the area with black.
+
+The model than sum the number of dark pixels in that image and calculate the proportion of it relative to the total pixels of the image. This number represents the percentage of shaded portion in a room.
+
+Ideally, the camera will be operational to record the scene from sunrise to sunset to monitor the light intensity in the room throughout the day. This equipment can be very useful for interior designers when deciding and evaluating the design of a room.
+
+Setup
+
+![Setup](https://user-images.githubusercontent.com/6238480/199162078-05c54f85-2562-4a48-934d-03062c88d57e.jpg)
+
+Video of interaction
+
+https://user-images.githubusercontent.com/6238480/199162105-ea45ee94-2799-4988-a56f-2ff5445e0cc6.mp4
+
+### Further application
+
+To take it further, the contour detection with adjusted threshold can also be applied for shade recognition in potraits. For instance, a photographer may require a faster way to filter and select those portraits they took that do not have dark shadows.
+
+Example
+
+<img width="569" alt="Face contour" src="https://user-images.githubusercontent.com/6238480/199162454-e89d4667-ecf7-41f8-a06c-6daaf88e7683.png">
+
+
