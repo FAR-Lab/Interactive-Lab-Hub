@@ -312,7 +312,11 @@ I was sick this weekend so I could only test this by myself, but that is OK beca
 
 Final User test:
 
-https://user-images.githubusercontent.com/112603386/199155714-1152ab6a-8f92-46e4-8fa0-4b43ee7bf439.MOV
+
+
+https://user-images.githubusercontent.com/112603386/199157433-68caa50b-0906-425f-acad-b78be03433f7.MOV
+
+
 
 Next steos for improving my product:
 For some reason I noticed that the playback from my phone made the microphone register higher decibel values than from my speaker which was actually louder. This must be due to the sensitivity of the specific mic. There are 2 ways I could tackle this problem.
