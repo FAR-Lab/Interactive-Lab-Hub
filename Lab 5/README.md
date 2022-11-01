@@ -294,6 +294,12 @@ Tips: use the GaussianBlur function to smoothen the contour edges `blurred = cv2
 
 The model then sum the number of dark pixels in that image and calculate the proportion of it relative to the total pixels of the image. This number represents the percentage of shaded portion in a room.
 
+```
+num_dark_px = sum(masked[masked < 110])
+num_total_px = masked.shape[0] * masked.shape[1]
+dark_area_pcnt = num_dark_px / num_total_px
+```
+
 Ideally, the camera will be operational to record the scene from sunrise to sunset to monitor the light intensity in the room throughout the day. This equipment can be very useful for interior designers when deciding and evaluating the design of a room.
 
 Setup
@@ -304,27 +310,23 @@ Video of interaction
 
 https://user-images.githubusercontent.com/6238480/199162105-ea45ee94-2799-4988-a56f-2ff5445e0cc6.mp4
 
-1. When does it what it is supposed to do?
-
+_When does it what it is supposed to do?_
 In a more controlled environment, a room with white walls for instance, the image detection works much better.
 
-1. When does it fail?
-
+_When does it fail?_
 When a room is filled with other darker colored items such as carpet or painted walls, the image detection may classify those to be shaded regions.
 
-1. When it fails, why does it fail?
-
+_When it fails, why does it fail?_
 The model needs to be further trained to detect shades, rather than the simple differentiation of light exposures.
 
-1. Based on the behavior you have seen, what other scenarios could cause problems?
-
+_Based on the behavior you have seen, what other scenarios could cause problems?_
 Weather can affect the product as well i.e. cloudy day will reduce overall brightness of the room and therefore requiring a more sensitive system to detect the differences.
 
 ### Further application
 
 To take it further, the contour detection with adjusted threshold can also be applied for shade recognition in potraits. For instance, a photographer may require a faster way to filter and select those portraits they took that do not have dark shadows.
 
-Example
+Example of using shade detection to facial image
 
 <img width="569" alt="Face contour" src="https://user-images.githubusercontent.com/6238480/199162454-e89d4667-ecf7-41f8-a06c-6daaf88e7683.png">
 
