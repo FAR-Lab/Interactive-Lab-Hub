@@ -121,18 +121,18 @@ This software can be used in self driving cars to identify objects in the road.
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
-To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1second of audio. 
+To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1 second of audio. 
 Pyaudio needs to be installed with the following comand:
 ``sudo apt install python3-pyaudio``
 SciPy is installed with 
 ``sudo apt install python3-scipy`` 
 
-Lastly we need numpy-ringbuffer, to make cintinues data anlysis easier.
+Lastly we need numpy-ringbuffer, to make continues data anlysis easier.
 ``pip install numpy-ringbuffer``
 
 Now try the audio processing example:
 * Find what ID the micrpohone has with `python ListAvalibleAudioDevices.py`
-    Look for a device name that includes `USB` im namen.
+    Look for a device name that includes `USB` in the name.
 * Adjust the variable `DEVICE_INDEX` in the `ExampleAudioFFT.py` file.
     See if you are getting results printed out from the microphone. Try to understand how the code works.
     Then run the file by typing `python ExampleAudioFFT.py`
@@ -165,7 +165,7 @@ For technical references:
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
 
 ### (Optional Reading) Introducing Additional Concepts
-The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pis, so you can move onto part B.** However, you are welcome to try it on your personal computer. 
+The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
 
 #### MediaPipe
 
