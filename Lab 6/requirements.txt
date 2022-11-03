@@ -1,22 +1,20 @@
-Adafruit-Blinka                    6.4.1
-adafruit-circuitpython-apds9960    2.2.6
-adafruit-circuitpython-busdevice   5.0.6
-adafruit-circuitpython-mpr121      2.1.7
-adafruit-circuitpython-register    1.9.5
-adafruit-circuitpython-rgb-display 3.10.6
-Adafruit-PlatformDetect            3.4.1
-Adafruit-PureIO                    1.1.8
-board                              1.0
-paho-mqtt                          1.5.1
-Pillow                             9.0.1
-pip                                22.1.2
-pyftdi                             0.52.9
-pyserial                           3.5
-pyusb                              1.1.1
-RPi.GPIO                           0.7.1
-rpi-ws281x                         4.2.6
-setuptools                         62.6.0
-sysv-ipc                           1.1.0
-wheel                              0.37.1
-
-
+Adafruit-Blinka==6.4.1
+adafruit-circuitpython-apds9960==2.2.6
+adafruit-circuitpython-busdevice==5.0.6
+adafruit-circuitpython-mpr121==2.1.7
+adafruit-circuitpython-register==1.9.5
+adafruit-circuitpython-rgb-display==3.10.6
+Adafruit-PlatformDetect==3.4.1
+Adafruit-PureIO==1.1.8
+board==1.0
+paho-mqtt==1.5.1
+Pillow==9.0.1
+pip==22.1.2
+pyftdi==0.52.9
+pyserial==3.5
+pyusb==1.1.1
+RPi.GPIO==0.7.1
+rpi-ws281x==4.2.6
+setuptools==62.6.0
+sysv-ipc==1.1.0
+wheel==0.37.1
