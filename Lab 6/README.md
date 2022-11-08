@@ -149,11 +149,26 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+In this lab, we developed an MQTT status updator that can interface with multiple existing hospital devices.  These devices, send messages across the hospital network, indicating their current status.  For example, when the hematology analyzer in the blood department is complete with one task, it can update across the network indicating it is ready.  In these examples, we can expidite hospital patient management processes, by providing instantanious situational awareness for multiple departments.  Members of our group with hospital backgrounds indicated this manual communication via phone, beepers, etc as a particular painpoint for hospital staff.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+![36244192-A099-4CE7-A09D-2BD7B1B5090F](https://user-images.githubusercontent.com/6706384/200459772-6ce740bf-f554-4837-acd9-5cd03da8021b.jpg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+See video below for prototype in action.
+As far as the user interface goes, we are still developing a centralized visual indicator for equipment and status updates.  This is quite diffcult to implement as we are unsure of the complex workings of hospital requirements.  However, we do understand the need for a dasboard and customization options which can put hospital members in quick communication with one another.
+
+Currently the interface being demonstrated shows the raw interface with the MQTT explorer as a working prototype.
+
+<img width="1087" alt="Screen Shot 2022-11-07 at 9 34 05 PM" src="https://user-images.githubusercontent.com/6706384/200461007-746e6103-af55-4752-8076-e8872359e20c.png">
+
+In this proposed dashboard we are utilizing Django, and PostgreSQL to manage the MQTT message database and deliver a web format dashboard.
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+https://youtu.be/c4wwQdWHIvI
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
