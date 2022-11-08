@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+In this project, I collaborated with the amazing [Sylvia Ding](https://github.com/Sylv1011) 🎉
+
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
@@ -166,6 +168,9 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+https://user-images.githubusercontent.com/6238480/200450630-2aa8b991-e950-4f74-aa00-555edc7f8775.mov
+
+<img width="390" alt="Screen Shot 2022-11-07 at 8 15 52 PM" src="https://user-images.githubusercontent.com/6238480/200450315-b6c0a0a9-476b-44ec-85ff-08392ccdd9ff.png">
 
 ### Part E
 ### Make it your own
