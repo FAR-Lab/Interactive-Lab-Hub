@@ -96,6 +96,16 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. It could be used as a centralized feedback system for customers on e-commerce site. The system enables companies to get feedback on customer services altogether at a centralized location.
+
+2. It could be used as a community support site where people can all push their thoughts and inspirations to provide support within the local community.
+
+3. It could be used as a mobile monitoring system for parents to monitor their children's social media activity to prevent cyberbullying from happening.
+
+4. For people who are deaf and cannot talk, there could be an interactive device that translates sign language and displays the words to the screen.
+
+5. The system could be used as an communication tool for children with autism. For example, someone with autism can use button/gesture to communicate and the system will display message on the screen.
+
 ### Part C
 ### Streaming a Sensor
 
@@ -117,8 +127,13 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+<img width="586" alt="PartC1" src="https://user-images.githubusercontent.com/6238480/200448505-7c403327-287f-450f-975b-47b13d999251.png">
+
+<img width="556" alt="PartC2" src="https://user-images.githubusercontent.com/6238480/200448628-4f03b5e8-fc98-4a44-aa5c-4e0aeea097d8.png">
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+<img width="530" alt="PartC_Prox2" src="https://user-images.githubusercontent.com/6238480/200448694-01723450-9956-4ad9-a6f4-3fdce783ce46.png">
 
 ### Part D
 ### The One True ColorNet
@@ -159,11 +174,21 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+The design would be a centralized package tracking system. It senses the packages sent to the doorstep, and once the packages reach a certain amount, it will send out a notification to remind users to pick up their packages. This design can help people prevent overcrowding packages at their front door and keep track of packages delivered.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+![Sketch1](https://user-images.githubusercontent.com/6238480/200447558-0529f8b6-089a-4603-8550-99159cb95366.jpeg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+![IMG_1559](https://user-images.githubusercontent.com/6238480/200448377-797b0275-2dd0-4941-9ade-96172791cdd9.JPG)
+
+![IMG_1561](https://user-images.githubusercontent.com/6238480/200448398-64239676-c8f1-43b5-8d85-9a6e53efd5a8.JPG)
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/OPxqKbw9U5Y/sddefault.jpg)](https://www.youtube.com/watch?v=OPxqKbw9U5Y "IDD - Package Zone")
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
