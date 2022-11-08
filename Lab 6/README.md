@@ -178,13 +178,13 @@ The design would be a centralized package tracking system. It senses the package
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-![Sketch1](https://user-images.githubusercontent.com/6238480/200447558-0529f8b6-089a-4603-8550-99159cb95366.jpeg)
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/200447558-0529f8b6-089a-4603-8550-99159cb95366.jpeg">
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
-![IMG_1559](https://user-images.githubusercontent.com/6238480/200448377-797b0275-2dd0-4941-9ade-96172791cdd9.JPG)
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/200448377-797b0275-2dd0-4941-9ade-96172791cdd9.JPG">
 
-![IMG_1561](https://user-images.githubusercontent.com/6238480/200448398-64239676-c8f1-43b5-8d85-9a6e53efd5a8.JPG)
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/200448398-64239676-c8f1-43b5-8d85-9a6e53efd5a8.JPG">
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
