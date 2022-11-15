@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+In this project, I collaborated with the amazing [Sylvia Ding](https://github.com/Sylv1011) 🎉
+
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
@@ -127,11 +129,17 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+Sending a signal via the MQTT Explorer
+
 <img width="586" alt="PartC1" src="https://user-images.githubusercontent.com/6238480/200448505-7c403327-287f-450f-975b-47b13d999251.png">
+
+Signal recorded when the capacitive sensor is touched
 
 <img width="556" alt="PartC2" src="https://user-images.githubusercontent.com/6238480/200448628-4f03b5e8-fc98-4a44-aa5c-4e0aeea097d8.png">
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+We used the proximity sensor and streamed the distance to the terminal and MQTT network
 
 <img width="530" alt="PartC_Prox2" src="https://user-images.githubusercontent.com/6238480/200448694-01723450-9956-4ad9-a6f4-3fdce783ce46.png">
 
@@ -166,6 +174,13 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+When the proximity sensor is interacted with, the color on the Raspberry Pi changes
+
+https://user-images.githubusercontent.com/6238480/200450630-2aa8b991-e950-4f74-aa00-555edc7f8775.mov
+
+By pressing the top button, the color code is captured and sent via MQTT
+
+<img width="390" alt="Screen Shot 2022-11-07 at 8 15 52 PM" src="https://user-images.githubusercontent.com/6238480/200450315-b6c0a0a9-476b-44ec-85ff-08392ccdd9ff.png">
 
 ### Part E
 ### Make it your own
@@ -180,13 +195,23 @@ The design would be a centralized package tracking system. It senses the package
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/200447558-0529f8b6-089a-4603-8550-99159cb95366.jpeg">
 
+- The input is a pad in front of the doorstep that is currently connected to a capacitive sensor. This sensor can be adjusted in multiple ways: proximity sensor, image recognition, etc.
+- The output will be a notification to the house owner, be it in the form of mobile notification or physical device inside the house that alerts the house owner that packages have been received.
+- Additional sensory outputs can be introduced to the system such as a speaker to emit sound when packages arrive or lights to indicate the same information.
+
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+The interaction will be very simple. Users, in this case, package couriers, do not necessarily need to change their current workflow. The receiving pad just have to be obvious enough for the couriers to place the packages within the box.
+
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/200448377-797b0275-2dd0-4941-9ade-96172791cdd9.JPG">
+
+Another target market for this product are fulfillment centers i.e. Fedex or Amazon where a network of distributed sensors can indicate and track where each package is located to optimize shipment process.
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/6238480/200448398-64239676-c8f1-43b5-8d85-9a6e53efd5a8.JPG">
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Here is how it works when our system receives packages
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/OPxqKbw9U5Y/sddefault.jpg)](https://www.youtube.com/watch?v=OPxqKbw9U5Y "IDD - Package Zone")
 
