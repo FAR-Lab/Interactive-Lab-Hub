@@ -1,0 +1,31 @@
+Making a toast robot
+
+Idea
+Drinking with friends is fun. However, sometimes you might need to drink by yourself. It is also fun but you might want to make a toast with somebody even if you are enjoying drinking by yourself. This robot will be the friendly company for the night. When you open a can of beer it will cheer you.
+
+Storyboard
+
+
+Mechanism
+
+ Parts needed:
+ -Raspberry Pie
+ -Moter
+ -Microphone
+ -Wood plate
+ -Wood stick
+
+Timeline
+-Build the box using laser cutter -17th of Nov
+-Build the mechanism of the arm using laser cutter - 20th of Nov
+-Build the system of recognizing the sound of clips - 23rd of Nov
+-Build the system of working the mortar - 27th Nov
+
+risks/contingencies
+ -The robot might recognize the other sounds
+ -People might not notice what the robot wants to do
+
+fall-back plan
+ -Gather data of sounds to make the robot recognize the differences 
+ -Make the robot to say “Cheers”
+
