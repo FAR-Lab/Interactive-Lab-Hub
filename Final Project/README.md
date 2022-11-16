@@ -3,6 +3,7 @@ Final Project Presentation Slide:
 ![IDD Final Project Slide](https://user-images.githubusercontent.com/112603386/201853861-d8a84505-fe94-40c7-b983-9b27b2513f48.png)
 
 Project Plan:
+
 Sam Willenson (shw58), Rahul Sahetiya (rs2248)
 Big Idea
 We will be creating two pianos that will be linked together to facilitate a teaching experience. Keys played on one piano will translate into LEDs turning on above the keys of the other piano, and vice versa. Eventually, we intend to add a secondary mode to these pianos, where users can play a game of musical Simon using the keyboards. This adds another way to interact with the devices, as well as a gamification twist on standard education methods. Simon can be used as a way to test students’ ability to add onto a group of notes and stay within key. 
