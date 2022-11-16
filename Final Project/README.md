@@ -5,9 +5,13 @@ Final Project Presentation Slide:
 Project Plan:
 
 Sam Willenson (shw58), Rahul Sahetiya (rs2248)
-Big Idea
+
+Big Idea:
+
 We will be creating two pianos that will be linked together to facilitate a teaching experience. Keys played on one piano will translate into LEDs turning on above the keys of the other piano, and vice versa. Eventually, we intend to add a secondary mode to these pianos, where users can play a game of musical Simon using the keyboards. This adds another way to interact with the devices, as well as a gamification twist on standard education methods. Simon can be used as a way to test students’ ability to add onto a group of notes and stay within key. 
-Timeline
+
+Timeline:
+
 Week 1 (11/15 - 11/22): 
 Make sure all parts needed are available/ order parts that are not readily available
 Look into music libraries and communication protocols to use
@@ -26,7 +30,9 @@ Develop Simon game if time permits
 
 Week 4 (12/6 - 12/13):
 Complete documentation and other written parts as needed
-Parts Needed
+
+Parts Needed:
+
 The part we are envisioning to use are:
 Cardboard
 Laser cutter or normal cutting tools
@@ -36,12 +42,16 @@ Wire to route between sensor and contacts
 LED lights (ideally x24 for full octave on both pianos)
 2x LCD screen
 Speakers
-Risks/Contingencies
+
+Risks/Contingencies:
+
 Multi-key press if user is not precise with playing motions (user accidentally touches note they do not intend to play i.e. pinky grazes a black key when going for a C note. This can trigger an unintended note to be played)
 Simon game proves too difficult to develop
 Can’t acquire all parts in time
 Program to control music functionality is inefficient causing a delayed sound
 Messaging protocol in use is very delayed/high latency
-Fall-back plan
+
+Fall-back plan:
+
 The biggest stretch for this project is making and implementing the Simon game functionality. If unable to, given our current plans, we should still be able to complete and polish two keyboards that have teaching/learning functionality. It also might not be feasible to implement the teaching/learning both ways, so we will need to fall back to one piano being dedicated for learning and the other piano being dedicated to teaching. If we encounter some errors with the capacitive touch sensing, it should still be possible to simulate a good key press system using normal buttons or maybe limit switches. 
 
