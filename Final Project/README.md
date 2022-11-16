@@ -35,19 +35,12 @@ Parts Needed:
 The part we are envisioning to use are:
 
 Cardboard
-
 Laser cutter or normal cutting tools
-
 Copper tape as electrolytic contacts
-
 Capacitive touch sensor
-
 Wire to route between sensor and contacts
-
 LED lights (ideally x24 for full octave on both pianos)
-
 2x LCD screen
-
 Speakers
 
 Risks/Contingencies:
