@@ -25,3 +25,4 @@ pixels = neopixel.NeoPixel(
 while True:
     pixels.fill((255, 0, 0))
     pixels.show()
+    print('test')
