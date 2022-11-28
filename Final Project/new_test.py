@@ -31,10 +31,9 @@ yellow = ((160,90,0))
 x = 0
 
 while True:
-    while x < 40:
+    while x < 30:
         pixels[x] = (255, 0, 0)
-        pixels[x-5] = (255, 0, 100)
-        pixels[x-10] = (0, 0, 255)
+        pixels[x-1] = (0, 0, 0)
         #Add 1 to the counter
         x=x+1
         #Add a small time pause which will translate to 'smoothly' changing colour
