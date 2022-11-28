@@ -45,3 +45,33 @@ You can and are not required to work in teams. Be clear in documentation who con
 
 [Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
 This version of the class is very different, but it may be useful to see these.
+
+# Final Project Idea
+
+In this project, we are exploring the possibilities in re-thinking the way we interact with our loved ones who have passed away.
+
+<img width="1249" alt="Screen Shot 2022-11-15 at 6 14 06 PM" src="https://user-images.githubusercontent.com/6238480/202045905-d6a5bc08-fcc4-403a-9058-a9ede7d3f6c1.png">
+
+## Key objectives
+
+We want to design an interactive device that helps to:
+- Let users interact with each family members’ item, reminisce their lives, and remember intimate moments
+- Educate the younger family members of their family history and heritage
+
+The idea is still in exploratory stage and we are going to experiment many ways in forming the product.
+
+**Possible parts**
+- Cardboard (prototyping)
+- Display screen
+- Proximity sensor (possibly)
+- LED light (possibly)
+- MQTT 😊
+
+**Key risks**
+- Product does not evoke the intended emotions
+- Users find it difficult to set up
+- Designed interactions are not intuitive enough
+
+In the case we face challenging constraints, we would consider the following fallback plans:
+- Make it for commercial use instead in columbariums
+- Switch to our secondary idea about educational game
