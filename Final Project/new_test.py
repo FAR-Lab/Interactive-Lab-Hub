@@ -29,6 +29,7 @@ orange = ((253,80,0))
 yellow = ((160,90,0))
 
 x = 0
+y = 0
 
 while True:
     while x < 30:
