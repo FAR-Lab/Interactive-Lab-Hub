@@ -40,4 +40,4 @@ while True:
             #Add a small time pause which will translate to 'smoothly' changing colour
             print(x)
             pixels.show()
-            time.sleep(0.03)
+            time.sleep(0.01)
