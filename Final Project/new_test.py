@@ -9,7 +9,7 @@ import neopixel
 
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
-pixel_pin = board.D18
+pixel_pin = board.D21
 
 # The number of NeoPixels
 num_pixels = 30
