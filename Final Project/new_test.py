@@ -32,12 +32,12 @@ x = 0
 
 while True:
     pixels.fill((0, 220, 0))
-    for x in range(0,40):
-        pixels[x] = (255, 0, 0)
-        pixels[x-5] = (255, 0, 100)
-        pixels[x-10] = (0, 0, 255)
-        #Add 1 to the counter
-        x=x+1
-        #Add a small time pause which will translate to 'smoothly' changing colour
-        print(x)
-        time.sleep(0.1)
+    # for x in range(0,40):
+    #     pixels[x] = (255, 0, 0)
+    #     pixels[x-5] = (255, 0, 100)
+    #     pixels[x-10] = (0, 0, 255)
+    #     #Add 1 to the counter
+    #     x=x+1
+    #     #Add a small time pause which will translate to 'smoothly' changing colour
+    #     print(x)
+    #     time.sleep(0.1)
