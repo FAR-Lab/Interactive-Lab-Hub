@@ -31,7 +31,7 @@ yellow = ((160,90,0))
 x = 0
 
 while True:
-    pixels.fill((0, 220, 0))
+    pixels.fill((220, 220, 0))
     # for x in range(0,40):
     #     pixels[x] = (255, 0, 0)
     #     pixels[x-5] = (255, 0, 100)
