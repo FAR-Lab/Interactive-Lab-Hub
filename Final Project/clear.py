@@ -23,4 +23,6 @@ pixels = neopixel.NeoPixel(
     pixel_pin, num_pixels, brightness=0.2, auto_write=False
 )
 
-pixels.clear()
+while True:
+    pixels.fill((0, 0, 0))
+    # pixels.show()
