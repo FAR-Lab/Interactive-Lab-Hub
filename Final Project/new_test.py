@@ -5,7 +5,8 @@
 import time
 import board
 import neopixel
-
+import digitalio
+import busio
 
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
@@ -22,8 +23,24 @@ pixels = neopixel.NeoPixel(
     pixel_pin, num_pixels, brightness=0.2, auto_write=False
 )
 
+print("Hello blinka!")
+
+# Try to great a Digital input
+pin = digitalio.DigitalInOut(board.D4)
+print("Digital IO ok!")
+
+# Try to create an I2C device
+i2c = busio.I2C(board.SCL, board.SDA)
+print("I2C ok!")
+
+# Try to create an SPI device
+spi = busio.SPI(board.SCLK, board.MOSI, board.MISO)
+print("SPI ok!")
+
+print("done!")
+
 while True:
     pixels.fill((255, 0, 0))
     pixels.show()
-    print('test')
+    # print('test')
     time.sleep(1)
