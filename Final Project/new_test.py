@@ -38,4 +38,5 @@ while True:
         #Add 1 to the counter
         x=x+1
         #Add a small time pause which will translate to 'smoothly' changing colour
+        print(x)
         time.sleep(0.1)
