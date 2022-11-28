@@ -30,6 +30,8 @@ yellow = ((160,90,0))
 
 x = 0
 
+pixels.fill((0, 220, 0))
+
 while True:
     while x < 40:
         pixels[x] = (255, 0, 0)
