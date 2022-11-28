@@ -23,24 +23,18 @@ pixels = neopixel.NeoPixel(
     pixel_pin, num_pixels, brightness=0.2, auto_write=False
 )
 
-print("Hello blinka!")
+blank = ((0,0,0))
+white = ((248,255,220))
+orange = ((253,80,0))
+yellow = ((160,90,0))
 
-# Try to great a Digital input
-pin = digitalio.DigitalInOut(board.D4)
-print("Digital IO ok!")
+x = 0
 
-# Try to create an I2C device
-i2c = busio.I2C(board.SCL, board.SDA)
-print("I2C ok!")
-
-# Try to create an SPI device
-spi = busio.SPI(board.SCLK, board.MOSI, board.MISO)
-print("SPI ok!")
-
-print("done!")
-
-while True:
-    pixels.fill((255, 255, 0))
-    pixels.show()
-    # print('test')
-    time.sleep(1)
+while x < 40:
+    pixels[x] = (255, 0, 0)
+    pixels[x-5] = (255, 0, 100)
+    pixels[x-10] = (0, 0, 255)
+    #Add 1 to the counter
+    x=x+1
+    #Add a small time pause which will translate to 'smoothly' changing colour
+    time.sleep(0.1)
