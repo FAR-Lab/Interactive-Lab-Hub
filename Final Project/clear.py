@@ -25,4 +25,4 @@ pixels = neopixel.NeoPixel(
 
 while True:
     pixels.fill((0, 0, 0))
-    # pixels.show()
+    pixels.show()
