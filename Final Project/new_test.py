@@ -31,12 +31,13 @@ yellow = ((160,90,0))
 x = 0
 
 while True:
-    while x < 30:
-        pixels[x] = (255, 0, 0)
-        pixels[x-1] = (0, 0, 0)
-        #Add 1 to the counter
-        x=x+1
-        #Add a small time pause which will translate to 'smoothly' changing colour
-        print(x)
-        pixels.show()
-        time.sleep(0.1)
+    for x in range(0,30):
+        for y in range (0,255):
+            pixels[x] = (y, 0, 0)
+            pixels[x-1] = (255-y, 0, 0)
+            #Add 1 to the counter
+            x=x+1
+            #Add a small time pause which will translate to 'smoothly' changing colour
+            print(x)
+            pixels.show()
+            time.sleep(0.1)
