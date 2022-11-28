@@ -34,12 +34,12 @@ y = 0
 while True:
     for x in range (0,30):
         for y in range (0,85):
-            pixels[x-3] = (85-y, 85-y, 85-y)
-            pixels[x-2] = (170-y, 170-y, 170-y)
-            pixels[x-1] = (255-y, 255-y, 255-y)
-            pixels[x] = (170+y, 170+y, 170+y)
-            pixels[x+1] = (85+y, 85+y, 85+y)
-            pixels[x+2] = (y, y, y)
+            pixels[x-3] = (85-y, 85-y, 0)
+            pixels[x-2] = (170-y, 170-y, 0)
+            pixels[x-1] = (255-y, 255-y, 0)
+            pixels[x] = (170+y, 170+y, 0)
+            pixels[x+1] = (85+y, 85+y, 0)
+            pixels[x+2] = (y, y, 0)
             #Add 1 to the counter
             #Add a small time pause which will translate to 'smoothly' changing colour
             print(x)
