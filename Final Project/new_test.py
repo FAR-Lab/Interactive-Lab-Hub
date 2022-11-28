@@ -32,7 +32,7 @@ x = 0
 y = 0
 
 while True:
-    while x < 30:
+    for x in range (0,30):
         while y < 255:
             pixels[x] = (y, 0, 0)
             pixels[x-1] = (255-y, 0, 0)
@@ -42,5 +42,4 @@ while True:
             #Add a small time pause which will translate to 'smoothly' changing colour
             print(x)
             pixels.show()
-            time.sleep(0.1)
-        x=x+1
+            time.sleep(0.05)
