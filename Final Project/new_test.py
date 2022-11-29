@@ -32,7 +32,7 @@ x = 0
 y = 0
 
 while True:
-    index = input('pick pixel number: ')
+    index = int(input('pick pixel number: '))
     for x in range (0,index):
         for y in range (0,85):
             pixels[x-3] = (85-y, 85-y, 85-y)
