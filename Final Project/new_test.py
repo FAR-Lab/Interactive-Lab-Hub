@@ -30,10 +30,10 @@ yellow = ((160,90,0))
 
 x = 0
 y = 0
+prev_index = 0
 
 while True:
     index = int(input('pick pixel number: '))
-    prev_index = 0
     for x in range (prev_index,index):
         prev_index = index
         for y in range (0,85):
