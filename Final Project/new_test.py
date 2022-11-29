@@ -37,7 +37,7 @@ y = 0
 prev_index = 0
 
 while True:
-    print(mpr121[1].value)
+    print(mpr121[3].value)
     # index = int(input('number of steps: '))
     # for x in range (prev_index, prev_index + index):
     #     print('prev_index: ', prev_index)
