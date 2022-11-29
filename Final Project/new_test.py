@@ -8,6 +8,10 @@ import neopixel
 import digitalio
 import busio
 
+import adafruit_mpr121
+i2c = busio.I2C(board.SCL, board.SDA)
+mpr121 = adafruit_mpr121.MPR121(i2c)
+
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
 pixel_pin = board.D21
@@ -33,6 +37,7 @@ y = 0
 prev_index = 0
 
 while True:
+    print(mpr121[1].value)
     index = int(input('number of steps: '))
     for x in range (prev_index, prev_index + index):
         print('prev_index: ', prev_index)
