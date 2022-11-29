@@ -59,6 +59,6 @@ def move_to_target (target_index):
 
 while True:
     if mpr121[1].value:
-        move_to_target(10)
+        move_to_target(8)
     elif mpr121[3].value:
-        move_to_target(20)
+        move_to_target(15)
