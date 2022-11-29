@@ -34,8 +34,7 @@ prev_index = 0
 
 while True:
     index = int(input('number of steps: '))
-    for x in range (prev_index,prev_index + index):
-        prev_index = prev_index + index
+    for x in range (prev_index, prev_index + index):
         print('prev_index: ', prev_index)
         print('index: ', index)
         print(x%30)
@@ -50,3 +49,5 @@ while True:
             #Add a small time pause which will translate to 'smoothly' changing colour
             pixels.show()
             time.sleep(0.001)
+    prev_index = prev_index + index
+    
