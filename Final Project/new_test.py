@@ -38,10 +38,11 @@ prev_index = 0
 
 while True:
     print(mpr121[3].value)
-    index = int(input('number of steps: '))
-    for x in range (prev_index, prev_index + index):
+    target_index = int(input('target index: '))
+    steps = (target_index - prev_index)%30
+    for x in range (prev_index, prev_index + steps):
         print('prev_index: ', prev_index)
-        print('index: ', index)
+        print('steps: ', steps)
         print(x%30)
         for y in range (0,85):
             pixels[(x-3)%30] = (85-y, 85-y, 85-y)
@@ -54,5 +55,5 @@ while True:
             #Add a small time pause which will translate to 'smoothly' changing colour
             pixels.show()
             time.sleep(0.001)
-    prev_index = (prev_index + index)%30
+    prev_index = (prev_index + steps)%30
     
