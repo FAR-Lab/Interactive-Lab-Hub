@@ -33,18 +33,18 @@ y = 0
 prev_index = 0
 
 while True:
-    index = int(input('pick pixel number: '))
-    for x in range (prev_index,index):
-        prev_index = index
+    index = int(input('number of steps: '))
+    for x in range (prev_index,prev_index + index):
+        prev_index = prev_index + index
+        print(x%30)
         for y in range (0,85):
-            pixels[(x%28)-3] = (85-y, 85-y, 85-y)
-            pixels[(x%28)-2] = (170-y, 170-y, 170-y)
-            pixels[(x%28)-1] = (255-y, 255-y, 255-y)
-            pixels[(x%28)] = (170+y, 170+y, 170+y)
-            pixels[(x%28)+1] = (85+y, 85+y, 85+y)
-            pixels[(x%28)+2] = (y, y, y)
+            pixels[(x-3)%30] = (85-y, 85-y, 85-y)
+            pixels[(x-2)%30] = (170-y, 170-y, 170-y)
+            pixels[(x-1)%30] = (255-y, 255-y, 255-y)
+            pixels[(x%30)] = (170+y, 170+y, 170+y)
+            pixels[(x+1)%30] = (85+y, 85+y, 85+y)
+            pixels[(x+2)%30] = (y, y, y)
             #Add 1 to the counter
             #Add a small time pause which will translate to 'smoothly' changing colour
-            print(x%28)
             pixels.show()
             time.sleep(0.001)
