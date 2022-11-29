@@ -38,22 +38,21 @@ prev_index = 0
 
 while True:
     print(mpr121[3].value)
-    # index = int(input('number of steps: '))
-    # for x in range (prev_index, prev_index + index):
-    #     print('prev_index: ', prev_index)
-    #     print('index: ', index)
-    #     print(x%30)
-    #     for y in range (0,85):
-    #         pixels[(x-3)%30] = (85-y, 85-y, 85-y)
-    #         pixels[(x-2)%30] = (170-y, 170-y, 170-y)
-    #         pixels[(x-1)%30] = (255-y, 255-y, 255-y)
-    #         pixels[(x%30)] = (170+y, 170+y, 170+y)
-    #         pixels[(x+1)%30] = (85+y, 85+y, 85+y)
-    #         pixels[(x+2)%30] = (y, y, y)
-    #         #Add 1 to the counter
-    #         #Add a small time pause which will translate to 'smoothly' changing colour
-    #         pixels.show()
-    #         time.sleep(0.001)
-    # prev_index = prev_index + index
-    time.sleep(0.5)
+    index = int(input('number of steps: '))
+    for x in range (prev_index, prev_index + index):
+        print('prev_index: ', prev_index)
+        print('index: ', index)
+        print(x%30)
+        for y in range (0,85):
+            pixels[(x-3)%30] = (85-y, 85-y, 85-y)
+            pixels[(x-2)%30] = (170-y, 170-y, 170-y)
+            pixels[(x-1)%30] = (255-y, 255-y, 255-y)
+            pixels[(x%30)] = (170+y, 170+y, 170+y)
+            pixels[(x+1)%30] = (85+y, 85+y, 85+y)
+            pixels[(x+2)%30] = (y, y, y)
+            #Add 1 to the counter
+            #Add a small time pause which will translate to 'smoothly' changing colour
+            pixels.show()
+            time.sleep(0.001)
+    prev_index = (prev_index + index)%30
     
