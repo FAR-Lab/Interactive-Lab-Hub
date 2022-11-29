@@ -45,6 +45,6 @@ while True:
             pixels[(x%28)+2] = (y, y, y)
             #Add 1 to the counter
             #Add a small time pause which will translate to 'smoothly' changing colour
-            print(x%30)
+            print(x%28)
             pixels.show()
             time.sleep(0.001)
