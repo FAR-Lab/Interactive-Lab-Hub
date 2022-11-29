@@ -37,6 +37,7 @@ y = 0
 prev_index = 0
 
 def move_to_target (target_index):
+    global prev_index
     target_index = target_index
     steps = (target_index - prev_index)%30
     for x in range (prev_index, prev_index + steps):
