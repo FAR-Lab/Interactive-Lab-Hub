@@ -36,6 +36,8 @@ while True:
     index = int(input('number of steps: '))
     for x in range (prev_index,prev_index + index):
         prev_index = prev_index + index
+        print('prev_index: ', prev_index)
+        print('index: ', index)
         print(x%30)
         for y in range (0,85):
             pixels[(x-3)%30] = (85-y, 85-y, 85-y)
