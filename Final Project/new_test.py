@@ -36,9 +36,8 @@ x = 0
 y = 0
 prev_index = 0
 
-while True:
-    print(mpr121[3].value)
-    target_index = int(input('target index: '))
+def move_to_target (target_index):
+    target_index = target_index
     steps = (target_index - prev_index)%30
     for x in range (prev_index, prev_index + steps):
         print('prev_index: ', prev_index)
@@ -56,4 +55,9 @@ while True:
             pixels.show()
             time.sleep(0.001)
     prev_index = (prev_index + steps)%30
-    
+
+while True:
+    if mpr121[1].value:
+        move_to_target(10)
+    elif mpr121[3].value:
+        move_to_target(20)
