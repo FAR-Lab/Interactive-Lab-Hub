@@ -55,4 +55,5 @@ while True:
     #         pixels.show()
     #         time.sleep(0.001)
     # prev_index = prev_index + index
+    time.sleep(0.5)
     
