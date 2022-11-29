@@ -33,7 +33,9 @@ y = 0
 
 while True:
     index = int(input('pick pixel number: '))
-    for x in range (0,index):
+    prev_index = 0
+    for x in range (prev_index,index):
+        prev_index = index
         for y in range (0,85):
             pixels[x-3] = (85-y, 85-y, 85-y)
             pixels[x-2] = (170-y, 170-y, 170-y)
