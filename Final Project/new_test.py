@@ -37,12 +37,12 @@ while True:
     for x in range (prev_index,index):
         prev_index = index
         for y in range (0,85):
-            pixels[x-3] = (85-y, 85-y, 85-y)
-            pixels[x-2] = (170-y, 170-y, 170-y)
-            pixels[x-1] = (255-y, 255-y, 255-y)
-            pixels[x] = (170+y, 170+y, 170+y)
-            pixels[x+1] = (85+y, 85+y, 85+y)
-            pixels[x+2] = (y, y, y)
+            pixels[(x%30)-3] = (85-y, 85-y, 85-y)
+            pixels[(x%30)-2] = (170-y, 170-y, 170-y)
+            pixels[(x%30)-1] = (255-y, 255-y, 255-y)
+            pixels[(x%30)] = (170+y, 170+y, 170+y)
+            pixels[(x%30)+1] = (85+y, 85+y, 85+y)
+            pixels[(x%30)+2] = (y, y, y)
             #Add 1 to the counter
             #Add a small time pause which will translate to 'smoothly' changing colour
             print(x)
