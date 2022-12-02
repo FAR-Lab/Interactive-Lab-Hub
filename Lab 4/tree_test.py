@@ -19,13 +19,13 @@ while True:
         servo.angle = 0
         time.sleep(randrange(20,200)/100)
         # Set the servo to 0 degree position
-        servo.angle = randrange(20,50)
+        servo.angle = randrange(30,40)
         time.sleep(0.2)
-        servo.angle = randrange(20,50)
+        servo.angle = randrange(20,30)
         time.sleep(0.1)
-        servo.angle = randrange(20,50)
+        servo.angle = randrange(30,40)
         time.sleep(0.2)
-        servo.angle = randrange(20,50)
+        servo.angle = randrange(20,30)
         time.sleep(0.1)
         servo.angle = 0
         time.sleep(randrange(20,200)/100)
