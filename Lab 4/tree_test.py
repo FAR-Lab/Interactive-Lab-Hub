@@ -25,7 +25,9 @@ while True:
             time.sleep(0.1)
             print(x)
         # Set the servo to 0 degree position
-        servo.angle = 0
+        servo.angle = 5
+        time.sleep(randrange(20,200)/100)
+        servo.angle = 10
         time.sleep(randrange(20,200)/100)
         
     except KeyboardInterrupt:
