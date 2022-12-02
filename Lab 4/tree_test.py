@@ -16,10 +16,14 @@ servo.set_pulse_width_range(500, 2500)
 while True:
     try:
         # Set the servo to 180 degree position
-        servo.angle = 5
+        servo.angle = 0
         time.sleep(randrange(20,200)/100)
         # Set the servo to 0 degree position
-        servo.angle = 0
+        servo.angle = 5
+        time.sleep(randrange(20,200)/100)
+        servo.angle = 10
+        time.sleep(randrange(20,200)/100)
+        servo.angle = 5
         time.sleep(randrange(20,200)/100)
         
     except KeyboardInterrupt:
