@@ -23,6 +23,7 @@ while True:
             time.sleep(0.2)
             servo.angle = randrange(20,30)
             time.sleep(0.1)
+            print(x)
         # Set the servo to 0 degree position
         servo.angle = 0
         time.sleep(randrange(20,200)/100)
