@@ -1,6 +1,6 @@
 import time
 from adafruit_servokit import ServoKit
-from random import random
+from random import random, randrange
 
 # Set channels to the number of servo channels on your kit.
 # There are 16 channels on the PCA9685 chip.
@@ -17,10 +17,10 @@ while True:
     try:
         # Set the servo to 180 degree position
         servo.angle = 5
-        time.sleep(random.randrange(50,300)/100)
+        time.sleep(randrange(50,300)/100)
         # Set the servo to 0 degree position
         servo.angle = 0
-        time.sleep(random.randrange(50,300)/100)
+        time.sleep(randrange(50,300)/100)
         
     except KeyboardInterrupt:
         # Once interrupted, set the servo back to 0 degree position
