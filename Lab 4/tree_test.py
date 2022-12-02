@@ -13,15 +13,17 @@ servo = kit.servo[2]
 # Each servo might be different, you can normally find this information in the servo datasheet
 servo.set_pulse_width_range(500, 2500)
 
+y = 0.75
+
 while True:
     try:
         # Set the servo to 180 degree position
         servo.angle = 0
         time.sleep(randrange(20,200)/100)
         for x in range (1,randrange(2,6)):
-            servo.angle = randrange(30,40)
+            servo.angle = randrange(30*y,40*y)
             time.sleep(0.2)
-            servo.angle = randrange(20,30)
+            servo.angle = randrange(20*y,30*y)
             time.sleep(0.1)
             print(x)
         # Set the servo to 0 degree position
