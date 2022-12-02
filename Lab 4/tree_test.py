@@ -17,10 +17,12 @@ while True:
     try:
         # Set the servo to 180 degree position
         servo.angle = 5
-        time.sleep(random.random())
+        random1 = random.random()
+        random2 = random.random()
+        time.sleep(random1)
         # Set the servo to 0 degree position
         servo.angle = 0
-        time.sleep(random.random())
+        time.sleep(random2)
         
     except KeyboardInterrupt:
         # Once interrupted, set the servo back to 0 degree position
