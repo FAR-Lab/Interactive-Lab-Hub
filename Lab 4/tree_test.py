@@ -18,7 +18,7 @@ while True:
         # Set the servo to 180 degree position
         servo.angle = 0
         time.sleep(randrange(20,200)/100)
-        for x in range (1,randrange(2,4)):
+        for x in range (1,randrange(2,6)):
             servo.angle = randrange(30,40)
             time.sleep(0.2)
             servo.angle = randrange(20,30)
