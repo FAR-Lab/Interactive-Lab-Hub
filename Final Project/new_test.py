@@ -62,14 +62,12 @@ def loop_white ():
         global x
         x = x + 1
         for y in range (0,85):
-            pixels[(x-9)%30] = (85-y, 85-y, 85-y)
-            pixels[(x-8)%30] = (85-y, 85-y, 85-y)
             pixels[(x-7)%30] = (85-y, 85-y, 85-y)
-            pixels[(x-6)%30] = (170-y, 170-y, 170-y)
-            pixels[(x-5)%30] = (170-y, 170-y, 170-y)
+            pixels[(x-6)%30] = (110-y, 110-y, 110-y)
+            pixels[(x-5)%30] = (135-y, 135-y, 135-y)
             pixels[(x-4)%30] = (170-y, 170-y, 170-y)
-            pixels[(x-3)%30] = (255-y, 255-y, 255-y)
-            pixels[(x-2)%30] = (255-y, 255-y, 255-y)
+            pixels[(x-3)%30] = (195-y, 195-y, 195-y)
+            pixels[(x-2)%30] = (220-y, 220-y, 220-y)
             pixels[(x-1)%30] = (255-y, 255-y, 255-y)
             pixels[(x%30)] = (170+y, 170+y, 170+y)
             pixels[(x+1)%30] = (85+y, 85+y, 85+y)
