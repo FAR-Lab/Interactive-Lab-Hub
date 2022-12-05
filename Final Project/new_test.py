@@ -57,8 +57,24 @@ def move_to_target (target_index):
             time.sleep(0.001)
     prev_index = (prev_index + steps)%30
 
+def loop_white ():
+    while True:
+        x = x + 1
+        for y in range (0,85):
+            pixels[(x-3)%30] = (85-y, 85-y, 85-y)
+            pixels[(x-2)%30] = (170-y, 170-y, 170-y)
+            pixels[(x-1)%30] = (255-y, 255-y, 255-y)
+            pixels[(x%30)] = (170+y, 170+y, 170+y)
+            pixels[(x+1)%30] = (85+y, 85+y, 85+y)
+            pixels[(x+2)%30] = (y, y, y)
+            #Add 1 to the counter
+            #Add a small time pause which will translate to 'smoothly' changing colour
+            pixels.show()
+            time.sleep(0.001)
+
 while True:
-    if mpr121[1].value:
-        move_to_target(8)
-    elif mpr121[3].value:
-        move_to_target(17)
+    loop_white()
+    # if mpr121[1].value:
+    #     move_to_target(8)
+    # elif mpr121[3].value:
+    #     move_to_target(17)
