@@ -71,7 +71,7 @@ def loop_white ():
             #Add 1 to the counter
             #Add a small time pause which will translate to 'smoothly' changing colour
             pixels.show()
-            time.sleep(0.0001)
+            time.sleep(0.001)
 
 while True:
     loop_white()
