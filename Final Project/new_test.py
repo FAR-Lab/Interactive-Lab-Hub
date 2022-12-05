@@ -59,6 +59,7 @@ def move_to_target (target_index):
 
 def loop_white ():
     while True:
+        global x
         x = x + 1
         for y in range (0,85):
             pixels[(x-3)%30] = (85-y, 85-y, 85-y)
