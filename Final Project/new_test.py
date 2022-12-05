@@ -59,6 +59,7 @@ def move_to_target (target_index):
 
 def loop_white ():
     while True:
+        x = x + 1
         for y in range (0,85):
             pixels[(x-3)%30] = (85-y, 85-y, 85-y)
             pixels[(x-2)%30] = (170-y, 170-y, 170-y)
