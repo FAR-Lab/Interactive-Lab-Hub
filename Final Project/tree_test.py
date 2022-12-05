@@ -15,23 +15,26 @@ servo.set_pulse_width_range(500, 2500)
 
 y = 0.75
 
+def treeWind():
+# Set the servo to 180 degree position
+    servo.angle = 0
+    time.sleep(randrange(20,200)/100)
+    for x in range (1,randrange(2,6)):
+        servo.angle = randrange(30,40)*y
+        time.sleep(0.2)
+        servo.angle = randrange(20,30)*y
+        time.sleep(0.1)
+        print(x)
+    # Set the servo to 0 degree position
+    servo.angle = 5
+    time.sleep(randrange(20,200)/100)
+    servo.angle = 10
+    time.sleep(randrange(20,200)/100)
+
+
 while True:
     try:
-        # Set the servo to 180 degree position
-        servo.angle = 0
-        time.sleep(randrange(20,200)/100)
-        for x in range (1,randrange(2,6)):
-            servo.angle = randrange(30,40)*y
-            time.sleep(0.2)
-            servo.angle = randrange(20,30)*y
-            time.sleep(0.1)
-            print(x)
-        # Set the servo to 0 degree position
-        servo.angle = 5
-        time.sleep(randrange(20,200)/100)
-        servo.angle = 10
-        time.sleep(randrange(20,200)/100)
-        
+        treeWind()
     except KeyboardInterrupt:
         # Once interrupted, set the servo back to 0 degree position
         servo.angle = 0
