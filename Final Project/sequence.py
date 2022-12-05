@@ -45,12 +45,10 @@ def colorWipe(pixels, color, wait_ms = 50):
 
 def rainbow():
     for x in range(0,255):
-        for y in range(0,255):
-            for z in range(0,255):
-                for i in range(num_pixels):
-                    pixels[i] = (x, y, z)
-                    pixels.show()
-                    time.sleep(0.001)
+        for i in range(num_pixels):
+            pixels[i] = (x, x, x)
+            pixels.show()
+            time.sleep(0.001)
 
 while True:
     # colorWipe(pixels, orange)
