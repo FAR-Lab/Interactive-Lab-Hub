@@ -99,8 +99,8 @@ def rainbow_cycle(wait):
         time.sleep(wait)
 
 while True:
-    rainbow_cycle(0.01)
-    # loop_white()
+    # rainbow_cycle(0.01)
+    loop_white()
     # if mpr121[1].value:
     #     move_to_target(8)
     # elif mpr121[3].value:
