@@ -36,12 +36,22 @@ x = 0
 y = 0
 prev_index = 0
 
-def colorWipe(pixels, color, wait_ms=50):
+def colorWipe(pixels, color, wait_ms = 50):
     """Wipe color across display a pixel at a time."""
     for i in range(num_pixels):
         pixels[i] = color
         pixels.show()
         time.sleep(wait_ms/1000.0)
 
+def rainbow():
+    for x in range(0,255):
+        for y in range(0,255):
+            for z in range(0,255):
+                for i in range(num_pixels):
+                    pixels[i] = (x, y, z)
+                    pixels.show()
+                    time.sleep(0.001)
+
 while True:
-    colorWipe(pixels, orange)
+    # colorWipe(pixels, orange)
+    rainbow()
