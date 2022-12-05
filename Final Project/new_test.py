@@ -59,8 +59,6 @@ def move_to_target (target_index):
 
 def loop_white ():
     while True:
-        global x
-        x = x + 1
         for y in range (0,85):
             pixels[(x-3)%30] = (85-y, 85-y, 85-y)
             pixels[(x-2)%30] = (170-y, 170-y, 170-y)
@@ -73,8 +71,36 @@ def loop_white ():
             pixels.show()
             time.sleep(0.001)
 
+def wheel(pos):
+    if pos < 0 or pos > 255:
+        r = g = b = 0
+    elif pos < 85:
+        r = pos * 3
+        g = 255 - pos * 3
+        b = 0
+    elif pos < 170:
+        pos -= 85
+        r = 255 - pos * 3
+        g = 0
+        b = pos * 3
+    else:
+        pos -= 170
+        r = 0
+        g = pos * 3
+        b = 255 - pos * 3
+    return (r, g, b)
+
+def rainbow_cycle(wait):
+    for j in range(255):
+        for i in range(num_pixels):
+            pixel_index = (i * 256 // num_pixels) + j
+            pixels[i] = wheel(pixel_index & 255)
+        pixels.show()
+        time.sleep(wait)
+
 while True:
-    loop_white()
+    rainbow_cycle(0.01)
+    # loop_white()
     # if mpr121[1].value:
     #     move_to_target(8)
     # elif mpr121[3].value:
