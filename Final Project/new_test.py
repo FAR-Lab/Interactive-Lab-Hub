@@ -62,12 +62,8 @@ def loop_white ():
         global x
         x = x + 1
         for y in range (0,85):
-            pixels[(x-7)%30] = (85-y, 85-y, 85-y)
-            pixels[(x-6)%30] = (110-y, 110-y, 110-y)
-            pixels[(x-5)%30] = (135-y, 135-y, 135-y)
-            pixels[(x-4)%30] = (170-y, 170-y, 170-y)
-            pixels[(x-3)%30] = (195-y, 195-y, 195-y)
-            pixels[(x-2)%30] = (220-y, 220-y, 220-y)
+            pixels[(x-3)%30] = (85-y, 85-y, 85-y)
+            pixels[(x-2)%30] = (170-y, 170-y, 170-y)
             pixels[(x-1)%30] = (255-y, 255-y, 255-y)
             pixels[(x%30)] = (170+y, 170+y, 170+y)
             pixels[(x+1)%30] = (85+y, 85+y, 85+y)
@@ -75,7 +71,7 @@ def loop_white ():
             #Add 1 to the counter
             #Add a small time pause which will translate to 'smoothly' changing colour
             pixels.show()
-            time.sleep(0.001)
+            time.sleep(0.0005)
 
 while True:
     loop_white()
