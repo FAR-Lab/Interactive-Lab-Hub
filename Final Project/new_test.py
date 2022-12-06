@@ -108,7 +108,7 @@ while True:
     elif mpr121[3].value:
         move_to_target(10)
     elif mpr121[5].value:
-        move_to_target(25)
+        move_to_target(15)
     elif mpr121[8].value:
         move_to_target(20)
     elif mpr121[10].value:
