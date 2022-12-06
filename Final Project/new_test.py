@@ -104,12 +104,12 @@ while True:
     # rainbow_cycle(0.01)
     # loop_white()
     if mpr121[1].value:
-        move_to_target(8)
+        move_to_target(5)
     elif mpr121[3].value:
-        move_to_target(15)
+        move_to_target(10)
     elif mpr121[5].value:
-        move_to_target(20)
-    elif mpr121[8].value:
         move_to_target(25)
+    elif mpr121[8].value:
+        move_to_target(20)
     elif mpr121[10].value:
-        move_to_target(3)
+        move_to_target(24)
