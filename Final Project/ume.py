@@ -42,7 +42,7 @@ mixer.init() #Initialzing pyamge mixer
 # pygame.display.set_caption("Sound!!")
 
 # song_1 = pygame.mixer.Sound('sample_1a.mp3')
-s1 = pygame.mixer.Sound('s1.wav')
+# s1 = pygame.mixer.Sound('s1.wav')
 #s2 = pygame.mixer.Sound('s2.mp3')
 #s3 = pygame.mixer.Sound('s3.mp3')
 #s4 = pygame.mixer.Sound('s4.mp3')
