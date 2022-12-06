@@ -22,10 +22,12 @@ def treeWind():
         for x in range (1,36):
             servo.angle = x * 5
             time.sleep(0.5)
+        var = False
     elif var == False:
         for x in range (1,36):
             servo.angle = 180-(x * 5)
             time.sleep(0.5)
+        var = True
     # Set the servo to 0 degree position
     # test commmit
     
