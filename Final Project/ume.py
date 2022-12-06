@@ -76,8 +76,7 @@ def on_press(key):
     return False
 
 while True:
-    s1.play()
-    time.sleep(0.5)
+    mixer.music.play()
     
 # mixer.music.stop()
 
