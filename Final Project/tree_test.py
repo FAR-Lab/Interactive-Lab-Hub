@@ -14,14 +14,18 @@ servo = kit.servo[2]
 servo.set_pulse_width_range(500, 2500)
 
 y = 0.75
+var = True
 
 def treeWind():
 # Set the servo to 180 degree position
-    servo.angle = 0
-    time.sleep(0.5)
-    for x in range (1,36):
-        servo.angle = x * 5
-        time.sleep(0.5)
+    if var:
+        for x in range (1,36):
+            servo.angle = x * 5
+            time.sleep(0.5)
+    elif var == False:
+        for x in range (1,36):
+            servo.angle = 180-(x * 5)
+            time.sleep(0.5)
     # Set the servo to 0 degree position
     # test commmit
     
