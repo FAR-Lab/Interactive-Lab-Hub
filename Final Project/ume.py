@@ -77,6 +77,7 @@ def on_press(key):
 
 while True:
     mixer.music.play()
+    print("played")
     
 # mixer.music.stop()
 
