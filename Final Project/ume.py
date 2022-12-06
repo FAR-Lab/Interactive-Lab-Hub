@@ -73,22 +73,6 @@ def on_press(key):
             # song_1.play(0)
             paused = True
             return False
-    elif key.char == 'z':
-        s1.play(0)
-    elif key.char == 'x':
-        s2.play(0)
-    elif key.char == 'c':
-        s3.play(0)
-    elif key.char == 'v':
-        s4.play(0)
-    elif key.char == 'b':
-        s5.play(0)
-    elif key.char == 'n':
-        s6.play(0)
-    elif key.char == 'm':
-        s7.play(0)
-    elif key.char == ',':
-        s8.play(0)
     return False
 
 while True:
