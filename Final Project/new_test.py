@@ -8,9 +8,9 @@ import neopixel
 import digitalio
 import busio
 
-# import adafruit_mpr121
-# i2c = busio.I2C(board.SCL, board.SDA)
-# mpr121 = adafruit_mpr121.MPR121(i2c)
+import adafruit_mpr121
+i2c = busio.I2C(board.SCL, board.SDA)
+mpr121 = adafruit_mpr121.MPR121(i2c)
 
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
