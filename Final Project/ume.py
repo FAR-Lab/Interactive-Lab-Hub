@@ -8,14 +8,14 @@ import board
 
 # Configuration for proximity sensor
 import busio
-import adafruit_apds9960.apds9960
-from adafruit_apds9960.apds9960 import APDS9960
-i2c = board.I2C()
-apds = APDS9960(i2c)
-apds.enable_proximity = True
+# import adafruit_apds9960.apds9960
+# from adafruit_apds9960.apds9960 import APDS9960
+# i2c = board.I2C()
+# apds = APDS9960(i2c)
+# apds.enable_proximity = True
 
-import qwiic_oled_display
-import sys
+# import qwiic_oled_display
+# import sys
 
 def runExample():
     #  These lines of code are all you need to initialize the OLED display and print text on the screen.
@@ -33,7 +33,7 @@ def runExample():
     #  To actually draw anything on the display, you must call the display() function. 
     myOLED.display()
 
-runExample()
+# runExample()
 
 # pygame.mixer.pre_init(44100, 16, 2, 4096)
 mixer.init() #Initialzing pyamge mixer
@@ -92,9 +92,7 @@ def on_press(key):
     return False
 
 while True:
-    if apds.proximity > 200:
-        s1.play(0)
-        print(apds.proximity)
+    s1.play()
     time.sleep(0.5)
     
 # mixer.music.stop()
