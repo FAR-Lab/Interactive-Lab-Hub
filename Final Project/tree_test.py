@@ -18,6 +18,7 @@ var = True
 
 def treeWind():
 # Set the servo to 180 degree position
+    global var
     if var:
         for x in range (1,36):
             servo.angle = x * 5
