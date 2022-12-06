@@ -33,10 +33,4 @@ def treeWind():
 
 
 while True:
-    try:
-        treeWind()
-    except KeyboardInterrupt:
-        # Once interrupted, set the servo back to 0 degree position
-        servo.angle = 0
-        time.sleep(0.5)
-        break
+    treeWind()
