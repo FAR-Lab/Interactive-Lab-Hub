@@ -13,7 +13,7 @@ function preload(){
   Julio = loadImage("Julio.png");
   Rosita = loadImage("Rosita.png");
   Victoria = loadImage("Victoria.png");
-  data = loadJSON("capacitive/data.json");
+  data = loadJSON("data.json");
 
 }
 

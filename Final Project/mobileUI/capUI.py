@@ -34,13 +34,13 @@ def main():
         cur_index, triggered = sensor_update_json(cur_index)
         if cur_index != triggered:
             cur_index = triggered
-        json_value = cur_index
-        print(json_value)
-        time.sleep(0.5)
-        json_list = [{"layer":json_value}]
-        json_string = json.dumps(json_list)
-        json_file = open("data.json", "w")
-        json_file.write(json_string)
+            json_value = cur_index
+            print(json_value)
+            time.sleep(0.5)
+            json_list = [{"layer":json_value}]
+            json_string = json.dumps(json_list)
+            json_file = open("data.json", "w")
+            json_file.write(json_string)
 
 
 
