@@ -100,10 +100,6 @@ Find a partner, and *without sharing the script with your partner* try out the d
 The dialogue ended up being a bit tricky! Even for a simple interaction such as this one, the keywords used were really important. For example, a user would say something like “play something random” without specifically saying whether or not they wanted to hear a song or playlist. 
 
 
-
-
-
-
 # Lab 3 Part 2
 
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
