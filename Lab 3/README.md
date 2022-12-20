@@ -109,6 +109,8 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/d1af4a77c143a07ff709b8bd5b14c7bfcb76aeea/Lab%203/diagram_two.png)
+
 ## Prototype your system
 
 The system should:
