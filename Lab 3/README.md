@@ -84,20 +84,25 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/Fall2022/Lab%203/board_one.png)
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/d1af4a77c143a07ff709b8bd5b14c7bfcb76aeea/Lab%203/diagram_one.png)
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+The dialogue ended up being a bit tricky! Even for a simple interaction such as this one, the keywords used were really important. For example, a user would say something like “play something random” without specifically saying whether or not they wanted to hear a song or playlist. 
 
-### Wizarding with the Pi (optional)
-In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
-\*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+
+
 
 # Lab 3 Part 2
 
@@ -106,14 +111,21 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+Improving the dialogue is definitely important. I think the user should have a better understanding of how the system works so they can better interact with it. 
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+Having a sensor track the type of environment the music is playing in would be interesting. Technically a sensor could pick up things like how much light there is, if there are a lot of people in a room, if people are talking loudly and so on. The way the Spotify dataset was built would be really helpful in bridging this visual/audio understanding of surroundings with selecting the best music. 
+
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/Fall2022/Lab%203/board_two.png)
 
 ![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/Fall2022/Lab%203/board_three.png)
 
-![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/d1af4a77c143a07ff709b8bd5b14c7bfcb76aeea/Lab%203/diagram_one.png)
+
 
 ## Prototype your system
 
