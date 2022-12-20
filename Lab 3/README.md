@@ -29,7 +29,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 
 ```
-espeak -ven+f2 -k5 -s150 –stdout “Hello Olena” | aplay 
+espeak -ven+f2 -k5 -s150 –stdout “Hey Olena” | aplay 
 ```
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
@@ -54,7 +54,11 @@ Now, look at which camera you have. Do you have the cylinder camera (likely the 
 Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
-
+```
+#!/bin/bash
+echo "What year is it?" | festival --tts
+arecord -D hw:1,0 -f cd -c1 -r 16000 -d 5 -t wav recorded_mono.wav
+```
 
 ### Serving Pages
 
@@ -113,8 +117,9 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
-
 *Include videos or screencaptures of both the system and the controller.*
+
+For the prototype, I decided to link the pi using [this](https://pimylifeup.com/raspberry-pi-spotify/) tutorial. This will create a live speaker using the pi. Interactions will rely on wizard of oz method, however voice recording & processing can be setup using the speech2text examples. 
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -122,18 +127,22 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+→ When the specific instructions were followed, the system worked well 
+→ However, when no response was recorded, the system didn’t really work at all 
+→ The more sensors that are connected to the pi, the longer the wait time. It would take a while to buffer. Integrating motion detection also caused the same issue. 
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+→ Picking up random (or different) instructions wasn’t easy. 
+→ Voice commands took a while to buffer, and sometimes the command wasn’t underwood. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+→ The system needs to better adapt to what the user says.
+→ Not much could be done about speeding up the hardware at this point, so we are limited by the compute power of the pi. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+→ Different interactions could lead to better results. It would be interesting to see which set of commands work best. A dataset could definitely be helpful in this case. 
+→ What if the user relied on something like a series of shortcuts? That might be more understandable for the pi, however more work ends up being placed on the user. Testing out different commands would be interesting. 
+→ Future work could integrate work that has already been done on the spotify dataset, such as this text to song application: https://github.com/possan/playlistcreator-example
