@@ -213,5 +213,5 @@ All in all, I think this was a great way to test the limits of what the pi can r
 
 #### Acts like 
 how a person would interact with the device
-![Video](https://youtube.com/shorts/T_jiUn9121M?feature=share)
+https://youtube.com/shorts/T_jiUn9121M?feature=share
 
