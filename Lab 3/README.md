@@ -109,6 +109,8 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/Fall2022/Lab%203/board_two.png)
+
 ![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/Fall2022/Lab%203/board_three.png)
 
 ![](https://github.com/ob234/ob234s-Interactive-Lab-Hub/blob/d1af4a77c143a07ff709b8bd5b14c7bfcb76aeea/Lab%203/diagram_one.png)
@@ -121,6 +123,7 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
 *Include videos or screencaptures of both the system and the controller.*
 
 For the prototype, I decided to link the pi using [this](https://pimylifeup.com/raspberry-pi-spotify/) tutorial. This will create a live speaker using the pi. Interactions will rely on wizard of oz method, however voice recording & processing can be setup using the speech2text examples. 
