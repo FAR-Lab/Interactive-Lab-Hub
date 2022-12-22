@@ -1,3 +1,10 @@
+Here is a link to the repo that contains my final project:
+[Final Project](https://github.com/swillenson/Interactive-Devices-Final-Project)<!--[](Final%20Project/)-->
+
+Please use the above link to view all code etc.
+
+Below is a copy of the README from the above link
+
 # Interactive-Devices-Final-Project
 
 Sam Willenson: https://github.com/swillenson/Interactive-Lab-Hub
