@@ -109,6 +109,9 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/30881fd2-d0f4-4cb5-b4ca-615a47831155
+
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
