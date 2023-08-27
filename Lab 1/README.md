@@ -157,6 +157,8 @@ Now, change the goal within the same setting, and update the interaction with th
 
 \*\***Show the follow-up work here.**\*\*
 
+Upon deeper investigation of this application, we have discovered that there is an evident delay in synchronizing actions across all devices. The delay in altering the displayed color is insignificant, whereas the delay in producing a sound exceeds one second.
+
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/196eee7b-f6a2-4c52-8ad3-10eb78d2c758
 
 
