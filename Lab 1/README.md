@@ -75,19 +75,23 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 ---
 
-_Setting:_ The kitchen when people are trying to heat food in the microwave oven
+_Setting:_ The kitchen when people are tring to heat food in the microwave oven
 
-_Players:_ The one who wants to use the microwave to cook
+_Players:_ People in the household who are using the microwave
 
 _Activity 1:_ Mom is trying to use the microwave to reheat last night's leftovers and she is wondering if she can simply use the container that the food was already in to reheat the food. She puts the leftovers in its original container and puts it in the microwave. The microwave that she uses will automatically detect whether the container is microwavable and its internal light will turn red if it is not microwavable. Examples of materials that are not microwavable include plastic, metals, and paper. 
 
 _Activity 2:_ Dad is trying to reheat leftover food and he wants to know if his food has been fully heated. Instead of having to take his food out and try it to see if it has been fully heated, once he opens the microwave the light will be displayed in blue. From that he is able to see that his food hasn't been fully heated and he can heat it again.
 
-_Activity 3:_ Once detected any spillage of food inside the microwave, the microwave will automatically stop and a flashing yellow light on the outside of the microwave will show up this happens. Mom is able to then take the food out before the spillage gets worse.
+_Activity 3:_ Mom wants to reheat a bowl of soup using the microwave but the soup spills out onto the turn table of the microwave. The microwave then detects the spillage of soup and automatically stops. The light on the outside of the microwave also starts flashing. Now mom is able to  take the food out before the spillage gets worse.
 
 _Activity 4:_ Dad started the microwave but forgot to put in the food. The empty microwave is now operating, which may reduce its service life. If this happens, the internal yellow light will turn brighter, allowing the user to see the inside clearer.
 
 _Activity 5:_ Mom wants to reheat food but the venting is obstructed. It is dangerous to have the venting obstructed, so once this happens, a flashing red light will show up as a warning and users won't be able to start microwaving.
+
+_Activity 6:_ Dad is heating up food in the microwave. He forgets that his food is still inside even after the food is done microwaving. Once the microwave is done, it starts flashing a light to signify that the operation is complete. 
+
+_Activity 7:_
 
 _Goal 1:_ To protect people from misapplying the unallowable material of tableware e.g. metal, aluminum foil, and cartons.
 
@@ -98,6 +102,8 @@ _Goal 3:_ To prevent spillage from getting worse by displaying a light on the ou
 _Goal 4:_ To avoid the microwave operating empty and prolong the life of the microwave.
 
 _Goal 5:_ To ensure the microwave does not operate while having the venting obstructed.
+
+_Goal 6:_ To indicate that food is ready.
 
 ---
 
@@ -119,6 +125,8 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+- For the first activity, the internal light of the microwave will flash red light if there is unallowable material inside but people will still ignore it if they are not paying attention to the microwave
+  
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
 
@@ -145,7 +153,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/30881fd2-d0f4-4cb5-b4ca-615a47831155
 
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -158,8 +166,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
 
+Concerns: 
+- Some of the sensors may not function well in high-temperature environments. These sensors should be placed outside of the microwave.
+- The internal and external light of the microwave should present a greater visual difference to prevent confusion
+
+Opportunities: The light of the device could integrate with the original light of the microwave. 
 
 ## Part F. Record
 
