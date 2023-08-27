@@ -165,10 +165,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+Video 1: Unsafe material detected  
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/886ebf2f-a564-45da-bf8e-b0e10e8e721b
 
+Video 2: Food has not been fully heated  
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/dc0d2192-7bad-48a2-a55c-3d6d0bf23557
 
+Video 3: Spillage of food  
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/832c4e88-c173-452f-a164-b706ade36b9d
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*  
