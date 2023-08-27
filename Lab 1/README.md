@@ -171,7 +171,7 @@ https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/dc0d2192-7bad-
 
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/832c4e88-c173-452f-a164-b706ade36b9d
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*  
 **Amber Tsao (ct649), Julia Lin(jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Yifeng Wu (iw84)**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
