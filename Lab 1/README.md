@@ -87,13 +87,13 @@ _Activity 3:_ Mom wants to reheat a bowl of soup using the microwave but the sou
 
 _Activity 4:_ Dad started the microwave but forgot to put in the food. The empty microwave is now operating, which may reduce its service life. If this happens, the internal yellow light will turn brighter, allowing the user to see the inside clearer.
 
-_Activity 5:_ Mom wants to reheat food but the venting is obstructed. It is dangerous to have the venting obstructed, so once this happens, a flashing red light will show up as a warning and users won't be able to start microwaving.
+_Activity 5:_ Mom wants to reheat food but the venting is obstructed. It is dangerous having the venting obstructed, so once this happens, a flashing red light will show up as a warning and users won't be able to start microwaving.
 
 _Activity 6:_ Dad is heating up food in the microwave. He forgets that his food is still inside even after the food is done microwaving. Once the microwave is done, it starts flashing a light to signify that the operation is complete. 
 
-_Activity 7:_
+_Activity 7:_ Mom wants to reheat the leftover, but the food itself is too dry so it is unable to have enough water to reheat. Once this happens, the internal purple light will turn brighter, allowing the user to see the inside clearer.
 
-_Goal 1:_ To protect people from misapplying the unallowable material of tableware e.g. metal, aluminum foil, and cartons.
+_Goal 1:_ To protect people from misapplying the unallowable material of tableware e.g. metal, aluminum foil, and carton.
 
 _Goal 2:_ To allow the user to check if the food has been properly heated without having to take it out, try it, and potentially have to reheat it again.
 
@@ -104,6 +104,8 @@ _Goal 4:_ To avoid the microwave operating empty and prolong the life of the mic
 _Goal 5:_ To ensure the microwave does not operate while having the venting obstructed.
 
 _Goal 6:_ To indicate that food is ready.
+
+_Goal 7:_ To ensure the food has enough moisture to be reheated.
 
 ---
 
@@ -129,6 +131,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
   
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+- Besides lighting, all activities could be combined with certain sound effects to ensure users receive the information the machine is trying to convey.
 
 ## Part C. Prototype the device
 
@@ -153,7 +156,8 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/30881fd2-d0f4-4cb5-b4ca-615a47831155
 
 
-Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+Now, change the goal within the same setting, and update the interaction with the paper prototype.   
+(Note: View the interaction with the paper prototype in [Part E.](#part-e-costume-the-device))
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -171,6 +175,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 ![Device Sketch](https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/e75239e2-e389-4562-9e1a-e86c91b78baa)
+
+![Device Photo](https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/13f3b5df-326b-4cf7-928a-c58fd1abfe34)
 
 \*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
 
