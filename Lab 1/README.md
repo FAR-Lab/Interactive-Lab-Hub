@@ -73,6 +73,34 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+---
+
+_Setting:_ The kitchen when people are trying to heat food in the microwave oven
+
+_Players:_ The one who wants to use the microwave to cook
+
+_Activity 1:_ Mom is trying to use the microwave to reheat last night's leftovers and she is wondering if she can simply use the container that the food was already in to reheat the food. She puts the leftovers in its original container and puts it in the microwave. The microwave that she uses will automatically detect whether the container is microwavable and its internal light will turn red if it is not microwavable. Examples of materials that are not microwavable include plastic, metals, and paper. 
+
+_Activity 2:_ Dad is trying to reheat leftover food and he wants to know if his food has been fully heated. Instead of having to take his food out and try it to see if it has been fully heated, once he opens the microwave the light will be displayed in blue. From that he is able to see that his food hasn't been fully heated and he can heat it again.
+
+_Activity 3:_ Once detected any spillage of food inside the microwave, the microwave will automatically stop and a flashing yellow light on the outside of the microwave will show up this happens. Mom is able to then take the food out before the spillage gets worse.
+
+_Activity 4:_ Dad started the microwave but forgot to put in the food. The empty microwave is now operating, which may reduce its service life. If this happens, the internal yellow light will turn brighter, allowing the user to see the inside clearer.
+
+_Activity 5:_ Mom wants to reheat food but the venting is obstructed. It is dangerous to have the venting obstructed, so once this happens, a flashing red light will show up as a warning and users won't be able to start microwaving.
+
+_Goal 1:_ To protect people from misapplying the unallowable material of tableware e.g. metal, aluminum foil, and cartons.
+
+_Goal 2:_ To allow the user to check if the food has been properly heated without having to take it out, try it, and potentially have to reheat it again.
+
+_Goal 3:_ To prevent spillage from getting worse by displaying a light on the outside of the microwave if food spills.
+
+_Goal 4:_ To avoid the microwave operating empty and prolong the life of the microwave.
+
+_Goal 5:_ To ensure the microwave does not operate while having the venting obstructed.
+
+---
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
@@ -82,6 +110,8 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
+- Activity 2 has rather low feasibility due to the technical barrier of measuring the food's inner temperature via infrared
+- It may be better if the microwave stops operating automatically after detecting a spillage (Activity 3)
 
 ## Part B. Act out the Interaction
 
@@ -100,9 +130,11 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
+When using public wifi, the IPv4 addresses of the server and the mobile devices may be different, thus leading to a failed connection.
 
 
 ## Part D. Wizard the device
@@ -133,7 +165,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/886ebf2f-a564-45da-bf8e-b0e10e8e721b
+
+https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/dc0d2192-7bad-48a2-a55c-3d6d0bf23557
+
+https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/832c4e88-c173-452f-a164-b706ade36b9d
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+**Amber Tsao (ct649), Julia Lin(jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Yifeng Wu (iw84)**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
