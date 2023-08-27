@@ -75,7 +75,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 ---
 
-_Setting:_ The kitchen when people are tring to heat food in the microwave oven
+_Setting:_ The kitchen when people are trying to heat food in the microwave oven
 
 _Players:_ People in the household who are using the microwave
 
@@ -157,6 +157,9 @@ Now, change the goal within the same setting, and update the interaction with th
 
 \*\***Show the follow-up work here.**\*\*
 
+https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/196eee7b-f6a2-4c52-8ad3-10eb78d2c758
+
+
 
 ## Part E. Costume the device
 
@@ -165,6 +168,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+![Device Sketch](https://github.com/cctsao2000/Interactive-Lab-Hub/assets/60999245/e75239e2-e389-4562-9e1a-e86c91b78baa)
 
 \*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
 
