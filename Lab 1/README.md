@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-Amber Tsao (ct649)
+**Amber Tsao (ct649), Julia Lin(jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Yifeng Wu (iw84)**
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
