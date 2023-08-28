@@ -131,6 +131,12 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+
+
+https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/beec6620-7e6e-4686-9d5f-fdbdafcffe92
+
+
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
@@ -170,6 +176,10 @@ https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/d10dccea-cabb
 
 
 Interaction 3: Two users with matched profiles pass by each other. 
+
+
+
+https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/bef871b1-6981-44d2-b136-789c0470e091
 
 
 
