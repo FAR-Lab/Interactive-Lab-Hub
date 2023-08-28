@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+\*\***Shiying Wu (Sophie), Mingzhe Sun (Allen)**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -73,14 +73,30 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+As a student, we sit for a long time for lectures and completing assignments and tasks. Long periods of sitting without proper breaks and posture adjustments can lead to various negative consequences for our health and well-being.
+
+_Setting:_ The device is strategically placed within a student's study space or workspace, positioned on the desk where the user sits to engage in their work or study activities. The interaction occurs when the device detects the user and provides a real-time sitting posture response.
+
+_Players:_ The user of the device is the person who sits in front of the device. The device is purposefully designed to center its attention on this specific user, disregarding any other individuals who might be sharing the same workspace.
+
+_Activity:_ The device's colors change in real-time, shifting towards red tones as the user's sitting posture becomes less healthy. This prompts the user to adjust their posture for improved ergonomics during their tasks.
+
+_Goals:_ The goal of the user is to obtain a healthy sitting posture during work or study. The goal of the device is to successfully prompt and promote healthier sitting through real-time color feedback.
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+
+<img src="storyboard1.png">
+<img src="storyboard2.png">
+<img src="storyboard3.png">
+<img src="storyboard4.png">
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+We all agreed that this idea of encouraging better sitting posture is great. However, we're aware that if the user becomes annoyed by the device and turns it aside, its value will diminish. Additionally, we recognize that this device is more suitable for private spaces without others present. Exploring a more compact design that enhances portability could widen its applicability. We also think it would be better to not only remind users of their improper posture but also provide guidance on correct posture and potential exercises to help maintain their health.
 
 ## Part B. Act out the Interaction
 
@@ -88,8 +104,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+When we actually acted out the scenario, we noticed that users might ignore the device when they're really focused on their tasks. The phone screen might not be bright enough to get their attention. We thought that adding some kind of sound or haptic feedback could help to make sure they notice the device's cues.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+While acting out the scenario, we realized that there's potential to add more interactive elements to the device. The brief role-play also made me personally aware of how bad posture could lead to discomfort, like back pain. I even felt the need to stand up and stretch. This experience sparked the idea of incorporating a timer function into the device. This function could remind users to take breaks if they've been sitting for too long, which could be really helpful.
 
 ## Part C. Prototype the device
 
@@ -103,16 +122,21 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+The setup instructions are simple and easy to follow. However, we encountered difficulty using it with the campus WiFi (so we used a hotspot instead). Additionally, when an additional device joined, it displayed the default color instead of the color currently selected by the remote control. An improvement could involve incorporating a feature to manually enter RGB numbers.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+[![Set Up](setup.jpg)](https://www.youtube.com/watch?v=TdZUB5HhaLk)
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-
+- Device turns on/user presents in front of device: Black color (so user only see the clock)
+- User's sitting posture changes: The worser the posture, the redder the device
+- User corrects his/her posture: The device becomes black again to act like a clock
 
 ## Part E. Costume the device
 
@@ -122,17 +146,29 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+Costume 1: Analog Style Clock
+<img src="costume1.jpg">
+
+Costume 2: Digital Style Clock
+<img src="costume2.jpg">
+
+Costume 3: Cute Style Clock
+<img src="costume3.jpg">
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+Since our device acts like a clock when the user's sitting posture is correct, we designed the device to resemble a traditional timepiece. We've provided users with the choice between an analog-style clock and a digital-style clock, catering to varying preferences in time display. Moreover, we've taken into account the needs of children who also spend extended periods studying. As a result, we've introduced a cute-style clock option tailored for this audience.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[![Prototyped Interaction](prototype_interaction.jpg)](https://www.youtube.com/watch?v=ZG3003kTD5I&feature=youtu.be)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-
+_Collaborator_: Shiying Wu (Sophie), Mingzhe Sun (Allen)
 
 # Staging Interaction, Part 2 
 
