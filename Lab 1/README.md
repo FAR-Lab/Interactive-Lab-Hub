@@ -157,6 +157,21 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+Interaction 1: Users set up profiles. 
+
+https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/a2aa9f87-0d13-4f2e-9d48-a69a87f6942d
+
+
+Interaction 2: Two users who are not matched pass by each other. 
+
+
+https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/d10dccea-cabb-45f3-ba4d-2619bdbb31db
+
+
+
+Interaction 3: Two users with matched profiles pass by each other. 
+
+
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
