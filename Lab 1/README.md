@@ -140,7 +140,7 @@ ModuleNotFoundError: No module named 'flask'
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/yKQD96sj-Do/sddefault.jpg)](https://youtu.be/mDwYk2Bh-TY "IDD - Initial Setup")
+[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/mDwYk2Bh-TY/mqdefault.jpg?sqp=COCxtKcG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCkgFSh_MA8=&rs=AOn4CLDEDREL2MXvHqGnCA9z45dCrGSnVA)](https://youtu.be/mDwYk2Bh-TY "IDD - Initial Setup")
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
