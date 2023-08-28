@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+\*\***Sissel Sun (individual)**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -73,14 +73,29 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+My idea for the device is a (somewhat magical) color picker that converts physical colors percieved to RGB lights. Colors that cannot be represented digitally will be converted to the nearest RGB color. The interaction happens when the user discovers an interesting color in the real world and would like to visualize it digitally. Typical players are people who do creative graphical work, such as UI/UX designers and digital artists. They can utilize this device to pick up colors from the real world and test it out in their graphical design conveniently, without having to match the digital color with the physical color. 
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+
+I designed two scenarios in my storyboard. The first one is picking the color of a flower and utilizing it in UI design. The second one involves interacting with other people and utlizing the colors picked in digital reconstruction. 
+![Storyboard 1](storyboard/1.jpg)
+![Storyboard 2](storyboard/2.jpg)
+![Storyboard 3](storyboard/3.jpg)
+![Storyboard 4](storyboard/4.jpg)
+![Storyboard 5](storyboard/5.jpg)
+![Storyboard 6](storyboard/6.jpg)
+![Storyboard 7](storyboard/7.jpg)
+![Storyboard 8](storyboard/8.jpg)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+1. The size of the color picker needs to be convenient enough to carry around.
+2. Besides RGB values, maybe it can export colors in other format like HSV or CMYK?
+3. The environmental light might affect the percieved color of an object, making the color picker not accurate.
 
 ## Part B. Act out the Interaction
 
@@ -88,7 +103,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+I used my phone with Tinkerbelle to act as the device's screen and used a pen to act as its color sensor. When storyboarding on paper, I did not realize the device might cause social awkwardness. Only after acting out did I notice that it is a little weird to carry a phone-sized device and point the sensor to whatever physical object, especially when others are around. I also realized that the device cannot pick the color of a transparent device.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+ A new idea occured to my that instead of a pen-like sensor, I can use a camera-like sensor for scanning the color. This makes it less awkard to use the device in front of others, because interacting with the device now looks like taking a picture or scanning a QR code. 
 
 
 ## Part C. Prototype the device
@@ -103,6 +122,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Tinkerbelle is great! It would be nicer if a line of RGB values can be added along the colored light, and we can choose whether to display it. 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
