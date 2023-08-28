@@ -96,9 +96,9 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-I have shared my storyboards with Hauka and Jane doe.
+I have shared my storyboards with Hauke and Jane doe.
 
-Hauka:
+Hauke:
 >The idea is great! It reminds me of "". But you should think about these things carefully.
 >1. Using colors to show direction is confusing. It can be great if you can split the monitor into left and right.
 >2. The final page of the storyboard is confusing. 
