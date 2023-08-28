@@ -145,6 +145,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+
 <img width="503" alt="iidhw1_2" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/41414749-bb5f-446d-bdfa-cc7820e485d0">
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
@@ -159,6 +160,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
 Jamie Wang, Yiming Sheng, Yunfei Jiao
 
 
