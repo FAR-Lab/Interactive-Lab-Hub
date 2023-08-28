@@ -96,7 +96,15 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+I have shared my storyboards with Hauka and Jane doe.
 
+Hauka:
+>The idea is great! It reminds me of "". But you should think about these things carefully.
+>1. Using colors to show direction is confusing. It can be great if you can split the monitor into left and right.
+>2. The final page of the storyboard is confusing. 
+
+Jane:
+>temp
 
 ## Part B. Act out the Interaction
 
@@ -118,7 +126,15 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+It is really great to try out. The instruction is also easy to understand.
+But I encounterd the following error, so it would be appreciated if you could fix it.
+"""
+(venv) (base) MacBook-Pro:tinkerbelle ryem$ python tinker.py
+Traceback (most recent call last):
+  File "tinker.py", line 1, in <module>
+    from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+"""
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
