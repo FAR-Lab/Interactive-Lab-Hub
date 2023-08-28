@@ -3,7 +3,7 @@ for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Design
 
 Please place links here to the README.md's for each of your labs here:
 
-[Lab 1. Staging Interaction](Lab%201/) -> [Lab1_Kyon_KenshikimyoTerao](Lab 1/README.md)
+[Lab 1. Staging Interaction](Lab%201/) -> [Lab 1/README.md](https://github.com/rye-m/Interactive-Lab-Hub/blob/28e06fe78c39690ce48d9a0c8fef454ba5ea5bb7/Lab%201/README.md)
 
 Lab 2. Interactive Prototyping: The Clock of Pi
 
