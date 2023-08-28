@@ -152,7 +152,10 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+1. Necklace
 <img width="503" alt="iidhw1_2" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/41414749-bb5f-446d-bdfa-cc7820e485d0">
+
+2. 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 1. We designed the device to be wearable as a necklace because we want to separate the experience from regular phone activities.
