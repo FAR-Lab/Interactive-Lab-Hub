@@ -73,13 +73,31 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+Setting: In the central park, where passersby are scattered in a moderate density.
+
+Players: Users who use the DateLight app
+
+Activity: 
+1. User individually set up a dating profile on DateLight
+2. DateLight can be accessed on smartphones, tablets, and smart watches
+3. DateLight would auto-compare two profiles and output a matching score from 0-100 (least matchable to most matchable)
+4. Score 0-100 mirrors to the gradient shift of blue to bright pink
+5. DateLight will detect DateLight users within 10-meters radius and display colors to show compatibility
+6. When two users’ matching score is higher than 80, DateLight will alert both users that a high-matching candidate is within the radius, and their devices would vibrate/play sound
+
+Goals: To help user make friends/find love in a big city. More specifically, to help users to locate other players within 10-meters radius who share matching profiles.
+
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+<img width="688" alt="iidhw1_1" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/9df2ea59-397f-4464-be1e-632e7d9eef77">
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+1. Matching users solely based on heart rate is not sufficiently accurate, as confounding factors such as workouts or nervousness before an interview can also influence users' heart rates.
+2. Besides light signals, we could also utilize audio or vibrations. Considering the cases where the users are in public settings, vibrations might be a better complement.
 
 
 ## Part B. Act out the Interaction
@@ -87,8 +105,10 @@ Present your ideas to the other people in your breakout room (or in small groups
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+No
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+Yes. Initially, our plan was to instantly switch the color from white to pink when two matched users connect. However, as we delved into the implementation, we found that a color transition could be helpful in indicating the distance between the users. As these two users move closer to one another, the illumination of the necklace smoothly shifts, gradually progressing from white to pink. 
 
 
 ## Part C. Prototype the device
@@ -102,7 +122,9 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+1.The color display on the device cannot be full-screened, which could lessen the visuals.
+2. Connection is unstable.
+3. A short delay between the web pages and mobile phones 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -112,6 +134,8 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+Within the same setting, we changed the goal from finding true love to friendship.
+<img width="180" alt="iidhw1_4" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/d0402886-d3bb-4063-a4e6-1368abf06ba5">
 
 
 ## Part E. Costume the device
@@ -121,16 +145,21 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+<img width="503" alt="iidhw1_2" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/41414749-bb5f-446d-bdfa-cc7820e485d0">
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+1. We designed the device to be wearable as a necklace because we want to separate the experience from regular phone activities.
+2. Necklace also serves as a signifier of DateLight users, so that the matched users can recognize each other easier.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Jamie Wang, Yiming Sheng, Yunfei Jiao
 
 
 
