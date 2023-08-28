@@ -127,11 +127,15 @@ Tinkerbelle is great! It would be nicer if a line of RGB values can be added alo
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+
 \*\***Show the follow-up work here.**\*\*
+
+[Wizard Video](https://drive.google.com/file/d/1qCNZkamydy5mUNDtXdhQ51kBbusqlxOz/view?usp=sharing)
+
+The video showed the setup as well as the interaction where the user pick up various physical colors from page markers.
 
 
 ## Part E. Costume the device
@@ -149,9 +153,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[Interaction Video](https://drive.google.com/file/d/1fOmkb0cyqtEIg8FXdxwP0cFWlJMzdvEh/view?usp=sharing)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+Thanks to everyone who I sat with during the lab session for the valuable feedback. Please bear with my acting skills :P
 
 
 # Staging Interaction, Part 2 
