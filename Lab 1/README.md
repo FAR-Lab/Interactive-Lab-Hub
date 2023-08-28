@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+**Amber Tsao (ct649), Julia Lin(jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Ifeng Wu (iw84)**
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -61,11 +61,14 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage an interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ 
+Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_
+Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
-_Activity:_ What is happening between the actors?
+_Activity:_ 
+What is happening between the actors?
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
@@ -73,13 +76,55 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+---
+
+_Setting:_ The kitchen when people are tring to heat food in the microwave oven
+
+_Players:_ People in the household who are using the microwave
+
+_Activity 1:_ Mom is trying to use the microwave to reheat last night's leftovers and she is wondering if she can simply use the container that the food was already in to reheat the food. She puts the leftovers in its original container and puts it in the microwave. The microwave that she uses will automatically detect whether the container is microwavable and its internal light will turn red if it is not microwavable. Examples of materials that are not microwavable include plastic, metals, and paper. 
+
+_Activity 2:_ Dad is trying to reheat leftover food and he wants to know if his food has been fully heated. Instead of having to take his food out and try it to see if it has been fully heated, once he opens the microwave the light will be displayed in blue. From that he is able to see that his food hasn't been fully heated and he can heat it again.
+
+_Activity 3:_ Mom wants to reheat a bowl of soup using the microwave but the soup spills out onto the turn table of the microwave. The microwave then detects the spillage of soup and automatically stops. The light on the outside of the microwave also starts flashing. Now mom is able to  take the food out before the spillage gets worse.
+
+_Activity 4:_ Dad started the microwave but forgot to put in the food. The empty microwave is now operating, which may reduce its service life. If this happens, the internal yellow light will turn brighter, allowing the user to see the inside clearer.
+
+_Activity 5:_ Mom wants to reheat food but the venting is obstructed. It is dangerous having the venting obstructed, so once this happens, a flashing red light will show up as a warning and users won't be able to start microwaving.
+
+_Activity 6:_ Dad is heating up food in the microwave. He forgets that his food is still inside even after the food is done microwaving. Once the microwave is done, it starts flashing a light to signify that the operation is complete. 
+
+_Activity 7:_ Mom wants to reheat the leftover, but the food itself is too dry so it is unable to have enough water to reheat. Once this happens, the internal purple light will turn brighter, allowing the user to see the inside clearer.
+
+_Goal 1:_ To protect people from misapplying the unallowable material of tableware e.g. metal, aluminum foil, and carton.
+
+_Goal 2:_ To allow the user to check if the food has been properly heated without having to take it out, try it, and potentially have to reheat it again.
+
+_Goal 3:_ To prevent spillage from getting worse by displaying a light on the outside of the microwave if food spills.
+
+_Goal 4:_ To avoid the microwave operating empty and prolong the life of the microwave.
+
+_Goal 5:_ To ensure the microwave does not operate while having the venting obstructed.
+
+_Goal 6:_ To indicate that food is ready.
+
+_Goal 7:_ To ensure the food has enough moisture to be reheated.
+
+---
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
+**[Photo: Storyboards](https://drive.google.com/file/d/1E2dUwOqQhqQHJMP8j86AZC3jVcYSqWPv/view?usp=sharing)**
+
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+- Activity 2 has rather low feasibility due to the technical barrier of measuring the food's inner temperature via infrared
+- It may be better if the microwave stops operating automatically after detecting a spillage (Activity 3)
 
 
 ## Part B. Act out the Interaction
@@ -88,8 +133,12 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+- For the first activity, the internal light of the microwave will flash red light if there is unallowable material inside but people will still ignore it if they are not paying attention to the microwave.
 
+---
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+- Besides lighting, all activities could be combined with certain sound effects to ensure users receive the information the machine is trying to convey.
 
 ## Part C. Prototype the device
 
@@ -99,9 +148,11 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+- When using public wifi, the IPv4 addresses of the server and the mobile devices may be different, thus leading to a failed connection.
+- The audio has a latency especially when connected with multiple devices
 
 
 ## Part D. Wizard the device
@@ -109,9 +160,16 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+**[Video: Tinkerbelle - first attempt](https://drive.google.com/file/d/1JHmTrASEriPrwzTok3fgbfAJ5t6y1u-U/view?usp=drive_link)**
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+(Note: View the interaction with the paper prototype in [Part E.](#part-e-costume-the-device))
 
 \*\***Show the follow-up work here.**\*\*
+Upon deeper investigation of this application, we have discovered that there is an evident delay in synchronizing actions across all devices. The delay in altering the displayed color is insignificant, whereas the delay in producing a sound exceeds one second.
+
+**[Video: Tinkerbelle - futher attempts](https://drive.google.com/file/d/1hbj87sB2yX4JYfwlkBKpLJWqF4rKJ734/view?usp=drive_link)**
+
 
 
 ## Part E. Costume the device
@@ -121,9 +179,16 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+**[Photo: Sketches](https://drive.google.com/file/d/1a5Sx9Y842S3J2-NDh_2ZMu3HuQ-XSz9i/view?usp=sharing)**
+**[Photo: Designed Device](https://drive.google.com/file/d/1kym8aw-aVQMitwYkw0GXtp55UDBtbyOr/view?usp=sharing)**
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+Concerns: 
+- Some of the sensors may not function well in high-temperature environments. These sensors should be placed outside of the microwave.
+- The internal and external light of the microwave should present a greater visual difference to prevent confusion
+
+Opportunities: The light of the device could integrate with the original light of the microwave. 
 
 ## Part F. Record
 
@@ -131,6 +196,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+**[Video 1: Unsafe material detected](https://drive.google.com/file/d/1q95qPJYRxq6ApyYZB37I2cEOwNL9Ikgj/view?usp=drive_link)**
+
+**[Video 2: Food has not been fully heated](https://drive.google.com/file/d/1_TbaiIurulZpQhCORh_Fss7HdgmXcitY/view?usp=drive_link)**
+
+**[Video 3: Spillage of food](https://drive.google.com/file/d/162rlvmYPDv5Uv5DC8-K7DN5HZEAGJa9L/view?usp=drive_link)**
 
 
 
