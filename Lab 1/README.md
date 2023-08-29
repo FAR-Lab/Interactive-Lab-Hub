@@ -70,25 +70,14 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
-Setting: While riding an e-scooter on road 
+Setting: While riding an e-scooter on road (especially at night)
 
 Players: An e-scooter rider
 
 Activity: The riders will interact with the device to get information about thier surrouding. By touching different area of display, they can choose which side they want to focus on.
 
-Goals: To realize other mobility is approching without turn thier head back 
+Goals: To realize other mobility is approching without turn thier head back and get back home safely.
 
-```
-Setting: In the living space of a reclusive urban dweller
-Players: The Hikikomori person and his/her friends
-Activity: The players pet the furry ball by touching different parts of it, and the furry ball reminds the player to do tasks on time through lights of different colors.
-Goals: Stress relief and emotional sustenance.
-Setting: The interactions are happening primarily in the bedroom or on a home working desk
-
-Players: In most cases, the primary player is the owner of the device. There may be instances where there are multiple users such as roommates, children, or any other person that may be present in the room.
-Activity: The user will interact with the device either via an app or a sensor to get information about astronomical events i.e. weather, moon phases, space objects passing, and even meteor showers.
-Goals: The goal of the user is to (1) receive notification of astronomical events and (2) get useful and timely information about weather events
-```
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
@@ -96,7 +85,7 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-I have shared my storyboards with Hauke and Jane doe.
+I have shared my storyboards with Hauke and Chan-woo.
 
 Hauke:
 >The idea is great! It reminds me of "Car blindzone alarm". But you should think about these things carefully.
@@ -168,11 +157,17 @@ opportunities:
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/ZGJ00zKPw_8/mqdefault.jpg?sqp=CLzTtacG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVyhHMA8=&rs=AOn4CLAJlFd6rB9HdOO6HVEGnwkEKQcKfA)](https://youtu.be/ZGJ00zKPw_8 "IDD - Initial Setup")
+
+
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 - [Yuzhen Zhang's-Lab-Hub Lab1](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub/tree/Fall2021/Lab%201)
 - [Brian Mulyadi's-Lab-Hub Lab1](https://github.com/brianmulyadi/Interactive-Lab-Hub/blob/Fall2022/Lab%201/README.md)
+
+Thank you, Hauke and Chan-woo for your feedback and advise.
 
 
 
