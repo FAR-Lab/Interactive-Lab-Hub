@@ -92,9 +92,8 @@ By designing the device, a few concerns might influence the way to design our pr
 </video>
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-
+Throughout this lab, Qianxin Gan and Mingze Gao collaborated together with equal contribution towards different parts of the design. In addition, this lab cannot be completed with the generousity of Wei, Ziyang.
 
 # Staging Interaction, Part 2 
 
