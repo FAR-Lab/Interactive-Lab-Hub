@@ -85,11 +85,11 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![StoryBoard1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/aab43e6d-cc63-4609-a782-c123e914ff9d)
 
+![1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/43d09269-bb73-43a1-89d4-172675aba357)
 
+![2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/d3732ba6-e725-4582-a2fa-e03845578bbd)
 
-![StoryBoard2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/26fc5498-69f3-4d27-add6-2bde6a6a6701)
 
 
 
