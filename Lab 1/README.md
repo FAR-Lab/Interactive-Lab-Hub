@@ -86,6 +86,8 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 \*\***Include pictures of your storyboards here**\*\*
 
 
+
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
@@ -141,9 +143,13 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+[https://youtu.be/0l1_20Saa58]
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
+[https://youtu.be/ozivOIugwf0]
 
 
 ## Part E. Costume the device
@@ -161,9 +167,16 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+## Wake up demonstration
+[https://youtube.com/shorts/JFb8AjFkFUo?feature=share]
+
+## Sleep demonstration
+[https://youtube.com/shorts/PrLfgn9Tb5w?feature=share]
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+## Yifan Yu (yy2253), Michael Hanlon (mph99), Gilberto Ruiz (ger83), Kenneth Lee (kml343), and Ben Setel (bs836)
 
 
 # Staging Interaction, Part 2 
