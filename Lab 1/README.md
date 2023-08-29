@@ -188,17 +188,6 @@ Think about the setting of the device: is the environment a place where the devi
 
 ### Wake up demonstration
 
-<iframe
-    width="640"
-    height="480"
-    src="https://youtube.com/shorts/PrLfgn9Tb5w?feature=share"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
-
-[![wake up](https://img.youtube.com/shorts/PrLfgn9Tb5w?feature=share/0.jpg)](https://youtube.com/shorts/PrLfgn9Tb5w?feature=share)
 [https://youtube.com/shorts/PrLfgn9Tb5w?feature=share]
 
 ### Sleep demonstration
