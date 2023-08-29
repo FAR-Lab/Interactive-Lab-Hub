@@ -146,8 +146,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![Costume 1](costume/1.jpg)
+![Costume 2](costume/2.jpg)
+![Costume 3](costume/3.jpg)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+The first costume is my original idea where the color sensor is placed at the tip of a pen. The user can point the pen to physical objects and get their digital color. However, after acting out the interaction, I found it's a little awkward to use the pen and point to physical objects, especially when others are around. This leads me to develop the next costume, where the pen is replaced by a camera-like sensor at the back of device. Users who interact with this device and scan the color will look as if they are taking a picture, which is less awkward. In addition, based on the feedback that ambient light can change percieved color, I added a light torch at the back with adjustable light. Users are able to get the desired color by playing around with the torch. My third costume comes to me with the idea that the device can be more portable, because users would probably be inspired by color outdoors. So I designed the device as a keychain that's much smaller, allowing users to hang it on bags and backpacks. 
 
 ## Part F. Record
 
@@ -158,7 +163,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-Thanks to everyone who I sat with during the lab session for the valuable feedback. Please bear with my acting skills :P
+Thanks to everyone who I sat with during the lab session for the valuable feedback. Please bear with my sketches and acting :P
 
 
 # Staging Interaction, Part 2 
