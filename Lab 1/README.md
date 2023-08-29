@@ -123,7 +123,7 @@ There were some issue connecting the device with a public wifi. But was definitl
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-https://youtube.com/shorts/9iTrWCWAa60?si=6_9f6S8R_mHE0Dvx
+[https://youtube.com/shorts/9iTrWCWAa60?si=6_9f6S8R_mHE0Dvx](https://youtu.be/j6D6OLSrnlQ?si=aAyYXWXkLJLpcdm0)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
