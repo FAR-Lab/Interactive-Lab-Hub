@@ -1,8 +1,6 @@
-
-
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+\*\***John Li**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -59,55 +57,73 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
+# Introducing the Pet Companion Device: Your Furry Friend's Perfect Pal
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+Welcome to a groundbreaking addition for every household – the **Pet Companion Device**. Engineered to seamlessly fit into bustling city apartments or tranquil countryside abodes, this revolutionary device is always on standby, day or night. A loyal companion that remains by your pet's side, even when you're away.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+![](https://hackmd.io/_uploads/B1ifz1iph.jpg)
 
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+### Tailored for Every Member of the Family
+
+Catering to pet owners, children, and their cherished animal companions, this device offers an array of dynamic interactions. Picture your pet cat engrossed in playful engagement with the device, igniting its screen with a symphony of vibrant colors that mirror its every move:
+
+- When your cat emits a soft meow, witness the screen morph into a soothing Blue hue.
+- A gentle lick from your furry companion douses the screen in a playful Purple glow.
+- Inquisitive paws dancing across the device conjure a cheerful Purple and Black radiance.
+- Energetic punches and swats paint the screen in gleaming Black and White brilliance.
+- When your pet cat finds repose on the device, the screen softly transitions to a tranquil Green, reflecting its serene moment of rest.
+- As you draw near home, the screen emanates a warm Yellow, indicating your approach.
+- Should unfamiliar faces approach, the screen bathes the surroundings in a calming Red and angry aura.
+
+### Bridging the Gap for Pet Owners
+
+For pet owners, the primary objective revolves around nurturing an unbreakable bond and soothing their pets' solitude. Through the Pet Companion Device, they seamlessly provide unending entertainment and companionship, alleviating their pets' loneliness and ensuring their well-being, regardless of their physical absence.
+
+### A World of Interaction for Pets
+
+Conversely, the device opens up a world of interaction for pets, satisfying their innate curiosity and thirst for engagement. With playful barks, licks, taps, or swipes, pets set off captivating color changes and delightful sounds, bestowing a wellspring of amusement and a semblance of interaction – akin to spending quality time with their human caregivers.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+![](https://hackmd.io/_uploads/B14mz1jTn.jpg)
+![](https://hackmd.io/_uploads/Bk2QM1jTh.jpg)
+![](https://hackmd.io/_uploads/rJcDHko62.jpg)
+![](https://hackmd.io/_uploads/H107Hyo62.jpg)
+![](https://hackmd.io/_uploads/SkMrr1ian.jpg)
+![](https://hackmd.io/_uploads/SJ9IH1o6h.jpg)
+
+
+
 
 \*\***Summarize feedback you got here.**\*\*
 
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+Initially, we envisioned our device as a camera-like toy positioned atop the feeding machine, assuming it would effectively capture pet behavior. However, we came to recognize that this approach might limit the device's capabilities and hinder its ability to comprehensively gather the wide spectrum of information pets convey. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+This is especially crucial given that pets predominantly interact with the feeding machine when they're hungry. Our goal is to ensure our bot can gather a diverse array of data to truly grasp and cater to our lonely pets' needs.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+During the implementation phase, a novel concept emerged in response to emergency scenarios, such as break-ins, fires, or floods. We considered the possibility of the device seamlessly transitioning between red and white colors while emitting a warning noise, effectively alerting both occupants and pets within the household to potential dangers.
+
+This innovative addition would significantly enhance the device's utility, expanding its role from a pet companion to a vital safety feature in the home.
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+There were some issue connecting the device with a public wifi. But was definitly a great tool, we were also able to utilize the sound input box function. Thank you for designing this!!!
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
+https://youtube.com/shorts/9iTrWCWAa60?si=6_9f6S8R_mHE0Dvx
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -116,21 +132,48 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
 \*\***Include sketches of what your devices might look like here.**\*\*
+
+Minimalist design:
+
+For a device that seamlessly blends into modern interiors, envision a sleek, compact form resembling a polished stone. Its smooth, rounded edges and matte finish would not only be visually appealing but also practical, preventing overheating concerns.
+
+![](https://hackmd.io/_uploads/B192-kjp2.jpg)
+
+
+Sporty Design:
+
+resembles a resilient rubber ball. This design would be resilient to accidental drops and impacts, and it could incorporate a water-resistant seal to safeguard against potential spills.
+![](https://hackmd.io/_uploads/SJS_Q1jTh.jpg)
+
+
+Pet-Friendly Companion Buddy Design:
+
+we craft the device to resemble a small, plush animal friend, akin to a soft toy. The exterior could be covered in a gentle, pet-friendly fabric that's comfortable to touch and cuddle. Incorporate embroidered features like eyes, a nose, and a smiling mouth to give the device a friendly expression. The overall size should be compact and lightweight for easy handling by your pet.
+
+
+![](https://hackmd.io/_uploads/B1oRkJs62.jpg)
+
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+Circular Form: The circular shape not only carries a symbolism of continuity and balance but also aligns with our safety considerations. By avoiding sharp corners, we're actively mitigating potential risks associated with accidental collisions involving pets or children. This approach serves to create a safe and understated presence in your home.
+
+Materials: To adhere to the safety guidelines around pets and kids, we'll carefully select materials that are both pet-friendly and child-safe. We'll prioritize non-toxic options that are also durable and easy to clean, given the device's proximity to these important members of your household.
+
+Thoughtful Interactions: We'll discreetly design touch-sensitive areas on the device's surface. These areas will respond to interactions from pets and children, triggering delicate reactions such as subtle vibrations or faint chimes. This approach fosters curiosity and engagement without causing any discomfort.
+
+In this design, our focus is on seamlessly incorporating the circular shape and employing unobtrusive design elements. 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[![Watch the video](https://youtube.com/shorts/9iTrWCWAa60?si=6_9f6S8R_mHE0Dvx)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+We were inspired by the 
 
 
 
@@ -153,3 +196,5 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+Assisted by GPT for wording and grammar refinement.
