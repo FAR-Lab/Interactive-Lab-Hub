@@ -82,7 +82,7 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab1_Costume.pdf)
+![plot_PDF](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab1_storyboard.pdf)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -151,7 +151,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab1_Costume.pdf)
+![plot_PDF](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab1_Costume.pdf)
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 concerns: 
 opportunities: 
