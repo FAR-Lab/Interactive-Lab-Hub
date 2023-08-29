@@ -135,7 +135,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-[![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/mDwYk2Bh-TY/mq1.webp?sqp=CMThtacG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCsgFyh_MA8=&rs=AOn4CLBkIGn7raLIobDVN_Dc_OyOr76R-w)](https://youtu.be/mDwYk2Bh-TY "IDD - Initial Setup")
+[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD_Lab1_D.png)](https://youtu.be/mDwYk2Bh-TY "IDD - Initial Setup")
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -160,7 +160,7 @@ opportunities:
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/ZGJ00zKPw_8/mqdefault.jpg?sqp=CLzTtacG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVyhHMA8=&rs=AOn4CLAJlFd6rB9HdOO6HVEGnwkEKQcKfA)](https://youtu.be/ZGJ00zKPw_8 "IDD - Initial Setup")
+[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD_Lab1_F.png)](https://youtu.be/ZGJ00zKPw_8 "IDD - Initial Setup")
 
 
 
