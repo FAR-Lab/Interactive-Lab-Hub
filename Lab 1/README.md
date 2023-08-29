@@ -159,7 +159,13 @@ Think about the setting of the device: is the environment a place where the devi
 1. Necklace
 <img width="503" alt="iidhw1_2" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/41414749-bb5f-446d-bdfa-cc7820e485d0">
 
-2. Glow Sticker
+2. Glowing tatoo
+
+    ![Alt Text](sticker.png)
+
+3. LED Bracelets
+   ![bracklet](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/ec8829f9-3cbd-4f0f-a87a-fe7fd92dcec2)
+
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
