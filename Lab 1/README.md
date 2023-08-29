@@ -2,15 +2,13 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+\*\***Yuewen Yang**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
 There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
 
 For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
-
-_Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
 
 
@@ -38,10 +36,10 @@ _Make sure you read all the instructions and understand the whole of the laborat
 1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
 
 ### The Report
-This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
+This README.md page is edited to include the work I have done (the deliverables mentioned above)
 
 ## Lab Overview
-For this assignment, you are going to:
+For this assignment, I am going to:
 
 A) [Plan](#part-a-plan) 
 
@@ -59,78 +57,84 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
+\*\***Topic: Ideation toward environment music and human-centric ambient lighting in home office.**\*\*
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+In the brainstorming storyboards, I am exploring scenarios that happen around my desk at home, where I spend quite a bit of time everyday working, reading, or simply relaxing. A desired experience is that my surroundings can reflect or help with my mental state at that moment. 
 
-_Activity:_ What is happening between the actors?
+Setting: desk or working station at home
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+Activity: the specific person has various needs for the surrounding environment when conducting different tasks that require different levels of productivity and focus.
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+Goals: the contributing modules - lighting and music - are responding to individual emotional needs. For feasibility and time’s sake, in this lab, the lighting bulb is mocked by my monitor screen. Music will come from Spotify music lists.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+\*\***Storyboards**\*\*
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+1. Workstation setup ![Room_V1 6](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/c878bc6f-94c5-4cea-ad50-04341aa63542)
 
-\*\***Include pictures of your storyboards here**\*\*
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+   
+2. Many interesting articles and research papers studied the relationship and dynamics between lighting, mood, and acoustic environments. For lighting, the main two dimensions are brightness and warmness. Usually it’s agreed upon that colder lighting is more helpful for focus, while warmer lighting is more helpful for forming a relaxing atmosphere.
+![Room_V1](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/b0061a3f-f383-4f53-ad58-afcb0026aa0b)
 
-\*\***Summarize feedback you got here.**\*\*
+
+3. Writing a paper is hard! Calm me down. I need to think.
+   ![Room_V1 4](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/706e862b-ed48-4ed5-8c62-0c366f097a41)
+
+4. I am getting tired now. Cheer me up.
+   ![Room_V1 5](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/5c450d5a-3f8c-4def-a656-3532732b93a2)
+
+5. I am just relaxing. Make the room’s lighting cozy.
+   ![Room_V1 3](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/05d91a92-1d00-4076-aeef-f96f29b84dd5)
+
+6. I need some music that accompanies the lighting that helps my productivity.
+   ![Room_V1 2](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/bc44c0bb-1594-44c1-84b2-2c95627f54d1)
+
+7. Now give me my favorite jazz piano kind of music so that I can finish reading this novel and go to sleep.
+   ![Room_V1 1](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/050044ea-dc60-4df2-9c8a-fc9b733b8373)
+
+
 
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+I am sitting at my desk doing some routine activities such as reading, writing, and roaming on the internet. I use the color panel to control my surroundings (i.e. lighting and music) that ususally largely influence my emotion at that moment.
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+I used "Tinkerbelle" as the remote control medium. I am using both mobile and web app to present the connections. I used my monitor to mock the ambient light effect.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+[Set up the device](https://drive.google.com/file/d/157xPfE7pw92zmc6tsob7avzLjFEKHsQj/view?usp=sharing)
 
 \*\***Show the follow-up work here.**\*\*
 
 
+\*\***Future work**\*\*
+Now the music part is just manual and is a mock-up. It would worth exploring the mappings between music, emotion, and lighting and how these connections and controls can be automated by intelligent systems.
+
+
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
 \*\***Include sketches of what your devices might look like here.**\*\*
+![Room_V1](https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/0fbd28b1-5d01-46f7-8c4e-535ff2e2a635)
+
+\*\***The actual setup:**\*\*
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+I want to make this controller have properties of some sort of "companionship". Therefore, I fake the controller's appearance with Cony rabbit from the LINE Friends.
 
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+\*\***[Interaction video link](https://drive.google.com/file/d/1rJHmeJ353lNJMUyzZKbrzPGJBMsmHybW/view?usp=drive_link)**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 
 
