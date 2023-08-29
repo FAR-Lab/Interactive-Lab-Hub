@@ -99,18 +99,21 @@ Present your ideas to the other people in your breakout room (or in small groups
 I have shared my storyboards with Hauke and Jane doe.
 
 Hauke:
->The idea is great! It reminds me of "". But you should think about these things carefully.
+>The idea is great! It reminds me of "Car blindzone alarm". But you should think about these things carefully.
 >1. Using colors to show direction is confusing. It can be great if you can split the monitor into left and right.
 >2. The final page of the storyboard is confusing. 
 
-Jane:
->temp
+Chan-woo:
+>The storyboard is great! It will be better if you think about these things.
+>1. Telling direction by each side of monitor would be better. (If others are approching from left side, the left side of minitor would shine)
+>2. Using black color is energy saving (Because recent devices doesn't use power for black pixel)
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+The position of devices. I realzed proper position should be right side because if it was centered, you can't see the road infront of front wheel, and if it was on the left, you can't see the break handle.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
@@ -128,13 +131,13 @@ If you run into technical issues with this tool, you can also use a light switch
 \*\***Give us feedback on Tinkerbelle.**\*\*
 It is really great to try out. The instruction is also easy to understand.
 But I encounterd the following error, so it would be appreciated if you could fix it.
-"""
+```
 (venv) (base) MacBook-Pro:tinkerbelle ryem$ python tinker.py
 Traceback (most recent call last):
   File "tinker.py", line 1, in <module>
     from flask import Flask, render_template
 ModuleNotFoundError: No module named 'flask'
-"""
+```
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -158,7 +161,8 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Include sketches of what your devices might look like here.**\*\*
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+concerns: 
+opportunities: 
 
 ## Part F. Record
 
@@ -166,6 +170,9 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+- [Yuzhen Zhang's-Lab-Hub Lab1](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub/tree/Fall2021/Lab%201)
+- [Brian Mulyadi's-Lab-Hub Lab1](https://github.com/brianmulyadi/Interactive-Lab-Hub/blob/Fall2022/Lab%201/README.md)
 
 
 
