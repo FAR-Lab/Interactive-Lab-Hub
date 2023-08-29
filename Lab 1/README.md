@@ -140,7 +140,8 @@ https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/beec6620-7e6e
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-Within the same setting, we changed the goal from finding true love (Pink Necklace) to friendship (Blue Necklace). 
+Within the same setting, we changed the goal from finding true love (Pink Necklace) to friendship (Blue Necklace).
+
 <img width="180" alt="iidhw1_4" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/d0402886-d3bb-4063-a4e6-1368abf06ba5">
 
 <img width="180" alt="Screen Shot 2023-08-28 at 12 31 53 AM" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/82f33935-1b12-427e-a924-a4ac86ead8d5">
