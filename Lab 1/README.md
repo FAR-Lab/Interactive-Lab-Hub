@@ -111,11 +111,13 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![StoryBoards](https://drive.google.com/uc?id=1UtEcodEHPrC3Ihn7mT1Jxw7_mbgetrcm)
+![StoryBoards](./lab1storyboards.jpeg)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+We presented several ideas to everyone, people liked the idea of CrispSense, and they provides alot of inputs to the plant status indicator, making it more interactive, this becomes what we eventually prototyped interaction for. 
 
 
 ## Part B. Act out the Interaction
@@ -124,7 +126,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+On paper we are able to simulate multiple scenarios and experiment with more light colors, but acting out do make more visual sense and is more immersive.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+When acting out, we have noticed eignificantly more "details" about device's deployment and positioning versus ideal setting on paper. We are able to start more discussion surrounding the "producting environment" for our interactions.
 
 
 ## Part C. Prototype the device
@@ -139,11 +145,16 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Tinkerbelle is amazing! 
+
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
+https://youtu.be/ASheoEyk49Y
+
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -157,13 +168,18 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
-
+![image](./IMG_0821.jpg)
+![image](./IMG_0824.jpg)
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+We want the device to look like a small ultility device while naturally blend in as a "smart" piece of the garden. So we have made the covers and additional labels for the aesthetics. We have also included a metal stem to support the device on the soil.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
+https://youtu.be/ASheoEyk49Y
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
