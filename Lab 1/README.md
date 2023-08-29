@@ -79,10 +79,10 @@ Players: Users who use the DateLight app
 
 Activity: 
 1. User individually set up a dating profile on DateLight
-2. DateLight can be accessed on smartphones, tablets, and smart watches
+2. DateLight can be accessed on smartphones, tablets, and smartwatches
 3. DateLight would auto-compare two profiles and output a matching score from 0-100 (least matchable to most matchable)
 4. Score 0-100 mirrors to the gradient shift of blue to bright pink
-5. DateLight will detect DateLight users within 10-meters radius and display colors to show compatibility
+5. DateLight will detect DateLight users within 10-meter radius and display colors to show compatibility
 6. When two users’ matching score is higher than 80, DateLight will alert both users that a high-matching candidate is within the radius, and their devices would vibrate/play sound
 
 Goals: To help user make friends/find love in a big city. More specifically, to help users to locate other players within 10-meters radius who share matching profiles.
@@ -159,7 +159,8 @@ Think about the setting of the device: is the environment a place where the devi
 1. Necklace
 <img width="503" alt="iidhw1_2" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/41414749-bb5f-446d-bdfa-cc7820e485d0">
 
-2. 
+2. Glow Sticker
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 1. We designed the device to be wearable as a necklace because we want to separate the experience from regular phone activities.
