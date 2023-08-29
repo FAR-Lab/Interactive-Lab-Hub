@@ -2,7 +2,9 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+
+
+## Gilberto Ruiz, Ben Setel, Kenneth Lee, Michael Hanlon, Yifan Yu, Gloria Hu
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -73,13 +75,32 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+
+
+### The interaction happens in the user's bedroom. The primary player is either a single user or multiple people in the same bed who need to wake-up or fall asleep. The secondary beneficiaries of this device are roommates and neighbors of the user(s) who are not disturbed by an audio alarm. The main activities are reacting to the light the device gives off to wake-up or fall asleep. Additional interactions are turning the device on and off.
+
+
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
+![StoryBoard1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/aab43e6d-cc63-4609-a782-c123e914ff9d)
+
+
+
+![StoryBoard2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/26fc5498-69f3-4d27-add6-2bde6a6a6701)
+
+
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+
+
+### Feedback was generally positive. One person noted that there are similar commercial devices that do the wake-up part already.
+
 
 
 ## Part B. Act out the Interaction
@@ -88,7 +109,19 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+
+
+### The device needs to be suspended in a way that is somewhat difficult. Also, touching the device requires the user to reach out in a slightly awkward way.
+
+
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+
+
+### Having the device sit on a desk and face a user lying on their side seems easier to implement than a suspended device facing a user lying on their back.
+
+
 
 
 ## Part C. Prototype the device
@@ -104,14 +137,24 @@ If you run into technical issues with this tool, you can also use a light switch
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
 
+
+### Tinkerbelle worked great! I had no issues connecting/using it.
+
+
+
+
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+[https://youtu.be/0l1_20Saa58]
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
+[https://youtu.be/ozivOIugwf0]
 
 
 ## Part E. Costume the device
@@ -121,17 +164,40 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+![creating costumes](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/29b4da0f-3026-46e9-baf6-0c331dceb64d)
+
+![creating costumes 2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/fcf135ad-a4bb-48d4-a1fd-5b81d29ae0dd)
+
+![creating costumes 3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/4055a91e-fc26-44cc-8d63-76278c7ec3aa)
+
+![Device](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/749997ba-7928-4cc5-87c8-893ba435c9c7)
+
+![costume 1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/daaabafe-1e75-4547-8e74-21921694f0cb)
+
+![costume 2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/2e7c2f26-39db-4036-817d-ede00d406958)
+
+![costume 3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/ad0158ff-507f-4f22-86fc-39c8b8b7cef2)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+### We want to make the look of our device appealing to any user and friendly looking
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+### Wake up demonstration
+
+[https://youtube.com/shorts/PrLfgn9Tb5w?feature=share]
+
+### Sleep demonstration
+
+[https://youtube.com/shorts/JFb8AjFkFUo?feature=share]
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+## Yifan Yu (yy2253), Michael Hanlon (mph99), Gloria Hu (rh692), Kenneth Lee (kml343), and Ben Setel (bs836)
 
 
 # Staging Interaction, Part 2 
