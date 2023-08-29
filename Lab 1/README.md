@@ -88,6 +88,7 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 ![StoryBoard1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/aab43e6d-cc63-4609-a782-c123e914ff9d)
 
 
+
 ![StoryBoard2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/26fc5498-69f3-4d27-add6-2bde6a6a6701)
 
 
@@ -164,6 +165,10 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 ![creating costumes](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/29b4da0f-3026-46e9-baf6-0c331dceb64d)
+
+![creating costumes 2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/fcf135ad-a4bb-48d4-a1fd-5b81d29ae0dd)
+
+![creating costumes 3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/4055a91e-fc26-44cc-8d63-76278c7ec3aa)
 
 ![Device](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/749997ba-7928-4cc5-87c8-893ba435c9c7)
 
