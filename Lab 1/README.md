@@ -170,7 +170,7 @@ In this design, our focus is on seamlessly incorporating the circular shape and 
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-https://youtube.com/shorts/9iTrWCWAa60?si=6_9f6S8R_mHE0Dvx
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6D6OLSrnlQ?si=cdEB6MgeoT753vF-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 We were inspired by the example in class. Also we got inspiration from some classmates,
