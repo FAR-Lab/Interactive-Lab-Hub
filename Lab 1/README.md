@@ -187,7 +187,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Take a video of your prototyped interaction.**\*\*
 
 ### Wake up demonstration
-
+[![wake up](https://img.youtube.com/shorts/PrLfgn9Tb5w?feature=share/0.jpg)](https://youtube.com/shorts/PrLfgn9Tb5w?feature=share)
 [https://youtube.com/shorts/PrLfgn9Tb5w?feature=share]
 
 ### Sleep demonstration
