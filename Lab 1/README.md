@@ -41,6 +41,12 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
+1. Understand and think of the target users/audience of the device, and try to become the user of the device, learn about what the user needs and preferences
+2. Consider how the device will interact with users such as sound detection/motion detection
+3. Try to build the prototype of the device and get user feedback as soon as possible
+4. We might need to consider the device for a wide range of users such as people with disabilities
+5. Track the progress by setting up checkpoints 
+
 
 ## Part B. Act out the Interaction
 
