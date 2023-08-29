@@ -163,6 +163,12 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
+Answer: 
+
+The environment is unlikely to cause the device to overheat, as the device itself generates very little heat and is a low energy device.
+Usually there are no problems as long as you don't touch the liquid directly to the charging port.
+The device itself supports user-set colors in different modes, so brighter colors are possible in case of emergency.
+
 \*\***Include sketches of what your devices might look like here.**\*\*
 ![creating costumes](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/29b4da0f-3026-46e9-baf6-0c331dceb64d)
 
