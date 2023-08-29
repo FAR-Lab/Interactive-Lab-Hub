@@ -164,7 +164,8 @@ Think about the setting of the device: is the environment a place where the devi
     ![Alt Text](sticker.jpg)
 
 3. LED Bracelets
-   ![bracklet](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/ec8829f9-3cbd-4f0f-a87a-fe7fd92dcec2)
+
+    ![bracklet](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/ec8829f9-3cbd-4f0f-a87a-fe7fd92dcec2)
 
 
 
