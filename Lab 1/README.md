@@ -173,7 +173,7 @@ In this design, our focus is on seamlessly incorporating the circular shape and 
 https://youtube.com/shorts/9iTrWCWAa60?si=6_9f6S8R_mHE0Dvx
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-We were inspired by the 
+We were inspired by the example in class. Also we got inspiration from some classmates,
 
 
 
