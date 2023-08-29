@@ -60,13 +60,10 @@ We have an idea that helps users to interact with devices effectively. By adding
 The overall process of using Tinkerbelle is very convenient and hassle-free. It would be nice if some more features can be added. For example, when using the phone as a lighting device, we would like to see a full-screen mode that displays only the color, instead of having buttons on the screen at the moment. In addition, it would be great if it can work without private network or even internet.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-<video width="270" height="480" controls>
-  <source src="media/initial_setup.mp4" type="video/mp4">
-</video>
+[YouTube Video for the Set-up](https://youtube.com/shorts/tdQswdd_Q1Q?feature=share)
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -87,13 +84,16 @@ By designing the device, a few concerns might influence the way to design our pr
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-<video width="270" height="480" controls>
-  <source src="video.mov" type="video/mp4">
-</video>
+[Youtube Video for the Prototyped Interactions](https://youtube.com/shorts/-T5DoJo7uYs?feature=share)
+
+In addition, here is a prototype for the weather/mood based windbell design:
+
+![Windbell Prototype](media/windbell_prototype.gif)
+
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 
-Throughout this lab, Qianxin Gan and Mingze Gao collaborated together with equal contribution towards different parts of the design. In addition, this lab cannot be completed with the generousity of Wei, Ziyang.
+Throughout this lab, Qianxin Gan and Mingze Gao collaborated together with equal contribution towards different parts of the design. In addition, we would also like to appreciate the generousity of Ziyang Wei.
 
 # Staging Interaction, Part 2 
 
