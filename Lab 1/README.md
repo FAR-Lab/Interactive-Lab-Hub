@@ -4,6 +4,10 @@
 
 \*\***NAME OF COLLABORATORS HERE**\*\*
 
+Siddharth Kothari - sk2793 \
+Omar Mohamed - om84 \
+Tahmid Kazi - tk596
+
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
 There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
@@ -72,10 +76,42 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+### (1) ChrispSense: The food freshness Label
+**Setting:** The user opens a refridgerator in a kitched to see what ingredients they have for cooking their next meal.
+
+**Players:** The refridgerator and the user.
+
+**Activity:** The user opens the refrigerator and immediately sees visual labels that make it easy to tell apart fresh food from stale food, and those foods about to expire.The label for the items that have expired turn ‘red’ while those about to expire turn orange, and the fresh food is labeled green.
+
+**Goals:** To visually tell apart food items based on their freshness to allow user to make conscious decisions thereby reducing food wastage.
+
+
+### (2) LeafSpeak: The Plant's voice
+**Setting:** A plant and a caretaker in a nursery on a bright sunny morning.
+
+**Players:** The plant and its caretaker
+
+**Activity:** The LeafSpeak device, positioned in the soil, shifts its color to blue as soon as it identifies the plant's thirst for water. In a plantation or nursery, numerous plants may demand varying amounts of water. These devices individually shift to a 'blue' hue when the particular plant requires hydration, transitioning to green once the water supply suffices, and to black if overwatering occurs. Furthermore, an orange hue emerges when a plant or tree is ripe for harvesting, while a yellow glow signifies the need for increased sunlight.
+
+**Goals:** To notify the plant’s caretaker about its water/sunlight needs.
+
+
+### (3) TeamWiz: Your digital assistant to make fair teams
+**Setting:** A table with TeamWiz devices outside a Soccer field with players waiting in a queue to enter the field.
+
+**Players:** (For the sake of this example, it will be 8 players to correspond with the 8 phones)
+
+**Activity:** A group of players queue up to pick up their TeamWiz devices. As soon as a TeamWiz device is picked up it turns red or blue indicating which team (red or blue) the user belongs to. Additionally, should a player or two have to leave the game midway, all TeamWiz devices would blink-change their colors and re-distribute the team for fair play.
+
+
+**Goals:** To divide a group of players into teams without any biases.
+
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+
+![StoryBoards](https://drive.google.com/uc?id=1UtEcodEHPrC3Ihn7mT1Jxw7_mbgetrcm)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
