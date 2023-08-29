@@ -1,5 +1,4 @@
 
-
 # Staging Interaction
 
 
@@ -85,11 +84,9 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![StoryBoard1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/aab43e6d-cc63-4609-a782-c123e914ff9d)
+![1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/43d09269-bb73-43a1-89d4-172675aba357)
 
-
-
-![StoryBoard2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/26fc5498-69f3-4d27-add6-2bde6a6a6701)
+![2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/d3732ba6-e725-4582-a2fa-e03845578bbd)
 
 
 
@@ -163,12 +160,6 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-Answer: 
-
-The environment is unlikely to cause the device to overheat, as the device itself generates very little heat and is a low energy device.
-Usually there are no problems as long as you don't touch the liquid directly to the charging port.
-The device itself supports user-set colors in different modes, so brighter colors are possible in case of emergency.
-
 \*\***Include sketches of what your devices might look like here.**\*\*
 ![creating costumes](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/29b4da0f-3026-46e9-baf6-0c331dceb64d)
 
@@ -185,6 +176,8 @@ The device itself supports user-set colors in different modes, so brighter color
 ![costume 3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/ad0158ff-507f-4f22-86fc-39c8b8b7cef2)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+One big concern is making sure the device looks nice sitting next to a bed. A clean and calming environment is crucial to good sleep, and the design of the device should reflect that. Also, a device that fits in well is more likely to be kept out and actually used.
 
 ### We want to make the look of our device appealing to any user and friendly looking
 
