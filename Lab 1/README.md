@@ -85,6 +85,10 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
+![StoryBoard1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/aab43e6d-cc63-4609-a782-c123e914ff9d)
+
+
+![StoryBoard2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/26fc5498-69f3-4d27-add6-2bde6a6a6701)
 
 
 
@@ -159,24 +163,36 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
+![creating costumes](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/29b4da0f-3026-46e9-baf6-0c331dceb64d)
+
+![Device](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/749997ba-7928-4cc5-87c8-893ba435c9c7)
+
+![costume 1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/daaabafe-1e75-4547-8e74-21921694f0cb)
+
+![costume 2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/2e7c2f26-39db-4036-817d-ede00d406958)
+
+![costume 3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/ad0158ff-507f-4f22-86fc-39c8b8b7cef2)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+### We want to make the look of our device appealing to any user and friendly looking
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
 ### Wake up demonstration
-[https://youtube.com/shorts/JFb8AjFkFUo?feature=share]
+
+[https://youtube.com/shorts/PrLfgn9Tb5w?feature=share]
 
 ### Sleep demonstration
-[https://youtube.com/shorts/PrLfgn9Tb5w?feature=share]
+
+[https://youtube.com/shorts/JFb8AjFkFUo?feature=share]
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-## Yifan Yu (yy2253), Michael Hanlon (mph99), Gilberto Ruiz (ger83), Kenneth Lee (kml343), and Ben Setel (bs836)
+## Yifan Yu (yy2253), Michael Hanlon (mph99), Gloria Hu (rh692), Kenneth Lee (kml343), and Ben Setel (bs836)
 
 
 # Staging Interaction, Part 2 
