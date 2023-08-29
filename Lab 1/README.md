@@ -75,13 +75,25 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+
+
+### The interaction happens in the user's bedroom. The primary player is either a single user or multiple people in the same bed who need to wake-up or fall asleep. The secondary beneficiaries of this device are roommates and neighbors of the user(s) who are not disturbed by an audio alarm. The main activities are reacting to the light the device gives off to wake-up or fall asleep. Additional interactions are turning the device on and off.
+
+
+
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+
+
+### Feedback was generally positive. One person noted that there are similar commercial devices that do the wake-up part already.
+
 
 
 ## Part B. Act out the Interaction
@@ -90,7 +102,19 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+
+
+### The device needs to be suspended in a way that is somewhat difficult. Also, touching the device requires the user to reach out in a slightly awkward way.
+
+
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+
+
+### Having the device sit on a desk and face a user lying on their side seems easier to implement than a suspended device facing a user lying on their back.
+
+
 
 
 ## Part C. Prototype the device
@@ -104,6 +128,12 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
+
+
+### Tinkerbelle worked great! I had no issues connecting/using it.
+
+
 
 
 ## Part D. Wizard the device
