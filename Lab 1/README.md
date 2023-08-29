@@ -37,8 +37,6 @@ _Goals:_ The goal of the player is to maximize their performance and stay in a g
 ![Storyboard 7](media/storyboard-3.png)
 
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
-
 \*\***Summarize feedback you got here.**\*\*
 
 1. Understand and think of the target users/audience of the device, and try to become the user of the device, learn about what the user needs and preferences
