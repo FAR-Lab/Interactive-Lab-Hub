@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\* Qianxin(Carl) Gan & Mingze Gao \*\*
+\*\* Qianxin(Carl) Gan (qg72) & Mingze Gao (mg2454) \*\*
 
 ## Lab Overview
 
