@@ -184,6 +184,10 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+- I like how the perspective in the video rotated to show what was behind you.
+- Interesting idea but I think it may be distracting to keep an eye on your screen to know when someone is approaching from behind, rather than turning your head. Perhaps if it included sound as well.
+- lovely idea! there’s definitely need for this, how can we make sure people aren’t distracted when they’re using the device - what does the device actually look like when integrated into a bike/scooter?
+
 
 ## Make it your own
 
