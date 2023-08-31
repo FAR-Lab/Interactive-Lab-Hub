@@ -178,6 +178,19 @@ This describes the second week's work for this lab activity.
 ## Prep (to be done before Lab on Wednesday)
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+Gloria: I like how you drew the storyboard, helping users to understand your different scenarios in detail. I also love the logic of design space where you guys started with how lights react when users have bad sitting posture and followed up with scenarios that correct sitting posture, providing practical solutions and intuitive interaction. One thing great to notice was that you consider this device's potential pros and cons by incentivizing users with guidance on better postures and exercises. How will you guide users to recognize what specific body level or height section to adjust their posture? Many people probably have different posture issues, and my question is how to make one convincing and professional guideline with knowledge support when users interact with the lights. I like your presentation in the video; your set-up looked great. If there could be a quick intro note of your testing or a few demonstrations while doing the task, that might be helpful for more users to perceive your concept! Overall, it's a cool project, and it could bring awareness to more students about their body postures and health!
+
+Qianxin(Carl) Gan: The concept of a posture correction indicator is brilliant and very meaningful. The illustration of the idea is very clear and straightforward, and we would like to see it becoming a real product. It would be very beneficial for people nowadays, as we are sitting down using electronic devices more than ever - which also become one of the leading factors of people having spinal issues and musculoskeletal illnesses. I would imagine that this will save people a ton of pain and effort trying to treat this by doing things as trivial as just keeping an eye on your posture.
+
+Yifan Yu: I really like your designs for the products (the different costumes), of which the Pikachu costume is very cute! And I think your product concept is especially good. Since many people in the modern era do spend a lot of time sitting at their desks every day, it's important to pay attention to your sitting posture, which firstly helps with cervical spine health, and also relieves the fatigue brought about by incorrect sitting posture. However, I think there is still room for improvement in the video, maybe add some explanations in the video (also in the form of subtitles), so that the viewers can understand the role of this product more intuitively when watching the video.
+
+Gilberto: I really enjoyed your project idea, I found it very funny the alarm clock taped on to the Ipad for the final video. The questions were properly answered but the only thing I can really say about it is the formatting of your ReadMe page, it was a bit difficult to find your team’s specific answer
+
+John Li: Wow, Interesting ideas! I really like your concept. Your design is very mature there is not much to change, I would recommend adding a range of functionalities to your current device. Maybe consider adding an earthquake or weather reminder to expand the use of scenarios.
+
+Kenneth: I liked the sketches, especially for costuming the device, they are very high quality and great drawings that get your idea across. The responses to the questions in the write up are also thorough. I thought the video was good but it could have some subtitles or voice-over describing what is going on, otherwise you have to infer what is going on as the viewer.
+
+
 
 \*\***Summarize feedback from your partners here.**\*\*
 
