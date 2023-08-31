@@ -39,11 +39,17 @@ _Goals:_ The goal of the player is to maximize their performance and stay in a g
 
 \*\***Summarize feedback you got here.**\*\*
 
-1. Understand and think of the target users/audience of the device, and try to become the user of the device, learn about what the user needs and preferences
-2. Consider how the device will interact with users such as sound detection/motion detection
-3. Try to build the prototype of the device and get user feedback as soon as possible
-4. We might need to consider the device for a wide range of users such as people with disabilities
-5. Track the progress by setting up checkpoints 
+Crystal: This is so cool! Great scenarios. I think this is a great companion device that would help out a lot in providing insights and keeping track of everyday activities.
+
+Yiming: I really like the sketches of devices you created, especially the mood-based design. I think it will be very useful in the real-word.
+
+Ben: The video looks great! Makes the interaction very clear. 
+
+Gloria: I love the storyboards, especially the car one! It could also be a good inspiration for people who have road rage reminding them to be aware of their emotion control by using the light device. It’s just an expansion idea. Your video and demonstrations were very clear and easy to follow. 
+
+Michael: Great video! One question I have about the RoomBuddy is the light feature for sleeping. In the video, the light turns green to indicate good sleep quality. However, I was wondering when this light turns on, as the video makes it seem like the light turns on while the person is still sleeping. Is this after they wake up? If not, I feel like the light might disturb someones sleep
+
+Mingzhe Sun: Very impressive device. I like the idea that the RoomBuddy can interact with the the users emotion. I think this interaction is very useful to regulate people’s emotion. One suggestion I have would be to provide positive support color when people are not in a good mood.
 
 
 ## Part B. Act out the Interaction
