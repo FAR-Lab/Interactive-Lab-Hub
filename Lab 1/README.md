@@ -193,3 +193,9 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+\*\***My new storyboards**\*\*
+
+![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab%20-1%20week2-1.jpg)
+
+
