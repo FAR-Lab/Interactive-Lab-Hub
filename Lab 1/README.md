@@ -100,7 +100,17 @@ Conversely, the device opens up a world of interaction for pets, satisfying thei
 
 
 \*\***Summarize feedback you got here.**\*\*
+Yifan Yu: I really like the cat your team draw in the story board. The cat looks cute. Also the internal mechanics are particularly detailed and I really like the concept of what you have designed for the internal structure. Your video is very creative, and the cardboard chosen would give us a better idea of the volume size of the product. But I would like to see more interaction between people and product. I also hope that this product will have more features in the future, especially the more practical ones making it more than just a cat with glowing eyes. There also should be some explanation in the video your team provide.
 
+Ben: I liked the device a lot! My only negative comment would be that you didn’t really answer all the questions posed in the prompt. I thought your video was very clear and good. The interaction was well demonstrated.
+
+Gilberto: I really liked the illustrations for your device, the only thing I can say is to reorganize the answers to how the professor wanted
+
+Gloria: I really like your drawings! Your demo video was very cool and I liked how cat eyes changed as different external actions performed. One thing I would suggest is that adding explanations/notes next to your drawings would be very helpful for people to follow :)
+
+Kenneth: I really liked the simple but cute and effective drawings for your storyboard. It was very clear to me what your ideas were for your device. I also liked the video you made for showcasing the device, it was clear and visually effective. It also includes subtitles, which makes things even clearer. The concept was cute and creative, I liked the use of the stuffed elephant to show how an animal can interact with the device :). You could possibly add more features and have some form of human interaction not just with pets and the device. Also for lab1b, I think adding sound such as purring or growling when the pet does certain actions would be very cool.
+
+We got several useful feedbacks, first of all we accidently put the url of our two video in the opposite place, so we fixed that immediatly. We were also advise to use simplier language, readability is more important than being 'professional'. We were also advised to create a preview of our video, We take a look into that real quick. Lastly, We were advice to try to consider add funcationaility of device body reaction and also sound reaction in respons to pets action, to enhance the user experience, that will also be next on our todo list.
 
 ## Part B. Act out the Interaction
 
@@ -188,15 +198,6 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
-Yifan Yu: I really like the cat your team draw in the story board. The cat looks cute. Also the internal mechanics are particularly detailed and I really like the concept of what you have designed for the internal structure. Your video is very creative, and the cardboard chosen would give us a better idea of the volume size of the product. But I would like to see more interaction between people and product. I also hope that this product will have more features in the future, especially the more practical ones making it more than just a cat with glowing eyes. There also should be some explanation in the video your team provide.
- 
-Ben: I liked the device a lot! My only negative comment would be that you didn’t really answer all the questions posed in the prompt. I thought your video was very clear and good. The interaction was well demonstrated.
-
-Gilberto: I really liked the illustrations for your device, the only thing I can say is to reorganize the answers to how the professor wanted 
-
-Gloria: I really like your drawings! Your demo video was very cool and I liked how cat eyes changed as different external actions performed. One thing I would suggest is that adding explanations/notes next to your drawings would be very helpful for people to follow :)
-
-Kenneth: I really liked the simple but cute and effective drawings for your storyboard. It was very clear to me what your ideas were for your device. I also liked the video you made for showcasing the device, it was clear and visually effective. It also includes subtitles, which makes things even clearer. The concept was cute and creative, I liked the use of the stuffed elephant to show how an animal can interact with the device :). You could possibly add more features and have some form of human interaction not just with pets and the device. Also for lab1b, I think adding sound such as purring or growling when the pet does certain actions would be very cool.
 
 
 ## Make it your own
