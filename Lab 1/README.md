@@ -95,6 +95,7 @@ Conversely, the device opens up a world of interaction for pets, satisfying thei
 ![](https://hackmd.io/_uploads/SkMrr1ian.jpg)
 ![](https://hackmd.io/_uploads/SJ9IH1o6h.jpg)
 
+![6471693498781_ pic](https://github.com/crystalchong0058/Interactive-Lab-Hub/assets/78544539/ff839607-1f08-4894-8d96-cc6c4482b18f)
 
 
 
