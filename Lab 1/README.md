@@ -145,9 +145,17 @@ This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+Hauke: maybe it can be a good idea to borrow inspiration from promodoro timer in terms of designing devices and interactions that keep people in flow.
+
+Annetta: a current product like a intelligent multi-functioning can be a good inspiration. Make the companion "stuffed animal" personalized virtual avatar. Can be voice-controlled. Think in the IoT scope. 
+Timer to turn on/off.
+
+William: think about power (how do you charge). Also, think about is it always on? (Good question!) People have different perceptions. How can the mapping be personlized?
+
+
+
 
 ## Make it your own
 
