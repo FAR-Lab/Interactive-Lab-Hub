@@ -147,6 +147,7 @@ This describes the second week's work for this lab activity.
 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
 Hauke: maybe it can be a good idea to borrow inspiration from promodoro timer in terms of designing devices and interactions that keep people in flow.
 
 Annetta: a current product like a intelligent multi-functioning can be a good inspiration. Make the companion "stuffed animal" personalized virtual avatar. Can be voice-controlled. Think in the IoT scope. 
