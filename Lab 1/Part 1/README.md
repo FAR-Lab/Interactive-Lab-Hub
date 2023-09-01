@@ -5,9 +5,9 @@
 \*\***NAME OF COLLABORATORS HERE**\*\*
 
 Kazim Jafri (khj23)\
-Re Chen (rc884)\
+Rei Chen (rc884)\
 Thomas Wiener (tfw29)\
-Zixin Li (zl865)\
+Zixin Li (zl865)
 
 **Link to our group's work:** https://docs.google.com/document/d/1IF-8p7AqVKzw7TdsoV66ZMA1laeS3h9H1282nL8gCd0
 
@@ -93,7 +93,7 @@ Storyboard 5: Magical Reminder Clock
 * Activity: The magical reminder flashes colors to remind the user to do several actions. It changes colors and makes noise to tell the user what to do. Eg. 
 * Goals: Get the user to do the action that the reminder is trying to remind the user to do. 
 
-<img src="./img/img5.jpg" width="500">\
+<img src="./img/img5.jpg" width="1000">\
 
 Storyboard 6: Smartplant Reader
 * Setting: Just any room with a plant and a person
