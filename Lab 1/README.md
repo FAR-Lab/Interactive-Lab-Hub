@@ -218,6 +218,25 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+We received a total of 7 comments from students in different groups. There is a shared appreciation for the creativity and effort put into the microwave cardboard prototype. Some suggested adding sound functions and continuous color changing for improved user engagement and control. Most of the partners are also interested in how we might integrate the device with technology to benefit potential microwave users. Overall, our 7 partners are impressed with the practical details of our design process.
+
+---
+
+Feedback from our 7 partners
+
+John Li: Wow! I never thought of this idea. I do hope to see more interaction between your device and the user though, maybe try to add a sound function to engage the user. Or add a bad food detect function.
+
+Crystal: Amazing! Love the prototypes, my concern would be creating the actual device and detecting the scenarios, since the interactions are between the food and the colors.
+
+Yunfei Jiao: I like the wide range of functions that you have come up with to improve microwave usage. The cardboard prototype is creative and straightforward for demonstrating. It would be nice if the color changing is continuous rather than binary, so that the users could have better visualization and control.
+
+Neel: It was really cool. Favorite two functions were detecting food spillage and if the material is microwavable. One thing we could add could be to have text instead of just light.
+
+Kazim: It was a very interesting device. The prototypes looked amazing, I didn’t expect you to make your own microwave, that was pretty impressive getting it all to work. The details seemed pretty thought out and all of the interactions seemed pretty useful and throroughly thought out. Great job.
+
+Yiming: The design of your device is very interesting. I am also amazed by how you carry the idea out to the real-word setting. Great job! I am also excited to see how this device can be integrated with technology to benefit people’s lives.
+
+Tahmid: The microwave prototype was outstandingly creative! The fact that you guys had multiple storyboards for each scenario is very well detailed having multiple videos explaining each of the step by step process was very helpful in helping us follow your design process.
 
 ## Make it your own
 
