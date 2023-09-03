@@ -80,14 +80,14 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 \*\***Include pictures of your storyboards here**\*\*
 
 I designed two scenarios in my storyboard. The first one is picking the color of a flower and utilizing it in UI design. The second one involves interacting with other people and utlizing the colors picked in digital reconstruction. 
-![Storyboard 1](storyboard/1.jpg)
-![Storyboard 2](storyboard/2.jpg)
-![Storyboard 3](storyboard/3.jpg)
-![Storyboard 4](storyboard/4.jpg)
-![Storyboard 5](storyboard/5.jpg)
-![Storyboard 6](storyboard/6.jpg)
-![Storyboard 7](storyboard/7.jpg)
-![Storyboard 8](storyboard/8.jpg)
+![Storyboard 1](storyboard/a_1.jpg)
+![Storyboard 2](storyboard/a_2.jpg)
+![Storyboard 3](storyboard/a_3.jpg)
+![Storyboard 4](storyboard/a_4.jpg)
+![Storyboard 5](storyboard/a_5.jpg)
+![Storyboard 6](storyboard/a_6.jpg)
+![Storyboard 7](storyboard/a_7.jpg)
+![Storyboard 8](storyboard/a_8.jpg)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -185,3 +185,33 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+Storyboards:
+
+Storyboard 1: Color gradient picker <br>
+This idea is an extension to my color picker idea for part a. Besides picking the physical color, the device would also generate the color gradient from white to that color and display corresponding RGB values. Users can find the most suitable color in the gradient. 
+![Storyboard 1](storyboard/b_1.png)
+
+Storyboard 2: Color theme generator <br>
+This idea is also based on my color picker idea. It's different than my first storyboard by generating color themes rather than color gradients. Users can apply the generated themes when designing products like icons or clothes.
+![Storyboard 2](storyboard/b_2.png)
+
+Storyboard 3: Party Music Visualizer <br>
+In this idea, the device plays music in a party setting and visualizes it via dynamic light. Different colors of light correspond to different music genres, and the brightness of light can change dynamically according music volume.
+![Storyboard 3](storyboard/b_3.png)
+
+Storyboard 4: Temperature Visualizer <br>
+The device visualizes temperature in this setting. It also informs the user about temperature via sound. The temperature will be visualized based on a gradient from blue to red, where blue is cold and red is hot.
+![Storyboard 4](storyboard/b_4.png)
+
+Storyboard 5: Interactive Art Device <br>
+This is an interactive art device that can be placed in the museum. It is modularized, where each small piece can display different color individually. Visitors can interact with the device by waving hands or walking pass. The device can also change the color slowly if there are no interactions.
+![Storyboard 5](storyboard/b_5.png)
+
+Storyboard 6: Stronger Alarm <br>
+This is an alarm that's stronger than regular ones. In addition to beeping, the alarm will gradually change its color to red when the time is up. After time's up, the light will also flash to attract the user's attention.
+![Storyboard 6](storyboard/b_6.png)
+
+Storyboard 7: Healthy Diet Helper <br>
+This device helps the user maintain a good diet by reminding them whether the food or drink is healthy. Green indicates healthy, yellow indicates not very healthy, and red indicates unhealthy. 
+![Storyboard 7](storyboard/b_7.png)
