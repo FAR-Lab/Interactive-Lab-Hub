@@ -215,3 +215,20 @@ This is an alarm that's stronger than regular ones. In addition to beeping, the 
 Storyboard 7: Healthy Diet Helper <br>
 This device helps the user maintain a good diet by reminding them whether the food or drink is healthy. Green indicates healthy, yellow indicates not very healthy, and red indicates unhealthy. 
 ![Storyboard 7](storyboard/b_7.png)
+
+Device idea:
+
+My new idea for the device is a color theme generator, which is an extension to my color picker from part a. Besides converting physical colors to RGB lights, it can also generate color themes based on measured colors for design purposes. The interaction happens when one discovers an interesting color of a physical object would like to explore color themes around that color. Typical players are people who do creative graphical work, such as UI/UX designers and digital artists. They can utilize this device to pick up colors from the real world, generate color themes and apply them in their digital design.
+
+Costumes:
+
+The costumes are similar as the ones from lab1a, but there's an additional button for color theme generation.
+![Costumes](costume/costume_1b.jpg)
+
+Videos: 
+
+[Wizard Video](https://drive.google.com/file/d/1Gb2VjFC2RPx4l-p9GNC-JcFtQCV08NKm/view?usp=sharing)<br>
+For sake of convenience, I wizard the device using Figma this time by manually generating some color themes and hard-coding them into the prototype.
+
+[Interaction Video](https://drive.google.com/file/d/1dSbwrB4JdmOVZkS8WHnVznpIgnGCIhy_/view?usp=drive_link)<br>
+The video shows three interactions of generating color themes based on different number of colors. There are also interactions of picking up physical colors and exporting themes to laptop.
