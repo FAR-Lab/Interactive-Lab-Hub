@@ -112,38 +112,38 @@ TODO: Self Feedback
 **Are there things that seemed better on paper than acted out?**
 
 
-Interaction 1: The sender won’t know if the receiver got the message.\
+Interaction 1: The sender won’t know if the receiver got the message.
 
-Interaction 2: Sometimes it’s easier to just not risk it and boil all the water that you have.\
+Interaction 2: Sometimes it’s easier to just not risk it and boil all the water that you have.
 
-Interaction 3: Bringing your own spoon everywhere might be inconvenient.\
+Interaction 3: Bringing your own spoon everywhere might be inconvenient.
 
-Interaction 4: Oddly enough it was difficult to try to figure out how to make the umbrella itself change color enough to be noticeable but also not be too much work to actually create. It would have to be some sort of umbrella coverage or maybe some icon to represent the color change without actually changing the umbrella itself.\
+Interaction 4: Oddly enough it was difficult to try to figure out how to make the umbrella itself change color enough to be noticeable but also not be too much work to actually create. It would have to be some sort of umbrella coverage or maybe some icon to represent the color change without actually changing the umbrella itself.
 
-Interaction 5: It was easier to picture an environment on paper than it is in person.\
+Interaction 5: It was easier to picture an environment on paper than it is in person.
 
-Interaction 6: The pet could be startled by the color change and the sound, i.e. when the collar is giving false positives when the dog is sleeping. There is also a possibility that depending on the dog’s physiological state, the color of the collar will start changing abruptly. Implementing a cooldown between responses and a gradual color change would be better in practice.\
+Interaction 6: The pet could be startled by the color change and the sound, i.e. when the collar is giving false positives when the dog is sleeping. There is also a possibility that depending on the dog’s physiological state, the color of the collar will start changing abruptly. Implementing a cooldown between responses and a gradual color change would be better in practice.
 
-Interaction 7: The location of which the device is placed is important and should be considered carefully. As it needs to be placed in an area where the owner can notice it.\
+Interaction 7: The location of which the device is placed is important and should be considered carefully. As it needs to be placed in an area where the owner can notice it.
 
 Interaction 8: TODO
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
 
-Interaction 1: Having feedback to show that the message was received.\
+Interaction 1: Having feedback to show that the message was received.
 
-Interaction 2: Having sound feedback that says “Boil”, “Filter”, “Good”.\
+Interaction 2: Having sound feedback that says “Boil”, “Filter”, “Good”.
 
-Interaction 3: Setting your preferred temperature on the spoon.\
+Interaction 3: Setting your preferred temperature on the spoon.
 
-Interaction 4: Maybe we could include an option to have a manual control over the umbrella when we don’t agree with the umbrella’s assumption.\
+Interaction 4: Maybe we could include an option to have a manual control over the umbrella when we don’t agree with the umbrella’s assumption.
 
-Interaction 5: TODO\
+Interaction 5: TODO
 
-Interaction 6: Having a function that makes the collar have “on-demand” translation, which can be activated on the phone.\
+Interaction 6: Having a function that makes the collar have “on-demand” translation, which can be activated on the phone.
 
-Interaction 7: TODO\
+Interaction 7: TODO
 
 Interaction 8: TODO
 
