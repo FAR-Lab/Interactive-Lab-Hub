@@ -90,7 +90,7 @@ Storyboard 6: Dog Collar Translator Device
 Storyboard 7: Pet feeding reminder
 * Setting: Homes of pet owners
 * Players: Pet owner, pet
-* Activity:The device can detect the amount of food left in the pet’s water and food bowl. It will change to blue if water is running low, and change to yellow if food is running low. It also plays animal sounds (barking for dog, meow for cat) to alert the pet owner. After the owner adds more food, the device will play the voice of the owner, calling the pet to get food.
+* Activity: The device can detect the amount of food left in the pet’s water and food bowl. It will change to blue if water is running low, and change to yellow if food is running low. It also plays animal sounds (barking for dog, meow for cat) to alert the pet owner. After the owner adds more food, the device will play the voice of the owner, calling the pet to get food.
 * Goals: To remind owners to feed pets so pets don’t starve.
 
 ![](./img/img7.png)
@@ -105,12 +105,11 @@ Storyboard 8: Automatic grocery allocator
 
 **Summarize feedback you got here.**
 
-TODO: Self Feedback
+We went through the ideas among ourselves within our team. For the most part, we all agreed that the ideas were pretty interesting and creative. We all had pretty unique ways of describing how the ideas were to be played out and had some interesting conversations deciding how exactly each scenario would be played out as we had different interpretations from the written descriptions. Overall, we learned that our ideas were viable to continue with. It would be helpful to specify each before moving on though.
 
 ## Part B. Act out the Interaction
 
 **Are there things that seemed better on paper than acted out?**
-
 
 Interaction 1: The sender won’t know if the receiver got the message.
 
@@ -139,11 +138,11 @@ Interaction 3: Setting your preferred temperature on the spoon.
 
 Interaction 4: Maybe we could include an option to have a manual control over the umbrella when we don’t agree with the umbrella’s assumption.
 
-Interaction 5: TODO
+Interaction 5: If we had the ability to, maybe a future iteration of it could have some background music to match the scene, dramatic music to match if we shadow-puppet a monster (where the scene becomes a castle for example)
 
 Interaction 6: Having a function that makes the collar have “on-demand” translation, which can be activated on the phone.
 
-Interaction 7: TODO
+Interaction 7: Maybe we could have a portable device rather than a static device as the user may not be near the device when alerts go off.
 
 Interaction 8: Names of locations popped up.
 
