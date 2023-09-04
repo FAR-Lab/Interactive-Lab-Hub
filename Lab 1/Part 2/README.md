@@ -17,7 +17,7 @@ Arystan Tatishev (at855)
 Feedback:
 1. Lots of effort, it's pretty clear and that's good but it didn't have to be. Liked editing of the video, it's one video instead of several, could explain the activity and role more in the storyboards, but is a pretty strong lab overall.
 2. The first two interactions are interesting and novel, and can dig deeper into what kind of treasure it is and explain more of it. For the trash sorter, I think it’s a useful idea I would like to have in real life. In the video, it is easier for people to identify which type of the items are. Awesome idea!
-3. TODO: Review 3
+3. I think the trash sorting device is useful when people don’t throw trash according to the trash cans. The way that the trash sorting device is customized could be improved a bit. I would look forward to seeing more storyboards being acted out, especially the Smartplant reader one. 
 
 ## Make it your own
 
@@ -101,7 +101,7 @@ Storyboard 8: Automatic grocery allocator
 * Activity: An actor swipes the item they want to put away and it will tell them where to stock like fridge or pantry or dark space. It will also light red if someone puts an item in the wrong place.
 * Goals: To maximize the shelf life of all the groceries
 
-![](./img/img8.png) TODO
+![](./img/img8.png)
 
 **Summarize feedback you got here.**
 
@@ -126,7 +126,7 @@ Interaction 6: The pet could be startled by the color change and the sound, i.e.
 
 Interaction 7: The location of which the device is placed is important and should be considered carefully. As it needs to be placed in an area where the owner can notice it.
 
-Interaction 8: TODO
+Interaction 8: Having the scanner just display the best possible location and the reason why would be more helpful than the projection onto the real world.
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
@@ -145,7 +145,7 @@ Interaction 6: Having a function that makes the collar have “on-demand” tran
 
 Interaction 7: TODO
 
-Interaction 8: TODO
+Interaction 8: Names of locations popped up.
 
 ## Part C. Prototype the device
 
@@ -186,8 +186,8 @@ In designing the device aesthetics for the Companion Jewelry, Drink Temperature 
 \*\***Take a video of your prototyped interaction.**\*\*
 
 [Prototype Interaction 1](https://youtu.be/geWE9RDHDTE) \
-[Prototype Interaction 2](TODO) \
-[Prototype Interaction 3](TODO)
+[Prototype Interaction 2](https://youtu.be/ZdLGs6fF5jg) \
+[Prototype Interaction 3](https://youtu.be/6WqFuNBAJ-Y)
 
 **Please indicate anyone you collaborated with on this Lab.**
 
