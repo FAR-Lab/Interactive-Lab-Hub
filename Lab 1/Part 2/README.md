@@ -17,7 +17,7 @@ Arystan Tatishev (at855)
 Feedback:
 1. Lots of effort, it's pretty clear and that's good but it didn't have to be. Liked editing of the video, it's one video instead of several, could explain the activity and role more in the storyboards, but is a pretty strong lab overall.
 2. The first two interactions are interesting and novel, and can dig deeper into what kind of treasure it is and explain more of it. For the trash sorter, I think it’s a useful idea I would like to have in real life. In the video, it is easier for people to identify which type of the items are. Awesome idea!
-3. 
+3. TODO: Review 3
 
 ## Make it your own
 
@@ -37,93 +37,106 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-## Part A. Plan 
+## Part A. Plan
 
-Storyboard 1: Maze
-* Setting: Treasure Island (Mysterious Maze Treasure Hunt)
-* Players: Guy1 (unfamiliar with the map), Guy2 (familiar with the map)
-* Activity: They are trying to figure out how to use the map. The map lights up the closer you get to the treasure. 
-* Goals: To find the treasure using the map (our devices), which gradually illuminates the area ahead to help the user find the correct path.
+Storyboard 1: Companion Jewelry
+* Setting: Bedrooms of two long distance lovers
+* Players: Two lovers
+* Activity: One person rubs the ring and the other person’s ring lights up and vibrates. You can send each other “heartbeats” 
+* Goals: To make their partner feel less alone while apart and communicate nonverbally
 
-*Quick Description:* A user with a map (dude 1) is exploring unknown terrain. His map changes colors, but as he approaches the treasure he so dearly desires, the map becomes brighter and brighter until it is almost blinding. He is close to the treasure he is looking for.
+![](./img/img1.png)
 
-<img src="./img/img1.jpg" width="500">\
+Storyboard 2: Water Quality Detector
+* Setting: Wilderness
+* Players: Campers, people not sure about how good the water source they are drinking from
+* Activity: Actor puts in the stick of the device to test its quality. The device shows a color and then tells him the best way to purify it. 
+* Goals: Drinking clean water 
 
-Storyboard 2: Treasure hunt again, no maze
-* Setting: Treasure Island (Mysterious Treasure Hunt)
-* Players: explorer with lighting-up map 
-* Activity: They are exploring the island. The map lights up corresponding to the colors of the natural environment. However, when close to treasure, the map will light up yellow 
-* Goals: To find the treasure using the map (our devices), which gradually illuminates the area ahead to help the user find the correct path.
+![](./img/img2.png)
 
-<img src="./img/img2.jpg" width="500">\
+Storyboard 3: Drink Temperature Detector (Spoon)
+* Setting:Dining room, cafes 
+* Players: People who want to drink coffee, bubble tea or any drink
+* Activity: Users put the device into the drink they want to have. The device will indicate the temperature of the drink by changing color. It will also alert the user by sound if the drink is too hot to drink directly.
+* Goals: Help users know the temperature of the drink, so the user doesn’t get burnt and knows when to reheat the drink if it is too cold just by looking. 
 
-Storyboard 3: Pet feeding reminder
-* Setting: The homes of pet owners.
-* Players: The owner of a pet (e.g. a dog or cat), pet.
-* Activity: The device can be placed at a place where the user will often be around, for example beside their bed. When there is not enough food or water in the pet’s bowl, the device will light up according to what is about to run out (e.g. yellow for food and blue for water). This way, the user will remember to add more food/water for the pet even if they do not walk to the pet’s bowls.
-* Goals: To help remind pet owners to add food/water for their pets. 
+![](./img/img3.png)
 
-<img src="./img/img3.jpg" width="500">\
+Storyboard 4: Magic Umbrella
+* Setting: Sunny days / Rainy Days
+* Players: Anyone have this magic umbrella
+* Activity:  On sunny days, it indicates the UV level by its color, the higher the UV value, the darker the color of the umbrella to absorb UV rays more effectively. On rainy days, it becomes transparent.
+* Goals: Provide convenience for people whether in rainy day or sunny days
 
-Storyboard 4: Trash Sorter
-* Setting: The refuse room in buildings in Shanghai. (Shanghai has a mandatory sorting scheme, requiring residents to separate trash into four categories: recyclable, hazardous, wet (perishable) and dry (other) waste, and many people are confused by these categories)
-* Players: A person who is wanting to throw away trash according to categories.
-* Activity: When the user shows the trash to the trash sorter, the trash sorter will respond to which kind of trash it is by chasing color. For example blue for recyclable trash, green for wet trash, etc.
-* Goals: To help the user categorize the kinds of trash, so they can throw trash into the correct bins. 
+![](./img/img4.png)
 
-<img src="./img/img4.jpg" width="500">\
+Storyboard 5: Interactive Shadow Puppet Show
+* Setting: Bedroom at bedtime
+* Players: Children and caretakers
+* Activity: Light scenario changes based on recognition of hand shadow puppet shape and motion (i.e. forming a bird with your hands activates mountain scene and color scheme, eagle sounds from the lamp/projector)
+* Goals: Interactive storytelling for children
 
-Storyboard 5: Magical Reminder Clock
-* Setting: Bedroom of any person with a magical clock
-* Players: A person and his magical reminder clock
-* Activity: The magical reminder flashes colors to remind the user to do several actions. It changes colors and makes noise to tell the user what to do. Eg. 
-* Goals: Get the user to do the action that the reminder is trying to remind the user to do. 
+(No Storyboard)
 
-<img src="./img/img5.jpg" width="1000">\
+Storyboard 6: Dog Collar Translator Device
+* Setting: Any room in a house with a dog
+* Players: A human and a dog
+* Activity: A dog feels many things. It may feel hungry, it may feel thirsty, it may want to go on a walk. Depending on the way a dog acts (tries to eat from an empty bowl, tries to drink from an empty bowl, runs at the door, etc) the dog collar will change colors and yell out at the owner what the dog wants.
+* Goals: Let the human know what the dog wants.
 
-Storyboard 6: Smartplant Reader
-* Setting: Just any room with a plant and a person
-* Players: A person who owns a plant
-* Activity: The person is figuring out what a plant likes by attempting several actions towards the plant (watering it or feeding it)
-* Goals: Get the plant happy and growing
+![](./img/img6.png)
 
-*Quick Description:* So we have a dude who is surprised to see a plant in his room. He sees it is sad so he tries to offer it food. The plant is angry at the offering. The man then offers the plant some water in a bottle and the plant looks neutral. The man finally sprinkles water on the plant and the plant becomes happy. The plant also likes music :D. It gets sad around arguing.
+Storyboard 7: Pet feeding reminder
+* Setting: Homes of pet owners
+* Players: Pet owner, pet
+* Activity:The device can detect the amount of food left in the pet’s water and food bowl. It will change to blue if water is running low, and change to yellow if food is running low. It also plays animal sounds (barking for dog, meow for cat) to alert the pet owner. After the owner adds more food, the device will play the voice of the owner, calling the pet to get food.
+* Goals: To remind owners to feed pets so pets don’t starve.
 
-<img src="./img/img6.jpg" width="500">\
+![](./img/img7.png)
 
-Storyboard 7: Plants again but tinkerbell is the pot itself rather than an attachment
-* Setting: Just any room with a plant and a person
-* Players: A person who owns a plant
-* Activity: The person is figuring out what a is good for the plant by attempting several actions towards the plant (watering it, feeding it, providing sunlight) and responding to pot’s assessments
-* Goals: Get the plant happy and growing
+Storyboard 8: Automatic grocery allocator
+* Setting: Kitchen
+* Players: People stocking their groceries
+* Activity: An actor swipes the item they want to put away and it will tell them where to stock like fridge or pantry or dark space. It will also light red if someone puts an item in the wrong place.
+* Goals: To maximize the shelf life of all the groceries
 
-*Quick Description:* So we have a person who is surprised to see a plant in his room. In this scenario, the pot monitors the well-being and emotional state of the plant, and communicates to the person that it is thirsty. Offering food at first makes the pot angry. The man then offers the plant some water in a bottle and the plant looks neutral. The man finally sprinkles water on the plant and the plant becomes happy. The plant also likes music :D. It gets sad around arguing.
-
-<img src="./img/img7.jpg" width="500">\
+![](./img/img8.png) TODO
 
 **Summarize feedback you got here.**
 
-Based on asking around, we were able to get limited feedback around our ideas, particularly around the first idea we were told it seemed interesting and asking the TA were told it covered all of our basic requirements. From that idea we created the rest of the six and we found out that they were kind of interesting and fun ideas. We learned that we could definitely be a bit more creative since some of the ideas are rather similar. We will take it into consideration (next week!).
+TODO: Self Feedback
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
 **Are there things that seemed better on paper than acted out?**
 
-We chose storyboard 4 (Garbage sorter) to act out. One challenge was finding the right trash can setup on campus that would be the best to communicate the interaction to users. The first garbage we found only had two bins to place items into and limited signage describing what was meant to go in each bin. Thus, we’ve found a garbage bin in Bloomberg that has three receptacles (paper recycle, plastic recycle, and landfill) plus an extra bin we use to represent compost. Another thing that will be important to do right is the blocking, specifically making sure that the interactions (scanning the food, placing the food into the trash, etc.) don’t block the view of the bin signs and our screen/device when recording.
-
-When we act out the interaction, we have to think more about the position of the device, where it is placed so the user can see it better. We originally thought we might place the screen/scanner on the trash bin (and thus below the opening), but it turned out to be very awkward to bend down and wave garbage below the bin. It will make more sense to position the screen/scanner higher so that you wave your garbage above the bins, near where you’ll end up tossing the garbage.
+Interaction 1: The sender won’t know if the receiver got the message.\
+Interaction 2: Sometimes it’s easier to just not risk it and boil all the water that you have.\
+Interaction 3: Bringing your own spoon everywhere might be inconvenient.\
+Interaction 4: Oddly enough it was difficult to try to figure out how to make the umbrella itself change color enough to be noticeable but also not be too much work to actually create. It would have to be some sort of umbrella coverage or maybe some icon to represent the color change without actually changing the umbrella itself.\
+Interaction 5: It was easier to picture an environment on paper than it is in person.\
+Interaction 6: The pet could be startled by the color change and the sound, i.e. when the collar is giving false positives when the dog is sleeping. There is also a possibility that depending on the dog’s physiological state, the color of the collar will start changing abruptly. Implementing a cooldown between responses and a gradual color change would be better in practice.\
+Interaction 7: The location of which the device is placed is important and should be considered carefully. As it needs to be placed in an area where the owner can notice it.\
+Interaction 8: TODO
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
-We can add more trash types. Particularly compost. 
+Interaction 1: Having feedback to show that the message was received.\
+Interaction 2: Having sound feedback that says “Boil”, “Filter”, “Good”.\
+Interaction 3: Setting your preferred temperature on the spoon.\
+Interaction 4: Maybe we could include an option to have a manual control over the umbrella when we don’t agree with the umbrella’s assumption.\
+Interaction 5: TODO\
+Interaction 6: Having a function that makes the collar have “on-demand” translation, which can be activated on the phone.\
+Interaction 7: TODO\
+Interaction 8: TODO
 
 ## Part C. Prototype the device
 
 **Give us feedback on [Tinkerbelle](https://github.com/FAR-Lab/tinkerbelle).**
 
-Tinkerbelle works well but has a small problem. We can't save the colors we choose. So, every time we use it, we have to pick the colors again if we don't want to use the default ones. It would be better if we could save our favorite colors.
+* I wish the “newnewui” branch had more color swatches
+* The sounds are really handy!
 
 ## Part D. Wizard the device
 
@@ -136,50 +149,34 @@ Our first attempt at setting it up was a successful attempt so it will be includ
 
 **Include sketches of what your devices might look like here.**
 
-Clip-on device with screen
+Device 1: Companion Jewelry
 
-<img src="./img/img8.jpg" width="500">\
+![](./img/img9.png)
 
-Embedded screen 1
+Device 2: Drink Temperature Spoon
 
-<img src="./img/img9.jpg" width="500">\
+![](./img/img10.png)
 
-Embedded screen 2
+Device 3: Automatic Grocery Allocator
 
-<img src="./img/img10.jpg" width="500">\
+![](./img/img11.png)
 
 **What concerns or opportunities are influencing the way you've designed the device to look?**
 
-The main concern was not being able to confuse the device as trash itself. Another concern would be potential contamination from trash being moved over the device. There is potential for water from a water bottle to drip onto the device causing potential water damage. It needs to be dressed to not look like something to throw away as well as be protected from potential garbage, but the latter may be solved with better placement.
+In designing the device aesthetics for the Companion Jewelry, Drink Temperature Detector Spoon, and Automatic Grocery Allocator, a primary influence was the aspiration to enhance portability and convenience. This consideration led to the selection of commonly used objects like jewelry and spoons, ensuring that users can seamlessly integrate these devices into their daily routines. Concurrently, there was a deliberate effort to distinctly differentiate the devices from regular environmental objects to avoid confusion, ensuring they maintain their primary function and user safety while remaining innovative and user-friendly.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-Our video: https://youtu.be/y4Ni2OnUtK4
+[Prototype Interaction 1](https://youtu.be/geWE9RDHDTE) \
+[Prototype Interaction 2](TODO) \
+[Prototype Interaction 3](TODO)
 
 **Please indicate anyone you collaborated with on this Lab.**
 
-Thomas Wiener (tfw29)\
-Zixin Li (zl865)\
-Kazim Jafri (khj23)\
-Re Chen (rc884)
-
-# Staging Interaction, Part 2 
-
-This describes the second week's work for this lab activity.
-
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
-\*\***Summarize feedback from your partners here.**\*\*
-
-## Make it your own
-
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+Arystan Tatishev (at855) \
+Kazim Jafri (khj23) \
+Rowan Wu (rww99) \
+Zixin Li (zl865) \
+Rei Chen (rc884)
