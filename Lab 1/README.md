@@ -190,23 +190,107 @@ We were inspired by the example in class. Also, we got inspiration from some cla
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
+\*\***NAME OF COLLABORATORS HERE**\*\*
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
 
 
-## Prep (to be done before Lab on Wednesday)
+## Part A. Plan 
+**_Setting:_** The interaction takes place in a kitchen, where the device is typically affixed to the refrigerator door, though it is also detachable. The interaction initiates when a user stands within the range where the device can detect their presence. The interaction can be triggered through either touch or voice commands.
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+**_Players:_** Anyone standing in front of the device can interact with it. Voice commands are not tied to specific users; in other words, anyone saying the keyword 'Hi, <device\>' can activate it.
 
-\*\***Summarize feedback from your partners here.**\*\*
+**_Activity:_** 7 different activities are provided by the device:
+
+**1. Dietary Guardian:** This device scans the food items provided by the user and assesses whether this combination is healthy or not, taking into account the user's health records, dietary restrictions, and current medications. It conveys this information through a color-coded system: red for unsafe and green for safe. Additionally, it provides further details through both audio and text projected onto the fridge.
+
+**2. Food Compatibility Advisor:** When the user is uncertain about a specific food combination, they can invoke the device through an audio command, and the device will respond with a color-coded system: red for unsafe and green for safe. Furthermore, it provides additional details through both audio and text projected onto the fridge.
+
+**3. Ingredient Checker:** Upload your grocery shopping list from your phone or let the device scan the receipt, allowing our system to check for potential food safety concerns before your purchase. Additionally, it will remind you of items already in the fridge, displaying their last purchase date to prevent duplicate purchases.
+
+**4. Interactive Educational Helper:** Users can engage with the device in quiz mode to test their knowledge of food combinations.
+
+**5. Fridge Inventory Condition Checker:** When the user brings in new groceries, they can activate the grocery loading mode to monitor the freshness of their food. As items are placed in the fridge, the device identifies them, verbally confirming the food name and storage date with the user. If the device detects that the food is likely spoiled, it turns red and emits a warning sound to alert the user when they approach the fridge.
+
+**6. Drink & Beverage Tracker:** For bartenders, keeping tabs on drink and beverage inventory is essential to avoid running out of supplies. Each time the user adds a new drink to the fridge, the device updates the inventory count accordingly. Users can also set a minimum threshold for each drink while loading them into the fridge. If the quantity of a drink falls below the set threshold, the device turns red and emits a warning sound.
+
+**7. Monsieur le Chef:** Stumped about dinner options? This device suggests potential meals based on your current fridge inventory and provides recipes to help you decide.
 
 
-## Make it your own
+**_Goals:_** The goal of the player is to maintain a healthy diet.
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
+![](https://hackmd.io/_uploads/rJdaxf4R3.png)
+![](https://hackmd.io/_uploads/HJJr-fN03.png)
+![](https://hackmd.io/_uploads/Hyu6lfVC2.png)
+![](https://hackmd.io/_uploads/ByC4-MECh.png)
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+\*\***Summarize feedback you got here.**\*\*
 
-Assisted by GPT for wording and grammar refinement.
+Overall, the feedback for our design concepts is very positive: our design concepts are well-thought-out and offer a variety of functionalities aimed at different needs and scenarios. At the same time, we were advised to use simpler language, as readability is also a key factor in addition to professionalism for our design. One of the suggestions is to provide users with a guide to what they can expect from the product. Lastly, We were advised to consider enhancing user experience by adding more feedback in addition to light. For example, we can incorporate sound cues and vibrations into our design to facilitate the users. In addition, it is possible to empower Learning Algorithms in the device that interfaces with a Smart Phone Application. This application holds the capability to assist the device in sending timely reminders and facilitating orders initiated by the user. It could also use data from the household to provide more personalized advice and further optimize the user experience.
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+At first, we plan to use text to display all the information needed by the user. However, when we acted out displaying text on screen, we figured that text is not intuitive and hard for people to read on such a device. Therefore, we started to think about more interactive ways of showing that information by using light and voice. This finding guides our future design of the device.
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+We realized that since the device is designed to be a food advisor, it should also have the capability to provide food recommendations. With this idea in mind, we expanded the device's functionality to turn it into an at-home chef and nutritionist.
+
+## Part C. Prototype the device
+
+\*\***Feedback on Tinkerbelle.**\*\*
+The user experience of Tinkerbelle is user-friendly and trouble-free. It could be improved if additional functionalities could be incorporated. For instance, while using the phone as a lighting tool, a full-screen mode that exclusively showcases the color without any buttons would be desirable. In addition, adding the feature that users can manually input RGB numbers can increase the flexibility of Tinkerbelle. 
+
+
+## Part D. Wizard the device
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+[<img src="https://hackmd.io/_uploads/H11LzyNA3.png">](https://www.youtube.com/watch?v=TdZUB5HhaLk&ab_channel=AllenSun)
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+See part F for details.
+
+
+## Part E. Costume the device 
+
+\*\***Include sketches of what your devices might look like here.**\*\*
+
+Minimalism Design
+
+Our first design is a coin-sized, portable device designed for effortless convenience. This tiny attachment seamlessly affixes to your phone, you can carry this device around and make evaluation of the food.
+![](https://hackmd.io/_uploads/BkwmD2XRn.jpg)
+
+Wearable Design
+
+Our second design is a sleek, glass-like device that instantly scans food, analyzing its nutritional quality, freshness, and safety. It then illuminates the results in vibrant colors, making it effortless to distinguish between good and bad food choices, ensuring your health and well-being with just a glance.
+![](https://hackmd.io/_uploads/rySJDhX0n.jpg)
+
+Seamlessly Household Design
+
+Our third is a fridge-sticker-sized smart device that blends into your kitchen. It identifies the quality of the food in your fridge, categorizing it as fresh, near expiry, or spoiled, and offers personalized meal suggestions based on what's available. It's like having a nutritionist right in your kitchen, ensuring you make the best food choices while minimizing waste.
+![](https://hackmd.io/_uploads/SysRLnQ03.jpg)
+
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
+
+By designing the device, a few concerns might influence the way to design our product. Firstly, the device can be carried to different places; therefore, accessibility and flexibility have to be carefully considered. The design of the device should be simple and portable. Secondly, the size of the product needs to be very reasonable to adapt to every situation. For example, we have designed three different formats of the product to provide alternative ways of accessing the device. 
+
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+[<img src="https://hackmd.io/_uploads/HJfMmfN0h.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
+
+[<img src="https://hackmd.io/_uploads/Sy7M7zNA2.jpg">](https://youtu.be/qtcV7ecHLRY?si=ChWoWfhIzqL5sroH)
+
+[<img src="https://hackmd.io/_uploads/H1ffQfVC2.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
+
