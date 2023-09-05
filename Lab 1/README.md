@@ -65,7 +65,7 @@ A) [Plan 1b](#part-a-plan-1b)
 
 B) [Act out the interaction 1b](#part-b-act-out-the-interaction-1b)
 
-C) [Prototype the device]()
+C) [Prototype the device](#part-c-prototype-the-device-1b)
 
 D) [Wizard the device]() 
 
