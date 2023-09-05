@@ -67,7 +67,7 @@ B) [Act out the interaction 1b](#part-b-act-out-the-interaction-1b)
 
 C) [Prototype the device](#part-c-prototype-the-device-1b)
 
-D) [Wizard the device]() 
+D) [Wizard the device](#part-d-wizard-the-device-1b) 
 
 E) [Costume the device]()
 
