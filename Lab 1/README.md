@@ -61,6 +61,8 @@ F) [Record the interaction](#part-f-record)
 
 Lab 1b:
 
+[Staging Interaction](#staging-interaction-part-2)
+
 A) [Plan 1b](#part-a-plan-1b) 
 
 B) [Act out the interaction 1b](#part-b-act-out-the-interaction-1b)
