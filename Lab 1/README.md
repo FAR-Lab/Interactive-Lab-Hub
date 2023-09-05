@@ -217,6 +217,23 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+We received a total of 7 comments from students in different groups. There is a shared appreciation for the creativity and effort put into the microwave cardboard prototype. Some suggested adding sound functions and continuous color changing for improved user engagement and control. Most of the partners are also interested in how we might integrate the device with technology to benefit potential microwave users. Overall, our 7 partners are impressed with the practical details of our design process.
+
+Feedback from our 7 partners
+
+John Li: Wow! I never thought of this idea. I do hope to see more interaction between your device and the user though, maybe try to add a sound function to engage the user. Or add a bad food detect function.
+
+Crystal: Amazing! Love the prototypes, my concern would be creating the actual device and detecting the scenarios, since the interactions are between the food and the colors.
+
+Yunfei Jiao: I like the wide range of functions that you have come up with to improve microwave usage. The cardboard prototype is creative and straightforward for demonstrating. It would be nice if the color changing is continuous rather than binary, so that the users could have better visualization and control.
+
+Neel: It was really cool. Favorite two functions were detecting food spillage and if the material is microwavable. One thing we could add could be to have text instead of just light.
+
+Kazim: It was a very interesting device. The prototypes looked amazing, I didn’t expect you to make your own microwave, that was pretty impressive getting it all to work. The details seemed pretty thought out and all of the interactions seemed pretty useful and throroughly thought out. Great job.
+
+Yiming: The design of your device is very interesting. I am also amazed by how you carry the idea out to the real-word setting. Great job! I am also excited to see how this device can be integrated with technology to benefit people’s lives.
+
+Tahmid: The microwave prototype was outstandingly creative! The fact that you guys had multiple storyboards for each scenario is very well detailed having multiple videos explaining each of the step by step process was very helpful in helping us follow your design process
 
 ## Make it your own
 
@@ -226,3 +243,115 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+Part A. Plan
+Setting 1:
+A gate placed near to front doors that detects whether a key fob is brought by house owners when passing through the gate. A notification sound will be played if not.
+Player 1:
+A house owner
+Activity 1:
+As the homeowners approach their front gate, it automatically senses their key fob. The gate smoothly opens, indicating their presence. However, a subtle notification sound alerts them when a visitor tries to enter without a key fob, ensuring their security and peace of mind.
+Goal 1:
+To prevent house owners going out without a key fob.
+
+Setting 2:
+A smart chair that can detect how long a person has been sitting on the chair for and will vibrate if the person has been sitting for too long.
+Player 2:
+A work from home employee
+Activity 2:
+As John settles into his smart chair to work, it begins tracking his sitting time. Hours pass, and the chair detects he’s been sitting too long. It vibrates gently, reminding him to take a break and stretch. John stands up, appreciating the chair’s concern for his well-being, and goes for a short walk to stay refreshed.
+Goal 2:
+To prevent the user from sitting on the chair for too long.
+
+Setting 3:
+An oil and stain detector in the kitchen that will shoot light to indicate the biggest stain found.
+Player 3:
+A housekeeper
+Activity 3:
+In the kitchen, Jane spills some oil. Suddenly, the oil and stain detector activates, scanning for stains. A beam of light targets the largest stain, signaling Jane to clean it. She follows the light, easily identifying the problem area and efficiently cleaning up the spill.
+Goal 3:
+To make the kitchen cleaner and remove stains if possible
+
+Setting 4:
+Using emotion detection to integrate an inspiring quote generator
+Player 4:
+A heartbroken person
+Activity 4:
+As Sarah interacts with her device, the emotion detection feature senses her mood. Detecting a hint of melancholy, it seamlessly integrates an inspiring quote into the conversation. Sarah’s face brightens as she reads the quote, feeling uplifted by the timely message. This seamless interaction leaves her with a positive, motivated outlook for the day
+Goal 4:
+To heal people’s daily feelings
+
+Setting 5: If you have feet odor, the screen on the floor mat will turn red and play a siren sound. If your feet are odorless, the screen will be green and it will play a ding sound.
+Player 5: Someone who wants his/her feet clean
+Activity 5: In a modern living room, Lisa cautiously steps onto a specialized floor mat. She anxiously awaits the verdict as the screen beneath her feet comes to life. As the mat analyzes the odor, it displays a bright green screen and emits a cheerful ding sound, leaving Lisa relieved and satisfied with her odorless feet.
+Goal 5: To remind you it’s time to wash your feet and avoid the awkward scenario
+
+Setting 6:
+A tone detector to identify the extent of politeness for each sentence you speak
+Player 6:
+An employee working in a team
+Activity 6:
+In a conference room, Sarah speaks confidently into a tone detector microphone. As she talks, a screen displays a real-time analysis of her speech, indicating the level of politeness for each sentence. Sarah’s expressions subtly shift as she notices the feedback, helping her refine her communication and maintain a courteous tone throughout the conversation.
+Goal 6:
+When the device detects that your blood pressure and heart rate have risen and your voice has become more emotional, the wristband will vibrate to warn you.
+
+Setting 7:
+Smart Table to detect the food type of each meal on the table for your health care
+Player 7:
+A person who wants to maintain a healthy diet
+Activity 7:
+In a contemporary kitchen, John stands by a smart table filled with various meals. John waves his hand over the table, activating its food detection feature. A holographic display emerges, showcasing detailed nutritional data for each dish. John studies the information, making informed choices for a healthier meal, all while nodding in approval of the smart table’s capabilities.
+Goal 7:
+To discriminate the nutrition of the dish on the table and show the red light if the food is not good for your health
+
+**Include pictures of your storyboards here**
+![A4E5AD5A-B5BA-4586-B6B3-095A4C6935A8](https://github.com/yl3658/Interactive-Lab-Hub/assets/143120534/319cce8b-13e7-4f56-a272-b1a34970cbdb)
+
+
+**Summarize feedback you got here.**
+The idea of the smart table is great, but preferably you would want to have this feature before preparing the meal, otherwise you would be wasting the meal if you didn’t end up eating it based on the nutrition information.
+The tone detector and emotion detectors are really creative ideas.
+The feet odor detector mat could possibly include a self-cleaning mechanism, or else the mat might be filled with odor after prolonged use.
+
+Part B. Act out the Interaction
+Are there things that seemed better on paper than acted out?
+The foot odor detector seemed better on paper than acted out, because in order for it to be able to properly sense the odor, the user would have to stand on it for a short while, and this may be inconvenient and time-consuming for most people.
+
+Are there new ideas that occur to you or your collaborators that come up from the acting?
+
+For the feet odor detector, our initial design was only an indicator, but it could be improved with a feet cleaning or deodorizing functionality.
+For the chair that will remind you to stand up after sitting for a period of time, an additional feature we could add would be for the user to be able to adjust the time. Additionally, we could add different ways that the user would be able to set the reminder, including sound, light, or different vibrations.
+For the gate that will detect if you brought your keys outside, additionally use cases we thought of were using it for other essentials that people may not want to forget when they leave the house.
+Part C. Costume the device
+**Include sketches of what your devices might look like here.**
+
+Photo: Sketches
+![IMG_6095](https://github.com/yl3658/Interactive-Lab-Hub/assets/143120534/a1f6bf16-41f1-486d-b596-9e113d6cdc9f)
+
+Photo: Designed Device
+![S__11362315](https://github.com/yl3658/Interactive-Lab-Hub/assets/143120534/3bda518a-7c7f-4bfb-ae89-b5d6242775cb)
+Smart chair
+
+![S__11362306](https://github.com/yl3658/Interactive-Lab-Hub/assets/143120534/a0f7cd58-7355-4e11-b4a4-160f52dde4f8)
+Odor sensor
+
+![S__11362317](https://github.com/yl3658/Interactive-Lab-Hub/assets/143120534/fcb61396-d792-42d3-8e2b-2dc43c2e8911)
+Key fob notifier
+
+**What concerns or opportunitities are influencing the way you’ve designed the device to look?**
+
+Concerns:
+
+Smart Chair: The chair would need a g-sensor to check if anyone is seated. But if the timer starts automatically, the chair will lose its function of placing other objects.
+Odor Sensor Rug: The smell may be retained on the rug after using it for a while, causing the sensor (odor detector) to be inaccurate. There should be a deodorizing system to keep the rug functioning correctly.
+Opportunities:
+
+Key fob notifier: The key fob notifier uses Bluetooth to detect if the key is near the door, which can be integrated with the door itself. (If the door is opened, check if there is a key nearby.)
+Part D. Record
+**Take a video of your prototyped interaction.**
+Video: Smart chair
+Video: Odor sensor
+Video: Key fob notifier
+
+**Please indicate anyone you collaborated with on this Lab.**
+Julia Lin, Amber Tsao, IFeng Wu, Wayne Cheng
