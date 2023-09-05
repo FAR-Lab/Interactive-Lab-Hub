@@ -61,7 +61,7 @@ F) [Record the interaction](#part-f-record)
 
 Lab 1b:
 
-A) [Plan 1b](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/blob/Fall2023/Lab%201/README.md#part-a-plan-1b) 
+A) [Plan 1b](#part-a-plan-1b) 
 
 
 
