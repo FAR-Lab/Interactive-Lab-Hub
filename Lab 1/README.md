@@ -47,31 +47,31 @@ For this assignment, you are going to:
 
 Lab 1a:
 
-A) [Plan](#part-a2-plan) 
+A) [Plan](#part-a-plan) 
 
-B) [Act out the interaction](#part-b2-act-out-the-interaction) 
+B) [Act out the interaction](#part-b-act-out-the-interaction) 
 
-C) [Prototype the device](#part-c2-prototype-the-device)
+C) [Prototype the device](#part-c-prototype-the-device)
 
-D) [Wizard the device](#part-d2-wizard-the-device) 
+D) [Wizard the device](#part-d-wizard-the-device) 
 
-E) [Costume the device](#part-e2-costume-the-device)
+E) [Costume the device](#part-e-costume-the-device)
 
-F) [Record the interaction](#part-f2-record)
+F) [Record the interaction](#part-f-record)
 
 Lab 1b:
 
-A) [Plan 1b](#part-a-plan)
+A) [Plan 1b](#part-a-plan-1b)
 
-B) [Act out the interaction 1b](#part-b-act-out-the-interaction) 
+B) [Act out the interaction 1b](#part-b-act-out-the-interaction-1b) 
 
-C) [Prototype the device 1b](#part-c-prototype-the-device)
+C) [Prototype the device 1b](#part-c-prototype-the-device-1b)
 
-D) [Wizard the device 1b](#part-d-wizard-the-device) 
+D) [Wizard the device 1b](#part-d-wizard-the-device-1b) 
 
-E) [Costume the device 1b](#part-e-costume-the-device)
+E) [Costume the device 1b](#part-e-costume-the-device-1b)
 
-F) [Record the interaction 1b](#part-f-record)
+F) [Record the interaction 1b](#part-f-record-1b)
 
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
@@ -240,7 +240,7 @@ Do last week’s assignment again, but this time:
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 
-## Part A2. Plan 1b 
+## Part A. Plan 1b 
 
 ### The new device will have three main settings for interaction: The user’s bedroom, outdoors while the user is walking, and in the user’s car. 
 
@@ -263,7 +263,7 @@ Do last week’s assignment again, but this time:
 
 ![7](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/d448b3ed-dba7-492c-aac7-c5330ba7c429)
 
-## Part B2. Act out the Interaction 1b
+## Part B. Act out the Interaction 1b
 
 **Are there things that seemed better on paper than acted out?** 
 ### Nope, pretty much as expected.
@@ -271,11 +271,11 @@ Do last week’s assignment again, but this time:
 **Are there new ideas that occur to you or your collaborators that come up from the acting?** 
 ### No, not really.
 
-## Part C2. Prototype the device 1b
+## Part C. Prototype the device 1b
 
 ### Tinkerbelle worked great! We had no issues connecting/using it.
 
-## Part D2. Wizard the device 1b
+## Part D. Wizard the device 1b
 
 **Include your first attempts at recording the set-up video here.** 
 [https://youtu.be/RPwdmEb-S8Y]
@@ -283,7 +283,7 @@ Do last week’s assignment again, but this time:
 **Show the follow-up work here.** 
 [https://youtu.be/gP4IEmmOoGw]
 
-## Part E2. Costume the device 1b
+## Part E. Costume the device 1b
 
 **Include sketches of what your devices might look like here.**
 ### 1. Classic alarm clock look
@@ -295,7 +295,7 @@ Do last week’s assignment again, but this time:
 **What concerns or opportunities are influencing the way you've designed the device to look?**
 ### Since this device is now intended to be worn, wearability was now a bigger concern. We also want to use familiar design concepts to the objects which the functionality of the device is based on, to increase user familiarity.
 
-## Part F2. Record 1b
+## Part F. Record 1b
 
 **Take a video of your prototyped interaction.**
 
