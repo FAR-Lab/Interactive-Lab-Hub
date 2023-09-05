@@ -2,7 +2,9 @@
 
 # Staging Interaction
 
-\*\***Shiying Wu (Sophie), Mingzhe Sun (Allen)**\*\*
+\*\***Part 1: Shiying Wu (sw2298), Mingzhe Sun (ms3636)**\*\*
+
+\*\***Part 2: John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -172,12 +174,14 @@ _Collaborator_: Shiying Wu (Sophie), Mingzhe Sun (Allen)
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
+\*\***NAME OF COLLABORATORS HERE**\*\*
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
 
-
-## Prep (to be done before Lab on Wednesday)
+## Prep
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+
+\*\***Summarize feedback from your partners here.**\*\*
 
 Gloria: I like how you drew the storyboard, helping users to understand your different scenarios in detail. I also love the logic of design space where you guys started with how lights react when users have bad sitting posture and followed up with scenarios that correct sitting posture, providing practical solutions and intuitive interaction. One thing great to notice was that you consider this device's potential pros and cons by incentivizing users with guidance on better postures and exercises. How will you guide users to recognize what specific body level or height section to adjust their posture? Many people probably have different posture issues, and my question is how to make one convincing and professional guideline with knowledge support when users interact with the lights. I like your presentation in the video; your set-up looked great. If there could be a quick intro note of your testing or a few demonstrations while doing the task, that might be helpful for more users to perceive your concept! Overall, it's a cool project, and it could bring awareness to more students about their body postures and health!
 
@@ -191,15 +195,104 @@ John Li: Wow, Interesting ideas! I really like your concept. Your design is very
 
 Kenneth: I liked the sketches, especially for costuming the device, they are very high quality and great drawings that get your idea across. The responses to the questions in the write up are also thorough. I thought the video was good but it could have some subtitles or voice-over describing what is going on, otherwise you have to infer what is going on as the viewer.
 
+## Part A. Plan 
+**_Setting:_** The interaction takes place in a kitchen, where the device is typically affixed to the refrigerator door, though it is also detachable. The interaction initiates when a user stands within the range where the device can detect their presence. The interaction can be triggered through either touch or voice commands.
+
+**_Players:_** Anyone standing in front of the device can interact with it. Voice commands are not tied to specific users; in other words, anyone saying the keyword 'Hi, <device\>' can activate it.
+
+**_Activity:_** 7 different activities are provided by the device:
+
+**1. Dietary Guardian:** This device scans the food items provided by the user and assesses whether this combination is healthy or not, taking into account the user's health records, dietary restrictions, and current medications. It conveys this information through a color-coded system: red for unsafe and green for safe. Additionally, it provides further details through both audio and text projected onto the fridge.
+
+**2. Food Compatibility Advisor:** When the user is uncertain about a specific food combination, they can invoke the device through an audio command, and the device will respond with a color-coded system: red for unsafe and green for safe. Furthermore, it provides additional details through both audio and text projected onto the fridge.
+
+**3. Ingredient Checker:** Upload your grocery shopping list from your phone or let the device scan the receipt, allowing our system to check for potential food safety concerns before your purchase. Additionally, it will remind you of items already in the fridge, displaying their last purchase date to prevent duplicate purchases.
+
+**4. Interactive Educational Helper:** Users can engage with the device in quiz mode to test their knowledge of food combinations.
+
+**5. Fridge Inventory Condition Checker:** When the user brings in new groceries, they can activate the grocery loading mode to monitor the freshness of their food. As items are placed in the fridge, the device identifies them, verbally confirming the food name and storage date with the user. If the device detects that the food is likely spoiled, it turns red and emits a warning sound to alert the user when they approach the fridge.
+
+**6. Drink & Beverage Tracker:** For bartenders, keeping tabs on drink and beverage inventory is essential to avoid running out of supplies. Each time the user adds a new drink to the fridge, the device updates the inventory count accordingly. Users can also set a minimum threshold for each drink while loading them into the fridge. If the quantity of a drink falls below the set threshold, the device turns red and emits a warning sound.
+
+**7. Monsieur le Chef:** Stumped about dinner options? This device suggests potential meals based on your current fridge inventory and provides recipes to help you decide.
 
 
-\*\***Summarize feedback from your partners here.**\*\*
+**_Goals:_** The goal of the player is to maintain a healthy diet.
 
-## Make it your own
+![](part2_storyboard1.png)
+![](part2_storyboard2.png)
+![](part2_storyboard3.png)
+![](part2_storyboard4.png)
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
+\*\***Summarize feedback you got here.**\*\*
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+Overall, the feedback for our design concepts is very positive: our design concepts are well-thought-out and offer a variety of functionalities aimed at different needs and scenarios. At the same time, we were advised to use simpler language, as readability is also a key factor in addition to professionalism for our design. We were also advised to create a preview or a timeline for our video. Lastly, We were advised to consider enhancing user experience by adding more feedback in addition to light. For example, we can incorporate sound cues and vibrations into our design to facilitate the users.
+
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+At first, we plan to use text to display all the information needed by the user. However, when we acted out displaying text on screen, we figured that text is not intuitive and hard for people to read on such a device. Therefore, we started to think about more interactive ways of showing that information by using light and voice. This finding guides our future design of the device.
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+We realized that since the device is designed to be a food advisor, it should also have the capability to provide food recommendations. With this idea in mind, we expanded the device's functionality to turn it into an at-home chef and nutritionist.
+
+## Part C. Prototype the device
+
+\*\***Feedback on Tinkerbelle.**\*\*
+The user experience of Tinkerbelle is user-friendly and trouble-free. It could be improved if additional functionalities could be incorporated. For instance, while using the phone as a lighting tool, a full-screen mode that exclusively showcases the color without any buttons would be desirable. In addition, adding the feature that users can manually input RGB numbers can increase the flexibility of Tinkerbelle. 
+
+
+## Part D. Wizard the device
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+[![Set Up](setup.jpg)](https://www.youtube.com/watch?v=TdZUB5HhaLk)
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+See part F for details.
+
+
+## Part E. Costume the device 
+
+\*\***Include sketches of what your devices might look like here.**\*\*
+
+Minimalism Design
+
+Our first design is a coin-sized, portable device designed for effortless convenience. This tiny attachment seamlessly affixes to your phone, you can carry this device around and make evaluation of the food.
+![](part2_costume1.jpeg)
+
+Wearable Design
+
+Our second design is a sleek, glass-like device that instantly scans food, analyzing its nutritional quality, freshness, and safety. It then illuminates the results in vibrant colors, making it effortless to distinguish between good and bad food choices, ensuring your health and well-being with just a glance.
+![](part2_costume2.jpeg)
+
+Seamlessly Household Design
+
+Our third is a fridge-sticker-sized smart device that blends into your kitchen. It identifies the quality of the food in your fridge, categorizing it as fresh, near expiry, or spoiled, and offers personalized meal suggestions based on what's available. It's like having a nutritionist right in your kitchen, ensuring you make the best food choices while minimizing waste.
+![](part2_costume3.jpeg)
+
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
+
+By designing the device, a few concerns might influence the way to design our product. Firstly, the device can be carried to different places; therefore, accessibility and flexibility have to be carefully considered. The design of the device should be simple and portable. Secondly, the size of the product needs to be very reasonable to adapt to every situation. For example, we have designed three different formats of the product to provide alternative ways of accessing the device. 
+
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+[<img src="prototype1.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
+
+[<img src="prototype2.jpg">](https://youtu.be/qtcV7ecHLRY?si=ChWoWfhIzqL5sroH)
+
+[<img src="prototype3.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
+
