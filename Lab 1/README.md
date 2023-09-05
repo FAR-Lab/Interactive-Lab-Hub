@@ -117,6 +117,7 @@ John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc279
 **_Players:_** Anyone standing in front of the device can interact with it. Voice commands are not tied to specific users; in other words, anyone saying the keyword 'Hi, <device\>' can activate it.
 
 **_Activity:_** 7 different activities are provided by the device:
+
 **1. Dietary Guardian:** This device scans the food items provided by the user and assesses whether this combination is healthy or not, taking into account the user's health records, dietary restrictions, and current medications. It conveys this information through a color-coded system: red for unsafe and green for safe. Additionally, it provides further details through both audio and text projected onto the fridge.
 
 **2. Food Compatibility Advisor:** When the user is uncertain about a specific food combination, they can invoke the device through an audio command, and the device will respond with a color-coded system: red for unsafe and green for safe. Furthermore, it provides additional details through both audio and text projected onto the fridge.
@@ -177,14 +178,17 @@ See part F for details.
 \*\***Include sketches of what your devices might look like here.**\*\*
 
 Minimalism Design
+
 Our first design is a coin-sized, portable device designed for effortless convenience. This tiny attachment seamlessly affixes to your phone, you can carry this device around and make evaluation of the food.
 ![](https://hackmd.io/_uploads/BkwmD2XRn.jpg)
 
 Wearable Design
+
 Our second design is a sleek, glass-like device that instantly scans food, analyzing its nutritional quality, freshness, and safety. It then illuminates the results in vibrant colors, making it effortless to distinguish between good and bad food choices, ensuring your health and well-being with just a glance.
 ![](https://hackmd.io/_uploads/rySJDhX0n.jpg)
 
 Seamlessly Household Design
+
 Our third is a fridge-sticker-sized smart device that blends into your kitchen. It identifies the quality of the food in your fridge, categorizing it as fresh, near expiry, or spoiled, and offers personalized meal suggestions based on what's available. It's like having a nutritionist right in your kitchen, ensuring you make the best food choices while minimizing waste.
 ![](https://hackmd.io/_uploads/SysRLnQ03.jpg)
 
