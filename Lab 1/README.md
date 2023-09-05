@@ -177,6 +177,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+Freya Zhang: Sissel’s interactive color picker is an incredibly novel idea – the creative interpretation and implementation of science fiction in a unique way. Additionally, her attention to detail is evident in the way she modified color codes to match the colors of the colored pencils, making it a subtle yet remarkable adjustment.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -232,3 +234,5 @@ For sake of convenience, I wizard the device using Figma this time by manually g
 
 [Interaction Video](https://drive.google.com/file/d/1dSbwrB4JdmOVZkS8WHnVznpIgnGCIhy_/view?usp=drive_link)<br>
 The video shows three interactions of generating color themes based on different number of colors. There are also interactions of picking up physical colors and exporting themes to laptop.
+
+Thanks to Freya who provided valuable feedback!
