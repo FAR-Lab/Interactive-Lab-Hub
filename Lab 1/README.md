@@ -200,6 +200,8 @@ Do last week’s assignment again, but this time:
 
 \*\***My new storyboards**\*\*
 
-![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab%20-1%20week2-1.jpg)
+[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab%20-1%20week2-1.jpg)](https://youtu.be/zVVS7HgXzTs)
+
+[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab%20-1%20week2-1.jpg)](https://youtu.be/soBSpHTS1mI)
 
 
