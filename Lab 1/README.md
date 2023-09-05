@@ -59,6 +59,10 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
+Lab 1b:
+
+A) [Plan 1b](#https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/blob/Fall2023/Lab%201/README.md#part-a-plan-1b) 
+
 
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
