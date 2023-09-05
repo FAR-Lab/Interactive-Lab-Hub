@@ -221,3 +221,83 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+## Part A. Plan 
+
+### The new device will have three main settings for interaction: The user’s bedroom, outdoors while the user is walking, and in the user’s car. 
+
+### The main player will be the person wearing the device, and the age of this user is an adult who is old enough to drive. The secondary beneficiaries of this device are roommates and neighbors of the user(s) who are not disturbed by an audio alarm, as well as other drivers who are kept safer by the user’s awareness while driving. 
+
+### The main activities of this device are focused on interaction through vibration: waking the user up by vibrating their bed, assisting the user in navigating by vibrating to keep them aware of their current direction, and keeping the user awake during critical tasks through vibration.
+
+
+![1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/a362b448-f5cb-455e-a527-fbe887a14c3d)
+
+![2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/1dba182b-c122-42c7-a85b-a59f0fe12e8f)
+
+![3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e0ef4714-3778-4ad5-a6e3-8f7acd51fd59)
+
+![4](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e0fe8265-c69b-436f-9af2-b556f24a420c)
+
+![5](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/238f300b-03dd-45f7-bdd7-587cc1eaaf17)
+
+![6](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/4e0e32af-e815-41c1-b92d-37972d156dca)
+
+![7](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/d448b3ed-dba7-492c-aac7-c5330ba7c429)
+
+## Part B. Act out the Interaction
+
+**Are there things that seemed better on paper than acted out?** 
+### Nope, pretty much as expected.
+
+**Are there new ideas that occur to you or your collaborators that come up from the acting?** 
+### No, not really.
+
+## Part C. Prototype the device
+
+### Tinkerbelle worked great! We had no issues connecting/using it.
+
+## Part D. Wizard the device
+
+**Include your first attempts at recording the set-up video here.** 
+[https://youtu.be/RPwdmEb-S8Y]
+
+**Show the follow-up work here.** 
+[https://youtu.be/gP4IEmmOoGw]
+
+## Part E. Costume the device
+
+**Include sketches of what your devices might look like here.**
+### 1. Classic alarm clock look
+### 2. Classic compass
+### 3. Vibration symbol
+
+<img width="628" alt="Screen Shot 2023-09-05 at 1 38 11 PM" src="https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/2adcb70e-903f-4a5f-bfd7-58d79f489d16">
+
+**What concerns or opportunities are influencing the way you've designed the device to look?**
+### Since this device is now intended to be worn, wearability was now a bigger concern. We also want to use familiar design concepts to the objects which the functionality of the device is based on, to increase user familiarity.
+
+## Part F. Record
+
+**Take a video of your prototyped interaction.**
+
+### Wake Up interaction:
+
+[https://youtu.be/u13OTQ6izU4]
+
+### Navigation interaction:
+
+[https://youtube.com/shorts/S5f2tFXtDfs?feature=share]
+
+### Driving interaction:
+
+[https://www.youtube.com/watch?v=3kGsBaiHUTw]
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+## Yifan Yu (yy2253), Michael Hanlon (mph99), Gloria Hu (rh692), Kenneth Lee (kml343), and Ben Setel (bs836)
+
+
