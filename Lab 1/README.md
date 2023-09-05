@@ -225,3 +225,155 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+IDD-2 Team members: Jamie Wang, Yiming Sheng, Yunfei Jiao
+
+# Ex.1 Restroom communication system
+## Part A.
+
+Setting: Inside a public restroom. Lights are installed on the wall inside and outside of restroom stalls 
+Players: The person occupying a bathroom stall and the people waiting outside for using the restroom
+Activity: 
+1. Inside the stall, the person using the restroom input the time they estimate themselves to be occupying the restroom
+2. The time will be transferred to a light signal on the outside of the stall (5 min-blue, 10 min-yellow, above-orange).
+3. People waiting outside sees the time and make decision to stay or switch restroom
+
+1. Outside the cell, the person has an urgent need to use the restroom, so they press the button from outside to send a signal to the person inside the restroom.
+2. The person using the restroom sees the light signal (red) and knows that there’s a line forming outside
+Goals: Enhance bathroom usage efficiency
+
+**Include pictures of your storyboards here**
+![Slide 16_9 - 7](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/0b828b93-72f5-4b8d-a1ac-69c33eef989d)
+![Slide 16_9 - 6](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/54ba17e5-2797-406c-bcec-1aa611cd2a12)
+
+
+
+## Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
+Part F. Record
+**Take a video of your prototyped interaction.**
+
+
+# Ex.2 Price-calculating light
+## Part A.
+
+Setting: In a grocery store
+Players: A customer shopping in the store with a shopping cart
+Activity: The customer sets a total amount of money he/she wants to keep the purchase under. As he/she puts an item into the cart, the price-calculating light will start adding up the prices and reflect the total amount to its color. After the amount exceeds the set goal, the light will turn red and vibrate intensely.
+Goals: Help shoppers to stay rational by keeping track of their purchase amount so that they can adjust item selection in real-time
+
+**Include pictures of your storyboards here**
+![Slide 16_9 - 5](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/18e82323-819c-46f0-beca-496f0ff529f9)
+
+
+
+## Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
+##Part F. Record
+**Take a video of your prototyped interaction.**
+
+
+# Ex.3 Distraction preventive timer
+## Part A.
+Study, distract
+Set the timer on phone/light – starting state: white 
+The green area increases as time goes 
+If the user unlock the phone for more than 5 minutes, vibrate in red and return to original state
+Vibrate and rotating when time is up and not touching phone
+Setting: Users are expected to set up the light cubes in their study environment. 
+Players: A user that needs to study/work
+Activity: The user inputs their target focus time and pats the cube light to start the timer which is the light itself.  The light will visualize the procession of time and display special effects after accomplishment. It also detects distraction behaviors of the user and gives warning by vibration/changing light color to red.
+Goals: The goal of the user is to keep focus on their tasks for a duration of time
+
+**Include pictures of your storyboards here**
+
+![Slide 16_9 - 1](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/cc9c2dc0-0d98-4a49-ae3d-0bf819f28d26)
+
+## Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
+## Part F. Record
+**Take a video of your prototyped interaction.*
+
+
+# Ex.4 Ubiquitous direction-guidance
+## Part A.
+
+Setting: Along park pavements there installed a great number of direction-guiding devices
+Players: An old man who doesn’t use cell phones and need directions to a destination
+Activity: The old man walks to a device along the pavement and speaks out the destination he wants to get to. The device will confirm his input and then send signals to other devices along the path suggested for the man. The devices along the path will light up.
+Goals: Give people visual guides in the real world to the place they want to reach.
+
+**Include pictures of your storyboards here**
+
+![Slide 16_9 - 3](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/8a1d543e-6509-46ac-8d0f-dc59bbbe9e7e)
+
+
+## Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
+## Part F. Record
+**Take a video of your prototyped interaction.**
+
+
+# Ex.5 To-do list tracker
+## Part A.
+
+Setting: In a study room 
+Players: A student
+Activity: The student writes up a to-do list and assigns each to-do item to a section of her to-do light board. Every time she finishes a task, she presses that corresponding section to turn the light off. 
+Goals: Give people a visualization of their working progress and motivations to keep working.
+
+**Include pictures of your storyboards here**
+
+![Slide 16_9 - 2](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/4b61aec3-9255-4791-99ec-769de737ed03)
+
+
+
+## Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
+## Part F. Record
+**Take a video of your prototyped interaction.**
+
+
+
+
+
+
+# Ex.6 Severe weather alert
+## Part A.
+
+Setting: A bridge crossing a river. Many people live near the bridge or commute through the bridge.  
+Players: Cars driving along the bridge and residents on the banks.
+Activity: The severe-weather alert lights are installed along the bridge and the banks. The lights are connected to the city forecast station which sends signals whenever a severe weather condition is forecast to occur. 
+Goals: Alert nearby people to evacuate when extreme weathers come.
+
+**Include pictures of your storyboards here**
+
+![Slide 16_9 - 4](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/82521018-57e9-4877-b120-523c816fe55c)
+
+
+## Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
+## Part F. Record
+**Take a video of your prototyped interaction.**
+
+
+**Please indicate anyone you collaborated with on this Lab.** 
+
