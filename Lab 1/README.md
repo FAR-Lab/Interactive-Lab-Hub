@@ -200,8 +200,25 @@ Do last week’s assignment again, but this time:
 
 \*\***My new storyboards**\*\*
 
+Fixed idea from week#1
+
+![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Lab1_week2_main.jpg)
 [![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_1_thumnail.png)](https://youtu.be/zVVS7HgXzTs)
 
+Podhole Detector
+![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_podhole_detector.png)
+
+Projector Navi
+![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_projecternavi.png)
+
+A suitcase with display
+![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_suitcasewithdisplay.png)
 [![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_2_thumnail.png)](https://youtu.be/soBSpHTS1mI)
+
+Self bike lane
+![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_selfbikelane.png)
+
+
+
 
 
