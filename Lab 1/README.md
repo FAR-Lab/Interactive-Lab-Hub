@@ -63,6 +63,16 @@ Lab 1b:
 
 A) [Plan 1b](#part-a-plan-1b) 
 
+B) [Act out the interaction 1b](#part-b-act-out-the-interaction-1b)
+
+C) [Prototype the device]()
+
+D) [Wizard the device]() 
+
+E) [Costume the device]()
+
+F) [Record the interaction]()
+
 
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
