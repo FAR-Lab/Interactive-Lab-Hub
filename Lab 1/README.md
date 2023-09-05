@@ -69,7 +69,7 @@ C) [Prototype the device](#part-c-prototype-the-device-1b)
 
 D) [Wizard the device](#part-d-wizard-the-device-1b) 
 
-E) [Costume the device]()
+E) [Costume the device](#part-e-costume-the-device-1b)
 
 F) [Record the interaction]()
 
