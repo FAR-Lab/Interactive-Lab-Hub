@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+Jamie Wang zw448<br />Yiming Sheng ys2262<br />Yunfei Jiao yj497
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -59,150 +59,100 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Setting: In the central park, where passersby are scattered in a moderate density.
+In today's challenging dating scene, where face-to-face interactions can be intimidating, DateLight is our solution. It revolutionizes compatibility assessment through color indicators displayed on users' heart-shaped pendant necklace. DateLight assigns colors — from white to hot pink, it indicates different levels of compatibility between users — enabling users to gauge potential matches as they cross paths.
 
-Players: Users who use the DateLight app
+_Setting:_ In the central park, where passersby are scattered in a moderate density.
 
-Activity: 
+_Players:_ Users who use the DateLight app, in search for high compatibility friends or lovers.
+
+_Activity:_ 
 1. User individually set up a dating profile on DateLight
-2. DateLight can be accessed on smartphones, tablets, and smartwatches
+2. DateLight can be accessed on smartphones, tablets, and smart watches
 3. DateLight would auto-compare two profiles and output a matching score from 0-100 (least matchable to most matchable)
 4. Score 0-100 mirrors to the gradient shift of blue to bright pink
-5. DateLight will detect DateLight users within 10-meter radius and display colors to show compatibility
+5. DateLight will detect DateLight users within 10-meters radius and display colors to show compatibility
 6. When two users’ matching score is higher than 80, DateLight will alert both users that a high-matching candidate is within the radius, and their devices would vibrate/play sound
 
-Goals: To help user make friends/find love in a big city. More specifically, to help users to locate other players within 10-meters radius who share matching profiles.
 
-
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+_Goals:_ To help user make friends/find love in a big city
 
 \*\***Include pictures of your storyboards here**\*\*
-<img width="688" alt="iidhw1_1" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/9df2ea59-397f-4464-be1e-632e7d9eef77">
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+![Alt Text](storyboard.png)
 
 \*\***Summarize feedback you got here.**\*\*
-1. Matching users solely based on heart rate is not sufficiently accurate, as confounding factors such as workouts or nervousness before an interview can also influence users' heart rates.
-2. Besides light signals, we could also utilize audio or vibrations. Considering the cases where the users are in public settings, vibrations might be a better complement.
 
+Distance should be considered when designing which user in the range would DateLight compare to;
+Besides light signals, we could also utilize audio or vibrations. Considering the cases where the users are in public settings, vibrations might be a better complement;
+Matching users solely based on heart rate is not sufficiently accurate, as confounding factors such as workouts or nervousness before an interview can also influence users' heart rates.
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
 \*\***Are there things that seemed better on paper than acted out?**\*\*
-No
+
+No.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-Yes. Initially, our plan was to instantly switch the color from white to pink when two matched users connect. However, as we delved into the implementation, we found that a color transition could be helpful in indicating the distance between the users. As these two users move closer to one another, the illumination of the necklace smoothly shifts, gradually progressing from white to pink. 
 
+Yes. At first, we planned to directly change the color from white to pink if the user meets other matched users. As we started the acting, we decided to make the transition smoother. As the two users walk closer to each other, the light color of the necklace gradually changes from white to pink.
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
-1.The color display on the device cannot be full-screened, which could lessen the visuals.
-2. Connection is unstable.
-3. A short delay between the web pages and mobile phones 
+
+Still having error to set up even though python3 version has been updated to 3.8.8 in both base and virtual environment.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-
-
-https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/beec6620-7e6e-4686-9d5f-fdbdafcffe92
-
-
+[![set-up video](https://github.com/jamiewang76/Interactive-Lab-Hub/blob/Fall2023/Lab%201/videocover2.png)](https://drive.google.com/file/d/1haPE5jgVUpp3t6X2N_RBVlau4dIB0gUo/view?usp=sharing)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-Within the same setting, we changed the goal from finding true love (Pink Necklace) to friendship (Blue Necklace).
 
-<img width="180" alt="iidhw1_4" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/d0402886-d3bb-4063-a4e6-1368abf06ba5">
+#### Find a friend with DateLight:
+![Alt Text](findfriend.png)
 
-<img width="180" alt="Screen Shot 2023-08-28 at 12 31 53 AM" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/82f33935-1b12-427e-a924-a4ac86ead8d5">
-
+#### Find a lover with DateLight:
+![Alt Text](findlover.png)
 
 
 ## Part E. Costume the device
 
 Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
 
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-1. Necklace
-<img width="503" alt="iidhw1_2" src="https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/41414749-bb5f-446d-bdfa-cc7820e485d0">
-
-2. Glowing tatoo
-
-    ![Alt Text](sticker.jpg)
-
-
-3. LED Bracelets
-
-    ![bracklet](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/ec8829f9-3cbd-4f0f-a87a-fe7fd92dcec2)
-
-
+![Alt Text](DateLight_sketch.png)
+![Alt Text](heart_tattoo.jpg)
+![Alt Text](bracelet.png)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-1. We designed the device to be wearable as a necklace because we want to separate the experience from regular phone activities.
-2. Necklace also serves as a signifier of DateLight users, so that the matched users can recognize each other easier.
+
+1.We designed the device to be wearable as a necklace because we want to separate the experience from regular phone activities.
+2.Necklace also serves as a signifier of DateLight users, so that the matched users can recognize each other easier.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-Interaction 1: Users set up profiles. 
+#### Set up DateLight Profile
+[![Prototyped Interaction Video](https://github.com/jamiewang76/Interactive-Lab-Hub/blob/Fall2023/Lab%201/videocover3.png)](https://drive.google.com/file/d/1Yi82T-KeCm0laz-F20mP987x540bj-D5/view?usp=sharing)
 
-https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/a2aa9f87-0d13-4f2e-9d48-a69a87f6942d
+#### Walk past someone with low compatibility
+[![Prototyped Interaction Video](https://github.com/jamiewang76/Interactive-Lab-Hub/blob/Fall2023/Lab%201/videocover4.png)](https://drive.google.com/file/d/1ibcCMtaqHJMdF6IdU9tX90gv_mVqfJAu/view?usp=sharing)
 
-
-Interaction 2: Two users who are not matched pass by each other. 
-
-
-https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/d10dccea-cabb-45f3-ba4d-2619bdbb31db
-
-
-
-Interaction 3: Two users with matched profiles pass by each other. 
-
-
-
-https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/bef871b1-6981-44d2-b136-789c0470e091
-
-
+#### Walk past someone with high compatibility: Matches
+[![Prototyped Interaction Video](https://github.com/jamiewang76/Interactive-Lab-Hub/blob/Fall2023/Lab%201/videocover.png)](https://drive.google.com/file/d/1SKNph4-WmPY0BgrFO4LxD8fuE-YXKRYg/view?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-Jamie Wang, Yiming Sheng, Yunfei Jiao
+Members: Jamie Wang, Yiming Sheng, Yunfei Jiao
 
 
 
@@ -216,6 +166,10 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+- Hard to differentiate users when more than 2 people are within the detection range <br /> 
+- Add pointer arrows to indicate the direction of potential matches <br /> 
+- Examine the feasibility of this product<br /> 
+- profile picture for each user could be removed
 
 ## Make it your own
 
@@ -226,188 +180,135 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-IDD-2 Team members: Jamie Wang, Yiming Sheng, Yunfei Jiao
+IDD-2
+Team members: Jamie Wang, Yiming Sheng, Yunfei Jiao
+*
 
-# Ex.1 Restroom communication system
-Part A.
 
-Setting: Inside a public restroom. Lights are installed on the wall inside and outside of restroom stalls 
-Players: The person occupying a bathroom stall and the people waiting outside for using the restroom
-Activity: 
-1. Inside the stall, the person using the restroom input the time they estimate themselves to be occupying the restroom
-2. The time will be transferred to a light signal on the outside of the stall (5 min-blue, 10 min-yellow, above-orange).
-3. People waiting outside sees the time and make decision to stay or switch restroom
-
-1. Outside the cell, the person has an urgent need to use the restroom, so they press the button from outside to send a signal to the person inside the restroom.
-2. The person using the restroom sees the light signal (red) and knows that there’s a line forming outside
-Goals: Enhance bathroom usage efficiency
-
+## Ex.1 Restroom communication system
+Part A.<br />
+Setting: Inside a public restroom. Lights are installed on the wall inside and outside of restroom stalls<br /> 
+Players: The person occupying a bathroom stall and the people waiting outside for using the restroom<br />
+Activity:<br />
+1. Inside the stall, the person using the restroom input the time they estimate themselves to be occupying the restroom<br />
+2. The time will be transferred to a light signal on the outside of the stall (5 min-blue, 10 min-yellow, above-orange).<br />
+3. People waiting outside sees the time and make decision to stay or switch restroom<br />
+Goals: Enhance bathroom usage efficiency<br />
 **Include pictures of your storyboards here**
-![Slide 16_9 - 7](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/0b828b93-72f5-4b8d-a1ac-69c33eef989d)
-![Slide 16_9 - 6](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/54ba17e5-2797-406c-bcec-1aa611cd2a12)
-
+![Slide 16_9 - 6](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/bd331ad7-6a84-4cee-9f16-ce85a6c21f60)
+![Slide 16_9 - 7](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/ab3fa29f-1a18-40fc-b853-7f8dbad995cd)
 
 
 Part B
-
 **Are there things that seemed better on paper than acted out?**
 No.
-
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 No.
-
-Part F. Record
-
-**Take a video of your prototyped interaction.**
-
-
-# Ex.2 Price-calculating light
-Part A.
-
-Setting: In a grocery store
-
-Players: A customer shopping in the store with a shopping cart
-
-Activity: The customer sets a total amount of money he/she wants to keep the purchase under. As he/she puts an item into the cart, the price-calculating light will start adding up the prices and reflect the total amount to its color. After the amount exceeds the set goal, the light will turn red and vibrate intensely.
-
-Goals: Help shoppers to stay rational by keeping track of their purchase amount so that they can adjust item selection in real-time
-
-**Include pictures of your storyboards here**
-![Slide 16_9 - 5](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/18e82323-819c-46f0-beca-496f0ff529f9)
-
-
-
-Part B
-
-**Are there things that seemed better on paper than acted out?**
-No.
-
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
-No.
-
 Part F. Record
 **Take a video of your prototyped interaction.**
 
 
-# Ex.3 Distraction preventive timer
-Part A.
+
+https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/afed3a01-6abb-49b8-b2d8-91a0502d5119
 
 
-Setting: Users are expected to set up the light cubes in their study environment. 
 
-Players: A user that needs to study/work
-
-Activity: The user inputs their target focus time and pats the cube light to start the timer which is the light itself.  The light will visualize the procession of time and display special effects after accomplishment. It also detects distraction behaviors of the user and gives warning by vibration/changing light color to red.
-
-Goals: The goal of the user is to keep focus on their tasks for a duration of time
-
+## Ex.2 Price-calculating light
+Part A.<br />
+Setting: In a grocery store<br />
+Players: A customer shopping in the store with a shopping cart<br />
+Activity: The customer sets a total amount of money he/she wants to keep the purchase under. As he/she puts an item into the cart, the price-calculating light will start adding up the prices and reflect the total amount to its color. After the amount exceeds the set goal, the light will turn red and vibrate intensely.<br />
+Goals: Help shoppers to stay rational by keeping track of their purchase amount so that they can adjust item selection in real-time<br />
 **Include pictures of your storyboards here**
+![Slide 16_9 - 5](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/a01b5606-57fe-4a20-8c9d-5ba67613bbbb)
 
-![Slide 16_9 - 1](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/cc9c2dc0-0d98-4a49-ae3d-0bf819f28d26)
 
 Part B
-
 **Are there things that seemed better on paper than acted out?**
 No.
-
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 No.
+Part F. Record
+**Take a video of your prototyped interaction.**
 
+
+https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/a692f021-954e-46ca-87e9-885cd794c089
+
+
+
+## Ex.3 Distraction preventive timer
+Part A.<br />
+Setting: Users are expected to set up the light cubes in their study environment.<br /> 
+Players: A user that needs to study/work<br />
+Activity: The user inputs their target focus time and pats the cube light to start the timer which is the light itself.  The light will visualize the procession of time and display special effects after accomplishment. It also detects distraction behaviors of the user and gives warning by vibration/changing light color to red.<br />
+Goals: The goal of the user is to keep focus on their tasks for a duration of time<br />
+**Include pictures of your storyboards here**
+![Slide 16_9 - 1 (1)](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/84ea8f62-da60-47ce-9028-3e2540d7e052)
+
+
+Part B
+**Are there things that seemed better on paper than acted out?**
+No.
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+No.
 Part F. Record
 **Take a video of your prototyped interaction.*
 
 
-# Ex.4 Ubiquitous direction-guidance
-Part A.
 
-Setting: Along park pavements there installed a great number of direction-guiding devices
+https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/19cc1552-46fb-4dc4-9cb6-d1254a65af98
 
-Players: An old man who doesn’t use cell phones and need directions to a destination
 
-Activity: The old man walks to a device along the pavement and speaks out the destination he wants to get to. The device will confirm his input and then send signals to other devices along the path suggested for the man. The devices along the path will light up.
-
-Goals: Give people visual guides in the real world to the place they want to reach.
-
+## Ex.4 Ubiquitous direction-guidance
+Part A.<br />
+Setting: Along park pavements there installed a great number of direction-guiding devices<br />
+Players: An old man who doesn’t use cell phones and need directions to a destination<br />
+Activity: The old man walks to a device along the pavement and speaks out the destination he wants to get to. The device will confirm his input and then send signals to other devices along the path suggested for the man. The devices along the path will light up.<br />
+Goals: Give people visual guides in the real world to the place they want to reach.<br />
 **Include pictures of your storyboards here**
-
-![Slide 16_9 - 3](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/8a1d543e-6509-46ac-8d0f-dc59bbbe9e7e)
+![Slide 16_9 - 3](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/f2271520-4e6b-4028-ae13-03339c666e66)
 
 
 Part B
-
 **Are there things that seemed better on paper than acted out?**
 No.
-
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 No.
 
-Part F. Record
 
-**Take a video of your prototyped interaction.**
-
-
-# Ex.5 To-do list tracker
-Part A.
-
-Setting: In a study room 
-
-Players: A student
-
-Activity: The student writes up a to-do list and assigns each to-do item to a section of her to-do light board. Every time she finishes a task, she presses that corresponding section to turn the light off. 
-
-Goals: Give people a visualization of their working progress and motivations to keep working.
-
+## Ex.5 To-do list tracker
+Part A.<br />
+Setting: In a study room<br />
+Players: A student<br />
+Activity: The student writes up a to-do list and assigns each to-do item to a section of her to-do light board. Every time she finishes a task, she presses that corresponding section to turn the light off.<br />
+Goals: Give people a visualization of their working progress and motivations to keep working.<br />
 **Include pictures of your storyboards here**
-
-![Slide 16_9 - 2](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/4b61aec3-9255-4791-99ec-769de737ed03)
-
+![Slide 16_9 - 2](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/15af5163-91bd-4508-abda-5ee2dea21dc6)
 
 
 Part B
-
 **Are there things that seemed better on paper than acted out?**
 No.
-
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 No.
 
-Part F. Record
-
-**Take a video of your prototyped interaction.**
-
-
-
-
-
-
-# Ex.6 Severe weather alert
-Part A.
-
-Setting: A bridge crossing a river. Many people live near the bridge or commute through the bridge.  
-
-Players: Cars driving along the bridge and residents on the banks.
-
-Activity: The severe-weather alert lights are installed along the bridge and the banks. The lights are connected to the city forecast station which sends signals whenever a severe weather condition is forecast to occur. 
-
-Goals: Alert nearby people to evacuate when extreme weathers come.
-
+## Ex.6 Severe weather alert
+Part A.<br />
+Setting: A bridge crossing a river. Many people live near the bridge or commute through the bridge.<br />
+Players: Cars driving along the bridge and residents on the banks.<br />
+Activity: The severe-weather alert lights are installed along the bridge and the banks. The lights are connected to the city forecast station which sends signals whenever a severe weather condition is forecast to occur.<br />
+Goals: Alert nearby people to evacuate when extreme weathers come.<br />
 **Include pictures of your storyboards here**
-
-![Slide 16_9 - 4](https://github.com/bjyxszd9595/Interactive-Lab-Hub/assets/94352900/82521018-57e9-4877-b120-523c816fe55c)
+![Slide 16_9 - 4 (1)](https://github.com/jamiewang76/Interactive-Lab-Hub/assets/57398429/4a0353cf-cbc4-4fb8-881d-de0799da74ab)
 
 
 Part B
-
 **Are there things that seemed better on paper than acted out?**
 No.
-
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 No.
 
-Part F. Record
 
-**Take a video of your prototyped interaction.**
-
-
-**Please indicate anyone you collaborated with on this Lab.** 
+**Please indicate anyone you collaborated with on this Lab.** <br />
+Jamie Wang zw448<br />Yiming Sheng ys2262<br />Yunfei Jiao yj497
 
