@@ -167,7 +167,7 @@ William: think about power (how do you charge). Also, think about is it always o
 2) **Wizarding the device:** instead of using mobile phone as a controller, I used a Nintendo Switch as the inspiration to my prototype controller. (It has the Animal Crossing characters on it!! So still has the "companionship" flavor. In Lab 1.a this role was played by Rabbit Cony.)
    - <img src="images/Device.png" width="400">
    - <img src="images/Wizard.jpg" width="400">
-3) **Two more to share!**
+3) **Have more to share!**
    - **Pomodoro  🍅:** users can start a "pomodoro" session (which cannot be stopped manually) by clicking on the "R" button on the top of the controller.
    - <img src="images/Promodoro.png" width="200">
    - **Color Panel 🎨:** similar as in Lab1.a, this is the main input from users, where they will choose "the color of the moment" that describes their desired internal state (mood). For example, when I am reading something relaxing before going to bed, I wish to have a "peaceful" state of mind and I feel yellow light matches and helps me to reach that state. The **two dimensions of the color scheme** are 1) brightness v.s. darkness (vertical) and 2)cold v.s. warm (horizontal).
@@ -178,7 +178,7 @@ William: think about power (how do you charge). Also, think about is it always o
    - <img src="images/Interaction_.png" width="400">
    - <img src="images/DJBots_.png" width="400">
 4) 
-   [Interaction Video]()
+   [Interaction Video](https://drive.google.com/file/d/1f672Ei5LF2oIEUhsAoy6DlMT07WY05V5/view?usp=drive_link)
 5) Futurework:
    - (A lot...)
    
