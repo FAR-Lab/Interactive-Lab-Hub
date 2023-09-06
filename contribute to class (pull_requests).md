@@ -72,9 +72,3 @@ If you find an issue in the course content or have suggestions for improvement, 
 ### 6. **Wait for Review**
 - The repository maintainers will review your pull request.
 - They might ask for changes or improvements. Make sure to keep an eye on the pull request for any comments or requests.
-
-
-![image](https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/24c616e2-09cd-4513-a029-b5da242ffe9e)
-![image](https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/8ac58b2d-d173-49eb-a112-5914aee42840)
-![image](https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/f908a384-0f4a-4456-88cf-57d3500cfe48)
-![image](https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/6d5ad1b7-02bb-48e6-8d8e-7c7fca90e8a4)
