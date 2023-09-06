@@ -158,11 +158,18 @@ William: think about power (how do you charge). Also, think about is it always o
 
 
 
-## Make it your own
+## Make it my own
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
+
+1) Comparison with Lab 1.a:
+   - Similar idea! Make your everyday environment more "wellness-friendly".
+   - Goal: intelligently match the ambient light and music (if the user chooses to have) with the user's desired mental state, which helps productivity or simply relaxing.
+2) Wizarding the device: instead of using mobile phone as a controller, I used a Nintendo Switch as the inspiration to my prototype controller. 
+3) Two more!
+   - Pomodoro  🍅： users can start a "pomodoro" session (which cannot be stopped manually) by clicking on the "R" button on the top of the controller.
+   - DJBots: "Ambient" music shouldn't only have a "main" music source (i.e. songs or melodies) but also should include other "white noises" that come from different corners of your space.
+   - More on the DJBots: users are given a set of 3 sound sources: the Main, Ambient No.1, and Ambient No2. Once the "mood" is set and the user chooses to have her music on, DJBots move to their target position and play their respective sound source.
+4) [Interaction Video]()
+
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
