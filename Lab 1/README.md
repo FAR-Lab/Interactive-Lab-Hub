@@ -217,6 +217,7 @@ A suitcase with display
 
 Self bike lane
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_selfbikelane.png)
+[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_2_thumnail.png)](https://youtu.be/braN4uWUSXQ)
 
 
 
