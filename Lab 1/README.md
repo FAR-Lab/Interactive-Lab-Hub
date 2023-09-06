@@ -205,7 +205,7 @@ Do last week’s assignment again, but this time:
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_main.jpg)
 [![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_1_thumnail.png)](https://youtu.be/zVVS7HgXzTs)
 
-### Podhole Detector
+### Pothole Detector
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_podhole_detector.png)
 
 ### Projector Navi
