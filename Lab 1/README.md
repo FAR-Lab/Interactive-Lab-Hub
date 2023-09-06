@@ -198,24 +198,24 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-\*\***My new storyboards**\*\*
+\*\***My new storyboards and videos**\*\*
 
-Fixed idea from week#1
+### Fixed idea from week#1
 
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_main.jpg)
 [![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_1_thumnail.png)](https://youtu.be/zVVS7HgXzTs)
 
-Podhole Detector
+### Podhole Detector
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_podhole_detector.png)
 
-Projector Navi
+### Projector Navi
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_projecternavi.png)
 
-A suitcase with display
+### A suitcase with display
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_suitcasewithdisplay.png)
 [![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_2_thumnail.png)](https://youtu.be/soBSpHTS1mI)
 
-Self bike lane
+### Self bike lane
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_selfbikelane.png)
 [![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD#2_3.png)](https://youtu.be/braN4uWUSXQ)
 
