@@ -217,7 +217,7 @@ Do last week’s assignment again, but this time:
 
 ### Self bike lane
 ![plot](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/Storyboard_selfbikelane.png)
-[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD#2_3.png)](https://youtu.be/braN4uWUSXQ)
+[![IMAGE ALT TEXT](https://github.com/rye-m/Interactive-Lab-Hub/blob/Fall2023/Lab%201/IDD%232_3_.png)](https://youtu.be/braN4uWUSXQ)
 
 
 
