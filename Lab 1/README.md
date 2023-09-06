@@ -161,15 +161,34 @@ William: think about power (how do you charge). Also, think about is it always o
 ## Make it my own
 
 
-1) Comparison with Lab 1.a:
+1) **Compare with Lab 1.a:**
    - Similar idea! Make your everyday environment more "wellness-friendly".
-   - Goal: intelligently match the ambient light and music (if the user chooses to have) with the user's desired mental state, which helps productivity or simply relaxing.
-2) Wizarding the device: instead of using mobile phone as a controller, I used a Nintendo Switch as the inspiration to my prototype controller. 
-3) Two more!
-   - Pomodoro  🍅： users can start a "pomodoro" session (which cannot be stopped manually) by clicking on the "R" button on the top of the controller.
-   - DJBots: "Ambient" music shouldn't only have a "main" music source (i.e. songs or melodies) but also should include other "white noises" that come from different corners of your space.
-   - More on the DJBots: users are given a set of 3 sound sources: the Main, Ambient No.1, and Ambient No2. Once the "mood" is set and the user chooses to have her music on, DJBots move to their target position and play their respective sound source.
-4) [Interaction Video]()
+   - Goal: intelligently match the ambient light and music (if the user chooses to have) with the user's desired mental state, which helps **productivity as well as relaxing**.
+2) **Wizarding the device:** instead of using mobile phone as a controller, I used a Nintendo Switch as the inspiration to my prototype controller. (It has the Animal Crossing characters on it!! So still has the "companionship" flavor. In Lab 1.a this role was played by Rabbit Cony.)
+   - <img src="images/Device.png" width="400">
+   - <img src="images/Wizard.jpg" width="400">
+3) **Two more to share!**
+   - **Pomodoro  🍅:** users can start a "pomodoro" session (which cannot be stopped manually) by clicking on the "R" button on the top of the controller.
+   - <img src="images/Promodoro.png" width="200">
+   - **Color Panel 🎨:** similar as in Lab1.a, this is the main input from users, where they will choose "the color of the moment" that describes their desired internal state (mood). For example, when I am reading something relaxing before going to bed, I wish to have a "peaceful" state of mind and I feel yellow light matches and helps me to reach that state. The **two dimensions of the color scheme** are 1) brightness v.s. darkness (vertical) and 2)cold v.s. warm (horizontal).
+   - <img src="images/Colorpanel_.png" width="400">
+   - **DJBots 🎵:** "Ambient" music shouldn't only have the "main" music source (i.e. songs or melodies) but also the other "white noises" that come from different corners of your space. For example, from the direction of the window, the user can hear sound of snow, and there's a sound of fireplace from the baseboard of your wall.
+   - More on the DJBots: users are given a set of 3 sound sources: **the Main, Ambient No.1, and Ambient No2**. The static Main will play the melody song. And the moving "DJBots" has **two main functions**: 1) once the "mood" is set and the user chooses to have her music on, DJBots navigate to their target destination and 2) play their respective sound sources. (e.g. Ambient No.1 moves to the window and play the "snow" sound, while Ambient No.2 moves to a corner and play the "fireplace" sound). Altogether, they **collaboratively** create a "cozy" environment. They also has **one "nice-to-have"**: display the corresponding sound source. (e.g. animation of fireplace).
+   - <img src="images/Floor1.png" width="400">
+   - <img src="images/Interaction_.png" width="400">
+   - <img src="images/DJBots_.png" width="400">
+4) 
+   [Interaction Video]()
+5) Futurework:
+   - (A lot...)
+   
+   - **Match visual perception with internal state (mood, etc.)**
+   - It's highly subjective and individualized when it comes to people's imagniary image about a certain state of their mood. Example assumption could be "warm yellow light are cozy and relaxing" or "cold color like blue makes you more concentrated on your task". But that varies across individuals.
+   - **Match listening experience with internal state**
+   - Similar challenges apply when it comes to music recommendation. To make the DJBots create a good listening experience, they will need to 1) select the right piece of melody and 2) find the matching white noises. And the quality of choices also highly depend on individual flavor. However, this doesn't mean there's no generalization. My intuition is to look into research in the affective computing or recommender systems to see their promising algorithms.
+   - **Modularized and adaptive tangible UI** 
+   - How can the moving blocks with straightforward functions provide individualized experience for the users? How are they going to navigate the space (with a known scope)?
+   - **Ambient Light:** need to actually get to change the light color.
 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
