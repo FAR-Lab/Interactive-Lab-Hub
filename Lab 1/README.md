@@ -196,12 +196,141 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+1. Thomas: Clear interaction, better colour to alert the person for over watering.
+If there are lots of plants around, we need a better way to analyzd multiple plants, like through an app.
+
+2. Julia lin: I like the idea of a fridge food indicator. It is useful to know whether the food is expired or not. Also, the plant status indicator is cool, and the video is awesome. A little advice is maybe this device can try to add more than 3 statuses.
+
+3. Neelraj: Really unique idea with a cool usage of the phone as the "sensor" I think that the costuming could have been a bit better. I think that the usage of light is very clear, but could be a little more creative.
 
 ## Make it your own
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
-
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+## Part A. Plan 
+
+\*\***Describe your setting, players, activity and goals here.**\*\*
+### <u>1. CrispSense (enhanced): AR powered food freshness label</u>
+![storyboard1](https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/ccd96ea4-3072-46de-b702-6744299f171c)
+
+<b>Setting:</b> The user opens a refrigerator in a kitchen to see what ingredients they have for cooking their next meal.
+
+<b>Players:</b> The refrigerator and the user
+
+<b>Activity:</b> The user opens the refrigerator and scans through the food through their phone camera. The user's phone automatically puts augmented reality labels on the food items that make it easy to tell apart fresh food from stale food, and those foods about to expire. 
+
+<b>Goals:</b> To easily tell apart good food from those about to expire for optimum usage of food resources.
+
+### <u>2. Fortune Teller Robot</u>
+![storyboard2](https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/277fdcdb-548d-403a-b086-b187c198b2bf)
+
+<b>Setting:</b> Even though fortune-tellings are not real, people still seek them as either a way to comfort themselves or self-entertainment. The setting for this interaction will be when someone is seeking “inspiration” from a fortune-telling bot. 
+
+<b>Players:</b> The user, and a small bot. 
+
+<b>Activity:</b> The interaction starts when the user asks a question, the bot will respond by acting out the response or display a meaningful text. 
+
+<b>Goals:</b> To easily tell apart good food from those about to expire for optimum usage of food resources.
+
+### <u>3. PanicParrot: The emergency escape guide</u>
+<img width="1526" alt="storyboard3" src="https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/3315683c-c709-49b8-aa84-68c4b9bf7491">
+
+<b>Setting:</b> The interaction happens during an (fire) emergency. The user is trapped and is trying to escape.
+
+<b>Players:</b> The fire alarm, the Panic Parrot Device, and the person who is trying to escape.
+
+<b>Activity:</b> The device will sound the alarm and guide the user away from danger. As the user moves away from the source of fire, the alarm will gradually decrease to show signs of safety.
+
+<b>Goals:</b> The goal of this interaction is to make the user aware of its surrounding dangers in an intuitive, easy to understand way. While providing clear guidance to safety.
+
+### <u>4. Cat language translator </u>
+![storyboard4](https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/10e17db5-6992-42d5-ada4-55b1738dfed3)
+
+
+<b>Setting:</b>The interaction is happening in a person’s home. 
+
+<b>Players:</b>The cat and the homeowner
+
+<b>Activity:</b>The purpose of this activity is to allow the homeowner to better understand what their cat is saying. In an ideal world, both cats and humans would be speaking the same language, however in this reality there is a very obvious communication gap and we need such a translator gadget to understand our pets. When the cat speaks, this wearable device picks up the audio and then runs a translator, which then flashes the english (or another human language) translation on the screen, as well as playing the audio version of the thing that the cat said.
+
+<b>Goals:</b>The goal is to better communicate the cat’s needs to its owner. If it needs food or the bathroom, this translator will let the owner know.
+
+
+### <u>5. Turtle-detector</u>
+![storyboard5](https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/6d26f371-8178-47e8-aa26-bce1c4073593)
+
+<b>Setting:</b>The interaction is happening in the shallow sea near the beach. 
+
+<b>Players:</b>The endangered turtles, ships that are trying to dock on the harbor on the beach, the people on the beach.
+
+<b>Activity:</b>There are certain species of turtles that are endangered and as such, governments around the world have invested in measures to ensure that no human activity can endanger the turtles during nesting season. In the sea near the beach there exists a buoy tied to a giant underwater motion sensor chain that silently waits to detect the arrival of the turtles. By default the buoy has a giant LED flag that is colored green and a speaker system that is silent, to indicate to everyone near the beach that the coast is clear to resume all human activity (ships coming into harbor, people on the beach). As soon as these endangered turtles pass the barrier, the buoy sensor turns the LED flag light to red and blares a warning sound out into the entire lagoon to indicate that the turtles have arrived. That way no ships or humans will interfere with the turtles while they lay their eggs. As soon as the turtles turn back, the light turns back to green again.
+
+<b>Goals:</b> The goal is to make it safer for the turtles to lay their eggs and produce more offspring since their population is endangered.
+
+
+### <u>6. Wake-up-for-sure Bed: No more lazy mornings!</u>
+<img width="1451" alt="storyboard6" src="https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/23e4cf75-f1f1-4316-829e-83f262ee07bb">
+
+<b>Setting:</b> Its 7AM, a bright sunny monday morning and the user is sleeping on the bed.
+
+<b>Players:</b> The user, and the wake-up-for-sure bed. 
+
+<b>Activity:</b> Its a lazy monday morning and the user refuses to wake up. But the wake-up-for-sure bed starts vibrating and shaking with an annoying alarm that makes it impossible for the user to sleep. The user is forced to wake up and start a productive day ahead.
+
+<b>Goals:</b> To make the user wake up on time and start a productive day ahead.
+
+### <u>7. SoundGlow: Hear with Your Eyes: Illuminate Your World!</u>
+![storyboard7](https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/23abe9cb-bd8c-404a-b120-f509f190b6c4)
+
+<b>Setting:</b> A hearing impaired user holding is SoundGlow device in a concert/ and later a library.
+
+<b>Players:</b> The user, the soundGlow device, and the environment. 
+
+<b>Activity:</b> The user walks around with his/her SoundGlow device in a concert and it starts to glow in different colors while following the rythm of the music. It allows the user to see and feel music as colors. Later the user walks into a library and the device starts to glow in a dim grayish color to indicate that the environment is quiet.
+
+<b>Goals:</b> To allow a hearing impaired user to visualise sounds through colors.
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+
+When we did the crispsense enhance version, the acting just makes more sense since while acting we are thinking about informations relevant to the items we are holding. This gives us a better clue on what the final product is going to look and feel like. 
+We acted out an immersive wake up experience which helped us to measure the effectiveness of the device. 
+
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+For ideas on assistive technology on visual or hearing impaired people, we learned that extra sensory input such as vibration, sound or light (respective to each disability) are important to compensate for the loss of hearing or vision. 
+
+For CrispSense enhanced version, we learned that large and obvious text are needed in an Augmented Reality experience, And any visual element needs to appear at the convenient location, hinting the object-text relationship. 
+
+## Part C. Prototype the device
+We prototyped the CrispSense interaction a software tool called reality composer.
+(see video in Part F)
+
+## Part E. Costume the device
+
+\*\***Include sketches of what your devices might look like here.**\*\*
+![IMG_3819](https://github.com/Monacrylic/Interactive-Lab-Hub/assets/44057927/95855ae1-972c-48e5-9def-9da275ddee15)
+
+
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+We wanted the CrispSense device to visually neat, and show all the text in clear legible text. We also wanted the text to move along with the object, so the user would be able to categorize food on the go.
+
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+[![CrispSense (enhanced) Demo](https://img.youtube.com/vi/PEbXGXp2Gho/0.jpg)](https://www.youtube.com/watch?v=PEbXGXp2Gho)
+
+https://youtu.be/PEbXGXp2Gho
+
+[![Wake up for sure bed](https://img.youtube.com/vi/09Eour2aSHk/0.jpg)](https://www.youtube.com/watch?v=09Eour2aSHk
+)
+
+https://youtu.be/09Eour2aSHk
