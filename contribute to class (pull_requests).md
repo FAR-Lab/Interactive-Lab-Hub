@@ -17,7 +17,7 @@ If you find an issue in the course content or have suggestions for improvement, 
 ### 3. **Create a Pull Request**
 - After committing your changes, go to the main page of your forked repository.
 - Click on the "Pull request" tab, then click the "New pull request" button.
-    <img width="294" alt="Screenshot 2023-09-06 185503" src="https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/af7d7b6d-9474-4c54-932f-51a23484648f">
+- <img width="294" alt="Screenshot 2023-09-06 185503" src="https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/af7d7b6d-9474-4c54-932f-51a23484648f">
 - Ensure that the base fork points to the main repository and the head fork points to your forked repository.
 - Review your changes and click on the "Create pull request" button.
 - Add a descriptive title and explain the changes you made in the description box.
