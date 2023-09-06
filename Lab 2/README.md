@@ -35,6 +35,9 @@ Before the start of lab Thursday, [pull changes from the Interactive Lab Hub](ht
   ```
   Your local and remote should now be up to date with the most recent files.
 
+The new GitHub.com UI makes this step easy from the webbrowser:
+![image](https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/91d0fbc8-2eba-401f-a5a7-66640910cb62)
+
 
 2. ### Get Kit and Inventory Parts
 Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing:
