@@ -1,4 +1,3 @@
-
 # Staging Interaction
 
 
@@ -44,6 +43,8 @@ This README.md page in your own repository should be edited to include the work 
 ## Lab Overview
 For this assignment, you are going to:
 
+Lab 1a:
+
 A) [Plan](#part-a-plan) 
 
 B) [Act out the interaction](#part-b-act-out-the-interaction) 
@@ -55,6 +56,24 @@ D) [Wizard the device](#part-d-wizard-the-device)
 E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
+
+Lab 1b:
+
+[Staging Interaction](#staging-interaction-part-2)
+
+A) [Plan 1b](#part-a-plan-1b) 
+
+B) [Act out the interaction 1b](#part-b-act-out-the-interaction-1b)
+
+C) [Prototype the device](#part-c-prototype-the-device-1b)
+
+D) [Wizard the device](#part-d-wizard-the-device-1b) 
+
+E) [Costume the device](#part-e-costume-the-device-1b)
+
+F) [Record the interaction](#part-f-record-1b)
+
+
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
@@ -84,9 +103,11 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
+
 ![1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/43d09269-bb73-43a1-89d4-172675aba357)
 
 ![2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/d3732ba6-e725-4582-a2fa-e03845578bbd)
+
 
 
 
@@ -177,9 +198,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-One big concern is making sure the device looks nice sitting next to a bed. A clean and calming environment is crucial to good sleep, and the design of the device should reflect that. Also, a device that fits in well is more likely to be kept out and actually used.
-
-### We want to make the look of our device appealing to any user and friendly looking
+### One big concern is making sure the device looks nice sitting next to a bed. A clean and calming environment is crucial to good sleep, and the design of the device should reflect that. Also, a device that fits in well is more likely to be kept out and actually used.”
 
 ## Part F. Record
 
@@ -210,6 +229,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+### In summary, the feedback on the project was generally positive, focusing on various aspects such as the narrative introduction, storyboards, and video demonstrations. Sophie appreciated the engaging narrative and the concept but suggested clarification on the scientific rationale for using dimming light to facilitate sleep. She also recommended considering user customization and specifying the device’s optimal positioning. John Li was impressed by the storyboards and advised adding video previews to the Readme. He also questioned the possibility of integrating calendar reminder functionalities. Qianxin (Carl) Gan praised the clarity of the design illustrations and storyboards, but hoped for more interactions between the users and the devices in future demonstrations. Jamie Wang applauded the storyboards and suggested a feature to detect when the user opens their eyes to adjust the light intensity. Yunfei Jiao commended the video demonstrations and the project’s consideration for accessibility, particularly for hearing-impaired users. Overall, the feedback highlighted the project’s strengths while offering constructive suggestions for improvement.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -218,3 +239,81 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+## Part A. Plan 1b 
+
+### The new device will have three main settings for interaction: The user’s bedroom, outdoors while the user is walking, and in the user’s car. 
+
+### The main player will be the person wearing the device, and the age of this user is an adult who is old enough to drive. The secondary beneficiaries of this device are roommates and neighbors of the user(s) who are not disturbed by an audio alarm, as well as other drivers who are kept safer by the user’s awareness while driving. 
+
+### The main activities of this device are focused on interaction through vibration: waking the user up by vibrating their bed, assisting the user in navigating by vibrating to keep them aware of their current direction, and keeping the user awake during critical tasks through vibration.
+
+
+![1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/a362b448-f5cb-455e-a527-fbe887a14c3d)
+
+![2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/1dba182b-c122-42c7-a85b-a59f0fe12e8f)
+
+![3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e0ef4714-3778-4ad5-a6e3-8f7acd51fd59)
+
+![4](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e0fe8265-c69b-436f-9af2-b556f24a420c)
+
+![5](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/238f300b-03dd-45f7-bdd7-587cc1eaaf17)
+
+![6](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/4e0e32af-e815-41c1-b92d-37972d156dca)
+
+![7](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/d448b3ed-dba7-492c-aac7-c5330ba7c429)
+
+## Part B. Act out the Interaction 1b
+
+**Are there things that seemed better on paper than acted out?** 
+### Nope, pretty much as expected.
+
+**Are there new ideas that occur to you or your collaborators that come up from the acting?** 
+### No, not really.
+
+## Part C. Prototype the device 1b
+
+### Tinkerbelle worked great! We had no issues connecting/using it.
+
+## Part D. Wizard the device 1b
+
+**Include your first attempts at recording the set-up video here.** 
+[https://youtu.be/RPwdmEb-S8Y]
+
+**Show the follow-up work here.** 
+[https://youtu.be/gP4IEmmOoGw]
+
+## Part E. Costume the device 1b
+
+**Include sketches of what your devices might look like here.**
+### 1. Classic alarm clock look
+### 2. Classic compass
+### 3. Vibration symbol
+
+<img width="628" alt="Screen Shot 2023-09-05 at 1 38 11 PM" src="https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/2adcb70e-903f-4a5f-bfd7-58d79f489d16">
+
+**What concerns or opportunities are influencing the way you've designed the device to look?**
+### Since this device is now intended to be worn, wearability was now a bigger concern. We also want to use familiar design concepts to the objects which the functionality of the device is based on, to increase user familiarity.
+
+## Part F. Record 1b
+
+**Take a video of your prototyped interaction.**
+
+### Wake Up interaction:
+
+[https://youtu.be/u13OTQ6izU4]
+
+### Navigation interaction:
+
+[https://youtube.com/watch?v=S5f2tFXtDfs]
+
+### Driving interaction:
+
+[https://www.youtube.com/watch?v=3kGsBaiHUTw]
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+## Yifan Yu (yy2253), Michael Hanlon (mph99), Gloria Hu (rh692), Kenneth Lee (kml343), and Ben Setel (bs836)
