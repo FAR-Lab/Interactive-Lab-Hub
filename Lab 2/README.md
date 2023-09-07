@@ -23,7 +23,7 @@ Before the start of lab Thursday, [pull changes from the Interactive Lab Hub](ht
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Fall2022
+  Interactive-Lab-Hub $ git pull upstream Fall2023
   ```
   
   The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
@@ -34,6 +34,9 @@ Before the start of lab Thursday, [pull changes from the Interactive Lab Hub](ht
   Interactive-Lab-Hub $ git push
   ```
   Your local and remote should now be up to date with the most recent files.
+
+The new GitHub.com UI makes this step easy from the webbrowser:
+![image](https://github.com/FAR-Lab/Interactive-Lab-Hub/assets/90477986/91d0fbc8-2eba-401f-a5a7-66640910cb62)
 
 
 2. ### Get Kit and Inventory Parts
