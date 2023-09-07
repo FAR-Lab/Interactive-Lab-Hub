@@ -1,6 +1,6 @@
 # Parts list inventory
 
-## Parts in the kit by Thursday class Sep. 5th
+## Parts in the kit by Tuesday class Sep. 5th
 
 1 x [Raspberry Pi 4 Model B/8GB](https://www.adafruit.com/product/3775)
 
@@ -10,7 +10,7 @@
 
 1 x [Card Reader](https://www.bhphotovideo.com/c/product/751120-REG/Iogear_GFR204SD_10_in_1_USB_2_0_SD_MicroSD_MMC.html)
 
-1 x [Copper Foil Tape](https://www.amazon.com/Conductive-Shielding-Repellent-Electrical-Grounding/dp/B0741ZRP4W/ref=sr_1_5?dchild=1&keywords=conductive+copper+tape&qid=1628142003&sr=8-5)
+1 x [Copper Foil Tape](https://www.amazon.com/Conductive-Shielding-Repellent-Electrical-Grounding/dp/B0741ZRP4W/ref=sr_1_5?dchild=1&keywords=conductive+copper+tape&qid=1628142003&sr=8-5)[N/A YET]
 
 2 x [Alligator Clips](https://www.amazon.com/WGGE-WG-026-Pieces-Colors-Alligator/dp/B06ZXSCLDH/ref=sr_1_3)
 
