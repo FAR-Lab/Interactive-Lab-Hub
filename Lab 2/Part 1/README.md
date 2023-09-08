@@ -193,7 +193,27 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+Ideas for our clock:
+1. A clock that shows time since the beginning of a year and time until the end of the same year. 
+ ![Screenshot](imageslab2sketch/1.jpg)
 
+3. A clock that shows time depending on the depature and arrivial of ferries in NYC.
+Version 1: Displays ferry on water with time at top.
+ ![Screenshot](imageslab2sketch/2.JPG)
+
+Version 2: Displays ferry moving towards docks.
+ ![Screenshot](imageslab2sketch/3.jpg)
+
+Version 3: Displays map of areas in NYC and shows the routes of ferries. 
+ ![Screenshot](imageslab2sketch/4.jpg)
+ 
+4. A clock that displays day of a cat.
+Version 1: Displays the time since and until the next feeding of the cat.
+ ![Screenshot](imageslab2sketch/5.jpg)
+
+Version 2: Displays the sleeping and fedding time of the cat.
+ ![Screenshot](imageslab2sketch/6.jpg)
+   
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
