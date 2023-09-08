@@ -61,7 +61,7 @@ Storyboard 3: Drink Temperature Detector (Spoon)
 * Activity: Users put the device into the drink they want to have. The device will indicate the temperature of the drink by changing color. It will also alert the user by sound if the drink is too hot to drink directly.
 * Goals: Help users know the temperature of the drink, so the user doesn’t get burnt and knows when to reheat the drink if it is too cold just by looking. 
 
-![](./Untitled_Artwork 2.jpg)
+![](./Untitled_Artwork%202.jpg)
 
 Storyboard 4: Magic Umbrella
 * Setting: Sunny days / Rainy Days
@@ -69,7 +69,7 @@ Storyboard 4: Magic Umbrella
 * Activity:  On sunny days, it indicates the UV level by its color, the higher the UV value, the darker the color of the umbrella to absorb UV rays more effectively. On rainy days, it becomes transparent.
 * Goals: Provide convenience for people whether in rainy day or sunny days
 
-![](./Untitled_Artwork 3.jpg)
+![](./Untitled_Artwork%203.jpg)
 
 Storyboard 5: Interactive Shadow Puppet Show
 * Setting: Bedroom at bedtime
@@ -85,7 +85,7 @@ Storyboard 6: Dog Collar Translator Device
 * Activity: A dog feels many things. It may feel hungry, it may feel thirsty, it may want to go on a walk. Depending on the way a dog acts (tries to eat from an empty bowl, tries to drink from an empty bowl, runs at the door, etc) the dog collar will change colors and yell out at the owner what the dog wants.
 * Goals: Let the human know what the dog wants.
 
-![](./unnamed (2).jpg)
+![](./unnamed%20(2).jpg)
 
 Storyboard 7: Pet feeding reminder
 * Setting: Homes of pet owners
@@ -93,7 +93,7 @@ Storyboard 7: Pet feeding reminder
 * Activity: The device can detect the amount of food left in the pet’s water and food bowl. It will change to blue if water is running low, and change to yellow if food is running low. It also plays animal sounds (barking for dog, meow for cat) to alert the pet owner. After the owner adds more food, the device will play the voice of the owner, calling the pet to get food.
 * Goals: To remind owners to feed pets so pets don’t starve.
 
-![](./unnamed (1).jpg)
+![](./unnamed%20(1).jpg)
 
 Storyboard 8: Automatic grocery allocator
 * Setting: Kitchen
@@ -101,7 +101,7 @@ Storyboard 8: Automatic grocery allocator
 * Activity: An actor swipes the item they want to put away and it will tell them where to stock like fridge or pantry or dark space. It will also light red if someone puts an item in the wrong place.
 * Goals: To maximize the shelf life of all the groceries
 
-![](./Untitled_Artwork 4.jpg)
+![](./Untitled_Artwork%204.jpg)
 
 **Summarize feedback you got here.**
 
