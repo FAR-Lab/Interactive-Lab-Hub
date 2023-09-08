@@ -199,7 +199,7 @@ Storyboard 1: Companion Jewelry
 * Activity: One person rubs the ring and the other person’s ring lights up and vibrates. You can send each other “heartbeats” 
 * Goals: To make their partner feel less alone while apart and communicate nonverbally
 
-![](./img/img1.png)
+![](./img/Untitled_Artwork.jpg)
 
 Storyboard 2: Water Quality Detector
 * Setting: Wilderness
