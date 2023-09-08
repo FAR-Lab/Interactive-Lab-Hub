@@ -68,8 +68,6 @@ while True:
     y = top
     draw.text((x,y),strftime("%m/%d/%Y %H:%M:%S"), font=font, end="", flush=True, fill="#FFFFFF")
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
