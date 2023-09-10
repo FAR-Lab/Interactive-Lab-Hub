@@ -198,15 +198,14 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
-Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!)
+
 Ideas for our clock:
 1. A clock that shows time since the beginning of a year and time until the end of the same year. 
+
 <img width="500" height="500" src="imageslab2sketch/1.jpg/">
-
-
    
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
-
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -239,17 +238,23 @@ This clock displays the time since the beginning of a year, and the time until t
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 1. A clock that shows time depending on the depature and arrivial of ferries in NYC.
+
 Version 1: Displays ferry on water with time at top.
+
 <img width="500" src="imageslab2sketch/7.jpg/">
 
 Version 2: Displays ferry moving towards docks.
+
 <img src="imageslab2sketch/3.jpg/">
 
 Version 3: Displays map of areas in NYC and shows the routes of ferries. 
+
 <img width="500" height="500" src="imageslab2sketch/4.jpg/">
  
 2. A clock that displays day of a cat.
+
 Version 1: Displays the time since and until the next feeding of the cat.
+
 <img width="500" height="500" src="imageslab2sketch/5.jpg/">
 
 Version 2: Displays the sleeping and fedding time of the cat.
@@ -259,7 +264,6 @@ Version 2: Displays the sleeping and fedding time of the cat.
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
-  
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
