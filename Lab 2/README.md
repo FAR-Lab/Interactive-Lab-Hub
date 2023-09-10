@@ -239,21 +239,21 @@ This clock displays the time since the beginning of a year, and the time until t
 
 1. A clock that shows time depending on the depature and arrivial of ferries in NYC.
 Version 1: Displays ferry on water with time at top.
-<img width="500" src="images/7.jpg/">
+<img width="500" src="images./7.jpg/">
 
 Version 2: Displays ferry moving towards docks.
-<img src="images/3.jpg/">
+<img src="images./3.jpg/">
 
 Version 3: Displays map of areas in NYC and shows the routes of ferries. 
-<img width="500" height="500" src="images/4.jpg/">
+<img width="500" height="500" src="images./4.jpg/">
  
 2. A clock that displays day of a cat.
 Version 1: Displays the time since and until the next feeding of the cat.
-<img width="500" height="500" src="images/5.jpg/">
+<img width="500" height="500" src="images./5.jpg/">
 
 Version 2: Displays the sleeping and fedding time of the cat.
 
-<img width="500" src="images/6.jpg/">
+<img width="500" src="images./6.jpg/">
 
 # Prep for Part 2
 
