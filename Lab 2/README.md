@@ -200,7 +200,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
 Ideas for our clock:
 1. A clock that shows time since the beginning of a year and time until the end of the same year. 
-<img width="500" height="500" src="images/1.jpg/">
+<img width="500" height="500" src="images./1.jpg/">
 
 
    
