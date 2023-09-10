@@ -1,5 +1,10 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
+Kazim Jafri (khj23)
+Rei Chen (rc884)
+Zixin Li (zl865)
+Rowan Wu (rww99)
+Arystan Tatishev (at855)
 
 Does it feel like time is moving strangely during this semester?
 
@@ -85,12 +90,6 @@ pi@raspberrypi:~ $ source venv/bin/activate
 
 ```
 ### Setup Personal Access Tokens on GitHub
-Set your git name and email so that commits appear under your name.
-```
-git config --global user.name "Your Name"
-git config --global user.email "yourNetID@cornell.edu"
-```
-
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
@@ -125,7 +124,7 @@ We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/pro
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
 
-The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
+The Raspberry Pi 3 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
 <img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
 
@@ -133,7 +132,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 ### Hardware (you have already done this in the prep)
 
-From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
+From your kit take out the display and the [Raspberry Pi 3](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
@@ -199,11 +198,20 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+Ideas for our clock:
+1. A clock that shows time since the beginning of a year and time until the end of the same year. 
+<img width="500" height="500" src="imageslab2sketch/1.jpg/">
 
+
+   
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+
+The name of our code: Lab2.py
+
+Link: https://github.com/zl2877/Interactive-Lab-Hub/blob/Fall2023/Lab%202/Lab2.py
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -221,9 +229,31 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+Our clock: https://youtu.be/aoxyngLTMCs
+
+This clock displays the time since the beginning of a year, and the time until the next year. 
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+1. A clock that shows time depending on the depature and arrivial of ferries in NYC.
+Version 1: Displays ferry on water with time at top.
+<img width="500" src="imageslab2sketch/7.jpg/">
+
+Version 2: Displays ferry moving towards docks.
+<img src="imageslab2sketch/3.jpg/">
+
+Version 3: Displays map of areas in NYC and shows the routes of ferries. 
+<img width="500" height="500" src="imageslab2sketch/4.jpg/">
+ 
+2. A clock that displays day of a cat.
+Version 1: Displays the time since and until the next feeding of the cat.
+<img width="500" height="500" src="imageslab2sketch/5.jpg/">
+
+Version 2: Displays the sleeping and fedding time of the cat.
+
+<img width="500" src="imageslab2sketch/6.jpg/">
 
 # Prep for Part 2
 
