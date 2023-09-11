@@ -209,11 +209,24 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+### Diagram to brainstorm idea
+
+![IdeaDiagram](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/41970a0a-a168-4148-887e-4f08631677b0)
+
+### First Sketch of the mofified barebons PiClock
+
+![FirstSketch](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/16ca8020-64ae-48ee-af44-c21940fcaf65)
+
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+### With my code, I implemented three horizontal bars that represents time. The golden bar symbolizes the hours, the silver bar symbolizes minutes and the copper one symbolizes seconds. In addition to adding three bars that changes as time goes on, I implemented the use of the two buttons on the display. If the top button is pressed, the background turns white and the written time in text turns black. If the bottom one is pressed, then the screen turns red. And lastly, if both buttons are pressed, then the background turns light blue. The video below will show the description I just provided. 
+
+[https://drive.google.com/file/d/1XjMjgLvmMoaEpzAQm_QPulCjKu4YxxJ9/view?usp=sharing]
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
