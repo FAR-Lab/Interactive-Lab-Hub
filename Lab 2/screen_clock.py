@@ -210,30 +210,6 @@ while True:
         # Display the modified images with the time on the screen
         disp.image(display_image_evening, rotation)
     else:  # The default screen
-        # Handle button B press to make current_time text jump up and down
-        if not buttonB.value:
-            current_time_jump = True  # button B is pressed
-
-        # if current_time_jump:
-        #     if jump_counter < 3:  # controlling jump speed 
-        #         current_time_y -= 4  # increase the jump distance
-        #         jump_counter += 1
-        #     elif jump_counter < 6:
-        #         current_time_y += 4
-        #         jump_counter += 1
-        #     else:
-        #         current_time_jump = False
-        #         jump_counter = 0
-        #         current_time_color_change_timer = time.time()  # Start the color change timer
-
-        # Check if it's time to change the "Current Time" text color
-        if current_time_color_change_timer != 0:
-            current_time_color = "#FFFFFF"  # White color
-            if time.time() - current_time_color_change_timer >= 1:  # Change color for 1 second
-                current_time_color = "#f41f1f"  # Default color
-                current_time_color_change_timer = 0
-            else:
-                current_time_color_change_timer = time.time()
 
         # Draw the "Current Time" text with the selected color
         draw_on_image = ImageDraw.Draw(display_image)
@@ -249,8 +225,8 @@ while True:
         if time_difference >= frame_switch_interval:
             try:
                 frame = next(gif_iterator)
-                frame = frame.convert("RGBA").resize((120, 80))
-                display_image.paste(frame, (20, 55), frame)
+                frame = frame.convert("RGBA").resize((150, 100))
+                display_image.paste(frame, (0, 30), frame)
             except StopIteration:
                 gif_iterator = ImageSequence.Iterator(gif_image_dog)
 
