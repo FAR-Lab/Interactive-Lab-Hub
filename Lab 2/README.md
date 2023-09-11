@@ -185,6 +185,11 @@ Option 3. A nowadays often preferred method is to use Microsoft [VS code to remo
 
 Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/latest) you can even setup a VS Code coding environment hosted on your raspberry pi and code through a web browser on your tablet or smartphone! 
 
+### My Finished screen_clock.py
+
+![EditedCode](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/95266537-3c99-4383-b681-7405789a7bb8)
+
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -230,6 +235,11 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+### My Idea: 
+
+![BrainstormingPt2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/7ea5bcf5-998c-4c9d-aed5-73f334b34053)
+
 
 
 # Prep for Part 2
