@@ -65,7 +65,69 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=400)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    current_time = time.strftime("%m/%d/%Y %H:%M:%S")
+    y = top
+    draw.text((x, y), current_time, font=font, fill="#FFFFFF")
 
     # Display image.
+    disp.image(image, rotation)
+    time.sleep(1)
+
+while True:
+    # Draw a black filled box to clear the image.
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    current_time = time.strftime("%m/%d/%Y %H:%M:%S")
+    
+    # Implement a recurring switch function for buttonA (4 cases)
+    if buttonA.value and not buttonB.value:
+        buttonA_current_case = (buttonA_current_case + 1) % 4
+        # Implement your logic for buttonA press here based on buttonA_current_case
+        # Update the text color based on the current case
+        if buttonA_current_case == 0:
+            image = Image.open("red.jpg")
+            # Scale the image to the smaller screen dimension
+            image_ratio = image.width / image.height
+            screen_ratio = width / height
+            if screen_ratio < image_ratio:
+                scaled_width = image.width * height // image.height
+                scaled_height = height
+            else:
+                scaled_width = width
+                scaled_height = image.height * width // image.width
+            image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+
+            # Crop and center the image
+            x = scaled_width // 2 - width // 2
+            y = scaled_height // 2 - height // 2
+            image = image.crop((x, y, x + width, y + height))
+            text_color = "#FF0000"  # Red
+        elif buttonA_current_case == 1:
+            text_color = "#FFFF00"  # Yellow
+        elif buttonA_current_case == 2:
+            text_color = "#0000FF"  # Blue
+        elif buttonA_current_case == 3:
+            text_color = "#FF00FF"  # Magenta
+        # Add your custom functionality for each case here
+
+    # Implement a recurring switch function for buttonB (2 cases)
+    if buttonB.value and not buttonA.value:
+        buttonB_current_case = (buttonB_current_case + 1) % 2
+        
+        # Implement your logic for buttonB press here based on buttonB_current_case
+        # Update the text color bas
+        if buttonB_current_case == 0:
+            text_color = "#00FF00"  # Green
+        elif buttonB_current_case == 1:
+            # Add your custom functionality for this case
+            pass
+
+    # Display image.
+    backlight.value = not (buttonA.value and buttonB.value)  # Turn off backlight when both buttons are pressed
+
+    # Display the current_time with the calculated x, y coordinates
+    y = top
+    draw.text((x, y), current_time, font=font, fill=text_color)
     disp.image(image, rotation)
     time.sleep(1)
