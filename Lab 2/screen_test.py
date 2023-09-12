@@ -1,10 +1,10 @@
 import digitalio
 import board
+import time
 
 from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
 import webcolors
-
 # The display uses a communication protocol called SPI.
 # SPI will not be covered in depth in this course. 
 # you can read more https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/
