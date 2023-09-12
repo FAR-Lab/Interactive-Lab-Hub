@@ -197,7 +197,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **[Photo: Verplank Diagram]**
 
-![](https://hackmd.io/_uploads/Hk6wYrpA3.jpg)
+![IMG_2804](https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/f3dd060a-2c20-4b37-8262-13058c7bff1e)
+
 
 **[Photo: Sketch of the clock idea]**
 
