@@ -202,8 +202,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **[Photo: Sketch of the clock idea]**
 
-![](https://hackmd.io/_uploads/rkTwjH6Rn.png)
-![](https://hackmd.io/_uploads/rJ-_jSpRn.jpg)
+<img width="497" alt="IMG_2803" src="https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/84d3f9be-5808-43a0-8a87-0f06c1de1f60">
+![IMG_2805](https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/1db9cdc5-9477-4753-be0a-1921c35d7cf1)
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
@@ -246,11 +246,11 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 **[Photo: Sketch for Part 2.]**
 
-![](https://hackmd.io/_uploads/S1qG5BTCn.png)
+<img width="502" alt="IMG_2800" src="https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/8a6d32da-19df-4a30-91c3-2d7fa0f75fa9">
 
-![](https://hackmd.io/_uploads/By0McH6Rn.png)
+<img width="517" alt="IMG_2801" src="https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/e936c560-62eb-42f4-b264-0d1b611d2064">
 
-![](https://hackmd.io/_uploads/Bk7QcB6A2.png)
+<img width="500" alt="IMG_2802" src="https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/be39158b-f7ca-4fb6-9326-f608115a5aed">
 
 ### Our future PiClock when..
 
