@@ -201,9 +201,9 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 
 **[Photo: Sketch of the clock idea]**
+<img width="497" alt="IMG_2803" src="https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/9bcbcd6d-2b19-4dfd-a0ef-24b922e219f2">
+![IMG_2805](https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/e9dd43a9-a05f-4098-84a9-70fbaeb5d05d)
 
-<img width="497" alt="IMG_2803" src="https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/84d3f9be-5808-43a0-8a87-0f06c1de1f60">
-![IMG_2805](https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/1db9cdc5-9477-4753-be0a-1921c35d7cf1)
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
