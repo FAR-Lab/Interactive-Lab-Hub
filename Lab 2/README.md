@@ -1,5 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
-**Aris Huang**
+**NAMES OF COLLABORATORS HERE**
+***Aris Huang (th625), Julia Lin (jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Ifeng Wu (iw84)***
 
 Does it feel like time is moving strangely during this semester?
 
@@ -23,7 +24,7 @@ Before the start of lab Thursday, [pull changes from the Interactive Lab Hub](ht
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Fall2023
+  Interactive-Lab-Hub $ git pull upstream Fall2022
   ```
   
   The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
@@ -85,12 +86,6 @@ pi@raspberrypi:~ $ source venv/bin/activate
 
 ```
 ### Setup Personal Access Tokens on GitHub
-Set your git name and email so that commits appear under your name.
-```
-git config --global user.name "Your Name"
-git config --global user.email "yourNetID@cornell.edu"
-```
-
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
@@ -125,7 +120,7 @@ We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/pro
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
 
-The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
+The Raspberry Pi 3 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
 <img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
 
@@ -133,7 +128,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 ### Hardware (you have already done this in the prep)
 
-From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
+From your kit take out the display and the [Raspberry Pi 3](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
@@ -200,6 +195,15 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
 
+**[Photo: Verplank Diagram]**
+
+![](https://hackmd.io/_uploads/Hk6wYrpA3.jpg)
+
+**[Photo: Sketch of the clock idea]**
+
+![](https://hackmd.io/_uploads/rkTwjH6Rn.png)
+![](https://hackmd.io/_uploads/rJ-_jSpRn.jpg)
+
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
@@ -219,12 +223,55 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+### Our current PiClock when..
+
+#### - No button is pressed (default display):
+- A real-time clock will be displayed on the upper-middle of the screen using the SuperMario font.
+- An dog running towards 9 bones. 
+- One bone disappears per second. 
+- All bones reappears every 10 seconds.
+#### - D23 (upper) button is pressed:
+- Displays the date information with an evening background scene.
+#### - D24 (lower) button is pressed:
+- Displays the day of the week with an afternoon background scene.
+
+<br>
+
+\*\*\***Take a video of your PiClock.**\*\*\*  
+**[Video: PiClock demo](https://drive.google.com/file/d/12Ymj5BVq8HbEHQm78JBFS4DtwSplKe8s/view?usp=drive_link)**
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+**[Photo: Sketch for Part 2.]**
 
+![](https://hackmd.io/_uploads/S1qG5BTCn.png)
+
+![](https://hackmd.io/_uploads/By0McH6Rn.png)
+
+![](https://hackmd.io/_uploads/Bk7QcB6A2.png)
+
+### Our future PiClock when..
+
+#### - No button is pressed (default display):
+- A real-time clock will be displayed on the upper-middle of the screen using the SuperMario font.
+- A dog running towards 9 bones. 
+- One bone disappears per second. 
+- All bones reappears every 10 seconds.
+#### - D23 (upper) button is pressed:
+- A running dog 
+- Moving clouds
+- First 12 hours:
+    - A daytime sky view
+    - A light green lawn
+    - Sun slowly sets as daytime passes
+- Second 12 hours:
+    - A nighttime sky view
+    - A dark green lawn
+    - Moon slowly sets as nighttime passes
+
+#### - D24 (lower) button is pressed:
+- Same display as when D23 is pressed but a bone will appear and gradually moves towards the running dog and disappear when it reaches the dog.
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
