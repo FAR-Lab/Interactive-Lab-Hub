@@ -1,6 +1,5 @@
 import digitalio
 import board
-import time
 
 from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
@@ -47,7 +46,6 @@ while not screenColor:
         print("whoops I don't know that one")
 # Main loop:
 while True:
-    time.sleep(0.1) # 添加这一行来减慢更新速度
     if buttonA.value and buttonB.value:
         backlight.value = False  # turn off backlight
     else:
