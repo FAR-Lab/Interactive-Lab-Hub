@@ -1,6 +1,8 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
 
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
@@ -77,20 +79,14 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment (named venv) by typing the following commands.
 
 ```
-ssh pi@<your Pi's IP address>
+ssh johnli@100.110.133.141
 ...
-pi@raspberrypi:~ $ python -m venv venv
-pi@raspberrypi:~ $ source venv/bin/activate
-(venv) pi@raspberrypi:~ $ 
+johnli@johnli:~ $ python -m venv venv
+johnli@johnli:~ $ source venv/bin/activate
+(venv) johnli@johnli:~ $ 
 
 ```
 ### Setup Personal Access Tokens on GitHub
-Set your git name and email so that commits appear under your name.
-```
-git config --global user.name "Your Name"
-git config --global user.email "yourNetID@cornell.edu"
-```
-
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
@@ -101,7 +97,7 @@ Following the steps listed [here](https://docs.github.com/en/github/authenticati
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
 ```
-(venv) pi@raspberrypi:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
+(venv) pi@raspberrypi:~$ git clone https://github.com/zezhili/Interactive-Lab-Hub.git
 (venv) pi@raspberrypi:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
@@ -125,7 +121,7 @@ We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/pro
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
 
-The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
+The Raspberry Pi 3 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
 <img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
 
@@ -133,7 +129,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 ### Hardware (you have already done this in the prep)
 
-From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
+From your kit take out the display and the [Raspberry Pi 3](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
@@ -220,10 +216,17 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+[<img src="https://hackmd.io/_uploads/SJge8rpC2.png">](https://youtu.be/mkWBqAWszes)
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+![](https://hackmd.io/_uploads/ryMNrBTC3.jpg)
+![](https://hackmd.io/_uploads/HkxNrHSaC3.jpg)
+![](https://hackmd.io/_uploads/SyhHHSaAn.jpg)
+It will interact with the external enviroment, the display will change base on the weather.
+![](https://hackmd.io/_uploads/B1-IBBpRn.jpg)
+When you click both buttons it will play the classic music that represent the region.
 
 # Prep for Part 2
 
