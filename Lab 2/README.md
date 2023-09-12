@@ -1,6 +1,8 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
 
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
@@ -77,11 +79,11 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment (named venv) by typing the following commands.
 
 ```
-ssh pi@<your Pi's IP address>
+ssh johnli@100.110.133.141
 ...
-pi@raspberrypi:~ $ python -m venv venv
-pi@raspberrypi:~ $ source venv/bin/activate
-(venv) pi@raspberrypi:~ $ 
+johnli@johnli:~ $ python -m venv venv
+johnli@johnli:~ $ source venv/bin/activate
+(venv) johnli@johnli:~ $ 
 
 ```
 ### Setup Personal Access Tokens on GitHub
@@ -101,7 +103,7 @@ Following the steps listed [here](https://docs.github.com/en/github/authenticati
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
 ```
-(venv) pi@raspberrypi:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
+(venv) pi@raspberrypi:~$ git clone https://github.com/zezhili/Interactive-Lab-Hub.git
 (venv) pi@raspberrypi:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
@@ -220,10 +222,17 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+[<img src="https://hackmd.io/_uploads/SJge8rpC2.png">](https://youtu.be/mkWBqAWszes)
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+![](https://hackmd.io/_uploads/ryMNrBTC3.jpg)
+![](https://hackmd.io/_uploads/HkxNrHSaC3.jpg)
+![](https://hackmd.io/_uploads/SyhHHSaAn.jpg)
+It will interact with the external enviroment, the display will change base on the weather.
+![](https://hackmd.io/_uploads/B1-IBBpRn.jpg)
+When you click both buttons it will play the classic music that represent the region.
 
 # Prep for Part 2
 
@@ -241,5 +250,3 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
-
-
