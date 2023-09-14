@@ -249,6 +249,19 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+
+
+
+### Before beginning with part 2, I would like to post the overall feedback from my cohort about the previous part of Lab 2
+### The overall feedback was the following
+
+### Zack: Unique visual representation of time and good color contrast. Also liked that colors changeable from buttons, but perhaps it should hold the state instead of needing to be held down each time  
+### Benjamin: Thought the bars were cool - would be fun to be able to change their colors too, and maybe like play with the increments they measure (like second bar changes to every 2,5,10 seconds w/e)
+### Gloria:I really like the color of your bars and I love the interaction of changing the backgrounds. It’s clear to understand different button effects and I’m interested in how you implement more features in the future. Nice work! The video demo was very straightforward, too!
+### Kenneth: I really liked the visual representation of having bars to represent time intervals! One thing I would say is the interactions seem pretty simple (changing the background colors based off button clicking)
+### Yifan: I love the time you put into your designs, your sketches are very detailed and I look forward to seeing what you follow up with!
+
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
