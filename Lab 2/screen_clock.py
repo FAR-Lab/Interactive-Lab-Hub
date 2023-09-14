@@ -66,6 +66,34 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
+    # TODO: 在此处绘制一个沙漏
+# 沙漏的参数
+sand_clock_width = 40
+sand_clock_height = 80
+sand_clock_color = (255, 255, 255)
+
+# 计算沙漏的坐标
+sand_clock_x = (width - sand_clock_width) // 2
+sand_clock_y = (height - sand_clock_height) // 2
+
+# 绘制上半部分
+draw.rectangle(
+    [(sand_clock_x, sand_clock_y), (sand_clock_x + sand_clock_width, sand_clock_y + sand_clock_height // 2)],
+    outline=sand_clock_color,
+    fill=sand_clock_color,
+)
+
+# 绘制下半部分
+draw.rectangle(
+    [(sand_clock_x, sand_clock_y + sand_clock_height // 2), (sand_clock_x + sand_clock_width, sand_clock_y + sand_clock_height)],
+    outline=sand_clock_color,
+    fill=sand_clock_color,
+)
+
+# 刷新图像
+disp.image(image, rotation)
+
+    
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
