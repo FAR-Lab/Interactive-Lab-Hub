@@ -42,7 +42,7 @@
 
 1 x [AdafruitI2C GPIO Expander Breakout](https://www.adafruit.com/product/5545)
 
-1 x [EDUP 1080P 2MP Computer Webcam 1080p microphone CMOS 1/2.9" Sensor USB](https://www.alibaba.com/product-detail/EDUP-1080P-2MP-Computer-Webcam-1080p_1600269604427.html)  
+1 x [EDUP 1080P 2MP Computer Webcam 1080p microphone CMOS 1/2.9" Sensor USB](https://www.alibaba.com/product-detail/EDUP-1080P-2MP-Computer-Webcam-1080p_1600269604427.html)  [N/A YET]
 
 
 
