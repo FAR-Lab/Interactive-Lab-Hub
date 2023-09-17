@@ -85,6 +85,12 @@ pi@raspberrypi:~ $ source venv/bin/activate
 
 ```
 ### Setup Personal Access Tokens on GitHub
+Set your git name and email so that commits appear under your name.
+```
+git config --global user.name "Your Name"
+git config --global user.email "yourNetID@cornell.edu"
+```
+
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
@@ -119,7 +125,7 @@ We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/pro
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
 
-The Raspberry Pi 3 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
+The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
 <img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
 
@@ -127,7 +133,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 ### Hardware (you have already done this in the prep)
 
-From your kit take out the display and the [Raspberry Pi 3](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
+From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
@@ -185,6 +191,11 @@ Option 3. A nowadays often preferred method is to use Microsoft [VS code to remo
 
 Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/latest) you can even setup a VS Code coding environment hosted on your raspberry pi and code through a web browser on your tablet or smartphone! 
 
+### My Finished screen_clock.py
+
+![EditedCode](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/95266537-3c99-4383-b681-7405789a7bb8)
+
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -209,14 +220,32 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+### Diagram to brainstorm idea
+
+![IdeaDiagram](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/41970a0a-a168-4148-887e-4f08631677b0)
+
+### First Sketch of the mofified barebons PiClock
+
+![FirstSketch](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/16ca8020-64ae-48ee-af44-c21940fcaf65)
+
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+### With my code, I implemented three horizontal bars that represents time. The golden bar symbolizes the hours, the silver bar symbolizes minutes and the copper one symbolizes seconds. In addition to adding three bars that changes as time goes on, I implemented the use of the two buttons on the display. If the top button is pressed, the background turns white and the written time in text turns black. If the bottom one is pressed, then the screen turns red. And lastly, if both buttons are pressed, then the background turns light blue. The video below will show the description I just provided. 
+
+[https://drive.google.com/file/d/1XjMjgLvmMoaEpzAQm_QPulCjKu4YxxJ9/view?usp=sharing]
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+### My Idea: 
+
+![BrainstormingPt2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/7ea5bcf5-998c-4c9d-aed5-73f334b34053)
+
 
 
 # Prep for Part 2
@@ -225,6 +254,19 @@ After that, Git will ask you to login to your GitHub account to push the updates
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+
+
+
+### Before beginning with part 2, I would like to post the overall feedback from my cohort about the previous part of Lab 2
+### The overall feedback was the following
+
+### Zack: Unique visual representation of time and good color contrast. Also liked that colors changeable from buttons, but perhaps it should hold the state instead of needing to be held down each time  
+### Benjamin: Thought the bars were cool - would be fun to be able to change their colors too, and maybe like play with the increments they measure (like second bar changes to every 2,5,10 seconds w/e)
+### Gloria:I really like the color of your bars and I love the interaction of changing the backgrounds. It’s clear to understand different button effects and I’m interested in how you implement more features in the future. Nice work! The video demo was very straightforward, too!
+### Kenneth: I really liked the visual representation of having bars to represent time intervals! One thing I would say is the interactions seem pretty simple (changing the background colors based off button clicking)
+### Yifan: I love the time you put into your designs, your sketches are very detailed and I look forward to seeing what you follow up with!
+
 
 # Lab 2 Part 2
 
