@@ -64,36 +64,29 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=400)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    #Animation_sparkling
 
-    # TODO: 在此处绘制一个沙漏
-# 沙漏的参数
-sand_clock_width = 40
-sand_clock_height = 80
-sand_clock_color = (255, 255, 255)
-
-# 计算沙漏的坐标
-sand_clock_x = (width - sand_clock_width) // 2
-sand_clock_y = (height - sand_clock_height) // 2
-
-# 绘制上半部分
-draw.rectangle(
-    [(sand_clock_x, sand_clock_y), (sand_clock_x + sand_clock_width, sand_clock_y + sand_clock_height // 2)],
-    outline=sand_clock_color,
-    fill=sand_clock_color,
-)
-
-# 绘制下半部分
-draw.rectangle(
-    [(sand_clock_x, sand_clock_y + sand_clock_height // 2), (sand_clock_x + sand_clock_width, sand_clock_y + sand_clock_height)],
-    outline=sand_clock_color,
-    fill=sand_clock_color,
-)
-
-# 刷新图像
-disp.image(image, rotation)
-
+while True:
+    # Draw a black filled box to clear the image.
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
-    # Display image.
+    # Draw several diamonds with random colors and positions
+    for _ in range(10):
+        # Generate random coordinates for the diamond
+        x = randint(0, width - 20)
+        y = randint(0, height - 20)
+        
+        # Generate a random color
+        color = (randint(0, 255), randint(0, 255), randint(0, 255))
+        
+        # Draw a diamond shape
+        draw.polygon([
+            (x+10, y),
+            (x, y+10),
+            (x+10, y+20),
+            (x+20, y+10)
+        ], fill=color, outline="white")
+
+    # Display image
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.1) # Adjust the sleep time to control the speed of the animation
