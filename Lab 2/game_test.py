@@ -69,6 +69,7 @@ x = 0
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 # font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 50)
 font = ImageFont.truetype("digital-dream/DIGITALDREAMNARROW.ttf", 40)
+score_font = ImageFont.truetype("digital-dream/DIGITALDREAMNARROW.ttf", 17)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -198,7 +199,7 @@ while True:
 
     # Draw the score on the screen
     score_text = f"Score: {score}"
-    draw.text((10, 10), score_text, font=font, fill="#FFFFFF")
+    draw.text((10, 10), score_text, font=score_font, fill="#FFFFFF")
 
     # Static mode controls
     if game_mode == 2:
