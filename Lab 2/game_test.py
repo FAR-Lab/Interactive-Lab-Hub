@@ -47,6 +47,9 @@ width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 
+#add score System
+score = 0
+
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
 
@@ -187,6 +190,15 @@ def drawRect(body,o_width,o_height,color):
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill="#000000")
+
+    # Update score based on some condition (to be defined in coordination with your teammate)
+    # For example:
+    # if some_condition_met: # Replace `some_condition_met` with the actual condition
+    #     score += 1
+
+    # Draw the score on the screen
+    score_text = f"Score: {score}"
+    draw.text((10, 10), score_text, font=font, fill="#FFFFFF")
 
     # Static mode controls
     if game_mode == 2:
