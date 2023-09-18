@@ -146,5 +146,5 @@ while True:
         time.sleep(0.5)
     pre_sec = cur_sec
     
-    time.sleep(0.001)
+    time.sleep(0.1)
 
