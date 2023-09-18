@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont, ImageSequence
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
+from datetime import datetime
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -68,83 +69,74 @@ buttonA.switch_to_input()
 buttonB.switch_to_input()
 
 # Images
-white_background_image = Image.open("images/white.jpg")
-white_background_image = white_background_image.resize((width,height))
-evening_image = Image.open("images/evening.jpg")
-evening_image = evening_image.resize((width, height))
-afternoon_image = Image.open("images/afternoon.jpg")
-afternoon_image = afternoon_image.resize((width, height)) 
-dog_bone_image = Image.open("images/dog_bones.png").convert("RGBA").resize((40, 30))
-# dog_bone_image = white_background_image.resize((30,20))
-yum_image = Image.open("images/yum.png").convert("RGBA").resize((40, 30))
-# for iterating through
-background_arr = [white_background_image,evening_image]
+day_image = Image.open("images/day_background.jpg")
+day_image = day_image.resize((width,height))
+night_image = Image.open("images/night_background.jpg")
+night_image = night_image.resize((width, height))
+bg_arr = [day_image, night_image]
 
 # Gifs
-dog_gif = Image.open("gifs/new_dog_compressed.gif")
+dog_gif = Image.open("gifs/new_dog.gif")
 dog_gif_iter = ImageSequence.Iterator(dog_gif)
-bones_gif = Image.open("gifs/bones.gif")
-bones_gif_iter = ImageSequence.Iterator(bones_gif)
+bone_img = Image.open("images/dog_bone.png").convert("RGBA").resize((40, 30))
+yum_img = Image.open("images/yum.png").convert("RGBA").resize((80, 50))
 
 # Inital frames
 dog_frame = dog_gif_iter
-bone_frame = bones_gif_iter
+# bone_frame = bones_gif_iter
+
+# Status
+bone_triggered = False
+bone_x = 180
+time_stamp = None
+bg_index = 0
 
 pre_sec = cur_sec = 0
-# Button Status
-# isPressedA = False
-cur_idx=0
-isPressedB = False
-x_bones = 200
-show_yum = False
 
 while True:
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    # Time display
-    # cur_time = strftime("%m/%d/%Y %H:%M:%S")
-    cur_date = strftime("%m/%d/%Y")
     cur_time = strftime("%H:%M:%S") 
-    cur_weekday = strftime("%A")  
     cur_sec = int(cur_time.split(':')[-1].split('.')[0])
     
-    # button A is pressed, for reference see screen_test.py
     if not buttonA.value:
-        cur_idx += 1
+        bg_index += 1
+        bg_index %= len(bg_arr)
     if not buttonB.value:
-        x_bones -= 30
-    if x_bones == 80:
-        show_yum = True
-        x_bones = 200
+        bone_triggered = True
+    if bone_x <= 40:
+        bone_triggered = False
+        bone_x = 180
+        time_stamp = strftime("%H:%M:%S")
+    if bone_triggered:
+        bone_x -= 3
+     
+     
+    display_image = bg_arr[bg_index].copy()
     
-    if cur_idx == len(background_arr):cur_idx=0
-    # display_image = white_background_image.copy()
-    display_image = background_arr[cur_idx].copy()
-
     # Dog frame:
     try:
         dog_frame = next(dog_gif_iter)
-        dog_frame = dog_frame.convert("RGBA").resize((150, 100))
-        # dog_frame = dog_frame.convert("RGBA").resize((x_scale, y_scale))
+        dog_frame = dog_frame.convert("RGBA").resize((120, 80))
     except StopIteration:
         dog_gif_iter = ImageSequence.Iterator(dog_gif)
         dog_frame = next(dog_gif_iter)
-        dog_frame = dog_frame.convert("RGBA").resize((150, 100)) 
-        # dog_frame = dog_frame.convert("RGBA").resize((x_scale, y_scale))
-        
-    display_image.paste(dog_frame, (-15, 30), dog_frame)
-# add the bone image here
-    display_image.paste(dog_bone_image, (x_bones, 90))  # Adjust the coordinates (x_position, y_position) as needed
-    if show_yum:
-        display_image.paste(yum_image, (120, 30))  # Adjust the coordinates (x_position, y_position) as needed
+        dog_frame = dog_frame.convert("RGBA").resize((120, 80)) 
+    
+    display_image.paste(bone_img, (bone_x, 92), bone_img)
+    display_image.paste(dog_frame, (0, 60), dog_frame)
+    
     draw_on_image = ImageDraw.Draw(display_image)
-    draw_on_image.text((55, 10), cur_time, font=fontB, fill="#f41f1f")  # Default color
-      
+    
+    if time_stamp:
+        display_image.paste(yum_img, (85, 50), yum_img)
+        draw_on_image.text((55, 10), cur_time, font=fontB, fill="#f41f1f")
+        t1 = datetime.strptime(cur_time, "%H:%M:%S")
+        t2 = datetime.strptime(time_stamp, "%H:%M:%S")
+        if (t1 - t2).total_seconds() >= 4:
+            time_stamp = None
+    
     # Display image.
     disp.image(display_image, rotation)
-    if show_yum: 
-        show_yum = False
-        time.sleep(0.5)
     pre_sec = cur_sec
     
-    time.sleep(0.1)
-
+    time.sleep(0.05)
