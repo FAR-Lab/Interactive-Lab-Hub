@@ -299,3 +299,24 @@ As always, make sure you document contributions and ideas from others explicitly
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 
+**Description of our Pi Clock**
+
+For Part 2 of the lab, we decided to modify our original design to add the feature of the dog chasing the bone. When you press the bottom button, the bone starts moving towards the dog (since the dog is running, it looks like the dog is running towards the bone instead). Once the dog gets the bone, the current time will appear and the dog will say "yum". If you press the top button, the background changes from day to night, and you are able to change it back by pressing on the same button.
+
+#### - No button is pressed (default display):
+- A dog running in daylight with a bone. 
+#### - D23 (upper) button is pressed:
+- A running dog 
+- Scene switch from daytime to nighttime
+- Scene switch again from nighttime to daytime
+
+#### - D24 (lower) button is pressed:
+- A bone will start moving towards the dog in the current scene and after the dog gets the bone
+- The time will appear for 4 seconds.
+- The dog will say "yum".
+
+Everyone on the team made equal contributions. Wayne, IFeng and Aris contributed to the technical part, while Julia and Sherri contributed to the ideation and visual design. 
+
+We created a video showcasing our work:
+
+**[Video: PiClock V2 demo](https://drive.google.com/file/d/18Qh0o99kqSAOJfYE2GKNzjSrp3psCJeW/view?usp=sharing)**
