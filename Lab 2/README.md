@@ -296,16 +296,15 @@ https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/381b6d51-2dc6
 
 # Losing Example
 In this situation, you're playing the game and crashed on one of the projectiles
-        
-https://github.com/yifanwow/Interactive-Lab-Hub/blob/2e1b200944cd8baffd69b98d6dc178b51b565b82/aa.mp4  
 
-[https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/01a62e0d-2fb0-4a32-ab82-22375ef270aa]
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/528a91d1-b081-41d4-b21c-2940914f6475
 
 
 # Win Example
 In this situation, if you've survived for a minute, then you will score a point and the projectiles will move faster and change color
 
-[https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/ef73f220-5a90-4f48-8a5d-2b64557ce2cb]
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/1bf0e399-89ff-43eb-92d3-e120ceaaadcb
+
 
 # Code for game implementation in `game_test.py`
 To run the game code, box2d-py must be set up with Conda: 
