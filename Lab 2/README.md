@@ -329,6 +329,22 @@ After successfully evading all asteroids for the entire two minutes, the player 
 # Part G.
 # Make a short video of your modified barebones PiClock
 
+# Loosing Example
+In this situation, you're playing the game and crashed on one of the projectiles
+
+
+[https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/01a62e0d-2fb0-4a32-ab82-22375ef270aa]
+
+
+# Win Example
+In this situation, if you've survived for a minute, then you will score a point and the projectiles will move faster and change color
+
+[https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/ef73f220-5a90-4f48-8a5d-2b64557ce2cb]
+
+
+
+
+
 
 
 
