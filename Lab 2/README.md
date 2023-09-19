@@ -235,14 +235,61 @@ When you click both buttons it will play the classic music that represent the re
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
-# Lab 2 Part 2
+**Feedback:**
 
-Pull Interactive Lab Hub updates to your repo.
+_Gloria_: I really liked your displays and button interaction!! So creative and appealing. I also like how you demo the screen with the real clock time on the side in the video. Ngl, this is the best design I've seen so far! It’s fascinating to see how you actually implemented those representative and famous places in each country. Well done!
+I’m looking forward to seeing your next step!
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+_Yifan_: Overall very good visual and background which provides intuitive understanding of the pi. It will be better if the text font/size/color can blend in to the background. 
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+_Crystal_: I love how the button could make changes between 12-hour and 24-hour formats. It is interesting to see different time zones from various countries. 
 
 
+
+## Introduction
+
+In Part 2 of our project, we've developed an interactive game that allows users to engage with time in a fun and educational way. The game consists of three distinct phases, each with its own unique features and challenges.
+
+## Phases
+
+### Start Phase
+
+In the "Start Phase," the display shows the current time as a traditional clock. Two triangular arrows at the botton of the screen indicating the game mode can be invoked by pressing both buttons simultaneously.
+
+### Game Phase
+
+The "Game Phase" is the core of our interactive experience. The screen is divided into two halves, corresponding to the two buttons available. In this phase, various rectangles fall from the top of the screen, and the user's goal is to collect them. Each type of rectangle represents a different unit of time:
+
+- **Green Rectangles**: Represent hours.
+- **Blue Rectangles**: Represent minutes.
+- **Red Rectangles**: Represent seconds.
+
+As these rectangles reach the edge of the screen, the user must press the appropriate button to "collect" them. When successful, a yellow half ellipse is displayed on the corresponding side of the screen, indicating a successful collection.
+
+### End Phase
+
+The "End Phase" marks the conclusion of the game. There are two possible outcomes:
+
+1. **User Collects All Rectangles**: If the user successfully collects all the falling rectangles, this phase displays the time at which the user invoked the game. It serves as a rewarding conclusion to the game.
+
+2. **User Loses Some Rectangles**: If the user fails to collect some of the falling rectangles, this phase also displays the time when the game was invoked. However, it serves as a gentle reminder of the missed opportunities during gameplay.
+
+After a few seconds, we will switch the device back to the start phase.
+
+## Video
+
+[<img src="https://hackmd.io/_uploads/S10w2pVy6.jpg">](https://youtu.be/8llVNj1WjJY)
+
+
+## Contribution List
+
+Our collaborative effort in developing this interactive time game was a team endeavor, with each team member contributing in various ways:
+
+- **John Li**: Idea brainstorming, end page design and implementation, and assistance with debugging.
+- **Shiying (Sophie) Wu**: Idea brainstorming, game mode implementation, README documentation, and debugging support.
+- **Mingze (Kevin) Gao**: Idea brainstorming, initial game setup and testing, end page design and implementation, and debugging assistance.
+- **Crystal Chong**: Idea brainstorming, game mode design, end product verification and testing, and debugging support.
+- **Qianxin (Carl) Gan**: Idea brainstorming, game mode design, end product verification and testing, and debugging support. 
+- **Mingzhe (Allen) Sun**: Idea brainstorming, game mode implementation, and debugging assistance.
+
+This collaborative effort allowed us to create an engaging and educational interactive game that explores the concept of time in a playful way.
