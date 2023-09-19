@@ -329,7 +329,7 @@ After successfully evading all asteroids for the entire two minutes, the player 
 # Part G.
 # Make a short video of your modified barebones PiClock
 
-# Loosing Example
+# Lose Example
 In this situation, you're playing the game and crashed on one of the projectiles
 
 
