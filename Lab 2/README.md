@@ -296,7 +296,8 @@ https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/381b6d51-2dc6
 
 # Losing Example
 In this situation, you're playing the game and crashed on one of the projectiles
-
+        
+https://github.com/yifanwow/Interactive-Lab-Hub/blob/2e1b200944cd8baffd69b98d6dc178b51b565b82/aa.mp4  
 
 [https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/01a62e0d-2fb0-4a32-ab82-22375ef270aa]
 
