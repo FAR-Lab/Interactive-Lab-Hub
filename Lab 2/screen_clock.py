@@ -90,9 +90,6 @@ draw.rectangle(
     fill=sand_clock_color,
 )
 
-# 刷新图像
-disp.image(image, rotation)
-
     
     # Display image.
     disp.image(image, rotation)
