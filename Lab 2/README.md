@@ -256,16 +256,25 @@ After that, Git will ask you to login to your GitHub account to push the updates
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 
-
+# Feedback
 
 ### Before beginning with part 2, I would like to post the overall feedback from my cohort about the previous part of Lab 2
 ### The overall feedback was the following
 
-### Zack: Unique visual representation of time and good color contrast. Also liked that colors changeable from buttons, but perhaps it should hold the state instead of needing to be held down each time  
-### Benjamin: Thought the bars were cool - would be fun to be able to change their colors too, and maybe like play with the increments they measure (like second bar changes to every 2,5,10 seconds w/e)
-### Gloria:I really like the color of your bars and I love the interaction of changing the backgrounds. It’s clear to understand different button effects and I’m interested in how you implement more features in the future. Nice work! The video demo was very straightforward, too!
-### Kenneth: I really liked the visual representation of having bars to represent time intervals! One thing I would say is the interactions seem pretty simple (changing the background colors based off button clicking)
-### Yifan: I love the time you put into your designs, your sketches are very detailed and I look forward to seeing what you follow up with!
+### Zack: 
+Unique visual representation of time and good color contrast. Also liked that colors changeable from buttons, but perhaps it should hold the state instead of needing to be held down each time  
+
+### Benjamin: 
+Thought the bars were cool - would be fun to be able to change their colors too, and maybe like play with the increments they measure (like second bar changes to every 2,5,10 seconds w/e)
+
+### Gloria: 
+I really like the color of your bars and I love the interaction of changing the backgrounds. It’s clear to understand different button effects and I’m interested in how you implement more features in the future. Nice work! The video demo was very straightforward, too!
+
+### Kenneth: 
+I really liked the visual representation of having bars to represent time intervals! One thing I would say is the interactions seem pretty simple (changing the background colors based off button clicking)
+
+### Yifan: 
+I love the time you put into your designs, your sketches are very detailed and I look forward to seeing what you follow up with!
 
 
 # Lab 2 Part 2
@@ -277,5 +286,42 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+
+# Interactive Prototyping: The Game of Pi
+
+Gilberto Ruiz (ger83), Michael Hanlon (mph99), Kenneth Lee (kml343), Gloria Hu (rh692), Yifan Yu (yy2253)
+
+# Part 1.
+# Sketch and brainstorm further interactions and features you would like for your clock
+# Ideation and Diagrams
+
+![first image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/7c300d80-4855-44c0-b40d-d2528adf6520)
+
+The player must dodge asteroids for a duration of two minutes. By pressing two buttons, they can move up or down to evade them.
+
+![second image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e5534783-c00c-4da3-aae7-44b2e4a27f0b)
+
+
+This image depicts the player having successfully avoided the asteroids and continuing their movement.
+
+![third image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/242c7058-a0ac-43c9-9527-7d0f821808e1)
+
+![fourth image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/6c90dd25-07fd-447d-879f-55c6a01629d5)
+
+In Scenario 1, if the player collides with any asteroid, an explosion occurs, it's a game over.
+
+![fifth image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/c36faf6f-092f-469c-bd20-215d456fcb9f)
+
+![sixth image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/1eb34749-a6ef-4b5e-8312-a228ea3382d3)
+
+In Scenario 2, the player adeptly dodges the asteroids, swiftly toggling up and down
+
+![seventh image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/7427630a-1345-4265-9677-44a8d4de0fae)
+
+After successfully evading all asteroids for the entire two minutes, the player wins!
+
+# A Video for the Ideation
+
 
 
