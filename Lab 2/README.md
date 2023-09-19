@@ -220,6 +220,12 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+The video link: https://drive.google.com/file/d/1_ura7mBUNJQaQ4vN-kbEwIkZK9pt3Vtg/view?usp=sharing
+![image](hourglass.jpg)
+
+#Project Description
+I crafted a digital hourglass whose representation of time is intuitively visualized through the depletion of sand from the top chamber and the simultaneous filling of the bottom one, in a ten-second cycle.
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
