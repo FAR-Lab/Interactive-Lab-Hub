@@ -164,6 +164,9 @@ You can look in `image.py` for an example of how to display an image on the scre
 ## Part D. 
 ### Set up the Display Clock Demo
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
+#### Default clock and image display
+<img width="400" alt="Part D" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/fb13cc6d-8da0-4b97-9565-dfd0d9eb8953">
+
 
 ### How to Edit Scripts on Pi
 Option 1. One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
@@ -187,6 +190,8 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 ## Part E.
 ### Modify the barebones clock to make it your own
+#### Circadian Rhythm and Time Perception
+<img width="400" alt="Part D" src = "https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/3d6890a9-72ca-4376-832b-682a8f1869d8" width = 400>
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
@@ -215,9 +220,19 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
-## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+[Video Link](https://drive.google.com/file/d/1aIAAsFDrw_CKgRw7gMzVpnvwm9Xlb0LT/view?usp=drive_link)
 
+<img width="300" alt="Screenshot 2023-09-19 at 11 18 19 AM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/9f1b1dd8-60ee-4262-8453-f37b180fbb28">
+
+<img width="300" alt="Screenshot 2023-09-19 at 11 18 28 AM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/5a13b576-4362-40ff-95f2-3603b39851eb">
+
+<img width="300" alt="Screenshot 2023-09-19 at 11 18 41 AM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/ee13c487-563b-49db-89bf-555d266bdf47">
+
+<img width="300" alt="Screenshot 2023-09-19 at 11 18 51 AM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/77e17a23-d7bd-42c9-9205-3ce3bfd37ab9">
+
+## Part G. 
+#### Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+#### Synthesized in Part 2
 
 # Prep for Part 2
 
@@ -232,8 +247,15 @@ Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+#### Augment perception of time with colors
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+<img alt="color time" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/54dd289e-cffc-411b-885a-4e1af307f75c" width="300">
 
+- A day is filled with the happenings, the activities we individuals carry out. Different people may have different perceptions of "the progress" of the day. People who work during evening times may not call 6 pm "the end of the day". People who enjoy night life may call 8pm "the right time to begin".
+
+- Coloring of different times of the day gives a sense of the actual hour and provide a mapping between "perception" and "reality".
+  
+- In the video, I prototyped a routine clock based on my normal schedule as a student.
+  
+[Video Link](https://drive.google.com/file/d/1JU2mjb2XlyPsxoDlZaJgv7Gap6eOMK94/view?usp=drive_link)
 
