@@ -262,7 +262,26 @@ Version 2: Displays the sleeping and fedding time of the cat.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+
 # Lab 2 Part 2
+
+
+By pressing button 1, the user can see the fruits in season for the specific season he/she is in right now. There is also a time at the top, showing the time until the next season. 
+
+<img width="500" src="IMGlab2/1.jpg/">
+
+By pressing button 2, the user can see the fruits in season for the next season.
+
+<img width="500" src="IMGlab2/2.jpg/">
+
+Link to our code: 
+
+https://github.com/zl2877/Interactive-Lab-Hub/tree/Fall2023/Lab%202/Part%202
+
+
+Link to our video:
+
+https://youtu.be/27pX-y4s5iU
 
 Pull Interactive Lab Hub updates to your repo.
 
