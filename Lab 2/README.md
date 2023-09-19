@@ -281,12 +281,30 @@ https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/2a44bc0d-aab9
 
 #### - D24 (lower) button is pressed:
 - Same display as when D23 is pressed but a bone will appear and gradually moves towards the running dog and disappear when it reaches the dog.
+
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+# Prep for Part 2
+
+1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
+  
+
+2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+(Tahmid)   
+preliminary feedback:
+- the dog animation is super unique and the way you count the bones is novel
+- try not to just show a digital clock though
+
+the fact that you have a daytime and nighttime view is pretty neat
+
+(Kazim)  
+The idea is very creative having a dog chasing after bones. Very impressive getting a sort of animation going and really nice images for the background of the two buttons. The planned updates for part two look interesting. Maybe if you press both of the buttons, you could try having some fun extra feature. But otherwise very nice.
 
 # Lab 2 Part 2
 
