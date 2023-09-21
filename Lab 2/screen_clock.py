@@ -66,6 +66,7 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
+<<<<<<< HEAD
     # TODO: 在此处绘制一个沙漏
 # 沙漏的参数
 sand_clock_width = 40
@@ -91,6 +92,8 @@ draw.rectangle(
 )
 
     
+=======
+>>>>>>> 509382e540a3c937fffa133190a03e7d4dc5d2b5
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)

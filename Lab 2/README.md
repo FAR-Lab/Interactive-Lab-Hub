@@ -220,6 +220,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+<<<<<<< HEAD
 The video link: https://drive.google.com/file/d/1_ura7mBUNJQaQ4vN-kbEwIkZK9pt3Vtg/view?usp=sharing
 ![Digital Hourglass](hourglass.jpeg)
 
@@ -230,6 +231,8 @@ I crafted a digital hourglass whose representation of time is intuitively visual
 The code for this Part 2 can be found here:
 [screen_clock_2.py](screen_clock_2.py)
 
+=======
+>>>>>>> 509382e540a3c937fffa133190a03e7d4dc5d2b5
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
@@ -252,6 +255,7 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+<<<<<<< HEAD
 # Lab 2 Part 2 - Timing Hugs
 ### Collaborators:
 - Yifan Zhou - yz2889 
@@ -291,3 +295,6 @@ https://drive.google.com/file/d/1PJoUiBoTrP0wHdMte6KMVkDekpOuD5jn/view?usp=share
 - Tahmid worked on the design sketch and the integration of IoT functionality via IFTTT webhooks
 - Tingrui designed the clock interface and coded the animation effects
 - Yifan implemented the main program logic and handles the MPR121 touch sensor activaton sequence. 
+=======
+
+>>>>>>> 509382e540a3c937fffa133190a03e7d4dc5d2b5
