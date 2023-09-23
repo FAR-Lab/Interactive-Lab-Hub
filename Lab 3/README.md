@@ -112,7 +112,8 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
-My shell file is found in: speech-scripts/inquiry.sh --> the respondent's answer will be printed in the console after respondent finishes answering
+My shell file is found in: speech-scripts/inquiry.sh 
+--> the respondent's answer will be printed in the console after the respondent finish answering the prompt
 
 ### Serving Pages
 
