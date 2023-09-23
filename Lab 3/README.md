@@ -134,16 +134,19 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+![](https://hackmd.io/_uploads/rJ3Qf6skp.jpg)
 ![](https://hackmd.io/_uploads/BkGtWTjya.jpg)
-
+ 
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 \*\***Please describe and document your process.**\*\*
 
-![](https://hackmd.io/_uploads/rJ3Qf6skp.jpg)
-
+<!-- ![](https://hackmd.io/_uploads/rJ3Qf6skp.jpg)
+ -->
 
 ![](https://hackmd.io/_uploads/Syfbw3oJp.png)
+
+[Link to Script](https://docs.google.com/document/d/1HKsMSRjF0ELpIccWbYSJYWkbKBNw8_C8tZTLe8Lkzl0/edit)
 
 
 
@@ -155,7 +158,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-In the first take of the video (due to blooper), we realized that when we asked the user to indicate whether they want to eat breakfast, lunch, or dinner, we realized that instead of simply stating one choice, the user will answer in complete sentences. Therefore, we may have to think about how to process and handle user's speech if the user did not respond in the format that we anticipated. This seems to be a recurring problem, so we need to think about how we can change the way we structure the question to make the users respond as intended. Lastly, we realize that sometimes the user will respond even before we finish listing out all of our choices listed from our questions. So, that might be something that we could consider.
+In the first take of the video (due to blooper), we realized that when we asked the user to indicate whether they want to eat breakfast, lunch, or dinner, we realized that instead of simply stating one choice, the user will answer in complete sentences. Therefore, we may have to think about how to process and handle user's speech if the user did not respond in the format that we anticipated. This seems to be a recurring problem, so we need to think about how we can change the way we structure the question to make the users respond as intended. Lastly, we realize that sometimes the user will respond even before we finish listing out all of our choices from our questions. So, that might be something that we could consider (i.e.  only allow the users to respond AFTER the robot finished asking the question).
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
