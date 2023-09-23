@@ -154,7 +154,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
- [Dialogue Acting Video](https://://drive.google.com/drive/u/0/folders/1ahBvjaR6K6q6q-y0LypXblEoF7e_5ndg)
+ [Dialogue Acting Video](https://drive.google.com/file/d/1oRaEOPZ7_Oj229C0Medrwhu07qhtvb_0/view?usp=sharing)
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
