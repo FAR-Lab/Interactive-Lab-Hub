@@ -69,7 +69,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
-### My shell file that asks for my name is called lab3pt1.sh and it uses the Festival TTS engine
+### The shell file that asks for my name is called lab3pt1.sh and it uses the Festival TTS engine
 
 ---
 Bonus:
