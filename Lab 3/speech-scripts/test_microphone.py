@@ -10,6 +10,8 @@ import sys
 import sounddevice as sd
 
 from vosk import Model, KaldiRecognizer
+import time
+
 
 q = queue.Queue()
 
@@ -62,10 +64,11 @@ try:
         model = Model(lang=args.model)
 
     if args.filename:
-        dump_fn = open(args.filename, "wb")
+        #dump_fn = open(args.filename, "wb")
+        text_fn = open(args.filename, 'w+')
     else:
-        dump_fn = None
-
+        #dump_fn = None
+        text_fn = None
     with sd.RawInputStream(samplerate=args.samplerate, blocksize = 8000, device=args.device,
             dtype="int16", channels=1, callback=callback):
         print("#" * 80)
@@ -73,14 +76,21 @@ try:
         print("#" * 80)
 
         rec = KaldiRecognizer(model, args.samplerate)
+        start = time.time()
         while True:
             data = q.get()
             if rec.AcceptWaveform(data):
                 print(rec.Result())
+                text_fn.write(rec.Result())
             else:
                 print(rec.PartialResult())
-            if dump_fn is not None:
-                dump_fn.write(data)
+                text_fn.write(rec.PartialResult())
+            now = time.time()
+            if now - start > 5: #only run for five seconds
+                break
+            
+            #if dump_fn is not None:
+                #dump_fn.write(data)
 
 except KeyboardInterrupt:
     print("\nDone")
