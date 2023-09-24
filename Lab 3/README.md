@@ -112,6 +112,8 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+### The shell that does this is called lab3pt1B.sh and its a script that asks the user how many pets it has, records it and prints it on the terminal and the text file called lab3pt1B.txt
+
 
 ### Serving Pages
 
