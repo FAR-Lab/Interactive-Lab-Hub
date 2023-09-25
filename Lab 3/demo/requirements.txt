@@ -12,7 +12,7 @@ dnspython==1.16.0
 eventlet==0.31.0
 Flask==1.1.2
 Flask-SocketIO==5.0.1
-gevent==21.1.2
+gevent==23.9.1
 gevent-websocket==0.10.1
 greenlet==1.0.0
 itsdangerous==1.1.0
