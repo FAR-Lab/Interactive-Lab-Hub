@@ -159,10 +159,19 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+### The dialogue seemed different than what we imagined when it was acted out due to the fact that we didn't know at what time should the device react and translate the phrase. 
+
+# The Video:
+
+https://github-production-user-asset-6210df.s3.amazonaws.com/64716158/270498922-0ced3de5-02f3-4889-9c5f-34baffc9b386.mp4
+
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+
 
 # Lab 3 Part 2
 
