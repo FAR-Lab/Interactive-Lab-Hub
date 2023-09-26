@@ -153,6 +153,25 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 
+# The Script:
+
+Gil: Todavía estás trabajando en tu tarea? 
+
+Random Person: (probably) huh? 
+
+Device: Are you still working on your hw? 
+
+Random Person: whatever they say
+
+Gil: Buena suerte en tu tarea, espero que la termines pronto!
+
+Device: Good luck on your hw, I hope you finish it soon!
+
+Random Person: Thank you! 
+
+End Scene
+
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
@@ -163,8 +182,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 # The Video:
 
-https://github-production-user-asset-6210df.s3.amazonaws.com/64716158/270498922-0ced3de5-02f3-4889-9c5f-34baffc9b386.mp4
-
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/0ced3de5-02f3-4889-9c5f-34baffc9b386 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
