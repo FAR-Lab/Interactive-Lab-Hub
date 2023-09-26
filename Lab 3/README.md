@@ -1,7 +1,7 @@
 # Chatterboxes
 **NAMES OF COLLABORATORS HERE:**
 
-Kenneth Lee, Ben Setel, Gloria Hu
+Kenneth Lee, Ben Setel, Gloria Hu, Michael Hanlon, Yifan Yu
 
 # Chatterbox video example
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
