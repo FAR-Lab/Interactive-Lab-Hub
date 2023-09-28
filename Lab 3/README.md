@@ -1,5 +1,10 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+Kazim Jafri (khj23)
+Rei Chen (rc884)
+Zixin Li (zl865)
+Rowan Wu (rww99)
+Arystan Tatishev (at855)
+
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -110,7 +115,7 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
-```
+
 ### Serving Pages
 
 In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
@@ -133,17 +138,88 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
+Storyboard
+Camera Mirror Interpreter
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+<img width="500" src="imglab3/11.jpg/">
 
-\*\***Please describe and document your process.**\*\*
+Idea: Create a smart mirror that responds to voice commands for information. 
 
-### Acting out the dialogue
+Dialogue: 
+User: "Mirror,mirror, how do I look today?"
+Smart Mirror: “You look amazing.” 
+User: "Mirror, mirror, what should I wear today?"
+Smart Mirror: “You can wear a shirt.”
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+Language interpreter
+
+Idea: Automatically interprets the language you talk in and responds back in the language you input
+
+Dialogue: Cómo estás?
+Interpreter: Bien, y tú?
+Dialogue: 好的！今天天氣怎麼樣？
+Interpreter: 氣溫70度，正在下雨。
+
+
+Automatic bestie
+
+Idea: Listens to and validates a friend sharing a long-winded story
+
+Dialogue:
+Pi: How was your day?
+Friend: The craziest thing happened today! [Story…]
+Pi: OMG, no way!
+Friend: [telling story]
+Pi: And then what?
+Friend: she slapped him on the face!
+Pi: Oh no she did NOT! What happened next?
+Friend: [continues story] 
+Pi: Uh huh…
+Friend: [finishes story] 
+Pi: That’s SO crazy.
+
+Dialogue:
+Friend: [Telling story…] I can’t believe he did that to me.
+Pi: Ugh, he sucks! 
+
+Friend: But I was acting crazy.
+Pi: It wasn’t your fault, girl!
+Friend: You know what, you’re right! Thanks, friend!
+Pi: Any day, I’m on your side!
+
+Starbucks experience
+
+Idea: Device takes in the order information from the customer. Translates the information into Starbucks style/format, and speaks a messed up version of the customer’s name. 
+
+Dialogue:
+
+Customer: I want a large–
+Device: A venti.
+Customer: Yeah, a venti matcha latte.
+Device: A venti matcha latte.
+Device: What is your name?
+Customer: Rei Chen
+Device: A venti matcha latte for Reiss Creez 
+
+Acting Out
+Starbucks experience
+Video:
+https://youtu.be/AT-75OkrOAM
+
+Feedback: 
+The customer was really surprised when the device interrupted her to correct her to the correct Starbucks name.
+The customer did not give the last name when the device asked for the customer’s name.
+
+Camera Mirror Interpreter
+Video:
+https://youtu.be/8VSTWea1uJw
+
+Feedback: 
+The user’s response was similar to what we thought they would ask.
+However, when we explained what our device is like, we did ask the user to start with the phrase “mirror, mirror” when talking to the device. If we did not ask the user prior to the user testing, they would not know about this. 
+
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
