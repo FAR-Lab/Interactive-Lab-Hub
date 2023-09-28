@@ -1,6 +1,7 @@
+
 # Staging Interaction
 
-\*\***John Li**\*\*
+\*\***Crystal Chong**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -292,5 +293,3 @@ By designing the device, a few concerns might influence the way to design our pr
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
-
-
