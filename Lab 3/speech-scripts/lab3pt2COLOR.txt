@@ -1,0 +1,705 @@
+{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "thank"
+}{
+  "partial" : "thank"
+}{
+  "partial" : "thank"
+}{
+  "partial" : "thank"
+}{
+  "text" : "think"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah read"
+}{
+  "partial" : "yeah read"
+}{
+  "partial" : "yeah read"
+}{
+  "partial" : "yeah read"
+}{
+  "text" : "yeah read"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "green"
+}{
+  "partial" : "green"
+}{
+  "text" : "green"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "thank"
+}{
+  "partial" : "thank"
+}{
+  "partial" : "thank"
+}{
+  "partial" : "thank"
+}{
+  "text" : "thanks"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "can"
+}{
+  "partial" : "can you"
+}{
+  "partial" : "can you to"
+}{
+  "partial" : "can you to"
+}{
+  "partial" : "can you to"
+}{
+  "partial" : "can you to"
+}{
+  "partial" : "can you to"
+}{
+  "partial" : "can you to what"
+}{
+  "partial" : "can you to what"
+}{
+  "partial" : "can you to was saying"
+}{
+  "partial" : "can you to what say"
+}{
+  "partial" : "can you to what say"
+}{
+  "partial" : "can you to what say"
+}{
+  "partial" : "can you to what say color and then"
+}{
+  "partial" : "can you to what say color and then"
+}{
+  "partial" : "can you to what say color and then think"
+}{
+  "partial" : "can you to what say color and then think"
+}{
+  "partial" : "can you to what say color and then think"
+}{
+  "partial" : "can you to what say color and then think"
+}{
+  "text" : "can you to what say color and then think"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "blue"
+}{
+  "partial" : "blue"
+}{
+  "partial" : "blue"
+}{
+  "partial" : "blue"
+}{
+  "text" : "blue"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "pink purple"
+}{
+  "partial" : "pink purple"
+}{
+  "partial" : "pink purple"
+}{
+  "text" : "take forever"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "take"
+}{
+  "partial" : "take oh"
+}{
+  "partial" : "take oh"
+}{
+  "partial" : "take oh shit out of"
+}{
+  "partial" : "take oh shit out of"
+}{
+  "partial" : "take oh she added it"
+}{
+  "partial" : "take oh shit out of"
+}{
+  "text" : "take oh she added"
+}{
+  "partial" : ""
+}{
+  "partial" : "oh"
+}{
+  "partial" : "although work"
+}{
+  "partial" : "although our"
+}{
+  "partial" : "although our"
+}{
+  "partial" : "although our"
+}{
+  "partial" : "although our it"
+}{
+  "partial" : "although our it"
+}{
+  "partial" : "although our it"
+}{
+  "partial" : "although our it"
+}{
+  "partial" : "although our it"
+}{
+  "partial" : "although our it probably"
+}{
+  "partial" : "although our it probably"
+}{
+  "partial" : "although our lives forever"
+}{
+  "partial" : "although our lives forever"
+}{
+  "text" : "although work our lives forever"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "purple"
+}{
+  "partial" : "purple"
+}{
+  "partial" : "purple"
+}{
+  "partial" : "purple"
+}{
+  "text" : "purple"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "think"
+}{
+  "partial" : "think"
+}{
+  "partial" : "think"
+}{
+  "partial" : "think"
+}{
+  "text" : "think"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "down"
+}{
+  "partial" : "down"
+}{
+  "partial" : "down"
+}{
+  "partial" : "down"
+}{
+  "text" : "to down"
+}{
+  "partial" : "or"
+}{
+  "partial" : "or could"
+}{
+  "partial" : "or could"
+}{
+  "partial" : "or cool to"
+}{
+  "partial" : "or cool to shouldn't"
+}{
+  "partial" : "or cool to shouldn't"
+}{
+  "partial" : "or cool to shouldn't"
+}{
+  "partial" : "or cool to shouldn't"
+}{
+  "partial" : "or cool to shouldn't"
+}{
+  "text" : "or cool to shit"
+}{
+  "partial" : "a"
+}{
+  "partial" : "a"
+}{
+  "partial" : "a"
+}{
+  "partial" : "a lot"
+}{
+  "partial" : "i thought you"
+}{
+  "partial" : "i thought you"
+}{
+  "partial" : "the uses the"
+}{
+  "partial" : "the uses the"
+}{
+  "partial" : "the uses the"
+}{
+  "partial" : "the uses the"
+}{
+  "partial" : "the uses the"
+}{
+  "partial" : "the uses the spread"
+}{
+  "partial" : "the uses the spread"
+}{
+  "partial" : "the uses the spread"
+}{
+  "partial" : "the uses the has spread"
+}{
+  "partial" : "the uses the has spread"
+}{
+  "text" : "a both uses the has spread"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "and"
+}{
+  "partial" : "and"
+}{
+  "partial" : "i'm thinking"
+}{
+  "partial" : "i'm thinking of"
+}{
+  "partial" : "i'm thinking of going"
+}{
+  "partial" : "i'm thinking of going"
+}{
+  "partial" : "i'm thinking of got"
+}{
+  "partial" : "i'm thinking of gotta read"
+}{
+  "partial" : "i'm thinking of gotta read"
+}{
+  "partial" : "i'm thinking of gotta read"
+}{
+  "partial" : "i'm thinking of gotta read"
+}{
+  "partial" : "i'm thinking of gotta read"
+}{
+  "text" : "i'm thinking of gotta read"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "now"
+}{
+  "partial" : "now did you say"
+}{
+  "partial" : "now did you say"
+}{
+  "partial" : "now did you say"
+}{
+  "partial" : "now did you say think"
+}{
+  "partial" : "now did you say think"
+}{
+  "partial" : "now did you say think it's a minor"
+}{
+  "partial" : "now did you say think it's a minor"
+}{
+  "partial" : "now did you say think it looks like"
+}{
+  "partial" : "now did you say think of and nine hundred for"
+}{
+  "partial" : "now did you say think of and nine hundred for"
+}{
+  "partial" : "now did you say think of and nine hundred for"
+}{
+  "partial" : "now did you say think of and nine hundred for"
+}{
+  "text" : "now did you say think it's and nine hundred for"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "but"
+}{
+  "partial" : "but"
+}{
+  "partial" : "but"
+}{
+  "partial" : "but read"
+}{
+  "partial" : "but read the"
+}{
+  "partial" : "but read the"
+}{
+  "partial" : "but read the with"
+}{
+  "partial" : "but read the with"
+}{
+  "partial" : "but read the with"
+}{
+  "partial" : "but read the with"
+}{
+  "text" : "but read for you"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah"
+}{
+  "partial" : "yeah the"
+}{
+  "partial" : "yeah and i you know"
+}{
+  "partial" : "yeah and i you know"
+}{
+  "partial" : "yeah and i you know i"
+}{
+  "partial" : "yeah and i you know i seriously"
+}{
+  "partial" : "yeah and i you know i seriously"
+}{
+  "partial" : "yeah and i you know i seriously"
+}{
+  "partial" : "yeah and i you know i serious stretching"
+}{
+  "partial" : "yeah and i you know i serious stress"
+}{
+  "partial" : "yeah and i you know i serious stress"
+}{
+  "partial" : "yeah and i you know i serious stress"
+}{
+  "partial" : "yeah and i you know i serious stress"
+}{
+  "text" : "yeah and i you know i serious stress"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "i feel"
+}{
+  "partial" : "i feel"
+}{
+  "partial" : "i feel your"
+}{
+  "partial" : "i feel your pain"
+}{
+  "partial" : "i feel your pain"
+}{
+  "partial" : "i feel your pain"
+}{
+  "partial" : "i feel your pain"
+}{
+  "partial" : "i feel your pain after"
+}{
+  "partial" : "i feel your pain apple did"
+}{
+  "partial" : "i feel your pain apple did"
+}{
+  "partial" : "i feel your pain apple didn't"
+}{
+  "partial" : "i feel your pain apple didn't post"
+}{
+  "partial" : "i feel your pain apple didn't have"
+}{
+  "partial" : "i feel your pain apple didn't have"
+}{
+  "partial" : "i feel your pain apple to those of us"
+}{
+  "partial" : "i feel your pain apple to those of us knows"
+}{
+  "partial" : "i feel your pain apple to those of us knows as"
+}{
+  "partial" : "i feel your pain apple to those of us knows as as"
+}{
+  "partial" : "i feel your pain apple to those of us knows as as"
+}{
+  "partial" : "i feel your pain apple to those of us knows as as as"
+}{
+  "partial" : "i feel your pain apple to those of us knows as as as"
+}{
+  "partial" : "i feel your pain apple to those of us knows as as as"
+}{
+  "partial" : "i feel your pain apple to those of us knows as as as"
+}{
+  "text" : "i feel your pain apple to those of us knows as as as"
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : ""
+}{
+  "partial" : "i thought"
+}{
+  "partial" : "i thought"
+}{
+  "partial" : "i thought"
+}{
+  "partial" : "start"
+}{
+  "partial" : "start early"
+}{
+  "partial" : "start early"
+}{
+  "partial" : "start early"
+}{
+  "partial" : "start early years"
+}{
+  "partial" : "start early years"
+}{
+  "partial" : "start early years"
+}{
+  "partial" : "start early years ago"
+}{
+  "partial" : "start early years ago"
+}{
+  "partial" : "start early years ago"
+}{
+  "partial" : "start early years ago"
+}{
+  "partial" : "start early years ago"
+}{
+  "partial" : "start early years ago stop"
+}
