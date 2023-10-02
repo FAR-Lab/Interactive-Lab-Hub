@@ -140,7 +140,7 @@ We want to complete a voice interactive percussion instrument, and we imagine th
 ![image](storyboard/lab3a.jpeg)
 ### Code
 The code for this Part 1 can be found here:
-[drum.py](drum.py)
+[drum.py](speech-scripts/drum.py)
 
 \*\***Please describe and document your process.**\*\*
 
@@ -180,7 +180,7 @@ We want to design a bot that can record percussion loops. The interactive proces
 Our system can select the instruments to be arranged, input rhythm through tapping, and switch between different instruments through voice control, continuously mixing to make the rhythm more full.
 
 The code for this Part 2 can be found here:
-[drum_part2.py](drum_part2.py)
+[drum_part2.py](speech-scripts/drum_part2.py)
 
 *Include videos or screencaptures of both the system and the controller.*
 Here is the link to the video demo of the device.
