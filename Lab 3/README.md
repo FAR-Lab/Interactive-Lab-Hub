@@ -135,13 +135,19 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+We want to complete a voice interactive percussion instrument, and we imagine that this bot can produce a corresponding sound after hearing a certain instrument with voice input.
+### Design & Sketches
+![image](storyboard/lab3a.jpeg)
+### Code
+The code for this Part 1 can be found here:
+[drum.py](drum.py)
 
 \*\***Please describe and document your process.**\*\*
 
 ### Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
+Here is the link to the video demo of the device.
+[demo_lab3a](https://drive.google.com/file/d/184GVbuQsBwKqN5MAbR5yLaF0UbEF0hwl/view?usp=sharing)
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
@@ -149,6 +155,8 @@ Find a partner, and *without sharing the script with your partner* try out the d
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+keyword recognition - add custom word list before - low matching accuracy because of no context now - rec = KaldiRecognizer(model, args.samplerate, '["bass", "snare", "drum", "hi", "hat", "[unk]"]') (pass custom word list as argument - filtered out unrelated words) similar pronouciation words -> mapped to our keyword instead -> increase accuracy robust system - detect substring in the answer instead of matching directly before - noise along with target word now - take substring
 
 # Lab 3 Part 2
 
@@ -168,8 +176,16 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+We want to design a bot that can record percussion loops. The interactive process we envision is for an artist to select instruments while arranging rhythms, and have the instruments sound according to their own set drum beats. Multiple instruments are recorded in one cycle, which can be repeated to form a regular rhythm.
+Our system can select the instruments to be arranged, input rhythm through tapping, and switch between different instruments through voice control, continuously mixing to make the rhythm more full.
+
+The code for this Part 2 can be found here:
+[drum_part2.py](drum_part2.py)
 
 *Include videos or screencaptures of both the system and the controller.*
+Here is the link to the video demo of the device.
+[demo_lab3b](https://drive.google.com/file/d/1O5FGOTK_JrV2HJgykIsxRE6jEwC26ZUM/view)
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -177,18 +193,19 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The triggering of the sound was relatively smooth, but the initial playback of the recorded rhythm was chaotic due to the lack of start and end times.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+Overall, the controller is relatively sensitive. But two small issues arose. The first one was that we initially set an error prompt tone, such as saying an undefined instrument and playing a "sorry.mp3". Later, we found that this audio would be used as input to continuously trigger itself. Thus, we set a time protection mechanism to trigger "sorry.mp3" in the program to solve this problem. However, it was later discovered that there was no problem on the Mac system, and we speculate that this may be due to the default webcamera microphone and earpiece in the Windows system being indistinguishable, while the two do not affect each other in Mac OS. The second issue is that the pronunciation of the word 'bass drum' is difficult to accurately recognize, so we made a setting before input to ensure that the voice input is matched as well as possible.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+To design a more autonomous version of the system, several crucial lessons must be applied. Firstly, precise start and end times for recorded rhythms should be implemented to ensure a coherent and synchronized playback experience. Secondly, error handling mechanisms need improvement to prevent feedback loops, as observed in the initial version. Thirdly, cross-platform compatibility should be ensured, addressing discrepancies like microphone recognition between different operating systems. Furthermore, enhancing voice recognition accuracy, particularly for challenging words, is vital for a smoother user experience. Additionally, user guidance and training mechanisms should be in place to help users utilize voice controls effectively and minimize errors. Lastly, a proactive plan for continuous system improvement, guided by user feedback, is essential to refine and optimize the system's performance over time.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+To generate a dataset of user interactions, our system can record various aspects of user engagement. It can capture instrument selections, rhythm arrangements, and voice commands during interactions. Additionally, it should log instances of errors and user feedback to refine system performance. 
+
+To create a more comprehensive dataset of interactions, we should align our hardware sensors with human intuition. For example, we can introduce options for string instrument arrangements, making music composition feel more natural. User input methods could transition from tapping on conductive tape to sliding sliders, mirroring musicians' actions. Additionally, incorporating sensors to detect the force applied can capture the nuances of percussion instruments, enriching the sound experience. These enhancements will offer greater potential for improving system autonomy and enhancing the user experience, adding depth to the dataset.
 
