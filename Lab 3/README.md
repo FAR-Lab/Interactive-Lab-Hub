@@ -1,5 +1,9 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+### Collaborators:
+- Sissel Sun - rs923
+- Tingrui（Freya) Zhang - tz428
+- Khiem Pham - dpk45
+
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -138,21 +142,23 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 We want to complete a voice interactive percussion instrument, and we imagine that this bot can produce a corresponding sound after hearing a certain instrument with voice input.
 ### Design & Sketches
 ![image](storyboard/lab3a.jpeg)
-### Code
-The code for this Part 1 can be found here:
-[drum.py](speech-scripts/drum.py)
 
 \*\***Please describe and document your process.**\*\*
 
 ### Acting out the dialogue
 
-Here is the link to the video demo of the device.
-[demo_lab3a](https://drive.google.com/file/d/184GVbuQsBwKqN5MAbR5yLaF0UbEF0hwl/view?usp=sharing)
+Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
+
+It would be hard for a human to mimic the sound of drums, so we wizard the pi to act out the dialogue. 
+
+[Demo Video](https://drive.google.com/file/d/184GVbuQsBwKqN5MAbR5yLaF0UbEF0hwl/view?usp=sharing)
+
+Code: see [drum.py](./speech-scripts/drum.py)
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
@@ -179,13 +185,11 @@ The system should:
 We want to design a bot that can record percussion loops. The interactive process we envision is for an artist to select instruments while arranging rhythms, and have the instruments sound according to their own set drum beats. Multiple instruments are recorded in one cycle, which can be repeated to form a regular rhythm.
 Our system can select the instruments to be arranged, input rhythm through tapping, and switch between different instruments through voice control, continuously mixing to make the rhythm more full.
 
-The code for this Part 2 can be found here:
-[drum_part2.py](speech-scripts/drum_part2.py)
+Code: see [drum_part2.py](./speech-scripts/drum_part2.py)
 
 *Include videos or screencaptures of both the system and the controller.*
-Here is the link to the video demo of the device.
-[demo_lab3b](https://drive.google.com/file/d/1O5FGOTK_JrV2HJgykIsxRE6jEwC26ZUM/view)
 
+[Video Demo](https://drive.google.com/file/d/1O5FGOTK_JrV2HJgykIsxRE6jEwC26ZUM/view?usp=drive_link)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
