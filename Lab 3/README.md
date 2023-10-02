@@ -1,5 +1,9 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+**NAMES OF COLLABORATORS HERE:**
+
+Kenneth Lee, Ben Setel, Gloria Hu, Michael Hanlon, Yifan Yu
+
+# Chatterbox video example
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -69,7 +73,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
-### My shell file that asks for my name is called lab3pt1.sh and it uses the Festival TTS engine
+### The shell file that asks for my name is called lab3pt1.sh and it uses the Festival TTS engine
 
 ---
 Bonus:
@@ -112,6 +116,8 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+### The shell that does this is called lab3pt1B.sh and its a script that asks the user how many pets it has, records it and prints it on the terminal and the text file called lab3pt1B.txt
+
 
 ### Serving Pages
 
@@ -137,9 +143,34 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![1](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e0e50998-942e-4427-bf0d-c26df9358c00)
+![2](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/2bbb2807-09bc-4dbe-82fd-1c60b62831eb)
+![3](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/a62e9ada-f8e4-4a7e-bee5-9685c92c93f3)
+![4](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/05e0b538-0522-4435-bea4-06b67fcca294)
+
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+# The Script:
+
+Gil: Todavía estás trabajando en tu tarea? 
+
+Random Person: (probably) huh? 
+
+Device: Are you still working on your hw? 
+
+Random Person: whatever they say
+
+Gil: Buena suerte en tu tarea, espero que la termines pronto!
+
+Device: Good luck on your hw, I hope you finish it soon!
+
+Random Person: Thank you! 
+
+End Scene
+
 
 ### Acting out the dialogue
 
@@ -147,10 +178,18 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+### The dialogue seemed different than what we imagined when it was acted out due to the fact that we didn't know at what time should the device react and translate the phrase. 
+
+# The Video:
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/0ced3de5-02f3-4889-9c5f-34baffc9b386 
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+
 
 # Lab 3 Part 2
 
