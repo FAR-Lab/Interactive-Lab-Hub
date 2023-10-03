@@ -8,8 +8,14 @@ import argparse
 import queue
 import sys
 import sounddevice as sd
+import subprocess 
 
 from vosk import Model, KaldiRecognizer
+
+########### Added for Part 2 #########################################
+trick_or_treat_detected = False
+subprocess_executed = False
+########### Added for Part 2 Ends ####################################
 
 q = queue.Queue()
 
@@ -81,7 +87,16 @@ try:
                 print(rec.PartialResult())
             if dump_fn is not None:
                 dump_fn.write(data)
-
+                
+            ########### Added for Part 2 #########################################
+            if "trick or treat" in rec.PartialResult():
+                trick_or_treat_detected = True
+            if trick_or_treat_detected and not subprocess_executed:
+                subprocess.call(['python', 'puzzle_reader.py'])
+                subprocess_executed = True
+                break
+            ########### Added for Part 2 Ends ####################################
+                
 except KeyboardInterrupt:
     print("\nDone")
     parser.exit(0)

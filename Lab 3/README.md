@@ -185,6 +185,7 @@ Kevin: Yes TT, can you let me know where is my glasses?
 Robot Butler: Let me check. Your glass are on the sink of the bathroom.
 Kevin: Thank you, TT. 
 
+Click to watch the video:
 [![Act Out](https://hackmd.io/_uploads/rk0TPmke6.jpg)](https://www.youtube.com/watch?v=MXm7EFBcMv8)
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
@@ -205,9 +206,21 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings
+
+With our Part 1 creation, the Hotel Robot Butler, there exists a requirement for users to possess some prior knowledge or instructions to effectively engage with the device. Moreover, it can be uncertain as to the range of services the device is equipped to handle. In light of the upcoming Halloween season, we have chosen to craft a device that seamlessly integrates into Halloween decorations and offers an intuitive and straightforward interaction experience for users.
+
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+In the context of our Halloween device, we are contemplating the incorporation of additional interaction modes beyond speech to enhance user clarity. One approach involves utilizing a sensor that can detect when someone is approaching our door, subsequently triggering our speech detection feature. Additionally, we are considering the utilization of a servo motor mechanism to deliver an element of surprise or scare to the user, complementing the overall interaction experience.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+![](https://hackmd.io/_uploads/BJN_X2_la.jpg)
+
+
+Brainstorming Ideas:
+- A doorbell trick-or-treat
 
 ## Prototype your system
 
@@ -218,7 +231,28 @@ The system should:
 
 *Document how the system works*
 
+**The system operates as follows:**
+
+**Distance Sensor Activation:** A distance sensor is employed to monitor the proximity of individuals approaching the door. When a person comes within 0.5 meters of the door, where the device is securely attached, this sensor triggers the activation of the interaction system.
+
+**Speech Detection:** Upon activation, the system initiates its speech detection feature, actively listening for the specific keyword, "trick or treat." This keyword serves as the trigger for further interaction.
+
+**Random Puzzle Generation:** Subsequently, the system randomly selects one of the 100 available puzzles from its database. This selected puzzle is then vocalized by the system, providing the user with a unique Halloween-themed challenge.
+
+**User Input:** After hearing the puzzle, the user is prompted to input their solution through the keyboard interface provided by the device. The keyboard allows the user to type in their answer.
+
+**Answer Validation:** Once the user submits their answer, the system performs an immediate validation check to determine its correctness. If the user's answer aligns with the correct solution, the system triggers a rewarding response.
+
+**Reward or Haunting:** In the event that the user's answer is correct, the system dispenses candy to the user as a Halloween treat, enhancing the interactive experience. However, if the answer is incorrect, the system engages a spooky or haunting response to add an element of surprise and excitement to the Halloween encounter.
+
 *Include videos or screencaptures of both the system and the controller.*
+
+*Click to watch the video: Introduction of the device*
+[![Act Out](https://hackmd.io/_uploads/H1tFAlFga.png)](https://www.youtube.com/watch?v=yqGF0PsgBKE)
+
+*Click to watch the video: Acting out*
+[![Act Out](https://hackmd.io/_uploads/rk0Ozbtlp.png)](https://youtu.be/3kqRtDJEGQg)
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -226,17 +260,22 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+
+The distance detection feature effectively prevented speech recognition misinterpretation. This feature allows us to restrict false triggers from other voices, ensuring that only individuals in close proximity to the device can activate the entire system.
+
+However, our current method for answering questions has limitations. We are restricted to using a keypad for input, which means that our system can only handle numerical questions.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+The controller's integration of multiple sensors was impressive, especially its 500mm range which felt just right for detecting someone's proximity without being intrusive. This allowed for a fluid transition from sensing someone nearby to awaiting a voice command. However, a noticeable challenge was the voice recognition with individuals. Given the variety in pronunciations, there were instances where the controller struggled to accurately recognize the "trick or treat" phrase. Improvements in its ability to discern and adapt to diverse voice inputs would greatly enhance its reliability and user experience. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+Through WoZ interactions, we gain valuable insights into a wide range of potential user behaviors when interacting with the system. For instance, before actually implemented our system, we started with a WoZ interactions. We discovered that user responses to our questions can be highly unpredictable. Consequently, we implemented restrictions on user input with hardware resource, keypad.
 
+Furthermore, designing a more autonomous system is an ongoing, iterative journey. We continually uncover opportunities for enhancement, ensuring that our system evolves to meet user needs and expectations effectively.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+Recording the distances at which participants initiate interactions might reveal nuances in their approach behavior. Additionally, the voices of each individual will be recorded and consolidated into a dataset. By implementing machine learning algorithms, this dataset will aid the system in detecting the myriad ways people might pronounce "trick or treat," ensuring more accurate and inclusive activation. To deepen this interaction dataset, introducing additional sensors would be insightful. A camera, for instance, could observe facial expressions and body language during interactions, while an ambient light sensor might indicate if the device's visibility or attraction changes under different lighting conditions.
