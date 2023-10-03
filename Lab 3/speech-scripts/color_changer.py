@@ -18,6 +18,11 @@ import sounddevice as sd
 
 from vosk import Model, KaldiRecognizer
 
+import matplotlib as mpl
+import numpy as np
+import os
+import threading
+from subprocess import Popen
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -66,6 +71,13 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# Color related functions
+def colorFader(c1,c2,mix=0): #fade (linear interpolate) from color c1 (at mix=0) to c2 (mix=1)
+    c1=np.array(mpl.colors.to_rgb(c1))
+    c2=np.array(mpl.colors.to_rgb(c2))
+    return mpl.colors.to_hex((1-mix)*c1 + mix*c2)
+
+rainbow = ["#ff0000", "#ffff00", "#00ff00", "#00ffff", "#0000ff", "#ff00ff"]
 
 q = queue.Queue()
 
@@ -133,6 +145,11 @@ try:
         start = time.time()
         
         color = ""
+        party = False
+        ticks = 0
+        max = 5
+        index = 0
+        first_party = True
         while True:
             data = q.get()
             if rec.AcceptWaveform(data):
@@ -142,8 +159,13 @@ try:
                 print(rec.PartialResult())
                 text_fn.write(rec.PartialResult())
 
+            if ("party" in(rec.PartialResult())):
+                party = True
+                
+                
             if ("red" in(rec.PartialResult()) or "read" in(rec.PartialResult())): 
                 color = "#FF0000"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -151,6 +173,7 @@ try:
            
             if ("blue" in(rec.PartialResult())): 
                 color = "#0335fc"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -158,6 +181,7 @@ try:
            
             if ("green" in(rec.PartialResult())):
                 color = "#05781e"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -165,6 +189,7 @@ try:
             
             if ("yellow" in(rec.PartialResult())):
                 color = "#f2ee02"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -172,6 +197,7 @@ try:
 
             if ("orange" in(rec.PartialResult())):
                 color = "#e69812"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -179,6 +205,7 @@ try:
 
             if ("purple" in(rec.PartialResult())):
                 color = "#821bb5"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -186,6 +213,7 @@ try:
             
             if ("white" in(rec.PartialResult())): 
                 color = "#FFFFFF"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -193,6 +221,7 @@ try:
 
             if ("black" in(rec.PartialResult())):
                 color = "#000000"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -200,6 +229,7 @@ try:
 
             if ("pink" in(rec.PartialResult()) or "thank" in(rec.PartialResult()) or "paint" in(rec.PartialResult()) or "think" in(rec.PartialResult())):
                 color = "#f781c6"
+                party = False
                 # print(color)
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)
@@ -207,9 +237,23 @@ try:
             
             if ("stop" in(rec.PartialResult())): 
                 color = "#000000"
+                party = False
                 draw.rectangle((0, 0, width, height), outline=0, fill= color)
                 disp.image(image, rotation)  
                 break
+
+            if party:
+                if first_party:
+                    os.system('aplay ./celebration_2_mins.wav &')
+                    first_party = False
+                ticks += 1
+                if (ticks % max == 0):
+                    index += 1
+                    index = index % len(rainbow)
+                color = colorFader(rainbow[index], rainbow[(index + 1) % len(rainbow)], (ticks % max) / max)
+                draw.rectangle((0, 0, width, height), outline=0, fill= color)
+                disp.image(image, rotation)  
+
 
         
 
@@ -220,4 +264,3 @@ except KeyboardInterrupt:
     parser.exit(0)
 except Exception as e:
     parser.exit(type(e).__name__ + ": " + str(e))
-
