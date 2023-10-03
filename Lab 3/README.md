@@ -210,7 +210,17 @@ The system should:
 
 *Document how the system works*
 
-*Include videos or screencaptures of both the system and the controller.*
+Using festival, the device speaks to the user, asking them to say its activation phase. Using vosk, it then listens for this phrase. Once it hears the phrase, it launches the "color_changer" program. This time it asks the user to say a color. When the user says a color, the program changes the screen to that color. If the user says "party", it cycles colors and plays a song.
+
+![image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/64db60bd-55e3-4641-b671-9b91733aa3fb)
+
+![image](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/8e5237bc-52b7-4929-a9f8-4064de5421ef)
+
+Include videos or screencaptures of both the system and the controller.
+
+https://user-images.githubusercontent.com/64716158/272119876-38ef1163-de09-4bc0-827f-04d8e8955a1c.mp4 
+
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -218,18 +228,19 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+*** The color changing mechanism works pretty well, as did the text to speech asking the user for input. The speech to text portion does not work very well however. It often has difficulty recognizing words. ***
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+*** The program was able to render colors on the screen pretty well, but as mentioned before the speech to text portion does not work very well, making control somewhat difficult. ***
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+*** We could use the video input from the camera for ambient light conditions and adjust the screen color in reaction to them. We could also have it automatically cycle through colors, or "talk to itself" by using the text-to-speech output to generate speech-to-text input. ***
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+*** We could record user interaction, and in particular use the video and microphone from the webcam to create those recordings. We could also store the speech-to-text input and create a database of the most common keywords used. As mentioned above, we could use video as well. We could also use self-generated sound. ***
 
