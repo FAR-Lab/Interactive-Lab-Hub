@@ -227,20 +227,20 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 Answer the following:
 
-### What worked well about the system and what didn't?
+### Question: What worked well about the system and what didn't?
 
-*** The color changing mechanism works pretty well, as did the text to speech asking the user for input. The speech to text portion does not work very well however. It often has difficulty recognizing words. ***
+Answer: **The system exhibited proficiency in its color-changing mechanism, demonstrating seamless transitions. Additionally, the text-to-speech component effectively prompted users for their input. However, the speech-to-text functionality displayed significant limitations. Specifically, it often encountered challenges in accurately recognizing and interpreting spoken words.**
 
-### What worked well about the controller and what didn't?
+### Question: What worked well about the controller and what didn't?
 
-*** The program was able to render colors on the screen pretty well, but as mentioned before the speech to text portion does not work very well, making control somewhat difficult. ***
+Answer: **The controller's programming successfully rendered colors on the display, ensuring a vibrant user experience. However, the earlier mentioned deficiencies in the speech-to-text component extended to the controller, making the system's overall control less intuitive and at times challenging.**
 
-### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+### Question: What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*** We could use the video input from the camera for ambient light conditions and adjust the screen color in reaction to them. We could also have it automatically cycle through colors, or "talk to itself" by using the text-to-speech output to generate speech-to-text input. ***
+Answer: **Drawing from the Wizard of Oz (WoZ) interactions, there are several insights that can guide the design of a more autonomous iteration. One possibility is leveraging the video input from the camera to gauge ambient light conditions, subsequently adjusting screen colors for optimal visibility. Furthermore, the system could be designed to autonomously cycle through an array of colors or even utilize the text-to-speech output to generate corresponding speech-to-text inputs, essentially enabling the system to "converse" with itself.**
 
 
-### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+### Question: How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*** We could record user interaction, and in particular use the video and microphone from the webcam to create those recordings. We could also store the speech-to-text input and create a database of the most common keywords used. As mentioned above, we could use video as well. We could also use self-generated sound. ***
+Answer: **To curate a dataset of interactions, the system can be programmed to record user engagements. The incorporation of video and audio capturing capabilities, particularly through a webcam, would be instrumental in this endeavor. Additionally, the stored speech-to-text inputs can be systematically analyzed, leading to the creation of a comprehensive database spotlighting the most frequently used keywords. Beyond these, integrating video analytics can offer richer data. Another avenue worth exploring is the introduction of self-generated auditory cues, which could further enrich the interaction dataset.**
 
