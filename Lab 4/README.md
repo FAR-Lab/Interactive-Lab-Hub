@@ -70,7 +70,9 @@ D) [Materiality](#part-d)
 
 E) [Servo Control](#part-e)
 
-F) [Record the interaction](#part-f)
+F) [Camera Test](#part-f)
+
+G) [Record the interaction](#part-g)
 
 ## The Report (Part 1: A-D, Part 2: E-F)
 
@@ -279,7 +281,28 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
-### Part F
+### Part F (Optional)
+### Camera
+You can use the inputs and outputs from the video camera in the kit. 
+We provide another script called camera_test.py to test the USB camera on raspberry pi. 
+It uses qt to render a video to the screen, so it is necessary to connect a screen or to connect via VNC to run this script. 
+
+First install some more dependencies into your virtual environment. OpenCV should already be installed on the Pi for the super user. 
+
+```
+sudo apt-get install portaudio19-dev python-all-dev
+pip install opencv-python pyaudio pygame
+```
+
+Once executed the script will render the camera output, press 'q' to stop video and record a sound through the microphone which will be played back by specificing the audio output. 
+
+---
+The video is rendered locally on the pi. For wizarding interactions and prototyping it can be necessary to stream the video to another device such as your laptop. A wizard, observing the user and acting as a computer vision algorithm, can then trigger interactions remotley, such as we did in the tinkerbelle lab.
+
+The following resources are good starts on how to stream video: 
+* [OpenCV – Stream video to web browser/HTML page](https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
+* [Live video streaming over network with OpenCV and ImageZMQ](https://pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
+### Part G
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
