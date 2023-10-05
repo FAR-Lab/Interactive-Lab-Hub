@@ -1,5 +1,5 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+**Amber Tsao (ct649), Aris Huang (th625), Julia Lin (jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Ifeng Wu (iw84)**
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -69,6 +69,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+My shell file is found in: speech-scripts/greeting.sh
+
 ---
 Bonus:
 [Piper](https://github.com/rhasspy/piper) is another fast neural based text to speech package for raspberry pi which can be installed easily through python with:
@@ -110,6 +112,8 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+My shell file is found in: speech-scripts/inquiry.sh 
+--> Respondent's answer will be printed in the console after he or she finishes answering the prompt
 
 ### Serving Pages
 
@@ -134,16 +138,31 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+![](https://hackmd.io/_uploads/rJ3Qf6skp.jpg)
+![](https://hackmd.io/_uploads/BkGtWTjya.jpg)
+ 
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
-
 \*\***Please describe and document your process.**\*\*
+
+<!-- ![](https://hackmd.io/_uploads/rJ3Qf6skp.jpg)
+ -->
+
+![](https://hackmd.io/_uploads/Syfbw3oJp.png)
+
+[Link to Script](https://docs.google.com/document/d/1HKsMSRjF0ELpIccWbYSJYWkbKBNw8_C8tZTLe8Lkzl0/edit)
+
+
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+ [Dialogue Acting Video](https://drive.google.com/file/d/1oRaEOPZ7_Oj229C0Medrwhu07qhtvb_0/view?usp=sharing)
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+In the first take of the video (due to blooper), we realized that when we asked the user to indicate whether they want to eat breakfast, lunch, or dinner, instead of simply stating one choice, the user will answer in complete sentences. Therefore, we may have to think about how to process and handle user's speech if the user did not respond in the format that we anticipated. This seems to be a recurring problem, so we need to think about how we can change the way we structure the question to make the users naturally respond as intended. Lastly, we realize that sometimes the user will respond even before the robot finishes listing out all of our choices from our questions. So, that might be something that we could consider (i.e.  only allow the users to respond AFTER the robot finished asking the question).
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -157,8 +176,22 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+Timing: For timing, we have to think about what would happen if the users did not speak for a long time. How would the system handle long pause or silence.
+
+Misunderstanding: It is highly plausible that the device might not be able to catch all the word precisely, but in the case if the device cannot decipher the user's speech, we should then be able to re-prompt the user to say their speech again.
+
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+We may consider to incorporate camera as inputs in addition to speech. If we are trying to detect user's emotion, using computer vision via the camera, we can also evaluate people's state of emotion when they're inquiring the device with food recommendation. For instance, if the user seems to be angry or sad, we may want to offer more comfort food options for the users to pick from. Additionally, if the user seems confused or puzzled by the prompt, we can initiate the device to re-ask the prompt.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+Storyboard:
+
+![](https://hackmd.io/_uploads/Sk2zQpuxa.jpg)
+
 
 ## Prototype your system
 
@@ -168,27 +201,54 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+1) Run the speech.py file, make sure to pip install gTTS and OpenA first. 
+2) To initate a conversation, say 'hey'. This is similar to how people normally summon Siri.
+3) The user can try to say something rude or aggressive to the system. Ex. speech: "Can you shut up?"
+4) The system will respond, "To make it more polite from (original speech), you can say, (system suggested speech)."
+5) As the result, the user speech will be translated into the polite version of the original input.
+
+Storyboard:  
+![](https://hackmd.io/_uploads/HyKMBTOgT.jpg)
+
+
 
 *Include videos or screencaptures of both the system and the controller.*
+
+
+Videos:  
+[Video Interaction](https://drive.google.com/file/d/1RpJCDhcsD6OY3kkzSm1T08Z0NV5s9J0S/view?usp=sharing)
+
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+Participant: Joanne Chen and Yichen
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+To make sure our idea is brand new, we integrated the latest tool OpenAI API into our design. The ability to transform speech from impolite to polite was our central focus, which worked really well. One part that could've been done better is that more functions could be added. Our current design only contains one function, that is to reframe words into a more polite way. One of our test user mentioned that the use case of the system is a little unclear. Potentially in the future, we can explore more functionalities. 
 
 ### What worked well about the controller and what didn't?
+The controller used in this design is OpenAI API. By sending the speech detected from the webcam as the request input then ouput the response of the reframed speech. Both Joanne and Yichen thought the stength of our design is that we built our system on top of one of the most powerful tools nowadays, so that our design can tackle different queries and always provide an response. However, Joanne also mentioned that this could also be a double-edge sword, if the server-side of OpenAI has broken down then this controller will not be able to work.
 
-\*\**your answer here*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+We used the OpenAI API to build an autonomous system. The most challenging part is to decide the prompt to create a smooth interaction. For example, there are cases that chatGPT is not able to revise users' sentence but instead reply the users. This may be solved by adding clearer prompt to the system.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+How data could be collected:
+- We could gather data on user feedback and use it to improve the quality of responses.
+- Gather more data from users and calculate the average length of questions, then based on the result, adjust the default listening time to improve overall user experience.
 
+Other sensing modalities to capture: 
+- Emotional Tone (like IBM Watson “Tone Analyzer”)
+    - Positivity/negativity of the question asked
+
+- Facial Expression
+    - Detect user's emotion state by using camera to further analyze how the system can address the user
+- Extend of the Volume (dB)
