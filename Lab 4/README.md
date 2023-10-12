@@ -1,6 +1,9 @@
 # Ph-UI!!!
 
 **NAMES OF COLLABORATORS HERE**
++ Sissel Sun - rs923
++ Tingrui（Freya) Zhang - tz428
++ Khiem Pham - dpk45
 
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -182,10 +185,23 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+
+<img src="./freya_1.jpeg?raw=true" height="200"/>
+<img src="./freya_2.jpeg?raw=true" height="200"/>
+<img src="./freya_3.jpeg?raw=true" height="200"/>
+<img src="./capacitive_sensor_1.jpg?raw=true"  width="250"/>
+<img src="./capacitive_sensor_2.jpg?raw=true"  width="250"/>
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+Some questions that the sketches raise:
+1. The alligator clips look unpolished. How do we hide them? In the case of portable piano, we can hide them under the rubber, and attach the pi on the side so that no wires are seen.
 
+2. Similarly, where do we put the pi? In several of my designs, the capacitive objects and the pi are not necessary attached to each other as one product.
+
+3. Can we attach lights to the capacitive objects, and make it so that touching the objects will cycle through light colors?
+
+**\*\*\*Pick one of these designs to prototype.\*\*\***
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -235,10 +251,6 @@ Think about how you want to present the information about what your sensor is se
 Build a cardboard prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-
-![image](storyboard/1.jpg)
-![image](storyboard/2.jpg)
-![image](storyboard/3.jpg)
 
 
 LAB PART 2
@@ -305,4 +317,3 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
-
