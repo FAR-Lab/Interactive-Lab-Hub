@@ -225,14 +225,13 @@ Prototyping Needs:
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
-
-### Part D
-### Physical considerations for displaying information and housing parts
-
-
 ![](https://hackmd.io/_uploads/rkzSx3XWa.png)
 
 This a handheld device for visually impaired person, where he the button start the scan the surrunding enviroment, and the speaker in the center describe the surrounding to the user.
+
+
+### Part D
+### Physical considerations for displaying information and housing parts
 
 
 Here is a Pi with a paper faceplate on it to turn it into a display interface:
