@@ -232,6 +232,7 @@ Prototyping Needs:
 
 ![](https://hackmd.io/_uploads/rkzSx3XWa.png)
 
+This a handheld device for visually impaired person, where he the button start the scan the surrunding enviroment, and the speaker in the center describe the surrounding to the user.
 
 
 Here is a Pi with a paper faceplate on it to turn it into a display interface:
@@ -313,6 +314,7 @@ Build a cardboard prototype of your design.
 **\*\*\*Document your rough prototype.\*\*\***
 ![](https://hackmd.io/_uploads/BySKq04-T.png)
 
+the prototype have a button for start scanning and a display shows the status of the scanning, and it have a sensor at the top of the gun.
 
 LAB PART 2
 
