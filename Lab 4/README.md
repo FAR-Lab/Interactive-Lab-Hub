@@ -299,6 +299,11 @@ Build a cardboard prototype of your design.
 [Video Demonstration](https://drive.google.com/file/d/1b6PvNt_pQ_SpFkxjWp-AeBqx6HSLBQua/view?usp=sharing)
 
 
+https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/b029cac4-ce3b-4aba-a3f0-c877b438c4e4
+
+
+
+
 
 **\*\*\*Document your rough prototype.\*\*\***
 For this setup, we used conductive copper tape as our strings (6 in total) and attached them to the cardboard, which serves as our "guitar neck". Once the user presses a specific cord/string, the musical note will be played correspondingly from the speaker attached to the back of the guitar neck. Additionally, the music note played will also get visually rendered from an external screen connected to the speaker.
