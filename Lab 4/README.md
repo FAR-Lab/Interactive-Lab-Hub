@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-**NAMES OF COLLABORATORS HERE**
+**Amber Tsao (ct649), Aris Huang (th625), Julia Lin (jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Ifeng Wu (iw84)**
 
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -181,10 +181,35 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proxi
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+1. Bug Detector, 2. Guitar Player, 3. Sight Detector [ordered from left to right, top to bottom]
+![](https://hackmd.io/_uploads/BJRi1nVWa.jpg)
+
+4) Question-Answer Competition
+![](https://hackmd.io/_uploads/H1Q3ZRNZT.png)
+
+5. Coffee Art Visualization
+![](https://hackmd.io/_uploads/ry_Pl3E-a.png)
+
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+For the electric shock sketch, we might want to think about how we can place our sensor to make the sensor less noticeable for the bugs to detect. 
+- Need to make the sensor less noticeable -> use thin cardboard for design 
+
+As for guitar string, we might want to explore how we can place our sensors on strings or other mediums. If the sensors are placed too close to one another, we might trigger unwanted signals. 
+- Need to consider the relative placement of the string (ex. sensors)
+
+
+As for Question-Answer Competition, we need to think about the length of the cables attached to the capacitive sensor.
+- Need to consider are we using hard cable or soft strings to attach to the capacitive sensor
+
+
+Lastly, for the coffee art visualization, the portion for the make a gesture entails users holding a coffee cup and make it visually accessible to a web cam placed in a distance. Then, the visual information captured will be displayed from an exterior screen. 
+- How are we capturing the gestures with the web cam is something that we need to consider. The angle of visualization matters too. So, delineating the physical placement of the web cam is crucial for this design.
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+We are moving forward with the guitar idea as our prototype. 
 
 
 ### Part D
@@ -226,15 +251,59 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+1. Bug Detector
+![](https://hackmd.io/_uploads/HkVjxRNb6.png)
+
+2. Guitar Player
+![](https://hackmd.io/_uploads/H1ZqA2N-T.jpg)
+
+3. Sight Detector
+![](https://hackmd.io/_uploads/HJuqi6NZa.jpg)
+
+
+4. Question-Answer Competition
+![](https://hackmd.io/_uploads/SyE0-04Wa.png)
+
+
+5. Coffee Art Visualization
+![](https://hackmd.io/_uploads/SkXZ-0EW6.png)
+
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+1) How can we electrocute bugs using our sensor. This is an important consideration we have to think about.  
+2) If we need to press certain chord, we might have to precompute different combinations of string pressed in order to produce the right sound. 
+3) We will need to ensure the accuracy of sensor detecting the region of what people see on the screen. For some tasks when user zoom out the screen, it would be difficult to identify the line of the user is reading.
+4) We need to ensure buttons touch the capbles when pressed and detach when released precisely. This will require physical prototyping for experiment.
+5) If the hand-waving speed to create the gesture is too fast, the web camera module may not capture the precise gesture. We need to try the web camera.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+We have chosen Guitar Player's design to integrate into our prototype.
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+Rationale: In our design, for the size (width + height) of the guitar neck, we made sure our prototype is as realistic as it can be by measuring that of the actual guitar. Therefore, the measurement resembled that of the actual, real life guitar. 
+
 Build a cardboard prototype of your design.
 
+![](https://hackmd.io/_uploads/H1ZeiaEZa.jpg)
+
+![](https://hackmd.io/_uploads/r1Uls6EZ6.jpg)
+
+![](https://hackmd.io/_uploads/rknlj6N-a.jpg)
+
+![](https://hackmd.io/_uploads/B1I4r04Wa.jpg)
+*Due to lack of alligator cord, we will eventually have 6 in total
+
+
+[Video Demonstration](https://drive.google.com/file/d/1b6PvNt_pQ_SpFkxjWp-AeBqx6HSLBQua/view?usp=sharing)
+
+
+
 **\*\*\*Document your rough prototype.\*\*\***
+For this setup, we used conductive copper tape as our strings (6 in total) and attached them to the cardboard, which serves as our "guitar neck". Once the user presses a specific cord/string, the musical note will be played correspondingly from the speaker attached to the back of the guitar neck. Additionally, the music note played will also get visually rendered from an external screen connected to the speaker.
+
+
 
 
 LAB PART 2
