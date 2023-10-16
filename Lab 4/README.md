@@ -378,7 +378,21 @@ First Iteration:
 [First Conceptual Video (Proof of Concept)](https://drive.google.com/file/d/1LcVcLfeNc05QQsU7a4y7S96cXneQIsF7/view?usp=sharing)
 
 
+https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/5fcfda58-0606-409d-b471-bda936d1993b
+
+
+
 * "Acts like": shows how a person would interact with the device
 
 Final Outcome: 
 [Final Video Demo - Stroking Guitar](https://drive.google.com/file/d/1097kYwMXeLtI7FALEjN0PABsxGslsk2G/view?usp=sharing)
+
+
+https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/a4d173c0-a179-4fdb-be7c-6c74fe94662c
+
+
+[Final Video Demo - Volume Adjustment](https://drive.google.com/file/d/194OoS1-NccoPSuwAX14XU9BKNmPbSwrb/view?usp=sharing)
+
+https://github.com/arishuang10/Interactive-Lab-Hub/assets/71896453/2f258bb4-b5b7-4fb1-8d3b-1d91d8ce9a38
+
+* The volume adjustment video demonstrates lowering volume, but one can also increase volume through adjustment
