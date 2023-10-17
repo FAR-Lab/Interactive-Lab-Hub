@@ -11,7 +11,7 @@ apds.enable_proximity = True
 apds.enable_gesture = True
 
 # Uncomment and set the rotation if depending on how your sensor is mounted.
-# apds.rotation = 270 # 270 for CLUE
+apds.rotation = 270 # 270 for CLUE
 
 while True:
     gesture = apds.gesture()
