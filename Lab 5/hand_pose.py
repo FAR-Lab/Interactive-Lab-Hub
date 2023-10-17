@@ -5,7 +5,7 @@ import HandTrackingModule as htm
 import math
 from ctypes import cast, POINTER
 import alsaaudio
-m = alsaaudio.Mixer()
+m = alsaaudio.Mixer(control='Speaker', cardindex=3)
 ################################
 wCam, hCam = 640, 480
 ################################
@@ -15,7 +15,7 @@ cap.set(3, wCam)
 cap.set(4, hCam)
 pTime = 0
  
-detector = htm.handDetector(detectionCon=0.7)
+detector = htm.handDetector(detectionCon=int(0.7))
 minVol = 0
 maxVol = 100
 vol = 0

@@ -10,10 +10,9 @@ This lab will help you think through the design of observant systems, particular
 
 ## Prep
 
-1. Spend about 10 Minutes doing the Listening exercise as described in [ListeningExercise.md](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Fall2022/Lab%205/ListeningExercise.md)
-2.  Install VNC on your laptop if you have not yet done so. This lab will actually require you to run script on your Pi through VNC so that you can see the video stream. Please refer to the [prep for Lab 2](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Fall2022/Lab%202/prep.md), we offered the instruction at the bottom.
-3.  Read about [OpenCV](https://opencv.org/about/), [MediaPipe](https://mediapipe.dev/), and [TeachableMachines](https://teachablemachine.withgoogle.com/).
-4.  Read Belloti, et al.'s [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf).
+1.  Install VNC on your laptop if you have not yet done so. This lab will actually require you to run script on your Pi through VNC so that you can see the video stream. Please refer to the [prep for Lab 2](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/-/Lab%202/prep.md#using-vnc-to-see-your-pi-desktop).
+2.  Read about [OpenCV](https://opencv.org/about/), [MediaPipe](https://mediapipe.dev/), and [TeachableMachines](https://teachablemachine.withgoogle.com/).
+3.  Read Belloti, et al.'s [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf).
 
 ### For the lab, you will need:
 1. Pull the new Github Repo.(Please wait until thursday morning. There are still some incompatabilities to make the assignment work.)
@@ -102,46 +101,9 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
-#### Filtering, FFTs, and Time Series data. 
-Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
-To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1 second of audio. 
-Pyaudio needs to be installed with the following comand:
-``sudo apt install python3-pyaudio``
-SciPy is installed with 
-``sudo apt install python3-scipy`` 
-
-Lastly we need numpy-ringbuffer, to make continues data anlysis easier.
-``pip install numpy-ringbuffer``
-
-Now try the audio processing example:
-* Find what ID the micrpohone has with `python ListAvalibleAudioDevices.py`
-    Look for a device name that includes `USB` in the name.
-* Adjust the variable `DEVICE_INDEX` in the `ExampleAudioFFT.py` file.
-    See if you are getting results printed out from the microphone. Try to understand how the code works.
-    Then run the file by typing `python ExampleAudioFFT.py`
-
-
-
-Using the microphone, try one of the following:
-
-**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
-
-**2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
-
-**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
-
-For technical references:
-
-* Volume Calculation with [RootMeanSqare](https://en.wikipedia.org/wiki/Root_mean_square)
-* [RingBuffer](https://en.wikipedia.org/wiki/Circular_buffer)
-* [Frequency Analysis](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
-
-
-**\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
-
-### (Optional Reading) Introducing Additional Concepts
-The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
+### Machine Vision With Other Tools
+The following sections describe tools ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)).
 
 #### MediaPipe
 
@@ -149,21 +111,21 @@ A more recent open source and efficient method of extracting information from vi
 
 ![Alt Text](mp.gif)
 
-To get started, create a new virtual environment with special indication this time:
+To get started, it is a good idea to create a new virtual environment:
 
 ```
-pi@ixe00:~ $ virtualenv mpipe --system-site-packages
-pi@ixe00:~ $ source mpipe/bin/activate
-(mpipe) pi@ixe00:~ $ 
+pi@ixe00:~ $ python -m venv venv-ml
+pi@ixe00:~ $ source venv-ml/bin/activate
+(venv-ml) pi@ixe00:~ $ 
 ```
 
 and install the following.
 
 ```
 ...
-(mpipe) pi@ixe00:~ $ sudo apt install ffmpeg python3-opencv
-(mpipe) pi@ixe00:~ $ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr25
-(mpipe) pi@ixe00:~ $ pip3 install mediapipe-rpi3 pyalsaaudio
+<!-- (mpipe) pi@ixe00:~ $ sudo apt install ffmpeg python3-opencv
+(mpipe) pi@ixe00:~ $ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr25 -->
+(venv-ml) pi@ixe00:~ $ pip3 install mediapipe pyalsaaudio opencv-python
 ```
 
 Each of the installs will take a while, please be patient. After successfully installing mediapipe, connect your webcam to your Pi and use **VNC to access to your Pi**, open the terminal, and go to Lab 5 folder and run the hand pose detection script we provide:
@@ -171,8 +133,8 @@ Each of the installs will take a while, please be patient. After successfully in
 
 
 ```
-(mpipe) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
-(mpipe) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
+(venv-ml) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
+(venv-ml) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
 ```
 
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
