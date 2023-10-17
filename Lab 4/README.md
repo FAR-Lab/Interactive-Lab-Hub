@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Kenneth Lee, Yifan Yu, Gloria Hu, Michael Hanlon, Ben Setel
+
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
 
@@ -182,9 +184,37 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+## Wave hand to open door: Gesture Sensor
+
+![275344777-c5451b22-7688-4dde-aa85-9c07dcdaa2f7](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/35fdf622-9b84-42ad-9878-8f70e0aeddee)
+
+## Capacitor Piano: Capacity Sensor
+
+![275344804-25de1a1f-c2aa-4609-b8dc-48f87270ddf8](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/6f0dd361-3fc6-4620-9e92-97f5f52df10e)
+
+
+## Dog Buttons: Capacity Sensor and Speaker
+
+![275344854-147a7f81-a317-4d7a-bf77-2e0153d1b746](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/a995f131-1074-40bf-9702-0b923bdbf49c)
+
+
+## Theremin: Proximity Sensor and Speaker
+
+![275344865-94544e25-dcfd-4e4f-af14-bc4af0f3b32c](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/653a2cc2-24e7-4528-8127-a04621f0c424)
+
+
+## Sensor Driven Games: BOP IT!!!
+
+![275344871-08a7acee-ab57-44f7-9050-d9b50f6ee670](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/2c741e4d-46f0-4230-b52b-e4b2c22729ce)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+### These sketches raise the question of how we create a user-friendly interactive component for each of the sensors. Right now, the sensors obviously work in their bare forms as electronic components, but it is not intuitive at all. For example, the capacity sensor and gesture/proximity sensor both look very similar and just by looking at them, it is impossible for the untrained eye to tell what each of them do/how they differ from each other. So we need to physically prototype with cardboard or other materials something to wrap around these bare electronic sensors to make it intuitive what each thing does. Adding labels may also help the user.
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+###  We chose to prototype the Bop It game.
 
 
 ### Part D
@@ -226,15 +256,57 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+Wave hand to open door: Gesture Sensor
+
+![275344949-d05eebc2-28e0-4e0d-82d9-9fbdecce49c4](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/f652149b-6bfa-440a-a6ea-eb7b5036f713)
+
+
+Capacitor Piano: Capacity Sensor
+
+![275344959-96f0d6c2-3b64-410f-9785-7972e6566ff0](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/51a9a784-49a5-41b5-871e-6dc810162a2c)
+
+
+Dog Buttons: Capacity Sensor and Speaker
+
+![275344970-7c931fb4-b2dd-45fa-8bc0-97f817702366](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/481a2bef-6149-4228-a10e-acd715369a12)
+
+
+Theremin: Proximity Sensor and Speaker
+
+![275344985-ac558e7f-7fa8-4f05-a377-30f2afb81c3f](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/a8def7a6-3c75-4366-9867-235e83bcfad7)
+
+
+Sensor Driven Games: BOP IT!!!
+
+![275345045-0054d84e-8929-412d-beca-25cc4db932c9](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/cfd2b7aa-2a97-436c-a29a-f448dfa0c7d7)
+
+
+BOP IT Five Sketches
+
+![275345052-4b8751d9-61d3-4d81-96e4-0431d2153516](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/8e6ac510-9482-4261-b210-96e1a64b0082)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+### Again, there are some decently complex interactions going on here with the "Bop It" game. We have a joystick ("flick it!"), capacitive sensor ("push it!"), proximity sensor ("cover it!"). The only sensors that are intuitive are the joystick, as it is quite obvious it is the only thing that can be flicked. However, with the capacitive sensor, and proximity sensor, it is hard to tell just based off the components themselves how to interact with them. So we want to prototype a "bop it" style device that connects all the components together through a rigid cardboard box. We will fashion together a button design using cardboard that goes over the capacitive sensor, and an area that looks like a scanner for the proximity sensor. Hopefully, this can help us with answering our question in making our design intuitive.
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+### We chose the "Bop it" game.
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 Build a cardboard prototype of your design.
 
+### We built a cardboard device that holds our sensors for the "bop it" game. We wanted the sensors to be located reasonably far from each other, and spaced out quite evenly as the device the user interacts with will be randomized. We also made them all very accessible and not one task was harder to accomplish than the others. This is because we don't want one action such as "flick it!" to be a bottleneck for the game, where the user seemingly always loses because it is harder. The device overall is a size where it can be fit onto a desk and can be realistically held in your hand, as it is a device to be played by a player. Each component should also be visibily seen, so the user can easily find and interact with the components.
+
 **\*\*\*Document your rough prototype.\*\*\***
+
+![275636915-edb67729-3880-4b8c-adbc-93ecdfa14c84](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/e9113ec0-a472-4c23-8bbe-f8cef00cde62)
+
+![275637029-0c1dbfea-f35c-416e-a976-afb0630b5096](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/c5c9ed06-d4b6-42db-8ef5-b55bb3b314b9)
+
+![275637048-1cf2e616-5c77-41ed-8a03-b0a3ad38dc14](https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/assets/142849822/f1128340-c18b-462b-ad2b-fe93414e5172)
+
 
 
 LAB PART 2
@@ -296,6 +368,8 @@ The following resources are good starts on how to stream video:
 * [Live video streaming over network with OpenCV and ImageZMQ](https://pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
 ### Part G
 ### Record
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/892896b8-06ea-4349-b367-ac19724ce187 
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
