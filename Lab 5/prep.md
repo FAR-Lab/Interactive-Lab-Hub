@@ -1,3 +1,16 @@
+### Pytorch
+For the use of Pytorch, you can create a new virtualenvironment
+``````
+python -m venv venv-pyt 
+source venv-pyt/bin/activate
+``````
+
+Install dependencies in it
+``````
+(venv-pyt) pip install torch===1.10.2 torchaudio===0.10.2 torchvision===0.11.3 opencv-python
+(venv-pyt) pip install numpy --upgrade
+``````
+
 ### Mediapipe
 For the media pipe example create a new virtualenvironment
 ``````
