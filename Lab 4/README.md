@@ -14,8 +14,7 @@ For lab this week, we focus both on sensing, to bring in new modes of input into
 As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
 
 
-Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the personal access token for this.
-
+**\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the personal access token for this.
 ```
 pi@ixe00:~$ cd Interactive-Lab-Hub
 pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2022
@@ -29,6 +28,7 @@ Option 2: On your own GitHub repo, [create pull request](https://github.com/FAR-
 Option 3: (preferred) use the Github.com interface to update the changes.
 
 ### Start brainstorming ideas by reading: 
+
 * [What do prototypes prototype?](https://www.semanticscholar.org/paper/What-do-Prototypes-Prototype-Houde-Hill/30bc6125fab9d9b2d5854223aeea7900a218f149)
 * [Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
 * [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
@@ -44,7 +44,9 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 * Cutting board
 * Cutting tools
 * Markers
+
 * New hardware for your kit will be handed out. Update your parts list. 
+
 
 (We do offer shared cutting board, cutting tools, and markers on the class cart during the lab, so do not worry if you don't have them!)
 
@@ -78,6 +80,7 @@ F) [Camera Test](#part-f)
 
 G) [Record the interaction](#part-g)
 
+
 ## The Report (Part 1: A-D, Part 2: E-F)
 
 ### Part A
@@ -88,12 +91,14 @@ We want to introduce you to the [capacitive sensor](https://learn.adafruit.com/a
 
 <p float="left">
 <img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
+ 
 </p>
 
 Plug in the capacitive sensor board with the QWIIC connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). Install the latest requirements from your working virtual environment:
 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ pip install -r requirements.txt
+
 ```
 
 <img src="https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg" width=400>
@@ -111,8 +116,9 @@ Twizzler 6 touched!
 #### Light/Proximity/Gesture sensor (APDS-9960)
 
 We here want you to get to know this awesome sensor [Adafruit APDS-9960](https://www.adafruit.com/product/3595). It is capable of sensing proximity, light (also RGB), and gesture! 
-
+ 
 <img src="https://cdn-shop.adafruit.com/970x728/3595-06.jpg" width=200>
+ 
 
 Connect it to your pi with Qwiic connector and try running the three example scripts individually to see what the sensor is capable of doing!
 
@@ -134,6 +140,8 @@ You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_C
 A rotary encoder is an electro-mechanical device that converts the angular position to analog or digital output signals. The [Adafruit rotary encoder](https://www.adafruit.com/product/4991#technical-details) we ordered for you came with separate breakout board and encoder itself, that is, they will need to be soldered if you have not yet done so! We will be bringing the soldering station to the lab class for you to use, also, you can go to the MakerLAB to do the soldering off-class. Here is some [guidance on soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation) from Adafruit. When you first solder, get someone who has done it before (ideally in the MakerLAB environment). It is a good idea to review this material beforehand so you know what to look at.
 
 <p float="left">
+
+   
 <img src="https://cdn-shop.adafruit.com/970x728/377-02.jpg" height="200" />
 <img src="https://cdn-shop.adafruit.com/970x728/4991-09.jpg" height="200">
 </p>
@@ -147,6 +155,7 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 You can go to the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually comes with an LED (neo pixel): Can you try lighting it up? 
 
 #### Joystick (optional)
+
 
 A [joystick](https://www.sparkfun.com/products/15168) can be used to sense and report the input of the stick for it pivoting angle or direction. It also comes with a button input!
 
@@ -164,10 +173,12 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joyst
 
 #### Distance Sensor
 
+
 Earlier we have asked you to play with the proximity sensor, which is able to sense objects within a short distance. Here, we offer [Sparkfun Proximity Sensor Breakout](https://www.sparkfun.com/products/15177), With the ability to detect objects up to 20cm away.
 
 <p float="left">
 <img src="https://cdn.sparkfun.com//assets/parts/1/3/5/9/2/15177-SparkFun_Proximity_Sensor_Breakout_-_20cm__VCNL4040__Qwiic_-01.jpg" height="200" />
+
 </p>
 
 Connect it to your pi with Qwiic connector and try running the example script to see how it works!
@@ -176,12 +187,14 @@ Connect it to your pi with Qwiic connector and try running the example script to
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python qwiic_distance.py
 ```
 
-You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples!
+You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
 ### Part C
 ### Physical considerations for sensing
 
+
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
+
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
@@ -203,11 +216,15 @@ Some questions that the sketches raise:
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+We picked the portable piano idea. However, instead of having many buttons as keys, we modified the mechanism of playing notes to the one similar as playing a ukulele. The note played is determined by both the string and the fret pressed. 
+
 ### Part D
 ### Physical considerations for displaying information and housing parts
 
 
+
 Here is a Pi with a paper faceplate on it to turn it into a display interface:
+
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
 
@@ -218,10 +235,12 @@ Here is another prototype for a paper display:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
 
+
 Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibly mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
 <p float="left">
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
+
 </p>
 
 
@@ -242,7 +261,25 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+![Design1](design_1.jpg)
+![Design2](design_2.jpg)
+![Design3](design_3.jpg)
+![Design4](design_4.jpg)
+![Design5](design_5.jpg)
+
+The first two ideas corresponds to the shape of a radio. In both ideas the direction of the joystick is used for determining which string is pressed. For the fret, we can either use buttons or a distance sensor. The third and forth ideas focus more on the portability of our prototype, and the last one tries to mimic the shape of a real ukulele. 
+
+**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?\*\*\***
+
+Questions:
+<ol>
+    <li> Which shape do our users prefer? </li>
+    <li> How large should our prototype be? </li>
+    <li> How to choose from the distance sensor and the capacitive sensor for simulating the fret? </li>
+    <li> Where should we put the pi and the cables? Our prototype does not need display so the pi can be hidden inside the box, but we might need to cut out some holes for the cables. </li>
+</ol>
+
+To answer these questions, we need to test out both the capacitive sensor and the distance sensor and prototype the interaction. We also need to physically cut out some cardboard and present different shapes to some users to figure out which design is better. 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
@@ -250,8 +287,16 @@ Think about how you want to present the information about what your sensor is se
 
 Build a cardboard prototype of your design.
 
+
+Since our idea has a focus on portability / size, we picked the third design with joystick and capacitive sensor. We used joystick instead of buttons because we thought using 4 buttons makes the interface too crowded. On the other hand, we also tested out the distance sensor, but it cannot work precisely for objects further than 7 cm away.
+
 **\*\*\*Document your rough prototype.\*\*\***
 
+We used the capacitive sensor to simulate different frets for users to press. Here s a photo of our minimum viable product (our complete design is documented in part 2):
+
+![mvp](mvp.jpg)
+
+[Video demo](https://drive.google.com/file/d/1FcWzyY7KeuJpChss-Oo8PTO-4VgiaUhi/view?usp=sharing)
 
 LAB PART 2
 
@@ -261,9 +306,11 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 ### Part E (Optional)
 ### Servo Control with Joystick
+
 > **_NOTE:_**  Not in the kit yet.
 
 In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). The Qwiic Servo Controller will need external power supply to drive, which is included in your kit. Connect the servo controller to the miniPiTFT through qwiic connector and connect the external battery to the 2-Pin JST port (ower port) on the servo controller. Connect your servo to channel 2 on the controller, make sure the brown is connected to GND and orange is connected to PWM.
+
 
 <img src="Servo_Setup.jpg" width="400"/>
 
@@ -275,7 +322,9 @@ In this exercise, we will be using the nice [ServoKit library](https://learn.ada
 
 A servo motor is a rotary actuator or linear actuator that allows for precise control of angular or linear position. The position of a servo motor is set by the width of an electrical pulse, that is, we can use PWM (pulse-width modulation) to set and control the servo motor position. You can read [this](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn a bit more about how exactly a servo motor works.
 
+
 Now that you have a basic idea of what a servo motor is, look into the script `servo_test.py` we provide. In line 14, you should see that we have set up the min_pulse and max_pulse corresponding to the servo turning 0 - 180 degrees. Try running the servo example code now and see what happens:
+
 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python servo_test.py
@@ -288,6 +337,7 @@ It is also possible to control the servo using the sensors mentioned in as in pa
 You can then call whichever control you like rather than setting a fixed value for the servo. For more information on controlling Qwiic devices, Sparkfun has several python examples, such as [this](https://learn.sparkfun.com/tutorials/qwiic-joystick-hookup-guide/all#python-examples).
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
+
 
 ### Part F (Optional)
 ### Camera
@@ -311,9 +361,41 @@ The following resources are good starts on how to stream video:
 * [OpenCV – Stream video to web browser/HTML page](https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
 * [Live video streaming over network with OpenCV and ImageZMQ](https://pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
 ### Part G
+
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
+
+We are playing the piano like an ukulele, which is a simplified ukulele with piano sounds from cardboard using 2 sensors: capacitive sensor and joystick. The joystick serves as 4 strings of the instrument and the capacitive sensors serve as 5 different intonations (frets) for each string.
+
+1. “Looks like”
+
+    We enclose the sensors, alligator clips and the joysticks into a small box made of cardboard. The user is able to hold it like a real ukulele. One hand will be on the right controlling the joystick, just like pressing a string on an ukulele. The other would be touching the conductive tape, similar to pressing a fret. Our prototype is portable and lightweight, just like an ukulele. 
+
+2. “Works like”
+
+    We coded the program (name of file) to use the above 2 sensors to play sound. There are 26 notes playable by an ukulele. We load a sound file for each of the 26 possible notes. Note that we load them into memory first; in earlier design we played the file and observed latency. By pre-loading, we avoid this latency but the program takes about 10s for loading before we can play.
+
+    Recall the 26 notes are:
+    G3, Ab3, A3, Bb3, B3, C4, Db4, D4, Eb4, E4, F4, Gb4, G4, Ab4, A4, Bb4, B4, C5, Db5, D5, Eb5, E5, F5, Gb5, G5, and Ab5.
+
+    In the program, the 4 string options map to specific indices in the above notes array (0, 5, 9, 14 respectively). When no fret is held, they play the sounds corresponding to the indices (represented by a dictionary). When a fret is held, we increment the index by the same number (a fret corresponds to a number). There are 12 frets possible but in practice since we have only 5 alligator clips we settle with a simplified version with only 5 frets (+1,+2,+3,+4,+5). Therefore, we can play all notes up to D5 (index 19 = 14 + 5), missing 6 last notes, which we think is sufficient for most simple songs.
+
+3. “Acts like”
+
+    The joystick gives us 4 options for 4 strings (up, down, left, right). When users move the joystick to any 4 positions, a note is played, but it requires users to move the joystick back to its default position before being able to play a new note. This resembles the action of “playing a string”. The string can not be played again until it goes back to the original position; after the players release the string.
+
+    The frets are controlled by a capacitive sensor connected with conductive tape. When the user touches one of the lines, the corresponding fret is active and the pitch is raised by a number of semitones accordingly. The tapes can be touched continuously without release, resembling the action of “holding the string”.
+
+    By controlling the joystick and touching one line of conductive tape, our prototype acts like an ukulele. 
+
+[Video demo](https://drive.google.com/file/d/1-eicEowI_QwbFEQE6uqeBe42RfTx9uUs/view?usp=drive_link)
+
+Photos:
+
+![Prototype Overview](photo_1.jpg)
+![Inside Structure](photo_2.jpg)
+![Whiteboard](photo_3.jpg)
