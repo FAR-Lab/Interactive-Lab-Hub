@@ -1,7 +1,6 @@
 # Ph-UI!!!
 
 **NAMES OF COLLABORATORS HERE**
-
 John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -226,14 +225,13 @@ Prototyping Needs:
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
-
-### Part D
-### Physical considerations for displaying information and housing parts
-
-
 ![](https://hackmd.io/_uploads/rkzSx3XWa.png)
 
 This a handheld device for visually impaired person, where he the button start the scan the surrunding enviroment, and the speaker in the center describe the surrounding to the user.
+
+
+### Part D
+### Physical considerations for displaying information and housing parts
 
 
 Here is a Pi with a paper faceplate on it to turn it into a display interface:
@@ -248,6 +246,8 @@ Here is another prototype for a paper display:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
 
 Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibly mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
+
+`pip install adafruit-circuitpython-ssd1306`
 
 <p float="left">
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
@@ -377,8 +377,44 @@ The following resources are good starts on how to stream video:
 ### Part G
 ### Record
 
+We are doing a Russian roulette like device. 
+
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+
+**Components used:**
+- Camera with speaker: plays sounds
+- Red LED: init the game
+- OLED Screen: start and end game display, game mode: display the number of triggers have pulled
+- Joystick: trigger of the gun
+</br>
+![](https://hackmd.io/_uploads/B190AEMM6.png)
+</br>
+
+**Detailed Descriptions:**
+
+
+![](https://hackmd.io/_uploads/S1pYaBEGa.png)
+
+
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+
+
+
+Our prototype is a handheld device resembling a futuristic gun. It has a compact and ergonomic design, allowing users to hold it comfortably. The device is constructed using sturdy cardboard for the main body, with copper tape for the capacitive sensor and various sensors integrated. The addition of an OLED screen on the body provides a sleek and modern touch. The screen displays essential information, such as the start and end of the game, and during gameplay, it shows the count of bullets fired. The device features a distinctive LED Red button on the outside that serves as a game initiation trigger. The inclusion of a camera inside the device adds an interactive element, releasing sound effects when the device is "shot." The prototype has been designed to be lightweight and easy to handle, with the added feature of being pushable and pullable for additional tactile engagement.
+
+
+
 * "Works like": shows what the device can do
+
+
+
+The prototype is designed to provide a simulated and safe version of the classic game. The joystick is configured to simulate the trigger-pulling action, enhancing the overall user experience. Users can load simulated bullets into the rotating chamber, with the OLED screen indicating the number of bullets fired during the game. The chamber can be manually rotated, mimicking the randomness of the Russian roulette game. The device incorporates a camera inside that captures the action and triggers sound effects when "shot." The LED Red button outside the device is a multifunctional control, allowing users to start the game with a press. Importantly, the device lacks any functional firing mechanism, ensuring it cannot cause harm.
+
 * "Acts like": shows how a person would interact with the device
 
+
+To start the game, users press the LED Red button on the outside of the device. The OLED screen displays the game status and prompts users to load the simulated bullets into the rotating chamber. Users can then push or pull the device's body to engage with the tactile features. Interacting with the joystick simulates pulling the trigger, initiating the suspenseful sequence. The OLED screen updates in real-time to show the count of bullets fired during gameplay. Auditory cues, including sounds triggered by the internal camera, add to the immersive experience. Safety features are emphasized through the design and messaging, ensuring users understand that it is a toy and not a functional weapon. 
+
+**Video:**
+*Click the image below to watch the video:*
+[![](https://hackmd.io/_uploads/rJSOkrffp.jpg)](https://www.youtube.com/watch?v=PHGshE1JnpA)
