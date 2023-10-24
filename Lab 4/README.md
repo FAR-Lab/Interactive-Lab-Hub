@@ -387,22 +387,35 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 - OLED Screen: start and end game display, game mode: display the number of triggers have pulled
 - Joystick: trigger of the gun
 </br>
+
 ![](https://hackmd.io/_uploads/B190AEMM6.png)
+
 </br>
 
 **Detailed Descriptions:**
 
+
+![](https://hackmd.io/_uploads/S1pYaBEGa.png)
+
+
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 
-Our prototype is a handheld device resembling a futuristic gun. It has a compact and ergonomic design, allowing users to hold it comfortably. The device is constructed using sturdy cardboard for the main body, with copper tape for the capacitive sensor and various sensors integrated. The device introduces a unique twist by using a joystick as the trigger mechanism, adding an interactive element to the game. It also consists of a rotating chamber that can hold simulated bullets. The device is designed to be lightweight and easy to handle. 
+
+
+Our prototype is a handheld device resembling a futuristic gun. It has a compact and ergonomic design, allowing users to hold it comfortably. The device is constructed using sturdy cardboard for the main body, with copper tape for the capacitive sensor and various sensors integrated. The addition of an OLED screen on the body provides a sleek and modern touch. The screen displays essential information, such as the start and end of the game, and during gameplay, it shows the count of bullets fired. The device features a distinctive LED Red button on the outside that serves as a game initiation trigger. The inclusion of a camera inside the device adds an interactive element, releasing sound effects when the device is "shot." The prototype has been designed to be lightweight and easy to handle, with the added feature of being pushable and pullable for additional tactile engagement.
+
+
+
 * "Works like": shows what the device can do
 
-The prototype is designed to provide a simulated and safe version of the classic game. The joystick is configured to simulate the trigger-pulling action, enhancing the overall user experience.  The chamber can be manually rotated, mimicking the randomness of the Russian roulette game. The device is intentionally designed without any functional firing mechanism, ensuring that it cannot cause harm.
+
+
+The prototype is designed to provide a simulated and safe version of the classic game. The joystick is configured to simulate the trigger-pulling action, enhancing the overall user experience. Users can load simulated bullets into the rotating chamber, with the OLED screen indicating the number of bullets fired during the game. The chamber can be manually rotated, mimicking the randomness of the Russian roulette game. The device incorporates a camera inside that captures the action and triggers sound effects when "shot." The LED Red button outside the device is a multifunctional control, allowing users to start the game with a press. Importantly, the device lacks any functional firing mechanism, ensuring it cannot cause harm.
 
 * "Acts like": shows how a person would interact with the device
 
 
-Users can load the simulated bullets into the rotating chamber. Users can push or interact with the joystick to simulate pulling the trigger, initiating the suspenseful sequence. Auditory cues include a sound that is randomly triggered upon pulling the trigger. The user experience is focused on creating a thrilling and suspenseful game without any real danger. The safety features are emphasized to ensure that users understand it is a toy and not a functional weapon.
+To start the game, users press the LED Red button on the outside of the device. The OLED screen displays the game status and prompts users to load the simulated bullets into the rotating chamber. Users can then push or pull the device's body to engage with the tactile features. Interacting with the joystick simulates pulling the trigger, initiating the suspenseful sequence. The OLED screen updates in real-time to show the count of bullets fired during gameplay. Auditory cues, including sounds triggered by the internal camera, add to the immersive experience. Safety features are emphasized through the design and messaging, ensuring users understand that it is a toy and not a functional weapon. 
 
 **Video:**
 *Click the image below to watch the video:*
