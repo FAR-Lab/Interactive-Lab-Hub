@@ -168,15 +168,33 @@ When the system successfully captures a photo, it will continue its detection pr
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
+* What can you use X for? 
+    1. Learning sign language
+    2. Having fun
 * What is a good environment for X?
+    1. Sufficient ambient light
+    2. Do not have too many hands in the screen at the same time
+    3. Clear background
 * What is a bad environment for X?
+    1. Messy frame
+    2. Noisy background sound
 * When will X break?
+    1. When the web camera fails to detect the desired gestures given by the users.
 * When it breaks how will X break?
+    1. When it breaks X will just have no respond
 * What are other properties/behaviors of X?
+    1. Chosen music to be included in the X
+    2. Added new gestures in X
 * How does X feel?
+    1. innovative gesture game
+
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+[Observant System Video](https://drive.google.com/file/d/1CNNCR6goIrXYBSLaa-Zk1BvZ_r3QR-1M/view?usp=sharing)
+- Dark Environment
+- Too many hands in the screen --> causing noise
+- Latency (low FPS, causing the interaction/gesture detection to slow down or not detected)
 
 ### Part 2.
 
