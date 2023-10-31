@@ -2,6 +2,9 @@
 
 **NAMES OF COLLABORATORS HERE**
 
++ Tingrui（Freya) Zhang - tz428
++ Khiem Pham - dpk45
++ Sissel Sun - rs923
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
@@ -121,6 +124,10 @@ Next train your own model. Visit [TeachableMachines](https://teachablemachine.wi
 
 Include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.
 
+![Teachable Machines Screenshot](tm-screenshot.png)
+
+[Teachable Machines Demo](https://drive.google.com/file/d/150dOQDbp3P3kZaYMGIjLEX3Q7znTEJNH/view?usp=sharing)
+
 #### (Optional) Legacy audio and computer vision observation approaches
 In an earlier version of this class students experimented with observing through audio cues. Find the material here:
 [Audio_optional/audio.md](Audio_optional/audio.md). 
@@ -136,6 +143,53 @@ In an earlier version of this class students experimented with foundational comp
 * This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
 * Try out different interaction outputs and inputs.
 
+We picked Teachable Machines and developed a conductor simulator where users can use pose gestures to turn on/off an instrument track of the music. Our gesture set consists of 9 instances:
+
+- Background
+
+    ![Background](background.png)
+
+- Start all
+
+    ![Start all](start_all.png)
+
+- Stop all
+
+    ![Stop all](stop_all.png)
+
+- Turn on instrument 1
+
+    ![Start 1](start_1.png)
+
+- Turn off instrument 1
+
+    ![Stop 1](stop_1.png)
+
+- Turn on instrument 2
+
+    ![Start 2](start_2.png)
+
+- Turn off instrument 2
+
+    ![Stop 2](stop_2.png)
+
+- Turn on instrument 3
+
+    ![Start 3](start_3.png)
+
+- Turn off instrument 3
+
+    ![Stop 3](stop_3.png)
+
+
+We picked a delightful piece of music with three instrument tracks (violin, acoustic guitar and mandolin) for demonstration. The left arm controls whether to turn on or off the instrument by having the arm 90 degrees up or down. The right arm decides which instrument is selected. Three positions of arms (in 135, 90, and 45 degrees) are for three different tracks. We also have a “start all” and a “stop all” gesture, where users put both their arms 90 degrees up or down.
+
+Originally, we’ve designed body gestures that only track the position of the hand in space. However, although they resemble a conductor more, they are more subtle and much harder to classify. Adding one labmate’s data would impact the performance for other labmates. As a result, we moved on with this version of gesture set despite it being more bulky.  
+
+Code: [instrument.html](instrument.html)
+
+Here is our video demo: [Video Demo](https://drive.google.com/file/d/12-3f5IDIZrsoqET3ODr7K7YyxY9KyZfv/view?usp=drive_link)
+
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
@@ -145,15 +199,38 @@ In an earlier version of this class students experimented with foundational comp
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
+
+    There are 3 tracks that compose a song. The system recognizes the user's gestures and plays / pauses the corresponding tracks. There are also 2 more options to play / pause the song (i.e. all 3 tracks)
+
 1. When does it fail?
+
+    The system is quite robust to our image inputs. We tried to add multiple edge cases (a background class, user pose out of frame, multiple body base, diverse backgrounds and lighting, all 3 labmates contribute to the data).The system defaults to ‘do nothing’ when poses are out of frame or when the classification probability of the best class is less than 90%. That said, there is overlap between the motions and the system sometimes fails to play the right sound that users intended.
+
 1. When it fails, why does it fail?
+
+    The motions overlap. This is because as the number of options we give increases, there are fewer easily distinguishable gestures. For example, we chose the gesture ‘straight right arm, x degree’ where x is in [45, 90, 135] to activate a sound. Obviously, when the user does not put their arms at the exact degree, or when the camera has a different angle compared to during training, the model makes mistakes. In contrast, we use 2 very different gestures for the left arm to indicate on / off, and the model rarely makes mistakes on this.
+
 1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+    Other problems can be: when users do not stay in the frame / the camera is positioned incorrectly. This is especially true for tall users / short users.
+
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
+
+    Most probably not. For example, they would expect the system to be robust to camera / body position, but the system requires good centering of the body.
+
 1. How bad would they be impacted by a miss classification?
+
+    Since our application is used for entertainment purposes and not a critical one, we expect that a few wrong answers will not hurt.
+
 1. How could change your interactive system to address this?
+
+    Again, the nature of our application is creative, so wrong answers are not very impactful. We can improve on the system by: training a system with a confidence score along with its classification score. The confidence score indicates whether the system is sure about the gesture; when the system is repeatedly unconfident about a particular gesture, it can ask the users for input, suggest what users should do, or potentially even adapt to individuals after receiving feedback.
+
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+    We can train on more data, collect data with diverse backgrounds and individuals. We can use a more sophisticated model than what ‘teachable machine’ uses by default. We can augment our data for more robustness and accuracy. 
 
 ### Part D
 ### Characterize your own Observant system
@@ -161,14 +238,36 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+    We can use the gesture detection system for controlling various aspects of music playback, such as starting and stopping tracks and turning on or off specific instrument tracks. It allows for hands-free interaction with the music player, which can be useful in situations where manual control is inconvenient, like during a live performance.
+
 * What is a good environment for X?
+    
+    A good environment is one with adequate lighting conditions and minimal background distractions. It works best in scenarios where the user's gestures can be easily captured and distinguished from the background. 
+
 * What is a bad environment for X?
+
+    A bad environment includes poor lighting and cluttered background. Outdoors with changing lighting conditions and unpredictable factors will also be challenging for accurate gesture recognition.
+
 * When will X break?
+
+    It will break when there are multiple people making gestures simultaneously. It can also struggle if the user's gestures are not well-defined or if there are hardware issues with the sensor or camera used for detection.
+
 * When it breaks how will X break?
+
+    When it breaks, it may misinterpret gestures or fail to recognize them altogether. After it breaks, we have not figured out how to make it resume from the previous break. Instead, everytime it starts right from the beginning. （But when we were casting the video, the bug fixed itself:)
+
 * What are other properties/behaviors of X?
+
+    Other properties of this system include: its response time, accuracy in recognizing specific gestures, and the ability to handle a wide range of user movements. It might also have features for customizing gesture mappings and sensitivity settings.
+
 * How does X feel?
 
+    As the user experiences largely depend on its accuracy and responsiveness, the user should feel intuitive and convenient to work as a conductor of an orchestra whereas they don’t have to work as much professionally when the system was well-implemented and consisted of enough responsive processes.
+
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+[Video Demo](https://drive.google.com/file/d/12-3f5IDIZrsoqET3ODr7K7YyxY9KyZfv/view?usp=drive_link) (Same as part B)
 
 ### Part 2.
 
