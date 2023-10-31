@@ -8,6 +8,8 @@ import alsaaudio
 m = alsaaudio.Mixer(control='Speaker', cardindex=3)
 m.setvolume(5) 
 import subprocess
+import time
+import random
 
 def play_audio():
     command = ['./loop_audio.sh']
@@ -32,7 +34,32 @@ maxVol = 100
 vol = 0
 volBar = 400
 volPer = 0
+
+gestures = ["quiet coyote!", "yay", "thubsup", "peace"]
+
+conditions = {
+            "quiet coyote!": [True, True, False, True, False], 
+            "yay": [True, True, True, False, False], 
+            "thubsup": [True, False, False, False, True], 
+            "peace": [True, True, False, True, True]
+            }
+
+start_time = time.time()
+succeeded = False
+score = 0
+target = gestures[random.randint(0, len(gestures)-1)]
+
+
 while True:
+    print(f"Current target is {target}")
+    print(f"Current score is {score}")
+    cur_time = time.time()
+    print(f"current time is {round(cur_time - start_time,2)}")
+    if (cur_time - start_time) > 5:
+        start_time = time.time()
+        target = gestures[random.randint(0, len(gestures)-1)]
+        succeeded = False       
+        
     success, img = cap.read()
     img = detector.findHands(img)
     lmList = detector.findPosition(img, draw=False)
@@ -61,21 +88,25 @@ while True:
         length2 = len_calc(middleX, middleY, ringX, ringY)
         length3 = len_calc(ringX, ringY, pinkyX, pinkyY)
         length4 = len_calc(thumbX,thumbY, ringX, ringY)
-        print(length1,length2,length3)
-        condition = length>100 and length1>100 and length2<100 and length3>100 and length4<100
-        if condition:
+        # print(length1,length2,length3)
+        # condition = length>100 and length1>100 and length2<100 and length3>100 and length4<100
+        if [length>100, length1>100, length2>100, length3>100, length4>100] == conditions[target]:
+            if not succeeded:
+                succeeded = True
+                score += 1
             m.setvolume(0)
             volPer = 0
             volBar = 400
             print("CONDITION")
-            cv2.putText(img, 'quiet coyote!', (40, 70), cv2.FONT_HERSHEY_COMPLEX,
+            cv2.putText(img, target, (40, 70), cv2.FONT_HERSHEY_COMPLEX,
                 1, (255, 255, 255), 3)
-        else:
+
+        # else:
  
-            vol = np.interp(length, [50, 300], [minVol, maxVol])
-            volBar = np.interp(length, [50, 300], [400, 150])
-            volPer = np.interp(length, [50, 300], [0, 100])
-            m.setvolume(int(vol))
+        #     vol = np.interp(length, [50, 300], [minVol, maxVol])
+        #     volBar = np.interp(length, [50, 300], [400, 150])
+        #     volPer = np.interp(length, [50, 300], [0, 100])
+        #     m.setvolume(int(vol))
 
         print(int(length), vol)
 

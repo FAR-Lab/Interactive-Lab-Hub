@@ -43,7 +43,9 @@ preprocess = transforms.Compose([
 
 
 #get model - others can be found here https://pytorch.org/tutorials/intermediate/realtime_rpi.html
-net = models.quantization.mobilenet_v2(pretrained=True, quantize=True)
+# net = models.quantization.mobilenet_v2(pretrained=True, quantize=True)
+net = models.quantization.mobilenet_v3_large(pretrained=True, quantize=True)
+
 # jit model to take it from ~20fps to ~30fps
 net = torch.jit.script(net)
 
