@@ -200,4 +200,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
+**\*\*\*Include a short video demonstrating the finished result.\*\*\***  
+
+[Video: Gesture Game Demo](https://drive.google.com/file/d/127zXbJd_su2CFDg7_0Zt_Z6VaURrcd9t/view?usp=sharing)  
+
+- **How to play:** Every 5 seconds, a random gesture will be selected from the four supported guestures "quiet coyote!", "yay", "thubsup", and "peace". The player will then need to complete posing the correspoding hand gesture in front of the camera. Within every 5 seconds, once the corresponding hand gesture is detected, the player will then get 1 point added to their final score
+- **Instructions:** The targeted hand gesture and of each round will be shown on the top-left corner of the screen. The current score and remaining time will be printed on terminal
+- **Game Target:** To get as higher score as possible
