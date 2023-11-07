@@ -387,7 +387,13 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 - OLED Screen: start and end game display, game mode: display the number of triggers have pulled
 - Joystick: trigger of the gun
 </br>
+<<<<<<< HEAD
 ![  ](https://hackmd.io/_uploads/B190AEMM6.png)
+=======
+
+![](https://hackmd.io/_uploads/B190AEMM6.png)
+
+>>>>>>> MingzheSun-Fall2023
 </br>
 
 **Detailed Descriptions:**

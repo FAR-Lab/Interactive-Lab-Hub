@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Mingzhe Sun's-Lab-Hub
+=======
+# Qianxin(Carl) Gan's-Lab-Hub
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+=======
 # [Crystal Chong]'s-Lab-Hub
+>>>>>>> CarlQGan-Fall2023
+=======
+# [Mingzhe Sun]'s-Lab-Hub
+>>>>>>> 9da52b82651b8398438900b0b78bae99c5f8c30a
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
 Please place links here to the README.md's for each of your labs here:
@@ -11,7 +23,7 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 4. Ph-UI!!!](Lab%204/)
 
-Lab 5. Observant Systems
+[Lab 5. Observant Systems](Lab%205/)
 
 Lab 6. Little Interactions Everywhere
 

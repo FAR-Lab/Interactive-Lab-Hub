@@ -185,6 +185,10 @@ Kevin: Yes TT, can you let me know where is my glasses?
 Robot Butler: Let me check. Your glass are on the sink of the bathroom.
 Kevin: Thank you, TT. 
 
+<<<<<<< HEAD
+=======
+Click to watch the video:
+>>>>>>> MingzheSun-Fall2023
 [![Act Out](https://hackmd.io/_uploads/rk0TPmke6.jpg)](https://www.youtube.com/watch?v=MXm7EFBcMv8)
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
