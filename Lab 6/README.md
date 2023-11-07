@@ -66,7 +66,7 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **Running Examples on Pi**
 
-* Install the packages from `requirements.txt` under a virtual environment, we will continue to use the `circuitpython` environment we setup earlier this semester:
+* Install the packages from `requirements.txt` under a virtual environment:
 
   ```
   pi@raspberrypi:~/Interactive-Lab-Hub $ source circuitpython/bin/activate
@@ -99,7 +99,7 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 ### Part C
 ### Streaming a Sensor
 
-We have included an updated example from [lab 4](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Fall2021/Lab%204) that streams the [capacitor sensor](https://learn.adafruit.com/adafruit-mpr121-gator) inputs over MQTT. We will also be running this example under `circuitpython` virtual environment.
+We have included an updated example from [lab 4](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Fall2021/Lab%204) that streams the [capacitor sensor](https://learn.adafruit.com/adafruit-mpr121-gator) inputs over MQTT. 
 
 Plug in the capacitive sensor board with the Qwiic connector. Use the alligator clips to connect a Twizzler (or any other things you used back in Lab 4) and run the example script:
 

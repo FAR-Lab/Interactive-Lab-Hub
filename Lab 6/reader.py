@@ -1,5 +1,6 @@
 import paho.mqtt.client as mqtt
 import uuid
+import ssl
 
 # the # wildcard means we subscribe to all subtopics of IDD
 topic = 'IDD/#'
@@ -26,7 +27,7 @@ def on_message(cleint, userdata, msg):
 # Every client needs a random ID
 client = mqtt.Client(str(uuid.uuid1()))
 # configure network encryption etc
-client.tls_set()
+client.tls_set(cert_reqs=ssl.CERT_NONE)
 # this is the username and pw we have setup for the class
 client.username_pw_set('idd', 'device@theFarm')
 

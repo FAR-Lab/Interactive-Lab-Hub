@@ -2,12 +2,13 @@ import time
 import board
 import busio
 import adafruit_mpr121
+import ssl
 
 import paho.mqtt.client as mqtt
 import uuid
 
 client = mqtt.Client(str(uuid.uuid1()))
-client.tls_set()
+client.tls_set(cert_reqs=ssl.CERT_NONE)
 client.username_pw_set('idd', 'device@theFarm')
 
 client.connect(

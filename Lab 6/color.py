@@ -5,6 +5,7 @@ import time
 import paho.mqtt.client as mqtt
 import uuid
 import signal
+import ssl
 
 import digitalio
 from PIL import Image, ImageDraw, ImageFont
@@ -69,7 +70,7 @@ def on_message(cleint, userdata, msg):
         disp.image(image)
 
 client = mqtt.Client(str(uuid.uuid1()))
-client.tls_set()
+client.tls_set(cert_reqs=ssl.CERT_NONE)
 client.username_pw_set('idd', 'device@theFarm')
 client.on_connect = on_connect
 client.on_message = on_message
