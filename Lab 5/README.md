@@ -194,7 +194,7 @@ Click the below image to see the video of an experiment interaction of using ind
 
 To move the mouse, we used `numpy` to convert the coordinate of the screen to coordinate of the web camera. And made the mouse to move based on the converted coordinate provided.
 
-
+Click to view video:
 [<img src="https://hackmd.io/_uploads/BJxFmDjM6.jpg">](https://youtu.be/mkKc_FbBc1o)
 
 
@@ -275,3 +275,9 @@ Click to view video:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+For part 2 of the lab, we implemented a pinball machine. The system consists of a 3D-printed pinball machine, the gesture recognition enabled by raspberry pi, and a pair of flippers driven by two servos. The users can play the game with their hand gestures. 
+
+Click to View the Video on the setup and game play:
+
+[<img src="https://hackmd.io/_uploads/Hyh6kkDQ6.png">](https://youtu.be/0dFlCIhwrw8?si=X3tShrgpo4UMblCZ)
