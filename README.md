@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # [Crystal Chong]'s-Lab-Hub
 =======
-# Qianxin(Carl) Gan's-Lab-Hub
+
 >>>>>>> 4f162c26a8d8317a1abe097a817e873dc7cee35b
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
