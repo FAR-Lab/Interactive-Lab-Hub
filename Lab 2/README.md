@@ -292,4 +292,8 @@ Our collaborative effort in developing this interactive time game was a team end
 - **Qianxin (Carl) Gan**: Idea brainstorming, game mode design, end product verification and testing, and debugging support. 
 - **Mingzhe (Allen) Sun**: Idea brainstorming, game mode implementation, and debugging assistance.
 
+<<<<<<< HEAD
 This collaborative effort allowed us to create an engaging and educational interactive game that explores the concept of time in a playful way.
+=======
+This collaborative effort allowed us to create an engaging and educational interactive game that explores the concept of time in a playful way.
+>>>>>>> 9da52b82651b8398438900b0b78bae99c5f8c30a
