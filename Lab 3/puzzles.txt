@@ -1,0 +1,200 @@
+Puzzle 1: What is 6 plus 7?
+Answer 1: 13
+Puzzle 2: What is 9 minus 3?
+Answer 2: 6
+Puzzle 3: What is 8 times 2?
+Answer 3: 16
+Puzzle 4: How many legs does a cat have?
+Answer 4: 4
+Puzzle 5: How many days are there in a week?
+Answer 5: 7
+Puzzle 6: What is 5 plus 8?
+Answer 6: 13
+Puzzle 7: What is 7 times 7?
+Answer 7: 49
+Puzzle 8: How many colors are there in a rainbow?
+Answer 8: 7
+Puzzle 9: What is 3 plus 9?
+Answer 9: 12
+Puzzle 10: What is 9 times 3?
+Answer 10: 27
+Puzzle 11: How many fingers does a human have?
+Answer 11: 10
+Puzzle 12: What is 4 plus 6?
+Answer 12: 10
+Puzzle 13: How many months are in a year?
+Answer 13: 12
+Puzzle 14: What is 8 plus 4?
+Answer 14: 12
+Puzzle 15: What is 7 times 8?
+Answer 15: 56
+Puzzle 16: How many seconds are in a minute?
+Answer 16: 60
+Puzzle 17: What is 2 plus 9?
+Answer 17: 11
+Puzzle 18: What is 10 times 5?
+Answer 18: 50
+Puzzle 19: How many days are in a normal February?
+Answer 19: 28
+Puzzle 20: What is 12 minus 4?
+Answer 20: 8
+Puzzle 21: How many toes does a human have?
+Answer 21: 10
+Puzzle 22: What is 3 times 6?
+Answer 22: 18
+Puzzle 23: What is 9 plus 3?
+Answer 23: 12
+Puzzle 24: How many continents are there?
+Answer 24: 7
+Puzzle 25: What is 10 plus 7?
+Answer 25: 17
+Puzzle 26: What is 6 times 5?
+Answer 26: 30
+Puzzle 27: How many vowels are in the English alphabet?
+Answer 27: 5
+Puzzle 28: What is 8 minus 3?
+Answer 28: 5
+Puzzle 29: What is 7 plus 7?
+Answer 29: 14
+Puzzle 30: How many planets are in our solar system?
+Answer 30: 8
+Puzzle 31: What is 5 times 4?
+Answer 31: 20
+Puzzle 32: What is 11 plus 2?
+Answer 32: 13
+Puzzle 33: How many sides does a rectangle have?
+Answer 33: 4
+Puzzle 34: What is 12 plus 5?
+Answer 34: 17
+Puzzle 35: What is 5 times 9?
+Answer 35: 45
+Puzzle 36: How many legs does a dog have?
+Answer 36: 4
+Puzzle 37: What is 10 minus 3?
+Answer 37: 7
+Puzzle 38: What is 3 times 9?
+Answer 38: 27
+Puzzle 39: How many letters are there in the English alphabet?
+Answer 39: 26
+Puzzle 40: What is 9 plus 6?
+Answer 40: 15
+Puzzle 41: What is 2 times 7?
+Answer 41: 14
+Puzzle 42: How many sides does a square have?
+Answer 42: 4
+Puzzle 43: What is 11 minus 5?
+Answer 43: 6
+Puzzle 44: How many wheels does a car have?
+Answer 44: 4
+Puzzle 45: What is 7 plus 4?
+Answer 45: 11
+Puzzle 46: What is 4 times 8?
+Answer 46: 32
+Puzzle 47: How many years are there in a decade?
+Answer 47: 10
+Puzzle 48: What is 10 plus 9?
+Answer 48: 19
+Puzzle 49: What is 2 times 8?
+Answer 49: 16
+Puzzle 50: How many eyes does a human have?
+Answer 50: 2
+Puzzle 51: What is 7 plus 6?
+Answer 51: 13
+Puzzle 52: What is 4 times 6?
+Answer 52: 24
+Puzzle 53: How many points does a triangle have?
+Answer 53: 3
+Puzzle 54: What is 8 plus 5?
+Answer 54: 13
+Puzzle 55: What is 3 times 7?
+Answer 55: 21
+Puzzle 56: How many wings does a bird have?
+Answer 56: 2
+Puzzle 57: What is 6 plus 8?
+Answer 57: 14
+Puzzle 58: What is 9 times 4?
+Answer 58: 36
+Puzzle 59: How many legs does a spider have?
+Answer 59: 8
+Puzzle 60: What is 10 plus 8?
+Answer 60: 18
+Puzzle 61: What is 4 times 5?
+Answer 61: 20
+Puzzle 62: How many wheels does a bicycle have?
+Answer 62: 2
+Puzzle 63: What is 7 plus 5?
+Answer 63: 12
+Puzzle 64: What is 8 times 3?
+Answer 64: 24
+Puzzle 65: How many petals does a typical flower have?
+Answer 65: 5
+Puzzle 66: What is 5 plus 9?
+Answer 66: 14
+Puzzle 67: What is 3 times 8?
+Answer 67: 24
+Puzzle 68: How many legs does an octopus have?
+Answer 68: 8
+Puzzle 69: What is 6 plus 9?
+Answer 69: 15
+Puzzle 70: What is 2 times 9?
+Answer 70: 18
+Puzzle 71: How many ears does a human have?
+Answer 71: 2
+Puzzle 72: What is 9 plus 7?
+Answer 72: 16
+Puzzle 73: What is 7 times 5?
+Answer 73: 35
+Puzzle 74: How many sides does a pentagon have?
+Answer 74: 5
+Puzzle 75: What is 8 plus 9?
+Answer 75: 17
+Puzzle 76: What is 5 times 7?
+Answer 76: 35
+Puzzle 77: How many paws does a cat have?
+Answer 77: 4
+Puzzle 78: What is 11 plus 6?
+Answer 78: 17
+Puzzle 79: What is 4 times 9?
+Answer 79: 36
+Puzzle 80: How many days are in a year?
+Answer 80: 365
+Puzzle 81: What is 10 plus 5?
+Answer 81: 15
+Puzzle 82: What is 6 times 6?
+Answer 82: 36
+Puzzle 83: How many fingers are on one hand?
+Answer 83: 5
+Puzzle 84: What is 7 plus 8?
+Answer 84: 15
+Puzzle 85: What is 3 times 5?
+Answer 85: 15
+Puzzle 86: How many oceans are there on Earth?
+Answer 86: 5
+Puzzle 87: What is 6 plus 5?
+Answer 87: 11
+Puzzle 88: What is 2 times 6?
+Answer 88: 12
+Puzzle 89: How many legs does a horse have?
+Answer 89: 4
+Puzzle 90: What is 9 plus 5?
+Answer 90: 14
+Puzzle 91: What is 8 times 4?
+Answer 91: 32
+Puzzle 92: How many teeth does an adult human usually have?
+Answer 92: 32
+Puzzle 93: What is 7 plus 9?
+Answer 93: 16
+Puzzle 94: What is 5 times 8?
+Answer 94: 40
+Puzzle 95: How many noses does a human have?
+Answer 95: 1
+Puzzle 96: What is 11 plus 7?
+Answer 96: 18
+Puzzle 97: What is 4 times 7?
+Answer 97: 28
+Puzzle 98: How many stripes does a zebra have?
+Answer 98: Countless
+Puzzle 99: What is 10 plus 6?
+Answer 99: 16
+Puzzle 100: How many humps does a Bactrian camel have?
+Answer 100: 2

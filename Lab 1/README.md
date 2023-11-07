@@ -2,6 +2,7 @@
 
 # Staging Interaction
 
+<<<<<<< HEAD
 \*\***Part 1: Shiying Wu (sw2298), Mingzhe Sun (ms3636)**\*\*
 
 \*\***Part 2: John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)**\*\*
@@ -41,9 +42,11 @@ _Make sure you read all the instructions and understand the whole of the laborat
 
 ### The Report
 This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
+=======
+\*\* Qianxin(Carl) Gan (qg72) & Mingze Gao (mg2454) \*\*
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
 ## Lab Overview
-For this assignment, you are going to:
 
 A) [Plan](#part-a-plan) 
 
@@ -57,24 +60,11 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
-
 ## Part A. Plan 
-
-To stage an interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+<<<<<<< HEAD
 As a student, we sit for a long time for lectures and completing assignments and tasks. Long periods of sitting without proper breaks and posture adjustments can lead to various negative consequences for our health and well-being.
 
 _Setting:_ The device is strategically placed within a student's study space or workspace, positioned on the desk where the user sits to engage in their work or study activities. The interaction occurs when the device detects the user and provides a real-time sitting posture response.
@@ -99,55 +89,180 @@ Present your ideas to the other people in your breakout room (or in small groups
 \*\***Summarize feedback you got here.**\*\*
 
 We all agreed that this idea of encouraging better sitting posture is great. However, we're aware that if the user becomes annoyed by the device and turns it aside, its value will diminish. Additionally, we recognize that this device is more suitable for private spaces without others present. Exploring a more compact design that enhances portability could widen its applicability. We also think it would be better to not only remind users of their improper posture but also provide guidance on correct posture and potential exercises to help maintain their health.
+=======
+_Setting:_ In our design, we are implementing a scenario based ambience lighting that can correspond to different modes of interations. More specifically, in the most common spaces that one might be at: workstation, bedroom, personal vehicle, etc.
+
+_Players:_ The design is centered around one user, but is scalable to multiple users depending on the scenario (e.g. in shared spaces, etc.). For multiple users, it can be used as a status indicator.
+
+_Activity:_ The user is the primary actor who interacts with the ambiance lighting device. The device changes lighting modes based on the user's activities and preferences.
+
+_Goals:_ The goal of the player is to maximize their performance and stay in a good mood with the help of our ambience lighting system. For example, the ambience lighting system can help players to drive better according to their mood and their desired driving style. Another example is that our lighting system can reflect on the sleeping quality of the users and cheer them up if they are not in a good mood whenever they are in the room.
+
+\*\***Include pictures of your storyboards here**\*\*
+
+![Storyboard 1-3](media/storyboard-1.png)
+![Storyboard 4-6](media/storyboard-2.png)
+![Storyboard 7](media/storyboard-3.png)
+
+
+\*\***Summarize feedback you got here.**\*\*
+
+Crystal: This is so cool! Great scenarios. I think this is a great companion device that would help out a lot in providing insights and keeping track of everyday activities.
+
+Yiming: I really like the sketches of devices you created, especially the mood-based design. I think it will be very useful in the real-word.
+
+Ben: The video looks great! Makes the interaction very clear. 
+
+Gloria: I love the storyboards, especially the car one! It could also be a good inspiration for people who have road rage reminding them to be aware of their emotion control by using the light device. It’s just an expansion idea. Your video and demonstrations were very clear and easy to follow. 
+
+Michael: Great video! One question I have about the RoomBuddy is the light feature for sleeping. In the video, the light turns green to indicate good sleep quality. However, I was wondering when this light turns on, as the video makes it seem like the light turns on while the person is still sleeping. Is this after they wake up? If not, I feel like the light might disturb someones sleep
+
+Mingzhe Sun: Very impressive device. I like the idea that the RoomBuddy can interact with the the users emotion. I think this interaction is very useful to regulate people’s emotion. One suggestion I have would be to provide positive support color when people are not in a good mood.
+
+
+## Part B. Act out the Interaction
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+
+While acting, we might realize that timing could be one of the issues in sending messages to the device. For example, if the user's motion is too fast or too slow, it might cause the device to misinterpret the intended action. 
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+We have an idea that helps users to interact with devices effectively. By adding a short User Guidance, it could contain simple animations or instructional prompts that guide users on how to interact with the device in different scenarios. In addition, we also thought of further blending in the system with the surroundings.
+
+
+## Part C. Prototype the device
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+
+The overall process of using Tinkerbelle is very convenient and hassle-free. It would be nice if some more features can be added. For example, when using the phone as a lighting device, we would like to see a full-screen mode that displays only the color, instead of having buttons on the screen at the moment. In addition, it would be great if it can work without private network or even internet.
+
+## Part D. Wizard the device
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+
+[YouTube Video for the Set-up](https://youtube.com/shorts/tdQswdd_Q1Q?feature=share)
+
+\*\***Show the follow-up work here.**\*\*
+
+After testing out the device in the physical environment, we further improved the design of the in-car display, and associated the weather forcasting feature with windbell. In such way, we can further incorporate our design into the natural surroundings of the prototyped settings, and provide our device with a more friendly touch.
+
+
+## Part E. Costume the device
+
+\*\***Include sketches of what your devices might look like here.**\*\*
+
+![Costumed Designs](media/costumed_sketches.jpg)
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+By designing the device, a few concerns might influence the way to design our product. Firstly, the device will be placed in multiple areas inside the vehicles or rooms; therefore, the installation is crucial. The design of the device should facilitate simple and easy installation. Secondly, the size and flexibility could also be one of the concerns. The places to install the device might be slightly different. For example, the device might be placed behind the vehicle's door handler or in the corner of the bedroom. By considering these cases, the device should be designed using bendable materials.
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+[Youtube Video for the Prototyped Interactions](https://youtube.com/shorts/-T5DoJo7uYs?feature=share)
+
+In addition, here is a prototype for the weather/mood based windbell design:
+
+![Windbell Prototype](media/windbell_prototype.gif)
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+
+Throughout this lab, Qianxin Gan and Mingze Gao collaborated together with equal contribution towards different parts of the design. In addition, we would also like to appreciate the generousity of Ziyang Wei.
+
+# Staging Interaction, Part 2 
+
+\*\***NAME OF COLLABORATORS HERE**\*\*
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
+
+## Part A. Plan 
+**_Setting:_** The interaction takes place in a kitchen, where the device is typically affixed to the refrigerator door, though it is also detachable. The interaction initiates when a user stands within the range where the device can detect their presence. The interaction can be triggered through either touch or voice commands.
+
+**_Players:_** Anyone standing in front of the device can interact with it. Voice commands are not tied to specific users; in other words, anyone saying the keyword 'Hi, <device\>' can activate it.
+
+**_Activity:_** 7 different activities are provided by the device:
+
+**1. Dietary Guardian:** This device scans the food items provided by the user and assesses whether this combination is healthy or not, taking into account the user's health records, dietary restrictions, and current medications. It conveys this information through a color-coded system: red for unsafe and green for safe. Additionally, it provides further details through both audio and text projected onto the fridge.
+
+**2. Food Compatibility Advisor:** When the user is uncertain about a specific food combination, they can invoke the device through an audio command, and the device will respond with a color-coded system: red for unsafe and green for safe. Furthermore, it provides additional details through both audio and text projected onto the fridge.
+
+**3. Ingredient Checker:** Upload your grocery shopping list from your phone or let the device scan the receipt, allowing our system to check for potential food safety concerns before your purchase. Additionally, it will remind you of items already in the fridge, displaying their last purchase date to prevent duplicate purchases.
+
+**4. Interactive Educational Helper:** Users can engage with the device in quiz mode to test their knowledge of food combinations.
+
+**5. Fridge Inventory Condition Checker:** When the user brings in new groceries, they can activate the grocery loading mode to monitor the freshness of their food. As items are placed in the fridge, the device identifies them, verbally confirming the food name and storage date with the user. If the device detects that the food is likely spoiled, it turns red and emits a warning sound to alert the user when they approach the fridge.
+
+**6. Drink & Beverage Tracker:** For bartenders, keeping tabs on drink and beverage inventory is essential to avoid running out of supplies. Each time the user adds a new drink to the fridge, the device updates the inventory count accordingly. Users can also set a minimum threshold for each drink while loading them into the fridge. If the quantity of a drink falls below the set threshold, the device turns red and emits a warning sound.
+
+**7. Monsieur le Chef:** Stumped about dinner options? This device suggests potential meals based on your current fridge inventory and provides recipes to help you decide.
+
+
+**_Goals:_** The goal of the player is to maintain a healthy diet.
+
+![](https://hackmd.io/_uploads/rJdaxf4R3.png)
+![](https://hackmd.io/_uploads/HJJr-fN03.png)
+![](https://hackmd.io/_uploads/Hyu6lfVC2.png)
+![](https://hackmd.io/_uploads/ByC4-MECh.png)
+
+\*\***Summarize feedback you got here.**\*\*
+
+Overall, the feedback for our design concepts is very positive: our design concepts are well-thought-out and offer a variety of functionalities aimed at different needs and scenarios. At the same time, we were advised to use simpler language, as readability is also a key factor in addition to professionalism for our design. One of the suggestions is to provide users with a guide to what they can expect from the product. Lastly, We were advised to consider enhancing user experience by adding more feedback in addition to light. For example, we can incorporate sound cues and vibrations into our design to facilitate the users. In addition, it is possible to empower Learning Algorithms in the device that interfaces with a Smart Phone Application. This application holds the capability to assist the device in sending timely reminders and facilitating orders initiated by the user. It could also use data from the household to provide more personalized advice and further optimize the user experience.
+
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
+
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+At first, we plan to use text to display all the information needed by the user. However, when we acted out displaying text on screen, we figured that text is not intuitive and hard for people to read on such a device. Therefore, we started to think about more interactive ways of showing that information by using light and voice. This finding guides our future design of the device.
 
 When we actually acted out the scenario, we noticed that users might ignore the device when they're really focused on their tasks. The phone screen might not be bright enough to get their attention. We thought that adding some kind of sound or haptic feedback could help to make sure they notice the device's cues.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+<<<<<<< HEAD
 
 While acting out the scenario, we realized that there's potential to add more interactive elements to the device. The brief role-play also made me personally aware of how bad posture could lead to discomfort, like back pain. I even felt the need to stand up and stretch. This experience sparked the idea of incorporating a timer function into the device. This function could remind users to take breaks if they've been sitting for too long, which could be really helpful.
+=======
+We realized that since the device is designed to be a food advisor, it should also have the capability to provide food recommendations. With this idea in mind, we expanded the device's functionality to turn it into an at-home chef and nutritionist.
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
-\*\***Give us feedback on Tinkerbelle.**\*\*
+\*\***Feedback on Tinkerbelle.**\*\*
+The user experience of Tinkerbelle is user-friendly and trouble-free. It could be improved if additional functionalities could be incorporated. For instance, while using the phone as a lighting tool, a full-screen mode that exclusively showcases the color without any buttons would be desirable. In addition, adding the feature that users can manually input RGB numbers can increase the flexibility of Tinkerbelle. 
 
 The setup instructions are simple and easy to follow. However, we encountered difficulty using it with the campus WiFi (so we used a hotspot instead). Additionally, when an additional device joined, it displayed the default color instead of the color currently selected by the remote control. An improvement could involve incorporating a feature to manually enter RGB numbers.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+[<img src="https://hackmd.io/_uploads/H11LzyNA3.png">](https://www.youtube.com/watch?v=TdZUB5HhaLk&ab_channel=AllenSun)
 
 [![Set Up](setup.jpg)](https://www.youtube.com/watch?v=TdZUB5HhaLk)
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+<<<<<<< HEAD
 - Device turns on/user presents in front of device: Black color (so user only see the clock)
 - User's sitting posture changes: The worser the posture, the redder the device
 - User corrects his/her posture: The device becomes black again to act like a clock
+=======
+See part F for details.
 
-## Part E. Costume the device
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
-Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+## Part E. Costume the device 
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+<<<<<<< HEAD
 Costume 1: Analog Style Clock
 <img src="costume1.jpg">
 
@@ -158,6 +273,26 @@ Costume 3: Cute Style Clock
 <img src="costume3.jpg">
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+=======
+Minimalism Design
+
+Our first design is a coin-sized, portable device designed for effortless convenience. This tiny attachment seamlessly affixes to your phone, you can carry this device around and make evaluation of the food.
+![](https://hackmd.io/_uploads/BkwmD2XRn.jpg)
+
+Wearable Design
+
+Our second design is a sleek, glass-like device that instantly scans food, analyzing its nutritional quality, freshness, and safety. It then illuminates the results in vibrant colors, making it effortless to distinguish between good and bad food choices, ensuring your health and well-being with just a glance.
+![](https://hackmd.io/_uploads/rySJDhX0n.jpg)
+
+Seamlessly Household Design
+
+Our third is a fridge-sticker-sized smart device that blends into your kitchen. It identifies the quality of the food in your fridge, categorizing it as fresh, near expiry, or spoiled, and offers personalized meal suggestions based on what's available. It's like having a nutritionist right in your kitchen, ensuring you make the best food choices while minimizing waste.
+![](https://hackmd.io/_uploads/SysRLnQ03.jpg)
+
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
+
+By designing the device, a few concerns might influence the way to design our product. Firstly, the device can be carried to different places; therefore, accessibility and flexibility have to be carefully considered. The design of the device should be simple and portable. Secondly, the size of the product needs to be very reasonable to adapt to every situation. For example, we have designed three different formats of the product to provide alternative ways of accessing the device. 
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
 Since our device acts like a clock when the user's sitting posture is correct, we designed the device to resemble a traditional timepiece. We've provided users with the choice between an analog-style clock and a digital-style clock, catering to varying preferences in time display. Moreover, we've taken into account the needs of children who also spend extended periods studying. As a result, we've introduced a cute-style clock option tailored for this audience.
 
@@ -285,11 +420,19 @@ By designing the device, a few concerns might influence the way to design our pr
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+<<<<<<< HEAD
 [<img src="prototype1.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
 
 [<img src="prototype2.jpg">](https://youtu.be/qtcV7ecHLRY?si=ChWoWfhIzqL5sroH)
 
 [<img src="prototype3.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
+=======
+[<img src="https://hackmd.io/_uploads/HJfMmfN0h.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
+
+[<img src="https://hackmd.io/_uploads/Sy7M7zNA2.jpg">](https://youtu.be/qtcV7ecHLRY?si=ChWoWfhIzqL5sroH)
+
+[<img src="https://hackmd.io/_uploads/H1ffQfVC2.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
+>>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
