@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Mingzhe Sun's-Lab-Hub
 =======
 # Qianxin(Carl) Gan's-Lab-Hub
 >>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+=======
+# [Crystal Chong]'s-Lab-Hub
+>>>>>>> CarlQGan-Fall2023
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
 Please place links here to the README.md's for each of your labs here:
