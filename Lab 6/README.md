@@ -1,6 +1,8 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
++ Tingrui（Freya) Zhang - tz428
++ Khiem Pham - dpk45
++ Sissel Sun - rs923
 
 ## Prep
 
@@ -95,6 +97,18 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+1. Apple "Ready to Eat" Sensor
+  We can use sensors to determine if an apple, or potentially any fruit, is ripe and ready to eat. Multiple sensors can be integrated into our system, such as firmness, color, and perhaps ethylene emission (a gas emitted by ripening fruit). The sensor data would be transmitted using MQTT to a smartphone app or a central monitoring system. When the apple reaches its optimal ripeness, a notification is sent to the user. 
+2. Interactive Scavenger Hunt
+  In this interactive game, participants are engaged in a scavenger or treasure hunt where they must find hidden objects in certain locations. Players can send inquiries about their current location. In response, the game host (an automated system based on pi) will use MQTT to send back hints, such as the distance to the nearest clue or the direction they should head. The game can be integrated with GPS or RFID technologies. 
+3. Vault Protector with Proximity Detection
+  This idea is a security system designed to protect valuables in a safe or vault. It would use motion sensors to detect if someone is approaching or tampering with the vault. Upon detecting unauthorized presence or tampering, the system would immediately send an alert via MQTT to the owner's smartphone or security center. This can be paired with other security measures like cameras or alarms.
+4. Improvisation and Recording Music Notation
+  This system is designed to capture and record music as it is being improvised. While a musician plays, the system would accurately record each note, its timing, duration, and dynamics. For instance, sensors on a piano could detect which keys are pressed and for how long. The data from these sensors would be transmitted in real-time using MQTT to a software application that converts this data into standard music notation. This notation could then be displayed or saved for future reference.
+5. Time-Lapse Photography
+  Time-lapse photography involves taking sequences of photos at set intervals to capture changes that occur slowly over time. When played back at normal speed, time appears to be moving faster. Cameras equipped with sensors can be programmed to take photos at specific intervals. Additional sensors might measure environmental conditions like light or temperature, triggering the camera to capture images under certain conditions. The camera or sensor system could use MQTT to send status updates or images to a central system for processing and storage. This allows for remote monitoring and control of the time-lapse process.
+6. Telegram Sender/Receiver Morse Code
+  This idea revolves around a system that can send and receive messages in Morse code using the Telegram messaging platform. Morse code involves sending messages through a series of dots and dashes. The system would involve a button for inputting Morse code and a mechanism to convert Morse code into text, and vice versa. To send messages, a user could input Morse code manually, which would then be translated into text and sent via MQTT. 
 
 ### Part C
 ### Streaming a Sensor
@@ -117,7 +131,13 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![twizzler](twizzler.png)
+On MQTT Explorer, there's a message "Twizzler 5 touched!"
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+![keypad](keypad.png)
+We picked the numpad. Once a button is pressed, the message of corresponding button would appear on the MQTT Explorer. The picture shows an example where '5' is pressed. 
 
 
 ### Part D
@@ -147,7 +167,7 @@ By running the script, wou will find the two squares on the display. Half is sho
 (A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
-
+![Color](color.png)
 
 ### Part E
 ### Make it your own
@@ -156,11 +176,23 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+We create a remote controlled camera system. Everyone who subscribes to our MQTT topic can control the camera i.e. take a picture, the camera being in a remote location. This has uses in home monitoring systems, where a homeowner wants to see who is currently in his house or what is happening in his house at the moment he is at work. However, our main goal is to allow everyone to control the camera: this is similar to an audience controlling what a livestreamer does.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+The pi with the camera is at a fixed location e.g. at a house, looking at Queens Bridge, at a busy NYC corner… The controller can be in any remote location and with access to the topic. The controller sends a message to the MQTT server, and the pi takes the picture.
+
+![Diagram](diagram.png)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+Our cameras are meant to be left alone 🙂. Practically, we hide them from view, so that no stranger will mess with them.
+
+Our working prototype is a first step towards EarthCam, where users can view the streaming of the camera and record or take a picture of their own choice. However, images and videos are too large to send over MQTT, which is a setback we plan to solve in the future.
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+[Demo Video](https://drive.google.com/file/d/12y5nXuxuGaV1omgSj9smJseexG77miK2/view?usp=sharing)
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

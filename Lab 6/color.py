@@ -56,7 +56,7 @@ sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
 sensor.enable_color = True
 r, g, b, a = sensor.color_data
 
-topic = 'IDD/colors'
+topic = 'IDD/colors/fsk'
 
 def on_connect(client, userdata, flags, rc):
     print(f"connected with result code {rc}")
@@ -65,7 +65,7 @@ def on_connect(client, userdata, flags, rc):
 def on_message(cleint, userdata, msg):
     # if a message is recieved on the colors topic, parse it and set the color
     if msg.topic == topic:
-        colors = list(map(int, msg.payload.decode('UTF-8').split(',')))
+        color =tuple(map(lambda x: int(255*(1-(a/65536))*255*(x/65536)) , [r,g,b,a]))
         draw.rectangle((0, 0, width, height*0.5), fill=color)
         disp.image(image)
 

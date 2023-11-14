@@ -394,6 +394,8 @@ We are playing the piano like an ukulele, which is a simplified ukulele with pia
 
 [Video demo](https://drive.google.com/file/d/1-eicEowI_QwbFEQE6uqeBe42RfTx9uUs/view?usp=drive_link)
 
+Code: see [ukulele.py](ukulele.py)
+
 Photos:
 
 ![Prototype Overview](photo_1.jpg)

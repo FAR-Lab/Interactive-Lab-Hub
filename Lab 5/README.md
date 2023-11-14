@@ -274,3 +274,11 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+Based on part 1, we improved our prototype so that it can control the volume of each track instead of just turning up/down. We also included an improvise version of letting the model decide the volume based on new and random gestures "in the spirit of jazz". 
+
+[Demo Video](https://drive.google.com/file/d/1kT_DmciYyDpyx9DZT51t-3RiCTf8t1c9/view?usp=sharing)
+
+Code: [instrument.html](./instrument.html) and [instrument_random.html](./instrument_random.html)
+
+Models: [instrument_model](./instrument_model/) and [instrument_random_model](./instrument_random_model/)
