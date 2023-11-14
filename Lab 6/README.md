@@ -1,6 +1,7 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
+Amber Tsao (ct649), Aris Huang (th625), Julia Lin (jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Ifeng Wu (iw84)
+
 
 ## Prep
 
@@ -95,6 +96,27 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+- Fire Rescue Operation: Can be used to send or retrieve information from on-site firefighters to on-site commanders. The message can be text-based or voice-based translation to text (optional) to dispatch messages regarding the rescue operation (real-time victim status updates and hostility of the environment) .
+![IDD-1](https://hackmd.io/_uploads/BkmS6DaQT.jpg)
+
+- Smart Home Automation: MQTT can be used to interconnect various smart home devices like thermostats, lighting systems, security cameras, and door locks. These devices can communicate with each other and a central home automation server to create a more efficient, responsive, and intelligent home environment. For instance, your thermostat could adjust the temperature based on the data received from window sensors (indicating whether windows are open or closed) and occupancy sensors (indicating which rooms are currently in use).
+![IDD-2](https://hackmd.io/_uploads/BkBt0d6QT.jpg)
+
+
+- Industrial Monitoring and Control: In industrial settings, MQTT can be utilized for monitoring and controlling machines and processes. Sensors can send real-time data about machine performance, temperature, pressure, and other critical parameters to a central server. This data can then be used for predictive maintenance, alerting staff to potential issues before they become major problems, and for optimizing production processes. Additionally, MQTT can enable remote control of machines, allowing operators to adjust settings or turn equipment on or off from a distance.
+![IDD-3](https://hackmd.io/_uploads/HyA5UdaQa.jpg)
+
+
+
+- Healthcare Applications: MQTT can be applied in healthcare for remote patient monitoring and mobile health applications. Wearable devices like heart rate monitors, blood pressure cuffs, and glucose monitors can use MQTT to send patient data to healthcare providers in real-time. This allows for continuous monitoring of patients, particularly those with chronic conditions, improving patient care and potentially reducing the need for hospital visits. In emergency situations, this real-time data transmission can be critical for quick response and treatment.
+![IDD-4](https://hackmd.io/_uploads/rkFhhNyVp.png)
+
+
+
+- Agricultural Monitoring and Management: MQTT can revolutionize the agricultural sector through precision farming. By connecting various sensors deployed across a farm, MQTT can facilitate real-time data collection on soil moisture, temperature, humidity, and crop health. This data can then be analyzed to make informed decisions about irrigation, planting, fertilizing, and harvesting. For instance, soil moisture sensors can inform an automated irrigation system to water specific areas of a farm, ensuring optimal water usage. Additionally, MQTT can be used to monitor and control greenhouse environments, ensuring that conditions like temperature and humidity are kept at ideal levels for plant growth. This approach not only increases efficiency and crop yield but also contributes to sustainable farming practices by conserving resources.
+![IDD-5](https://hackmd.io/_uploads/B1UM0QkVT.jpg)
+
+
 
 ### Part C
 ### Streaming a Sensor
@@ -116,8 +138,22 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![IMG_FC6AE55A43A3-1](https://hackmd.io/_uploads/SkKws_a7a.jpg)
+![Screenshot 2023-11-11 at 5.09.03 PM](https://hackmd.io/_uploads/HkpKj_a7a.png)
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+![IMG_D4B178706203-1](https://hackmd.io/_uploads/Bk1SIOpXa.jpg)
+- Setup: Use three pieces of the conductive tape (strapped to the straw) and connect them to three separate ports on the capacitive sensor.
+
+The output from the MQTT Explorer:
+
+![Screenshot 2023-11-11 at 4.47.31 PM](https://hackmd.io/_uploads/HkQYIu6Qp.png)
+- The MQTT Explorer will display the latest touch information from the a specific copper tape location from the set up.
+
+
+
+
 
 
 ### Part D
@@ -143,10 +179,16 @@ The second step to achieving our great enlightenment is to run `color.py`. We ha
  ```
 
 By running the script, wou will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
+[Click here for Changing Color Video Demo](https://drive.google.com/file/d/1tXZ6Zdkotb49lUtUbMB1Y93vtDObDY3I/view?usp=sharing)
+Changing Color-> the color information will be sent to MQTT Explorer as shown below: 
+![Screenshot 2023-11-11 at 5.24.46 PM](https://hackmd.io/_uploads/rySSkKpXT.png)
+
 
 (A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+[Video Demo: Change color across all devices through MQTT](https://drive.google.com/file/d/1eBdF5KNCynUMlMxGFN5zLP9-voar4Gzv/view?usp=sharing)
+
 
 
 ### Part E
@@ -156,11 +198,18 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+This design utilizes camera to detect user hand pose for what number they would like to vote for, from 1 to 3. It is able to tally the total number of votes for each number. It is a useful system because it is more convenient for the user to be able to just use gesture to signal what number they would like to vote for, instead of having to press any buttons or type out their selection. The system is also able to tally up the results, so it is more convenient for those who need the total number of votes for each number.
+
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+![S__12877957](https://hackmd.io/_uploads/B1gTEN1Vp.jpg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+- Making sure the user interface (via the Terminal console) will showcase the synced results based on user's gesture in accurate, timely manner 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+[Video Demo: Voting System](https://drive.google.com/file/d/17zr7aMg4jYNKH2DIuwPHKrXbXjNUIgsC/view?usp=sharing
+)
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
