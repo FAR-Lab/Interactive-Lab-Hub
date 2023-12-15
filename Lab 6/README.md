@@ -1,6 +1,7 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
+John Li (jl4239), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
 
 ## Prep
 
@@ -96,6 +97,16 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. **Smart Home Control:** Manage various smart home devices such as lights, thermostats, and security cameras with MQTT. Users can publish commands to a topic like "home/livingroom/light/on" to turn on the lights or "home/thermostat/temperature/set/xx" to adjust the temperature, and the corresponding devices would subscribe to these topics to receive and act on the commands.
+
+2. **Wearable Health Monitors:** Use MQTT in wearable devices that monitor health metrics like heart rate, blood pressure, and steps taken. The device can publish this data to a secure topic, which a health app subscribes to in real-time, allowing both the user and healthcare providers to monitor the data for any health alerts.
+
+3. **Industrial IoT Sensors:** In a manufacturing setting, MQTT can be used to connect a network of sensors on the equipment to monitor conditions such as temperature, vibration, location, and humidity. The sensors would publish their data to specific topics that maintenance systems subscribe to, enabling predictive maintenance and quick response to any anomalies.
+
+4. **Interactive Gaming:** In multiplayer gaming environments, MQTT can be used to transmit player actions and game state updates to all connected clients in real-time. By publishing movements or commands to a common game topic, all players can have a synchronized and interactive gaming experience.
+
+5. **Retail Digital Signage:** Retailers can employ MQTT to manage digital signage displays across multiple locations. Updates to advertisements or announcements can be published to topics corresponding to each screen or location, and the displays would subscribe to these topics to receive and show the latest content.
+
 ### Part C
 ### Streaming a Sensor
 
@@ -116,8 +127,22 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![1863bebcbdbf62c78a978a62e0ba37a](https://hackmd.io/_uploads/HkRBDZeNT.jpg)
+
+![f66256a5975f100bfef29f59ede867f](https://hackmd.io/_uploads/Bkky_ZeET.png)
+
+
+
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+![image](https://hackmd.io/_uploads/BJOJ-MgVT.png)
+
+![image](https://hackmd.io/_uploads/SktLefgE6.png)
+
+
+
+
 
 
 ### Part D
@@ -148,6 +173,10 @@ By running the script, wou will find the two squares on the display. Half is sho
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+Click to view the video:
+[<img src="https://hackmd.io/_uploads/ryegfKxVa.png">](https://www.youtube.com/watch?v=GXK39LnFhd8)
+
+
 
 ### Part E
 ### Make it your own
@@ -155,12 +184,60 @@ By running the script, wou will find the two squares on the display. Half is sho
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+Design of the Pet Button Puzzle:
+The pet button puzzle is ingeniously designed to tap into the natural instincts and intelligence of pets. By pressing different buttons, pets can trigger specific actions: dispensing food, releasing water, or even calling their owner. This design not only incorporates physical activity but also provides cognitive challenges that keep pets engaged. The buttons are made to be durable and responsive, suitable for the varied shapes and strengths of different pets. Additionally, the dispenser is constructed to provide the correct portion sizes for food and water, which is essential for maintaining a healthy pet diet.
+
+Why People Would Want This:
+People are increasingly looking for innovative ways to enhance their pets' lives. The pet button puzzle offers a dual benefit. Firstly, it provides mental stimulation for pets, which is crucial for their well-being, especially when they are left alone at home. It can help mitigate issues like separation anxiety and destructive behavior by giving pets a focus and a rewarding activity. Secondly, for pet owners, the puzzle is a convenient tool to ensure their pets are fed and hydrated on time, especially during long work hours or unexpected delays in returning home. It can also be a comforting thought that your pet can, in a way, reach out to you through the system, making it an interactive tool that strengthens the bond between the pet and the owner.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+Input Devices (Buttons for Interaction):
 
+Food Button: When pressed by the pet, it signals the need to dispense food.
+Water Button: When pressed, it signals the release of water.
+Call Owner Button: Activates a communication device to alert the owner.
+Computation/Processing Unit (Microcontroller/Processor):
+
+Receives input from the buttons.
+Processes the input and decides the action to take based on the button pressed.
+Sends a signal to the appropriate output device.
+Could also be connected to the internet for remote monitoring and notifications.
+Output Devices (Mechanisms for Reward and Communication):
+
+Food Dispenser: Activated by the processor to release a predetermined amount of food.
+Water Dispenser: Triggered to provide water upon receiving the signal from the processor.
+Speaker/Communication Module: Plays a pre-recorded message or sends a signal to the owner's device when the call button is pressed.
+Power Supply:
+
+Provides power to the microcontroller, sensors, and actuators.
+Connectivity (for Remote Access and Notifications):
+
+Wi-Fi/Bluetooth Module: Connects the system to the internet or a local network, allowing for remote notifications and monitoring by the owner.
+User Interface (for Owners):
+
+Mobile App/Web Interface: Allows the owner to monitor activity, change settings, and receive alerts.
+Listeners (Pets and Owners):
+
+Pets: The primary listeners to any sound output like clicks or the sound of the food dispenser, which serves as a cue for them.
+Owners: Secondary listeners who may receive alerts or calls from the system based on the pet’s interaction with the puzzle.
+
+![536e9b0df88aab70481b120f4b22cfd](https://hackmd.io/_uploads/H1x6NugNp.png)
+
+
+Network: Connects all components and ensures communication with external devices or the internet.
+![IMG_9631](https://hackmd.io/_uploads/ryR1qPl46.png)
+
+
+
+
+**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+![3111699936479_.pic](https://hackmd.io/_uploads/By21Ydg4a.jpg)
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+
+Click to view the video:
+[<img src="https://hackmd.io/_uploads/SJxfWtlN6.png">](https://www.youtube.com/watch?v=-BGFuBviWq4&t=1s)
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

@@ -1,10 +1,11 @@
 # Chatterboxes
 **NAMES OF COLLABORATORS HERE**
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
 
-We will focus on **audio** as the main modality for interaction to start; these general techniques can be extended to **video**, **haptics** or other interactive mechanisms in the second part of the Lab.
 
 ## Prep for Part 1: Get the Latest Content and Pick up Additional Parts 
 
@@ -18,11 +19,11 @@ Students who have not already received a web camera will receive their [IMISES w
 
 As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. There are 2 ways you can do so:
 
-**\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the *personal access token* for this.
+**[recommended]** Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the *personal access token* for this.
 
 ```
 pi@ixe00:~$ cd Interactive-Lab-Hub
-pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2022
+pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2023
 pi@ixe00:~/Interactive-Lab-Hub $ git add .
 pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
 pi@ixe00:~/Interactive-Lab-Hub $ git push
@@ -68,6 +69,9 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
+Here's the [shell file](./speech-scripts/greetings.sh) greeting us in our favorite TTS engine - the GoogleTTS.
+
+Greeting shell file located in `\speech-scripts\greetings.sh`.
 
 ---
 Bonus:
@@ -110,6 +114,11 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+Here's the [shell file](./speech-scripts/transcribe.sh) that acts as a voicemail message asking for a callback number, records the inputs, and transcribes to numerical outputs. The shell file also invokes a python script [ask_and_record.py](./speech-scripts/ask_and_record.py) that uses `vosk` to transcribe the audio.
+
+[![Voice Mail](https://hackmd.io/_uploads/SyaHD7Je6.jpg)](https://www.youtube.com/watch?v=cD3JbQLfFVg)
+
+
 
 ### Serving Pages
 
@@ -134,21 +143,65 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+![](https://hackmd.io/_uploads/B1RiW_yep.jpg)
+
+
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
 
+The Hotel Robot Butler, affectionately known as "TT", is an innovative and advanced speech-enabled device designed to revolutionize the guest experience within hospitality establishments, particularly hotels and resorts. TT is a cutting-edge fusion of artificial intelligence and robotics, seamlessly integrated into the hotel's environment to provide personalized and efficient service to guests.
+
+To interact with "TT", the customer will need to say a sentence that includes the keyword "TT." We chose this name because it is not a word commonly used in conversation. Therefore, the device will not be activated accidentally. The device can provide any services offered by the hotel, such as breakfast options, locating objects in the room, ordering towels, room service, and more. It has an embedded AI language model that enables it to process and respond to conversations.
+
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+Intended Script:
+Question: what is the weather today?
+Robot: Today is sunny, tempature of 75F
+Question: Can you replace the towel?
+Robot: For sure, A servant will come shortly.
+Question: what is the time now?
+Robot: Now is 9:30AM Sep 23rd
+Question: Can you tell me a joke?
+Robot: for sure, XXXX hahahahaha
+Question: when does breakfast time end?
+Robot: The breakfast hours is 6:30 to 9:30 everyday at floor 2nd
+Question: can you connect me to front desk?
+Robot: Calling Front Desk...
+
+Actual Script
+Kevin: Morning TT.
+Robot Butler: Morning Kevin, how I can help you?
+Kevin: What you get for breakfast today?
+Robot Butler: For breakfast today, we have a selection of options. You can choose from a variety of cereals, fresh fruits, and toast with your choice of spreads. Additionally, there are some hot options like scrambled eggs, bacon, and pancakes. Please let me know your preference, and I'll prepare it for you.
+Kevin: Can you give me a French toast with wipped cream and two bacons, and some blueberry please.
+Robot Butler: No problem, I will send them your way. What else can I help you with?
+Kevin: Yes TT, can you let me know where is my glasses?
+Robot Butler: Let me check. Your glass are on the sink of the bathroom.
+Kevin: Thank you, TT. 
+
+<<<<<<< HEAD
+=======
+Click to watch the video:
+>>>>>>> MingzheSun-Fall2023
+[![Act Out](https://hackmd.io/_uploads/rk0TPmke6.jpg)](https://www.youtube.com/watch?v=MXm7EFBcMv8)
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+    Before the dialogue, Our script was preping for questions like can you replace the towel or put do not disturbe, or some questions like weather or tempature. 
+    But when we acted out, the first question was on what breakfast does the hotel provides and none of the question was expact, that was really surpising. 
+    We figured it would be extremely hard to 'hard code' a script to fullfill it's designed purpose. NLP or big data model will be essanital for the chat bot to be  comprehensive in practise.
+
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
 
 # Lab 3 Part 2
 
@@ -156,9 +209,21 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings
+
+With our Part 1 creation, the Hotel Robot Butler, there exists a requirement for users to possess some prior knowledge or instructions to effectively engage with the device. Moreover, it can be uncertain as to the range of services the device is equipped to handle. In light of the upcoming Halloween season, we have chosen to craft a device that seamlessly integrates into Halloween decorations and offers an intuitive and straightforward interaction experience for users.
+
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+In the context of our Halloween device, we are contemplating the incorporation of additional interaction modes beyond speech to enhance user clarity. One approach involves utilizing a sensor that can detect when someone is approaching our door, subsequently triggering our speech detection feature. Additionally, we are considering the utilization of a servo motor mechanism to deliver an element of surprise or scare to the user, complementing the overall interaction experience.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+![](https://hackmd.io/_uploads/BJN_X2_la.jpg)
+
+
+Brainstorming Ideas:
+- A doorbell trick-or-treat
 
 ## Prototype your system
 
@@ -169,7 +234,28 @@ The system should:
 
 *Document how the system works*
 
+**The system operates as follows:**
+
+**Distance Sensor Activation:** A distance sensor is employed to monitor the proximity of individuals approaching the door. When a person comes within 0.5 meters of the door, where the device is securely attached, this sensor triggers the activation of the interaction system.
+
+**Speech Detection:** Upon activation, the system initiates its speech detection feature, actively listening for the specific keyword, "trick or treat." This keyword serves as the trigger for further interaction.
+
+**Random Puzzle Generation:** Subsequently, the system randomly selects one of the 100 available puzzles from its database. This selected puzzle is then vocalized by the system, providing the user with a unique Halloween-themed challenge.
+
+**User Input:** After hearing the puzzle, the user is prompted to input their solution through the keyboard interface provided by the device. The keyboard allows the user to type in their answer.
+
+**Answer Validation:** Once the user submits their answer, the system performs an immediate validation check to determine its correctness. If the user's answer aligns with the correct solution, the system triggers a rewarding response.
+
+**Reward or Haunting:** In the event that the user's answer is correct, the system dispenses candy to the user as a Halloween treat, enhancing the interactive experience. However, if the answer is incorrect, the system engages a spooky or haunting response to add an element of surprise and excitement to the Halloween encounter.
+
 *Include videos or screencaptures of both the system and the controller.*
+
+*Click to watch the video: Introduction of the device*
+[![Act Out](https://hackmd.io/_uploads/H1tFAlFga.png)](https://www.youtube.com/watch?v=yqGF0PsgBKE)
+
+*Click to watch the video: Acting out*
+[![Act Out](https://hackmd.io/_uploads/rk0Ozbtlp.png)](https://youtu.be/3kqRtDJEGQg)
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -177,18 +263,22 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+
+The distance detection feature effectively prevented speech recognition misinterpretation. This feature allows us to restrict false triggers from other voices, ensuring that only individuals in close proximity to the device can activate the entire system.
+
+However, our current method for answering questions has limitations. We are restricted to using a keypad for input, which means that our system can only handle numerical questions.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+The controller's integration of multiple sensors was impressive, especially its 500mm range which felt just right for detecting someone's proximity without being intrusive. This allowed for a fluid transition from sensing someone nearby to awaiting a voice command. However, a noticeable challenge was the voice recognition with individuals. Given the variety in pronunciations, there were instances where the controller struggled to accurately recognize the "trick or treat" phrase. Improvements in its ability to discern and adapt to diverse voice inputs would greatly enhance its reliability and user experience. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+Through WoZ interactions, we gain valuable insights into a wide range of potential user behaviors when interacting with the system. For instance, before actually implemented our system, we started with a WoZ interactions. We discovered that user responses to our questions can be highly unpredictable. Consequently, we implemented restrictions on user input with hardware resource, keypad.
 
+Furthermore, designing a more autonomous system is an ongoing, iterative journey. We continually uncover opportunities for enhancement, ensuring that our system evolves to meet user needs and expectations effectively.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+Recording the distances at which participants initiate interactions might reveal nuances in their approach behavior. Additionally, the voices of each individual will be recorded and consolidated into a dataset. By implementing machine learning algorithms, this dataset will aid the system in detecting the myriad ways people might pronounce "trick or treat," ensuring more accurate and inclusive activation. To deepen this interaction dataset, introducing additional sensors would be insightful. A camera, for instance, could observe facial expressions and body language during interactions, while an ambient light sensor might indicate if the device's visibility or attraction changes under different lighting conditions.

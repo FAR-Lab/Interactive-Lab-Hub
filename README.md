@@ -1,5 +1,6 @@
-# [Your name here]'s-Lab-Hub
-for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
+
+# [Crystal Chong]'s-Lab-Hub
+
 
 Please place links here to the README.md's for each of your labs here:
 

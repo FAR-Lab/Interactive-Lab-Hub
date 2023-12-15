@@ -1,6 +1,8 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
 
+John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
+
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
@@ -77,20 +79,14 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment (named venv) by typing the following commands.
 
 ```
-ssh pi@<your Pi's IP address>
+ssh johnli@100.110.133.141
 ...
-pi@raspberrypi:~ $ python -m venv venv
-pi@raspberrypi:~ $ source venv/bin/activate
-(venv) pi@raspberrypi:~ $ 
+johnli@johnli:~ $ python -m venv venv
+johnli@johnli:~ $ source venv/bin/activate
+(venv) johnli@johnli:~ $ 
 
 ```
 ### Setup Personal Access Tokens on GitHub
-Set your git name and email so that commits appear under your name.
-```
-git config --global user.name "Your Name"
-git config --global user.email "yourNetID@cornell.edu"
-```
-
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
@@ -101,7 +97,7 @@ Following the steps listed [here](https://docs.github.com/en/github/authenticati
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
 ```
-(venv) pi@raspberrypi:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
+(venv) pi@raspberrypi:~$ git clone https://github.com/zezhili/Interactive-Lab-Hub.git
 (venv) pi@raspberrypi:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
@@ -125,7 +121,7 @@ We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/pro
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
 
-The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
+The Raspberry Pi 3 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
 <img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
 
@@ -133,7 +129,7 @@ To learn more about any individual pin and what it is for go to [pinout.xyz](htt
 
 ### Hardware (you have already done this in the prep)
 
-From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
+From your kit take out the display and the [Raspberry Pi 3](https://cdn-shop.adafruit.com/970x728/3775-07.jpg)
 
 Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
 
@@ -220,10 +216,17 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+[<img src="https://hackmd.io/_uploads/SJge8rpC2.png">](https://youtu.be/mkWBqAWszes)
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+![](https://hackmd.io/_uploads/ryMNrBTC3.jpg)
+![](https://hackmd.io/_uploads/HkxNrHSaC3.jpg)
+![](https://hackmd.io/_uploads/SyhHHSaAn.jpg)
+It will interact with the external enviroment, the display will change base on the weather.
+![](https://hackmd.io/_uploads/B1-IBBpRn.jpg)
+When you click both buttons it will play the classic music that represent the region.
 
 # Prep for Part 2
 
@@ -232,14 +235,65 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
-# Lab 2 Part 2
+**Feedback:**
 
-Pull Interactive Lab Hub updates to your repo.
+_Gloria_: I really liked your displays and button interaction!! So creative and appealing. I also like how you demo the screen with the real clock time on the side in the video. Ngl, this is the best design I've seen so far! It’s fascinating to see how you actually implemented those representative and famous places in each country. Well done!
+I’m looking forward to seeing your next step!
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+_Yifan_: Overall very good visual and background which provides intuitive understanding of the pi. It will be better if the text font/size/color can blend in to the background. 
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+_Crystal_: I love how the button could make changes between 12-hour and 24-hour formats. It is interesting to see different time zones from various countries. 
 
 
+
+## Introduction
+
+In Part 2 of our project, we've developed an interactive game that allows users to engage with time in a fun and educational way. The game consists of three distinct phases, each with its own unique features and challenges.
+
+## Phases
+
+### Start Phase
+
+In the "Start Phase," the display shows the current time as a traditional clock. Two triangular arrows at the botton of the screen indicating the game mode can be invoked by pressing both buttons simultaneously.
+
+### Game Phase
+
+The "Game Phase" is the core of our interactive experience. The screen is divided into two halves, corresponding to the two buttons available. In this phase, various rectangles fall from the top of the screen, and the user's goal is to collect them. Each type of rectangle represents a different unit of time:
+
+- **Green Rectangles**: Represent hours.
+- **Blue Rectangles**: Represent minutes.
+- **Red Rectangles**: Represent seconds.
+
+As these rectangles reach the edge of the screen, the user must press the appropriate button to "collect" them. When successful, a yellow half ellipse is displayed on the corresponding side of the screen, indicating a successful collection.
+
+### End Phase
+
+The "End Phase" marks the conclusion of the game. There are two possible outcomes:
+
+1. **User Collects All Rectangles**: If the user successfully collects all the falling rectangles, this phase displays the time at which the user invoked the game. It serves as a rewarding conclusion to the game.
+
+2. **User Loses Some Rectangles**: If the user fails to collect some of the falling rectangles, this phase also displays the time when the game was invoked. However, it serves as a gentle reminder of the missed opportunities during gameplay.
+
+After a few seconds, we will switch the device back to the start phase.
+
+## Video
+
+[<img src="https://hackmd.io/_uploads/S10w2pVy6.jpg">](https://youtu.be/8llVNj1WjJY)
+
+
+## Contribution List
+
+Our collaborative effort in developing this interactive time game was a team endeavor, with each team member contributing in various ways:
+
+- **John Li**: Idea brainstorming, end page design and implementation, and assistance with debugging.
+- **Shiying (Sophie) Wu**: Idea brainstorming, game mode implementation, README documentation, and debugging support.
+- **Mingze (Kevin) Gao**: Idea brainstorming, initial game setup and testing, end page design and implementation, and debugging assistance.
+- **Crystal Chong**: Idea brainstorming, game mode design, end product verification and testing, and debugging support.
+- **Qianxin (Carl) Gan**: Idea brainstorming, game mode design, end product verification and testing, and debugging support. 
+- **Mingzhe (Allen) Sun**: Idea brainstorming, game mode implementation, and debugging assistance.
+
+<<<<<<< HEAD
+This collaborative effort allowed us to create an engaging and educational interactive game that explores the concept of time in a playful way.
+=======
+This collaborative effort allowed us to create an engaging and educational interactive game that explores the concept of time in a playful way.
+>>>>>>> 9da52b82651b8398438900b0b78bae99c5f8c30a
