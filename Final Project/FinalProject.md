@@ -99,5 +99,5 @@ See [main.py](BeatMaker/main.py)
 <img src="img/laser.jpg" width="50%" height="50%">
 
 ## **Video Demo of Final Project**
-[Video Demo](https://drive.google.com/file/d/1bJgLtm6H5zh4QI7i1hZ8hsi9uHci-zHL/view?usp=sharing)
+[Video Demo]([https://drive.google.com/file/d/1bJgLtm6H5zh4QI7i1hZ8hsi9uHci-zHL/view?usp=sharing](https://drive.google.com/file/d/18vZ4RY4-ZWeEdhY6uGasTxLLKpfBZBEZ/view?usp=sharing)https://drive.google.com/file/d/18vZ4RY4-ZWeEdhY6uGasTxLLKpfBZBEZ/view?usp=sharing)
 
