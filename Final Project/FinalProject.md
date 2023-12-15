@@ -4,7 +4,7 @@
 + Sissel Sun - rs923
 + Tingrui（Freya) Zhang - tz428
 
-![img](Final%20Project/img/4.jpg)
+![img](img/4.jpg)
 
 
 ## **Ideation**
@@ -13,7 +13,7 @@ Our project introduces a unique music toolkit designed for individuals new to DJ
 
 The centerpiece is the DJ Box, which allows users to add various drum beats to a track. The setup includes dynamic lights on the keyboard that respond to the beats, along with two small figurines that move in sync with the beat, creating a playful and engaging environment for music compositio.
 
-<img src="Final%20Project/img/1.jpg" width="50%" height="50%">
+<img src="img/1.jpg" width="50%" height="50%">
 
 ## **Features**
 - **Control Interface:** Utilizing 12 keys to control multiple instruments. We used sound samples from [Wavbvkery](https://wavbvkery.com/acoustic-drum-samples/) that include:
@@ -34,18 +34,19 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 - **Volume Adjusting:** We used a rotary encoder for adjusting volume.
 - **Speed Adjusting:** The rotary encoder can also adjust speed. It switches between adjusting volume and speed upon pressing. 
 
-<img src="Final%20Project/img/fig.jpg" width="50%" height="50%">
+<img src="img/fig.jpg" width="50%" height="50%">
 
 
-## **Workflow**
-1. Soldered the keyboard group and qwiic to enable them to function separately when connected in series.
-2. Prototyped a demo.
-3. Allocated components' positions and designed the case.
-4. Tested the case and made corrections.
-5. Officially assembled and debugged.
+## **Design Process**
+1. Soldered the neokeys and qwiic buttons to enable them to function separately when connected in series.
+2. Prototyped a demo for functional checkoff that included basic functions such as instrument playing and volume control.
+3. Completed a fully-functional demo by adding servo control and a button for resetting beats.
+4. Allocated components' positions and designed the case for laser cutting. We used [MakerCase](https://en.makercase.com/#/basicbox) to help us prototype the case. 
+5. Tested cutting case with cardboard and made corrections.
+6. Laser cutted the arcylic case, assembled it and debugged the system.
 
-<img src="Final%20Project/img/wood.jpg" width="50%" height="50%">
-<img src="Final%20Project/img/2.jpg" width="50%" height="50%">
+<img src="img/wood.jpg" width="50%" height="50%">
+<img src="img/2.jpg" width="50%" height="50%">
 
 ## **Parts Involved**
 - Raspberry Pi
@@ -56,7 +57,7 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 - Plywood (for the laser-cut frame)
 - Acrylic
 
-<img src="Final%20Project/img/3.jpg" width="50%" height="50%">
+<img src="img/3.jpg" width="50%" height="50%">
 
 
 ## **Challenges and Revisions**
@@ -67,7 +68,7 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 
 - **Laser Cutting Challenges:** We encountered issues with laser cutting acrylic. Despite calibration and various adjustments, the laser couldn't smoothly cut through the acrylic using the standard settings for the material we were using. Even after slowing down the speed, the desired cut was not achieved. Ultimately, we resorted to multiple repetitions to complete the cutting process. We checked the laser cutter's height, power supply, material specifications, and parameters, but have yet to pinpoint the exact cause of the issue.
 
-<img src="Final%20Project/img/laser.jpg" width="50%" height="50%">
+<img src="img/laser.jpg" width="50%" height="50%">
 
 
 
