@@ -16,16 +16,23 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 <img src="Final%20Project/img/1.jpg" width="50%" height="50%">
 
 ## **Features**
-- **Control Interface:** Utilizing 12 keys to control multiple instruments such as:
-  - Snare drums
-  - Bass drums
-  - Hi-hats
+- **Control Interface:** Utilizing 12 keys to control multiple instruments. We used sound samples from [Wavbvkery](https://wavbvkery.com/acoustic-drum-samples/) that include:
+  - Snare drum
+  - Hi-hat
+  - Kick
+  - Crash
+  - Clap
+  - Stick
+  - Ride
+  - Tom
+  - Hat Bell
+  - Cowbell
 - **Beats Visualization:** 
-    - Each key represents a different note, which will be highlighted in various colors when triggered.
-  - We designed two figures that move with the beat, driven by servos, for the box.
+  - Each key represents a different note, which will be highlighted in a rainbow of colors when triggered.
+  - We designed two figures that dance with the beat, driven by servos, for the box.
 - **Looping & Resetting:** An automatic mechanism dedicated to recording and looping the beats played by the user. A button allows for easy reset to start over.
-- **Volume Adjusting:** A knob for adjusting volume.
-- **Speed Adjusting:** A knob for adjusting speed.
+- **Volume Adjusting:** We used a rotary encoder for adjusting volume.
+- **Speed Adjusting:** The rotary encoder can also adjust speed. It switches between adjusting volume and speed upon pressing. 
 
 <img src="Final%20Project/img/fig.jpg" width="50%" height="50%">
 
@@ -54,11 +61,11 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 
 ## **Challenges and Revisions**
 
-- **Noise Issue with Moving Figures:** We observed that the two moving figures, powered by servos, produced noticeable noise. To address this, we added a button that allows users to toggle the interaction with the figures on or off.
+- **Noise Issue:** We observed that the two moving figures, powered by servos, produced noticeable noise. To address this, we added a button that allows users to toggle the interaction with the figures on or off.
 
-- **Knob Design for Volume and Speed Control:** Originally, our design required two separate knobs to adjust volume and speed. However, during development, we found that the knob could switch between two states by being pressed. Consequently, we combined these two functionalities into a single knob. Following feedback from our instructor during a class presentation, we implemented the use of an LED on the component to indicate whether the knob is currently adjusting volume or speed.
+- **Knob for Volume and Speed Control:** Originally, our design required two separate knobs to adjust volume and speed. However, during development, we found that the knob could switch between two states by being pressed. Consequently, we combined these two functionalities into a single knob. Following feedback from our instructor during a class presentation, we implemented the use of an LED on the component to indicate whether the knob is currently adjusting volume or speed.
 
-- **Laser Engraving Acrylic Challenges:** We encountered issues with laser cutting acrylic. Despite calibration and various adjustments, the laser couldn't smoothly cut through the acrylic using the standard settings for the material we were using. Even after slowing down the speed, the desired cut was not achieved. Ultimately, we resorted to multiple repetitions to complete the cutting process. We checked the laser cutter's height, power supply, material specifications, and parameters, but have yet to pinpoint the exact cause of the issue.
+- **Laser Cutting Challenges:** We encountered issues with laser cutting acrylic. Despite calibration and various adjustments, the laser couldn't smoothly cut through the acrylic using the standard settings for the material we were using. Even after slowing down the speed, the desired cut was not achieved. Ultimately, we resorted to multiple repetitions to complete the cutting process. We checked the laser cutter's height, power supply, material specifications, and parameters, but have yet to pinpoint the exact cause of the issue.
 
 <img src="Final%20Project/img/laser.jpg" width="50%" height="50%">
 
