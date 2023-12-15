@@ -40,7 +40,7 @@ _Make sure you read all the instructions and understand the whole of the laborat
 1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
 
 \*\* Qianxin(Carl) Gan (qg72) & Mingze Gao (mg2454) \*\*
->>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+ 
 
 ## Lab Overview
 
@@ -234,7 +234,7 @@ John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc279
 
 Overall, the feedback for our design concepts is very positive: our design concepts are well-thought-out and offer a variety of functionalities aimed at different needs and scenarios. At the same time, we were advised to use simpler language, as readability is also a key factor in addition to professionalism for our design. One of the suggestions is to provide users with a guide to what they can expect from the product. Lastly, We were advised to consider enhancing user experience by adding more feedback in addition to light. For example, we can incorporate sound cues and vibrations into our design to facilitate the users. In addition, it is possible to empower Learning Algorithms in the device that interfaces with a Smart Phone Application. This application holds the capability to assist the device in sending timely reminders and facilitating orders initiated by the user. It could also use data from the household to provide more personalized advice and further optimize the user experience.
 
->>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+ 
 =======
 Ben: I liked the device a lot! My only negative comment would be that you didn’t really answer all the questions posed in the prompt. I thought your video was very clear and good. The interaction was well demonstrated.
 
@@ -268,7 +268,7 @@ This is especially crucial given that pets predominantly interact with the feedi
 While acting out the scenario, we realized that there's potential to add more interactive elements to the device. The brief role-play also made me personally aware of how bad posture could lead to discomfort, like back pain. I even felt the need to stand up and stretch. This experience sparked the idea of incorporating a timer function into the device. This function could remind users to take breaks if they've been sitting for too long, which could be really helpful.
 =======
 We realized that since the device is designed to be a food advisor, it should also have the capability to provide food recommendations. With this idea in mind, we expanded the device's functionality to turn it into an at-home chef and nutritionist.
->>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+ 
 
 ## Part C. Prototype the device
 
@@ -307,7 +307,7 @@ See part F for details.
 
 >>>>>>> CarlQGan-Fall2023
 
->>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+ 
 
 
 ## Part E. Costume the device 
@@ -363,7 +363,7 @@ Our third is a fridge-sticker-sized smart device that blends into your kitchen. 
 \*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
 
 By designing the device, a few concerns might influence the way to design our product. Firstly, the device can be carried to different places; therefore, accessibility and flexibility have to be carefully considered. The design of the device should be simple and portable. Secondly, the size of the product needs to be very reasonable to adapt to every situation. For example, we have designed three different formats of the product to provide alternative ways of accessing the device. 
->>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+ 
 
 Circular Form: The circular shape not only carries a symbolism of continuity and balance but also aligns with our safety considerations. By avoiding sharp corners, we're actively mitigating potential risks associated with accidental collisions involving pets or children. This approach serves to create a safe and understated presence in your home.
 
@@ -673,7 +673,7 @@ By designing the device, a few concerns might influence the way to design our pr
 [<img src="https://hackmd.io/_uploads/Sy7M7zNA2.jpg">](https://youtu.be/qtcV7ecHLRY?si=ChWoWfhIzqL5sroH)
 
 [<img src="https://hackmd.io/_uploads/H1ffQfVC2.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
->>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
+ 
 =======
 [<img src="https://hackmd.io/_uploads/H1ffQfVC2.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
 >>>>>>> CarlQGan-Fall2023
