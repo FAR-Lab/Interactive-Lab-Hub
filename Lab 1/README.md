@@ -1,20 +1,10 @@
 
 # Staging Interaction
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 \*\***Part 1: Shiying Wu (sw2298), Mingzhe Sun (ms3636)**\*\*
 
 \*\***Part 2: John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)**\*\*
 =======
 \*\***Crystal Chong**\*\*
->>>>>>> CarlQGan-Fall2023
-=======
-\*\***Part 1: Shiying Wu (sw2298), Mingzhe Sun (ms3636)**\*\*
-
-\*\***Part 2: John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)**\*\*
->>>>>>> 9da52b82651b8398438900b0b78bae99c5f8c30a
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
