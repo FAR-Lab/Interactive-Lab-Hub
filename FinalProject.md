@@ -4,7 +4,7 @@
 + Sissel Sun - rs923
 + Tingrui（Freya) Zhang - tz428
 
-![img](4.jpg)
+![img](Final Project/img/4.jpg)
 
 
 ## **Ideation**
