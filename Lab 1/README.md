@@ -60,7 +60,6 @@ F) [Record the interaction](#part-f-record)
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-<<<<<<< HEAD
 As a student, we sit for a long time for lectures and completing assignments and tasks. Long periods of sitting without proper breaks and posture adjustments can lead to various negative consequences for our health and well-being.
 =======
 # Introducing the Pet Companion Device: Your Furry Friend's Perfect Pal
@@ -110,7 +109,7 @@ Conversely, the device opens up a world of interaction for pets, satisfying thei
 \*\***Summarize feedback you got here.**\*\*
 Yifan Yu: I really like the cat your team draw in the story board. The cat looks cute. Also the internal mechanics are particularly detailed and I really like the concept of what you have designed for the internal structure. Your video is very creative, and the cardboard chosen would give us a better idea of the volume size of the product. But I would like to see more interaction between people and product. I also hope that this product will have more features in the future, especially the more practical ones making it more than just a cat with glowing eyes. There also should be some explanation in the video your team provide.
 
-<<<<<<< HEAD
+
 We all agreed that this idea of encouraging better sitting posture is great. However, we're aware that if the user becomes annoyed by the device and turns it aside, its value will diminish. Additionally, we recognize that this device is more suitable for private spaces without others present. Exploring a more compact design that enhances portability could widen its applicability. We also think it would be better to not only remind users of their improper posture but also provide guidance on correct posture and potential exercises to help maintain their health.
 =======
 _Setting:_ In our design, we are implementing a scenario based ambience lighting that can correspond to different modes of interations. More specifically, in the most common spaces that one might be at: workstation, bedroom, personal vehicle, etc.
@@ -252,7 +251,7 @@ We got several useful feedbacks, first of all we accidently put the url of our t
 
 Initially, we envisioned our device as a camera-like toy positioned atop the feeding machine, assuming it would effectively capture pet behavior. However, we came to recognize that this approach might limit the device's capabilities and hinder its ability to comprehensively gather the wide spectrum of information pets convey. 
 
-<<<<<<< HEAD
+
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 At first, we plan to use text to display all the information needed by the user. However, when we acted out displaying text on screen, we figured that text is not intuitive and hard for people to read on such a device. Therefore, we started to think about more interactive ways of showing that information by using light and voice. This finding guides our future design of the device.
@@ -263,9 +262,9 @@ This is especially crucial given that pets predominantly interact with the feedi
 >>>>>>> CarlQGan-Fall2023
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-<<<<<<< HEAD
 
-<<<<<<< HEAD
+
+
 While acting out the scenario, we realized that there's potential to add more interactive elements to the device. The brief role-play also made me personally aware of how bad posture could lead to discomfort, like back pain. I even felt the need to stand up and stretch. This experience sparked the idea of incorporating a timer function into the device. This function could remind users to take breaks if they've been sitting for too long, which could be really helpful.
 =======
 We realized that since the device is designed to be a food advisor, it should also have the capability to provide food recommendations. With this idea in mind, we expanded the device's functionality to turn it into an at-home chef and nutritionist.
@@ -297,8 +296,8 @@ There were some issue connecting the device with a public wifi. But was definitl
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 - Device turns on/user presents in front of device: Black color (so user only see the clock)
 - User's sitting posture changes: The worser the posture, the redder the device
 - User corrects his/her posture: The device becomes black again to act like a clock
@@ -310,12 +309,12 @@ See part F for details.
 
 >>>>>>> f34fe78597e5263ebbc9b8bbca830708efb7a257
 
-<<<<<<< HEAD
+
 ## Part E. Costume the device 
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-<<<<<<< HEAD
+ 
 Costume 1: Analog Style Clock
 <img src="costume1.jpg">
 =======
@@ -461,7 +460,7 @@ At first, we plan to use text to display all the information needed by the user.
 When we actually acted out the scenario, we noticed that users might ignore the device when they're really focused on their tasks. The phone screen might not be bright enough to get their attention. We thought that adding some kind of sound or haptic feedback could help to make sure they notice the device's cues.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-<<<<<<< HEAD
+ 
 We realized that since the device is designed to be a food advisor, it should also have the capability to provide food recommendations. With this idea in mind, we expanded the device's functionality to turn it into an at-home chef and nutritionist.
 =======
 
@@ -485,7 +484,7 @@ The setup instructions are simple and easy to follow. However, we encountered di
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-<<<<<<< HEAD
+ 
 See part F for details.
 
 =======
@@ -498,7 +497,7 @@ See part F for details.
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-<<<<<<< HEAD
+ 
 Minimalism Design
 
 Our first design is a coin-sized, portable device designed for effortless convenience. This tiny attachment seamlessly affixes to your phone, you can carry this device around and make evaluation of the food.
@@ -656,9 +655,9 @@ By designing the device, a few concerns might influence the way to design our pr
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+ 
+ 
+ 
 [<img src="prototype1.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
 =======
 [<img src="https://hackmd.io/_uploads/HJfMmfN0h.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
@@ -666,7 +665,7 @@ By designing the device, a few concerns might influence the way to design our pr
 
 [<img src="https://hackmd.io/_uploads/Sy7M7zNA2.jpg">](https://youtu.be/qtcV7ecHLRY?si=ChWoWfhIzqL5sroH)
 
-<<<<<<< HEAD
+ 
 [<img src="prototype3.jpg">](https://youtu.be/SsefpLb3oVo?si=knwxaKX2xwUP7Si2)
 =======
 [<img src="https://hackmd.io/_uploads/HJfMmfN0h.jpg">](https://youtu.be/kUUe0X8RDBg?si=FGWo7o_-pEecAE_G)
@@ -689,7 +688,7 @@ By designing the device, a few concerns might influence the way to design our pr
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 John Li (jl4239), Shiying Wu (sw2298), Mingze Gao (mg2454), Crystal Chong (cc2795), Qianxin(Carl) Gan (qg72), Mingzhe Sun (ms3636)
-<<<<<<< HEAD
+ 
 =======
 
 
