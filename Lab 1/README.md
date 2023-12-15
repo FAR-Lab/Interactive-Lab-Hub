@@ -58,7 +58,6 @@ F) [Record the interaction](#part-f-record)
 
 ## Part A. Plan 
 
-<<<<<<< HEAD
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
 <<<<<<< HEAD
@@ -73,9 +72,9 @@ Welcome to a groundbreaking addition for every household – the **Pet Companion
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-<<<<<<< HEAD
+
 ### Tailored for Every Member of the Family
->>>>>>> CarlQGan-Fall2023
+
 
 Catering to pet owners, children, and their cherished animal companions, this device offers an array of dynamic interactions. Picture your pet cat engrossed in playful engagement with the device, igniting its screen with a symphony of vibrant colors that mirror its every move:
 
