@@ -6,7 +6,7 @@ from rainbowio import colorwheel
 from adafruit_neokey.neokey1x4 import NeoKey1x4
 import time
 import board
-from adafruit_seesaw import seesaw, rotaryio, digitalio
+from adafruit_seesaw import seesaw, neopixel, rotaryio, digitalio
 import qwiic_button
 from adafruit_servokit import ServoKit
 import sys
@@ -37,6 +37,10 @@ seesaw_product = (seesaw.get_version() >> 16) & 0xFFFF
 seesaw.pin_mode(24, seesaw.INPUT_PULLUP)
 rotary_button = digitalio.DigitalIO(seesaw, 24)
 encoder = rotaryio.IncrementalEncoder(seesaw)
+pixel = neopixel.NeoPixel(seesaw, 6, 1)
+pixel.brightness = 0.5
+blue = colorwheel(170)
+yellow = colorwheel(30)
 
 ################################################################
 
@@ -47,16 +51,16 @@ neokey3 = NeoKey1x4(board.I2C(), addr=0x32)
 
 keys = [
     (neokey1, 0, colorwheel(0)),
-    (neokey1, 1, colorwheel(32)),
-    (neokey1, 2, colorwheel(64)),
-    (neokey1, 3, colorwheel(96)),
-    (neokey2, 0, colorwheel(128)),
-    (neokey2, 1, colorwheel(160)),
-    (neokey2, 2, colorwheel(192)),
-    (neokey2, 3, colorwheel(224)),
-    (neokey3, 0, colorwheel(0)),
-    (neokey3, 1, colorwheel(32)),
-    (neokey3, 2, colorwheel(64)),
+    (neokey1, 1, colorwheel(23)),
+    (neokey1, 2, colorwheel(46)),
+    (neokey1, 3, colorwheel(69)),
+    (neokey2, 0, colorwheel(92)),
+    (neokey2, 1, colorwheel(115)),
+    (neokey2, 2, colorwheel(138)),
+    (neokey2, 3, colorwheel(161)),
+    (neokey3, 0, colorwheel(184)),
+    (neokey3, 1, colorwheel(207)),
+    (neokey3, 2, colorwheel(230)),
     # (neokey3, 3, colorwheel(352)),
 ]
 
@@ -122,6 +126,8 @@ volume_offset = 0
 pygame.mixer.set_num_channels(instruments * 3)
 
 cur_angle = 45
+pixel.brightness = 2
+
 
 def dance():
     if servo_on:
@@ -171,6 +177,7 @@ def rotary():
         rotary_button_held = False
 
     if rotary_mode == 0:
+        pixel.fill(yellow)
         position = -encoder.position
         # if position > 10:
         #     volume_offset = position - 10
@@ -186,6 +193,7 @@ def rotary():
         print('set volume to ', volume)
 
     if rotary_mode == 1:
+        pixel.fill(blue)
         position = -encoder.position
         position = min(max(1, position - beat_offset), 10)
         # bpm = max(0.1, 240 * 8 + (position - initial_position) * 50)
@@ -271,6 +279,7 @@ while run:
         print()
     except (KeyboardInterrupt, SystemExit) as exErr:
         run = False
+        pixel.brightness = 0
         pygame.quit()
         sys.exit(0)
     except:

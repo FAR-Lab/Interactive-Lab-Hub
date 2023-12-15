@@ -4,16 +4,39 @@
 + Sissel Sun - rs923
 + Tingrui（Freya) Zhang - tz428
 
-![img](img/4.jpg)
-
-
 ## **Ideation**
 
 Our project introduces a unique music toolkit designed for individuals new to DJing. It's a user-friendly platform that simplifies music creation, making it accessible and enjoyable for beginners. 
 
-The centerpiece is the DJ Box, which allows users to add various drum beats to a track. The setup includes dynamic lights on the keyboard that respond to the beats, along with two small figurines that move in sync with the beat, creating a playful and engaging environment for music compositio.
+The centerpiece is the DJ Box, which allows users to add various drum beats to a track. The setup includes dynamic lights on the keyboard that respond to the beats, along with two small figurines that move in sync with the beat, creating a playful and engaging environment for music composition.
 
 <img src="img/1.jpg" width="50%" height="50%">
+
+# **Project Timeline**
+  - Nov 14 - Project Planning
+  - Nov 21 - Functional checkoff: Implement basic functions of looping, instrument playing and volume control. Try out music visualization.
+  - Nov 30 - Fully functioning demo: Added servo control and resetting beats
+  - Dec 5 - Design and laser cut the case
+  - Dec 12 - Presentation
+  - Dec 15 - Work on documentations
+
+## **Parts Involved**
+- Raspberry Pi
+- 1x4 Neokeys
+- Rotary encoder
+- Buttons
+- Servos
+- webcamera (as speaker)
+- Cardboard (for the laser-cut frame)
+- Acrylic
+
+## **Fallback Plan**
+
+One of the challenges we have is trying to visualize the user-created beats by generative abstract paintings. We will test out the visualization mechanism first (before Nov 21) and if the visualization is not intuitive, we will consider switching to LEDs. 
+
+## **Functioning Project**
+
+![img](img/4.jpg)
 
 ## **Features**
 - **Control Interface:** Utilizing 12 keys to control multiple instruments. We used sound samples from [Wavbvkery](https://wavbvkery.com/acoustic-drum-samples/) that include:
@@ -40,22 +63,27 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 ## **Design Process**
 1. Soldered the neokeys and qwiic buttons to enable them to function separately when connected in series.
 2. Prototyped a demo for functional checkoff that included basic functions such as instrument playing and volume control.
-3. Completed a fully-functional demo by adding servo control and a button for resetting beats.
-4. Allocated components' positions and designed the case for laser cutting. We used [MakerCase](https://en.makercase.com/#/basicbox) to help us prototype the case. 
+3. Completed a fully-functional demo. We used an existing cardboard box as the case.
+
+  <img src="img/5.jpg" width="50%" height="50%">
+
+  [Demo Video](img/demo_1.mp4)
+
+4. Allocated components' positions and designed the case for laser cutting. We used [MakerCase](https://en.makercase.com/#/basicbox) to help us prototype the case. See [lasercut](lasercut/) for design file iterations. The final files are [board1_new](lasercut/board1_new.pdf), [board2_new](lasercut/board2_new.pdf) and [board_combined](lasercut/board_combined.pdf).
+
 5. Tested cutting case with cardboard and made corrections.
+
+  <img src="img/6.jpg" width="50%" height="50%">
+  <img src="img/wood.jpg" width="50%" height="50%">
+
 6. Laser cutted the arcylic case, assembled it and debugged the system.
 
-<img src="img/wood.jpg" width="50%" height="50%">
-<img src="img/2.jpg" width="50%" height="50%">
+  <img src="img/2.jpg" width="50%" height="50%">
 
-## **Parts Involved**
-- Raspberry Pi
-- Alligator clips
-- Buttons
-- Servo
-- webcamera (as speaker)
-- Plywood (for the laser-cut frame)
-- Acrylic
+
+## Code
+
+See [main.py](BeatMaker/main.py)
 
 <img src="img/3.jpg" width="50%" height="50%">
 
@@ -70,5 +98,6 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 
 <img src="img/laser.jpg" width="50%" height="50%">
 
-
+## **Video Demo of Final Project**
+[Video Demo](https://drive.google.com/file/d/1bJgLtm6H5zh4QI7i1hZ8hsi9uHci-zHL/view?usp=sharing)
 
