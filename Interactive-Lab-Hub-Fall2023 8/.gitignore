@@ -1,6 +1,0 @@
-.DS_Store
-*.tflite
-*.scorer
-venv
-venv*
-__*
