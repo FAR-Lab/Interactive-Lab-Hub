@@ -17,5 +17,5 @@ Please place links here to the README.md's for each of your labs here:
 
 [Final Project](https://github.com/arishuang10/Interactive-Lab-Hub/tree/Fall2023/FinalProject)
 
-[Online Repository](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2023Fall/FinalProject.md)
+[Online Repository]([https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2023Fall/FinalProject.md](https://github.com/arishuang10/Interactive-Lab-Hub/tree/Fall2023/FinalProject)https://github.com/arishuang10/Interactive-Lab-Hub/tree/Fall2023/FinalProject)
 
