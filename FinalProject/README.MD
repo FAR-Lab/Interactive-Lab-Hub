@@ -135,7 +135,7 @@ On the computer screen, the user is able to see what the camera is capturing of 
  
 **Final Video**
 
-[Interaction Video](https://drive.google.com/file/d/1q5V5CG8MNcNWExYI-8BD0-7sHzcoy62w/view?usp=sharing)
+[Interaction Video](https://drive.google.com/file/d/12u2BBvKE4nnI54TFaM40LYKrBi_T9HjB/view?usp=sharing)
 
 
 In the video shows a user interacting with the music player with hand gesture. The user first holds up "1" gesture to unpause or pause the song. When the music start playing, the MiniPiTFT will show the name of the song name, artist name, and playing time. After that he user holds up "2" gesture to play the next song. Then the user holds up "3" gesture to play the previous song.
