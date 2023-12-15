@@ -13,7 +13,7 @@ Our project introduces a unique music toolkit designed for individuals new to DJ
 
 The centerpiece is the DJ Box, which allows users to add various drum beats to a track. The setup includes dynamic lights on the keyboard that respond to the beats, along with two small figurines that move in sync with the beat, creating a playful and engaging environment for music compositio.
 
-<img src="final%20project/img/1.jpg" width="50%" height="50%">
+<img src="Final%20Project/img/1.jpg" width="50%" height="50%">
 
 ## **Features**
 - **Control Interface:** Utilizing 12 keys to control multiple instruments such as:
@@ -27,7 +27,7 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 - **Volume Adjusting:** A knob for adjusting volume.
 - **Speed Adjusting:** A knob for adjusting speed.
 
-<img src="final%20project/img/fig.jpg" width="50%" height="50%">
+<img src="Final%20Project/img/fig.jpg" width="50%" height="50%">
 
 
 ## **Workflow**
@@ -37,8 +37,8 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 4. Tested the case and made corrections.
 5. Officially assembled and debugged.
 
-<img src="final%20project/img/wood.jpg" width="50%" height="50%">
-<img src="final%20project/img/2.jpg" width="50%" height="50%">
+<img src="Final%20Project/img/wood.jpg" width="50%" height="50%">
+<img src="Final%20Project/img/2.jpg" width="50%" height="50%">
 
 ## **Parts Involved**
 - Raspberry Pi
@@ -49,7 +49,7 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 - Plywood (for the laser-cut frame)
 - Acrylic
 
-<img src="final%20project/img/3.jpg" width="50%" height="50%">
+<img src="Final%20Project/img/3.jpg" width="50%" height="50%">
 
 
 ## **Challenges and Revisions**
@@ -60,7 +60,7 @@ The centerpiece is the DJ Box, which allows users to add various drum beats to a
 
 - **Laser Engraving Acrylic Challenges:** We encountered issues with laser cutting acrylic. Despite calibration and various adjustments, the laser couldn't smoothly cut through the acrylic using the standard settings for the material we were using. Even after slowing down the speed, the desired cut was not achieved. Ultimately, we resorted to multiple repetitions to complete the cutting process. We checked the laser cutter's height, power supply, material specifications, and parameters, but have yet to pinpoint the exact cause of the issue.
 
-<img src="final%20project/img/laser.jpg" width="50%" height="50%">
+<img src="Final%20Project/img/laser.jpg" width="50%" height="50%">
 
 
 
