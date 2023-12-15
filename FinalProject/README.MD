@@ -1,4 +1,4 @@
-# IDD Final Project
+# IDD Final Project - Music Player 
 Amber Tsao (ct649), Aris Huang (th625), Julia Lin (jtl236), Sherri Lin (yl3658), Wayne Cheng (cc2796), Ifeng Wu (iw84)
 
 **Project Plan**
