@@ -18,5 +18,5 @@ Please place links here to the README.md's for each of your labs here:
 
 [Final Project](https://github.com/crystalchong0058/Interactive-Lab-Hub/tree/Fall2023/Final%20Project)
 
-[Online Repository](https://github.com/crystalchong0058/Interactive-Lab-Hub)https://github.com/crystalchong0058/Interactive-Lab-Hub)
+[Online Repository](https://github.com/crystalchong0058/Interactive-Lab-Hub)
 
