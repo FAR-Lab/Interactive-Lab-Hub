@@ -326,3 +326,11 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+
+[![Chord Bot Video](https://github.com/jamiewang76/Interactive-Lab-Hub/blob/Fall2023/Lab%204/ChordBotCover.png)](https://drive.google.com/file/d/1xA8SuzQUipnl55eA44ywwiRdXi1b42PM/view?usp=share_link)
+
+For part 2, we switched to a new design and we gave it the name "chord bot". Chord bot is an instrument that can play chords according to the the distance between the interacter's left and right palm.
+
+* "Looks like": Chord bot has a body made from a juice box and wrapped in aluminum foil. Inside the body is where we hid the webcam. Chord bot also has a aluminumfoil-made head with a smiley face.
+* "Works like": When the interacter stands/sits in front of Chord Bot, the bot recognizes the pose of the person, calculates the distance between the interacter's left and right palm/wrist. As the distance increases, Chord Bot plays a chord with higher pitch.
+* "Acts like": The interacter needs to stand/sit at a distance from Chord Bot so that their face and upper body can be captured by Chord Bot's camera. Then the person could place their hands at different positions and explore what different chord Chord Bot would make. After they find out the pattern, they could compose a short piece of chord combination and execute it by planned gestures.
