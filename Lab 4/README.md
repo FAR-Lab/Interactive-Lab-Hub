@@ -19,6 +19,8 @@ Below are my five sketches exploring different physical arrangements for my sens
 
 As I continued sketching, I also started thinking more about how the physical form could contribute to the interaction itself. My designs gradually progressed from a literal, human-like figures to more abstract arrangements. This change came from the useless box inspiration, which I believe is able to convey playfulness and even frustration  without using any literal representations or people.
 
+<img width="1102" height="678" alt="image" src="https://github.com/user-attachments/assets/6caa51b5-d536-4ad3-891d-6e64540a503d" />
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
 I found the sketching process useful because it made me think more deeply about how I would disguise and house the components, as well as the physical limitations of the items I plan to use. I started considering how much space the servos would need to move the arms, where the sensor should be placed, and how I could hide the wiring without restricting where I could position the components.
@@ -38,18 +40,14 @@ For the prototype, I'm planning to have the auntie beckon the user to take snack
 As I started working on the physical prototype, I began thinking more seriously about balancing, sizing, and weight. I realized that the auntie couldn't be too small or too big, since that would affect how realistic and comfortable the interaction felt. I wanted her to be large enough to feel like a character the user is interacting with, but not so large that the interaction becomes overwhelming or difficult to approach.
 
 <img width="421" height="539" alt="Screenshot 2026-10-11 at 4 21 27 PM" src="https://github.com/user-attachments/assets/322b405d-7dbe-4baf-8a8a-00062505df4b" />
-<img width="581" height="742" alt="Screenshot 2026-10-11 at 4 21 42 PM" src="https://github.com/user-attachments/assets/b6536d00-4b18-49a5-a3c5-d36baf1cf912" />
-
-<img width="585" height="659" alt="Screenshot 2026-10-11 at 4 21 35 PM" src="https://github.com/user-attachments/assets/3cfc805f-cb1d-48be-8605-ecd67059479e" />
-
-<img width="1102" height="678" alt="image" src="https://github.com/user-attachments/assets/6caa51b5-d536-4ad3-891d-6e64540a503d" />
 
 I also started considering the weight of the arms more carefully. The servos are small and weaker, so I realized I needed to keep the arms as lightweight as possible. Originally, I was thinking of having the hand or wrist rotate to create the beckoning motion more realistically. However, I realized that placing a servo at the end of the arm would add too much weight and make it harder for the main servo to lift the arm. Because of this, I decided to simplify the movements instead. Rather than rotating the wrist, I'm exploring smaller tapping movements against the plate to encourage the user to take more snacks, followed by a larger up-and-down arm movement to imitate a swatting motion or placing a hand over the snacks to tell the user to stop.
 
+<img width="581" height="742" alt="Screenshot 2026-10-11 at 4 21 42 PM" src="https://github.com/user-attachments/assets/b6536d00-4b18-49a5-a3c5-d36baf1cf912" /><img width="585" height="659" alt="Screenshot 2026-10-11 at 4 21 35 PM" src="https://github.com/user-attachments/assets/3cfc805f-cb1d-48be-8605-ecd67059479e" />
+
 I still need to test how fast the servo can move and how that affects the interaction. I want the swatting motion to feel distinct enough to communicate that the auntie is telling the user to stop, but I also don't want it to look too aggressive. Depending on the speed and range of movement, it could come across more as a playful swat or a gentle gesture of disapproval.
 
-**USER TESTING**
-I went back home for the weekend so I was thankfully able to find someone to user test. My main concern was whether the arm swinging motion would be able to convey enough emotion/cues to take or stop taking food, so I asked my friend to go through the interaction with little explanation of the project background. 
+**USER TESTING**: I went back home for the weekend so I was thankfully able to find someone to user test. My main concern was whether the arm swinging motion would be able to convey enough emotion/cues to take or stop taking food, so I asked my friend to go through the interaction with little explanation of the project background. 
 
 
 
