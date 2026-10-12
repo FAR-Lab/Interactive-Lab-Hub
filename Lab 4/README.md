@@ -286,6 +286,10 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+<img width="1949" height="2839" alt="sketch" src="https://github.com/user-attachments/assets/9256920c-0530-4a91-92ef-363eb1c0783c" />
+
+For this lab, we want to make a snack tray that moves away when someone tries to grab food from it. We will use a proximity sensor to detect when a hand gets close, and a servo motor to move the tray so the snack becomes harder to reach. We came up with several possible designs, including rotating, sliding, and swinging trays. We thought it would be funny to have a snack tray that makes people chase their food instead of just picking it up.
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
