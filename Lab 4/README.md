@@ -257,7 +257,7 @@ Dinner Dial — What Should We Eat?
 
 Dinner Dial turns the everyday question “What should we eat?” into a playful physical interaction. The design uses a joystick to select between Rice, Noodles, and Dumplings, with a servo-driven paper pointer indicating the choice. Built from A4 paper, tape, and electronic components, this early prototype explores the menu layout, joystick placement, and space needed for the moving pointer. It brings a simple, hands-on moment of play to the dining table.
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
-![diagram](./diagram.jpg)
+![diagram](./diagram.png)
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 These sketches raise several questions: Which menu angle is easiest to read while sitting at a table? Is the joystick more comfortable in front, on the side, or separate from the menu? Will the paper structure stay stable when someone uses the joystick? Can the pointer move without touching the menu? Is there enough space for the electronics and wires?
