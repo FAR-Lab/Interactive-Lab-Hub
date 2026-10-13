@@ -14,13 +14,10 @@
 
 ---
 
----
-
 ## Lab Overview
-Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
-Clock name: <name>
-
+<!-- Team: <canvas group name>   -->
+Members: Chih-Hsin Liu cl2889  
+<!-- Clock name: <name> -->
 
 For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
 
@@ -46,7 +43,7 @@ F) [Final Documentation](#part-f)
 
 ---
 
-### Get the latest content:
+<!-- ### Get the latest content:
 As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 3 ways you can do so:
 
 
@@ -63,7 +60,7 @@ Option 2: On your own GitHub repo, [create pull request](https://github.com/FAR-
 
 Option 3: (preferred) use the Github.com interface to update the changes.
 
----
+--- -->
 
 ### Quick Start: Python Environment Setup
 
