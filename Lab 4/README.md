@@ -288,6 +288,15 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 OCD Food Sorter, Food Dispenser, Magnetic Claw Machine Idea, Auto Drink Mixer, Revolving Sushi Dispenser, 
 
+
+<img width="503" height="465" alt="image" src="https://github.com/user-attachments/assets/33c8d65a-d248-4680-b0c7-2b0382539ea2" />
+
+<img width="503" height="437" alt="image" src="https://github.com/user-attachments/assets/c278cd20-a3ce-43d7-bc29-5cd34171f140" />
+
+<img width="493" height="640" alt="image" src="https://github.com/user-attachments/assets/a785d93c-bc1c-4c37-9d0e-66d8b920d4b0" />
+
+
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
