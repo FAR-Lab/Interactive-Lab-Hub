@@ -292,6 +292,8 @@ For this lab, we want to make a snack tray that moves away when someone tries to
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
+The five sketches made us think about which type of movement works best for the “runaway snack” interaction. For example, we need to test whether rotating the whole tray is too heavy for the servo, whether a rotating arm is stable enough to hold the snack, whether a sliding tray has too much friction, and whether a hanging tray will swing too much. We also need to test how far the snack should move and where the proximity sensor should be placed so it can detect the user consistently. We plan to use cardboard and lightweight materials to prototype the tray, arm, and support structure, then test the servo strength, movement range, balance, and sensor placement before choosing the final design.
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
 Build a cardboard or other low-fidelity physical prototype of your design.
