@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-<details>
+<!-- <details>
 	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
   
 	**Submission Cleanup Reminder:**
@@ -10,7 +10,7 @@
 	- Your final submission should be neat, focused on your own work, and easy to read for grading.
   
 	This helps ensure your README.md is clear, professional, and uniquely yours!
-</details>
+</details> -->
 
 ---
 
@@ -286,13 +286,72 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+**Sketch 1: Last-bite guard**
+![Sketch 1](imgs/sketch1.jpg)
+
+A little robot guards the last piece of food. When a hand or fork reaches toward it, the robot shakes and announces, "Someone is trying to steal the last piece!"
+
+* Sensing: distance sensor on the rim of the plate, facing the food.
+* Actuation: servo that shakes or tilts the robot's body (plus an optional buzzer or light).
+
+**Sketch 2: Wine arm that spills**
+
+![Sketch 2](imgs/sketch2.jpg)
+
+A robotic arm pours wine for each guest. After three glasses it decides the guest has had too much and "accidentally" spills the next pour.
+
+* Sensing: rotary encoder or button that counts pours.
+* Actuation: servo(s) that tilt the bottle toward the glass, then past it on the fourth pour.
+
+**Sketch 3: Auto fly swatter**
+
+![Sketch 3](imgs/sketch3.jpg)
+
+A swatter stands over the dishes and drives flies away from the food.
+
+* Sensing: proximity or gesture sensor above the table, watching the air over the dishes.
+* Actuation: servo arm that swings the swatter down and back up.
+
+**Sketch 4: Spinning snack launcher**
+
+![Sketch 4](imgs/sketch4.jpg)
+
+A rotating arm sits in the middle of the table. When the countdown ends, it stops at one seat and flicks a light snack (a tomato in the sketch) toward that person, who has to catch it with their mouth.
+
+* Sensing: button or timer to start the countdown.
+* Actuation: one servo rotates the arm, and a second servo flicks the snack.
+
+**Sketch 5: Joystick sign board**
+
+![Sketch 5](imgs/sketch5.jpg)
+
+A joystick controls a servo-driven sign. Pushing the stick in a direction raises a sign: up = "Eat more", down = "Really?", left = "Too much!", right = still open (for example "Cheers!"). A friend shows the sign to the person across the table.
+
+* Sensing: joystick (direction + button).
+* Actuation: servo that flips the selected sign upright.
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
+* **Sensor placement (1, 3):** Where should the distance or proximity sensor sit so it catches a reaching hand but ignores people sitting nearby? I need to test the sensor at a few positions and angles around a real plate.
+* **Servo strength (2, 4):** Can a 9g servo tilt a bottle or flick a snack? I need to try a paper cup, an empty bottle, and light snacks such as popcorn or a paper ball before committing.
+* **Counting (2):** Should "three drinks" mean three pours, three cup lifts, or three button presses? I need to test which one is reliable and still feels natural.
+* **Two-stage motion (4):** Rotating and launching take two servos. I need to check whether a single servo (rotate, then a manual flick) is enough for the first prototype.
+* **Readability (5):** Can the sign be read from across a table, and does the servo swing feel clear and playful? I need to build the sign in cardboard and test it at real dining distance.
+* **Tone:** The teasing should stay friendly. I want to check how people react to teasing signs ("Really?") compared with encouraging ones ("Eat more").
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
+
+I will prototype **Sketch 5: the joystick sign board**.
+
+* It uses only light cardboard signs, so a 9g servo can move it reliably.
+* The joystick gives a clear, continuous way to control the servo and makes the interaction social: one person acts, another receives the message.
+* It lets me combine teasing ("Really?", "Too much!") with kindness ("Eat more", "Cheers!"), which matches the playful but warm mood of a shared meal.
+* It is the lowest-risk option for Part 2, since it needs only one input device and one servo, and the other four sketches can reuse the same servo setup later.
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+![Rough prototype](imgs/cardboard_prototype.JPG)
 
 ---
 
