@@ -18,7 +18,7 @@
 
 ## Lab Overview
 Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
+Members: Alex Yen, [Viktor Radev](https://github.com/LaboriouslyExquisite/Interactive-Lab-Hub/tree/Fall2026/Lab%204)
 Clock name: <name>
 
 
