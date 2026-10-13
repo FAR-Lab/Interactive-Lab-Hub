@@ -17,9 +17,9 @@
 ---
 
 ## Lab Overview
-Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
-Project name: <name>
+Team: Jerry Lee
+Members: Yuqi Wang (yw2897)
+Project name: Dinner Dial — What Should We Eat?
 
 
 For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
@@ -253,46 +253,32 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 ---
 
 ### Part D
-### Physical Interaction Design: Feast Automata
+Dinner Dial — What Should We Eat?
 
-**Feast Automata:** build a device that **transforms ordinary dining rituals into playful physical interactions.** Begin with a familiar experience around eating, drinking, cooking, serving, or sharing food, and explore how sensing and actuation might augment, exaggerate, automate, or reinterpret your dining experience.
-
-In this part, use the sensing techniques from Parts A–B and the servo actuation from Part C to develop a physical interaction.
-
-#### Physical considerations for sensing
-
-Sensors need to be positioned in specific locations or orientations to make them useful for an application. Choose a sensor that fits the dining interaction you want to explore. For example, a distance sensor could detect when a cup is placed on a coaster; where the sensor is positioned determines what it can reliably detect.
-
-Think about how the larger object needs to be shaped so the sensor can work reliably, where the actuator needs to sit, what moves, and how a person encounters the interaction.
-
-#### Physical Form and Housing
-
-Think about how your sensor, actuator, and electronics are physically arranged within your prototype. Consider where components need to be placed, what parts move, how the device is supported or enclosed, and how the overall form and aesthetics shape the interaction.
-
-Use cardboard, paper, found objects, or other low-fidelity materials to quickly prototype the physical structure before refining your final design.
-
-#### Optional Display Feedback: Qwiic OLED
-
-Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibly mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-
-</p>
-
-
-As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
-
+Dinner Dial turns the everyday question “What should we eat?” into a playful physical interaction. The design uses a joystick to select between Rice, Noodles, and Dumplings, with a servo-driven paper pointer indicating the choice. Built from A4 paper, tape, and electronic components, this early prototype explores the menu layout, joystick placement, and space needed for the moving pointer. It brings a simple, hands-on moment of play to the dining table.
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
+![diagram](./diagram.jpg)
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
+These sketches raise several questions: Which menu angle is easiest to read while sitting at a table? Is the joystick more comfortable in front, on the side, or separate from the menu? Will the paper structure stay stable when someone uses the joystick? Can the pointer move without touching the menu? Is there enough space for the electronics and wires?
+
+I need to make simple folded-paper mockups to compare viewing angles and joystick positions. Then, I will prototype the flat-base design with the actual joystick, servo, and a short paper pointer. This will let me test the mounting, pointer clearance, and whether the pointer clearly indicates each food option. I will also check whether using the joystick makes the base slide or bend.
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
-
-Build a cardboard or other low-fidelity physical prototype of your design.
+I chose the first design, the flat-base layout, because it is simple to build with folded paper and tape. The menu stays fixed on top, while the servo underneath rotates a short paper pointer. The joystick sits at the front where it is easy to reach. The low, wide base should help the structure stay stable and provide space for the electronics. This design lets me focus on testing the interaction: moving the joystick to select a food option.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+![left](./left.jpg)
+Left — Rice: The pointer is positioned over the Rice section on the left side of the menu. This shows the intended selection state when the user moves the joystick left. The menu stays fixed while the pointer changes position.
 
+![middle](./middle.jpg)
+Center — Noodles: The pointer points toward Noodles in the middle of the menu. This view shows the relationship between the joystick, the pointer, and the three food options. The large handwritten labels make the choices easy to identify.
+
+![right](./right.jpg)
+Right — Dumplings: The pointer is positioned over the Dumplings section on the right. This represents the intended response to moving the joystick right. Together, the three views illustrate how the physical pointer could communicate the user’s food selection.
+
+![side](./side.jpg)
+Side View — Physical Structure: Folded-paper supports raise the menu above the base, leaving space for the electronics underneath. The servo sits in the central opening, with the paper pointer attached to its plastic horn. The joystick is accessible at the front, while the Raspberry Pi and display sit to the left.
 ---
 
 ## Part 2
