@@ -286,13 +286,29 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+<img width="2244" height="2904" alt="672726472-61a4eb67-f5c6-4df4-afb6-a3ce16c54cf4" src="https://github.com/user-attachments/assets/154cf03c-9389-4c85-8d87-46b3aa070970" />
+
+<img width="503" height="465" alt="672547630-33c8d65a-d248-4680-b0c7-2b0382539ea2" src="https://github.com/user-attachments/assets/1a13d610-d22a-49f5-9475-ddd1b73c2bab" />
+
+<img width="2244" height="2904" alt="672726571-4373e111-d94a-4074-be0a-30afe48a188e" src="https://github.com/user-attachments/assets/6315edc8-fc0a-45c2-b30e-0e53c3b777cf" />
+
+<img width="503" height="437" alt="672547819-c278cd20-a3ce-43d7-bc29-5cd34171f140" src="https://github.com/user-attachments/assets/b320b26d-3370-4b46-b159-ac05b198cbc9" />
+
+<img width="493" height="640" alt="672548028-a785d93c-bc1c-4c37-9d0e-66d8b920d4b0" src="https://github.com/user-attachments/assets/8ba89425-416c-4bd9-9bde-bff2f16a8a07" />
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
+Some questions that these sketches raise is the size of the contraption. Since we are working with very weak small motors, we have to make sure the actual prototype isn't too large for the motors. For most of these sketches, we have to physically prototype the components that interact with the motors, specifically the conveyor belt system, trap doors, fan blades, and mixing straw. Another question is how much torque the rotars actually produce, is it enough to stop and m and m from causing the motor to swivel. Is it enough to actually push a whole platform of food up and down? To physically prototype this we will most likely need to test these different interactions by making a mockup of the system and actually see whether or not the power they output is enough to complete the action we intended it to complete! So we will have to test whether or not the motor can push a spoon through liquid, or perhaps push a conveyor system with just one rail system to start off with. 
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
+
+We decided to choose the m and m / skittle sorter because it will have us work with servos, light detectors, and some sort of reasoning mathematical reasoning sorter to arrange the skittles and such into different flower shapes! We want to combine the cool physical movement and have it create an artistic design out of simple building blocks, which can then be eaten after the performance! So not only is the person happy from the delicious taste of the sugary treat, but they are also interacting with the visuals that the machines outputs as well!
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+
+
 
 ---
 
