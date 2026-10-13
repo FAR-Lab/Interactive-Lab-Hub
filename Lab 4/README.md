@@ -298,7 +298,7 @@ OCD Food Sorter, Food Dispenser, Magnetic Claw Machine Idea, Auto Drink Mixer, R
 
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
-
+Some questions that these sketches raise is the size of the contraption. Since we are working with very weak small motors, we have to make sure the actual prototype isn't too large for the motors. For most of these sketches, we have to physically prototype the components that interact with the motors, specifically the conveyor belt system, trap doors, fan blades, and mixing straw. 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
 Build a cardboard or other low-fidelity physical prototype of your design.
