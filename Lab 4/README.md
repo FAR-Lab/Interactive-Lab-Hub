@@ -308,7 +308,7 @@ Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
 
-
+https://youtu.be/_1U6LSeBOsY
 
 ---
 
