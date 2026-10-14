@@ -286,7 +286,7 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 <img width="611" height="219" alt="Screenshot 2026-10-14 at 6 02 09 PM" src="https://github.com/user-attachments/assets/6cafbdcf-ffd1-48dd-8353-7057a7858471" />
-<img width="2237" height="2316" alt="IMG_7655 copy" src="https://github.com/user-attachments/assets/7ae44ef4-15af-4702-977e-6ef63caea062" />
+<img width="559.25" height="579" alt="IMG_7655 copy" src="https://github.com/user-attachments/assets/7ae44ef4-15af-4702-977e-6ef63caea062" />
 
 
 
