@@ -285,6 +285,45 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+### Sketches
+
+<img width="1280" height="1707" alt="785eecd0fec2e76d6a9b7d6ee31be587" src="https://github.com/user-attachments/assets/e94e6492-7aa8-445d-861a-6b7273b97c12" />
+
+**Sketch 1: Front sensor.** A proximity sensor is on the front of the box. When my hand comes close, the servo opens the lid. After my hand leaves, it waits 2 seconds and closes the lid.
+
+<img width="1280" height="1707" alt="dc8c3138b5d95f7654261a454da91ca9" src="https://github.com/user-attachments/assets/408fc931-9f19-4842-81c0-d21f9e7b617e" />
+
+**Sketch 2: Touch handle.** A strip of foil on the side of the box is connected to the MPR121. Touching the foil opens the lid, and letting go closes it.
+
+<img width="1280" height="1707" alt="6a5f3d1ccf963df8c4cba63b32346ff5" src="https://github.com/user-attachments/assets/bf36dcbb-232c-4ee7-8030-1bb63e847375" />
+
+**Sketch 3: Gesture sensor on the lid.** The APDS-9960 sits on top of the lid. Swipe up to open, swipe down to close. But once the lid flips up, the sensor turns to face the back, so it may not see the swipe down anymore.
+
+<img width="1280" height="1707" alt="aa31bbe0a64a079f7162b031daf2a65b" src="https://github.com/user-attachments/assets/72b95691-7421-4e33-8da4-0cbcd6c8e983" />
+
+**Sketch 4: Bottle detection.** This one uses two sensors. The APDS-9960 on the front sees my hand and opens the lid. The distance sensor under the bottle checks if the bottle is there. The lid stays open while the bottle is out, and closes 2 seconds after I put it back.
+
+<img width="1280" height="1707" alt="3f83067813633e9fabca09ba67fa0b6d" src="https://github.com/user-attachments/assets/e2a63afc-e253-4096-b502-012bdd1029d4" />
+
+**Sketch 5: Sensor under the cabinet.** The sensor is under the cabinet above the box, facing down. When I reach in, the lid opens. There is no sensor on the box itself.
+
+### Questions raised by the sketches
+
+- How close should my hand be before the lid opens? Will walking past open it by mistake?
+- What happens if my hand is still in the box when the lid closes?
+- Is the 9g servo strong enough to lift the lid? How light does the lid need to be?
+- Will oily or wet hands mess up the touch sensor? (Sketch 2)
+- If the sensor is on the lid, does it still work after the lid opens? (Sketch 3)
+- Will the bottle always sit right on top of the bottom sensor? (Sketch 4)
+- Is there enough room under the cabinet for the lid to fully open? (Sketch 5)
+
+To answer some of these, I need a physical prototype: a box with a hinged lid and a spot for the bottle, so I can check how big the lid is, how far it needs to open, and where the sensors and servo should go.
+
+### Which idea I picked and why
+
+I picked Sketch 4. The idea came from the minibar in Las Vegas hotels, where a sensor under each item knows when you pick it up. Here the box knows if the bottle is taken out or put back. That way, the lid only closes after the bottle is back, and it won't close on me while I'm still cooking.
+
+One thing I noticed is that if the lid needs to cover the bottle, maybe what's inside isn't fully sealed, or it needs to stay cool. For example, oyster sauce should be kept cold after opening, so this could become a small cold box for sauces. A fridge might still be a better choice for that, so this is just one possibility. A real version could also have one sensor for each bottle, like the minibar.
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
