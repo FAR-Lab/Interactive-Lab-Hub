@@ -18,7 +18,7 @@
 
 ## Lab Overview
 Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
+Members: Pallavi Srinivas (ps2269), Pallavi Khanna (pk633), Abiola Bolaji (ab3394)
 Clock name: <name>
 
 
