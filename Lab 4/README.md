@@ -301,12 +301,17 @@ OCD Food Sorter, Food Dispenser, Magnetic Claw Machine Idea, Auto Drink Mixer, R
 
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
-Some questions that these sketches raise is the size of the contraption. Since we are working with very weak small motors, we have to make sure the actual prototype isn't too large for the motors. For most of these sketches, we have to physically prototype the components that interact with the motors, specifically the conveyor belt system, trap doors, fan blades, and mixing straw. 
+Some questions that these sketches raise is the size of the contraption. Since we are working with very weak small motors, we have to make sure the actual prototype isn't too large for the motors. For most of these sketches, we have to physically prototype the components that interact with the motors, specifically the conveyor belt system, trap doors, fan blades, and mixing straw. Another question is how much torque the rotars actually produce, is it enough to stop and m and m from causing the motor to swivel. Is it enough to actually push a whole platform of food up and down? To physically prototype this we will most likely need to test these different interactions by making a mockup of the system and actually see whether or not the power they output is enough to complete the action we intended it to complete! So we will have to test whether or not the motor can push a spoon through liquid, or perhaps push a conveyor system with just one rail system to start off with.
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
+We decided to choose the m and m / skittle sorter because it will have us work with servos, light detectors, and some sort of reasoning mathematical reasoning sorter to arrange the skittles and such into different flower shapes! We want to combine the cool physical movement and have it create an artistic design out of simple building blocks, which can then be eaten after the performance! So not only is the person happy from the delicious taste of the sugary treat, but they are also interacting with the visuals that the machines outputs as well!
+
+
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+https://youtu.be/_1U6LSeBOsY
 
 ---
 
