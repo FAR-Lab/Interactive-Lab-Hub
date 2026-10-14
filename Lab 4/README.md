@@ -291,7 +291,7 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **Sketch 1: Front sensor.** A proximity sensor is on the front of the box. When my hand comes close, the servo opens the lid. After my hand leaves, it waits 2 seconds and closes the lid.
 
-<img width="1280" height="1707" alt="dc8c3138b5d95f7654261a454da91ca9" src="https://github.com/user-attachments/assets/408fc931-9f19-4842-81c0-d21f9e7b617e" />
+<img width="400" alt="dc8c3138b5d95f7654261a454da91ca9" src="https://github.com/user-attachments/assets/408fc931-9f19-4842-81c0-d21f9e7b617e" />
 
 **Sketch 2: Touch handle.** A strip of foil on the side of the box is connected to the MPR121. Touching the foil opens the lid, and letting go closes it.
 
