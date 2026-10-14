@@ -327,7 +327,17 @@ One thing I noticed is that if the lid needs to cover the bottle, maybe what's i
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
-**\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+**Rough Prototype
+
+<img width="450" alt="6bbd9262f954c50de276f29b88c22670" src="https://github.com/user-attachments/assets/59dc8d62-7587-4262-bc29-245404ca459a" />
+
+<img width="450" alt="abff1b1c52eec03dab5c357977cc4b2c" src="https://github.com/user-attachments/assets/42f5317a-98c1-4f0a-90d9-ebf55b9cb7d0" />
+
+<img width="450" alt="f5e101467a9abb4c5f6e2f427bc93194" src="https://github.com/user-attachments/assets/20d59337-00e8-4d42-9df9-244211e8702c" />
+
+<img width="450" alt="59e253b3f339539b9b74bcb4a87ddfed" src="https://github.com/user-attachments/assets/3e3890e5-d799-4083-b8b0-500be610f8e5" />
+
+<img width="450" alt="82254854bb33c1e640b3dfa5c69fa230" src="https://github.com/user-attachments/assets/24e2306f-99a0-4b02-bcd9-d7657dc552ee" />
 
 ---
 
