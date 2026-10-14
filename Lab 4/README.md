@@ -26,7 +26,7 @@ Members:
 Yilin Wu (yw2895), https://github.com/yw2895-ship-it/Interactive-Lab-Hub/edit/Fall2026/Lab%204/README.md
 
 
-Sina Liu (sl3733),
+Sina Liu (sl3733), https://github.com/SinaL0123/Interactive-Lab-Hub/tree/Fall2026/Lab%204/README.md
 
 
 Jindi Chai (jc3892), https://github.com/JindiChai/Interactive-Lab-Hub/blob/Fall2026/Lab%204/README.md
