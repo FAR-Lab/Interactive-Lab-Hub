@@ -18,7 +18,9 @@
 
 ## Lab Overview
 Team: No-eye-deer
+
 Members: Jindi Chai (jc3892), Yilin Wu (yw2895), Sina Liu (sl3733)
+
 Project name: The Escaping Snack Tray
 
 
