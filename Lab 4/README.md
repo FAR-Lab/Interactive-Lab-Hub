@@ -303,7 +303,7 @@ Some questions that these sketches raise is the size of the contraption. Since w
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
 We decided to choose the m and m / skittle sorter because it will have us work with servos, light detectors, and some sort of reasoning mathematical reasoning sorter to arrange the skittles and such into different flower shapes! We want to combine the cool physical movement and have it create an artistic design out of simple building blocks, which can then be eaten after the performance! So not only is the person happy from the delicious taste of the sugary treat, but they are also interacting with the visuals that the machines outputs as well!
-
+ 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
