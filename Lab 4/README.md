@@ -18,7 +18,7 @@
 
 ## Lab Overview
 Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
+Members: [Neeha Ravula](https://github.com/neeharavula/Interactive-Lab-Hub/tree/Fall2026) (nr485), [Gaurav Patel](https://github.com/Gtpatel02/Interactive-Lab-Hub) (gp438), [Nishant Ray](https://github.com/Nishant-Ray/Interactive-Lab-Hub) (nr487), [Ammar Syed](https://github.com/ammarsyed/Interactive-Lab-Hub) (as4422)
 Project name: <name>
 
 ---
