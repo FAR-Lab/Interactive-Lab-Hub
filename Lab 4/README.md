@@ -324,9 +324,6 @@ To answer some of these, I need a physical prototype: a box with a hinged lid an
 I picked Sketch 4. The idea came from the minibar in Las Vegas hotels, where a sensor under each item knows when you pick it up. Here the box knows if the bottle is taken out or put back. That way, the lid only closes after the bottle is back, and it won't close on me while I'm still cooking.
 
 One thing I noticed is that if the lid needs to cover the bottle, maybe what's inside isn't fully sealed, or it needs to stay cool. For example, oyster sauce should be kept cold after opening, so this could become a small cold box for sauces. A fridge might still be a better choice for that, so this is just one possibility. A real version could also have one sensor for each bottle, like the minibar.
-**\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
-
-**\*\*\*Pick one design to prototype and explain why.\*\*\***
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
