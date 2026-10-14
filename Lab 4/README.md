@@ -298,6 +298,14 @@ The five sketches made us think about which type of movement works best for the 
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
+Selected Design: Center Rotating Tray
+
+We selected Sketch 1, the Center Rotating Tray, for our physical prototype. We chose this design because it has the simplest structure and clearly communicates the interaction. It only requires one proximity sensor, one micro servo, a central axle, and a rotating tray. Compared with the other designs, it should be easier to construct, stabilize, and control. When a hand approaches the proximity sensor, the servo will rotate the tray and move the snack away. This creates a playful interaction using a familiar dining object.
+
+Low-Fidelity Prototype
+
+We built a low-fidelity prototype using cardboard, a cardboard box, and a lightweight center axle. The box represents the housing for the Raspberry Pi, servo, and wires. We positioned the proximity sensor at the front so it could detect an approaching hand. The tray is placed above the box and connected to the center axle. For this prototype, we manually rotated the tray to simulate the servo’s movement. This helped us test the device’s size, component placement, and the stability of the rotating tray before completing the electronic integration.
+
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
