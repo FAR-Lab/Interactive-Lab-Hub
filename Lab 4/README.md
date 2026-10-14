@@ -17,9 +17,22 @@
 ---
 
 ## Lab Overview
-Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
-Clock name: <name>
+Team: No-eye-deer
+
+
+Members: 
+
+
+Yilin Wu (yw2895), https://github.com/yw2895-ship-it/Interactive-Lab-Hub/edit/Fall2026/Lab%204/README.md
+
+
+Sina Liu (sl3733),
+
+
+Jindi Chai (jc3892), https://github.com/JindiChai/Interactive-Lab-Hub/blob/Fall2026/Lab%204/README.md
+
+
+Project name: The Escaping Snack Tray
 
 
 For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
@@ -84,6 +97,7 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 	If you see "Hello blinka!", your setup is correct. If not, follow the troubleshooting steps in the file or ask for help.
 
 ---
+
 
 ### Gathering materials for this lab:
 
@@ -285,14 +299,38 @@ Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/p
 As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
+<img width="1949" height="2839" alt="sketch" src="https://github.com/user-attachments/assets/4c27dec9-241e-4223-aeb9-7f53b7dbed4f" />
+
+For this lab, we want to make a snack tray that moves away when someone tries to grab food from it. We will use a proximity sensor to detect when a hand gets close, and a servo motor to move the tray so the snack becomes harder to reach. We came up with several possible designs, including rotating, sliding, and swinging trays. We thought it would be funny to have a snack tray that makes people chase their food instead of just picking it up.
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
+The five sketches made us think about which type of movement works best for the “runaway snack” interaction. For example, we need to test whether rotating the whole tray is too heavy for the servo, whether a rotating arm is stable enough to hold the snack, whether a sliding tray has too much friction, and whether a hanging tray will swing too much. We also need to test how far the snack should move and where the proximity sensor should be placed so it can detect the user consistently. We plan to use cardboard and lightweight materials to prototype the tray, arm, and support structure, then test the servo strength, movement range, balance, and sensor placement before choosing the final design.
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
-Build a cardboard or other low-fidelity physical prototype of your design.
+Selected Design: Center Rotating Tray
+
+
+We selected Sketch 1, the Center Rotating Tray, for our physical prototype. We chose this design because it has the simplest structure and clearly communicates the interaction. It only requires one proximity sensor, one micro servo, a central axle, and a rotating tray. Compared with the other designs, it should be easier to construct, stabilize, and control.
+When a hand approaches the proximity sensor, the servo will rotate the tray and move the snack away. This creates a playful interaction using a familiar dining object.
+
+
+Low-Fidelity Prototype
+
+
+We built a low-fidelity prototype using cardboard, a cardboard box, and a lightweight center axle. The box represents the housing for the Raspberry Pi, servo, and wires. We positioned the proximity sensor at the front so it could detect an approaching hand. The tray is placed above the box and connected to the center axle.
+For this prototype, we manually rotated the tray to simulate the servo’s movement. This helped us test the device’s size, component placement, and the stability of the rotating tray before completing the electronic integration.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+<img width="4284" height="5712" alt="e684026ccc2167fd68a6c22654de3e21" src="https://github.com/user-attachments/assets/81c2d26f-0f8b-47fd-9c1d-342306ccaa67" />
+
+<img width="4284" height="5712" alt="c9b184c3b5754f32ca670ebd71436191" src="https://github.com/user-attachments/assets/c005f1b8-45cd-4b89-82ef-7990c3f844e8" />
+
+<img width="3024" height="4032" alt="8bbadf7851ba7dd884173c2e9a2a3523" src="https://github.com/user-attachments/assets/a8ab72cc-acd9-4e3d-8cc7-1fbbac52d16a" />
+
+
+https://github.com/user-attachments/assets/a461cf13-3a02-49af-9a6f-0f9b2b0d9b1e
 
 ---
 
