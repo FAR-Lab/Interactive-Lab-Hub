@@ -18,7 +18,7 @@
 
 ## Lab Overview
 Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
+Members: Jindi Chai (jc3892), Yilin Wu (yw2895), Sina Liu (sl3733)
 Clock name: <name>
 
 
