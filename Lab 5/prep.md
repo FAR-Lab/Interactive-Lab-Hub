@@ -25,7 +25,7 @@ Option 2: On your own GitHub repo, create a pull request to get updates from the
 
 ## VNC
 
-The live demos in Parts B and C open a video window, so you will run them on your Pi through VNC. If you have not set it up yet, follow [Using VNC to see your Pi desktop](https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2026/Lab%202/prep.md#using-vnc-to-see-your-pi-desktop) from the Lab 2 prep. Everything else in this lab, including the overnight scripts, runs over plain ssh.
+The live demos in Parts B, C and E open a video window, so you will run them on your Pi through VNC. If you have not set it up yet, follow [Using VNC to see your Pi desktop](https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2026/Lab%202/prep.md#using-vnc-to-see-your-pi-desktop) from the Lab 2 prep. Everything else in this lab, including the overnight scripts, runs over plain ssh (and so does Part E with `--headless`).
 
 ## For the lab, you will need
 

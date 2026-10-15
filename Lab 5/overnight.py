@@ -4,6 +4,7 @@ It only senses and logs; the reasoning waits for the morning (morning.py).
 
     python overnight.py                  # one look every 5 s until Ctrl-C
     python overnight.py --interval 30    # look less often
+    python overnight.py --all            # log the other objects too, not only people (see Part E)
 
 Fake a night first: run it for thirty seconds while you walk around, Ctrl-C, then run morning.py.
 
@@ -24,7 +25,9 @@ from yolo_to_qwen import interpret, model      # the interpreter you tuned in Pa
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--interval", type=float, default=5, help="seconds between looks")
+parser.add_argument("--all", action="store_true", help="detect all 80 classes, not only people")
 args = parser.parse_args()
+classes = None if args.all else [0]        # class 0 is "person", as in yolo_to_qwen.py
 
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
@@ -47,7 +50,7 @@ while True:
         ok, frame = cap.read()
         if not ok:
             raise RuntimeError("no frame")
-        r = model.predict(frame, imgsz=320, conf=0.4, verbose=False)[0]
+        r = model.predict(frame, imgsz=320, conf=0.4, classes=classes, verbose=False)[0]
         reading = interpret(r)
         now = datetime.datetime.now()
         ts = now.isoformat(timespec="seconds")
