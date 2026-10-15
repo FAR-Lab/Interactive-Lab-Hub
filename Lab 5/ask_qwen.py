@@ -13,9 +13,11 @@ import argparse
 import base64
 import json
 import time
+import sys 
 
 import requests
 
+sys.stdout.reconfigure(encoding="utf-8") 
 parser = argparse.ArgumentParser()
 parser.add_argument("question")
 parser.add_argument("--model", default="qwen3.5:0.8b")
