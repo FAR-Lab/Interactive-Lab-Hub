@@ -11,7 +11,7 @@ def main():
     try:
         sensor = APDS9960(i2c)
         sensor.enable_proximity = True
-        print("APDS-9960 proximity: 0–255, NOT centimetres. Ctrl+C to stop.")
+        print("APDS-9960 proximity: 0-255, NOT centimetres. Ctrl+C to stop.")
         print("Compare: no hand / hand approaching / tray in both positions.")
         while True:
             print(f"proximity = {sensor.proximity:3d}", flush=True)

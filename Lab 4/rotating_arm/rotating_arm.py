@@ -35,11 +35,11 @@ def arguments():
     p.add_argument('mode', choices=['center', 'sweep', 'run'])
     p.add_argument('--rest-us', type=int, default=1400)
     p.add_argument('--escape-us', type=int, default=1600)
-    p.add_argument('--near', type=int, help='Measured hand-present threshold, 1–255')
-    p.add_argument('--far', type=int, help='Measured release threshold, 0–254')
+    p.add_argument('--near', type=int, help='Measured hand-present threshold, 1-255')
+    p.add_argument('--far', type=int, help='Measured release threshold, 0-254')
     args = p.parse_args()
     if not all(1000 <= v <= 2000 for v in [args.rest_us, args.escape_us]):
-        p.error('Keep pulse widths within 1000–2000 us; start at 1400/1600.')
+        p.error('Keep pulse widths within 1000-2000 us; start at 1400/1600.')
     if args.mode == 'run' and not (
         args.near is not None and args.far is not None
         and 0 <= args.far < args.near <= 255
