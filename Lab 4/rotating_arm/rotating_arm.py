@@ -33,13 +33,15 @@ class HandState:
 def arguments():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('mode', choices=['center', 'sweep', 'run'])
-    p.add_argument('--rest-us', type=int, default=1400)
-    p.add_argument('--escape-us', type=int, default=1600)
+    p.add_argument('--rest-us', type=int, default=1200,
+                   help='Rest pulse width in us (default: 1200)')
+    p.add_argument('--escape-us', type=int, default=1800,
+                   help='Escape pulse width in us (default: 1800)')
     p.add_argument('--near', type=int, help='Measured hand-present threshold, 1-255')
     p.add_argument('--far', type=int, help='Measured release threshold, 0-254')
     args = p.parse_args()
     if not all(1000 <= v <= 2000 for v in [args.rest_us, args.escape_us]):
-        p.error('Keep pulse widths within 1000-2000 us; start at 1400/1600.')
+        p.error('Keep pulse widths within 1000-2000 us; use 1400/1600 for a small test.')
     if args.mode == 'run' and not (
         args.near is not None and args.far is not None
         and 0 <= args.far < args.near <= 255
@@ -81,6 +83,7 @@ def main():
             _ = sensor.proximity
 
         print('Channel 0 will move. Keep the sweep clear. Ctrl+C disables PWM.')
+        print(f'Configured range: REST={args.rest_us}us, ESCAPE={args.escape_us}us.')
         write_us(1500)
         time.sleep(1)
         if args.mode == 'center':
@@ -91,9 +94,9 @@ def main():
         move(1500, args.rest_us, 0.8)
         if args.mode == 'sweep':
             for _ in range(3):
-                move(args.rest_us, args.escape_us, 0.6)
+                move(args.rest_us, args.escape_us, 0.8)
                 time.sleep(1)
-                move(args.escape_us, args.rest_us, 1.0)
+                move(args.escape_us, args.rest_us, 1.2)
                 time.sleep(1)
             return
 
@@ -106,7 +109,7 @@ def main():
             now = time.monotonic()
             escaped = state.update(value, now)
             target = args.escape_us if escaped else args.rest_us
-            duration = 0.5 if escaped else 1.0
+            duration = 0.8 if escaped else 1.2
             speed = abs(args.escape_us - args.rest_us) / duration
             # Cap the step after scheduling delays; do not jump across the sweep.
             step = speed * min(now - last, 0.05)
