@@ -2,9 +2,14 @@
 
 ## Align the default arm direction
 
-The visible arm direction depends on both the REST pulse and how the servo horn is
-installed on the output spline. Keep the tested 1200–1800 us travel and align the
-horn at the actual REST command:
+The servo is mounted across the box, so the software applies an approximately
+90-degree offset. The default positions are:
+
+- REST: 1700 us, pointing toward the user
+- ESCAPE: 1200 us, rotating away
+
+Both positions remain inside the 1200–1800 us range already tested on the
+assembled hardware. Check the actual direction with:
 
 ```bash
 cd ~/Interactive-Lab-Hub/"Lab 4"
@@ -12,18 +17,17 @@ source .venv/bin/activate
 python rotating_arm/rotating_arm.py align
 ```
 
-The servo moves to and holds the default REST position (1200 us). Press `Ctrl+C`,
-disconnect power, remove the horn's centre screw, lift the horn without turning the
-servo shaft, and reinstall the arm pointing toward the user. Tighten the centre
-screw before reconnecting power.
+The servo moves to and holds the default REST position (1700 us). If it points
+toward the user, press `Ctrl+C` and continue with the sweep test. No change to the
+servo cutout or body orientation is required.
 
 For small software adjustments after the horn is reinstalled, test in 25–50 us
 steps. For example:
 
 ```bash
-python rotating_arm/rotating_arm.py align --rest-us 1250
-python rotating_arm/rotating_arm.py sweep --rest-us 1250 --escape-us 1800
-python rotating_arm/rotating_arm.py run --near 30 --far 10 --rest-us 1250 --escape-us 1800
+python rotating_arm/rotating_arm.py align --rest-us 1675
+python rotating_arm/rotating_arm.py sweep --rest-us 1675 --escape-us 1200
+python rotating_arm/rotating_arm.py run --near 30 --far 10 --rest-us 1675 --escape-us 1200
 ```
 
 Use the same `--rest-us` value for `align`, `sweep`, and `run`. Keep both pulse

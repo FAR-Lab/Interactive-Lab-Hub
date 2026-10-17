@@ -8,8 +8,11 @@ import argparse
 import math
 import time
 
-DEFAULT_REST_US = 1200
-DEFAULT_ESCAPE_US = 1800
+# The servo body is mounted across the box. This offset makes the arm's REST
+# direction point toward the user without rotating the servo in its cutout.
+# Both endpoints stay inside the 1200-1800 us range already tested on hardware.
+DEFAULT_REST_US = 1700
+DEFAULT_ESCAPE_US = 1200
 
 
 class HandState:
