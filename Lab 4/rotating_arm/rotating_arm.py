@@ -8,10 +8,11 @@ import argparse
 import math
 import time
 
-# Hardware-tested endpoints. The replacement lid rotates the servo body 90
-# degrees, so the original pulse range again gives the intended arm directions.
-DEFAULT_REST_US = 1200
-DEFAULT_ESCAPE_US = 1800
+# The replacement lid rotates the servo body 90 degrees. On the assembled box,
+# 1700 us points the arm forward and 1200 us moves it to the escape side.
+# Both endpoints are inside the pulse range already tested on this hardware.
+DEFAULT_REST_US = 1700
+DEFAULT_ESCAPE_US = 1200
 
 
 class HandState:
