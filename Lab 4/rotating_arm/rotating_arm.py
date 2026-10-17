@@ -9,9 +9,9 @@ import math
 import time
 
 # The replacement lid rotates the servo body 90 degrees. On the assembled box,
-# 1700 us points the arm forward and 1200 us moves it to the escape side.
+# 1500 us points the arm forward and 1200 us moves it to the escape side.
 # Both endpoints are inside the pulse range already tested on this hardware.
-DEFAULT_REST_US = 1700
+DEFAULT_REST_US = 1500
 DEFAULT_ESCAPE_US = 1200
 
 
