@@ -8,6 +8,9 @@ import argparse
 import math
 import time
 
+DEFAULT_REST_US = 1200
+DEFAULT_ESCAPE_US = 1800
+
 
 class HandState:
     """Hysteresis plus continuous near/far dwell times."""
@@ -32,11 +35,11 @@ class HandState:
 
 def arguments():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('mode', choices=['center', 'sweep', 'run'])
-    p.add_argument('--rest-us', type=int, default=1200,
-                   help='Rest pulse width in us (default: 1200)')
-    p.add_argument('--escape-us', type=int, default=1800,
-                   help='Escape pulse width in us (default: 1800)')
+    p.add_argument('mode', choices=['center', 'align', 'sweep', 'run'])
+    p.add_argument('--rest-us', type=int, default=DEFAULT_REST_US,
+                   help=f'Rest pulse width in us (default: {DEFAULT_REST_US})')
+    p.add_argument('--escape-us', type=int, default=DEFAULT_ESCAPE_US,
+                   help=f'Escape pulse width in us (default: {DEFAULT_ESCAPE_US})')
     p.add_argument('--near', type=int, help='Measured hand-present threshold, 1-255')
     p.add_argument('--far', type=int, help='Measured release threshold, 0-254')
     args = p.parse_args()
@@ -92,6 +95,12 @@ def main():
                 time.sleep(0.1)
 
         move(1500, args.rest_us, 0.8)
+        if args.mode == 'align':
+            print(f'Holding REST at {args.rest_us}us for horn alignment.')
+            print('Press Ctrl+C, disconnect power, then refit the horn pointing forward.')
+            while True:
+                time.sleep(0.1)
+
         if args.mode == 'sweep':
             for _ in range(3):
                 move(args.rest_us, args.escape_us, 0.8)
