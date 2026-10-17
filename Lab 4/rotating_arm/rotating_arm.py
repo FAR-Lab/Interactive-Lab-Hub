@@ -8,8 +8,8 @@ import argparse
 import math
 import time
 
-# Hardware-tested endpoints. The horn is indexed on the servo spline so REST
-# points toward the user; small directional errors can then be trimmed in us.
+# Hardware-tested endpoints. The replacement lid rotates the servo body 90
+# degrees, so the original pulse range again gives the intended arm directions.
 DEFAULT_REST_US = 1200
 DEFAULT_ESCAPE_US = 1800
 
