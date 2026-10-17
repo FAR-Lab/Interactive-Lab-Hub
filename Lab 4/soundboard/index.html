@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Touch Pad Soundboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap">
+<style>
+  /* Layout: one typed sheet — a header block, then six slot cards on a ruled grid. */
+  :root {
+    --paper: #f6f6f1;       /* card stock, a touch cool */
+    --sheet: #fdfdfa;
+    --ink: #1d2230;         /* carbon ribbon */
+    --ink-soft: #5d6274;
+    --rule: #d9dbd2;
+    --ribbon-red: #b8322a;  /* second ribbon colour, used for stamps only */
+    --signal: #2f5d8c;      /* blue for live state */
+    --display: "Special Elite", "American Typewriter", "Courier New", monospace;
+    --body: "Courier Prime", "Courier New", Courier, monospace;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background-image: repeating-linear-gradient(to bottom, transparent 0 27px, var(--rule) 27px 28px);
+    background-color: var(--paper);
+    color: var(--ink);
+    font: 16px/1.5 var(--body);
+    padding-block: 32px 64px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 28px; }
+
+  /* Header block */
+  header {
+    background: var(--sheet);
+    border: 1px solid var(--ink);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0;
+  }
+  .masthead { padding: 20px 24px; border-right: 1px solid var(--ink); min-width: 0; }
+  .eyebrow { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 6px; }
+  h1 {
+    font: 400 clamp(30px, 5vw, 48px)/1.05 var(--display);
+    margin: 0; letter-spacing: .01em; text-wrap: balance;
+  }
+  h1 .cursor { display: inline-block; width: .5em; border-bottom: 3px solid var(--ink); margin-left: 2px; animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .lede { margin: 10px 0 0; max-width: 60ch; color: var(--ink-soft); }
+  .telemetry { margin: 0; padding: 20px 24px; display: grid; grid-template-columns: auto auto; gap: 4px 18px; align-content: center; font-size: 14px; }
+  .telemetry dt { color: var(--ink-soft); letter-spacing: .12em; text-transform: uppercase; font-size: 12px; align-self: center; }
+  .telemetry dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 700; }
+  .ok { color: var(--signal); }
+  .warn { color: var(--ribbon-red); }
+
+  /* Slot grid */
+  .slots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+  .slot {
+    position: relative;
+    background: var(--sheet);
+    border: 1px solid var(--ink);
+    display: grid; grid-template-rows: auto auto 1fr auto;
+    min-width: 0;
+    transition: box-shadow .15s ease;
+  }
+  .slot.drag { box-shadow: 0 0 0 3px var(--signal); }
+  .slot.live { box-shadow: 0 0 0 3px var(--signal); }
+  .slot-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 10px 14px; border-bottom: 1px dashed var(--ink);
+    font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+  }
+  .slot-num { font: 400 22px/1 var(--display); letter-spacing: .04em; }
+  .pad { color: var(--ink-soft); }
+  .label-field { padding: 12px 14px 0; }
+  .label-field label { display: block; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+  .label-field input {
+    width: 100%; font: 700 17px var(--body); color: var(--ink);
+    border: 0; border-bottom: 1px solid var(--ink); background: transparent;
+    padding: 4px 0; border-radius: 0;
+  }
+  .label-field input:focus { outline: none; border-bottom: 2px solid var(--signal); }
+  .label-field input::placeholder { color: var(--rule); font-weight: 400; }
+
+  .body { padding: 12px 14px 40px; display: grid; gap: 8px; align-content: start; min-height: 120px; }
+  .file { font-size: 14px; overflow-wrap: anywhere; }
+  .file small { display: block; color: var(--ink-soft); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .empty {
+    display: grid; place-items: center; text-align: center;
+    border: 1px dashed var(--ink-soft); color: var(--ink-soft);
+    padding: 18px 10px; font-size: 14px; cursor: pointer;
+  }
+  .empty:hover { color: var(--ink); border-color: var(--ink); }
+  .empty strong { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+  audio { width: 100%; height: 32px; }
+
+  .stamp {
+    position: absolute; bottom: 58px; right: 14px;
+    font: 400 13px/1 var(--display); letter-spacing: .12em;
+    color: var(--ribbon-red); border: 2px solid var(--ribbon-red);
+    padding: 4px 6px; transform: rotate(-7deg); opacity: .85; pointer-events: none;
+  }
+  .stamp.on-air { color: var(--signal); border-color: var(--signal); }
+
+  .actions { display: flex; flex-wrap: wrap; border-top: 1px solid var(--ink); }
+  .actions button {
+    flex: 1 1 auto; font: 700 13px var(--body); letter-spacing: .08em; text-transform: uppercase;
+    background: transparent; color: var(--ink); border: 0; border-right: 1px solid var(--ink);
+    padding: 10px 8px; cursor: pointer;
+  }
+  .actions button:last-child { border-right: 0; }
+  .actions button:hover:not(:disabled) { background: var(--ink); color: var(--sheet); }
+  .actions button:disabled { color: var(--rule); cursor: not-allowed; }
+  .actions button.danger:not(:disabled) { color: var(--ribbon-red); }
+  .actions button.danger:hover:not(:disabled) { background: var(--ribbon-red); color: var(--sheet); }
+  button:focus-visible, .empty:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+
+  .status { min-height: 1.4em; font-size: 12px; color: var(--ink-soft); padding: 0 14px 10px; }
+  .status.err { color: var(--ribbon-red); }
+
+  footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: center; font-size: 13px; color: var(--ink-soft); }
+  footer button {
+    font: 700 13px var(--body); letter-spacing: .08em; text-transform: uppercase;
+    background: var(--ink); color: var(--sheet); border: 1px solid var(--ink); padding: 10px 16px; cursor: pointer;
+  }
+  footer button:hover { background: var(--ribbon-red); border-color: var(--ribbon-red); }
+
+  @media (max-width: 860px) { .slots { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 620px) {
+    .slots { grid-template-columns: 1fr; }
+    header { grid-template-columns: 1fr; }
+    .masthead { border-right: 0; border-bottom: 1px solid var(--ink); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    h1 .cursor { animation: none; }
+    .slot { transition: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="masthead">
+      <p class="eyebrow">Six slots · Six touch pads</p>
+      <h1><span id="title">Soundboard</span><span class="cursor" aria-hidden="true"></span></h1>
+      <p class="lede">Load six recordings. Each one is assigned to a touch pad on the Pi. Touch the pad and it plays through the Pi's speaker.</p>
+    </div>
+    <dl class="telemetry">
+      <dt>Pi</dt><dd id="station">—</dd>
+      <dt>Sensor</dt><dd id="sensor">checking…</dd>
+      <dt>Loaded</dt><dd id="loaded">0 / 6</dd>
+      <dt>Time</dt><dd id="clock">--:--:--</dd>
+    </dl>
+  </header>
+
+  <main class="slots" id="slots" aria-live="polite"></main>
+
+  <footer>
+    <span>MPR121 electrodes E0–E5 map to slots 01–06. MP3, WAV, OGG, M4A, AAC or FLAC, up to 25 MB.</span>
+    <button type="button" id="stop-all">Stop playback</button>
+  </footer>
+</div>
+
+<template id="slot-tpl">
+  <article class="slot">
+    <div class="slot-head"><span class="slot-num"></span><span class="pad"></span></div>
+    <div class="label-field">
+      <label></label>
+      <input type="text" maxlength="40" placeholder="untitled">
+    </div>
+    <div class="body"></div>
+    <div class="status" role="status"></div>
+    <div class="actions">
+      <button type="button" data-act="upload"></button>
+      <button type="button" data-act="play">Play on Pi</button>
+      <button type="button" data-act="clear" class="danger">Clear</button>
+    </div>
+    <input type="file" accept="audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac" hidden>
+  </article>
+</template>
+
+<script>
+const N = 6;
+const slotsEl = document.getElementById("slots");
+const tpl = document.getElementById("slot-tpl");
+const cards = {};
+let state = { slots: {}, playing: null, sensor: {} };
+
+const pad2 = n => String(n).padStart(2, "0");
+const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(b / 1024)) + " KB";
+const fmtDate = s => new Date(s * 1000).toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+
+document.getElementById("station").textContent = location.host || "local";
+
+function build() {
+  for (let i = 1; i <= N; i++) {
+    const node = tpl.content.firstElementChild.cloneNode(true);
+    const id = "label-" + i;
+    node.querySelector(".slot-num").textContent = "Slot " + pad2(i);
+    node.querySelector(".pad").textContent = "Pad E" + (i - 1);
+    node.querySelector("label").textContent = "Label";
+    node.querySelector("label").htmlFor = id;
+    node.querySelector(".label-field input").id = id;
+    node.querySelector("input[type=file]").id = "file-" + i;
+    slotsEl.appendChild(node);
+    cards[i] = node;
+    wire(i, node);
+  }
+}
+
+function wire(i, node) {
+  const fileInput = node.querySelector("input[type=file]");
+  const labelInput = node.querySelector(".label-field input");
+  let clearArmed = false;
+
+  node.addEventListener("click", async e => {
+    const act = e.target.closest("[data-act]")?.dataset.act;
+    if (!act) return;
+    if (act === "upload") fileInput.click();
+    if (act === "play") {
+      const r = await api("POST", `/api/slots/${i}/play`);
+      if (r.ok) { setStatus(i, "Playing on the Pi."); refresh(); }
+      else setStatus(i, r.error, true);
+    }
+    if (act === "clear") {
+      const btn = e.target.closest("button");
+      if (!clearArmed) {
+        clearArmed = true; btn.textContent = "Confirm clear";
+        setTimeout(() => { clearArmed = false; btn.textContent = "Clear"; }, 3000);
+        return;
+      }
+      clearArmed = false; btn.textContent = "Clear";
+      const r = await api("DELETE", `/api/slots/${i}`);
+      if (r.ok) { setStatus(i, "Slot cleared."); refresh(); } else setStatus(i, r.error, true);
+    }
+  });
+
+  fileInput.addEventListener("change", () => {
+    if (fileInput.files[0]) upload(i, fileInput.files[0]);
+    fileInput.value = "";
+  });
+
+  labelInput.addEventListener("change", async () => {
+    if (!state.slots[i]) return;  // label is sent with the next upload
+    const r = await api("PATCH", `/api/slots/${i}`, JSON.stringify({ label: labelInput.value }), { "Content-Type": "application/json" });
+    setStatus(i, r.ok ? "Label saved." : r.error, !r.ok);
+  });
+
+  ["dragenter", "dragover"].forEach(t => node.addEventListener(t, e => { e.preventDefault(); node.classList.add("drag"); }));
+  ["dragleave", "drop"].forEach(t => node.addEventListener(t, e => { e.preventDefault(); node.classList.remove("drag"); }));
+  node.addEventListener("drop", e => { const f = e.dataTransfer.files[0]; if (f) upload(i, f); });
+}
+
+async function upload(i, file) {
+  const fd = new FormData();
+  fd.append("file", file);
+  fd.append("label", cards[i].querySelector(".label-field input").value);
+  setStatus(i, `Uploading ${file.name}…`);
+  const r = await api("POST", `/api/slots/${i}`, fd);
+  setStatus(i, r.ok ? "Uploaded." : r.error, !r.ok);
+  refresh();
+}
+
+async function api(method, url, body, headers) {
+  try {
+    const res = await fetch(url, { method, body, headers });
+    const data = await res.json().catch(() => ({}));
+    return res.ok ? { ok: true, ...data } : { ok: false, error: data.error || `The Pi answered ${res.status}.` };
+  } catch {
+    return { ok: false, error: "Can't reach the Pi. Check that app.py is running and you're on the same Wi-Fi." };
+  }
+}
+
+function setStatus(i, msg, isErr) {
+  const el = cards[i].querySelector(".status");
+  el.textContent = msg || "";
+  el.classList.toggle("err", !!isErr);
+}
+
+function render() {
+  let loaded = 0;
+  for (let i = 1; i <= N; i++) {
+    const s = state.slots[i];
+    const node = cards[i];
+    const body = node.querySelector(".body");
+    const live = state.playing === i;
+    node.classList.toggle("live", live);
+    node.querySelector("[data-act=upload]").textContent = s ? "Replace" : "Upload";
+    node.querySelector("[data-act=play]").disabled = !s;
+    node.querySelector("[data-act=clear]").disabled = !s;
+
+    const label = node.querySelector(".label-field input");
+    if (document.activeElement !== label && s) label.value = s.label || "";
+
+    node.querySelector(".stamp")?.remove();
+    const key = s ? `${s.file}:${s.uploaded}` : "empty";
+    if (body.dataset.key !== key) {
+      body.dataset.key = key;
+      body.replaceChildren();
+      if (s) {
+        const f = document.createElement("div");
+        f.className = "file";
+        f.textContent = s.name;
+        const meta = document.createElement("small");
+        meta.textContent = `${fmtSize(s.size)} · loaded ${fmtDate(s.uploaded)}`;
+        f.appendChild(meta);
+        const a = document.createElement("audio");
+        a.controls = true; a.preload = "none";
+        a.src = `/api/slots/${i}/audio?v=${s.uploaded}`;
+        body.append(f, a);
+      } else {
+        const d = document.createElement("div");
+        d.className = "empty"; d.tabIndex = 0; d.setAttribute("role", "button");
+        d.innerHTML = "<span>Drop audio here<br>or <strong>choose a file</strong></span>";
+        d.addEventListener("click", () => node.querySelector("input[type=file]").click());
+        d.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); d.click(); } });
+        body.append(d);
+      }
+    }
+    if (s) {
+      loaded++;
+      const st = document.createElement("span");
+      st.className = "stamp" + (live ? " on-air" : "");
+      st.textContent = live ? "ON AIR" : "LOADED";
+      node.appendChild(st);
+    }
+  }
+  document.getElementById("loaded").textContent = `${loaded} / ${N}`;
+  const sensorEl = document.getElementById("sensor");
+  sensorEl.textContent = state.sensor.connected ? "MPR121 online" : "no touch sensor";
+  sensorEl.className = state.sensor.connected ? "ok" : "warn";
+  if (!state.sensor.connected && state.sensor.error) sensorEl.title = state.sensor.error;
+}
+
+async function refresh() {
+  try {
+    const res = await fetch("/api/slots");
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+    state = { slots: Object.fromEntries(Object.entries(data.slots).map(([k, v]) => [Number(k), v])), playing: data.playing, sensor: data.sensor };
+    render();
+  } catch {
+    const el = document.getElementById("sensor");
+    el.textContent = "Pi offline"; el.className = "warn";
+  }
+}
+
+document.getElementById("stop-all").addEventListener("click", async () => { await api("POST", "/api/stop"); refresh(); });
+
+function tick() {
+  const d = new Date();
+  document.getElementById("clock").textContent = [d.getHours(), d.getMinutes(), d.getSeconds()].map(pad2).join(":");
+}
+
+build();
+render();
+refresh();
+tick();
+setInterval(tick, 1000);
+setInterval(refresh, 1500);  // picks up pad touches and uploads from other devices
+</script>
+</body>
+</html>

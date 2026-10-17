@@ -1,25 +1,11 @@
 # Ph-UI!!!
 
-<details>
-	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
-  
-	**Submission Cleanup Reminder:**
-	- This README.md contains extra instructional text for guidance.
-	- Before submitting, remove all instructional text and example prompts from this file.
-	- You may delete these sections or use the toggle/hide feature in VS Code to collapse them for a cleaner look.
-	- Your final submission should be neat, focused on your own work, and easy to read for grading.
-  
-	This helps ensure your README.md is clear, professional, and uniquely yours!
-</details>
-
----
-
 ---
 
 ## Lab Overview
-Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
-Project name: <name>
+Team: Individual  
+Members: Aryan Palave (ap2578, ap2578)  
+Project name: Hunger Dial
 
 
 For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
@@ -285,13 +271,35 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+The Hunger Dial is a tabletop device that asks how hungry I am before I decide what to eat. I turn a knob (rotary encoder) to set my hunger level from 1 to 5, and a servo swings a pointer across a printed arc of food suggestions, going from a glass of water or a piece of fruit at the low end, through a snack and a light meal, up to a full plate at the top. The Qwiic OLED shows a specific suggestion for that level, so a 2 might read "handful of almonds" while a 5 reads "rice, dal and a full plate of sabzi."
+
+<!-- TODO: add sketch images, e.g. ![Sketch 1](sketches/sketch1.jpg) -->
+
+1. **Desk gauge:** an upright cardboard face like a speedometer, with the knob at the base and the servo pointer in the middle.
+2. **Placemat dial:** the arc is printed flat on a placemat and the servo pointer lies flat over it, with the knob at the edge of the mat.
+3. **Fridge magnet:** a slim version mounted on the fridge door, so I set my hunger right where I go looking for food.
+4. **Lazy Susan:** the servo rotates a small turntable of food cards, so the suggested card ends up facing me.
+5. **Lunchbox lid:** the dial is built into the lid of a lunchbox and the knob doubles as the latch.
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
+- Can a standard servo's 180 degree sweep fit five food categories with enough space that the pointer clearly lands on one?
+- Does turning a knob actually feel like describing hunger, or would a different input (squeezing, pressing a button for longer) feel more natural?
+- Should the knob turn the pointer directly in real time, or should the servo wait and "decide" after I let go?
+- Where do the Pi, the servo pHAT and the wires hide so the device still looks like something that belongs on a table?
+- Is the printed arc readable from a normal sitting distance, and is the OLED needed at all if the arc is clear?
+
+To answer these I need to build the face at real size, mount the servo and knob in it, and try reading and using it from my seat at the table.
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
+
+I picked the desk gauge (sketch 1). It is the simplest to build in cardboard, the servo mounts directly behind the face with the horn poking through, and a speedometer is a shape everyone already knows how to read, so the pointer's meaning is obvious without instructions. It also leaves a box underneath for the Pi and wiring.
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+
+<!-- TODO: add prototype photos/video, e.g. ![Prototype](prototype/front.jpg) -->
 
 ---
 
