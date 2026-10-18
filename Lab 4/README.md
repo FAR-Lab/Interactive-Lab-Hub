@@ -110,10 +110,13 @@ Here is a simple interaction diagram of how sensing and actuation are connected 
 
 ### Final Documentation
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+- **Looks like**: The final prototype consists of a laser-cut support structure containing the servo motor, with a cross-shaped rotating platform mounted above it. The button is placed next to the device so the user can easily control the carousel. The structure is lightweight and compact so the servo can rotate the platform reliably.
+
+- **Works like**: When the user presses the button, the Raspberry Pi detects the input and sends a command to the servo motor through the Servo pHAT. The servo rotates the platform 180 degrees, bringing the next sushi serving to the user.
+
+- **Acts like**: The carousel acts like a small automated sushi server. The user presses the button when they want the next serving, and the platform immediately rotates to bring food toward them. The interaction is intentionally simple and playful, with one clear input producing one visible physical response.
+
+A final demo of our product can be seen here:
 
 ---
 
