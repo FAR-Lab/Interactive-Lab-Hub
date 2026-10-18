@@ -1,6 +1,4 @@
 # Ph-UI!!!
-[Lab 4. Ph-UI!!! — Dinner Dial](Lab%204/README.md)
-
 ---
 
 ## Lab Overview
@@ -93,8 +91,7 @@ My implementation sequence is:
 ![pt3](./pt3.jpg)
 ![pt4](./pt4.jpg)
 
-The earlier paper-prototype photos in [Part D](#part-d) document the layout exploration. The final demonstration should show the joystick, moving pointer, and spoken feedback together.
-
+The earlier paper-prototype photos in [Part D](#part-d) document the layout exploration. The paper-prototype photos in [Part D](#part-d) document the early layout. The final demonstration and enclosure photos are included in [Part F](#part-f).
 #### 3. Interaction Diagram
 
 ```mermaid
