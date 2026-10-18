@@ -19,8 +19,6 @@
 ## Lab Overview
 Team: <canvas group name>  
 Members: Xiaowei David Zhang Chen (xz2229, davidzhanggg), Ziqiao Gao (zg375, zg375)  
-Clock name: <name>
-
 
 For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
 
@@ -396,6 +394,8 @@ Here is a simple interaction diagram of how sensing and actuation are connected 
 ![idea](dimensions.png)
 ![tinkercad](tinkercad.png)
 ![tinkercad2](tinkercad2.png)
+![3dprint](3dprint.jpg)
+![lasercut](lasercut.jpg)
 
 
 <details>
@@ -578,8 +578,11 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 - **Acts like**: The carousel acts like a small automated sushi server. The user presses the button when they want the next serving, and the platform immediately rotates to bring food toward them. The interaction is intentionally simple and playful, with one clear input producing one visible physical response.
 
-A final demo of our product can be seen here: 
+A final demo of our product can be seen here:
 
+https://drive.google.com/file/d/1a9rUbpS7RJNq2u2ESoLvqGxZuvJmz5cW/view?usp=sharing
+
+![FinalProto](finalproto.jpg)
 
 ---
 <details>
