@@ -2,109 +2,15 @@
 
 Collaborator: Jerry Lee
 
-[![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://youtu.be/LZ0VJClIlRI?si=Yy84mcyVYuVV19mn)
-
 In this lab, we want you to design interaction with a speech-enabled device — something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1). First, we want you to storyboard what you imagine the conversational interaction to be like. Then you will use wizarding techniques to elicit examples of what people might say, ask, or respond. We then want you to use the examples collected from at least two other people to inform the redesign of the device.
 
 We will focus on **audio** as the main modality for interaction to start; these general techniques can be extended to **video**, **haptics** or other interactive mechanisms in the second part of the Lab.
 
 A note on what you are building with. Speech interfaces are usually taught as two boxes — speech-in, speech-out — and that framing hides the part that actually determines whether an interaction works. Between listening and speaking sits the question of **whose turn it is**: when does the device decide you have finished talking, and how long does it make you wait before it answers? This lab gives you direct control over both, and we will ask you to notice what changes when you move them.
 
-## Prep for Part 1: Get the Latest Content and Pick up Additional Parts
-
-Please check instructions in [prep.md](prep.md) and complete the setup.
-
-### Pick up Web Camera If You Don't Have One
-
-Students who have not already received a web camera will receive their Webcam and at the beginning of lab. If you cannot make it to class this week, please contact the TAs to ensure you get these.
-
-### Get the Latest Content
-
-As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo.
-
-**\[recommended\]** Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the *personal access token* for this.
-
-```
-pi@ixe00:~$ cd Interactive-Lab-Hub
-pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2026
-pi@ixe00:~/Interactive-Lab-Hub $ git add .
-pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
-pi@ixe00:~/Interactive-Lab-Hub $ git push
-```
-
-Option 2: On your own GitHub repo, create a pull request to get updates from the class Interactive-Lab-Hub. After you have the latest updates online, go to your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull`.
-
----
-
 # Part 1
 
-## Setup
-
-Create and activate a virtual environment for this lab:
-
-```
-pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 3
-pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python3 -m venv .venv
-pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ source .venv/bin/activate
-(.venv) pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $
-```
-
-Install the Python dependencies:
-
-```
-(.venv) $ pip install -r requirements.txt
-```
-
-This takes a few minutes. If you would like it to take considerably less time, [`uv`](https://docs.astral.sh/uv/) is a drop-in replacement for `pip` that is dramatically faster on the Pi:
-
-```
-(.venv) $ pip install uv && uv pip install -r requirements.txt
-```
-
-Then run the setup script, which installs the classic speech synthesizers, downloads the voice activity detection model, and pre-fetches a neural voice and a speech recognition model so you are not waiting on downloads during lab:
-
-```
-(.venv):~$ cd speech-scripts
-(.venv) $ ./setup.sh
-```
-
-Check your audio devices before going further. `arecord -l` lists capture devices and `aplay -l` lists playback devices; if your webcam microphone or Bluetooth speaker does not appear, fix that first — every script below assumes the system defaults are the ones you want.
-
 ## A. Text to Speech
-
-Your Pi can speak in several quite different ways, and the differences are audible in a way that matters for design. In `speech-scripts/` there are shell scripts for each.
-
-### The classic engines
-
-```
-(.venv) $ cd speech-scripts
-
-(.venv) $ sudo apt update
-(.venv) $ sudo apt install -y espeak festival festvox-kallpc16k
-
-(.venv) $ ./espeak_demo.sh
-(.venv) $ ./festival_demo.sh
-```
-
-You can run these `.sh` files by typing `./filename`, and read one with `cat filename`. You can also play audio files directly with `aplay filename` — try `aplay lookdave.wav`.
-
-These are all decades-old technology and they sound like it. `espeak-ng` is a *formant synthesizer*: it generates speech from an acoustic model of the vocal tract, which is why it sounds robotic but also why the whole thing fits in a couple of megabytes and responds instantly. `festival` is *concatenative*: they stitch together recorded fragments of a real speaker, which sounds more human but breaks audibly at the seams.
-
-### Neural TTS with Piper
-
-Note that the Piper command line changed in version 1.x — voices are now downloaded explicitly with `python3 -m piper.download_voices`, and you invoke it as `python3 -m piper`. Tutorials you find online may show the old `echo ... | piper --model ...` form, which no longer works. Browse the [voice samples](https://rhasspy.github.io/piper-samples) and download a different one if you'd like:
-
-```
-(.venv) $ python3 -m piper.download_voices en_US-lessac-medium
-```
-
-[Piper](https://github.com/OHF-Voice/piper1-gpl) synthesizes speech with a small neural network, runs comfortably on the Pi 5, and sounds markedly better than the above.
-
-```
-(.venv) $ ./piper_demo.sh
-```
-
-The demo script also shows `--output-raw`, which streams audio to the speaker as it is generated rather than writing a file first. Listen for the difference in how quickly speech begins. In a conversational system this gap is the thing your user experiences as responsiveness.
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
@@ -112,23 +18,6 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 The same greeting did not feel exactly the same across the different voices. Festival sounded more human and friendly to me, while eSpeak sounded more robotic and mechanical. Even though the words were identical, the Festival voice made the greeting feel more like it was coming from a person rather than from a machine.
 
 ## B. Speech to Text
-
-We use [faster-whisper](https://github.com/SYSTRAN/faster-whisper), a reimplementation of OpenAI's Whisper model that runs several times faster on CPU and does not require PyTorch. All processing happens on the Pi; nothing is sent to a server.
-
-```
-(.venv) $ python transcribe.py lookdave.wav
-```
-
-The transcript is not the interesting output here — the timings are. Run it again with a larger model and compare:
-
-```
-(.venv) $ python transcribe.py lookdave.wav --model base.en
-(.venv) $ python transcribe.py lookdave.wav --model small.en
-#  noted that the first run may take longer because the model is downloaded, and that the HF unauthenticated-request warning is expected and not an error.
-```
-
-Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. The `.en` variants are English-only and faster than their multilingual counterparts at the same size.
-
 ### Speech-to-Text Model Comparison
 
 | Model | Audio Duration | Model Load | Transcription Time | Real-Time Factor | Transcription |
@@ -159,23 +48,6 @@ The `tiny.en` model correctly recognized all five digits, although it formatted 
 This test showed that a larger speech-recognition model does not necessarily perform better on numerical input. Digit sequences can be ambiguous because the model may interpret similar sounds as words instead of individual numbers. For applications that require exact numerical input, such as ZIP codes or phone numbers, I would add confirmation or validation rather than relying on a single transcription.
 
 ## C. Turn-taking: knowing when someone has stopped talking
-
-Everything so far has worked on fixed audio files. A real conversational device does not get told when to start and stop recording — it has to decide. This is the problem that makes speech interfaces hard, and it is mostly not a speech recognition problem.
-
-We use a **voice activity detector** (VAD) to segment the microphone stream into utterances. `listen.py` runs Silero VAD continuously and hands each detected utterance to faster-whisper:
-
-```
-(.venv) $ cd speech-scripts
-(.venv) $ python listen.py
-```
-
-Speak, pause, and watch it transcribe. Now change the endpointing threshold — the amount of silence the system requires before it decides your turn is over:
-
-```
-(.venv) $ python listen.py --min-silence 0.2
-(.venv) $ python listen.py --min-silence 1.5
-```
-
 ### Turn-Taking Threshold Comparison
 
 | Minimum Silence | What It Felt Like |
@@ -188,13 +60,6 @@ At `0.2s`, normal conversational pauses such as hesitation, thinking briefly bet
 
 There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
 
-### The complete loop
-
-`echo_bot.py` puts the pieces together: it listens, endpoints, transcribes, and speaks a reply through Piper. The dialogue policy is deliberately trivial — it repeats what you said — so that everything you notice is a property of the timing rather than the content.
-
-```
-(.venv) $ python echo_bot.py
-```
 
 ## D. Storyboard
 
@@ -327,14 +192,7 @@ The participant answered every prompt, so the four-second no-response behavior w
 
 # Lab 3 Part 2
 
-For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
-
 ## Prep for Part 2
-
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings.
-2. What are other modes of interaction *beyond speech* that you might also use to clarify how to interact? In particular: how does someone know when the device is listening, and when it is thinking? You have a screen and an LED.
-3. Make a new storyboard, diagram and/or script based on these reflections.
-4. (optional) Integrate [input devices](inputs.md) in the system
 
 In Part 1, the participant hesitated and described a vague task. Focus Buddy moved directly to the duration question, so its final confirmation could only say “your task.” I will change the first prompt to “What is one specific thing you want to work on?” If the answer is still vague, the device will ask one clarification question before asking for a duration.
 
@@ -380,73 +238,34 @@ If a participant does not start answering within six seconds, the device gives o
 
 Each launch runs one interaction. On completion, cancellation, or error, the program releases its audio and display resources and turns off the central LED and display backlight. The wizard runs the command again for the next participant.
 
-### Code and running the prototype
-
-Implementation: [focus_buddy_woz.py](./focus_buddy_woz.py), version `2026.10.04.1`.
-
-The following commands run in the Raspberry Pi terminal. They use the existing Lab 3 virtual environment and speech models from Part 1. For this Python 3.11 setup, install the additional display, button, and audio-conversion dependencies if needed:
-
-```bash
-cd ~/Interactive-Lab-Hub/"Lab 3"
-source .venv/bin/activate
-python -m pip install scipy adafruit-blinka adafruit-circuitpython-rgb-display pillow sparkfun-qwiic-button lgpio
-```
-
-The required model files are `models/silero_vad.onnx`, `voices/en_US-lessac-medium.onnx`, and its accompanying `.onnx.json` configuration. The Part 1 setup script downloads these resources; faster-whisper also needs its `tiny.en` model cache or network access for the initial download.
-
-Check the audio device list:
-
-```bash
-python focus_buddy_woz.py --list-devices
-```
-
-In the device list captured for this setup, the USB PnP microphone is PortAudio device `1` and the UACDemo speaker is device `0`. These indexes may change after reconnecting devices. They are different from ALSA card numbers. With those indexes confirmed:
-
-```bash
-python focus_buddy_woz.py --check-audio --input-device 1 --output-device 0
-sudo systemctl stop piscreen.service
-python focus_buddy_woz.py --screen-test --qwiic-button
-python focus_buddy_woz.py --qwiic-button --input-device 1 --output-device 0
-```
-
-`--check-audio` validates the selected formats without recording or playing sound. The display test cycles through the five main interaction states and exits. The final command launches the actual speech interaction. The existing `piscreen.service` is stopped to make the MiniPiTFT available to Focus Buddy.
-
-Wait for READY, press and release the button, and answer each question when the screen says LISTENING. At `Wizard choice:`, type a menu number and press Enter. Accepting a task also requires its final wording; accepting a duration requires an integer from 1 to 180. For a short functional check, request one minute and let the countdown finish.
-
-After obtaining permission to store interaction text, optional JSONL logging can be enabled with `--log /home/pi/focus_buddy_session.jsonl`. The log stores timestamps, elapsed seconds, transcriptions, states, and wizard decisions; it does not store raw audio.
-
-To restore the original Pi status screen after finishing:
-
-```bash
-sudo systemctl start piscreen.service
-```
-
-*Include videos or screencaptures of both the system and the controller.*
+![1](./1.jpg)
+![2](./2.jpg)
+![3](./3.jpg)
+![4](./4.jpg)
+![5](./5.jpg)
+![6](./6.jpg)
+![7](./7.jpg)
 
 ## Test the system
 
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard *after* the interaction, but we recognize that can be hard.)
-
-Answer the following:
-
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+During development testing, pressing the Qwiic Button successfully started the interaction. The screen progressed through SPEAKING and LISTENING, and the microphone captured speech that appeared as a suggested transcript in the controller. This demonstrated that the physical start control, screen feedback, and speech input could work together.
+
+The main problems were hardware compatibility and reliability. The speaker initially rejected the generated audio’s sample rate, and the microphone also rejected the original recording configuration. Testing identified 48,000 Hz as a supported rate for both devices. Another run reached the duration-selection stage but stopped because the terminal could not display a special character. These failures showed that the complete interaction needs to be tested through confirmation and the focus timer, beyond checking individual components.
 
 ### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
+The numbered terminal menus presented relevant actions for each dialogue stage. The recognized transcript appeared directly above the menu, making it available when the wizard selected a response. The controller also provided fields for entering the final task and duration, allowing the wizard to correct or clarify the information before confirmation.
+
+The main limitation was the amount of manual work required. The wizard had to read the transcript, choose an action, and sometimes enter additional text. These steps can introduce delays, although I have not measured their effect with participants. The terminal encoding error also interrupted the interaction at the duration prompt. Keeping the current task, duration, and recent dialogue visible together would make the controller easier to follow.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-\*\**your answer here*\*\*
+The prototype separates speech recognition from dialogue decisions. Producing a transcript does not establish whether a task is specific enough, whether a duration is valid, or whether the person has confirmed the plan. An autonomous version would need explicit rules for these decisions, including clarification, correction, and confirmation.
+
+Turn timing also needs participant testing. A fixed silence threshold may interpret a thinking pause as the end of an answer. A more flexible threshold and a clear way to repeat or extend an answer could improve recovery. The system should also handle different confirmation phrases, such as “yes” and “please start.” Wizard decisions could inform these rules, but they should be evaluated against participant feedback before being treated as correct examples.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
+With participant consent, the existing JSONL logger could record timestamps, device states, prompts, recognized text, button activation, and wizard decisions. I would add anonymous participant and session IDs, task scenarios, observer notes, and whether the interaction reached a confirmed plan. Useful measurements would include the time from button press to focus-session start and the frequency of clarification or repetition.
 
-<details>
-  <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
+The current logger does not save raw audio. Adding consented audio recording and manually verified transcripts would support analysis of speech-recognition errors. Verified transcripts should remain separate from the wizard’s edited task wording.
 
-  **Before submitting your README.md:**
-  - This readme.md file has a lot of extra text for guidance.
-  - Remove all instructional text and example prompts from this file.
-  - You may either delete these sections or use the toggle/hide feature in VS Code to collapse them for a cleaner look.
-  - Your final submission should be neat, focused on your own work, and easy to read for grading.
-</details>
+Additional sensing could include video showing how people use the screen and button, or a distance sensor detecting when someone approaches or leaves the desk. These signals could provide context for interruptions, but presence alone would not demonstrate attention or productivity.
