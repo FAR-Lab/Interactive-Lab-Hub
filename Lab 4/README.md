@@ -58,7 +58,6 @@ Right — Dumplings: The pointer is positioned over the Dumplings section on the
 
 ![side](./side.jpg)
 Side View — Physical Structure: Folded-paper supports raise the menu above the base, leaving space for the electronics underneath. The servo sits in the central opening, with the paper pointer attached to its plastic horn. The joystick is accessible at the front, while the Raspberry Pi and display sit to the left.
----
 
 ## Part 2
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
@@ -161,8 +160,6 @@ The playful part is that a small joystick gesture produces both a moving pointer
 | Power troubleshooting | Returned to the original power supply after a USB audio playback failure. | Motion and speech worked together again after the change, showing the value of testing the complete powered system. |
 
 A next iteration would compare joystick positions at the front and side of the box, and improve the mounting and cable routing. These are future improvements; the current prototype focuses on reliable three-choice selection with physical and spoken feedback.
----
-
 
 ---
 
