@@ -335,15 +335,25 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 
 **Document your system with:**
 - Code for your sensing + actuation prototype
+
 - Photos and/or video of the working prototype in action
 - A simple interaction diagram or sketch showing how sensing and actuation are connected
 - Written reflection: What did you learn about connecting sensing, movement, and physical form? What was fun, surprising, or challenging?
 
+I learned that integrating sensing, movement, and physical form is more difficult than I originally thought. The main difficulty is being able to synchronize the devices physically but also utilize the data / information gathered from the devices and transforming it into a useable form for the other devices. For example, in our design we decided to take the color sensor and use as a determinator for which physical motors would turn. The most fun part was design the motors and connecting them to physical components. It was exciting to see the motors actually rotate and move our scooper that was attached. Some challenging aspects were just connecting all the motors onto a physical cardboard and ensuring they are positioned correctly.
+
 **Questions to consider:**
 - How does your chosen sensor or input shape the physical response?
+	The color sensor detects the color of each Skittle and determines how the sorting mechanism responds. Based on the detected color, the servos rotate the scoopers to direct the Skittle either left or right. The Skittle then travels through our multilevel sorting system until it reaches its designated container.
+
 - How does the physical arrangement of the sensor and actuator change the interaction?
+	Overall the sensor has to be put in a close enough position to detect the color but also not too close where it cannot get an accurate view of the Skittle with proper lighting. For the motors, they need to be placed in a certain position so that when they rotate, the Skittle is dropped into the other appropriate motors. If placed to far apart then the Skittles might miss the scooper and result in the interaction being award since it failed.
+
 - What thresholds, timing, or movement patterns make the interaction feel clear or playful?
+	The motors move very quickly and right after each other. It almost looks like a minigame watching the skittles move and sort themselves. Adding very short delays between each motor movement throughout the levels makes it very fun to watch for the user.
+ 
 - What changes when you adjust the sensor placement or servo motion?
+	The color of the Skittle is hardcoded by the sensor and is given a range for the RGB colors. If the sensor is moved too close or far away this can drastically change the whole machine since it won't be able to sort it properly according to the color being sensed. In addition, if the servo motion is changed to be a smaller angle then the Skittle may not fall out of the scooper. Likewise, if the angle is too large, then the scooper might turn the Skittle too far causing it to overshoot the next scooper. 
 
 Iterate on the sensing, movement, and physical form, and document what you discover.
 
@@ -379,7 +389,7 @@ The script continuously reads the proximity value from the distance sensor. When
 You may need to adjust `CUP_THRESHOLD` in [`windmill_coaster.py`](windmill_coaster.py) depending on the size of your cup and the physical placement of the sensor. You can run `qwiic_distance.py` first to compare readings with and without a cup.
 
 Use this example as a starting point. Change the sensor, movement, physical form, or dining interaction to create your own Feast Automata variation.
-
+<details>
 #### Optional Extensions
 
 The following examples are optional resources if you want to add more inputs or outputs to your prototype.
@@ -500,7 +510,7 @@ This is a playful way to visualize how the expander works, but the same techniqu
 ---
 
 ---
-
+</details>
 ### Part F
 
 ### Final Documentation
