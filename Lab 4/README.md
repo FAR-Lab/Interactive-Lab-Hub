@@ -153,7 +153,6 @@ Twizzler 6 touched!
 ```
 
 </details>
----
 
 ### Part B
 <details>
@@ -234,7 +233,6 @@ Connect it to your pi with Qwiic connector and try running the example script to
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
 </details>
----
 
 ### Part C
 
@@ -267,7 +265,6 @@ For more details and advanced usage, see the [official SparkFun Servo pHAT docum
 A servo motor is a rotary actuator that allows for precise control of angular position. The position is set by the width of an electrical pulse (PWM). You can read [this Adafruit guide](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn more about how servos work.
 
 </details>
----
 
 ### Part D
 
@@ -393,7 +390,7 @@ Here is a simple interaction diagram of how sensing and actuation are connected 
 ![sketch](sketch.jpg)
 ![idea](dimensions.png)
 ![tinkercad](tinkercad.png)
-![tinkercad2](tinkercad.png)
+![tinkercad2](tinkercad2.png)
 
 
 <details>
