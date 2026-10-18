@@ -552,15 +552,15 @@ python gpio_expander.py
 This is a playful way to visualize how the expander works, but the same technique applies if you wanted to prototype buttons, switches, or other interaction elements. It’s a lightweight, flexible addition to your prototyping toolkit.
 
 </details>
----
-
 
 ---
-
 ---
 
 ### Part F
 
+<details>
+	<summary><strong>Final Documentation (Click to Expand)</strong></summary>
+	
 ### Final Documentation
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
@@ -568,8 +568,21 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
----
+</details>
 
+- **Looks like**: The final prototype consists of a laser-cut support structure containing the servo motor, with a cross-shaped rotating platform mounted above it. The button is placed next to the device so the user can easily control the carousel. The structure is lightweight and compact so the servo can rotate the platform reliably.
+
+- **Works like**: When the user presses the button, the Raspberry Pi detects the input and sends a command to the servo motor through the Servo pHAT. The servo rotates the platform 180 degrees, bringing the next sushi serving to the user.
+
+- **Acts like**: The carousel acts like a small automated sushi server. The user presses the button when they want the next serving, and the platform immediately rotates to bring food toward them. The interaction is intentionally simple and playful, with one clear input producing one visible physical response.
+
+A final demo of our product can be seen here: 
+
+
+---
+<details>
+	<summary><strong>Deliverables & Submission for Lab 4 (Click to Expand)</strong></summary>
+	
 ## Deliverables \& Submission for Lab 4
 
 The deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
@@ -581,3 +594,5 @@ For submission, the readme.md page for this lab should be edited to include the 
 * Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
 * Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
 * Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
+
+</details>
