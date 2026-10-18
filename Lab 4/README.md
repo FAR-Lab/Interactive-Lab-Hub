@@ -529,6 +529,57 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+
+#### Looks Like
+
+Our final prototype is called **The Escaping Snack Tray**. It is built around a rectangular cardboard housing covered with white panels. The housing supports the moving tray and contains the Raspberry Pi, Servo pHAT, servo motor, and wiring. Placing the electronics inside the box protects the components and gives the outside of the prototype a cleaner appearance.
+
+The APDS-9960 proximity sensor is mounted on the front of the housing so that it faces the direction from which the user approaches. A lightweight cardboard snack tray is positioned above the box and attached to a rotating arm. We used cardboard and folded paper for the moving parts because they are light enough for the micro servo to move reliably.
+
+
+*Figure 1. Front view of the completed Escaping Snack Tray.*
+<img width="960" height="1280" alt="9809777cdf8f0a3aa752af1b87af7475" src="https://github.com/user-attachments/assets/8b9f9d20-1684-43ca-b432-4076e29b52ea" />
+
+
+*Figure 2. Side view showing the elevated tray and servo-driven rotating arm.*
+<img width="1707" height="1280" alt="ee3a01f175fb41e71e4e13940538859a" src="https://github.com/user-attachments/assets/712c05d5-0df6-41b4-a1db-310e8e239b04" />
+
+
+*Figure 3. Raspberry Pi, Servo pHAT, servo motor, sensor, and wiring inside the cardboard housing.*
+<img width="1280" height="1707" alt="f7848f24988eca7a39a6b5f550ee8664" src="https://github.com/user-attachments/assets/a1663d7e-852f-48e3-9fd8-5cbb3ad9c990" />
+
+
+*Figure 4. Open housing showing how the electronic and mechanical components are arranged.*
+<img width="1280" height="1707" alt="bb0924e3f02879e7159ffed63326a1a5" src="https://github.com/user-attachments/assets/b1a9f138-2873-4808-9aa0-bc35f5b31528" />
+
+
+#### Works Like
+
+The prototype uses an APDS-9960 proximity sensor as its input and a servo motor as its physical output. The sensor continuously measures whether an object is approaching the front of the device. The Raspberry Pi reads the proximity value and compares it with a detection threshold.
+
+When a user's hand comes close enough, the reading crosses the threshold. The Raspberry Pi then sends a command to the Servo pHAT, which controls the angle of the servo motor. The servo rotates the supporting arm and moves the snack tray away from the user. This creates a complete connection between sensing and physical actuation.
+
+The sensing and actuation files are included here:
+
+* [Final interaction code](./rotating_arm/rotating_arm.py)
+* [Proximity sensor test](./rotating_arm/sensor_test.py)
+* [Required Python libraries](./rotating_arm/requirements.txt)
+
+
+#### Acts Like
+
+The interaction begins with the snack tray waiting in its resting position. The user sees the snack and naturally reaches toward it. Before the user can take the snack, the proximity sensor detects the approaching hand and the tray moves away.
+
+This response makes the device appear playful and mischievous. Instead of acting like a passive serving tray, it seems to recognize the user's intention and deliberately protects the snack. The ordinary action of taking food becomes a short game between the user and the machine.
+
+##### Working Prototype Video
+
+[Watch the Escaping Snack Tray demonstration](
+https://github.com/user-attachments/assets/4337c387-abed-4144-8866-51d00bc93402
+)
+
+*The video shows the complete interaction: the user reaches toward the snack, the sensor detects the hand, and the servo-driven tray moves away.*
+
 ---
 
 ## Deliverables \& Submission for Lab 4
