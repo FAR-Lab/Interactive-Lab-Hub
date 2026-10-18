@@ -5,7 +5,7 @@ import pi_servo_hat
 
 SERVO_CHANNEL = 0
 SERVO_SWING = 180
-STEP = 180
+STEP = 90
 
 button = qwiic_button.QwiicButton()
 
