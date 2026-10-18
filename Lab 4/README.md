@@ -81,179 +81,30 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 For Part 2, build the Feast Automata interaction you developed in Part D by connecting sensing/input to physical actuation.
 
-**Your prototype should:**
-- Use at least one sensing or input device.
-- Use servo-based physical actuation.
-- Connect sensing and actuation into a meaningful interaction around eating, drinking, cooking, serving, or sharing food.
-- Additional inputs, displays, LEDs, buttons, or other outputs are optional extensions.
-
 **Document your system with:**
 - Code for your sensing + actuation prototype
 - Photos and/or video of the working prototype in action
 - A simple interaction diagram or sketch showing how sensing and actuation are connected
 - Written reflection: What did you learn about connecting sensing, movement, and physical form? What was fun, surprising, or challenging?
 
-**Questions to consider:**
-- How does your chosen sensor or input shape the physical response?
-- How does the physical arrangement of the sensor and actuator change the interaction?
-- What thresholds, timing, or movement patterns make the interaction feel clear or playful?
-- What changes when you adjust the sensor placement or servo motion?
 
 Iterate on the sensing, movement, and physical form, and document what you discover.
 
-See encoder_accel_servo_dashboard.py in the Lab 4 folder for an optional example of chaining together three devices.
 
-**`Lab 4/encoder_accel_servo_dashboard.py`**
+In this project we learned that connecting sensing, movement, and physical form is not just about making each component work independently, but about making the whole interaction feel natural. For our final prototype, we decided to laser cut the structure that supports the servo motor, as well as the cross-shaped platform used to hold the sushi.
+In our design, the button sends a signal to the Raspberry Pi, which then creates an immediate physical response by controlling the servo motor and rotating the sushi platform. The movement needed to be clear and predictable so the user could easily understand what was happening.
 
-#### Example Application: Windmill Coaster
+The physical arrangement also affected the interaction more than we expected. The servo had to be placed directly under the center of the platform so that the rotation would remain balanced, and the platform had to be light enough for the servo to move reliably. We also found that the size and shape of the platform mattered, because a heavier or uneven structure could make the movement unstable.
 
-Now that you have explored both sensing and actuation, here is a simple example that combines the two.
+The timing and amount of rotation were also important. Since our servo motor can only rotate about 180 degrees, it was difficult to achieve our initial idea of continuous 360-degree rotation. Instead, we decided to work with this limitation and serve sushi from two opposite sides of the platform rather than four. Each time the button is pressed, the servo rotates the platform 180 degrees to move the next serving into position. We also tested smaller movements, but they were less noticeable and made the interaction feel less clear. Adjusting the servo angle changed how the carousel felt and also influenced the physical arrangement of the platform.
 
-The **Windmill Coaster** uses a Qwiic distance/proximity sensor to detect when a cup is placed on a coaster. When the cup is detected, a servo motor animates a small windmill by sweeping it back and forth, turning an ordinary action during drinking into a playful physical interaction.
+The most fun part was seeing a simple button press create a visible physical action. The most challenging part was designing the mechanical structure around the limits of the servo, especially its range of motion. Overall, we learned that the electronics, motion, and physical form all need to be designed together rather than separately.
 
-<p align="center">
-    <img src="windmill_coaster11.gif" alt="Windmill Coaster Demo" width="400"/>
-</p>
+Here is a simple interaction diagram of how sensing and actuation are connected for our Sushi Rotating Carousel, along with the iterative process we followed to build the mechanical structure. We used TinkerCAD to design the .svg files for laser cutting.
+<img width="3233" height="2327" alt="IMG_1231" src="https://github.com/user-attachments/assets/899e4c09-1bc5-47ea-8469-4b8453bce025" />
+<img width="1024" height="752" alt="image" src="https://github.com/user-attachments/assets/e4165f69-d57a-4889-9a3a-8ad637152e14" />
+<img width="1555" height="877" alt="image" src="https://github.com/user-attachments/assets/ce220a5d-0a07-427a-8817-50b75bfa185c" />
 
-
-This example demonstrates a simple interaction pipeline:
-
-**cup placed → distance sensor detects cup → servo actuates windmill**
-
-Connect the Qwiic distance sensor to the Pi and connect the servo to Channel 0 of the Servo pHAT. Make sure the Servo pHAT is powered through its USB-C connection.
-
-Run the example script:
-
-```bash
-python windmill_coaster.py
-```
-
-The script continuously reads the proximity value from the distance sensor. When the value passes a threshold, the servo begins animating the windmill. When the cup is removed, the servo stops and returns to its resting position.
-
-You may need to adjust `CUP_THRESHOLD` in [`windmill_coaster.py`](windmill_coaster.py) depending on the size of your cup and the physical placement of the sensor. You can run `qwiic_distance.py` first to compare readings with and without a cup.
-
-Use this example as a starting point. Change the sensor, movement, physical form, or dining interaction to create your own Feast Automata variation.
-
-#### Optional Extensions
-
-The following examples are optional resources if you want to add more inputs or outputs to your prototype.
-
-##### Using Multiple Qwiic Buttons: Changing I2C Address (Physically & Digitally)
-
-If you want to use more than one Qwiic Button in your project, you must give each button a unique I2C address. There are two ways to do this:
-
-##### 1. Physically: Soldering Address Jumpers
-
-On the back of the Qwiic Button, you'll find four solder jumpers labeled A0, A1, A2, and A3. By bridging these with solder, you change the I2C address. Only one button on the chain can use the default address (0x6F).
-
-**Address Table:**
-
-| A3 | A2 | A1 | A0 | Address (hex) |
-|----|----|----|----|---------------|
-|  0 |  0 |  0 |  0 |    0x6F       |
-|  0 |  0 |  0 |  1 |    0x6E       |
-|  0 |  0 |  1 |  0 |    0x6D       |
-|  0 |  0 |  1 |  1 |    0x6C       |
-|  0 |  1 |  0 |  0 |    0x6B       |
-|  0 |  1 |  0 |  1 |    0x6A       |
-|  0 |  1 |  1 |  0 |    0x69       |
-|  0 |  1 |  1 |  1 |    0x68       |
-|  1 |  0 |  0 |  0 |    0x67       |
-| ...| ...| ...| ... |     ...      |
-
-For example, if you solder A0 closed (leave A1, A2, A3 open), the address becomes 0x6E.
-
-**Soldering Tips:**
-- Use a small amount of solder to bridge the pads for the jumper you want to close.
-- Only one jumper needs to be closed for each address change (see table above).
-- Power cycle the button after changing the jumper.
-
-##### 2. Digitally: Using Software to Change Address
-
-You can also change the address in software (temporarily or permanently) using the example script `qwiic_button_ex6_changeI2CAddress.py` in the Lab 4 folder. This is useful if you want to reassign addresses without soldering.
-
-Run the script and follow the prompts:
-```bash
-python qwiic_button_ex6_changeI2CAddress.py
-```
-Enter the new address (e.g., 5B for 0x5B) when prompted. Power cycle the button after changing the address.
-
-**Note:** The software method is less foolproof and you need to make sure to keep track of which button has which address!
-
-
-##### Using Multiple Buttons in Code
-
-After setting unique addresses, you can use multiple buttons in your script. See these example scripts in the Lab 4 folder:
-
-- **`qwiic_1_button.py`**: Basic example for reading a single Qwiic Button (default address 0x6F). Run with:
-	```bash
-	python qwiic_1_button.py
-	```
-
-- **`qwiic_button_led_demo.py`**: Demonstrates using two Qwiic Buttons at different addresses (e.g., 0x6F and 0x6E) and controlling their LEDs. Button 1 toggles its own LED; Button 2 toggles both LEDs. Run with:
-	```bash
-	python qwiic_button_led_demo.py
-	```
-
-Here is a minimal code example for two buttons:
-```python
-import qwiic_button
-
-# Default button (0x6F)
-button1 = qwiic_button.QwiicButton()
-# Button with A0 soldered (0x6E)
-button2 = qwiic_button.QwiicButton(0x6E)
-
-button1.begin()
-button2.begin()
-
-while True:
-		if button1.is_button_pressed():
-				print("Button 1 pressed!")
-		if button2.is_button_pressed():
-				print("Button 2 pressed!")
-```
-
-For more details, see the [Qwiic Button Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-button-hookup-guide/all#i2c-address).
-
----
-
-##### PCF8574 GPIO Expander: Add More Pins Over I²C
-
-Sometimes your Pi’s header GPIO pins are already full (e.g., with a display or HAT). That’s where an I²C GPIO expander comes in handy.
-
-We use the Adafruit PCF8574 I²C GPIO Expander, which gives you 8 extra digital pins over I²C. It’s a great way to prototype with LEDs, buttons, or other components on the breadboard without worrying about pin conflicts—similar to how Arduino users often expand their pinouts when prototyping physical interactions.
-
-**Why is this useful?**
-- You only need two wires (I²C: SDA + SCL) to unlock 8 extra GPIOs.
-- It integrates smoothly with CircuitPython and Blinka.
-- It allows a clean prototyping workflow when the Pi’s 40-pin header is already occupied by displays, HATs, or sensors.
-- Makes breadboard setups feel more like an Arduino-style prototyping environment where it’s easy to wire up interaction elements.
-
-**Demo Script:** `Lab 4/gpio_expander.py`
-
-<p align="center">
-    <img src="gpio_leds.gif" alt="GPIO Expander LED Demo" width="400"/>
-</p>
-
-We connected 8 LEDs (through 220 Ω resistors) to the expander and ran a little light show. The script cycles through three patterns:
-- Chase (one LED at a time, left to right)
-- Knight Rider (back-and-forth sweep)
-- Disco (random blink chaos)
-
-Every few runs, the script swaps to the next pattern automatically:
-```bash
-python gpio_expander.py
-```
-
-This is a playful way to visualize how the expander works, but the same technique applies if you wanted to prototype buttons, switches, or other interaction elements. It’s a lightweight, flexible addition to your prototyping toolkit.
-
----
-
-
----
-
----
 
 ### Part F
 
