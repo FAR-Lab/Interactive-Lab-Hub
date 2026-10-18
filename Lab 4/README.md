@@ -352,6 +352,9 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 #### Build & Integrate: Sensing + Actuation
 
+<details>
+	<summary><strong>Instructions (Click to Expand)</strong></summary>
+	
 For Part 2, build the Feast Automata interaction you developed in Part D by connecting sensing/input to physical actuation.
 
 **Your prototype should:**
@@ -374,6 +377,8 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 
 Iterate on the sensing, movement, and physical form, and document what you discover.
 
+</details>
+
 In this project we learned that connecting sensing, movement, and physical form is not just about making each component work independently, but about making the whole interaction feel natural. For our final prototype, we decided to laser cut the structure that supports the servo motor, as well as the cross-shaped platform used to hold the sushi.
 In our design, the button sends a signal to the Raspberry Pi, which then creates an immediate physical response by controlling the servo motor and rotating the sushi platform. The movement needed to be clear and predictable so the user could easily understand what was happening.
 
@@ -383,11 +388,16 @@ The timing and amount of rotation were also important. Since our servo motor can
 
 The most fun part was seeing a simple button press create a visible physical action. The most challenging part was designing the mechanical structure around the limits of the servo, especially its range of motion. Overall, we learned that the electronics, motion, and physical form all need to be designed together rather than separately.
 
-Here is a simple interaction diagram of how sensing and actuation are connected for our Sushi Rotating Carousel:
+Here is a simple interaction diagram of how sensing and actuation are connected for our Sushi Rotating Carousel, along with the iterative process we followed to build the mechanical structure. We used TinkerCAD to design the .svg files for laser cutting:
+
+![sketch](sketch.jpg)
+![idea](dimensions.png)
+![tinkercad](tinkercad.png)
+![tinkercad2](tinkercad.png)
 
 
-
-
+<details>
+	<summary><strong>Example Application: Windmill Coaster> (Click to Expand)</strong></summary>
 
 See encoder_accel_servo_dashboard.py in the Lab 4 folder for an optional example of chaining together three devices.
 
@@ -421,6 +431,11 @@ The script continuously reads the proximity value from the distance sensor. When
 You may need to adjust `CUP_THRESHOLD` in [`windmill_coaster.py`](windmill_coaster.py) depending on the size of your cup and the physical placement of the sensor. You can run `qwiic_distance.py` first to compare readings with and without a cup.
 
 Use this example as a starting point. Change the sensor, movement, physical form, or dining interaction to create your own Feast Automata variation.
+
+</details>
+
+<details>
+	<summary><strong>Optional Extensions (Click to Expand)</strong></summary>
 
 #### Optional Extensions
 
@@ -536,6 +551,7 @@ python gpio_expander.py
 
 This is a playful way to visualize how the expander works, but the same technique applies if you wanted to prototype buttons, switches, or other interaction elements. It’s a lightweight, flexible addition to your prototyping toolkit.
 
+</details>
 ---
 
 
