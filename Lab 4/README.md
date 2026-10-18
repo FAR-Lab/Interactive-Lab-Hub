@@ -336,8 +336,20 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 **Document your system with:**
 - Code for your sensing + actuation prototype
 
+
+https://github.com/user-attachments/assets/15a1555f-5466-48bb-8498-94df75303ed8
+
+
 - Photos and/or video of the working prototype in action
+  
+
+https://github.com/user-attachments/assets/4398ed77-cc92-4cb8-93c1-3190ed884269
+
+
 - A simple interaction diagram or sketch showing how sensing and actuation are connected
+  <img width="463" height="695" alt="image" src="https://github.com/user-attachments/assets/069c3c8f-fda5-486b-bf89-f0a1ec006771" />
+
+
 - Written reflection: What did you learn about connecting sensing, movement, and physical form? What was fun, surprising, or challenging?
 
 I learned that integrating sensing, movement, and physical form is more difficult than I originally thought. The main difficulty is being able to synchronize the devices physically but also utilize the data / information gathered from the devices and transforming it into a useable form for the other devices. For example, in our design we decided to take the color sensor and use as a determinator for which physical motors would turn. The most fun part was design the motors and connecting them to physical components. It was exciting to see the motors actually rotate and move our scooper that was attached. Some challenging aspects were just connecting all the motors onto a physical cardboard and ensuring they are positioned correctly.
