@@ -91,19 +91,26 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 Iterate on the sensing, movement, and physical form, and document what you discover.
 
 
-In this project we learned that connecting sensing, movement, and physical form is not just about making each component work independently, but about making the whole interaction feel natural. For our final prototype, we decided to laser cut the structure that supports the servo motor, as well as the cross-shaped platform used to hold the sushi.
-In our design, the button sends a signal to the Raspberry Pi, which then creates an immediate physical response by controlling the servo motor and rotating the sushi platform. The movement needed to be clear and predictable so the user could easily understand what was happening.
+For our final prototype, we built the Rotating Sushi Carousel using a laser-cut support structure for the servo motor and a laser-cut rotating platform for the food. We also 3D-printed some plates to simulate the real scenario. We used a button connected to the Raspberry Pi as the input, and the servo motor to provide the physical actuation by rotating the platform. 
 
-The physical arrangement also affected the interaction more than we expected. The servo had to be placed directly under the center of the platform so that the rotation would remain balanced, and the platform had to be light enough for the servo to move reliably. We also found that the size and shape of the platform mattered, because a heavier or uneven structure could make the movement unstable.
+Our first working version used two opposite serving positions, with the servo rotating 180° each time the button was pressed. This worked well with the 180° movement limitation of our servo, but during testing we realized that the interaction could be improved further. We therefore iterated on the platform design by adding an additional arm and reducing the servo movement to 90°. This allowed the carousel to serve two people sitting on opposite sides at the same time while still keeping the movement within the servo’s available range. We also adjusted the servo movement speed after noticing that sudden rotations caused the snacks to slide or fall from the plates. By slowing down the movement and adding higher edges to the 3D-printed plates, the final interaction became more stable and controlled. These iterations showed us how changes in software, mechanical structure, and physical form all influenced the final behavior of the device.
 
-The timing and amount of rotation were also important. Since our servo motor can only rotate about 180 degrees, it was difficult to achieve our initial idea of continuous 360-degree rotation. Instead, we decided to work with this limitation and serve sushi from two opposite sides of the platform rather than four. Each time the button is pressed, the servo rotates the platform 180 degrees to move the next serving into position. We also tested smaller movements, but they were less noticeable and made the interaction feel less clear. Adjusting the servo angle changed how the carousel felt and also influenced the physical arrangement of the platform.
+##### Reflection
+
+In this project we learned that connecting sensing, movement, and physical form is not just about making each component work independently, but about making the whole interaction feel natural. In our design, the button sends a signal to the Raspberry Pi, which then controls the servo motor and rotates the sushi platform. The movement needed to be clear and predictable so the user could easily understand what was happening.
+
+The physical arrangement also affected the interaction more than we expected. The servo had to be placed directly under the center of the platform so that the rotation would remain balanced, and the platform had to be light enough for the servo to move it reliably. We also found that the size and shape of the platform mattered, because a heavier or uneven structure could make the movement unstable.
+
+The timing and amount of rotation were also important. Since our servo motor can only rotate about 180 degrees, it was difficult to achieve our initial idea of a continuous rotating sushi carousel (360 degree). So instead, we used this limitation as part of the design process. We first created a two-position system using 180° rotations, and later improved the design by adding another arm and using 90° movements. We also tested smaller movements, but they were less noticeable and made the interaction feel less clear. Fast rotations were more visually clear, but they also caused the snacks to fall from the platform.
 
 The most fun part was seeing a simple button press create a visible physical action. The most challenging part was designing the mechanical structure around the limits of the servo, especially its range of motion. Overall, we learned that the electronics, motion, and physical form all need to be designed together rather than separately.
 
-Here is a simple interaction diagram of how sensing and actuation are connected for our Sushi Rotating Carousel, along with the iterative process we followed to build the mechanical structure. We used TinkerCAD to design the .svg files for laser cutting.
+Here is a simple interaction diagram of how sensing and actuation are connected for our Rotating Sushi Carousel, along with the iterative process we followed to build the mechanical structure. We used TinkerCAD to design the .svg files for laser cutting:
 <img width="3233" height="2327" alt="IMG_1231" src="https://github.com/user-attachments/assets/899e4c09-1bc5-47ea-8469-4b8453bce025" />
 <img width="1024" height="752" alt="image" src="https://github.com/user-attachments/assets/e4165f69-d57a-4889-9a3a-8ad637152e14" />
 <img width="1555" height="877" alt="image" src="https://github.com/user-attachments/assets/ce220a5d-0a07-427a-8817-50b75bfa185c" />
+<img width="1280" height="1707" alt="image" src="https://github.com/user-attachments/assets/98d00746-6d8a-4288-b1fa-b66d78803555" />
+<img width="930" height="1424" alt="image" src="https://github.com/user-attachments/assets/57336d0b-d4d4-4419-af2d-4aa4b51f7575" />
 
 
 ### Part F
@@ -117,7 +124,8 @@ Here is a simple interaction diagram of how sensing and actuation are connected 
 - **Acts like**: The carousel acts like a small automated sushi server. The user presses the button when they want the next serving, and the platform immediately rotates to bring food toward them. The interaction is intentionally simple and playful, with one clear input producing one visible physical response.
 
 A final demo of our product can be seen here:
-
+<img width="1702" height="1276" alt="image" src="https://github.com/user-attachments/assets/f7935314-703b-4237-a71c-ca23c35975d8" />
+https://drive.google.com/file/d/1a9rUbpS7RJNq2u2ESoLvqGxZuvJmz5cW/view?usp=sharing
 ---
 
 ## Deliverables \& Submission for Lab 4
