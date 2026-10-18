@@ -318,14 +318,15 @@ A rotating arm sits in the middle of the table. When the countdown ends, it stop
 * Sensing: button or timer to start the countdown.
 * Actuation: one servo rotates the arm, and a second servo flicks the snack.
 
-**Sketch 5: Joystick sign board**
+**Sketch 5: Voice-controlled word pointer**
 
 ![Sketch 5](imgs/sketch5.jpg)
 
-A joystick controls a servo-driven sign. Pushing the stick in a direction raises a sign: up = "Eat more", down = "Really?", left = "Too much!", right = still open (for example "Cheers!"). A friend shows the sign to the person across the table.
+A voice command triggers a servo-driven pointer on a semicircle board. The four positions are, from left to right: "Cheers!", "Too Much!", "Really?", and "Eat More". After the trigger word is recognized, the pointer wanders through several random positions before stopping at one selected phrase and speaking it aloud.
 
-* Sensing: joystick (direction + button).
-* Actuation: servo that flips the selected sign upright.
+* Sensing: microphone with the Lab 3 voice activity detection and speech recognition pipeline.
+* Actuation: servo pointer that moves to one of four labeled positions.
+* Audio output: Piper text-to-speech announces the selected phrase.
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
@@ -333,17 +334,17 @@ A joystick controls a servo-driven sign. Pushing the stick in a direction raises
 * **Servo strength (2, 4):** Can a 9g servo tilt a bottle or flick a snack? I need to try a paper cup, an empty bottle, and light snacks such as popcorn or a paper ball before committing.
 * **Counting (2):** Should "three drinks" mean three pours, three cup lifts, or three button presses? I need to test which one is reliable and still feels natural.
 * **Two-stage motion (4):** Rotating and launching take two servos. I need to check whether a single servo (rotate, then a manual flick) is enough for the first prototype.
-* **Readability (5):** Can the sign be read from across a table, and does the servo swing feel clear and playful? I need to build the sign in cardboard and test it at real dining distance.
+* **Readability (5):** Can the four phrases be read from across a table, and does the pointer stop clearly at each position? I need to test the semicircle board at real dining distance.
 * **Tone:** The teasing should stay friendly. I want to check how people react to teasing signs ("Really?") compared with encouraging ones ("Eat more").
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
-I will prototype **Sketch 5: the joystick sign board**.
+I will prototype **Sketch 5: the voice-controlled word pointer**.
 
 * It uses only light cardboard signs, so a 9g servo can move it reliably.
-* The joystick gives a clear, continuous way to control the servo and makes the interaction social: one person acts, another receives the message.
+* Voice input makes the interaction more surprising and accessible: one person speaks, and the physical pointer responds.
 * It lets me combine teasing ("Really?", "Too much!") with kindness ("Eat more", "Cheers!"), which matches the playful but warm mood of a shared meal.
-* It is the lowest-risk option for Part 2, since it needs only one input device and one servo, and the other four sketches can reuse the same servo setup later.
+* It uses one microphone, one servo, and four lightweight labels, so the interaction is easy to test and iterate.
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
@@ -363,6 +364,12 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 #### Build & Integrate: Sensing + Actuation
 
 For Part 2, build the Feast Automata interaction you developed in Part D by connecting sensing/input to physical actuation.
+
+#### Current Prototype: Four-Word Voice Pointer
+
+The physical prototype is a semicircle board with four labels arranged from left to right: **Cheers!**, **Too Much!**, **Really?**, and **Eat More**. The `random_word_servo.py` program can be triggered by saying some keywords. It logs the microphone level and recognized speech, moves through several random positions, stops at one label selected at random, and uses Piper to speak the selected phrase. The microphone is closed while the servo is moving and while the speaker is playing, then reopened after a short echo guard.
+
+The four angles must be calibrated against the actual board. The test script starts with safe angles of 10° and 110° rather than assuming that the servo's full range is mechanically safe.
 
 **Your prototype should:**
 - Use at least one sensing or input device.
