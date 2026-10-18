@@ -578,7 +578,7 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 - **Acts like**: The carousel acts like a small automated sushi server. The user presses the button when they want the next serving, and the platform immediately rotates to bring food toward them. The interaction is intentionally simple and playful, with one clear input producing one visible physical response.
 
-A final demo of our product can be seen here:
+Our final code is in the file sushi_carousel.py. A final demo of our product can be seen here:
 
 https://drive.google.com/file/d/1a9rUbpS7RJNq2u2ESoLvqGxZuvJmz5cW/view?usp=sharing
 
