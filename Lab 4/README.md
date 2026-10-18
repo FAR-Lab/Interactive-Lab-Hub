@@ -39,7 +39,7 @@ F) [Final Documentation](#part-f)
 
 ---
 
-## Part 1 Lab Preparation
+<!-- ## Part 1 Lab Preparation
 
 ---
 
@@ -62,7 +62,7 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 
 --- -->
 
-### Quick Start: Python Environment Setup
+<!-- ### Quick Start: Python Environment Setup
 
 1. **Create and activate a virtual environment in Lab 4:**
 	```bash
@@ -115,10 +115,9 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 
 ### Mechanical Prototyping Resource
 
-* [Gear Template Generator](https://woodgears.ca/gear_cutting/template.html) can help you prototype simple gear mechanisms for translating servo motion into physical movement.
+* [Gear Template Generator](https://woodgears.ca/gear_cutting/template.html) can help you prototype simple gear mechanisms for translating servo motion into physical movement. -->
 
-
----
+<!-- ---
 
 ### Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
@@ -248,7 +247,7 @@ python pi_servo_hat_test.py
 For more details and advanced usage, see the [official SparkFun Servo pHAT documentation](https://learn.sparkfun.com/tutorials/pi-servo-phat-v2-hookup-guide/all#resources-and-going-further).
 A servo motor is a rotary actuator that allows for precise control of angular position. The position is set by the width of an electrical pulse (PWM). You can read [this Adafruit guide](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn more about how servos work.
 
----
+--- -->
 
 ### Part D
 ### Physical Interaction Design: Feast Automata
@@ -257,7 +256,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 In this part, use the sensing techniques from Parts A–B and the servo actuation from Part C to develop a physical interaction.
 
-#### Physical considerations for sensing
+<!-- #### Physical considerations for sensing
 
 Sensors need to be positioned in specific locations or orientations to make them useful for an application. Choose a sensor that fits the dining interaction you want to explore. For example, a distance sensor could detect when a cup is placed on a coaster; where the sensor is positioned determines what it can reliably detect.
 
@@ -276,8 +275,7 @@ Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/p
 <p float="left">
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
 
-</p>
-
+</p> -->
 
 As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
 
@@ -367,33 +365,79 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 
 #### Current Prototype: Four-Word Voice Pointer
 
-The physical prototype is a semicircle board with four labels arranged from left to right: **Cheers!**, **Too Much!**, **Really?**, and **Eat More**. The `random_word_servo.py` program can be triggered by saying some keywords. It logs the microphone level and recognized speech, moves through several random positions, stops at one label selected at random, and uses Piper to speak the selected phrase. The microphone is closed while the servo is moving and while the speaker is playing, then reopened after a short echo guard.
+The prototype is a semicircle board with four phrases. Viewed from the front, from left to right they are **Eat More**, **Really?**, **Too Much!**, and **Cheers!**. A cut-out kid lies in front of the board, and his raised arm is the pointer. When someone at the table says a trigger word, the arm wanders back and forth, stops at one phrase chosen at random, and the speaker reads the phrase aloud, so the table gets a playful verdict on how the meal is going.
 
-The four angles must be calibrated against the actual board. The test script starts with safe angles of 10° and 110° rather than assuming that the servo's full range is mechanically safe.
+Code: [`random_word_servo.py`](random_word_servo.py)
 
-**Your prototype should:**
-- Use at least one sensing or input device.
-- Use servo-based physical actuation.
-- Connect sensing and actuation into a meaningful interaction around eating, drinking, cooking, serving, or sharing food.
-- Additional inputs, displays, LEDs, buttons, or other outputs are optional extensions.
+| Phrase | Servo angle |
+|---|---|
+| Eat More | 110° |
+| Really? | 77° |
+| Too Much! | 43° |
+| Cheers! | 10° |
 
-**Document your system with:**
-- Code for your sensing + actuation prototype
-- Photos and/or video of the working prototype in action
-- A simple interaction diagram or sketch showing how sensing and actuation are connected
-- Written reflection: What did you learn about connecting sensing, movement, and physical form? What was fun, surprising, or challenging?
+The trigger words are `go`, `boring`, `drink`, `eat`, `hungry`, and `food`. Pressing Enter also triggers the interaction, which is a useful fallback in a noisy room. The program logs the microphone level and the recognized speech, moves through five random positions, stops at one label selected at random, and uses Piper to speak the selected phrase. The microphone is closed while the servo is moving and while the speaker is playing, then reopened after a one-second echo guard.
 
-**Questions to consider:**
-- How does your chosen sensor or input shape the physical response?
-- How does the physical arrangement of the sensor and actuator change the interaction?
-- What thresholds, timing, or movement patterns make the interaction feel clear or playful?
-- What changes when you adjust the sensor placement or servo motion?
+The four angles were calibrated against the actual board. The servo is limited to a safe range of 10° to 110° rather than assuming its full range is mechanically safe.
 
-Iterate on the sensing, movement, and physical form, and document what you discover.
+#### Build Process
 
-See encoder_accel_servo_dashboard.py in the Lab 4 folder for an optional example of chaining together three devices.
+**Components**
 
-**`Lab 4/encoder_accel_servo_dashboard.py`**
+![Components](imgs/compoments.JPG)
+
+Raspberry Pi 5 with a SparkFun Servo pHAT, one 9g servo on channel 0, a USB microphone, a small speaker, and the cardboard fan. The servo is powered through the pHAT's own USB-C connection, not from the Pi.
+
+**Adjusting the angles**
+
+![Servo horn at one angle](imgs/test_servo.jpg)
+![Servo horn at another angle](imgs/test_servo2.jpg)
+
+I moved the servo horn to different angles and compared it with the dividing lines on the board. This is how I chose the four angles in the table above and the 10° to 110° safe range.
+
+#### Interaction Diagram
+
+```mermaid
+flowchart LR
+    A["Guest says a trigger word<br/>(go, eat, hungry, ...)"] --> B["USB microphone"]
+    K["Enter key"] --> D
+    B --> C["Voice activity detection<br/>+ speech recognition"]
+    C --> D["Random phrase chosen<br/>(Eat More / Really? / Too Much! / Cheers!)"]
+    D --> E["Servo wanders, then stops<br/>at the phrase's angle"]
+    E --> F["Arm points at the phrase"]
+    D --> G["Speaker reads the phrase aloud"]
+```
+
+#### Design Notes
+
+**How does the chosen input shape the physical response?**
+Originally, I choice joystick to control the movement of servo. However, Voice fits a shared meal better than a joystick because people are already talking and their hands are busy with food. Saying "I'm hungry" or "this is boring" is something guests might say, and the board answers as if it were another person at the table. The input is vague (any trigger word) and the output is random, so the board feels like it has opinions.
+
+**How does the physical arrangement of sensor and actuator change the interaction?**
+The servo sits at the center of the fan, so the arm is a single pointer that rotates over a fixed set of labels. The microphone and speaker sit with the electronics on the box behind the board, while the arm and the board face the guests. Guests only see the character and the labels, and the wiring stays out of the scene.
+
+**What thresholds, timing, or movement patterns make it clear or playful?**
+
+* The arm does not go straight to the answer. It wanders through five random positions and then settles, like a roulette wheel. The suspense could be playful.
+* The four labels are about 33° apart, so each one is clearly separate when the arm stops.
+* The speaker reads the phrase aloud after the arm stops, so people not looking at the board still get the result.
+
+**What changes when I adjust the sensor placement or servo motion?**
+
+* If the microphone stayed open while the speaker talked, the board could hear its own voice. I close the microphone during movement and speech and add a one-second echo guard before listening again.
+* Moving the servo in small steps instead of jumping makes the arm feel alive rather than mechanical.
+* Limiting the angles to 10° to 110° keeps the arm from pushing against the edge of the board.
+
+**Iteration**
+The first version triggered on any short utterance with only voice activity detection, because it was faster to prototype. The current version recognizes the speech and checks it against trigger words, so background chatter does not constantly set it off. I also tried several speech recognition models to find one that recognizes the right word without a noticeable delay. The version in the code uses the small `tiny.en` Whisper model. The keyboard trigger stays as a backup.
+
+#### Reflection
+
+* **What I learned:** The sensor, the movement, and the physical form depend on each other. The same code feels very different once a character, a printed arm, and labels are attached to the servo. The board's size and the arm's length decided which angles were usable.
+* **What was fun:** Watching the arm wander before it stops, and guessing which phrase it would land on. I found the random pointer especially interesting. Sometimes the answer has nothing to do with what was said, but that mismatch is part of the effect: it makes people laugh and feels like the board has its own mind.
+* **What was challenging:** At the start, the hardest part was making sure the system recognized the right word without delay. A model that was more accurate responded more slowly, and a faster one missed more words, so I had to test different models to find a balance. Other challenges were echo from the speaker and lining the servo angles up with hand-drawn labels.
+
+<!-- **`Lab 4/encoder_accel_servo_dashboard.py`**
 
 #### Example Application: Windmill Coaster
 
@@ -541,7 +585,7 @@ This is a playful way to visualize how the expander works, but the same techniqu
 ---
 
 
----
+--- -->
 
 ---
 
@@ -549,12 +593,78 @@ This is a playful way to visualize how the expander works, but the same techniqu
 
 ### Final Documentation
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+The final prototype is a four-word voice pointer for the dinner table. This section shows how it went from sketch to final form, and then describes it as **looks like**, **works like**, and **acts like**.
 
----
+#### Iterations
+
+| Stage | What it was |
+|---|---|
+| Sketches | Five ideas for playful dining devices: a last-bite alarm, a pouring arm that spills, an auto fly swatter, a spinning snack launcher, and a joystick sign board ([Part D](#part-d)). |
+| Cardboard prototype | A cardboard semicircle with four labels, driven by a servo. The joystick sign board was the starting point. |
+| Final prototype | A voice-triggered pointer. The joystick was replaced with a microphone, and the sign became a cut-out kid whose arm points at a phrase. |
+
+![Cardboard prototype](imgs/cardboard_prototype.JPG)
+![Final prototype](imgs/compoments.JPG)
+
+**Redesign sketch**
+
+![Redesign sketch](imgs/redesign_sketch.png)
+
+The final design changed from Sketch 5 in three ways.
+
+| | Sketch 5 (original) | Final design |
+|---|---|---|
+| Input | A friend pushes a joystick | A guest says a trigger word into a microphone |
+| Output | A sign flips up to show a message | A kid's arm points at one of four phrases, and a speaker reads it aloud |
+| Who decides | The person holding the joystick | The device, at random |
+
+I changed the design because a joystick needs one person to stop eating and operate it, while speaking fits into a meal naturally. Once the device picks the phrase itself, a pointing arm with a short spin works better than a flipping sign, because the person watching waits to see where it lands. The kid character makes the teasing feel friendly rather than rude.
+
+#### Looks like
+
+![Front view](imgs/front.JPG)
+
+A cut-out kid lies on a small cardboard box in front of a semicircle board. The board is divided into four sections, labeled **Eat More**, **Really?**, **Too Much!**, and **Cheers**. The kid's raised arm is the pointer. The servo is hidden behind the board, at the center of the fan.
+
+* **Look:** a hand-drawn cardboard board and a cheerful printed character. It looks like a toy, so the teasing stays friendly.
+* **Feel and weight:** it is made of light cardboard and paper, with a 9g servo as the only moving part.
+* **Sit:** it sits on top of a box in the middle of the table, facing the guests. The Pi, the Servo pHAT, the microphone, and the speaker are on the box behind the board, so the guests only see the character and the labels.
+* **Size:** the arm is 8 cm from the servo shaft to the fingertip, which is long enough to reach all four labels.
+
+![Cut-out character](imgs/deco.jpg)
+
+**Attaching the arm**
+
+![Testing the paper arm on the servo](imgs/servo_hand.JPG)
+
+The decoration was the last step. After the angles were calibrated, I cut out the character and held the printed arm against the servo horn to check its length and where it should attach. The arm is 8 cm from the shaft to the fingertip, long enough to reach the labels without hitting the edge of the board.
+
+#### Works like
+
+![Back view with the electronics](imgs/back.JPG)
+
+The back of the device holds the Raspberry Pi 5, the SparkFun Servo pHAT, a microphone, and a speaker. The servo is on channel 0 of the pHAT, which has its own USB-C power.
+
+1. The microphone listens continuously, and the program checks for speech.
+2. When it hears a trigger word (`go`, `boring`, `drink`, `eat`, `hungry`, or `food`), or when Enter is pressed, it starts the interaction.
+3. The servo arm wanders through five random positions, then stops at one of the four phrases chosen at random.
+4. The speaker reads the chosen phrase aloud.
+5. The microphone is closed while the arm moves and while the speaker talks, then reopens after a short echo guard.
+
+Code: [`random_word_servo.py`](random_word_servo.py)
+
+#### Acts like
+
+In the demo video, I am the person at the table who speaks to the device. I say a trigger word, the arm starts to wander, and everyone watches it settle on a phrase. The phrase does not always match what I said, and that mismatch is what makes the interaction funny.
+
+1. The guest (me) says a trigger word, such as "I'm hungry" or "this is boring."
+2. The kid's arm swings back and forth like a roulette wheel.
+3. The arm stops and points at one phrase, and the speaker says it out loud.
+4. The guest reacts, laughs, and can say another word to try again.
+
+**Demo video:** [Watch on Google Drive](https://drive.google.com/file/d/1XZFBSgcfSwTPCeUljHvl2mmmLXdiv4p8/view?usp=sharing)
+
+<!-- ---
 
 ## Deliverables \& Submission for Lab 4
 
@@ -566,4 +676,4 @@ The deliverables for this lab are, writings, sketches, photos, and videos that s
 For submission, the readme.md page for this lab should be edited to include the work you have done:
 * Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
 * Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
-* Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
+* Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas. -->
