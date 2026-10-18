@@ -1,13 +1,11 @@
 # Ph-UI!!!
+[Lab 4. Ph-UI!!! — Dinner Dial](Lab%204/README.md)
 
 ---
 
 ## Lab Overview
 Members: Yuqi Wang (yw2897)
 Project name: Dinner Dial — What Should We Eat?
-
-
-For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
 
 ---
 
@@ -60,7 +58,6 @@ Right — Dumplings: The pointer is positioned over the Dumplings section on the
 Side View — Physical Structure: Folded-paper supports raise the menu above the base, leaving space for the electronics underneath. The servo sits in the central opening, with the paper pointer attached to its plastic horn. The joystick is accessible at the front, while the Raspberry Pi and display sit to the left.
 
 ## Part 2
-Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 ### Part E
 
 ### Build & Integrate: Dinner Dial
@@ -166,6 +163,17 @@ A next iteration would compare joystick positions at the front and side of the b
 ---
 
 ### Part F
+#### Final Documentation
+
+Dinner Dial developed from five layout sketches into a paper prototype and then a working cardboard-box prototype. Part D documents the early design exploration, while Part E documents the code and technical iterations.
+
+**Looks like.** The final prototype has a printed menu on a 20 × 13 cm cardboard box lid. Rice, Noodles, and Dumplings are arranged from left to right. The pointer moves above the menu, while the servo and other electronics are housed inside the box. The joystick sits in front of the box.
+
+**Works like.** The joystick changes the food selection one step at a time. The servo moves the pointer, and the USB speaker announces the selected food in English. Releasing the joystick keeps the current selection.
+
+**Acts like.** The user interacts through a “tilt, release, tilt” gesture. Starting at Noodles, the user can move left to Rice, return right to Noodles, and move right again to Dumplings. The pointer and spoken feedback communicate the choice without an additional button press.
+
+#### Final Demonstration
 
 https://github.com/user-attachments/assets/103171e7-c5bc-466f-97ff-4b11bf2d7253
 
