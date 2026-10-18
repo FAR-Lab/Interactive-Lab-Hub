@@ -565,6 +565,55 @@ The sensing and actuation files are included here:
 * [Proximity sensor test](./rotating_arm/sensor_test.py)
 * [Required Python libraries](./rotating_arm/requirements.txt)
 
+#### Interaction Diagram
+
+<img width="1900" height="1330" alt="escaping-snack-tray-sequence" src="https://github.com/user-attachments/assets/4587a986-9e39-44e2-90b3-b716dce1f19b" />
+
+#### Design Iteration
+
+Our initial idea was to rotate the entire snack tray around a central axle. During prototyping, we realized that the tray and its contents could place too much weight on the small servo. We also needed enough clearance for the tray to move without rubbing against the housing.
+
+We therefore changed the design to use a lightweight rotating arm. The servo rotates the arm, which carries the tray away from the user. We used cardboard and folded paper for the moving parts to reduce their weight. We also placed the proximity sensor at the front of the housing so that it faces the direction from which a person is most likely to reach.
+
+#### Reflection
+
+This project showed us that sensing, movement, and physical form need to be designed together. The sensor’s position affected when the tray responded, while the weight and balance of the arm affected how smoothly the servo could move it.
+
+One challenge was making the movement noticeable without making the structure too heavy or unstable. Using lightweight materials helped the servo move the tray more easily. We also found that the sensor threshold mattered: if it was too sensitive, the tray could move before a person intended to reach for the snack; if it was not sensitive enough, the response could come too late.
+
+The most fun part was seeing the tray turn a familiar action into a playful interaction. When someone reached for the snack and the tray moved away, the device appeared to be protecting its food. This made a simple combination of a sensor and a motor feel like a small game.
+
+#### Running the Prototype
+
+The prototype uses an APDS-9960 proximity sensor and a servo connected to channel 0 of the Servo pHAT. The Servo pHAT is powered separately through its USB-C connection.
+
+From the `rotating_arm` folder, install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the sensor test and compare the readings with and without a hand in front of the sensor:
+
+```bash
+python sensor_test.py
+```
+
+Then start the interaction with thresholds chosen from the observed readings:
+
+```bash
+python rotating_arm.py run --near <near_threshold> --far <far_threshold>
+```
+
+Replace the placeholders with the measured values. The far threshold must be lower than the near threshold. The sensor reports values from 0 to 255, rather than distances in centimeters.
+
+#### Proximity Thresholds
+
+For the interaction, we used estimated proximity values of approximately 10–20 when no hand was present and 60–100 when a hand approached the sensor. Based on these estimates, the example configuration uses a near threshold of 50 and a far threshold of 30. When the reading stays at or above 50 for 0.1 seconds, the tray moves away. When it stays at or below 30 for 1 second, the tray returns to its resting position. These values can be adjusted based on the sensor placement and surrounding environment.
+
+```bash
+python rotating_arm.py run --near 50 --far 30
+```
 
 #### Acts Like
 
