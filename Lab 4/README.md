@@ -335,11 +335,7 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 
 **Document your system with:**
 - Code for your sensing + actuation prototype
-
-
-https://github.com/user-attachments/assets/15a1555f-5466-48bb-8498-94df75303ed8
-
-
+skittle_sort_servo.py
 - Photos and/or video of the working prototype in action
   
 
