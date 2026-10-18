@@ -26,7 +26,7 @@ Members:
 Yilin Wu (yw2895), https://github.com/yw2895-ship-it/Interactive-Lab-Hub/edit/Fall2026/Lab%204/README.md
 
 
-Sina Liu (sl3733), https://github.com/SinaL0123/Interactive-Lab-Hub/tree/Fall2026/Lab%204/README.md
+Sina Liu (sl3733), https://github.com/SinaL0123/Interactive-Lab-Hub/blob/Fall2026/Lab%204/README.md
 
 
 Jindi Chai (jc3892), https://github.com/JindiChai/Interactive-Lab-Hub/blob/Fall2026/Lab%204/README.md
@@ -54,6 +54,9 @@ E) [Build & Integrate](#part-e)
 F) [Final Documentation](#part-f)
 
 ---
+
+<details>
+<summary>Lab instructions and preparation (Parts A–D)</summary>
 
 ## Part 1 Lab Preparation
 
@@ -298,6 +301,8 @@ Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/p
 
 As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
 
+</details>
+
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 <img width="1949" height="2839" alt="sketch" src="https://github.com/user-attachments/assets/4c27dec9-241e-4223-aeb9-7f53b7dbed4f" />
 
@@ -333,6 +338,9 @@ For this prototype, we manually rotated the tray to simulate the servo’s movem
 https://github.com/user-attachments/assets/a461cf13-3a02-49af-9a6f-0f9b2b0d9b1e
 
 ---
+
+<details>
+<summary>Build and integration instructions (Part E)</summary>
 
 ## Part 2
 
@@ -520,6 +528,8 @@ This is a playful way to visualize how the expander works, but the same techniqu
 
 ---
 
+</details>
+
 ### Part F
 
 ### Final Documentation
@@ -623,13 +633,14 @@ This response makes the device appear playful and mischievous. Instead of acting
 
 ##### Working Prototype Video
 
-[Watch the Escaping Snack Tray demonstration](
-https://github.com/user-attachments/assets/4337c387-abed-4144-8866-51d00bc93402
-)
+[Watch the Escaping Snack Tray demonstration](https://github.com/user-attachments/assets/4337c387-abed-4144-8866-51d00bc93402)
 
 *The video shows the complete interaction: the user reaches toward the snack, the sensor detects the hand, and the servo-driven tray moves away.*
 
 ---
+
+<details>
+<summary>Submission instructions</summary>
 
 ## Deliverables \& Submission for Lab 4
 
@@ -642,3 +653,5 @@ For submission, the readme.md page for this lab should be edited to include the 
 * Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
 * Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
 * Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
+
+</details>
