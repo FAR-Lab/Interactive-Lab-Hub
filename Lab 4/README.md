@@ -374,6 +374,21 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 
 Iterate on the sensing, movement, and physical form, and document what you discover.
 
+In this project we learned that connecting sensing, movement, and physical form is not just about making each component work independently, but about making the whole interaction feel natural. For our final prototype, we decided to laser cut the structure that supports the servo motor, as well as the cross-shaped platform used to hold the sushi.
+In our design, the button sends a signal to the Raspberry Pi, which then creates an immediate physical response by controlling the servo motor and rotating the sushi platform. The movement needed to be clear and predictable so the user could easily understand what was happening.
+
+The physical arrangement also affected the interaction more than we expected. The servo had to be placed directly under the center of the platform so that the rotation would remain balanced, and the platform had to be light enough for the servo to move reliably. We also found that the size and shape of the platform mattered, because a heavier or uneven structure could make the movement unstable.
+
+The timing and amount of rotation were also important. Since our servo motor can only rotate about 180 degrees, it was difficult to achieve our initial idea of continuous 360-degree rotation. Instead, we decided to work with this limitation and serve sushi from two opposite sides of the platform rather than four. Each time the button is pressed, the servo rotates the platform 180 degrees to move the next serving into position. We also tested smaller movements, but they were less noticeable and made the interaction feel less clear. Adjusting the servo angle changed how the carousel felt and also influenced the physical arrangement of the platform.
+
+The most fun part was seeing a simple button press create a visible physical action. The most challenging part was designing the mechanical structure around the limits of the servo, especially its range of motion. Overall, we learned that the electronics, motion, and physical form all need to be designed together rather than separately.
+
+Here is a simple interaction diagram of how sensing and actuation are connected for our Sushi Rotating Carousel:
+
+
+
+
+
 See encoder_accel_servo_dashboard.py in the Lab 4 folder for an optional example of chaining together three devices.
 
 **`Lab 4/encoder_accel_servo_dashboard.py`**
