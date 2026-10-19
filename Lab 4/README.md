@@ -163,6 +163,8 @@ The copper tape is on the lid and the servo arm is mounted right next to it, so 
 - What changes when you adjust the sensor placement or servo motion?<br>
 What changes is that the smaller the hand the easier it stays upright rather than being floppy. Also the speed is fast but not fast enough to hurt. It's fast enough to react and immediately hit someone if they touch the jar but not fast enough to hurt them.
 
+<img width="3314" height="2486" alt="image" src="https://github.com/user-attachments/assets/460798fe-810f-44b6-bf62-ac377306e850" />
+
 
 https://github.com/user-attachments/assets/999a5164-82cb-4b15-b23e-4c67b2af6ec6
 
