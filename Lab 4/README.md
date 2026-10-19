@@ -50,7 +50,7 @@ Some questions that these sketches raise is the size of the contraption. Since w
 
 ### Pick one design to prototype and explain why.
 
-We decided to choose the m and m / skittle sorter because it will have us work with servos, light detectors, and some sort of reasoning mathematical reasoning sorter to arrange the skittles and such into different flower shapes! We want to combine the cool physical movement and have it create an artistic design out of simple building blocks, which can then be eaten after the performance! So not only is the person happy from the delicious taste of the sugary treat, but they are also interacting with the visuals that the machines outputs as well!
+We decided to choose the m and m / skittle sorter because it will have us work with servos, light detectors, and some sort of mathematical reasoning sorter to arrange the skittles and such into different flower shapes! We want to combine the cool physical movement and have it create an artistic design out of simple building blocks, which can then be eaten after the performance! So not only is the person happy from the delicious taste of the sugary treat, but they are also interacting with the visuals that the machines outputs as well! (We were not able to get the flower to work in the final video, however, the base build was completed!)
 
 ## Rough prototype
 
@@ -102,11 +102,11 @@ I learned that integrating sensing, movement, and physical form is more difficul
 
 ### How does your chosen sensor or input shape the physical response?
 
-The color sensor detects the color of each Skittle and determines how the sorting mechanism responds. Based on the detected color, the servos rotate the scoopers to direct the Skittle either left or right. The Skittle then travels through our multilevel sorting system until it reaches its designated container.
+The camera sensor detects the color of each Skittle and determines how the sorting mechanism responds. Based on the detected color, the servos rotate the scoopers to direct the Skittle either left or right. The Skittle then travels through our multilevel sorting system until it reaches its designated container.
 
 ### How does the physical arrangement of the sensor and actuator change the interaction?
 
-Overall the sensor has to be put in a close enough position to detect the color but also not too close where it cannot get an accurate view of the Skittle with proper lighting. For the motors, they need to be placed in a certain position so that when they rotate, the Skittle is dropped into the other appropriate motors. If placed to far apart then the Skittles might miss the scooper and result in the interaction being award since it failed.
+Overall the camera has to be put in a close enough position to detect the color but also not too close where it cannot get an accurate view of the Skittle with proper lighting. For the motors, they need to be placed in a certain position so that when they rotate, the Skittle is dropped into the other appropriate motors. If placed to far apart then the Skittles might miss the scooper and result in the interaction being award since it failed.
 
 ### What thresholds, timing, or movement patterns make the interaction feel clear or playful?
 
@@ -114,7 +114,7 @@ The motors move very quickly and right after each other. It almost looks like a 
 
 ### What changes when you adjust the sensor placement or servo motion?
 
-The color of the Skittle is hardcoded by the sensor and is given a range for the RGB colors. If the sensor is moved too close or far away this can drastically change the whole machine since it won't be able to sort it properly according to the color being sensed. In addition, if the servo motion is changed to be a smaller angle then the Skittle may not fall out of the scooper. Likewise, if the angle is too large, then the scooper might turn the Skittle too far causing it to overshoot the next scooper.
+The color of the Skittle is hardcoded by the sensor and is given a range for the RGB colors. If the camera is moved too close or far away this can drastically change the whole machine since it won't be able to sort it properly according to the color being sensed. In addition, if the servo motion is changed to be a smaller angle then the Skittle may not fall out of the scooper. Likewise, if the angle is too large, then the scooper might turn the Skittle too far causing it to overshoot / undershoot to the next scooper.
 
 
 <details
