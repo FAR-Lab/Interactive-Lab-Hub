@@ -102,14 +102,14 @@ Distance Test:
 ---
 
 ### Part C
-### Servo Actuation
-
 ### Servo Control with SparkFun Servo pHAT
 
 Pi Servo Hat Test:
 
-<video controls src="IMG_7879.mov" title="pi servo hat test"></video>
-![alt text](IMG_0304.tiff)
+https://github.com/user-attachments/assets/2d25abbc-fc59-4796-9c7c-02ca72cafa3a
+
+<img width="204" height="153" alt="Screenshot 2026-10-18 at 9 10 31 PM" src="https://github.com/user-attachments/assets/23a5d055-0b4a-489a-bdea-776ff6a38848" />
+
 
 ---
 
