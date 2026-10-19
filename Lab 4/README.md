@@ -544,13 +544,13 @@ I built a spice box that opens when my hand comes close, and only closes after t
 
 **Code:** [spice_box.py](spice_box.py)
 
-**First Try Video+Explain:** [https://github.com/user-attachments/assets/4dd9862e-91bb-4cd6-bc5e-2ddcff0052ad](VIDEO_LINK)
+**First Try Video+Explain:** [https://youtube.com/shorts/qpb1k_-dz_Y?feature=share](VIDEO_LINK)
 
 **Video:** [https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282](VIDEO_LINK)
 
 **Interaction diagram:**
+<img width="1360" height="820" alt="interaction_diagram" src="https://github.com/user-attachments/assets/e6d9bba0-2d84-40d0-8313-c7ef9ed0f252" />
 
-![<img width="1360" height="820" alt="interaction_diagram" src="https://github.com/user-attachments/assets/3f979838-ae8f-46bd-ad33-9cf5dfa652e7" />](interaction_diagram.png)
 
 
 
