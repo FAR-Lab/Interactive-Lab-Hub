@@ -1,3 +1,0 @@
-flask>=3.0
-adafruit-blinka
-adafruit-circuitpython-mpr121
