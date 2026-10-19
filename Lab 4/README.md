@@ -1,5 +1,7 @@
 # Ph-UI!!!
 
+Teammate: [Alex Yen](https://github.com/Alexyen04/Alex-Yen-Interactive-Lab-Hub/tree/Fall2026/Lab%204)
+
  Feast Automata prototype that turns sorting candy into a playful physical interaction.
 
 **[Watch the final interaction video](https://youtube.com/shorts/xA2eng8XUug)** · **[Code and setup](skittle_sorter/README.md)**
@@ -123,8 +125,13 @@ The webcam captures the Skittle, and our software classifies its color using cal
 <img width="768" height="1024" alt="img_8159_1024" src="https://github.com/user-attachments/assets/76b24eb9-3767-4d1a-9d9c-422c8037f70a" />
 
 
-Our attempted 3D print failed, leaving tangled filament instead of a usable component, as shown below. Following this failure, we revised our approach and used webcam-based color detection in the final prototype. The resulting system connects camera input to the servo-driven sorting mechanism, with screen prompts guiding the user through presenting and dropping each Skittle.
+### Build iteration: Automatic hopper to manual feeding
 
+We originally planned to use a 3D-printed automatic hopper to feed Skittles into the sorting mechanism. The print failed, leaving tangled filament instead of a usable hopper, as shown in the photo above.
+
+We revised the final interaction to use manual feeding. The user presents a Skittle to the webcam for color detection, waits for the countdown, and drops it into the sorting mechanism when prompted. This allowed us to demonstrate camera-based sensing and servo-driven sorting, while automatic feeding remained an unfinished feature.
+
+Testing this revised interaction revealed another design issue: P01 understood when to drop the Skittle but was initially unsure where to place it. Our proposed next iteration would add clearer labels for the camera presentation area and drop opening.
 
 - **Looks like:** A cardboard sorting structure with three servo-driven scoopers arranged across multiple levels, a webcam for detecting candy colors, and an OLED display for instructions.
 
