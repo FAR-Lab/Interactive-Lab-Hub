@@ -18,7 +18,7 @@
 
 ## Lab Overview
 Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
+Members: Full Name (netid, github-handle), Alexyen04...  
 Clock name: <name>
 
 
