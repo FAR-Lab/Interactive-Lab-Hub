@@ -349,6 +349,17 @@ https://youtu.be/_1U6LSeBOsY
 1. <img width="3024" height="4032" alt="IMG_8157" src="https://github.com/user-attachments/assets/8058e48f-8fa4-40cc-8b6b-cc1c61ae1456" />
 2. <img width="3024" height="4032" alt="IMG_8158" src="https://github.com/user-attachments/assets/d73b3466-30af-4a40-9661-8500a08aadb0" />
 
+User testing: 
+1. https://youtube.com/shorts/YQO9DZD6NhA?feature=share
+P01 was given no instructions on how to use the sorter, and we wanted to see if the instructions on the screen were good enough to guide a completely new user of the system. In the end, we discovered it was not good enough because it didn't specify "WHERE" the skittle needed to placed, but rather was saying when the skittle should be placed in the machine. It was apparent to my teammate and I however, they were initially confused.
+
+2.
+<img width="4032" height="3024" alt="IMG_8138 (2)" src="https://github.com/user-attachments/assets/30731c9c-baed-4501-b74e-02eeb4ed962c" />
+
+This user was able to immediately pick up when and "where to place the skittle with no help. The video was corrupted and so it's been replaced with a recovered photo of the interaction.
+
+
+
 * Final project video:
 https://youtube.com/shorts/xA2eng8XUug
 
