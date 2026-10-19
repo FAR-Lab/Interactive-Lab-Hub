@@ -49,7 +49,6 @@ I picked Sketch 4. The idea came from the minibar in Las Vegas hotels, where a s
 
 One thing I noticed is that if the lid needs to cover the bottle, maybe what's inside isn't fully sealed, or it needs to stay cool. For example, oyster sauce should be kept cold after opening, so this could become a small cold box for sauces. A fridge might still be a better choice for that, so this is just one possibility. A real version could also have one sensor for each bottle, like the minibar.
 
-Build a cardboard or other low-fidelity physical prototype of your design.
 
 **Rough Prototype**
 
@@ -67,9 +66,6 @@ Build a cardboard or other low-fidelity physical prototype of your design.
 
 ## Part 2
 
-Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
-
----
 
 ### Part E: Build & Integrate
 
@@ -84,9 +80,9 @@ I built a spice box that opens when my hand comes close, and only closes after t
 
 **Code:** [spice_box.py](spice_box.py)
 
-**First Try Video+Explain:** [YouTube VIDEO LINK](https://youtube.com/shorts/qpb1k_-dz_Y?feature=share)
+**First Try Video+Explain:** [Watch Video](https://youtube.com/shorts/qpb1k_-dz_Y?feature=share)
 
-**Interaction Video:** [Watch video](https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282)
+**Interaction Video:** [Watch Video](https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282)
 
 **Interaction diagram:**
 <img width="1360" height="820" alt="interaction_diagram" src="https://github.com/user-attachments/assets/e6d9bba0-2d84-40d0-8313-c7ef9ed0f252" />
@@ -127,16 +123,3 @@ What was fun was seeing the lid stay open while the bottle was out and then clos
 
 
 
----
-
-## Deliverables \& Submission for Lab 4
-
-The deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do.
-* "Acts like": shows how a person would interact with the device.
-
-For submission, the readme.md page for this lab should be edited to include the work you have done:
-* Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
-* Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
-* Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
