@@ -529,10 +529,55 @@ This is a playful way to visualize how the expander works, but the same techniqu
 
 ### Part F
 
-### Final Documentation
-<img width="500" alt="a4ce592899beaef82f13f5a322811794" src="https://github.com/user-attachments/assets/81b53b0a-494d-40b6-ac4c-0964eee7c67d" />
+### Final Documentatio
+
+### What I built
+
+I built a spice box that opens when my hand comes close, and only closes after the bottle is put back.
+
+- An APDS-9960 on the front checks if my hand is near (I use its proximity mode, so any hand movement works, not just a gesture).
+- A distance sensor at the bottom checks if the bottle is in the box.
+- When my hand comes close, the servo turns to 140°, and the lid swings open.
+- If I take the bottle out, the lid stays open.
+- When I put the bottle back, it waits 2 seconds and then closes.
+- If I open it but don't take the bottle, it closes by itself after 5 seconds.
+
+**Code:** [spice_box.py](spice_box.py)
+
+**First Try Video+Explain:** [https://github.com/user-attachments/assets/4dd9862e-91bb-4cd6-bc5e-2ddcff0052ad](VIDEO_LINK)
+
+**Video:** [https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282](VIDEO_LINK)
+
+**Interaction diagram:**
+
+![<img width="1360" height="820" alt="interaction_diagram" src="https://github.com/user-attachments/assets/3f979838-ae8f-46bd-ad33-9cf5dfa652e7" />](interaction_diagram.png)
+
+
+
+### Changes I made along the way
+
+- At first the lid could not open. The servo arm was too short, the servo body was an awkward shape to mount, and it didn't have enough force to lift a flip-up lid.
+- So I changed the lid from flipping up to swinging open sideways. I cut the box open so the lid turns on its side edge, and once the servo was fixed in place it worked.
+- I set the open angle to 140°. It looked neat and kind of high-tech.
+- I didn't get false triggers from my hand. But sometimes when I put the bottle back, it wasn't detected because I didn't put it right in the middle over the sensor.
+
+### Reflection
+
+The hardest part was not the code, it was the physical form. The sensors and servo worked quickly, but getting the lid to actually move took the most time. The servo is small and weak, so the way the lid moves had to fit what the servo can do, not the other way around. Changing from a flip-up lid to a side-swinging lid fixed it.
+
+I also learned that where the sensor sits changes how well it works. The bottle sensor only works if the bottle is right above it, so a real version would need a small ring or guide in the bottom so the bottle always lands in the same spot.
+
+What was fun was seeing the lid stay open while the bottle was out and then close by itself when I put it back. It felt like the box "knew" what I was doing.
+
+### Part F
+
+- **Looks like:** [<img width="500" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/7ecdfcaf-b2f7-4f09-8371-924c2a516ce5" />]
+- **Works like:** see the video above
+- **Acts like:** see the video above, showing how a person reaches in, takes the bottle, and puts it back
+- **Progress:** <img width="500" alt="a4ce592899beaef82f13f5a322811794" src="https://github.com/user-attachments/assets/81b53b0a-494d-40b6-ac4c-0964eee7c67d" />
+
 <img width="500" alt="8c173def6a15e97d1cd31f5337096de4" src="https://github.com/user-attachments/assets/5dbf2971-117c-439a-ad50-9618d49fc631" />
-<img width="500" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/7ecdfcaf-b2f7-4f09-8371-924c2a516ce5" />
+
 
 
 
