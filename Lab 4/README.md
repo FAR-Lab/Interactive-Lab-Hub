@@ -327,7 +327,7 @@ One thing I noticed is that if the lid needs to cover the bottle, maybe what's i
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
-**Rough Prototype
+**Rough Prototype**
 
 <img width="450" alt="6bbd9262f954c50de276f29b88c22670" src="https://github.com/user-attachments/assets/59dc8d62-7587-4262-bc29-245404ca459a" />
 
@@ -527,11 +527,7 @@ This is a playful way to visualize how the expander works, but the same techniqu
 
 ---
 
-### Part F
-
-### Final Documentatio
-
-### What I built
+### Part E: Build & Integrate
 
 I built a spice box that opens when my hand comes close, and only closes after the bottle is put back.
 
@@ -546,7 +542,7 @@ I built a spice box that opens when my hand comes close, and only closes after t
 
 **First Try Video+Explain:** [YouTube VIDEO LINK](https://youtube.com/shorts/qpb1k_-dz_Y?feature=share)
 
-**Interaction Video:** [YouTube VIDEO_LINK](https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282)
+**Interaction Video:** [Watch video](https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282)
 
 **Interaction diagram:**
 <img width="1360" height="820" alt="interaction_diagram" src="https://github.com/user-attachments/assets/e6d9bba0-2d84-40d0-8313-c7ef9ed0f252" />
@@ -567,11 +563,12 @@ The hardest part was not the code, it was the physical form. The sensors and ser
 
 I also learned that where the sensor sits changes how well it works. The bottle sensor only works if the bottle is right above it, so a real version would need a small ring or guide in the bottom so the bottle always lands in the same spot.
 
-What was fun was seeing the lid stay open while the bottle was out and then close by itself when I put it back. It felt like the box "knew" what I was doing.
+What was fun was seeing the lid stay open while the bottle was out and then close by itself when I put it back. It felt like the box "knew" what I was doing
+
 
 ### Part F
 
-- **Looks like:** <img width="1280" height="1707" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/874c3ff1-327a-4c17-becf-3506a3958225" />
+- **Looks like:** <img width="450" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/874c3ff1-327a-4c17-becf-3506a3958225" />
 
 - **Works like:** see the video above
 - **Acts like:** see the video above, showing how a person reaches in, takes the bottle, and puts it back
