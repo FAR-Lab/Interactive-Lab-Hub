@@ -568,7 +568,9 @@ What was fun was seeing the lid stay open while the bottle was out and then clos
 
 ### Part F
 
-- **Looks like:** <img width="450" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/874c3ff1-327a-4c17-becf-3506a3958225" />
+- **Looks like:**
+
+<img width="450" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/874c3ff1-327a-4c17-becf-3506a3958225" />
 
 - **Works like:** see the video above
 - **Acts like:** see the video above, showing how a person reaches in, takes the bottle, and puts it back
