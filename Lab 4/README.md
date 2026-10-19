@@ -286,6 +286,8 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+OCD Food Sorter, Food Dispenser, Magnetic Claw Machine Idea, Auto Drink Mixer, Revolving Sushi Dispenser,
+
 <img width="2244" height="2904" alt="672726472-61a4eb67-f5c6-4df4-afb6-a3ce16c54cf4" src="https://github.com/user-attachments/assets/154cf03c-9389-4c85-8d87-46b3aa070970" />
 
 <img width="503" height="465" alt="672547630-33c8d65a-d248-4680-b0c7-2b0382539ea2" src="https://github.com/user-attachments/assets/1a13d610-d22a-49f5-9475-ddd1b73c2bab" />
@@ -323,6 +325,34 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 #### Build & Integrate: Sensing + Actuation
 
 For Part 2, build the Feast Automata interaction you developed in Part D by connecting sensing/input to physical actuation.
+
+Code is in skittle_sorter folder:
+1. calibration.py
+2. servo_channels.json
+3. sorter.py
+4. config.py
+5. readme.md
+
+* photo of in progress build:
+
+<img width="570" height="801" alt="image" src="https://github.com/user-attachments/assets/88f0249a-ed0e-44db-9ef3-43afb3747b30" />
+
+
+* A simple interaction diagram or sketch showing how sensing and actuation are connected
+
+<img width="382" height="565" alt="image" src="https://github.com/user-attachments/assets/07b06e6a-5acf-4d56-87f9-b66b663051b5" />
+
+* paper prototype:
+https://youtu.be/_1U6LSeBOsY
+
+* Final project photos:
+1. <img width="3024" height="4032" alt="IMG_8157" src="https://github.com/user-attachments/assets/8058e48f-8fa4-40cc-8b6b-cc1c61ae1456" />
+2. <img width="3024" height="4032" alt="IMG_8158" src="https://github.com/user-attachments/assets/d73b3466-30af-4a40-9661-8500a08aadb0" />
+
+* Final project video:
+https://youtube.com/shorts/xA2eng8XUug
+
+
 
 **Your prototype should:**
 - Use at least one sensing or input device.
