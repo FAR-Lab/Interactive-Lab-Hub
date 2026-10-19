@@ -114,7 +114,7 @@ The motors move very quickly and right after each other. It almost looks like a 
 
 ### What changes when you adjust the sensor placement or servo motion?
 
-The color of the Skittle is hardcoded by the sensor and is given a range for the RGB colors. If the camera is moved too close or far away this can drastically change the whole machine since it won't be able to sort it properly according to the color being sensed. In addition, if the servo motion is changed to be a smaller angle then the Skittle may not fall out of the scooper. Likewise, if the angle is too large, then the scooper might turn the Skittle too far causing it to overshoot / undershoot to the next scooper.
+The webcam captures the Skittle, and our software classifies its color using calibrated hue values in HSV color space. Camera placement and lighting affect the measured color and can therefore change the selected sorting route. If the camera is moved too close or far away this can drastically change the whole machine since it won't be able to sort it properly according to the color being sensed. In addition, if the servo motion is changed to be a smaller angle then the Skittle may not fall out of the scooper. Likewise, if the angle is too large, then the scooper might turn the Skittle too far causing it to overshoot / undershoot to the next scooper.
 
 
 <details>
