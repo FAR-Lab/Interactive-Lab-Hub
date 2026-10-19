@@ -12,12 +12,16 @@
 	This helps ensure your README.md is clear, professional, and uniquely yours!
 </details>
 
+---
 
 ---
 
 ## Lab Overview
-Members: [Neeha Ravula](https://github.com/neeharavula/Interactive-Lab-Hub/tree/Fall2026) (nr485), [Gaurav Patel](https://github.com/Gtpatel02/Interactive-Lab-Hub) (gp438), [Nishant Ray](https://github.com/Nishant-Ray/Interactive-Lab-Hub) (nr487), [Ammar Syed](https://github.com/ammarsyed/Interactive-Lab-Hub) (as4422)
+Members: [Neeha Ravula](https://github.com/neeharavula/Interactive-Lab-Hub/tree/Fall2026) (nr485), [Gaurav Patel](https://github.com/Gtpatel02/Interactive-Lab-Hub) (gp438), [Nishant Ray](https://github.com/Nishant-Ray/Interactive-Lab-Hub) (nr487), [Ammar Syed](https://github.com/ammarsyed/Interactive-Lab-Hub) (as4422) <br>
 Project name: No Cookies For You
+
+
+For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
 
 ---
 
@@ -38,25 +42,9 @@ F) [Final Documentation](#part-f)
 ---
 
 ### Part A
-### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
+### Capacitive Sensing, a.k.a. Human-Twizzler Interaction
 
-We want to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we are able to provide. At boot, it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes, it considers it a user touch. You can attach any conductive material. In your kit, you have copper tape that will work well, but don't limit yourself! In the example below, we use Twizzlers--you should pick your own objects.
-
-
-<p float="left">
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
- 
-</p>
-
-Plug in the capacitive sensor board with the QWIIC connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). Install the latest requirements from your working virtual environment:
-
-These Twizzlers are connected to pads 6 and 10. When you run the code and touch a Twizzler, the terminal will print out the following
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
-Twizzler 10 touched!
-Twizzler 6 touched!
-```
+<img width="1488" height="518" alt="image" src="https://github.com/user-attachments/assets/67af0ca1-4aae-4ea2-8956-a044afdf4651" />
 
 ---
 
@@ -108,49 +96,43 @@ https://github.com/user-attachments/assets/2d25abbc-fc59-4796-9c7c-02ca72cafa3a
 
 <img width="204" height="153" alt="Screenshot 2026-10-18 at 9 10 31 PM" src="https://github.com/user-attachments/assets/23a5d055-0b4a-489a-bdea-776ff6a38848" />
 
-
 ---
 
 ### Part D
 ### Physical Interaction Design: Feast Automata
 
-**Feast Automata:** build a device that **transforms ordinary dining rituals into playful physical interactions.** Begin with a familiar experience around eating, drinking, cooking, serving, or sharing food, and explore how sensing and actuation might augment, exaggerate, automate, or reinterpret your dining experience.
-
-In this part, use the sensing techniques from Parts A–B and the servo actuation from Part C to develop a physical interaction.
-
-#### Physical considerations for sensing
-
-Sensors need to be positioned in specific locations or orientations to make them useful for an application. Choose a sensor that fits the dining interaction you want to explore. For example, a distance sensor could detect when a cup is placed on a coaster; where the sensor is positioned determines what it can reliably detect.
-
-Think about how the larger object needs to be shaped so the sensor can work reliably, where the actuator needs to sit, what moves, and how a person encounters the interaction.
-
-#### Physical Form and Housing
-
-Think about how your sensor, actuator, and electronics are physically arranged within your prototype. Consider where components need to be placed, what parts move, how the device is supported or enclosed, and how the overall form and aesthetics shape the interaction.
-
-Use cardboard, paper, found objects, or other low-fidelity materials to quickly prototype the physical structure before refining your final design.
-
-#### Optional Display Feedback: Qwiic OLED
-
-Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibly mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-
-</p>
-
-
-As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
-
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
+<img width="3969" height="2341" alt="IMG_7786" src="https://github.com/user-attachments/assets/fbceceb5-767f-4540-95e8-13967917d578" />
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
-**\*\*\*Pick one design to prototype and explain why.\*\*\***
+#### Questions:
+1. Can the capacitive sensor detect a touch through copper tape on a lid that’s handled constantly, or will normal jar handling cause false triggers?
+2. Does the proximity sensor inside the rim reliably detect a hand entering the jar, or do the cookies themselves set it off?
+3. Does the device need a base to keep it stable when the servo moves?
+4. Should the jar react differently the more cookies someone takes, for example by escalating from a raised eyebrow to a slap?
+5. At what distance should the face start “judging”? If it’s too sensitive, it reacts to people walking past; if it’s not sensitive enough, it reacts after the cookie is already gone.
+
+#### What we physically prototype:
+- Copper tape on the jar lid with the cap sensor
+- Proximity sensor at the jar rim
+- Cardboard arms of different lengths on the servo
+- A cardboard base or housing for the electronics
+- Cardboard faces and signs
+- Physically move the prototype ourselves
+
+
+**\*\*\*Pick one design to prototype and explain why.\*\*\*** <br>
+We have decided to choose the first design, Don't Touch Lid Slapper.
+We chose this because first off, the capacitive touch on the lid is the most direct trigger, since you have to touch the lid to open the jar. It is also pretty funny and it is very easy to see what it is trying to do, keep you healthier so you don't eat cookies. Also we can fit everything under the jar so it is easy to keep hidden and act like it's a normal jar even if it is not.
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+
+
+https://github.com/user-attachments/assets/c1e52f81-7a15-419d-998d-360845a73dab
+
 
 ---
 
@@ -164,50 +146,66 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 #### Build & Integrate: Sensing + Actuation
 
-For Part 2, build the Feast Automata interaction you developed in Part D by connecting sensing/input to physical actuation.
-
-**Your prototype should:**
-- Use at least one sensing or input device.
-- Use servo-based physical actuation.
-- Connect sensing and actuation into a meaningful interaction around eating, drinking, cooking, serving, or sharing food.
-- Additional inputs, displays, LEDs, buttons, or other outputs are optional extensions.
-
-**Document your system with:**
-- Code for your sensing + actuation prototype
-- Photos and/or video of the working prototype in action
-- A simple interaction diagram or sketch showing how sensing and actuation are connected
-- Written reflection: What did you learn about connecting sensing, movement, and physical form? What was fun, surprising, or challenging?
-
 **Questions to consider:**
-- How does your chosen sensor or input shape the physical response?
-- How does the physical arrangement of the sensor and actuator change the interaction?
-- What thresholds, timing, or movement patterns make the interaction feel clear or playful?
-- What changes when you adjust the sensor placement or servo motion?
+- How does your chosen sensor or input shape the physical response? <br>
+We used capacitive touch through copper tape on the lid, so the jar only reacts when someone actually touches the lid. That’s the moment they’re about to take a cookie. Because the trigger is so direct, the response can be direct too: the arm slaps the hand that touched the lid. A touch either happens or it doesn’t, so the jar can’t tell how close someone is. That’s why we made it react to how many times you try instead of how close you get. The 1st touch gets a warning wiggle and “I see you. Put it down.” The 2nd gets one slap. The 3rd and after get a double slap and “Cookie police!” The code only counts a new touch, not a hand resting on the lid, so holding the lid doesn’t set off a string of slaps. The only issue we did have is that when we moved the sensor/jar, there seemed to be a response that was given but besides that it would only work when we touched the jar.
 
-Iterate on the sensing, movement, and physical form, and document what you discover.
+- How does the physical arrangement of the sensor and actuator change the interaction?<br>
+The copper tape is on the lid and the servo arm is mounted right next to it, so the slap lands where the hand is. That makes the cause and effect obvious, because you touch the lid and get slapped right there. We put the electronics on top of a box next to the jar. The USB speaker gives the jar a voice, so it feels like a character scolding you instead of a machine. It tells you that it is a normal cookie jar until you touch the lid and the moment you do it scolds you.
 
+- What thresholds, timing, or movement patterns make the interaction feel clear or playful?<br>
+1. Escalation: the jar gets angrier each time, so people understand they’re being warned and keep trying to see what happens next. That’s the playful part.
+2. Slap motion: the arm swings out fast and pauses for 0.25 seconds so the hit lands, then comes back slowly. That makes it look like a deliberate slap, not a twitch.
+3. Speaking while slapping: the jar talks at the same time the arm moves, so the line and the slap feel like one reaction.
+4. Cooldown: a 1-second pause after each reaction keeps one long grab from counting as several touches.
+5. Calm-down: after 10 seconds with no touches, the jar resets and says “Just a normal cookie jar.” That makes it feel like it’s pretending to be innocent again.
+
+- What changes when you adjust the sensor placement or servo motion?<br>
+What changes is that the smaller the hand the easier it stays upright rather than being floppy. Also the speed is fast but not fast enough to hurt. It's fast enough to react and immediately hit someone if they touch the jar but not fast enough to hurt them.
+
+
+https://github.com/user-attachments/assets/999a5164-82cb-4b15-b23e-4c67b2af6ec6
 
 ---
 
 ### Part F
+Looks Like:
+
+The Lid Slapper is meant to look like an ordinary cookie jar sitting on a counter. The servo, the Pi and the wiring are behind it in a cardboard base that is next to the jar, so nothing gives away that it’s watching you. The copper tape on the lid is decorated as part of the lid. The cardboard slap arm sits next to the jar on the cardboard box that is hiding all the stuff at rest, so it doesn’t stand out until it swings. The USB speaker is hidden inside the base with all the wiring, so the voice seems to come from the jar itself.
+
+Works Like:
+
+- Sensing: copper tape on the lid is wired to the MPR121 capacitive touch sensor, which detects the moment a hand touches the lid.
+- Actuation: a micro servo on the Servo pHAT swings a cardboard arm to slap the hand away.
+- Voice: the jar speaks through a USB speaker using the Piper voice from Lab 3.
+- Escalation:
+	- 1st touch: wiggles and says “I see you. Put it down.”
+	- 2nd touch: slaps and says “I said no! Slap!”
+	- 3rd touch and after: double slaps and says “Cookie police! Slap slap!”
+- Reset: after 10 seconds with no touches, it calms down and says “Just a normal cookie jar.”
+- Code: lid_slapper.py
+
+Acts like:
+
+Someone walks up to what looks like a normal cookie jar and reaches for the lid. As soon as they touch it, the jar warns them. Most people laugh and try again, and the second try earns a slap. Anyone who keeps going gets the double slap and “Cookie police!” If they give up and walk away, the jar goes quiet and pretends to be innocent until the next person comes along.
 
 ### Final Documentation
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+
+Prototype 1:
+
+https://github.com/user-attachments/assets/7d802096-be6c-43c8-85b5-e233bc2e2be4
+
+Prototype 2:
+
+https://github.com/user-attachments/assets/742926b0-bb95-4eeb-9d1d-1287a5414fbd
+
+Prototype 3:
+
+https://github.com/user-attachments/assets/a41c5547-42a4-4ec3-ab51-b06c8515ccda
+
+
+<img width="4284" height="5712" alt="IMG_7871" src="https://github.com/user-attachments/assets/b28d3608-c712-4a08-83ef-95e82e88526c" />
+
 
 ---
-
-## Deliverables \& Submission for Lab 4
-
-The deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do.
-* "Acts like": shows how a person would interact with the device.
-
-For submission, the readme.md page for this lab should be edited to include the work you have done:
-* Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
-* Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
-* Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
