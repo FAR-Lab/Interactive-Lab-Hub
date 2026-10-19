@@ -110,7 +110,7 @@ Overall the camera has to be put in a close enough position to detect the color 
 
 ### What thresholds, timing, or movement patterns make the interaction feel clear or playful?
 
-The motors move very quickly and right after each other. It almost looks like a minigame watching the skittles move and sort themselves. Adding very short delays between each motor movement throughout the levels makes it very fun to watch for the user.
+After the color is recognized, the display shows a three-second countdown. Following “DROP NOW!”, the system waits two seconds before moving the top flap, then waits 1.5 seconds before moving the second-level flap. It holds that position for another 1.5 seconds before returning home. This staged movement makes the sorting sequence visible and gives the Skittle time to travel between levels.
 
 ### What changes when you adjust the sensor placement or servo motion?
 
