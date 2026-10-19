@@ -544,9 +544,9 @@ I built a spice box that opens when my hand comes close, and only closes after t
 
 **Code:** [spice_box.py](spice_box.py)
 
-[**First Try Video+Explain:**](https://youtube.com/shorts/qpb1k_-dz_Y?feature=share)
+**First Try Video+Explain:** [VIDEO LINK](https://youtube.com/shorts/qpb1k_-dz_Y?feature=share)
 
-**Video:** [https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282](VIDEO_LINK)
+**Interaction Video:** [VIDEO_LINK](https://github.com/user-attachments/assets/0735185e-f6b8-4f8e-b814-ae11b4d5b282))
 
 **Interaction diagram:**
 <img width="1360" height="820" alt="interaction_diagram" src="https://github.com/user-attachments/assets/e6d9bba0-2d84-40d0-8313-c7ef9ed0f252" />
@@ -571,10 +571,13 @@ What was fun was seeing the lid stay open while the bottle was out and then clos
 
 ### Part F
 
-- **Looks like:** [<img width="500" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/7ecdfcaf-b2f7-4f09-8371-924c2a516ce5" />]
+- **Looks like:** <img width="1280" height="1707" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/874c3ff1-327a-4c17-becf-3506a3958225" />
+
 - **Works like:** see the video above
 - **Acts like:** see the video above, showing how a person reaches in, takes the bottle, and puts it back
-- **Progress:** <img width="500" alt="a4ce592899beaef82f13f5a322811794" src="https://github.com/user-attachments/assets/81b53b0a-494d-40b6-ac4c-0964eee7c67d" />
+- **Progress:**
+
+<img width="500" alt="a4ce592899beaef82f13f5a322811794" src="https://github.com/user-attachments/assets/81b53b0a-494d-40b6-ac4c-0964eee7c67d" />
 
 <img width="500" alt="8c173def6a15e97d1cd31f5337096de4" src="https://github.com/user-attachments/assets/5dbf2971-117c-439a-ad50-9618d49fc631" />
 
