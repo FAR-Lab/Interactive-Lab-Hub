@@ -530,11 +530,11 @@ This is a playful way to visualize how the expander works, but the same techniqu
 ### Part F
 
 ### Final Documentation
+<img width="500" alt="a4ce592899beaef82f13f5a322811794" src="https://github.com/user-attachments/assets/81b53b0a-494d-40b6-ac4c-0964eee7c67d" />
+<img width="500" alt="8c173def6a15e97d1cd31f5337096de4" src="https://github.com/user-attachments/assets/5dbf2971-117c-439a-ad50-9618d49fc631" />
+<img width="500" alt="3c8c46435763540ccbfe8165109d0c3d" src="https://github.com/user-attachments/assets/7ecdfcaf-b2f7-4f09-8371-924c2a516ce5" />
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+
 
 ---
 
