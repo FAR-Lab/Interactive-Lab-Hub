@@ -94,6 +94,8 @@ P01 was given no instructions on how to use the sorter, and we wanted to see if 
 
 This user was able to immediately pick up when and "where to place the skittle with no help. The video was corrupted and so it's been replaced with a recovered photo of the interaction.
 
+P01’s confusion and P02’s successful interpretation suggest that the placement cues were not consistently clear to new users. Our proposed next iteration would label the camera presentation area and drop opening separately and distinguish these actions in the screen instructions.
+
 ## Reflection
 
 ### What did you learn about connecting sensing, movement, and physical form? What was fun, surprising, or challenging?
@@ -116,7 +118,19 @@ After the color is recognized, the display shows a three-second countdown. Follo
 
 The webcam captures the Skittle, and our software classifies its color using calibrated hue values in HSV color space. Camera placement and lighting affect the measured color and can therefore change the selected sorting route. If the camera is moved too close or far away this can drastically change the whole machine since it won't be able to sort it properly according to the color being sensed. In addition, if the servo motion is changed to be a smaller angle then the Skittle may not fall out of the scooper. Likewise, if the angle is too large, then the scooper might turn the Skittle too far causing it to overshoot / undershoot to the next scooper.
 
+### Build iteration: Failed 3D print and revised approach
 
+<img width="768" height="1024" alt="img_8159_1024" src="https://github.com/user-attachments/assets/76b24eb9-3767-4d1a-9d9c-422c8037f70a" />
+
+
+Our attempted 3D print failed, leaving tangled filament instead of a usable component, as shown below. Following this failure, we revised our approach and used webcam-based color detection in the final prototype. The resulting system connects camera input to the servo-driven sorting mechanism, with screen prompts guiding the user through presenting and dropping each Skittle.
+
+
+- **Looks like:** A cardboard sorting structure with three servo-driven scoopers arranged across multiple levels, a webcam for detecting candy colors, and an OLED display for instructions.
+
+- **Works like:** The webcam and color-classification software identify red, orange, yellow, or green Skittles. The servos then move in sequence to route the candy through the structure toward its corresponding container.
+
+- **Acts like:** The user holds a Skittle in front of the camera, watches the color confirmation and countdown, and drops it into the opening when the display says “DROP NOW!” The user then watches the scoopers move the candy through the sorter.
 <details>
 	
 <details>
