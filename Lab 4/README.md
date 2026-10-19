@@ -546,6 +546,14 @@ The APDS-9960 proximity sensor is mounted on the front of the housing so that it
 *Figure 4. Open housing showing how the electronic and mechanical components are arranged.*
 <img width="1280" height="1707" alt="bb0924e3f02879e7159ffed63326a1a5" src="https://github.com/user-attachments/assets/b1a9f138-2873-4808-9aa0-bc35f5b31528" />
 
+*Figure 5-6. System build & sensor test.*
+<img width="3024" height="4032" alt="IMG_1587" src="https://github.com/user-attachments/assets/ca9f8f5d-9352-43ff-970c-d2d05d141e64" />
+
+https://github.com/user-attachments/assets/c0112c9b-9664-498b-966b-ea55e5ec7f34
+
+
+
+
 
 #### Works Like
 
