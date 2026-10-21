@@ -1,0 +1,4 @@
+# Dependencies for the optional legacy tools. Install on top of ../requirements.txt
+torchvision==0.24.0
+teachable-machine-lite==1.2.0.2
+requests
