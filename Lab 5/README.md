@@ -120,7 +120,7 @@ Connect your webcam, connect to your Pi through **VNC** (the script opens a wind
 (.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python yolo_person.py
 ```
 
-While it runs, walk in and out of the frame, sit down, turn your back, turn the lights off, hold up a photo of a person on your phone. Watch the confidence number on the box change with each.
+While it runs, walk in and out of the frame, sit down, turn your back, hold up a photo of a person on your phone. Watch the confidence number on the box change with each.
 
 Then press q to quit and run it again with a flag. Each one changes a single thing:
 
