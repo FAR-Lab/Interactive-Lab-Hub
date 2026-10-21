@@ -72,6 +72,14 @@ We use the nano model of [YOLO26](https://docs.ultralytics.com/models/yolo26/), 
 ```
 (.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python -c "from ultralytics import YOLO; YOLO('yolo26n.pt').export(format='ncnn')"
 ```
+If every ultralytics message is followed by a `--- Logging error ---` traceback ending in `UnicodeEncodeError: 'latin-1' codec can't encode character`, fix your shell's locale once::
+
+```
+echo 'export LANG=C.UTF-8' >> ~/.bashrc
+echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
+echo 'export PYTHONIOENCODING=utf-8' >> ~/.bashrc
+source ~/.bashrc
+```
 
 Test it on an image from the internet. `project=runs` keeps the output in this folder; without it, ultralytics writes to a `runs/` folder at the top of your git repo, where you will not think to look.
 
