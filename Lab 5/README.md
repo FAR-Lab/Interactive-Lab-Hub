@@ -1,7 +1,9 @@
 # Observant Systems: Overnight Sensation
 
 **Team:**
+
 **Members:** Full Name (netid, github-handle), ...
+
 **Project name:**
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
