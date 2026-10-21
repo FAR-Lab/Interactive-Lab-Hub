@@ -6,6 +6,19 @@
 
 **Project name:**
 
+<details>
+	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
+  
+	**Submission Cleanup Reminder:**
+	- This README.md contains extra instructional text for guidance.
+	- Before submitting, remove all instructional text and example prompts from this file.
+	- You may delete these sections or use the toggle/hide feature in VS Code to collapse them for a cleaner look.
+	- Your final submission should be neat, focused on your own work, and easy to read for grading.
+  
+	This helps ensure your README.md is clear, professional, and uniquely yours!
+</details>
+
+
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
 
