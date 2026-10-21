@@ -1,6 +1,6 @@
 # Observant Systems: Overnight Sensation
 
-**NAMES OF COLLABORATORS HERE**
+Jindi Chai
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
@@ -89,6 +89,9 @@ Now a photo of your own. Plug in the webcam and take one with `snap.py` (`--dela
 ```
 
 Every run gets its own numbered folder, so this one is in `runs/predict2/snap.jpg`; the command prints where it saved. Keep `snap.jpg`, you will show it to Qwen in Part D.
+
+<img width="810" height="1080" alt="bus" src="https://github.com/user-attachments/assets/ddb68961-20dd-473a-81c7-4008f6313629" />
+
 
 ### Ollama: install it and pull Qwen
 
