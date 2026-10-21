@@ -281,7 +281,7 @@ Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/25
 
 The hand-off: the person tells the device what to watch tonight, and the device acknowledges it. Keep it to a thirty-second ritual. A button or a touch (Lab 4), a spoken sentence (Lab 3), a wave or a Quiet Coyote at the camera (Part C). The acknowledgement can be a line on the display, a tone, or an LED that dims rather than lights up. At its simplest, the hand-off just sets the question that the morning will answer.
 
-\*\*\***Describe the bedtime interaction and include a short video of someone handing the night over to the device.**\*\*\*
+\*\*\***Describe the interaction before.**\*\*\*
 
 ## Part H. 
 ### Incorporate the observant system
@@ -295,7 +295,7 @@ The Part E pipeline becomes the night shift. `overnight.py` runs your `interpret
 
 Fake a night first: run it for thirty seconds while you walk around, stop it, and run `morning.py` from Part I. When that looks right, run a real night. If your storyboard needs a sensor rather than the camera, swap in the Lab 4 example code and log its reading the same way.
 
-\*\*\***Run the system for at least one real night. Include the log (or an excerpt) and a few sentences on what broke or surprised you.**\*\*\*
+\*\*\***Screenshots or videos of the running system.**\*\*\*
 
 ## Part I. 
 ### Design the interaction after
