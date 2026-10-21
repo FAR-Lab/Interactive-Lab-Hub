@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7d6"/>
+      <stop offset="35%" stop-color="#ffe27a"/>
+      <stop offset="70%" stop-color="#ffd24d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffd24d" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="860" height="640" fill="#fbfaf7"/>
+
+  <!-- Title -->
+  <text x="40" y="46" font-size="24" fill="#222">Tinker Bell — interaction sketch</text>
+  <text x="40" y="70" font-size="14" fill="#777" font-style="italic">A presence made entirely of light. There is no actor; she exists only in how others read the light.</text>
+
+  <!-- The loop ring -->
+  <ellipse cx="300" cy="380" rx="250" ry="185" fill="none" stroke="#cbb8a0" stroke-width="2" stroke-dasharray="2 7"/>
+
+  <!-- Glow + light point (center) -->
+  <circle cx="300" cy="380" r="110" fill="url(#glow)"/>
+  <circle cx="300" cy="380" r="13" fill="#fff3b0" stroke="#f2c200" stroke-width="2"/>
+  <text x="300" y="384" font-size="11" fill="#8a6d00" text-anchor="middle" font-weight="bold">light</text>
+
+  <!-- Vocabulary of the light (the four facets) -->
+  <g font-size="12.5" fill="#333">
+    <text x="300" y="250" text-anchor="middle" font-weight="bold" fill="#b8860b">BRIGHTNESS = life &amp; mood</text>
+    <text x="300" y="266" text-anchor="middle" fill="#666">bright = alive / happy · dim = hurt / fading</text>
+
+    <text x="455" y="382" text-anchor="start" font-weight="bold" fill="#b8860b">MOTION = attention</text>
+    <text x="455" y="398" text-anchor="start" fill="#666">darts to what matters;</text>
+    <text x="455" y="413" text-anchor="start" fill="#666">leads Peter, flits from Wendy</text>
+
+    <text x="300" y="500" text-anchor="middle" font-weight="bold" fill="#b8860b">COLOR FLUSH = emotion</text>
+    <text x="300" y="516" text-anchor="middle" fill="#666">a hot flare when jealous or angry</text>
+
+    <text x="145" y="382" text-anchor="end" font-weight="bold" fill="#b8860b">BLINK + CHIME = speech</text>
+    <text x="145" y="398" text-anchor="end" fill="#666">a rhythm others must</text>
+    <text x="145" y="413" text-anchor="end" fill="#666">&quot;translate&quot; aloud</text>
+  </g>
+
+  <!-- Loop actors around the ring -->
+  <g font-size="13" fill="#1f1f1f" text-anchor="middle">
+    <rect x="232" y="176" width="136" height="26" rx="13" fill="#eae0d0"/>
+    <text x="300" y="194">ACTOR gestures / speaks</text>
+
+    <rect x="470" y="560" width="150" height="26" rx="13" fill="#eae0d0"/>
+    <text x="545" y="578">others + audience read it</text>
+
+    <rect x="470" y="196" width="150" height="26" rx="13" fill="#d9e6ea"/>
+    <text x="545" y="214">hidden WIZARD drives light</text>
+
+    <rect x="20" y="560" width="150" height="26" rx="13" fill="#eae0d0"/>
+    <text x="95" y="578">they act on what they saw</text>
+  </g>
+
+  <!-- Loop arrows -->
+  <g fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#arrow)">
+    <path d="M368,190 C430,188 470,196 505,200"/>
+    <path d="M540,224 C560,300 470,352 415,372"/>
+    <path d="M300,492 C300,520 380,548 468,560"/>
+    <path d="M470,576 C330,596 210,592 172,580"/>
+    <path d="M95,558 C120,470 190,410 205,394"/>
+  </g>
+  <text x="300" y="150" text-anchor="middle" font-size="12" fill="#999" font-style="italic">the loop runs continuously, in real time</text>
+
+  <!-- The famous beat: revival -->
+  <g>
+    <rect x="600" y="270" width="235" height="205" rx="10" fill="#fff" stroke="#e0c060" stroke-width="1.5"/>
+    <text x="617" y="300" font-size="15" fill="#a8791a" font-weight="bold">The beat everyone knows</text>
+    <text x="617" y="326" font-size="12.5" fill="#333">Tink drinks the poison meant</text>
+    <text x="617" y="344" font-size="12.5" fill="#333">for Peter. Her light sinks —</text>
+    <text x="617" y="362" font-size="12.5" fill="#333">slower, dimmer, nearly out.</text>
+    <text x="617" y="388" font-size="12.5" fill="#333">Peter turns to the house:</text>
+    <text x="617" y="406" font-size="12.5" fill="#111" font-style="italic">&quot;Do you believe in fairies?</text>
+    <text x="617" y="424" font-size="12.5" fill="#111" font-style="italic"> Clap your hands!&quot;</text>
+    <text x="617" y="450" font-size="12.5" fill="#333">The audience&#39;s belief is the</text>
+    <text x="617" y="468" font-size="12.5" fill="#333"><tspan font-weight="bold">input</tspan>; the light rising back is</text>
+  </g>
+  <text x="617" y="486" font-size="12.5" fill="#333" font-weight="bold">the output.</text>
+</svg>
