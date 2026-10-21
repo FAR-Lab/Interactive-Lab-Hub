@@ -238,8 +238,6 @@ Qwen (18.4 s):
 One person came in from the right, moved close to the camera, and left after about half a minute. ...
 ```
 
-\*\*\***Document the pipeline: at least two runs with the log, the question, Qwen's answer, and whether it was right. Include one case where Qwen got it wrong, and say what you changed in the interpreter and why.**\*\*\*
-
 ---
 
 # Lab 5 Part 2: Overnight Sensation
