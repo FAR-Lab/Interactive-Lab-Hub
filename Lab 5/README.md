@@ -267,14 +267,14 @@ Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/25
 \*\*\***Post your revised storyboard here.**\*\*\*
 
 ## Part G. 
-### Design the interaction before bed
+### Design the interaction before
 
 The hand-off: the person tells the device what to watch tonight, and the device acknowledges it. Keep it to a thirty-second ritual. A button or a touch (Lab 4), a spoken sentence (Lab 3), a wave or a Quiet Coyote at the camera (Part C). The acknowledgement can be a line on the display, a tone, or an LED that dims rather than lights up. At its simplest, the hand-off just sets the question that the morning will answer.
 
 \*\*\***Describe the bedtime interaction and include a short video of someone handing the night over to the device.**\*\*\*
 
 ## Part H. 
-### Incorporate the observant system during sleep
+### Incorporate the observant system
 
 The Part E pipeline becomes the night shift. `overnight.py` runs your `interpret()` from `yolo_to_qwen.py` every few seconds, people only unless you pass `--all`, and writes the readings to `night_log.jsonl`; the reasoning waits for the morning. Start it inside `tmux` so it keeps running after you close your laptop, and stop it with Ctrl-C in the morning:
 
@@ -288,7 +288,7 @@ Fake a night first: run it for thirty seconds while you walk around, stop it, an
 \*\*\***Run the system for at least one real night. Include the log (or an excerpt) and a few sentences on what broke or surprised you.**\*\*\*
 
 ## Part I. 
-### Design the interaction when awake
+### Design the interaction after
 
 The reveal. The night produced a log; the morning turns it into something a half-awake person can take in. `morning.py` is the smallest version: it asks Qwen for a three-sentence report.
 
@@ -306,7 +306,7 @@ Document all the prototypes and iterations you have designed and worked on. The 
 * "Works like": the pipeline from detector to interpreter to log to reasoner, with a real night's data.
 * "Acts like": how a person hands the night over and what they get back.
 
-\*\*\***Include a short video of the whole system: the bedtime hand-off, a log excerpt or timelapse of the night, and the morning reveal from a real overnight run.**\*\*\*
+\*\*\***Include a short video of the whole system**\*\*\*
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
@@ -316,8 +316,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 
 For submission, the readme.md page for this lab should be edited to include the work you have done:
 * Upload any materials that explain what you did, including your code and night log, into your Lab 5 repository, and link them in your Lab 5 readme.md.
-* Link your Lab 5 readme.md in your main Interactive-Lab-Hub readme.md.
-* Labs are due on Mondays, make sure to submit your Lab 5 readme.md to Canvas.
+* Labs are due on Sundays, make sure to submit your Lab 5 readme.md to Canvas.
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
