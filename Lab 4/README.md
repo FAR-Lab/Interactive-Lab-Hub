@@ -3,7 +3,6 @@
 
 ---
 
-## Lab Overview
 Jessica Chon (jc3932)
 Asian Auntie Machine
 
