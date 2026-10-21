@@ -4,4 +4,5 @@ venv
 venv*
 __*
 .venv*
-.venv/Gtpatel02 Interactive-Lab-Hub Fall2026 Lab 2-images.zip
+.venv/
+runs
