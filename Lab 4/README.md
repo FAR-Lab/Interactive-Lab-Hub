@@ -1,7 +1,7 @@
 
 
 ## Lab Overview
-Sachin Jojode, Nikhil Gangaram, Arya Prasad, Jaspreet Singh
+Viha Srinivas, Sachin Jojode, Nikhil Gangaram, Arya Prasad
 
 ### Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
