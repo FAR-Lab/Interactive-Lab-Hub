@@ -113,6 +113,7 @@ pi@raspberrypi:~ $ ollama list
 
 <img width="3024" height="4032" alt="snap" src="https://github.com/user-attachments/assets/b39a2d70-a664-45f1-b3b9-5305bed6a025" />
 
+<img width="569" height="65" alt="ollama list" src="https://github.com/user-attachments/assets/b9da23cb-effa-4a5e-bb17-7ec557357302" />
 
 
 
