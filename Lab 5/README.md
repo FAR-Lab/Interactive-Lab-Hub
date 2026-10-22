@@ -14,7 +14,8 @@ Be generous in acknowledging their contributions! And also recognizing any other
 ***Include a screenshot of ollama list showing your models.***
 
 Ollama list:
-<img width="1267" height="567" alt="Screenshot 2026-10-21 at 10 36 29 AM" src="https://github.com/user-attachments/assets/3bbb0dde-12f6-4c63-be3f-75849876d628" />
+<img width="548" height="79" alt="Screenshot 2026-10-21 at 10 40 26 AM" src="https://github.com/user-attachments/assets/e987d627-b7b4-45aa-b767-cf0f3f769425" />
+
 
 ## Part B. 
 ### See: recognize people in real time with YOLO
@@ -25,7 +26,6 @@ I actually had more trouble getting it to not see me or recognize a person. I wa
 
 What surprised me most was it recognizing when my torso was in the frame. I assumed that because I was wearing a solid-colored large sweater, it wouldn't recognize me. There were moment it flickered, but it somehow still picked up that I was a person. 
 
-<img width="701" height="612" alt="Screenshot 2026-10-21 at 6 40 45 PM" src="https://github.com/user-attachments/assets/2dbd0078-767c-4423-8710-6b0c4aed39c9" />
 <img width="648" height="561" alt="Screenshot 2026-10-22 at 10 29 54 AM" src="https://github.com/user-attachments/assets/91e31627-a7af-4842-b147-ccb64c432f57" />
 <img width="645" height="566" alt="Screenshot 2026-10-22 at 10 31 53 AM" src="https://github.com/user-attachments/assets/c0ecebfd-efe9-4805-92f4-ed19d4f48732" />
 <img width="643" height="534" alt="Screenshot 2026-10-22 at 10 34 15 AM" src="https://github.com/user-attachments/assets/c8bc0e77-3244-43bb-a3c3-38f0dab38679" />
