@@ -18,8 +18,9 @@
 
 ## Lab Overview
 Team: <canvas group name>  
-Members: Full Name (netid, github-handle), ...  
-Project name: <name>
+Fall2026
+Members: Pallavi Srinivas (ps2269), Pallavi Khanna (pk633), Abiola Bolaji (ab3394)
+
 
 
 For lab this week, we focus on both sensing and actuation, bringing new modes of input and output into your devices, while also prototyping the physical structure and overall look of the device. You will consider how the physical form supports sensing and actuation, and how these elements come together to shape the interaction and aesthetics of the device.
@@ -284,6 +285,11 @@ Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/p
 As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
+<img width="611" height="219" alt="Screenshot 2026-10-14 at 6 02 09 PM" src="https://github.com/user-attachments/assets/6cafbdcf-ffd1-48dd-8353-7057a7858471" />
+<img width="559.25" height="579" alt="IMG_7655 copy" src="https://github.com/user-attachments/assets/7ae44ef4-15af-4702-977e-6ef63caea062" />
+
+
+
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
@@ -292,6 +298,9 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+
+https://github.com/user-attachments/assets/76d3ac25-d530-46d7-adb4-6fac8fdd0a95
+https://github.com/user-attachments/assets/10983fee-52f5-48ae-a76a-571c84895aa5
 
 ---
 
