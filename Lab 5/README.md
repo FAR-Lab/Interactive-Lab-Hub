@@ -22,14 +22,15 @@ Ollama list:
 
 ***Include a short video or screenshots of your experiments with the person detection. Write down three situations where it did not see you, or saw a person who was not there, and what you think the cause was.***
 
-I actually had more trouble getting it to not see me or recognize a person. I was surprised to find YOLO quite sensitive. It was actually able to spot a person who sat pretty far behind me/was tiny on the camera. It seems that it's able to detect body parts and just labels it as "person" rather than needing to see the whole face or enough details to objectively tell this is a being, rather than one element. This was shown by my hand still being marked when I was holding up my phone case. 
+I actually had more trouble getting YOLO to not detect me than I expected. I was surprised by how sensitive it was, as it could detect a person sitting pretty far behind me who appeared very small in the camera frame. This made me assume that YOLO doesn't necessarily need to see a person's entire face or body to classify them as a “person.” Instead, it seems capable of identifying partial visual features associated with a person. For example, my hand was still detected as a person even when I was holding up my phone case.
 
-What surprised me most was it recognizing when my torso was in the frame. I assumed that because I was wearing a solid-colored large sweater, it wouldn't recognize me. There were moment it flickered, but it somehow still picked up that I was a person. 
+<img width="616" height="484" alt="Screenshot 2026-10-22 at 10 36 18 AM" src="https://github.com/user-attachments/assets/1b52f6f3-de3f-4371-b0aa-c07b1da7fe74" />
+<img width="643" height="534" alt="Screenshot 2026-10-22 at 10 34 15 AM" src="https://github.com/user-attachments/assets/c8bc0e77-3244-43bb-a3c3-38f0dab38679" />
+
+What surprised me most, however, was that YOLO could still recognize me when only my torso was in the frame. I had assumed that wearing a large, solid-colored sweater would make it harder for the model to identify me, since there were fewer visible details. Although the detection occasionally flickered, YOLO was still able to recognize me as a person. This showed me how capable the model is of detecting people even when only part of the body is visible or when clothing obscures some of the usual visual features.
 
 <img width="648" height="561" alt="Screenshot 2026-10-22 at 10 29 54 AM" src="https://github.com/user-attachments/assets/91e31627-a7af-4842-b147-ccb64c432f57" />
 <img width="645" height="566" alt="Screenshot 2026-10-22 at 10 31 53 AM" src="https://github.com/user-attachments/assets/c0ecebfd-efe9-4805-92f4-ed19d4f48732" />
-<img width="643" height="534" alt="Screenshot 2026-10-22 at 10 34 15 AM" src="https://github.com/user-attachments/assets/c8bc0e77-3244-43bb-a3c3-38f0dab38679" />
-<img width="616" height="484" alt="Screenshot 2026-10-22 at 10 36 18 AM" src="https://github.com/user-attachments/assets/1b52f6f3-de3f-4371-b0aa-c07b1da7fe74" />
 
 ## Part C. 
 ### See more: hands and pose with MediaPipe
@@ -38,12 +39,14 @@ What surprised me most was it recognizing when my torso was in the frame. I assu
 
 <img width="701" height="612" alt="Screenshot 2026-10-21 at 6 40 45 PM" src="https://github.com/user-attachments/assets/894dff6d-c25c-4223-8c6e-26f66d19d331" />
 
-My partner and I were thinking of using facial movements for our project. More specifically, using the system to detect when a users eyes and mouth are open or closed.
+My partner and I were thinking of using facial movements as the focus of our project. More specifically, we want to explore whether a computer vision system can detect when a user's eyes and mouth are open or closed in real time. The system would analyze facial features captured by a camera and classify their states based on visible movements. For example, it could identify when a user blinks, keeps their eyes closed for an extended period, or opens and closes their mouth.
 
 ## Part D. 
 ### Reason: run Qwen on the Pi with Ollama
 
 ***Ask Qwen three questions to answer. Paste the questions, the answers and how long each took. Try one of them with qwen3:0.6b and compare.***
+
+Below are the three questions I asked. My last two questions were comparing how using the model would effect the responses. I found that using qwen3:0.6B made the response time shorter, probably because its responses were briefer and less detailed than when I used the other model. 
 
 1.  python ask_qwen.py --image snap.jpg "What is in this photo?"
 A close-up selfie of a young woman with dark hair, wearing a gold ring on her index finger and making a peace sign.
@@ -57,8 +60,6 @@ TikTok is a social media platform where users share short, creativevideos, often
 TikTok is a social media platform that allows users to create and share videos, primarily focusing on music, trends, and entertainment.nIt has grown into one of the largest digital ecosystems by enablingcreators to reach millions of people instantly through short-form content. The service connects users with each other via comments, likes, shares, and stories to foster community engagement and discovery.
 	
 [qwen3.5:0.8b, 14.3 s]
-
-I found that using qwen3:0.6b resulted in a shorter load time, but probably because the response was briefer and less detailed than when I didn't use the model. 
 
 ---
 
@@ -74,9 +75,12 @@ Storyboard a night-time interaction built on your observant system, in three pan
 3. **When awake.** What is the one thing the person learns, and in what medium?
 
 \*\*\***Insert ideas, sketches, Verplank diagrams and storyboards for your night-time interaction here.**\*\*\*
-For our project, Shifeng and I are planning on making a sleep apnea/snoring detection device that logs how often these instances occur so that users can improve their sleep hygiene. 
 
-We currently plan to have the camera set-up on a bed headboard, angled so that its able to see a users face. Users turn the device on by pressing a button. When users go to bed, the system detects when the users eyes are closed. If the eyes are closed for 5 consecutive minutes, then the system processes that the user is asleep, moving onto the second phase that detects for instances of snoring/sleep apnea. We plan to achieve this by detecting when the users mouth is open and, if time permits, when the system detects noise/snoring. If the system detects both of these stimuli, then the computer writes a log which includes times naps and a brief clip of when the instances occurs. In the morning, the user will be able to review the log that the system has written down and see how frequent their snoring or apnea was. 
+For our project, my partner and I are planning on making a sleep monitoring device that detects snoring and potential signs of sleep apnea. The device will log how often these instances occur so that users can better understand their sleep patterns and improve their sleep hygiene.
+
+We currently plan to set up a camera on the headboard of the bed, angled so that it can see the user's face. Users will turn on the device by pressing a button before going to sleep. Once the system detects that the user's eyes have been closed for five consecutive minutes, it will assume that the user has fallen asleep and move on to the second phase, which focuses on detecting snoring and possible signs of sleep apnea.
+
+We plan to achieve this by detecting when the user's mouth is open and, if time permits, analyzing audio to identify snoring sounds. If the system detects both an open mouth and snoring, it will record the event in a log, including the time it occurred and a short video clip of the event. In the morning, users will be able to review the log to see how frequently these events occurred throughout the night. This could help users recognize patterns in their snoring and become more aware of their sleep habits.
 
 Storyboard: 
 
