@@ -90,8 +90,6 @@ Now a photo of your own. Plug in the webcam and take one with `snap.py` (`--dela
 
 Every run gets its own numbered folder, so this one is in `runs/predict2/snap.jpg`; the command prints where it saved. Keep `snap.jpg`, you will show it to Qwen in Part D.
 
-<img width="810" height="1080" alt="bus" src="https://github.com/user-attachments/assets/ddb68961-20dd-473a-81c7-4008f6313629" />
-
 
 ### Ollama: install it and pull Qwen
 
@@ -110,6 +108,12 @@ pi@raspberrypi:~ $ ollama list
 | `qwen3:0.6b` | ~0.5 GB | text only, smaller and faster (~16 tokens/s on a Pi 5) |
 
 \*\*\***Include a screenshot of `ollama list` showing your models, and the `bus.jpg` result and your own photo with their boxes.**\*\*\*
+
+<img width="810" height="1080" alt="bus" src="https://github.com/user-attachments/assets/399b7079-37ee-4b37-87b4-8f8226efb38f" />
+
+<img width="3024" height="4032" alt="snap" src="https://github.com/user-attachments/assets/b39a2d70-a664-45f1-b3b9-5305bed6a025" />
+
+
 
 
 ## Part B. 
