@@ -2,7 +2,7 @@
 
 
 Refer to Nikhil Gangaram's Lab Hub for the code
-Sachin Jojode, Nikhil Gangaram, and Arya Prasad
+Sachin Jojode, Nikhil Gangaram, Arya Prasad, Viha Srinivas
 
 ### Part B
 ### Construct a simple interaction.
