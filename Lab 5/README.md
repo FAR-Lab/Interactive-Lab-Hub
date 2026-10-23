@@ -295,7 +295,8 @@ Run it with a partner: have them walk in, sit down, leave. Compare the log with 
 
 ### run 2
 
-<img width="567" height="468" alt="截屏2026-10-23 下午7 08 04" src="https://github.com/user-attachments/assets/13d74460-e40b-4461-96d2-51c3c6a72e83" />
+<img width="571" height="254" alt="截屏2026-10-23 下午7 08 50" src="https://github.com/user-attachments/assets/ae9b8da7-4397-4a65-a84d-617f157350f0" />
+
 
 ### run 3
 
