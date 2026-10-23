@@ -141,6 +141,19 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 
 \*\*\***Include a short video or screenshots of the person detection. Write down three situations where it did not see you, or saw a person who was not there, and what you think the cause was.**\*\*\*
 
+### yolo_person.py --conf 0.2：
+
+<img width="200" alt="截屏2026-10-23 下午4 30 24" src="https://github.com/user-attachments/assets/7fd4657e-efab-44fe-9031-e455be204504" />
+<img width="200" alt="截屏2026-10-23 下午4 32 52" src="https://github.com/user-attachments/assets/ec93d8a2-325d-46bc-9b7b-6f460075e514" />
+<img width="200" height="607" alt="截屏2026-10-23 下午4 35 03" src="https://github.com/user-attachments/assets/b3788ac7-da53-4016-993e-04e44515fc53" />
+<img width="200" alt="截屏2026-10-23 下午4 36 10" src="https://github.com/user-attachments/assets/aa050477-bd50-4aa4-a95a-41bb56cc84d4" />
+<img width="200" alt="截屏2026-10-23 下午4 36 20" src="https://github.com/user-attachments/assets/399810e2-dc11-4b9f-84db-16232ee391c8" />
+
+
+
+
+
+
 
 ## Part C. 
 ### See more: hands and pose with MediaPipe
