@@ -194,6 +194,13 @@ Consider how you might use this position based approach to create an interaction
 
 \*\*\***Include a screenshot or short video of the hand pose demo, and write how you might use face, hand or body pose tracking in your observant system.**\*\*\*
 
+<img height="200" alt="截屏2026-10-23 下午6 01 17" src="https://github.com/user-attachments/assets/79158fb7-1c88-4887-b7a2-7e6e165b840a" />
+<img height="200" alt="截屏2026-10-23 下午6 01 10" src="https://github.com/user-attachments/assets/700e5793-b7ef-4852-a87e-3315690244ab" />
+<img height="200" alt="截屏2026-10-23 下午6 01 02" src="https://github.com/user-attachments/assets/1df0f69c-747b-44eb-af56-330e838bc650" />
+
+I tested the hand pose demo, and both the volume control and Quiet Coyote gesture worked well. For my observant system, I think hand tracking could be used as a way to trigger specific actions without touching the device or using voice commands. For example, making a peace sign (✌️) could automatically take a photo, while an OK gesture (👌) could confirm that the user is satisfied with the result and save the file. I could also design a specific gesture as an emergency command to quickly trigger an alert or other action. I think this could make the interaction more convenient and intuitive, especially when users cannot easily reach the device. However, the system would need to distinguish intentional gestures from normal hand movements to avoid accidental triggers.
+
+
 
 ## Part D. 
 ### Reason: run Qwen on the Pi with Ollama
