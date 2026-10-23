@@ -149,6 +149,13 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 <img height="200" alt="截屏2026-10-23 下午4 36 10" src="https://github.com/user-attachments/assets/aa050477-bd50-4aa4-a95a-41bb56cc84d4" />
 <img height="200" alt="截屏2026-10-23 下午4 36 20" src="https://github.com/user-attachments/assets/399810e2-dc11-4b9f-84db-16232ee391c8" />
 
+### yolo_person.py --conf 0.7：
+
+<img height="200" alt="截屏2026-10-23 下午4 53 25" src="https://github.com/user-attachments/assets/8438b1a5-f6e4-4275-814b-15b5d388cafd" />
+<img height="200" alt="截屏2026-10-23 下午4 56 34" src="https://github.com/user-attachments/assets/02a341cd-26df-4110-afb5-afcd09e10e0b" />
+<img height="200" alt="截屏2026-10-23 下午4 58 15" src="https://github.com/user-attachments/assets/670901ee-d033-416c-a3ab-5b3a02e19926" />
+<img height="200" alt="截屏2026-10-23 下午4 52 29" src="https://github.com/user-attachments/assets/22f29793-77d5-45cf-87de-7ddca5afaad7" />
+<img height="200" alt="截屏2026-10-23 下午4 52 49" src="https://github.com/user-attachments/assets/534d9d8d-c747-4bb1-85e3-21bd6f4641f1" />
 
 
 
