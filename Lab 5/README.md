@@ -288,6 +288,25 @@ Run it with a partner: have them walk in, sit down, leave. Compare the log with 
 
 \*\*\***Document the pipeline: at least three runs with the log, the question, Qwen's answer, and whether it was right. Include one case where Qwen got it wrong, and say what you changed in the interpreter and why.**\*\*\*
 
+### run 1
+
+<img width="567" height="468" alt="截屏2026-10-23 下午7 08 04" src="https://github.com/user-attachments/assets/29aaeae2-240c-4c89-bb6e-2f33159c63e5" />
+
+
+### run 2
+
+<img width="567" height="468" alt="截屏2026-10-23 下午7 08 04" src="https://github.com/user-attachments/assets/13d74460-e40b-4461-96d2-51c3c6a72e83" />
+
+### run 3
+
+<img width="577" height="314" alt="截屏2026-10-23 下午7 18 05" src="https://github.com/user-attachments/assets/4b98804f-25a8-4b8a-a812-70c06ecf4b74" />
+
+I tested the YOLO-to-Qwen pipeline three times to see how accurately Qwen could interpret the detection logs. In the first test, Qwen generally understood that someone appeared and moved around, but it ignored some periods when no person was detected and described the activity as more continuous than the log suggested. In the second test, Qwen incorrectly claimed that three people were present throughout the entire observation, even though YOLO never detected more than one person in a single frame.
+
+After these tests, I modified the interpret() function to make the logs more specific. Instead of using "nobody" or "1 person(s)," I changed the wording to "no person detected in this frame" and "1 person detection(s) in this frame." I wanted to make it clearer that each reading represents a single frame, rather than confirming how many people were actually in the room.
+
+In the third test, Qwen still incorrectly reported that two people were detected simultaneously, even though the detections happened at different timestamps. This showed me that clearer logs alone are not enough to prevent the model from making incorrect assumptions. For an observant system, I think it is important to verify important information, especially timestamps and counts, before using AI-generated summaries to make decisions.
+
 ---
 
 # Lab 5 Part 2: Overnight Sensation
