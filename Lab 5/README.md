@@ -164,9 +164,7 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 <img height="200" alt="截屏2026-10-23 下午5 40 45" src="https://github.com/user-attachments/assets/ace287ac-d4a2-41fe-abac-628899b9756f" />
 <img height="200" alt="截屏2026-10-23 下午5 44 05" src="https://github.com/user-attachments/assets/bf34646b-1127-4ae6-9948-b070d1b4d223" />
 
-
-
-
+I noticed a few situations where YOLO made mistakes during my testing. First, in low-light or dark environments, it sometimes failed to detect me, especially when only part of my body was visible. I think this happened because the camera could not capture enough visual details for the model to recognize a person. Second, when I showed a photo of a person on my phone, YOLO detected the person in the photo as if someone were actually there. This might be because the model focuses on visual features and shapes rather than understanding whether a person is physically present. Third, when I tested the `--all` mode, YOLO sometimes mistakenly identified my blanket as a person. I think the folds, shadows, and shape of the blanket might have looked similar to parts of a human body. I also noticed some missing or incorrect object detections, which could be related to viewing angles, partial occlusion, or limitations in the model's training data.
 
 
 
