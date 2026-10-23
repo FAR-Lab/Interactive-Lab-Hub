@@ -25,6 +25,14 @@ sysv-ipc
 sparkfun-qwiic-proximity
 adafruit-circuitpython-busdevice
 sparkfun-pi-servo-hat
+
+# Lab 3 voice control integration
+sounddevice~=0.5.2
+soundfile~=0.13.1
+numpy~=2.3
+faster-whisper~=1.2
+sherpa-onnx~=1.13
+piper-tts~=1.8
 adafruit-circuitpython-lsm6ds
 sparkfun-qwiic-button
 adafruit-circuitpython-pcf8574

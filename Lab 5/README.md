@@ -1,8 +1,6 @@
 # Observant Systems: Overnight Sensation
 
-**Team:**
-
-**Members:** Full Name (netid, github-handle), ...
+**Members:** Chih-Hsin Liu (cl2889, Cyalisonliu), ...
 
 **Project name:**
 
@@ -135,7 +133,7 @@ pi@raspberrypi:~ $ ollama list
 | `qwen3:0.6b` | ~0.5 GB | text only, smaller and faster (~16 tokens/s on a Pi 5) |
 
 \*\*\***Include a screenshot of `ollama list` showing your models.**\*\*\*
-
+![ollama list](imgs/ollama_list.png)
 
 ## Part B. 
 ### See: recognize people in real time with YOLO
@@ -160,7 +158,18 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 ```
 
 \*\*\***Include a short video or screenshots of your experiments with the person detection. Write down three situations where it did not see you, or saw a person who was not there, and what you think the cause was.**\*\*\*
+![did_not_see_me](imgs/did_not_see_me.png)
+![saw_person_not_there](imgs/saw_person_not_there.png)
+![did_not_recognize_object](imgs/did_not_recognize_object.png)
 
+- Situation 1: it did not see me (--conf 0.7). When I walked quickly across the frame there was no box at all. 
+  - Cause I guess: the blur smears the outline, and dark clothes on a bright wall leave little for the model to match, so its confidence fell below 0.7. At --conf 0.2 the same movement was detected, so the model might be a bit unsure rather than blind.
+
+- Situation 2: it saw a person who was not there (phone, --conf 0.2). When I held up my phone in a dim room, a box “person 0.25” appeared around the phone and my hand. 
+  - Cause I guess: low light leaves less detail, and a hand holding a phone looks like a body part to the model; the low threshold lets this uncertain box through. At the default 0.4 it would not be drawn.
+
+- Situation 3: the giraffe was ignored, but my hand was called a person (--conf 0.2 and 0.7). I held up a stuffed giraffe and the model did not label it at either threshold, because the script only looks for the class “person”. Instead it drew “person 0.76” around my hand and forearm. 
+  - Cause I guess: the class filter hides every non-person object, and with only the “person” class available, skin and a sleeve might be enough for the model to categorize as “person”. With --all the giraffe was detected (0.61), so the model could see it.
 
 
 ## Part C. 
@@ -188,7 +197,18 @@ Try the two main features of this script: 1) pinching for percentage control (th
 Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.
 
 \*\*\***Include a screenshot or short video of the hand pose demo, and write how you might use face, hand or body pose tracking in your observant system.**\*\*\*
+![Pinch, 24%](imgs/hand_pose_1.png)
+![Quiet Coyote gesture, 0%](imgs/hand_pose_2.png)
+![Pinch, 29%](imgs/hand_pose_3.png)
 
+**How I would use pose tracking in my observant system (detecting night-time wandering):**
+
+My observant system watches for times when someone gets up and walks around at night without knowing it, such as sleepwalking. I want to use pose tracking in two ways:
+
+- **Body pose:** I want to use it to tell whether the person is lying down, sitting up or standing, and where they are in the room. A rule over a few landmarks (for example, shoulders and hips at the same height means lying down) turns each frame into a short reading such as "lying down" or "standing near the door".
+- **Hand pose:** I want to use a gesture (a pinch or the Quiet Coyote) as the "before bed" signal that tells the device to start watching for the night.
+
+The camera cannot tell whether a person is asleep, so the device reports "up and walking".
 
 ## Part D. 
 ### Reason: run Qwen on the Pi with Ollama
@@ -222,9 +242,23 @@ A 0.8B model is slow and sometimes wrong. It will invent events that are not in 
 
 \*\*\***Ask Qwen three questions to answer. Paste the questions, the answers and how long each took. Try one of them with `qwen3:0.6b` and compare.**\*\*\*
 
-<details>
-  Q&A here
-</details>
+- Q1: "Tell me a bit about the history of Roosevelt Island."
+  - Ans: "Roosevelt Island is a historic district on Long Island, New York, originally built by the Dutch as a refuge from English settlers during the 17th century. It was later developed by the United States in the late 19th century to serve as a military base and political center for the Republican Party. Today, it remains a significant part of New York City's history, featuring landmarks like the Statue of Liberty and the Roosevelt Island Railroad."
+  - [qwen3.5:0.8b, 13.9 s]
+- Q2: "Why is Sydney the capital of Australia?"
+  - Ans: "Sydney is the capital of Australia because it was designated as such by the Australian Constitution in 1900, and its location on the Great Barrier Reef makes it a natural hub for tourism and trade."
+  - [qwen3.5:0.8b, 7.1 s]
+- Q3: "--image snap.jpg What is in this photo?"
+  - Ans: "A young woman with glasses and a Nike hoodie is standing against a plain wall."
+- Q1 with `qwen3:0.6b`:
+  - Ans: "Roosevelt Island is a small, remote island located in the Pacific Ocean, off the coast of New Zealand. It was originally a military base during World War II, and it became a symbol of the United States in the 1950s. The island was used for various purposes, including military operations, and it has since become a significant cultural and historical site. Today, it is a peaceful place that attracts visitors and a symbol of the United States."
+  - Comparison: 
+    | | qwen3.5:0.8b | qwen3:0.6b |
+    |---|---|---|
+    | Time | 13.9 s | 15.9 s |
+    | Accuracy | Wrong: placed it on Long Island, invented a Dutch origin, mentioned the Statue of Liberty | Wrong: placed it in the Pacific near New Zealand, invented a WWII base |
+    
+    Both models got the facts wrong. The 0.8b model (13.9 s) at least kept it in New York, while the 0.6b model (15.9 s) put it near New Zealand, so the smaller model was no faster and a bit less accurate.
 
 
 ## Part E. 
