@@ -235,6 +235,13 @@ A 0.8B model is slow and sometimes wrong. It will invent events that are not in 
 
 \*\*\***Ask Qwen three questions a bedside device might need to answer. Paste the questions, the answers and how long each took. Try one of them with `qwen3:0.6b` and compare.**\*\*\*
 
+<img width="572" height="118" alt="截屏2026-10-23 下午6 49 35" src="https://github.com/user-attachments/assets/7052ac71-702f-4416-a007-83e0334d0169" />
+<img width="568" height="90" alt="截屏2026-10-23 下午6 50 12" src="https://github.com/user-attachments/assets/85c70bd8-a3fd-4037-b0e1-56386ac97b36" />
+<img width="563" height="119" alt="截屏2026-10-23 下午6 50 32" src="https://github.com/user-attachments/assets/026b19f4-b9a3-4a30-ba70-89d196f882f5" />
+<img width="581" height="148" alt="截屏2026-10-23 下午6 51 02" src="https://github.com/user-attachments/assets/41d7113a-d734-4c4c-98b2-d6fdc5f1fabc" />
+
+I tested Qwen with three questions that a bedside device might need to answer. The first question was about bedtime relaxation, and the model gave three reasonable suggestions, although one of them mentioned welcoming the sun, which didn't really fit the bedtime context (15.5s). For the second question, I asked it to calculate how long I was in bed, but it incorrectly answered approximately 4 hours instead of 6 hours and 55 minutes (4.2s). For the third question, I asked it to summarize an overnight activity log. Qwen 3.5 (0.8B) correctly identified when a person was detected without making unnecessary assumptions (5.4s). However, when I tested the same question with Qwen 3 (0.6B), it confused the timestamps and reported a detection at 2:12 AM instead of 2:10 AM (5.8s). Overall, I found that both models could generate natural responses fairly quickly, but they sometimes made mistakes even with simple calculations or clearly provided information. This made me realize that if I use a local LLM in my observant system, I shouldn't rely on it completely for accurate information, especially when interpreting sensor data.
+
 
 ## Part E. 
 ### Connect: from YOLO readings to Qwen reasoning
